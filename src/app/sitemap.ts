@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { getAllPosts } from "@/lib/blog";
 import { getAllMedia } from "@/lib/media";
+import { TOOLS } from "@/lib/tools";
 import { SITE_URL } from "@/lib/site";
 
 /**
@@ -30,6 +31,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/contact", changeFrequency: "monthly", priority: 0.7 },
     { path: "/blog", changeFrequency: "weekly", priority: 0.8 },
     { path: "/media", changeFrequency: "monthly", priority: 0.7 },
+    { path: "/tools", changeFrequency: "monthly", priority: 0.8 },
     { path: "/privacy", changeFrequency: "yearly", priority: 0.3 },
     { path: "/terms", changeFrequency: "yearly", priority: 0.3 },
     { path: "/referral-terms", changeFrequency: "yearly", priority: 0.3 },
@@ -56,5 +58,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
-  return [...staticEntries, ...blogEntries, ...mediaEntries];
+  const toolEntries: MetadataRoute.Sitemap = TOOLS.map((t) => ({
+    url: `${SITE_URL}/tools/${t.slug}`,
+    lastModified: now,
+    changeFrequency: "monthly",
+    priority: 0.7,
+  }));
+
+  return [...staticEntries, ...blogEntries, ...mediaEntries, ...toolEntries];
 }
