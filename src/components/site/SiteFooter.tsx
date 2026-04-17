@@ -15,10 +15,10 @@ const footerNav: { heading: string; links: { href: string; label: string }[] }[]
   {
     heading: "Free tools",
     links: [
-      { href: "/freeguide", label: "Simple Blueprint (free)" },
-      { href: "/net-proceeds-calculator", label: "Net proceeds calculator" },
-      { href: "/age-in-place-break-even-tool", label: "Age-in-place break-even" },
-      { href: "/prepquiz", label: "Readiness quiz" },
+      { href: "/freeguide", label: "Simple Blueprint (free PDF)" },
+      { href: "/tools/net-proceeds-calculator", label: "Net Proceeds Calculator" },
+      { href: "/tools/readiness-assessment", label: "Readiness Assessment" },
+      { href: "/tools/aging-in-place-break-even", label: "Aging-in-Place Break-Even" },
     ],
   },
   {
