@@ -6,12 +6,19 @@ import { compileMDX } from "next-mdx-remote/rsc";
 import { Button } from "@/components/ui/button";
 import { GoldRule } from "@/components/site/GoldRule";
 import { SocialLinks } from "@/components/site/SocialLinks";
+import { EmailFallback } from "@/components/site/EmailFallback";
+import { JsonLd } from "@/components/site/JsonLd";
+import { ScrollTracker } from "@/components/site/ScrollTracker";
 import {
   getAllPostSlugs,
-  getAllPosts,
   getPostBySlug,
+  getRelatedPosts,
   formatPostDate,
 } from "@/lib/blog";
+import {
+  articleSchemaFromPost,
+  breadcrumbListSchema,
+} from "@/lib/schema";
 
 type RouteParams = { slug: string };
 
@@ -27,14 +34,24 @@ export async function generateMetadata({
   const { slug } = await params;
   const post = getPostBySlug(slug);
   if (!post) return { title: "Post not found" };
+  const url = `/blog/${post.frontmatter.slug}`;
   return {
     title: post.frontmatter.title,
     description: post.frontmatter.excerpt,
+    alternates: { canonical: url },
     openGraph: {
       title: post.frontmatter.title,
       description: post.frontmatter.excerpt,
       type: "article",
-      publishedTime: post.frontmatter.date,
+      url,
+      publishedTime: post.datePublished,
+      modifiedTime: post.dateModified,
+      authors: ["Ryan Riggins"],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: post.frontmatter.title,
+      description: post.frontmatter.excerpt,
     },
   };
 }
@@ -52,12 +69,20 @@ export default async function BlogPostPage({
     source: post.content,
   });
 
-  const related = getAllPosts()
-    .filter((p) => p.frontmatter.slug !== slug)
-    .slice(0, 3);
+  const related = getRelatedPosts(slug, 3);
+
+  const breadcrumbs = breadcrumbListSchema([
+    { name: "Home", path: "/" },
+    { name: "Blog", path: "/blog" },
+    { name: post.frontmatter.title, path: `/blog/${slug}` },
+  ]);
 
   return (
     <main>
+      <JsonLd data={articleSchemaFromPost(post)} />
+      <JsonLd data={breadcrumbs} />
+      <ScrollTracker event="blog_scroll_75" params={{ slug }} />
+
       {/* HEADER */}
       <section className="bg-cream border-b border-border">
         <div className="mx-auto max-w-3xl px-6 py-16">
@@ -68,7 +93,7 @@ export default async function BlogPostPage({
             &larr; All posts
           </Link>
           <div className="mt-6 text-sm font-semibold uppercase tracking-wider text-burgundy-600">
-            {formatPostDate(post.frontmatter.date)} &middot; {post.readMinutes} min read
+            {formatPostDate(post.datePublished)} &middot; {post.readMinutes} min read
           </div>
           <h1 className="mt-4 leading-[1.1]">{post.frontmatter.title}</h1>
           <p className="mt-6 text-lg text-ink/80 leading-relaxed">
@@ -99,7 +124,12 @@ export default async function BlogPostPage({
             </div>
             <div>
               <div className="font-serif text-xl text-navy-700">
-                Ryan Riggins, Senior Transition Advisor
+                <Link
+                  href="/about"
+                  className="hover:text-burgundy-700 transition-colors"
+                >
+                  Ryan Riggins, Senior Transition Advisor
+                </Link>
               </div>
               <p className="mt-2 text-ink/80 leading-relaxed">
                 Licensed NC broker (#361546, eXp Realty). Fiduciary duty to the
@@ -110,10 +140,17 @@ export default async function BlogPostPage({
                   <Link href="/the-blueprint">See The Blueprint</Link>
                 </Button>
                 <Button asChild size="sm" variant="outline">
-                  <Link href="/work-with-ryan">Book a free 20-min call</Link>
+                  <Link
+                    href="/work-with-ryan"
+                    data-track="book_call_click"
+                    data-track-params='{"location":"blog-post-author-card"}'
+                  >
+                    Book a free 20-min call
+                  </Link>
                 </Button>
                 <SocialLinks className="ml-auto text-navy-700" iconClassName="h-4 w-4" />
               </div>
+              <EmailFallback className="mt-4" />
             </div>
           </div>
         </div>
@@ -133,7 +170,7 @@ export default async function BlogPostPage({
                   className="group block border border-border rounded-lg p-5 hover:border-burgundy-600 transition-colors"
                 >
                   <div className="text-xs font-semibold uppercase tracking-wider text-burgundy-600">
-                    {formatPostDate(r.frontmatter.date)}
+                    {formatPostDate(r.datePublished)}
                   </div>
                   <h3 className="mt-2 font-serif text-lg text-navy-700 leading-snug group-hover:text-burgundy-700 transition-colors">
                     {r.frontmatter.title}

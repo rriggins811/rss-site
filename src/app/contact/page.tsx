@@ -6,16 +6,28 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Badge } from "@/components/ui/badge";
 import { GoldRule } from "@/components/site/GoldRule";
 import { SocialLinks } from "@/components/site/SocialLinks";
+import { ContactForm } from "@/components/forms/ContactForm";
+import { JsonLd } from "@/components/site/JsonLd";
+import { breadcrumbListSchema, localBusinessSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Contact Ryan",
   description:
     "Text, call, email, or book a free 20-minute call with Ryan Riggins. Senior transition advisor serving Greensboro and the NC Triad.",
+  alternates: { canonical: "/contact" },
 };
 
 export default function ContactPage() {
+  const breadcrumbs = breadcrumbListSchema([
+    { name: "Home", path: "/" },
+    { name: "Contact", path: "/contact" },
+  ]);
+
   return (
     <main>
+      <JsonLd data={localBusinessSchema()} />
+      <JsonLd data={breadcrumbs} />
+
       {/* HERO */}
       <section className="bg-cream">
         <div className="mx-auto max-w-6xl px-6 py-20 grid gap-12 lg:grid-cols-2 items-center">
@@ -106,6 +118,21 @@ export default function ContactPage() {
                 </Button>
               </CardContent>
             </Card>
+          </div>
+        </div>
+      </section>
+
+      {/* OR SEND A MESSAGE */}
+      <section className="bg-cream border-b border-border">
+        <div className="mx-auto max-w-3xl px-6 py-16">
+          <GoldRule />
+          <h2 className="mt-3">Or send me a message.</h2>
+          <p className="mt-3 text-ink/80 max-w-prose">
+            If the form&rsquo;s easier than a call right now, use this. Ryan
+            reads every message himself.
+          </p>
+          <div className="mt-8">
+            <ContactForm source="website-contact" tag="website-contact-form" />
           </div>
         </div>
       </section>

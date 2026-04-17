@@ -57,7 +57,10 @@ function Button({
   const mergedClassName = cn(buttonVariants({ variant, size, className }))
 
   if (asChild) {
-    return <Slot data-slot="button" className={mergedClassName} {...props} />
+    const slotProps = props as React.HTMLAttributes<HTMLElement>
+    return (
+      <Slot data-slot="button" className={mergedClassName} {...slotProps} />
+    )
   }
 
   return (

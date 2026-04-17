@@ -5,12 +5,17 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { GoldRule } from "@/components/site/GoldRule";
+import { EmailFallback } from "@/components/site/EmailFallback";
+import { JsonLd } from "@/components/site/JsonLd";
 import { paymentLinks } from "@/lib/payment-links";
+import { breadcrumbListSchema, faqPageSchema } from "@/lib/schema";
+import { abs } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Blueprint Premium — $297 Guided Advisory",
   description:
     "Blueprint Premium is everything in Core plus a personalized Senior Transition Plan, a 60-minute 1-on-1 call with Ryan Riggins, and 90 days of email support. $297, one-time, outcome-focused.",
+  alternates: { canonical: "/blueprint-premium" },
 };
 
 const whatYouGet: { title: string; body: string }[] = [
@@ -102,8 +107,17 @@ const faqs: { q: string; a: string }[] = [
 ];
 
 export default function BlueprintPremiumPage() {
+  const breadcrumbs = breadcrumbListSchema([
+    { name: "Home", path: "/" },
+    { name: "The Blueprint", path: "/the-blueprint" },
+    { name: "Blueprint Premium", path: "/blueprint-premium" },
+  ]);
+
   return (
     <main>
+      <JsonLd data={faqPageSchema(faqs, abs("/blueprint-premium"))} />
+      <JsonLd data={breadcrumbs} />
+
       {/* HERO */}
       <section className="bg-cream">
         <div className="mx-auto max-w-6xl px-6 py-20 lg:py-24 grid gap-12 lg:grid-cols-2 items-center">
@@ -139,6 +153,7 @@ export default function BlueprintPremiumPage() {
                 <Link href="/work-with-ryan">Not sure? Book a free call first</Link>
               </Button>
             </div>
+            <EmailFallback className="mt-4" />
             <p className="mt-4 text-sm text-ink/60">
               14-day money-back up until the consultation call happens.
             </p>
@@ -384,6 +399,7 @@ export default function BlueprintPremiumPage() {
               <Link href="/work-with-ryan">Book a free 20-min call</Link>
             </Button>
           </div>
+          <EmailFallback variant="dark" align="center" className="mt-6" />
         </div>
       </section>
     </main>

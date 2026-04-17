@@ -1,0 +1,34 @@
+# Riggins Strategic Solutions
+
+<!--
+  Update when: new product launches, major blog category added, or company
+  facts change. NOT required for individual blog posts. The sitemap,
+  Article schema, and RSS feed cover per-post discovery automatically.
+-->
+
+> Consumer protection advisor helping adult children (40-65) navigate their parents' senior transitions. Education-first, not a realtor pitch. Run by Ryan Riggins, licensed NC broker with 8+ years construction project management and house flipping experience.
+
+## Key Resources
+- [Blueprint Premium](https://rigginsstrategicsolutions.com/blueprint-premium): $297 complete senior transition plan with a 60-minute call and 90 days of email support.
+- [Blueprint Core](https://rigginsstrategicsolutions.com/the-blueprint): $47 19-module DIY course covering the full senior transition process.
+- [SeniorSafe App](https://rigginsstrategicsolutions.com/seniorsafe-app): $14.99/month family coordination app. Daily check-ins, shared family channel, medication log, document vault.
+- [Free Starter Guide](https://rigginsstrategicsolutions.com/freeguide): The Simple Blueprint, a free plain-English starter guide for families beginning a senior transition.
+- [Work With Ryan](https://rigginsstrategicsolutions.com/work-with-ryan): Book a free 30-minute strategy call. No pitch.
+
+## Blog Topics
+- Senior transitions: downsizing, moving, housing decisions
+- Consumer protection: wholesalers, investor offers, predatory real estate practices targeting seniors
+- Family coordination during elderly parent transitions
+- Net proceeds planning and avoiding the $50K mistakes
+
+## Contact
+- Email: ryan@rigginsstrategicsolutions.com
+- Phone: (336) 553-8933
+- Based in Greensboro, North Carolina. Serving families nationwide.
+
+## About Ryan
+Ryan Riggins is a Senior Transition Advisor. Licensed NC broker (#361546, eXp Realty). Full fiduciary duty to the family, not a pitch. Not a traditional listing agent and not a move manager. The advisor who helps families avoid the $50K mistakes.
+
+## Full index
+- [Sitemap](https://rigginsstrategicsolutions.com/sitemap.xml)
+- [RSS feed](https://rigginsstrategicsolutions.com/rss.xml)

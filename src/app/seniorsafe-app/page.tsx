@@ -5,12 +5,14 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { GoldRule } from "@/components/site/GoldRule";
+import { EmailFallback } from "@/components/site/EmailFallback";
 import { paymentLinks } from "@/lib/payment-links";
 
 export const metadata: Metadata = {
   title: "SeniorSafe — The Family App for Senior Care",
   description:
     "SeniorSafe is the daily coordination app for families navigating senior care. Daily check-ins, medication tracking, family messaging, document vault, and AI assistant. $14.99/month, 14-day free trial, cancel anytime.",
+  alternates: { canonical: "/seniorsafe-app" },
 };
 
 const painPoints: { feature: string; title: string; pain: string; fix: string }[] = [
@@ -251,6 +253,7 @@ export default function SeniorSafePage() {
               <Link href="/work-with-ryan">Book a free call to talk it through</Link>
             </Button>
           </div>
+          <EmailFallback className="mt-4" />
         </div>
       </section>
 

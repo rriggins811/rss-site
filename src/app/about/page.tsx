@@ -10,6 +10,7 @@ export const metadata: Metadata = {
   title: "About Ryan Riggins",
   description:
     "Senior Transition Advisor helping families avoid the $50K mistakes of a senior housing transition. Not a move manager, not a listing agent. Greensboro, NC.",
+  alternates: { canonical: "/about" },
 };
 
 const credentials: { title: string; body: string }[] = [

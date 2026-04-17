@@ -13,14 +13,14 @@ function escapeXml(s: string): string {
 
 export async function GET() {
   const posts = getAllPosts();
-  const lastBuild = posts[0]?.frontmatter.date
-    ? new Date(posts[0].frontmatter.date).toUTCString()
+  const lastBuild = posts[0]?.datePublished
+    ? new Date(posts[0].datePublished).toUTCString()
     : new Date().toUTCString();
 
   const items = posts
     .map((p) => {
       const url = `${BASE_URL}/blog/${p.frontmatter.slug}`;
-      const pubDate = new Date(p.frontmatter.date).toUTCString();
+      const pubDate = new Date(p.datePublished).toUTCString();
       return `    <item>
       <title>${escapeXml(p.frontmatter.title)}</title>
       <link>${url}</link>

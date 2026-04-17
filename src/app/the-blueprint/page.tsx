@@ -5,12 +5,17 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { GoldRule } from "@/components/site/GoldRule";
+import { EmailFallback } from "@/components/site/EmailFallback";
+import { JsonLd } from "@/components/site/JsonLd";
 import { paymentLinks } from "@/lib/payment-links";
+import { breadcrumbListSchema, faqPageSchema } from "@/lib/schema";
+import { abs } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "The Blueprint — Senior Transition Tiers",
   description:
     "Four ways to work with Ryan Riggins on a senior housing transition. Free Simple Blueprint, $47 Blueprint Core, $297 Blueprint Premium, and $14.99/mo SeniorSafe app.",
+  alternates: { canonical: "/the-blueprint" },
 };
 
 type Tier = {
@@ -155,8 +160,16 @@ const faqs: { q: string; a: string }[] = [
 ];
 
 export default function BlueprintPage() {
+  const breadcrumbs = breadcrumbListSchema([
+    { name: "Home", path: "/" },
+    { name: "The Blueprint", path: "/the-blueprint" },
+  ]);
+
   return (
     <main>
+      <JsonLd data={faqPageSchema(faqs, abs("/the-blueprint"))} />
+      <JsonLd data={breadcrumbs} />
+
       {/* HERO */}
       <section className="bg-cream">
         <div className="mx-auto max-w-6xl px-6 py-20 lg:py-24">
@@ -185,6 +198,7 @@ export default function BlueprintPage() {
                 <Link href="/work-with-ryan">Not sure which? Book a free call</Link>
               </Button>
             </div>
+            <EmailFallback className="mt-4 max-w-prose" />
           </div>
         </div>
       </section>
@@ -381,6 +395,7 @@ export default function BlueprintPage() {
           <Button asChild size="lg" className="mt-8 bg-gold-500 text-navy-900 hover:bg-gold-300">
             <Link href="/work-with-ryan">Book your free 20-minute call</Link>
           </Button>
+          <EmailFallback variant="dark" align="center" className="mt-4" />
         </div>
       </section>
     </main>

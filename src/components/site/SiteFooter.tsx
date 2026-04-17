@@ -102,6 +102,15 @@ export function SiteFooter() {
               ))}
             </ul>
           </div>
+          <p className="mt-4 text-xs text-cream/60 leading-relaxed">
+            This site uses Google Analytics (GA4) to measure how visitors use
+            the pages. No personal information is collected. If your browser
+            sends a Do Not Track signal, analytics are disabled. See our{" "}
+            <Link href="/privacy-policy" className="underline hover:text-gold-300">
+              Privacy Policy
+            </Link>{" "}
+            for details.
+          </p>
         </div>
       </div>
     </footer>

@@ -3,12 +3,15 @@ import Link from "next/link";
 import Image from "next/image";
 import { Badge } from "@/components/ui/badge";
 import { GoldRule } from "@/components/site/GoldRule";
+import { JsonLd } from "@/components/site/JsonLd";
+import { breadcrumbListSchema } from "@/lib/schema";
 import { getAllPosts, formatPostDate } from "@/lib/blog";
 
 export const metadata: Metadata = {
   title: "Blog — Senior Transition Insights",
   description:
     "Real stories and plain-English guidance on senior housing transitions, aging in place, caregiving, and protecting your family's equity. Senior Transition Advisor Ryan Riggins.",
+  alternates: { canonical: "/blog" },
 };
 
 export default function BlogIndexPage() {
@@ -28,8 +31,15 @@ export default function BlogIndexPage() {
 
   const [featured, ...rest] = posts;
 
+  const breadcrumbs = breadcrumbListSchema([
+    { name: "Home", path: "/" },
+    { name: "Blog", path: "/blog" },
+  ]);
+
   return (
     <main>
+      <JsonLd data={breadcrumbs} />
+
       {/* HERO */}
       <section className="bg-cream">
         <div className="mx-auto max-w-6xl px-6 py-20">
@@ -68,7 +78,7 @@ export default function BlogIndexPage() {
               </div>
               <div className="lg:col-span-2">
                 <div className="text-xs font-semibold uppercase tracking-wider text-burgundy-600">
-                  {formatPostDate(featured.frontmatter.date)} &middot; {featured.readMinutes} min read
+                  {formatPostDate(featured.datePublished)} &middot; {featured.readMinutes} min read
                 </div>
                 <h3 className="mt-3 font-serif text-3xl md:text-4xl font-bold text-navy-700 leading-tight group-hover:text-burgundy-700 transition-colors">
                   {featured.frontmatter.title}
@@ -108,7 +118,7 @@ export default function BlogIndexPage() {
                 </div>
                 <div className="p-5">
                   <div className="text-xs font-semibold uppercase tracking-wider text-burgundy-600">
-                    {formatPostDate(post.frontmatter.date)} &middot; {post.readMinutes} min
+                    {formatPostDate(post.datePublished)} &middot; {post.readMinutes} min
                   </div>
                   <h3 className="mt-2 font-serif text-xl font-bold text-navy-700 leading-snug group-hover:text-burgundy-700 transition-colors">
                     {post.frontmatter.title}
