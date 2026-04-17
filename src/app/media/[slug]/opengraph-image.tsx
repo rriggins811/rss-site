@@ -1,15 +1,20 @@
 import { ImageResponse } from "next/og";
-import { getPostBySlug, formatPostDate } from "@/lib/blog";
+import { getMediaBySlug, formatMediaDate } from "@/lib/media";
 
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
-export const alt = "Riggins Strategic Solutions blog post";
+export const alt = "Riggins Strategic Solutions podcast appearance";
 
-export default async function OGImage({ params }: { params: Promise<{ slug: string }> }) {
+export default async function OGImage({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
   const { slug } = await params;
-  const post = getPostBySlug(slug);
-  const title = post?.frontmatter.title ?? "Riggins Strategic Solutions";
-  const dateStr = post ? formatPostDate(post.datePublished) : "";
+  const item = getMediaBySlug(slug);
+  const title = item?.frontmatter.title ?? "Riggins Strategic Solutions";
+  const podcast = item?.frontmatter.podcast ?? "";
+  const dateStr = item ? formatMediaDate(item.datePublished) : "";
 
   return new ImageResponse(
     (
@@ -39,13 +44,13 @@ export default async function OGImage({ params }: { params: Promise<{ slug: stri
           }}
         >
           <div style={{ height: "4px", width: "48px", background: "#D4AF37" }} />
-          Riggins Strategic Solutions
+          Podcast &middot; Riggins Strategic Solutions
         </div>
 
         <div
           style={{
             marginTop: "32px",
-            fontSize: "60px",
+            fontSize: "56px",
             fontWeight: 800,
             lineHeight: 1.1,
             letterSpacing: "-0.01em",
@@ -54,6 +59,19 @@ export default async function OGImage({ params }: { params: Promise<{ slug: stri
         >
           {title}
         </div>
+
+        {podcast && (
+          <div
+            style={{
+              marginTop: "20px",
+              fontSize: "26px",
+              color: "#F8EFD3",
+              fontFamily: "sans-serif",
+            }}
+          >
+            {podcast}
+          </div>
+        )}
 
         <div
           style={{
