@@ -1,0 +1,1060 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Caregiver Burnout Triage Quiz | Riggins Strategic Solutions</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800;900&family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+<style>
+  .cbt *, .cbt *::before, .cbt *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+  .cbt {
+    --navy: #1a3052;
+    --navy-deep: #0f1f35;
+    --navy-light: #2a4a72;
+    --gold: #c9a84c;
+    --gold-light: #e8d48b;
+    --gold-dark: #a88a30;
+    --cream: #faf8f4;
+    --g50: #f7f6f3;
+    --g100: #f0eee9;
+    --g200: #dbd8d0;
+    --g400: #a09b90;
+    --g600: #6b665c;
+    --g800: #333028;
+    --green: #2d8a4e;
+    --green-bg: #e8f5ec;
+    --red: #c0392b;
+    --red-bg: #fdecea;
+    --red-deep: #922020;
+    --orange: #d4820a;
+    --orange-bg: #fef5e7;
+    --radius: 14px;
+    --radius-sm: 10px;
+    font-family: 'Source Sans 3', -apple-system, BlinkMacSystemFont, sans-serif;
+    color: var(--g800);
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 24px 16px 60px;
+  }
+
+  /* ═══════ HEADER ═══════ */
+  .cbt-header {
+    background: linear-gradient(165deg, var(--navy) 0%, var(--navy-deep) 100%);
+    border-radius: var(--radius) var(--radius) 0 0;
+    padding: 36px 28px 32px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .cbt-header::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(ellipse at 30% 70%, rgba(201,168,76,0.07) 0%, transparent 50%);
+    pointer-events: none;
+  }
+
+  .cbt-credential {
+    font-size: 11px;
+    font-weight: 600;
+    color: rgba(255,255,255,0.4);
+    letter-spacing: 0.4px;
+    margin-bottom: 16px;
+    position: relative;
+    line-height: 1.6;
+    max-width: 520px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .cbt-header h1 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 900;
+    font-size: clamp(26px, 5vw, 38px);
+    color: #fff;
+    line-height: 1.15;
+    position: relative;
+    margin-bottom: 10px;
+  }
+
+  .cbt-header h1 span { color: var(--gold); }
+
+  .cbt-header p {
+    font-size: 15px;
+    color: rgba(255,255,255,0.6);
+    max-width: 480px;
+    margin: 0 auto;
+    position: relative;
+    line-height: 1.6;
+  }
+
+  /* ═══════ PROGRESS BAR ═══════ */
+  .cbt-progress {
+    background: #fff;
+    padding: 20px 28px 16px;
+    border-bottom: 1px solid var(--g200);
+  }
+
+  .cbt-progress-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+
+  .cbt-progress-label {
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--g600);
+  }
+
+  .cbt-progress-count {
+    font-size: 13px;
+    font-weight: 800;
+    color: var(--navy);
+  }
+
+  .cbt-progress-bar {
+    width: 100%;
+    height: 8px;
+    background: var(--g100);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+
+  .cbt-progress-fill {
+    height: 100%;
+    width: 0%;
+    background: linear-gradient(90deg, var(--gold) 0%, var(--gold-dark) 100%);
+    border-radius: 4px;
+    transition: width 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  /* ═══════ QUIZ AREA ═══════ */
+  .cbt-quiz {
+    background: #fff;
+    padding: 0;
+    min-height: 340px;
+    position: relative;
+  }
+
+  /* Individual Question Card */
+  .cbt-q {
+    display: none;
+    padding: 36px 28px 32px;
+    animation: cbtFadeIn 0.35s ease-out;
+  }
+
+  .cbt-q.cbt-active { display: block; }
+
+  @keyframes cbtFadeIn {
+    from { opacity: 0; transform: translateY(12px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .cbt-q-num {
+    font-size: 12px;
+    font-weight: 800;
+    color: var(--gold-dark);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+  }
+
+  .cbt-q-text {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 800;
+    font-size: 22px;
+    color: var(--navy);
+    line-height: 1.35;
+    margin-bottom: 8px;
+  }
+
+  .cbt-q-sub {
+    font-size: 14px;
+    color: var(--g400);
+    margin-bottom: 28px;
+    font-style: italic;
+  }
+
+  /* Answer Options */
+  .cbt-options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .cbt-option {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 14px 18px;
+    border: 2px solid var(--g200);
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+    transition: all 0.15s;
+    user-select: none;
+  }
+
+  .cbt-option:hover {
+    border-color: var(--navy-light);
+    background: var(--g50);
+  }
+
+  .cbt-option.cbt-selected {
+    border-color: var(--navy);
+    background: rgba(26,48,82,0.04);
+  }
+
+  .cbt-option-dot {
+    width: 22px;
+    height: 22px;
+    min-width: 22px;
+    border-radius: 50%;
+    border: 2px solid var(--g200);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.15s;
+  }
+
+  .cbt-option.cbt-selected .cbt-option-dot {
+    border-color: var(--navy);
+    background: var(--navy);
+  }
+
+  .cbt-option-dot::after {
+    content: '';
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #fff;
+    opacity: 0;
+    transition: opacity 0.15s;
+  }
+
+  .cbt-option.cbt-selected .cbt-option-dot::after { opacity: 1; }
+
+  .cbt-option-label {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--g800);
+  }
+
+  .cbt-option-score {
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--g400);
+    margin-left: auto;
+  }
+
+  .cbt-option.cbt-selected .cbt-option-label { color: var(--navy); font-weight: 700; }
+
+  /* ═══════ INTRO SCREEN ═══════ */
+  .cbt-intro {
+    padding: 40px 28px;
+    text-align: center;
+  }
+
+  .cbt-intro.cbt-hidden { display: none; }
+
+  .cbt-intro-icon {
+    font-size: 48px;
+    margin-bottom: 16px;
+  }
+
+  .cbt-intro h2 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 800;
+    font-size: 24px;
+    color: var(--navy);
+    margin-bottom: 12px;
+  }
+
+  .cbt-intro p {
+    font-size: 15px;
+    color: var(--g600);
+    max-width: 440px;
+    margin: 0 auto 8px;
+    line-height: 1.6;
+  }
+
+  .cbt-intro-privacy {
+    font-size: 12px;
+    color: var(--g400);
+    font-style: italic;
+    margin-bottom: 24px;
+  }
+
+  .cbt-start-btn {
+    display: inline-block;
+    padding: 16px 40px;
+    background: linear-gradient(160deg, var(--gold-light) 0%, var(--gold) 40%, var(--gold-dark) 100%);
+    border: none;
+    border-radius: var(--radius-sm);
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    color: var(--navy-deep);
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 4px 12px rgba(201,168,76,0.3);
+  }
+
+  .cbt-start-btn:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(201,168,76,0.4); }
+
+  /* ═══════ RESULTS ═══════ */
+  .cbt-results {
+    display: none;
+    background: #fff;
+  }
+
+  .cbt-results.cbt-active { display: block; }
+
+  /* Score Banner */
+  .cbt-score-banner {
+    padding: 36px 28px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .cbt-score-banner.low { background: linear-gradient(135deg, rgba(45,138,78,0.06) 0%, rgba(45,138,78,0.02) 100%); }
+  .cbt-score-banner.moderate { background: linear-gradient(135deg, rgba(212,130,10,0.06) 0%, rgba(212,130,10,0.02) 100%); }
+  .cbt-score-banner.high { background: linear-gradient(135deg, rgba(192,57,43,0.06) 0%, rgba(192,57,43,0.02) 100%); }
+  .cbt-score-banner.crisis { background: linear-gradient(135deg, rgba(146,32,32,0.1) 0%, rgba(192,57,43,0.04) 100%); }
+
+  .cbt-score-label {
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 4px;
+  }
+
+  .cbt-score-banner.low .cbt-score-label { color: var(--green); }
+  .cbt-score-banner.moderate .cbt-score-label { color: var(--orange); }
+  .cbt-score-banner.high .cbt-score-label { color: var(--red); }
+  .cbt-score-banner.crisis .cbt-score-label { color: var(--red-deep); }
+
+  .cbt-score-number {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 1.1;
+    margin-bottom: 4px;
+  }
+
+  .cbt-score-banner.low .cbt-score-number { color: var(--green); }
+  .cbt-score-banner.moderate .cbt-score-number { color: var(--orange); }
+  .cbt-score-banner.high .cbt-score-number { color: var(--red); }
+  .cbt-score-banner.crisis .cbt-score-number { color: var(--red-deep); }
+
+  .cbt-score-max {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--g400);
+    margin-bottom: 12px;
+  }
+
+  /* Score Gauge */
+  .cbt-gauge {
+    max-width: 400px;
+    margin: 0 auto 20px;
+  }
+
+  .cbt-gauge-bar {
+    width: 100%;
+    height: 12px;
+    background: var(--g100);
+    border-radius: 6px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .cbt-gauge-segments {
+    display: flex;
+    height: 100%;
+  }
+
+  .cbt-gauge-seg {
+    height: 100%;
+    transition: opacity 0.3s;
+  }
+
+  .cbt-gauge-seg.seg-low { width: 25%; background: var(--green); }
+  .cbt-gauge-seg.seg-mod { width: 25%; background: var(--orange); }
+  .cbt-gauge-seg.seg-high { width: 25%; background: var(--red); }
+  .cbt-gauge-seg.seg-crisis { width: 25%; background: var(--red-deep); }
+
+  .cbt-gauge-marker {
+    position: absolute;
+    top: -4px;
+    width: 4px;
+    height: 20px;
+    background: var(--navy-deep);
+    border-radius: 2px;
+    transition: left 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+    box-shadow: 0 1px 4px rgba(0,0,0,0.3);
+  }
+
+  .cbt-gauge-labels {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6px;
+    font-size: 10px;
+    font-weight: 700;
+    color: var(--g400);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  /* Verdict Text */
+  .cbt-verdict {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.5;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .cbt-score-banner.low .cbt-verdict { color: var(--green); }
+  .cbt-score-banner.moderate .cbt-verdict { color: var(--orange); }
+  .cbt-score-banner.high .cbt-verdict { color: var(--red); }
+  .cbt-score-banner.crisis .cbt-verdict { color: var(--red-deep); }
+
+  /* Recommendations */
+  .cbt-recs {
+    padding: 28px;
+    border-top: 1px solid var(--g100);
+  }
+
+  .cbt-recs-title {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 800;
+    font-size: 18px;
+    color: var(--navy);
+    margin-bottom: 16px;
+  }
+
+  .cbt-rec-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 24px;
+  }
+
+  .cbt-rec {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 12px 14px;
+    background: var(--g50);
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--g800);
+    line-height: 1.5;
+  }
+
+  .cbt-rec-icon {
+    min-width: 20px;
+    font-size: 16px;
+    line-height: 1.4;
+  }
+
+  /* Ryan's Callout */
+  .cbt-ryan {
+    margin: 0 28px 24px;
+    background: linear-gradient(135deg, rgba(201,168,76,0.06) 0%, rgba(201,168,76,0.02) 100%);
+    border: 1px solid rgba(201,168,76,0.15);
+    border-radius: var(--radius-sm);
+    padding: 18px 20px;
+  }
+
+  .cbt-ryan-title {
+    font-size: 13px;
+    font-weight: 800;
+    color: var(--gold-dark);
+    margin-bottom: 6px;
+  }
+
+  .cbt-ryan-text {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--g800);
+    line-height: 1.6;
+    font-style: italic;
+  }
+
+  .cbt-ryan-sig {
+    margin-top: 8px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    color: var(--gold-dark);
+  }
+
+  /* CTA Footer */
+  .cbt-footer {
+    background: var(--navy);
+    padding: 32px 28px;
+    text-align: center;
+    border-radius: 0 0 var(--radius) var(--radius);
+  }
+
+  .cbt-footer p {
+    font-size: 15px;
+    color: rgba(255,255,255,0.7);
+    margin-bottom: 16px;
+    max-width: 460px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+  }
+
+  .cbt-footer p strong { color: var(--gold-light); }
+
+  .cbt-footer-btn {
+    display: inline-block;
+    padding: 16px 32px;
+    border: none;
+    border-radius: var(--radius-sm);
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+
+  .cbt-footer-btn:hover { transform: translateY(-2px); }
+
+  .cbt-footer-btn.cbt-btn-gold {
+    background: linear-gradient(160deg, var(--gold-light) 0%, var(--gold) 40%, var(--gold-dark) 100%);
+    color: var(--navy-deep);
+    box-shadow: 0 4px 12px rgba(201,168,76,0.3);
+  }
+
+  .cbt-footer-btn.cbt-btn-red {
+    background: linear-gradient(160deg, #ff6b6b 0%, #c0392b 60%, #922020 100%);
+    color: #fff;
+    box-shadow: 0 4px 12px rgba(192,57,43,0.4);
+    font-size: 15px;
+  }
+
+  .cbt-footer-btn.cbt-btn-red:hover { box-shadow: 0 8px 24px rgba(192,57,43,0.5); }
+
+  /* Retake */
+  .cbt-retake {
+    text-align: center;
+    padding: 16px 28px 0;
+  }
+
+  .cbt-retake-btn {
+    background: none;
+    border: 2px solid var(--g200);
+    border-radius: var(--radius-sm);
+    padding: 10px 24px;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--g600);
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+
+  .cbt-retake-btn:hover { border-color: var(--navy); color: var(--navy); }
+
+  /* ═══════ SOS MODAL ═══════ */
+  .cbt-sos-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(15,31,53,0.85);
+    z-index: 99999;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    animation: cbtFadeIn 0.3s ease-out;
+  }
+
+  .cbt-sos-overlay.cbt-active { display: flex; }
+
+  .cbt-sos-modal {
+    background: #fff;
+    border-radius: var(--radius);
+    max-width: 480px;
+    width: 100%;
+    overflow: hidden;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+    animation: cbtSlideUp 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  @keyframes cbtSlideUp {
+    from { opacity: 0; transform: translateY(40px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .cbt-sos-header {
+    background: linear-gradient(135deg, #c0392b 0%, #922020 100%);
+    padding: 24px;
+    text-align: center;
+  }
+
+  .cbt-sos-icon { font-size: 40px; margin-bottom: 8px; }
+
+  .cbt-sos-header h2 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 900;
+    font-size: 24px;
+    color: #fff;
+  }
+
+  .cbt-sos-header p {
+    font-size: 14px;
+    color: rgba(255,255,255,0.8);
+    margin-top: 6px;
+  }
+
+  .cbt-sos-body { padding: 24px; }
+
+  .cbt-sos-line {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 16px;
+    border: 2px solid var(--g200);
+    border-radius: var(--radius-sm);
+    margin-bottom: 12px;
+    text-decoration: none;
+    transition: border-color 0.15s, background 0.15s;
+  }
+
+  .cbt-sos-line:hover { border-color: var(--red); background: var(--red-bg); }
+
+  .cbt-sos-line-icon {
+    font-size: 28px;
+    min-width: 36px;
+    text-align: center;
+  }
+
+  .cbt-sos-line-name {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--g800);
+    line-height: 1.3;
+  }
+
+  .cbt-sos-line-number {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 800;
+    font-size: 20px;
+    color: var(--red);
+  }
+
+  .cbt-sos-note {
+    font-size: 13px;
+    color: var(--g600);
+    text-align: center;
+    line-height: 1.5;
+    margin-top: 8px;
+    padding: 12px;
+    background: var(--g50);
+    border-radius: 8px;
+  }
+
+  .cbt-sos-close {
+    display: block;
+    width: 100%;
+    padding: 14px;
+    background: var(--navy);
+    border: none;
+    color: #fff;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background 0.15s;
+    border-radius: 0 0 var(--radius) var(--radius);
+  }
+
+  .cbt-sos-close:hover { background: var(--navy-light); }
+
+  /* ═══════ RESPONSIVE ═══════ */
+  @media (max-width: 768px) {
+    .cbt { padding: 12px 8px 40px; }
+    .cbt-header { padding: 28px 16px; }
+    .cbt-progress { padding: 16px 16px 12px; }
+    .cbt-q { padding: 28px 16px 24px; }
+    .cbt-q-text { font-size: 19px; }
+    .cbt-intro { padding: 28px 16px; }
+    .cbt-recs { padding: 20px 16px; }
+    .cbt-ryan { margin: 0 16px 20px; }
+    .cbt-footer { padding: 24px 16px; }
+    .cbt-retake { padding: 12px 16px 0; }
+    .cbt-score-banner { padding: 28px 16px; }
+    .cbt-sos-modal { margin: 12px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="cbt">
+
+  <!-- HEADER -->
+  <div class="cbt-header">
+    <div class="cbt-credential">Developed by Ryan Riggins: Senior Protection Coordinator and Licensed Real Estate Broker. I've guided dozens of families through the breaking point. My job is to protect the senior AND the caregiver.</div>
+    <h1>The Caregiver Burnout <span>Triage Quiz</span></h1>
+    <p>10 questions. 2 minutes. Find out if you're heading toward a breaking point — before you get there.</p>
+  </div>
+
+  <!-- PROGRESS BAR -->
+  <div class="cbt-progress" id="cbtProgress" style="display:none;">
+    <div class="cbt-progress-header">
+      <span class="cbt-progress-label">Your Progress</span>
+      <span class="cbt-progress-count" id="cbtProgressCount">0 of 10</span>
+    </div>
+    <div class="cbt-progress-bar">
+      <div class="cbt-progress-fill" id="cbtProgressFill"></div>
+    </div>
+  </div>
+
+  <!-- QUIZ AREA -->
+  <div class="cbt-quiz" id="cbtQuiz">
+
+    <!-- INTRO SCREEN -->
+    <div class="cbt-intro" id="cbtIntro">
+      <div class="cbt-intro-icon">🩺</div>
+      <h2>Are You Burning Out?</h2>
+      <p>This quick assessment is based on clinical caregiver burnout research and calibrated to the 120-point Burnout Risk Scale used by care professionals.</p>
+      <p>Answer honestly. There are no wrong answers.</p>
+      <div class="cbt-intro-privacy">🔒 Your answers are private. Nothing is stored or shared.</div>
+      <button class="cbt-start-btn" onclick="cbtStart()">Begin Assessment</button>
+    </div>
+
+    <!-- Questions are injected by JS -->
+  </div>
+
+  <!-- RESULTS -->
+  <div class="cbt-results" id="cbtResults">
+
+    <div class="cbt-score-banner" id="cbtScoreBanner">
+      <div class="cbt-score-label" id="cbtScoreLabel"></div>
+      <div class="cbt-score-number" id="cbtScoreNum"></div>
+      <div class="cbt-score-max">out of 120</div>
+
+      <div class="cbt-gauge">
+        <div class="cbt-gauge-bar">
+          <div class="cbt-gauge-segments">
+            <div class="cbt-gauge-seg seg-low"></div>
+            <div class="cbt-gauge-seg seg-mod"></div>
+            <div class="cbt-gauge-seg seg-high"></div>
+            <div class="cbt-gauge-seg seg-crisis"></div>
+          </div>
+          <div class="cbt-gauge-marker" id="cbtGaugeMarker"></div>
+        </div>
+        <div class="cbt-gauge-labels">
+          <span>Low</span>
+          <span>Moderate</span>
+          <span>High</span>
+          <span>Crisis</span>
+        </div>
+      </div>
+
+      <div class="cbt-verdict" id="cbtVerdict"></div>
+    </div>
+
+    <div class="cbt-recs" id="cbtRecs"></div>
+
+    <div class="cbt-retake">
+      <button class="cbt-retake-btn" onclick="cbtReset()">↻ Retake Assessment</button>
+    </div>
+
+    <!-- Ryan's Callout -->
+    <div class="cbt-ryan">
+      <div class="cbt-ryan-title">🔧 Ryan's Protective Insight</div>
+      <div class="cbt-ryan-text">"I've sat across the table from caregivers who looked fine on the outside but were dying on the inside. By the time they called me, they'd already made $30,000 in panic decisions — selling the house too cheap, skipping the estate plan, choosing the wrong facility. My job isn't just to protect the senior. It's to protect YOU, the caregiver, so you can make clear-headed decisions when it matters most."</div>
+      <div class="cbt-ryan-sig">— Ryan Riggins, Senior Protection Coordinator</div>
+    </div>
+
+    <!-- Dynamic CTA -->
+    <div class="cbt-footer" id="cbtFooter"></div>
+  </div>
+</div>
+
+<!-- SOS MODAL -->
+<div class="cbt-sos-overlay" id="cbtSosOverlay">
+  <div class="cbt-sos-modal">
+    <div class="cbt-sos-header">
+      <div class="cbt-sos-icon">🚨</div>
+      <h2>You Are Not Alone</h2>
+      <p>Your score indicates you may be in crisis. Please reach out to these free, confidential resources.</p>
+    </div>
+    <div class="cbt-sos-body">
+      <a href="tel:988" class="cbt-sos-line">
+        <div class="cbt-sos-line-icon">📞</div>
+        <div>
+          <div class="cbt-sos-line-name">National Suicide Prevention Lifeline</div>
+          <div class="cbt-sos-line-number">988</div>
+        </div>
+      </a>
+      <a href="tel:18552273640" class="cbt-sos-line">
+        <div class="cbt-sos-line-icon">🤝</div>
+        <div>
+          <div class="cbt-sos-line-name">Caregiver Action Network Helpline</div>
+          <div class="cbt-sos-line-number">1-855-227-3640</div>
+        </div>
+      </a>
+      <a href="tel:18006771116" class="cbt-sos-line">
+        <div class="cbt-sos-line-icon">🏥</div>
+        <div>
+          <div class="cbt-sos-line-name">Area Agency on Aging (Emergency Respite)</div>
+          <div class="cbt-sos-line-number">1-800-677-1116</div>
+        </div>
+      </a>
+      <div class="cbt-sos-note">These lines are free, confidential, and available 24/7. On mobile, tap a number to call directly.</div>
+    </div>
+    <button class="cbt-sos-close" onclick="cbtCloseSos()">I understand — show my full results</button>
+  </div>
+</div>
+
+<script>
+// ═══════ QUESTIONS ═══════
+const cbtQuestions = [
+  { text: "I feel physically exhausted even after sleeping.", sub: "Physical fatigue that rest doesn't fix" },
+  { text: "I am losing interest in activities I used to enjoy.", sub: "Hobbies, social events, things that used to bring joy" },
+  { text: "I feel easily irritated or angry with my loved one.", sub: "Short temper, frustration over small things" },
+  { text: "I feel overwhelmed by the number of decisions I have to make.", sub: "Medical, financial, legal, daily care decisions" },
+  { text: "I feel alone or isolated from my friends and family.", sub: "Disconnected, unsupported, carrying this alone" },
+  { text: "I feel resentful toward the person I am caring for.", sub: "This is normal and does not make you a bad person" },
+  { text: "I am neglecting my own doctor appointments or health needs.", sub: "Skipping checkups, ignoring symptoms, forgetting medications" },
+  { text: "I feel anxious or worried about the future of this transition.", sub: "Financial fears, health decline, what comes next" },
+  { text: "I fantasize about running away or quitting my caregiving role.", sub: "Daydreaming about escape, wishing it would end" },
+  { text: "I feel like I have no control over my life right now.", sub: "Powerless, trapped, unable to change your situation" }
+];
+
+const cbtAnswerLabels = ["Never", "Rarely", "Sometimes", "Often", "Always"];
+let cbtAnswers = new Array(10).fill(-1);
+let cbtCurrentQ = 0;
+
+// ═══════ START ═══════
+function cbtStart() {
+  document.getElementById('cbtIntro').style.display = 'none';
+  document.getElementById('cbtProgress').style.display = 'block';
+  cbtRenderQuestion(0);
+}
+
+// ═══════ RENDER QUESTION ═══════
+function cbtRenderQuestion(index) {
+  // Remove old
+  const old = document.querySelector('.cbt-q.cbt-active');
+  if (old) old.remove();
+
+  const q = cbtQuestions[index];
+  const div = document.createElement('div');
+  div.className = 'cbt-q cbt-active';
+
+  let optionsHTML = '';
+  for (let i = 0; i <= 4; i++) {
+    const selected = cbtAnswers[index] === i ? ' cbt-selected' : '';
+    optionsHTML += `
+      <div class="cbt-option${selected}" onclick="cbtAnswer(${index}, ${i}, this)">
+        <div class="cbt-option-dot"></div>
+        <div class="cbt-option-label">${cbtAnswerLabels[i]}</div>
+        <div class="cbt-option-score">${i}</div>
+      </div>`;
+  }
+
+  div.innerHTML = `
+    <div class="cbt-q-num">Question ${index + 1} of 10</div>
+    <div class="cbt-q-text">${q.text}</div>
+    <div class="cbt-q-sub">${q.sub}</div>
+    <div class="cbt-options">${optionsHTML}</div>
+  `;
+
+  document.getElementById('cbtQuiz').appendChild(div);
+  cbtUpdateProgress();
+}
+
+// ═══════ ANSWER ═══════
+function cbtAnswer(qIndex, value, el) {
+  cbtAnswers[qIndex] = value;
+
+  // Visual feedback
+  el.closest('.cbt-options').querySelectorAll('.cbt-option').forEach(o => o.classList.remove('cbt-selected'));
+  el.classList.add('cbt-selected');
+
+  // Auto-advance after short delay
+  setTimeout(() => {
+    if (qIndex < 9) {
+      cbtCurrentQ = qIndex + 1;
+      cbtRenderQuestion(cbtCurrentQ);
+    } else {
+      cbtShowResults();
+    }
+  }, 350);
+}
+
+// ═══════ PROGRESS ═══════
+function cbtUpdateProgress() {
+  const answered = cbtAnswers.filter(a => a >= 0).length;
+  document.getElementById('cbtProgressCount').textContent = `${answered} of 10`;
+  document.getElementById('cbtProgressFill').style.width = (answered / 10 * 100) + '%';
+}
+
+// ═══════ SHOW RESULTS ═══════
+function cbtShowResults() {
+  const rawScore = cbtAnswers.reduce((a, b) => a + b, 0); // 0-40
+  const normalized = rawScore * 3; // 0-120
+
+  // Hide quiz, show results
+  document.getElementById('cbtQuiz').style.display = 'none';
+  document.getElementById('cbtProgress').style.display = 'none';
+  const results = document.getElementById('cbtResults');
+  results.classList.add('cbt-active');
+  results.scrollIntoView({ behavior: 'smooth', block: 'start' });
+
+  // Determine tier
+  let tier, label, verdict, recs, bannerClass;
+
+  if (normalized <= 30) {
+    tier = 'low'; bannerClass = 'low';
+    label = '✅ Low Risk';
+    verdict = 'You are managing well. Continue your self-care routine and stay connected with your support network.';
+    recs = [
+      { icon: '✅', text: 'Continue your current self-care routine' },
+      { icon: '👥', text: 'Stay connected with friends and family' },
+      { icon: '📊', text: 'Monitor your stress levels — retake this every 3 months' },
+      { icon: '📅', text: 'Schedule regular check-ins with your own doctor' },
+      { icon: '💡', text: 'Build a backup plan now, while you\'re still strong' },
+    ];
+  } else if (normalized <= 60) {
+    tier = 'moderate'; bannerClass = 'moderate';
+    label = '⚠️ Moderate Risk';
+    verdict = 'You are at risk for burnout. It is time to delegate tasks and get support before you reach crisis mode.';
+    recs = [
+      { icon: '🤝', text: 'Ask family members to take on specific tasks this week' },
+      { icon: '🏥', text: 'Consider hiring part-time help (even 4-8 hours/week makes a difference)' },
+      { icon: '👥', text: 'Join a caregiver support group (online or in-person)' },
+      { icon: '🩺', text: 'Schedule a check-up with your own doctor — tell them you\'re a caregiver' },
+      { icon: '📅', text: 'Schedule respite care at least once per month' },
+      { icon: '💬', text: 'Talk to a therapist or counselor about your stress' },
+      { icon: '📊', text: 'Retake this assessment monthly' },
+    ];
+  } else if (normalized <= 90) {
+    tier = 'high'; bannerClass = 'high';
+    label = '🚨 High Risk — Danger Zone';
+    verdict = 'Your health and well-being are at serious risk. You cannot continue at this pace. Get help immediately.';
+    recs = [
+      { icon: '🆘', text: 'Get help immediately — you cannot continue at this pace' },
+      { icon: '🩺', text: 'Talk to your doctor THIS WEEK about your burnout symptoms' },
+      { icon: '💬', text: 'Start professional counseling or therapy' },
+      { icon: '🏠', text: 'Explore alternative care options: adult day care, in-home care, assisted living' },
+      { icon: '🌴', text: 'Schedule respite care for at least 1 full week' },
+      { icon: '📋', text: 'Delegate tasks to other family members — make a list and assign them' },
+      { icon: '⚖️', text: 'Consider whether you can continue as primary caregiver' },
+      { icon: '📊', text: 'Retake this assessment weekly' },
+    ];
+  } else {
+    tier = 'crisis'; bannerClass = 'crisis';
+    label = '🆘 CRISIS LEVEL — EMERGENCY';
+    verdict = 'You are at severe risk of physical and emotional collapse. You cannot continue at this pace. Immediate intervention is needed.';
+    recs = [
+      { icon: '📞', text: 'Call your doctor TODAY — explain your situation and burnout symptoms' },
+      { icon: '🆘', text: 'Call a crisis hotline if you\'re having thoughts of harming yourself (988)' },
+      { icon: '🏥', text: 'Get emergency respite care — Area Agency on Aging: 1-800-677-1116' },
+      { icon: '👨‍👩‍👧‍👦', text: 'Call family members NOW — tell them you need immediate help' },
+      { icon: '🏠', text: 'Consider immediate alternative care — your loved one may need professional care' },
+      { icon: '💡', text: 'You cannot continue as primary caregiver without major changes' },
+      { icon: '❤️', text: 'Getting help is NOT giving up. It\'s ensuring your loved one gets the care they need.' },
+    ];
+
+    // Trigger SOS modal
+    setTimeout(() => {
+      document.getElementById('cbtSosOverlay').classList.add('cbt-active');
+      document.body.style.overflow = 'hidden';
+    }, 600);
+  }
+
+  // Render score banner
+  const banner = document.getElementById('cbtScoreBanner');
+  banner.className = 'cbt-score-banner ' + bannerClass;
+  document.getElementById('cbtScoreLabel').textContent = label;
+  document.getElementById('cbtScoreNum').textContent = normalized;
+  document.getElementById('cbtVerdict').textContent = verdict;
+
+  // Gauge marker position
+  const pct = Math.min(100, (normalized / 120) * 100);
+  document.getElementById('cbtGaugeMarker').style.left = `calc(${pct}% - 2px)`;
+
+  // Render recommendations
+  const recsEl = document.getElementById('cbtRecs');
+  recsEl.innerHTML = `
+    <div class="cbt-recs-title">${normalized > 60 ? 'Immediate Action Steps' : 'Recommended Next Steps'}</div>
+    <div class="cbt-rec-list">
+      ${recs.map(r => `<div class="cbt-rec"><div class="cbt-rec-icon">${r.icon}</div><div>${r.text}</div></div>`).join('')}
+    </div>
+  `;
+
+  // Dynamic CTA
+  const footer = document.getElementById('cbtFooter');
+  if (normalized <= 60) {
+    footer.innerHTML = `
+      <p>You're not in crisis yet — but the best time to build your protection plan is <strong>before</strong> things get worse.</p>
+      <div style="display:flex;flex-direction:column;gap:12px;max-width:480px;margin:0 auto;">
+        <a href="https://www.rigginsstrategicsolutions.com/the-blueprint" class="cbt-footer-btn cbt-btn-gold" style="display:block;text-align:center;">📋 Get the Senior Transition Blueprint — $47</a>
+        <a href="https://api.leadconnectorhq.com/widget/booking/PEGCu2kXYDZgAPPzXGv5" class="cbt-footer-btn" style="display:block;text-align:center;background:rgba(255,255,255,0.1);border:2px solid rgba(255,255,255,0.3);color:#fff;box-shadow:none;border-radius:10px;">📞 Book a Free Call with Ryan</a>
+        <a href="https://www.rigginsstrategicsolutions.com/starterguide" style="display:block;text-align:center;color:rgba(255,255,255,0.6);font-size:14px;font-weight:600;text-decoration:none;padding:8px;">📖 Not ready? Download the Free Starter Guide</a>
+        <a href="sms:3365538933" style="display:block;text-align:center;padding:14px 24px;background:rgba(255,255,255,0.15);border:2px solid rgba(255,255,255,0.4);border-radius:10px;color:#fff;font-size:16px;font-weight:700;text-decoration:none;font-family:'Source Sans 3',sans-serif;">💬 Just Text Ryan — (336) 553-8933</a>
+      </div>
+    `;
+  } else {
+    footer.innerHTML = `
+      <p>At this level of burnout, <strong>you need personalized guidance</strong>. Ryan can help you build a protection plan for both you and your loved one.</p>
+      <div style="display:flex;flex-direction:column;gap:12px;max-width:480px;margin:0 auto;">
+        <a href="sms:3365538933" class="cbt-footer-btn cbt-btn-red" style="display:block;text-align:center;">💬 Text Ryan Right Now — (336) 553-8933</a>
+        <a href="https://api.leadconnectorhq.com/widget/booking/PEGCu2kXYDZgAPPzXGv5" class="cbt-footer-btn cbt-btn-gold" style="display:block;text-align:center;">📞 Book a Free Call with Ryan</a>
+        <a href="https://www.rigginsstrategicsolutions.com/the-blueprint" style="display:block;text-align:center;padding:14px 24px;background:rgba(255,255,255,0.1);border:2px solid rgba(255,255,255,0.3);border-radius:10px;color:#fff;font-size:15px;font-weight:700;text-decoration:none;font-family:'Source Sans 3',sans-serif;">📋 Get the Blueprint — $47</a>
+        <a href="https://www.rigginsstrategicsolutions.com/starterguide" style="display:block;text-align:center;color:rgba(255,255,255,0.6);font-size:14px;font-weight:600;text-decoration:none;padding:8px;">📖 Download the Free Starter Guide</a>
+      </div>
+    `;
+  }
+
+  cbtUpdateProgress();
+}
+
+// ═══════ CLOSE SOS ═══════
+function cbtCloseSos() {
+  document.getElementById('cbtSosOverlay').classList.remove('cbt-active');
+  document.body.style.overflow = '';
+}
+
+// ═══════ RESET ═══════
+function cbtReset() {
+  cbtAnswers = new Array(10).fill(-1);
+  cbtCurrentQ = 0;
+
+  document.getElementById('cbtResults').classList.remove('cbt-active');
+  document.getElementById('cbtResults').style.display = '';
+  document.getElementById('cbtQuiz').style.display = '';
+  document.getElementById('cbtProgress').style.display = 'none';
+
+  // Remove any question cards
+  document.querySelectorAll('.cbt-q').forEach(q => q.remove());
+
+  // Show intro
+  document.getElementById('cbtIntro').style.display = '';
+
+  // Scroll to top
+  document.querySelector('.cbt-header').scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+</script>
+
+</body>
+</html>

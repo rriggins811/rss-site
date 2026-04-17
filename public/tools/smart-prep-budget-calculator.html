@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>$5,000 Smart Prep Budget | Riggins Strategic Solutions</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800;900&family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+<style>
+  .spb *, .spb *::before, .spb *::after { margin:0; padding:0; box-sizing:border-box; }
+  .spb {
+    --navy:#1a3052; --navy-deep:#0f1f35; --navy-light:#2a4a72;
+    --gold:#c9a84c; --gold-light:#e8d48b; --gold-dark:#a88a30;
+    --g50:#f7f6f3; --g100:#f0eee9; --g200:#dbd8d0; --g400:#a09b90; --g600:#6b665c; --g800:#333028;
+    --green:#2d8a4e; --green-bg:#e8f5ec; --red:#c0392b; --red-bg:#fdecea;
+    --orange:#d4820a; --orange-bg:#fef5e7;
+    --radius:14px; --radius-sm:10px;
+    font-family:'Source Sans 3',-apple-system,BlinkMacSystemFont,sans-serif;
+    color:var(--g800); line-height:1.5; -webkit-font-smoothing:antialiased;
+    max-width:860px; margin:0 auto; padding:24px 16px 60px;
+  }
+
+  .spb-header { background:linear-gradient(165deg,var(--navy) 0%,var(--navy-deep) 100%); border-radius:var(--radius) var(--radius) 0 0; padding:36px 28px 32px; text-align:center; position:relative; overflow:hidden; }
+  .spb-header::before { content:''; position:absolute; inset:0; background:radial-gradient(ellipse at 25% 75%,rgba(45,138,78,0.06) 0%,transparent 50%); pointer-events:none; }
+  .spb-cred { font-size:11px; font-weight:600; color:rgba(255,255,255,0.4); margin-bottom:16px; position:relative; line-height:1.6; max-width:520px; margin-left:auto; margin-right:auto; }
+  .spb-header h1 { font-family:'Playfair Display',Georgia,serif; font-weight:900; font-size:clamp(24px,5vw,36px); color:#fff; line-height:1.15; position:relative; margin-bottom:10px; }
+  .spb-header h1 span { color:var(--gold); }
+  .spb-header p { font-size:15px; color:rgba(255,255,255,0.6); max-width:520px; margin:0 auto; position:relative; line-height:1.6; }
+  .spb-header-stat { display:inline-flex; align-items:center; gap:6px; background:rgba(45,138,78,0.15); border:1px solid rgba(45,138,78,0.25); border-radius:100px; padding:6px 16px; font-size:12px; font-weight:700; color:#7dcea0; margin-top:16px; position:relative; }
+
+  .spb-body { background:#fff; padding:32px 28px; }
+  .spb-stitle { font-family:'Playfair Display',Georgia,serif; font-weight:800; font-size:20px; color:var(--navy); margin-bottom:4px; }
+  .spb-ssub { font-size:14px; color:var(--g600); margin-bottom:20px; line-height:1.5; }
+
+  /* Budget Tracker Bar */
+  .spb-budget-bar { background:var(--g50); border:1px solid var(--g200); border-radius:var(--radius-sm); padding:18px 20px; margin-bottom:24px; }
+  .spb-bb-header { display:flex; justify-content:space-between; align-items:baseline; margin-bottom:8px; flex-wrap:wrap; gap:4px; }
+  .spb-bb-label { font-size:13px; font-weight:700; color:var(--g600); }
+  .spb-bb-remaining { font-family:'Playfair Display',Georgia,serif; font-weight:800; font-size:24px; }
+  .spb-bb-remaining.ok { color:var(--green); }
+  .spb-bb-remaining.warn { color:var(--orange); }
+  .spb-bb-remaining.over { color:var(--red); }
+  .spb-bb-track { width:100%; height:14px; background:var(--g200); border-radius:7px; overflow:hidden; position:relative; }
+  .spb-bb-fill { height:100%; border-radius:7px; transition:width 0.4s ease; }
+  .spb-bb-fill.ok { background:linear-gradient(90deg,var(--green) 0%,#3aaa62 100%); }
+  .spb-bb-fill.warn { background:linear-gradient(90deg,var(--orange) 0%,#e8a020 100%); }
+  .spb-bb-fill.over { background:linear-gradient(90deg,var(--red) 0%,#e05040 100%); }
+  .spb-bb-detail { display:flex; justify-content:space-between; margin-top:6px; font-size:12px; font-weight:600; color:var(--g400); }
+
+  /* Prep Items */
+  .spb-items { display:flex; flex-direction:column; gap:0; margin-bottom:24px; }
+
+  .spb-cat-header { padding:12px 16px; background:var(--navy); color:#fff; font-size:12px; font-weight:800; text-transform:uppercase; letter-spacing:1.5px; }
+  .spb-cat-header:first-child { border-radius:var(--radius-sm) var(--radius-sm) 0 0; }
+  .spb-cat-header .spb-cat-emoji { margin-right:6px; }
+
+  .spb-item { display:flex; align-items:center; gap:12px; padding:14px 16px; border:1px solid var(--g200); border-top:none; background:#fff; transition:background 0.15s; flex-wrap:wrap; }
+  .spb-item:hover { background:var(--g50); }
+
+  .spb-item-check { width:22px; height:22px; min-width:22px; border:2px solid var(--g200); border-radius:6px; display:flex; align-items:center; justify-content:center; cursor:pointer; transition:all 0.15s; background:#fff; }
+  .spb-item.spb-checked .spb-item-check { background:var(--green); border-color:var(--green); }
+  .spb-item-check svg { width:14px; height:14px; fill:#fff; opacity:0; transition:all 0.15s; }
+  .spb-item.spb-checked .spb-item-check svg { opacity:1; }
+
+  .spb-item-info { flex:1; min-width:140px; }
+  .spb-item-name { font-size:14px; font-weight:700; color:var(--g800); }
+  .spb-item-roi { font-size:11px; font-weight:700; margin-top:1px; }
+  .spb-item-roi.high { color:var(--green); }
+  .spb-item-roi.med { color:var(--orange); }
+  .spb-item-roi.low { color:var(--red); }
+
+  .spb-item-cost-wrap { display:flex; align-items:center; gap:4px; }
+  .spb-item-cost-pre { font-size:14px; font-weight:700; color:var(--g400); }
+  .spb-item-cost { border:1px solid var(--g200); border-radius:6px; padding:6px 8px; font-family:'Source Sans 3',sans-serif; font-size:15px; font-weight:700; color:var(--g800); width:90px; text-align:right; outline:none; background:var(--g50); transition:border-color 0.2s; }
+  .spb-item-cost:focus { border-color:var(--navy); background:#fff; }
+
+  .spb-item-tag { font-size:10px; font-weight:800; padding:3px 8px; border-radius:100px; white-space:nowrap; text-transform:uppercase; letter-spacing:0.5px; }
+  .spb-item-tag.must { background:var(--green-bg); color:var(--green); }
+  .spb-item-tag.smart { background:var(--orange-bg); color:var(--orange); }
+  .spb-item-tag.skip { background:var(--red-bg); color:var(--red); }
+
+  .spb-items-last { border-radius:0 0 var(--radius-sm) var(--radius-sm); }
+
+  /* Custom Item */
+  .spb-add-row { display:flex; gap:8px; margin-bottom:24px; flex-wrap:wrap; }
+  .spb-add-input { flex:1; min-width:150px; border:2px solid var(--g200); border-radius:var(--radius-sm); padding:10px 14px; font-family:'Source Sans 3',sans-serif; font-size:14px; font-weight:600; outline:none; }
+  .spb-add-input:focus { border-color:var(--navy); }
+  .spb-add-cost { width:100px; border:2px solid var(--g200); border-radius:var(--radius-sm); padding:10px 14px; font-family:'Source Sans 3',sans-serif; font-size:14px; font-weight:600; outline:none; text-align:right; }
+  .spb-add-btn { padding:10px 20px; background:var(--navy); border:none; border-radius:var(--radius-sm); font-family:'Source Sans 3',sans-serif; font-size:14px; font-weight:700; color:#fff; cursor:pointer; transition:background 0.15s; }
+  .spb-add-btn:hover { background:var(--navy-light); }
+
+  /* Calculate */
+  .spb-btn { width:100%; padding:16px 32px; background:linear-gradient(160deg,var(--gold-light) 0%,var(--gold) 40%,var(--gold-dark) 100%); border:none; border-radius:var(--radius-sm); font-family:'Source Sans 3',sans-serif; font-size:17px; font-weight:700; color:var(--navy-deep); cursor:pointer; transition:transform 0.2s,box-shadow 0.2s; box-shadow:0 4px 12px rgba(201,168,76,0.3); }
+  .spb-btn:hover { transform:translateY(-2px); box-shadow:0 8px 24px rgba(201,168,76,0.4); }
+
+  /* Results */
+  .spb-results { display:none; background:#fff; border-radius:0 0 var(--radius) var(--radius); overflow:hidden; }
+  .spb-results.spb-active { display:block; }
+
+  .spb-result-banner { padding:28px; text-align:center; border-top:2px solid var(--g100); }
+  .spb-rb-icon { font-size:48px; margin-bottom:8px; }
+  .spb-rb-title { font-family:'Playfair Display',Georgia,serif; font-weight:800; font-size:22px; color:var(--navy); margin-bottom:4px; }
+  .spb-rb-text { font-size:15px; color:var(--g600); max-width:480px; margin:0 auto; line-height:1.55; }
+
+  .spb-roi-cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:12px; padding:0 28px 24px; }
+  .spb-roi-card { padding:18px; border-radius:var(--radius-sm); text-align:center; }
+  .spb-roi-card.invest { background:linear-gradient(135deg,rgba(42,108,184,0.06) 0%,rgba(42,108,184,0.02) 100%); border:1px solid rgba(42,108,184,0.15); }
+  .spb-roi-card.return { background:linear-gradient(135deg,rgba(45,138,78,0.06) 0%,rgba(45,138,78,0.02) 100%); border:1px solid rgba(45,138,78,0.15); }
+  .spb-roi-card.saved { background:linear-gradient(135deg,rgba(201,168,76,0.06) 0%,rgba(201,168,76,0.02) 100%); border:1px solid rgba(201,168,76,0.15); }
+  .spb-rc-label { font-size:11px; font-weight:800; text-transform:uppercase; letter-spacing:1.2px; margin-bottom:4px; }
+  .spb-roi-card.invest .spb-rc-label { color:#2a6cb8; }
+  .spb-roi-card.return .spb-rc-label { color:var(--green); }
+  .spb-roi-card.saved .spb-rc-label { color:var(--gold-dark); }
+  .spb-rc-val { font-family:'Playfair Display',Georgia,serif; font-weight:900; font-size:28px; color:var(--navy); }
+  .spb-rc-detail { font-size:12px; color:var(--g600); margin-top:2px; }
+
+  /* Verdict */
+  .spb-verdict { margin:0 28px 24px; padding:18px 20px; border-radius:var(--radius-sm); }
+  .spb-verdict.good { background:var(--green-bg); border:1px solid rgba(45,138,78,0.2); }
+  .spb-verdict.warn { background:var(--orange-bg); border:1px solid rgba(212,130,10,0.2); }
+  .spb-verdict.bad { background:var(--red-bg); border:1px solid rgba(192,57,43,0.2); }
+  .spb-v-title { font-size:14px; font-weight:800; margin-bottom:4px; }
+  .spb-verdict.good .spb-v-title { color:var(--green); }
+  .spb-verdict.warn .spb-v-title { color:var(--orange); }
+  .spb-verdict.bad .spb-v-title { color:var(--red); }
+  .spb-v-text { font-size:14px; font-weight:600; line-height:1.55; }
+  .spb-verdict.good .spb-v-text { color:var(--green); }
+  .spb-verdict.warn .spb-v-text { color:var(--orange); }
+  .spb-verdict.bad .spb-v-text { color:var(--red); }
+
+  /* Insight */
+  .spb-insight { margin:0 28px 24px; background:linear-gradient(135deg,rgba(201,168,76,0.06) 0%,rgba(201,168,76,0.02) 100%); border:1px solid rgba(201,168,76,0.15); border-radius:var(--radius-sm); padding:18px 20px; }
+  .spb-insight-title { font-size:13px; font-weight:800; color:var(--gold-dark); margin-bottom:6px; }
+  .spb-insight-text { font-size:14px; font-weight:600; color:var(--g800); line-height:1.6; font-style:italic; }
+  .spb-insight-sig { margin-top:8px; font-style:normal; font-weight:700; font-size:12px; color:var(--gold-dark); }
+
+  .spb-footer { background:var(--navy); padding:32px 28px; text-align:center; border-radius:0 0 var(--radius) var(--radius); }
+  .spb-footer p { font-size:15px; color:rgba(255,255,255,0.7); margin-bottom:16px; max-width:460px; margin-left:auto; margin-right:auto; line-height:1.6; }
+  .spb-footer p strong { color:var(--gold-light); }
+  .spb-footer-btn { display:inline-block; padding:16px 36px; background:linear-gradient(160deg,var(--gold-light) 0%,var(--gold) 40%,var(--gold-dark) 100%); border:none; border-radius:var(--radius-sm); font-family:'Source Sans 3',sans-serif; font-size:16px; font-weight:700; color:var(--navy-deep); cursor:pointer; text-decoration:none; transition:transform 0.2s,box-shadow 0.2s; box-shadow:0 4px 12px rgba(201,168,76,0.3); }
+  .spb-footer-btn:hover { transform:translateY(-2px); box-shadow:0 8px 24px rgba(201,168,76,0.4); }
+
+  @media (max-width:768px) {
+    .spb { padding:12px 8px 40px; }
+    .spb-header { padding:28px 16px; }
+    .spb-body { padding:24px 16px; }
+    .spb-item { padding:12px 12px; gap:8px; }
+    .spb-item-cost { width:75px; font-size:14px; }
+    .spb-roi-cards { padding:0 16px 20px; grid-template-columns:1fr; }
+    .spb-verdict { margin:0 16px 20px; }
+    .spb-insight { margin:0 16px 20px; }
+    .spb-footer { padding:24px 16px; }
+    .spb-result-banner { padding:20px 16px; }
+  }
+</style>
+</head>
+<body>
+<div class="spb">
+  <div class="spb-header">
+    <div class="spb-cred">Developed by Ryan Riggins: Senior Protection Coordinator, Licensed Broker, and 8+ Year Construction Project Manager</div>
+    <h1>The <span>$5,000</span> Smart Prep Budget</h1>
+    <p>Stop wasting $30K on HGTV renovations. A construction PM shows you exactly where to spend $5,000 to get 2-3x your money back at closing.</p>
+    <div class="spb-header-stat">✅ These improvements typically return 2-3x their cost</div>
+  </div>
+
+  <div class="spb-body">
+    <div class="spb-stitle">Your Smart Prep Planner</div>
+    <div class="spb-ssub">Check the items you plan to do, adjust costs to match your market, and watch the budget tracker update in real time. Green = do it. Red = skip it.</div>
+
+    <!-- Budget Tracker -->
+    <div class="spb-budget-bar">
+      <div class="spb-bb-header">
+        <span class="spb-bb-label">Budget Remaining</span>
+        <span class="spb-bb-remaining ok" id="spbRemaining">$5,000</span>
+      </div>
+      <div class="spb-bb-track">
+        <div class="spb-bb-fill ok" id="spbFill" style="width:0%"></div>
+      </div>
+      <div class="spb-bb-detail">
+        <span>Spent: <strong id="spbSpent">$0</strong></span>
+        <span>Budget: <strong>$5,000</strong></span>
+      </div>
+    </div>
+
+    <!-- Prep Items -->
+    <div class="spb-items" id="spbItems">
+
+      <div class="spb-cat-header"><span class="spb-cat-emoji">🟢</span> MUST DO — Highest ROI (3-5x Return)</div>
+
+      <div class="spb-item" data-roi="high" data-return="4" onclick="spbToggle(this)">
+        <div class="spb-item-check"><svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg></div>
+        <div class="spb-item-info">
+          <div class="spb-item-name">Deep Professional Cleaning</div>
+          <div class="spb-item-roi high">ROI: 4-5x return | Every $1 returns $4-5</div>
+        </div>
+        <div class="spb-item-cost-wrap" onclick="event.stopPropagation()">
+          <span class="spb-item-cost-pre">$</span>
+          <input type="text" class="spb-item-cost" value="500" inputmode="numeric" onchange="spbUpdate()">
+        </div>
+        <span class="spb-item-tag must">MUST DO</span>
+      </div>
+
+      <div class="spb-item" data-roi="high" data-return="3" onclick="spbToggle(this)">
+        <div class="spb-item-check"><svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg></div>
+        <div class="spb-item-info">
+          <div class="spb-item-name">Interior Paint (Neutral Colors)</div>
+          <div class="spb-item-roi high">ROI: 3-4x return | Transforms feel of entire home</div>
+        </div>
+        <div class="spb-item-cost-wrap" onclick="event.stopPropagation()">
+          <span class="spb-item-cost-pre">$</span>
+          <input type="text" class="spb-item-cost" value="1,500" inputmode="numeric" onchange="spbUpdate()">
+        </div>
+        <span class="spb-item-tag must">MUST DO</span>
+      </div>
+
+      <div class="spb-item" data-roi="high" data-return="5" onclick="spbToggle(this)">
+        <div class="spb-item-check"><svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg></div>
+        <div class="spb-item-info">
+          <div class="spb-item-name">Curb Appeal (Landscaping, Pressure Wash, Mulch)</div>
+          <div class="spb-item-roi high">ROI: 4-5x return | First impression drives offers</div>
+        </div>
+        <div class="spb-item-cost-wrap" onclick="event.stopPropagation()">
+          <span class="spb-item-cost-pre">$</span>
+          <input type="text" class="spb-item-cost" value="750" inputmode="numeric" onchange="spbUpdate()">
+        </div>
+        <span class="spb-item-tag must">MUST DO</span>
+      </div>
+
+      <div class="spb-item" data-roi="high" data-return="10" onclick="spbToggle(this)">
+        <div class="spb-item-check"><svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg></div>
+        <div class="spb-item-info">
+          <div class="spb-item-name">Fix Safety Issues (Handrails, Smoke Detectors, Leaks)</div>
+          <div class="spb-item-roi high">ROI: 10x+ | Prevents deal-killing inspection findings</div>
+        </div>
+        <div class="spb-item-cost-wrap" onclick="event.stopPropagation()">
+          <span class="spb-item-cost-pre">$</span>
+          <input type="text" class="spb-item-cost" value="400" inputmode="numeric" onchange="spbUpdate()">
+        </div>
+        <span class="spb-item-tag must">MUST DO</span>
+      </div>
+
+      <div class="spb-cat-header"><span class="spb-cat-emoji">🟡</span> SMART SPEND — Good ROI (2-3x Return)</div>
+
+      <div class="spb-item" data-roi="med" data-return="2.5" onclick="spbToggle(this)">
+        <div class="spb-item-check"><svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg></div>
+        <div class="spb-item-info">
+          <div class="spb-item-name">Replace Worn Carpet (or Deep Clean)</div>
+          <div class="spb-item-roi med">ROI: 2-3x return | Only if visibly stained/damaged</div>
+        </div>
+        <div class="spb-item-cost-wrap" onclick="event.stopPropagation()">
+          <span class="spb-item-cost-pre">$</span>
+          <input type="text" class="spb-item-cost" value="800" inputmode="numeric" onchange="spbUpdate()">
+        </div>
+        <span class="spb-item-tag smart">SMART</span>
+      </div>
+
+      <div class="spb-item" data-roi="med" data-return="2" onclick="spbToggle(this)">
+        <div class="spb-item-check"><svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg></div>
+        <div class="spb-item-info">
+          <div class="spb-item-name">Update Light Fixtures & Hardware</div>
+          <div class="spb-item-roi med">ROI: 2-3x return | Cheap modernization</div>
+        </div>
+        <div class="spb-item-cost-wrap" onclick="event.stopPropagation()">
+          <span class="spb-item-cost-pre">$</span>
+          <input type="text" class="spb-item-cost" value="350" inputmode="numeric" onchange="spbUpdate()">
+        </div>
+        <span class="spb-item-tag smart">SMART</span>
+      </div>
+
+      <div class="spb-item" data-roi="med" data-return="2" onclick="spbToggle(this)">
+        <div class="spb-item-check"><svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg></div>
+        <div class="spb-item-info">
+          <div class="spb-item-name">Minor Kitchen Update (Hardware, Faucet, Caulk)</div>
+          <div class="spb-item-roi med">ROI: 2-3x return | NOT a full renovation</div>
+        </div>
+        <div class="spb-item-cost-wrap" onclick="event.stopPropagation()">
+          <span class="spb-item-cost-pre">$</span>
+          <input type="text" class="spb-item-cost" value="400" inputmode="numeric" onchange="spbUpdate()">
+        </div>
+        <span class="spb-item-tag smart">SMART</span>
+      </div>
+
+      <div class="spb-cat-header"><span class="spb-cat-emoji">🔴</span> MONEY PIT — Skip These (0.3-0.8x Return)</div>
+
+      <div class="spb-item" data-roi="low" data-return="0.4" onclick="spbToggle(this)">
+        <div class="spb-item-check"><svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg></div>
+        <div class="spb-item-info">
+          <div class="spb-item-name">Full Kitchen Renovation</div>
+          <div class="spb-item-roi low">ROI: 0.3-0.5x return | You lose $0.50-0.70 per dollar spent</div>
+        </div>
+        <div class="spb-item-cost-wrap" onclick="event.stopPropagation()">
+          <span class="spb-item-cost-pre">$</span>
+          <input type="text" class="spb-item-cost" value="25,000" inputmode="numeric" onchange="spbUpdate()">
+        </div>
+        <span class="spb-item-tag skip">SKIP</span>
+      </div>
+
+      <div class="spb-item" data-roi="low" data-return="0.5" onclick="spbToggle(this)">
+        <div class="spb-item-check"><svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg></div>
+        <div class="spb-item-info">
+          <div class="spb-item-name">Full Bathroom Remodel</div>
+          <div class="spb-item-roi low">ROI: 0.4-0.6x return | Expensive with low return for seniors</div>
+        </div>
+        <div class="spb-item-cost-wrap" onclick="event.stopPropagation()">
+          <span class="spb-item-cost-pre">$</span>
+          <input type="text" class="spb-item-cost" value="15,000" inputmode="numeric" onchange="spbUpdate()">
+        </div>
+        <span class="spb-item-tag skip">SKIP</span>
+      </div>
+
+      <div class="spb-item spb-items-last" data-roi="low" data-return="0.5" onclick="spbToggle(this)">
+        <div class="spb-item-check"><svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg></div>
+        <div class="spb-item-info">
+          <div class="spb-item-name">New Roof (Unless Actively Leaking)</div>
+          <div class="spb-item-roi low">ROI: 0.5-0.7x return | Offer a credit instead</div>
+        </div>
+        <div class="spb-item-cost-wrap" onclick="event.stopPropagation()">
+          <span class="spb-item-cost-pre">$</span>
+          <input type="text" class="spb-item-cost" value="10,000" inputmode="numeric" onchange="spbUpdate()">
+        </div>
+        <span class="spb-item-tag skip">SKIP</span>
+      </div>
+    </div>
+
+    <!-- Add Custom -->
+    <div class="spb-add-row">
+      <input type="text" class="spb-add-input" id="spbAddName" placeholder="Add custom item (e.g. 'Replace front door')">
+      <input type="text" class="spb-add-cost" id="spbAddCost" placeholder="$0" inputmode="numeric">
+      <button class="spb-add-btn" onclick="spbAddCustom()">+ Add</button>
+    </div>
+
+    <button class="spb-btn" onclick="spbCalculate()">📊 Calculate My Smart Prep ROI</button>
+  </div>
+
+  <div class="spb-results" id="spbResults">
+    <div class="spb-result-banner" id="spbBanner"></div>
+    <div class="spb-roi-cards" id="spbCards"></div>
+    <div class="spb-verdict" id="spbVerdict"></div>
+
+    <div class="spb-insight">
+      <div class="spb-insight-title">🔧 Ryan's Construction PM Insight</div>
+      <div class="spb-insight-text">"After flipping houses for 8 years and managing construction projects, I can tell you the #1 mistake families make: they watch HGTV and think they need a $30,000 kitchen renovation. They don't. A $500 deep clean, $1,500 in paint, and $750 in curb appeal will get you 80% of the result for 10% of the cost. I've seen a $3,200 smart prep budget produce the same sale price as a $28,000 renovation on a comparable house down the street. Save your money for the transition — that's where you'll really need it."</div>
+      <div class="spb-insight-sig">— Ryan Riggins, 8+ Year Construction PM & Licensed Broker</div>
+    </div>
+
+    <div class="spb-footer">
+      <p>This calculator covers home prep. <strong>The Senior Transition Blueprint</strong> covers all 19 modules — from sorting and decluttering through closing day and beyond, including estate planning, Medicare strategy, and 1-year follow-up.</p>
+      <div style="display:flex;flex-direction:column;gap:12px;max-width:480px;margin:0 auto;">
+        <a href="https://www.rigginsstrategicsolutions.com/the-blueprint" class="spb-footer-btn" style="display:block;text-align:center;">📋 Get the Senior Transition Blueprint — $47</a>
+        <a href="https://api.leadconnectorhq.com/widget/booking/PEGCu2kXYDZgAPPzXGv5" class="spb-footer-btn" style="display:block;text-align:center;background:rgba(255,255,255,0.1);border:2px solid rgba(255,255,255,0.3);color:#fff;box-shadow:none;">📞 Book a Free Call with Ryan</a>
+        <a href="https://www.rigginsstrategicsolutions.com/starterguide" style="display:block;text-align:center;color:rgba(255,255,255,0.6);font-size:14px;font-weight:600;text-decoration:none;padding:8px;">📖 Not ready? Download the Free Starter Guide</a>
+        <a href="sms:3365538933" style="display:block;text-align:center;padding:14px 24px;background:rgba(255,255,255,0.15);border:2px solid rgba(255,255,255,0.4);border-radius:10px;color:#fff;font-size:16px;font-weight:700;text-decoration:none;font-family:'Source Sans 3',sans-serif;">💬 Just Text Ryan — (336) 553-8933</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+const SPB_BUDGET = 5000;
+
+function spbParseCost(input) {
+  return parseInt(input.value.replace(/[^0-9]/g,''))||0;
+}
+
+// Format cost inputs
+document.querySelectorAll('.spb-item-cost').forEach(el => {
+  el.addEventListener('input', function() {
+    let v = this.value.replace(/[^0-9]/g,'');
+    if(v) this.value = parseInt(v).toLocaleString();
+    spbUpdate();
+  });
+});
+
+function spbToggle(el) {
+  el.classList.toggle('spb-checked');
+  spbUpdate();
+}
+
+function spbUpdate() {
+  let spent = 0;
+  document.querySelectorAll('.spb-item.spb-checked').forEach(item => {
+    const input = item.querySelector('.spb-item-cost');
+    spent += spbParseCost(input);
+  });
+
+  const remaining = SPB_BUDGET - spent;
+  const pct = Math.min(100, (spent / SPB_BUDGET) * 100);
+
+  document.getElementById('spbSpent').textContent = '$' + spent.toLocaleString();
+  const remEl = document.getElementById('spbRemaining');
+  remEl.textContent = (remaining < 0 ? '-$' : '$') + Math.abs(remaining).toLocaleString();
+
+  const fill = document.getElementById('spbFill');
+  fill.style.width = Math.min(100, pct) + '%';
+
+  let cls = 'ok';
+  if (pct > 80) cls = 'warn';
+  if (pct > 100) cls = 'over';
+  remEl.className = 'spb-bb-remaining ' + cls;
+  fill.className = 'spb-bb-fill ' + cls;
+}
+
+function spbAddCustom() {
+  const name = document.getElementById('spbAddName').value.trim();
+  const costRaw = document.getElementById('spbAddCost').value.replace(/[^0-9]/g,'');
+  if (!name) return;
+  const cost = parseInt(costRaw) || 0;
+
+  const items = document.getElementById('spbItems');
+  const div = document.createElement('div');
+  div.className = 'spb-item';
+  div.setAttribute('data-roi','med');
+  div.setAttribute('data-return','2');
+  div.setAttribute('onclick','spbToggle(this)');
+  div.innerHTML = `
+    <div class="spb-item-check"><svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg></div>
+    <div class="spb-item-info">
+      <div class="spb-item-name">${name}</div>
+      <div class="spb-item-roi med">ROI: Custom item — estimate your own return</div>
+    </div>
+    <div class="spb-item-cost-wrap" onclick="event.stopPropagation()">
+      <span class="spb-item-cost-pre">$</span>
+      <input type="text" class="spb-item-cost" value="${cost.toLocaleString()}" inputmode="numeric" onchange="spbUpdate()">
+    </div>
+    <span class="spb-item-tag smart">CUSTOM</span>
+  `;
+  items.appendChild(div);
+  document.getElementById('spbAddName').value = '';
+  document.getElementById('spbAddCost').value = '';
+}
+
+function spbCalculate() {
+  let totalSpend = 0, totalReturn = 0, mustCount = 0, skipCount = 0;
+
+  document.querySelectorAll('.spb-item.spb-checked').forEach(item => {
+    const cost = spbParseCost(item.querySelector('.spb-item-cost'));
+    const ret = parseFloat(item.getAttribute('data-return')) || 2;
+    const roi = item.getAttribute('data-roi');
+    totalSpend += cost;
+    totalReturn += cost * ret;
+    if (roi === 'high') mustCount++;
+    if (roi === 'low') skipCount++;
+  });
+
+  const netROI = totalReturn - totalSpend;
+  const roiMultiple = totalSpend > 0 ? (totalReturn / totalSpend).toFixed(1) : 0;
+
+  // Banner
+  const banner = document.getElementById('spbBanner');
+  const underBudget = totalSpend <= SPB_BUDGET;
+  banner.innerHTML = `
+    <div class="spb-rb-icon">${underBudget ? '✅' : '⚠️'}</div>
+    <div class="spb-rb-title">${underBudget ? 'Smart Budget — Under $5,000' : 'Over Budget — Consider Trimming'}</div>
+    <div class="spb-rb-text">${underBudget
+      ? `You're spending ${('$'+totalSpend.toLocaleString())} strategically — well within the $5,000 smart prep budget.`
+      : `Your plan totals ${('$'+totalSpend.toLocaleString())} — that's ${('$'+(totalSpend-SPB_BUDGET).toLocaleString())} over the $5,000 target. Review the "Skip" items.`
+    }</div>
+  `;
+
+  // ROI Cards
+  document.getElementById('spbCards').innerHTML = `
+    <div class="spb-roi-card invest">
+      <div class="spb-rc-label">Your Investment</div>
+      <div class="spb-rc-val">$${totalSpend.toLocaleString()}</div>
+      <div class="spb-rc-detail">Total prep spend</div>
+    </div>
+    <div class="spb-roi-card return">
+      <div class="spb-rc-label">Estimated Return</div>
+      <div class="spb-rc-val">$${Math.round(totalReturn).toLocaleString()}</div>
+      <div class="spb-rc-detail">${roiMultiple}x return on investment</div>
+    </div>
+    <div class="spb-roi-card saved">
+      <div class="spb-rc-label">Net Gain</div>
+      <div class="spb-rc-val">$${Math.round(netROI).toLocaleString()}</div>
+      <div class="spb-rc-detail">Added value above your spend</div>
+    </div>
+  `;
+
+  // Verdict
+  const verdict = document.getElementById('spbVerdict');
+  if (skipCount > 0) {
+    verdict.className = 'spb-verdict bad';
+    verdict.innerHTML = `
+      <div class="spb-v-title">⚠️ Warning: You've selected ${skipCount} money-pit item${skipCount>1?'s':''}!</div>
+      <div class="spb-v-text">The red "Skip" items return less than $1 for every $1 spent. A construction PM would tell you to cut those and reallocate to the green "Must Do" items. You'll get a better sale price spending less money.</div>
+    `;
+  } else if (totalSpend > SPB_BUDGET) {
+    verdict.className = 'spb-verdict warn';
+    verdict.innerHTML = `
+      <div class="spb-v-title">⚠️ Over Budget</div>
+      <div class="spb-v-text">Your selections exceed $5,000. Consider which items give the highest return and cut the rest. Every dollar over budget is a dollar that could go toward your transition costs.</div>
+    `;
+  } else {
+    verdict.className = 'spb-verdict good';
+    verdict.innerHTML = `
+      <div class="spb-v-title">✅ Smart Prep Plan Approved</div>
+      <div class="spb-v-text">You're spending $${totalSpend.toLocaleString()} to generate an estimated $${Math.round(totalReturn).toLocaleString()} in value — a ${roiMultiple}x return. This is exactly how a construction PM would prep a house for sale.</div>
+    `;
+  }
+
+  document.getElementById('spbResults').classList.add('spb-active');
+  document.getElementById('spbResults').scrollIntoView({behavior:'smooth',block:'start'});
+}
+
+spbUpdate();
+</script>
+</body>
+</html>

@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Net Proceeds Calculator | Riggins Strategic Solutions</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800;900&family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+<style>
+  .npc *, .npc *::before, .npc *::after { margin: 0; padding: 0; box-sizing: border-box; }
+  .npc {
+    --navy: #1a3052; --navy-deep: #0f1f35; --navy-light: #2a4a72;
+    --gold: #c9a84c; --gold-light: #e8d48b; --gold-dark: #a88a30;
+    --g50: #f7f6f3; --g100: #f0eee9; --g200: #dbd8d0; --g400: #a09b90; --g600: #6b665c; --g800: #333028;
+    --green: #2d8a4e; --green-bg: #e8f5ec; --red: #c0392b; --red-bg: #fdecea;
+    --orange: #d4820a; --orange-bg: #fef5e7; --blue: #2a6cb8;
+    --radius: 14px; --radius-sm: 10px;
+    font-family: 'Source Sans 3', -apple-system, BlinkMacSystemFont, sans-serif;
+    color: var(--g800); line-height: 1.5; -webkit-font-smoothing: antialiased;
+    max-width: 960px; margin: 0 auto; padding: 24px 16px 60px;
+  }
+
+  .npc-header {
+    background: linear-gradient(165deg, var(--navy) 0%, var(--navy-deep) 100%);
+    border-radius: var(--radius) var(--radius) 0 0;
+    padding: 36px 28px 32px; text-align: center; position: relative; overflow: hidden;
+  }
+  .npc-header::before { content:''; position:absolute; inset:0; background: radial-gradient(ellipse at 25% 75%, rgba(201,168,76,0.07) 0%, transparent 50%); pointer-events:none; }
+  .npc-cred { font-size:11px; font-weight:600; color:rgba(255,255,255,0.4); margin-bottom:16px; position:relative; line-height:1.6; max-width:520px; margin-left:auto; margin-right:auto; }
+  .npc-header h1 { font-family:'Playfair Display',Georgia,serif; font-weight:900; font-size:clamp(26px,5vw,38px); color:#fff; line-height:1.15; position:relative; margin-bottom:10px; }
+  .npc-header h1 span { color: var(--gold); }
+  .npc-header p { font-size:15px; color:rgba(255,255,255,0.6); max-width:520px; margin:0 auto; position:relative; line-height:1.6; }
+
+  .npc-body { background:#fff; padding:32px 28px; border-bottom:1px solid var(--g200); }
+  .npc-stitle { font-family:'Playfair Display',Georgia,serif; font-weight:800; font-size:20px; color:var(--navy); margin-bottom:4px; }
+  .npc-ssub { font-size:14px; color:var(--g600); margin-bottom:20px; line-height:1.5; }
+
+  .npc-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:18px; margin-bottom:24px; }
+  .npc-field { display:flex; flex-direction:column; gap:5px; }
+  .npc-field label { font-size:12px; font-weight:700; color:var(--g600); text-transform:uppercase; letter-spacing:0.7px; line-height:1.4; }
+  .npc-field label small { display:block; font-weight:500; font-size:11px; color:var(--g400); text-transform:none; letter-spacing:0; }
+  .npc-wrap { display:flex; align-items:center; background:var(--g50); border:2px solid var(--g200); border-radius:var(--radius-sm); padding:0 14px; transition:border-color 0.2s; }
+  .npc-wrap:focus-within { border-color:var(--navy); background:#fff; }
+  .npc-pre { font-size:16px; font-weight:700; color:var(--g400); margin-right:4px; }
+  .npc-suf { font-size:13px; font-weight:600; color:var(--g400); margin-left:4px; }
+  .npc-wrap input { width:100%; border:none; background:transparent; font-family:'Source Sans 3',sans-serif; font-size:18px; font-weight:700; color:var(--g800); padding:12px 0; outline:none; }
+  .npc-wrap input::placeholder { color:var(--g400); font-weight:400; }
+  .npc-wrap select { width:100%; border:none; background:transparent; font-family:'Source Sans 3',sans-serif; font-size:16px; font-weight:700; color:var(--g800); padding:12px 0; outline:none; cursor:pointer; }
+
+  .npc-divider { height:1px; background:var(--g200); margin:8px 0 24px; }
+
+  .npc-btn { width:100%; padding:16px 32px; background:linear-gradient(160deg,var(--gold-light) 0%,var(--gold) 40%,var(--gold-dark) 100%); border:none; border-radius:var(--radius-sm); font-family:'Source Sans 3',sans-serif; font-size:17px; font-weight:700; color:var(--navy-deep); cursor:pointer; transition:transform 0.2s,box-shadow 0.2s; box-shadow:0 4px 12px rgba(201,168,76,0.3); }
+  .npc-btn:hover { transform:translateY(-2px); box-shadow:0 8px 24px rgba(201,168,76,0.4); }
+
+  /* RESULTS */
+  .npc-results { display:none; background:#fff; border-radius:0 0 var(--radius) var(--radius); overflow:hidden; }
+  .npc-results.npc-active { display:block; }
+
+  .npc-winner { padding:28px; text-align:center; border-top:2px solid var(--g100); }
+  .npc-winner-icon { font-size:48px; margin-bottom:8px; }
+  .npc-winner-title { font-family:'Playfair Display',Georgia,serif; font-weight:800; font-size:22px; color:var(--navy); margin-bottom:6px; }
+  .npc-winner-text { font-size:15px; color:var(--g600); max-width:500px; margin:0 auto; line-height:1.55; }
+
+  /* Bar Chart */
+  .npc-chart { padding:0 28px 24px; }
+  .npc-chart-title { font-family:'Playfair Display',Georgia,serif; font-weight:800; font-size:18px; color:var(--navy); margin-bottom:16px; }
+
+  .npc-bar-group { margin-bottom:16px; }
+  .npc-bar-header { display:flex; justify-content:space-between; align-items:baseline; margin-bottom:4px; }
+  .npc-bar-name { font-size:14px; font-weight:700; color:var(--g800); }
+  .npc-bar-val { font-family:'Playfair Display',Georgia,serif; font-weight:800; font-size:18px; }
+  .npc-bar-val.pos { color:var(--green); }
+  .npc-bar-val.neg { color:var(--red); }
+  .npc-bar-track { width:100%; height:28px; background:var(--g100); border-radius:6px; overflow:hidden; position:relative; }
+  .npc-bar-fill { height:100%; border-radius:6px; transition:width 0.8s cubic-bezier(0.22,1,0.36,1); display:flex; align-items:center; justify-content:flex-end; padding-right:8px; }
+  .npc-bar-fill.best { background:linear-gradient(90deg,var(--green) 0%,#3aaa62 100%); }
+  .npc-bar-fill.good { background:linear-gradient(90deg,var(--blue) 0%,#4a8cd4 100%); }
+  .npc-bar-fill.warn { background:linear-gradient(90deg,var(--orange) 0%,#e8a020 100%); }
+  .npc-bar-fill.bad { background:linear-gradient(90deg,var(--red) 0%,#e05040 100%); }
+  .npc-bar-pct { font-size:11px; font-weight:800; color:#fff; }
+  .npc-bar-detail { font-size:12px; color:var(--g400); margin-top:3px; }
+  .npc-bar-badge { display:inline-block; font-size:10px; font-weight:800; padding:2px 8px; border-radius:100px; margin-left:8px; vertical-align:2px; letter-spacing:0.5px; }
+  .npc-bar-badge.winner { background:var(--green-bg); color:var(--green); }
+  .npc-bar-badge.fastest { background:var(--orange-bg); color:var(--orange); }
+
+  /* Breakdown Table */
+  .npc-breakdown { padding:0 28px 24px; }
+  .npc-bd-title { font-family:'Playfair Display',Georgia,serif; font-weight:800; font-size:18px; color:var(--navy); margin-bottom:12px; }
+  .npc-table-wrap { overflow-x:auto; -webkit-overflow-scrolling:touch; }
+  .npc-table { width:100%; border-collapse:collapse; font-size:13px; min-width:580px; }
+  .npc-table th { text-align:left; padding:10px 12px; background:var(--navy); color:#fff; font-weight:700; font-size:11px; text-transform:uppercase; letter-spacing:0.7px; white-space:nowrap; }
+  .npc-table th:first-child { border-radius:8px 0 0 0; }
+  .npc-table th:last-child { border-radius:0 8px 0 0; }
+  .npc-table td { padding:10px 12px; border-bottom:1px solid var(--g100); font-weight:600; }
+  .npc-table tr:nth-child(even) td { background:var(--g50); }
+  .npc-table .row-total td { font-weight:800; border-top:2px solid var(--navy); background:rgba(26,48,82,0.03); }
+  .npc-table .val-green { color:var(--green); font-weight:800; }
+  .npc-table .val-red { color:var(--red); }
+
+  /* Insight */
+  .npc-insight { margin:0 28px 24px; background:linear-gradient(135deg,rgba(201,168,76,0.06) 0%,rgba(201,168,76,0.02) 100%); border:1px solid rgba(201,168,76,0.15); border-radius:var(--radius-sm); padding:18px 20px; }
+  .npc-insight-title { font-size:13px; font-weight:800; color:var(--gold-dark); margin-bottom:6px; }
+  .npc-insight-text { font-size:14px; font-weight:600; color:var(--g800); line-height:1.6; font-style:italic; }
+  .npc-insight-sig { margin-top:8px; font-style:normal; font-weight:700; font-size:12px; color:var(--gold-dark); }
+
+  /* Question callout */
+  .npc-question { margin:0 28px 24px; background:var(--g50); border:1px solid var(--g200); border-radius:var(--radius-sm); padding:20px; text-align:center; }
+  .npc-question-text { font-family:'Playfair Display',Georgia,serif; font-weight:800; font-size:18px; color:var(--navy); margin-bottom:6px; }
+  .npc-question-sub { font-size:14px; color:var(--g600); }
+
+  /* Footer */
+  .npc-footer { background:var(--navy); padding:32px 28px; text-align:center; border-radius:0 0 var(--radius) var(--radius); }
+  .npc-footer p { font-size:15px; color:rgba(255,255,255,0.7); margin-bottom:16px; max-width:480px; margin-left:auto; margin-right:auto; line-height:1.6; }
+  .npc-footer p strong { color:var(--gold-light); }
+  .npc-footer-btn { display:inline-block; padding:16px 36px; background:linear-gradient(160deg,var(--gold-light) 0%,var(--gold) 40%,var(--gold-dark) 100%); border:none; border-radius:var(--radius-sm); font-family:'Source Sans 3',sans-serif; font-size:16px; font-weight:700; color:var(--navy-deep); cursor:pointer; text-decoration:none; transition:transform 0.2s,box-shadow 0.2s; box-shadow:0 4px 12px rgba(201,168,76,0.3); }
+  .npc-footer-btn:hover { transform:translateY(-2px); box-shadow:0 8px 24px rgba(201,168,76,0.4); }
+
+  @media (max-width:768px) {
+    .npc { padding:12px 8px 40px; }
+    .npc-header { padding:28px 16px; }
+    .npc-body { padding:24px 16px; }
+    .npc-grid { grid-template-columns:1fr; }
+    .npc-chart { padding:0 16px 20px; }
+    .npc-breakdown { padding:0 16px 20px; }
+    .npc-insight { margin:0 16px 20px; }
+    .npc-question { margin:0 16px 20px; }
+    .npc-footer { padding:24px 16px; }
+    .npc-winner { padding:20px 16px; }
+  }
+</style>
+</head>
+<body>
+<div class="npc">
+  <div class="npc-header">
+    <div class="npc-cred">Developed by Ryan Riggins: Senior Protection Coordinator, Licensed Real Estate Broker, and former Construction Project Manager</div>
+    <h1>The Net Proceeds <span>Calculator</span></h1>
+    <p>Stop guessing. See exactly what you'll walk away with across 5 different sale strategies — after ALL costs are subtracted.</p>
+  </div>
+
+  <div class="npc-body">
+    <div class="npc-stitle">Your Property Details</div>
+    <div class="npc-ssub">Enter your numbers below. We'll calculate net proceeds for every exit strategy so you can compare them honestly.</div>
+
+    <div class="npc-grid">
+      <div class="npc-field">
+        <label>Estimated Market Value</label>
+        <div class="npc-wrap">
+          <span class="npc-pre">$</span>
+          <input type="text" id="npcValue" value="300,000" inputmode="numeric">
+        </div>
+      </div>
+      <div class="npc-field">
+        <label>Mortgage Balance</label>
+        <div class="npc-wrap">
+          <span class="npc-pre">$</span>
+          <input type="text" id="npcMortgage" value="0" inputmode="numeric">
+        </div>
+      </div>
+      <div class="npc-field">
+        <label>Estimated Repair Costs <small>What a typical agent would recommend</small></label>
+        <div class="npc-wrap">
+          <span class="npc-pre">$</span>
+          <input type="text" id="npcRepairs" value="30,000" inputmode="numeric">
+        </div>
+      </div>
+      <div class="npc-field">
+        <label>Monthly Carrying Costs <small>Mortgage + utilities + insurance + taxes</small></label>
+        <div class="npc-wrap">
+          <span class="npc-pre">$</span>
+          <input type="text" id="npcCarry" value="2,500" inputmode="numeric">
+        </div>
+      </div>
+      <div class="npc-field">
+        <label>Commission Rate</label>
+        <div class="npc-wrap">
+          <input type="text" id="npcComm" value="6" inputmode="numeric" style="max-width:60px;">
+          <span class="npc-suf">%</span>
+        </div>
+      </div>
+      <div class="npc-field">
+        <label>Staging Costs <small>Professional staging if applicable</small></label>
+        <div class="npc-wrap">
+          <span class="npc-pre">$</span>
+          <input type="text" id="npcStaging" value="0" inputmode="numeric">
+        </div>
+      </div>
+    </div>
+
+    <div class="npc-divider"></div>
+    <div class="npc-stitle">Owner Financing Terms (Optional)</div>
+    <div class="npc-ssub">If you're considering selling with owner financing, adjust these terms.</div>
+    <div class="npc-grid">
+      <div class="npc-field">
+        <label>Down Payment %</label>
+        <div class="npc-wrap">
+          <input type="text" id="npcOfDp" value="10" inputmode="numeric" style="max-width:60px;">
+          <span class="npc-suf">%</span>
+        </div>
+      </div>
+      <div class="npc-field">
+        <label>Interest Rate</label>
+        <div class="npc-wrap">
+          <input type="text" id="npcOfRate" value="7" inputmode="numeric" style="max-width:60px;">
+          <span class="npc-suf">%</span>
+        </div>
+      </div>
+    </div>
+
+    <div style="margin-top:24px;">
+      <button class="npc-btn" onclick="npcCalculate()">💰 Calculate Net Proceeds for All 5 Strategies</button>
+    </div>
+  </div>
+
+  <div class="npc-results" id="npcResults">
+    <div class="npc-winner" id="npcWinner"></div>
+    <div class="npc-chart" id="npcChart"></div>
+    <div class="npc-breakdown" id="npcBreakdown"></div>
+
+    <div class="npc-question">
+      <div class="npc-question-text">Is the extra money worth the extra time and stress?</div>
+      <div class="npc-question-sub">The highest net proceeds isn't always the best choice. Factor in your timeline, emotional capacity, and family situation.</div>
+    </div>
+
+    <div class="npc-insight">
+      <div class="npc-insight-title">🔧 Ryan's Construction PM Insight</div>
+      <div class="npc-insight-text">"After 8 years flipping houses, I can tell you: most agents will push the traditional listing because that's how they get paid. But when you subtract the $30K kitchen renovation that returns $12K, plus 4 months of carrying costs at $2,500/month, plus 6% commission — the 'highest price' strategy often nets LESS than an as-is cash offer. Run the numbers. That's what this calculator is for."</div>
+      <div class="npc-insight-sig">— Ryan Riggins, Senior Protection Coordinator & Licensed Broker</div>
+    </div>
+
+    <div class="npc-footer">
+      <p>This calculator covers 5 strategies. <strong>The Senior Transition Blueprint</strong> gives you all 19 modules — including how to negotiate each one, the legal protections you need, and the mistakes that cost families $20,000+.</p>
+      <div style="display:flex;flex-direction:column;gap:12px;max-width:480px;margin:0 auto;">
+        <a href="https://www.rigginsstrategicsolutions.com/the-blueprint" class="npc-footer-btn" style="display:block;text-align:center;">📋 Get the Senior Transition Blueprint — $47</a>
+        <a href="https://api.leadconnectorhq.com/widget/booking/PEGCu2kXYDZgAPPzXGv5" class="npc-footer-btn" style="display:block;text-align:center;background:rgba(255,255,255,0.1);border:2px solid rgba(255,255,255,0.3);color:#fff;box-shadow:none;">📞 Book a Free Call with Ryan</a>
+        <a href="https://www.rigginsstrategicsolutions.com/starterguide" style="display:block;text-align:center;color:rgba(255,255,255,0.6);font-size:14px;font-weight:600;text-decoration:none;padding:8px;">📖 Not ready? Download the Free Starter Guide</a>
+        <a href="sms:3365538933" style="display:block;text-align:center;padding:14px 24px;background:rgba(255,255,255,0.15);border:2px solid rgba(255,255,255,0.4);border-radius:10px;color:#fff;font-size:16px;font-weight:700;text-decoration:none;font-family:'Source Sans 3',sans-serif;">💬 Just Text Ryan — (336) 553-8933</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+function npcParse(id) { return parseInt(document.getElementById(id).value.replace(/[^0-9.-]/g,''))||0; }
+function npcFmt(n) { return (n<0?'-$':'$')+Math.abs(Math.round(n)).toLocaleString(); }
+function npcFmtMo(n) { return '$'+Math.round(n).toLocaleString()+'/mo'; }
+function npcMP(principal,rate,years) { const r=rate/12; const n=years*12; if(r===0) return principal/n; return principal*(r*Math.pow(1+r,n))/(Math.pow(1+r,n)-1); }
+
+document.querySelectorAll('#npcValue,#npcMortgage,#npcRepairs,#npcCarry,#npcStaging').forEach(el=>{
+  el.addEventListener('input',function(){ let v=this.value.replace(/[^0-9]/g,''); if(v) this.value=parseInt(v).toLocaleString(); });
+});
+
+function npcCalculate() {
+  const mv=npcParse('npcValue'), mtg=npcParse('npcMortgage'), repairs=npcParse('npcRepairs'),
+        carry=npcParse('npcCarry'), commPct=parseFloat(document.getElementById('npcComm').value)||6,
+        staging=npcParse('npcStaging'),
+        ofDpPct=(parseFloat(document.getElementById('npcOfDp').value)||10)/100,
+        ofRate=(parseFloat(document.getElementById('npcOfRate').value)||7)/100;
+
+  const comm = mv*(commPct/100);
+  const closing_trad = mv*0.015;
+  const carry4 = carry*4;
+
+  const strategies = [
+    {
+      name: 'Traditional MLS Listing',
+      short: 'Traditional',
+      time: '3-6 months',
+      costs: [
+        { label: `Commission (${commPct}%)`, val: comm },
+        { label: 'Repairs & Updates', val: repairs },
+        { label: 'Staging', val: staging },
+        { label: 'Closing Costs (1.5%)', val: closing_trad },
+        { label: '4 Months Carrying Costs', val: carry4 },
+      ],
+      get totalCosts() { return this.costs.reduce((a,c)=>a+c.val,0); },
+      get net() { return mv - this.totalCosts - mtg; },
+    },
+    {
+      name: 'As-Is Cash Offer (75%)',
+      short: 'Cash Offer',
+      time: '14-21 days',
+      costs: [
+        { label: 'Sale Price Discount (25%)', val: mv*0.25 },
+        { label: 'Closing Costs', val: 1500 },
+      ],
+      get totalCosts() { return this.costs.reduce((a,c)=>a+c.val,0); },
+      get net() { return mv - this.totalCosts - mtg; },
+      isFastest: true,
+    },
+    {
+      name: 'As-Is Cash Offer (85%)',
+      short: 'Cash (85%)',
+      time: '14-21 days',
+      costs: [
+        { label: 'Sale Price Discount (15%)', val: mv*0.15 },
+        { label: 'Closing Costs', val: 1500 },
+      ],
+      get totalCosts() { return this.costs.reduce((a,c)=>a+c.val,0); },
+      get net() { return mv - this.totalCosts - mtg; },
+    },
+    {
+      name: 'Hybrid (Clean & List, No Major Repairs)',
+      short: 'Hybrid',
+      time: '45-90 days',
+      costs: [
+        { label: `Commission (${commPct}%)`, val: comm },
+        { label: 'Light Prep (Clean/Paint Only)', val: Math.min(3000, repairs*0.1) },
+        { label: 'Closing Costs (1.5%)', val: closing_trad },
+        { label: '2 Months Carrying Costs', val: carry*2 },
+      ],
+      get totalCosts() { return this.costs.reduce((a,c)=>a+c.val,0); },
+      get net() { return mv*0.97 - this.totalCosts - mtg; }, // Slightly below full market
+    },
+    {
+      name: 'Owner Financing',
+      short: 'Owner Finance',
+      time: '30 years (stream)',
+      isStream: true,
+      costs: [],
+      get dp() { return mv*ofDpPct; },
+      get balance() { return mv - this.dp; },
+      get monthly() { return npcMP(this.balance, ofRate, 30); },
+      get total30yr() { return this.dp + (this.monthly*360); },
+      get totalCosts() { return 0; },
+      get net() { return this.dp - mtg; }, // Immediate cash
+    }
+  ];
+
+  // Find best net (non-stream)
+  let bestNet = -Infinity;
+  strategies.forEach(s=>{ if(!s.isStream && s.net>bestNet) bestNet=s.net; });
+
+  // Winner
+  const winner = strategies.find(s=>!s.isStream && s.net===bestNet);
+  const fastest = strategies.find(s=>s.isFastest);
+  const diff = bestNet - (fastest?fastest.net:0);
+
+  const winEl = document.getElementById('npcWinner');
+  winEl.innerHTML = `
+    <div class="npc-winner-icon">💰</div>
+    <div class="npc-winner-title">Highest Net Proceeds: ${winner.short} at ${npcFmt(bestNet)}</div>
+    <div class="npc-winner-text">
+      ${fastest && diff > 0
+        ? `That's ${npcFmt(diff)} more than the fastest option (${fastest.short}). But the ${fastest.short} closes in ${fastest.time} vs. ${winner.time}. Is ${npcFmt(diff)} worth the extra wait?`
+        : `The cash offer actually beats or matches the traditional listing after all costs are subtracted.`
+      }
+    </div>
+  `;
+
+  // Bar Chart
+  const chartEl = document.getElementById('npcChart');
+  const maxNet = Math.max(...strategies.filter(s=>!s.isStream).map(s=>s.net), 1);
+  let bars = '<div class="npc-chart-title">Net Proceeds Comparison</div>';
+
+  strategies.forEach(s => {
+    const net = s.isStream ? s.dp - mtg : s.net;
+    const pct = Math.max(0, Math.round((net/maxNet)*100));
+    const isBest = !s.isStream && s.net === bestNet && s.net > 0;
+    let fillClass = pct > 75 ? 'best' : pct > 50 ? 'good' : pct > 25 ? 'warn' : 'bad';
+    if (net <= 0) fillClass = 'bad';
+
+    let badge = '';
+    if (isBest) badge = '<span class="npc-bar-badge winner">★ BEST NET</span>';
+    if (s.isFastest) badge += '<span class="npc-bar-badge fastest">⚡ FASTEST</span>';
+
+    let detail = s.isStream
+      ? `${npcFmt(s.dp)} down + ${npcFmtMo(s.monthly)} for 30yr = ${npcFmt(s.total30yr)} total`
+      : `Sale: ${npcFmt(mv)} − Costs: ${npcFmt(s.totalCosts)} − Mortgage: ${npcFmt(mtg)} | Timeline: ${s.time}`;
+
+    bars += `
+      <div class="npc-bar-group">
+        <div class="npc-bar-header">
+          <span class="npc-bar-name">${s.name}${badge}</span>
+          <span class="npc-bar-val ${net>=0?'pos':'neg'}">${s.isStream ? npcFmtMo(s.monthly) : npcFmt(net)}</span>
+        </div>
+        <div class="npc-bar-track">
+          <div class="npc-bar-fill ${fillClass}" style="width:${Math.max(3,pct)}%">
+            ${pct > 15 ? `<span class="npc-bar-pct">${pct}%</span>` : ''}
+          </div>
+        </div>
+        <div class="npc-bar-detail">${detail}</div>
+      </div>`;
+  });
+  chartEl.innerHTML = bars;
+
+  // Breakdown Table
+  const bdEl = document.getElementById('npcBreakdown');
+  let rows = '';
+  strategies.filter(s=>!s.isStream).forEach(s => {
+    const isBest = s.net === bestNet && s.net > 0;
+    s.costs.forEach((c,i) => {
+      rows += `<tr><td>${i===0?s.short:''}</td><td>${c.label}</td><td class="val-red">-${npcFmt(c.val)}</td></tr>`;
+    });
+    rows += `<tr class="row-total"><td>${s.costs.length===0?s.short:''}</td><td>NET PROCEEDS</td><td class="${s.net>=0?'val-green':'val-red'}">${npcFmt(s.net)}</td></tr>`;
+  });
+
+  bdEl.innerHTML = `
+    <div class="npc-bd-title">Detailed Cost Breakdown</div>
+    <div class="npc-table-wrap">
+      <table class="npc-table">
+        <thead><tr><th>Strategy</th><th>Cost Item</th><th>Amount</th></tr></thead>
+        <tbody>${rows}</tbody>
+      </table>
+    </div>
+  `;
+
+  document.getElementById('npcResults').classList.add('npc-active');
+  document.getElementById('npcResults').scrollIntoView({behavior:'smooth',block:'start'});
+}
+</script>
+</body>
+</html>

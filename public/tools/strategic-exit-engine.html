@@ -1,0 +1,1219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Strategic Exit Engine | Riggins Strategic Solutions</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800;900&family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+  :root {
+    --navy: #1a3052;
+    --navy-deep: #0f1f35;
+    --navy-light: #2a4a72;
+    --burgundy: #8b1a2b;
+    --gold: #c9a84c;
+    --gold-light: #e8d48b;
+    --gold-dark: #a88a30;
+    --cream: #faf8f4;
+    --gray-50: #f7f6f3;
+    --gray-100: #f0eee9;
+    --gray-200: #dbd8d0;
+    --gray-400: #a09b90;
+    --gray-600: #6b665c;
+    --gray-800: #333028;
+    --green: #2d8a4e;
+    --green-light: #e8f5ec;
+    --red: #c0392b;
+    --red-light: #fdecea;
+    --orange: #d4820a;
+    --orange-light: #fef5e7;
+    --blue-light: #eaf2fa;
+    --shadow-sm: 0 1px 3px rgba(26,48,82,0.06);
+    --shadow-md: 0 4px 16px rgba(26,48,82,0.08);
+    --shadow-lg: 0 8px 40px rgba(26,48,82,0.12);
+    --radius: 14px;
+    --radius-sm: 10px;
+  }
+
+  body {
+    font-family: 'Source Sans 3', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: var(--gray-50);
+    color: var(--gray-800);
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .see-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 24px 16px 60px;
+  }
+
+  /* ════════════════════════════════════════════
+     HEADER
+  ════════════════════════════════════════════ */
+  .see-header {
+    text-align: center;
+    padding: 40px 20px 36px;
+    background: linear-gradient(165deg, var(--navy) 0%, var(--navy-deep) 100%);
+    border-radius: var(--radius) var(--radius) 0 0;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .see-header::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(ellipse at 20% 80%, rgba(201,168,76,0.08) 0%, transparent 50%),
+      radial-gradient(ellipse at 80% 20%, rgba(201,168,76,0.05) 0%, transparent 40%);
+    pointer-events: none;
+  }
+
+  .see-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: rgba(201,168,76,0.15);
+    border: 1px solid rgba(201,168,76,0.25);
+    border-radius: 100px;
+    padding: 5px 14px;
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--gold-light);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 16px;
+    position: relative;
+  }
+
+  .see-header h1 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 900;
+    font-size: clamp(28px, 5vw, 42px);
+    color: #fff;
+    line-height: 1.15;
+    letter-spacing: -0.5px;
+    position: relative;
+    margin-bottom: 8px;
+  }
+
+  .see-header h1 span { color: var(--gold); }
+
+  .see-header p {
+    font-size: 16px;
+    color: rgba(255,255,255,0.65);
+    max-width: 560px;
+    margin: 0 auto;
+    position: relative;
+    line-height: 1.6;
+  }
+
+  /* ════════════════════════════════════════════
+     GLOBAL INPUTS
+  ════════════════════════════════════════════ */
+  .see-inputs {
+    background: #fff;
+    padding: 32px 28px 28px;
+    border-bottom: 1px solid var(--gray-200);
+  }
+
+  .see-inputs-title {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 800;
+    font-size: 20px;
+    color: var(--navy);
+    margin-bottom: 4px;
+  }
+
+  .see-inputs-sub {
+    font-size: 14px;
+    color: var(--gray-600);
+    margin-bottom: 24px;
+  }
+
+  .see-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 20px;
+  }
+
+  .see-field {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .see-field label {
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--gray-600);
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+  }
+
+  .see-field-wrap {
+    display: flex;
+    align-items: center;
+    background: var(--gray-50);
+    border: 2px solid var(--gray-200);
+    border-radius: var(--radius-sm);
+    padding: 0 14px;
+    transition: border-color 0.2s;
+  }
+
+  .see-field-wrap:focus-within {
+    border-color: var(--navy);
+    background: #fff;
+  }
+
+  .see-field-prefix {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--gray-400);
+    margin-right: 4px;
+    user-select: none;
+  }
+
+  .see-field-suffix {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--gray-400);
+    margin-left: 4px;
+    user-select: none;
+  }
+
+  .see-field input {
+    width: 100%;
+    border: none;
+    background: transparent;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--gray-800);
+    padding: 12px 0;
+    outline: none;
+  }
+
+  .see-field input::placeholder {
+    color: var(--gray-400);
+    font-weight: 400;
+  }
+
+  /* Slider */
+  .see-slider-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .see-slider-display {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 800;
+    font-size: 28px;
+    color: var(--navy);
+  }
+
+  .see-slider {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 8px;
+    border-radius: 4px;
+    background: linear-gradient(to right, var(--gold) 0%, var(--gold) var(--pct, 50%), var(--gray-200) var(--pct, 50%), var(--gray-200) 100%);
+    outline: none;
+    cursor: pointer;
+  }
+
+  .see-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: var(--navy);
+    border: 3px solid #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    cursor: pointer;
+  }
+
+  .see-slider::-moz-range-thumb {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: var(--navy);
+    border: 3px solid #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    cursor: pointer;
+  }
+
+  .see-slider-labels {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: var(--gray-400);
+    font-weight: 600;
+  }
+
+  .see-calculate-btn {
+    grid-column: 1 / -1;
+    margin-top: 8px;
+    padding: 16px 32px;
+    background: linear-gradient(160deg, var(--gold-light) 0%, var(--gold) 40%, var(--gold-dark) 100%);
+    border: none;
+    border-radius: var(--radius-sm);
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    color: var(--navy-deep);
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 4px 12px rgba(201,168,76,0.3), 0 1px 3px rgba(0,0,0,0.15);
+    letter-spacing: 0.3px;
+  }
+
+  .see-calculate-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(201,168,76,0.4), 0 2px 6px rgba(0,0,0,0.15);
+  }
+
+  .see-calculate-btn:active { transform: translateY(0); }
+
+  /* ════════════════════════════════════════════
+     RESULTS
+  ════════════════════════════════════════════ */
+  .see-results {
+    background: #fff;
+    border-radius: 0 0 var(--radius) var(--radius);
+    overflow: hidden;
+    display: none;
+  }
+
+  .see-results.active { display: block; }
+
+  .see-results-header {
+    padding: 28px 28px 20px;
+    border-bottom: 1px solid var(--gray-200);
+  }
+
+  .see-results-title {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 800;
+    font-size: 22px;
+    color: var(--navy);
+    margin-bottom: 4px;
+  }
+
+  .see-results-sub {
+    font-size: 14px;
+    color: var(--gray-600);
+  }
+
+  /* Strategy Cards */
+  .see-strategies {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    gap: 0;
+  }
+
+  .see-card {
+    padding: 24px 28px;
+    border-bottom: 1px solid var(--gray-100);
+    border-right: 1px solid var(--gray-100);
+    position: relative;
+    transition: background 0.2s;
+  }
+
+  .see-card:hover { background: var(--gray-50); }
+
+  .see-card.best {
+    background: linear-gradient(135deg, rgba(45,138,78,0.04) 0%, rgba(45,138,78,0.01) 100%);
+  }
+
+  .see-card.best::before {
+    content: '★ BEST NET PROCEEDS';
+    position: absolute;
+    top: 12px;
+    right: 16px;
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 1.2px;
+    color: var(--green);
+    background: var(--green-light);
+    padding: 3px 10px;
+    border-radius: 100px;
+  }
+
+  .see-card.fastest::before {
+    content: '⚡ FASTEST TO CASH';
+    position: absolute;
+    top: 12px;
+    right: 16px;
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 1.2px;
+    color: var(--orange);
+    background: var(--orange-light);
+    padding: 3px 10px;
+    border-radius: 100px;
+  }
+
+  .see-card-num {
+    font-size: 11px;
+    font-weight: 800;
+    color: var(--gold-dark);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 4px;
+  }
+
+  .see-card-name {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 800;
+    font-size: 20px;
+    color: var(--navy);
+    margin-bottom: 2px;
+  }
+
+  .see-card-tagline {
+    font-size: 13px;
+    color: var(--gray-600);
+    margin-bottom: 16px;
+    font-style: italic;
+  }
+
+  /* Key Metrics Row */
+  .see-metrics {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin-bottom: 16px;
+  }
+
+  .see-metric {
+    background: var(--gray-50);
+    border-radius: 8px;
+    padding: 12px;
+  }
+
+  .see-card:hover .see-metric { background: var(--gray-100); }
+
+  .see-metric-label {
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--gray-400);
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    margin-bottom: 2px;
+  }
+
+  .see-metric-value {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 800;
+    font-size: 22px;
+    color: var(--navy);
+  }
+
+  .see-metric-value.positive { color: var(--green); }
+  .see-metric-value.negative { color: var(--red); }
+  .see-metric-value.stream {
+    font-size: 18px;
+    color: var(--navy-light);
+  }
+
+  .see-metric-detail {
+    font-size: 12px;
+    color: var(--gray-600);
+    margin-top: 2px;
+  }
+
+  /* Stress Gauge */
+  .see-stress {
+    margin-bottom: 14px;
+  }
+
+  .see-stress-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 6px;
+  }
+
+  .see-stress-label {
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--gray-400);
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+  }
+
+  .see-stress-score {
+    font-size: 12px;
+    font-weight: 800;
+  }
+
+  .see-stress-bar {
+    width: 100%;
+    height: 8px;
+    background: var(--gray-100);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+
+  .see-stress-fill {
+    height: 100%;
+    border-radius: 4px;
+    transition: width 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  /* Warning Box */
+  .see-warning {
+    background: var(--red-light);
+    border-left: 3px solid var(--red);
+    border-radius: 0 6px 6px 0;
+    padding: 10px 12px;
+    margin-bottom: 14px;
+    font-size: 13px;
+    color: var(--red);
+    font-weight: 600;
+    line-height: 1.45;
+  }
+
+  .see-warning svg {
+    width: 14px;
+    height: 14px;
+    fill: var(--red);
+    vertical-align: -2px;
+    margin-right: 4px;
+  }
+
+  /* Constraint/Info Box */
+  .see-info {
+    background: var(--blue-light);
+    border-left: 3px solid var(--navy-light);
+    border-radius: 0 6px 6px 0;
+    padding: 10px 12px;
+    margin-bottom: 14px;
+    font-size: 13px;
+    color: var(--navy);
+    font-weight: 600;
+    line-height: 1.45;
+  }
+
+  /* Ryan's Expert Tip */
+  .see-tip {
+    background: linear-gradient(135deg, rgba(201,168,76,0.06) 0%, rgba(201,168,76,0.02) 100%);
+    border: 1px solid rgba(201,168,76,0.15);
+    border-radius: 8px;
+    padding: 12px 14px;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+
+  .see-tip:hover {
+    background: linear-gradient(135deg, rgba(201,168,76,0.1) 0%, rgba(201,168,76,0.04) 100%);
+  }
+
+  .see-tip-toggle {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--gold-dark);
+  }
+
+  .see-tip-toggle .arrow {
+    transition: transform 0.2s;
+    font-size: 10px;
+  }
+
+  .see-tip.open .arrow { transform: rotate(90deg); }
+
+  .see-tip-content {
+    display: none;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid rgba(201,168,76,0.15);
+    font-size: 14px;
+    color: var(--gray-800);
+    line-height: 1.6;
+    font-style: italic;
+  }
+
+  .see-tip.open .see-tip-content { display: block; }
+
+  .see-tip-sig {
+    margin-top: 8px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    color: var(--gold-dark);
+  }
+
+  /* ════════════════════════════════════════════
+     COMPARISON SUMMARY TABLE
+  ════════════════════════════════════════════ */
+  .see-summary {
+    padding: 28px;
+    border-top: 2px solid var(--navy);
+  }
+
+  .see-summary-title {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 800;
+    font-size: 20px;
+    color: var(--navy);
+    margin-bottom: 16px;
+  }
+
+  .see-table-wrap {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .see-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+    min-width: 600px;
+  }
+
+  .see-table th {
+    text-align: left;
+    padding: 10px 14px;
+    background: var(--navy);
+    color: #fff;
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    white-space: nowrap;
+  }
+
+  .see-table th:first-child { border-radius: 8px 0 0 0; }
+  .see-table th:last-child { border-radius: 0 8px 0 0; }
+
+  .see-table td {
+    padding: 12px 14px;
+    border-bottom: 1px solid var(--gray-100);
+    font-weight: 600;
+    white-space: nowrap;
+  }
+
+  .see-table tr:nth-child(even) td { background: var(--gray-50); }
+
+  .see-table tr.highlight td {
+    background: var(--green-light);
+    font-weight: 800;
+  }
+
+  .see-table .proceeds { color: var(--green); font-weight: 800; }
+  .see-table .negative-val { color: var(--red); }
+
+  /* ════════════════════════════════════════════
+     FOOTER CTA
+  ════════════════════════════════════════════ */
+  .see-footer {
+    background: var(--navy);
+    padding: 32px 28px;
+    text-align: center;
+    border-radius: 0 0 var(--radius) var(--radius);
+  }
+
+  .see-footer p {
+    font-size: 16px;
+    color: rgba(255,255,255,0.75);
+    margin-bottom: 16px;
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+  }
+
+  .see-footer p strong { color: var(--gold-light); }
+
+  .see-footer-btn {
+    display: inline-block;
+    padding: 16px 36px;
+    background: linear-gradient(160deg, var(--gold-light) 0%, var(--gold) 40%, var(--gold-dark) 100%);
+    border: none;
+    border-radius: var(--radius-sm);
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    color: var(--navy-deep);
+    cursor: pointer;
+    text-decoration: none;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 4px 12px rgba(201,168,76,0.3);
+  }
+
+  .see-footer-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(201,168,76,0.4);
+  }
+
+  /* ════════════════════════════════════════════
+     OWNER FINANCE INPUTS
+  ════════════════════════════════════════════ */
+  .see-of-inputs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 12px;
+  }
+
+  .see-of-field {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+  }
+
+  .see-of-field label {
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--gray-400);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .see-of-field input {
+    border: 1px solid var(--gray-200);
+    border-radius: 6px;
+    padding: 8px 10px;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--gray-800);
+    background: var(--gray-50);
+    outline: none;
+    width: 100%;
+    transition: border-color 0.2s;
+  }
+
+  .see-of-field input:focus {
+    border-color: var(--navy);
+    background: #fff;
+  }
+
+  /* ════════════════════════════════════════════
+     RESPONSIVE
+  ════════════════════════════════════════════ */
+  @media (max-width: 768px) {
+    .see-container { padding: 12px 8px 40px; }
+    .see-header { padding: 28px 16px; }
+    .see-inputs { padding: 24px 16px 20px; }
+    .see-grid { grid-template-columns: 1fr; gap: 16px; }
+    .see-strategies { grid-template-columns: 1fr; }
+    .see-card { padding: 20px 16px; border-right: none; }
+    .see-summary { padding: 20px 16px; }
+    .see-footer { padding: 24px 16px; }
+    .see-results-header { padding: 20px 16px; }
+    .see-of-inputs { grid-template-columns: 1fr; }
+  }
+
+  @media (max-width: 400px) {
+    .see-metrics { grid-template-columns: 1fr; gap: 8px; }
+    .see-card-name { font-size: 18px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="see-container">
+
+  <!-- HEADER -->
+  <div class="see-header">
+    <div class="see-badge">🔧 Built by an Investor/Project Manager, Not a Sales Agent</div>
+    <h1>The Strategic <span>Exit Engine</span></h1>
+    <p>Compare 6 ways to sell your family home side-by-side. Know exactly what you'll net, how long it takes, and the stress involved — before you talk to a single agent.</p>
+  </div>
+
+  <!-- GLOBAL INPUTS -->
+  <div class="see-inputs">
+    <div class="see-inputs-title">Your Property Details</div>
+    <div class="see-inputs-sub">Adjust these numbers to match your situation. All 6 strategies update automatically.</div>
+
+    <div class="see-grid">
+      <!-- Market Value (Slider + Editable Input) -->
+      <div class="see-field" style="grid-column: 1 / -1;">
+        <label>Estimated Market Value</label>
+        <div class="see-slider-wrap">
+          <div style="display:flex;align-items:center;gap:8px;margin-bottom:4px;">
+            <span class="see-field-prefix" style="font-size:24px;font-weight:800;color:var(--navy);">$</span>
+            <input type="text" id="mvInput" value="300,000" inputmode="numeric"
+              style="font-family:'Playfair Display',Georgia,serif;font-weight:800;font-size:28px;color:var(--navy);border:none;border-bottom:2px solid var(--gold);background:transparent;outline:none;width:200px;padding:2px 0;">
+          </div>
+          <input type="range" class="see-slider" id="marketValue" min="75000" max="1000000" step="5000" value="300000">
+          <div class="see-slider-labels"><span>$75K</span><span>$500K</span><span>$1M</span></div>
+        </div>
+      </div>
+
+      <!-- Mortgage Balance -->
+      <div class="see-field">
+        <label>Mortgage Balance</label>
+        <div class="see-field-wrap">
+          <span class="see-field-prefix">$</span>
+          <input type="text" id="mortgage" value="0" inputmode="numeric" placeholder="0">
+        </div>
+      </div>
+
+      <!-- Estimated Repairs -->
+      <div class="see-field">
+        <label>Estimated "HGTV-Style" Repairs</label>
+        <div class="see-field-wrap">
+          <span class="see-field-prefix">$</span>
+          <input type="text" id="repairs" value="30,000" inputmode="numeric" placeholder="30,000">
+        </div>
+      </div>
+
+      <!-- Monthly Carrying Costs -->
+      <div class="see-field">
+        <label>Monthly Carrying Costs</label>
+        <div class="see-field-wrap">
+          <span class="see-field-prefix">$</span>
+          <input type="text" id="carrying" value="2,500" inputmode="numeric" placeholder="2,500">
+        </div>
+      </div>
+
+      <!-- Calculate Button -->
+      <button class="see-calculate-btn" id="calcBtn" onclick="calculate()">
+        ⚡ Calculate All 6 Exit Strategies
+      </button>
+    </div>
+  </div>
+
+  <!-- RESULTS -->
+  <div class="see-results" id="seeResults">
+    <div class="see-results-header">
+      <div class="see-results-title">Your 6 Exit Strategies Compared</div>
+      <div class="see-results-sub">Based on a home valued at <strong id="seeResultVal">$300,000</strong></div>
+    </div>
+
+    <div class="see-strategies" id="seeStrategies"></div>
+
+    <!-- COMPARISON TABLE -->
+    <div class="see-summary">
+      <div class="see-summary-title">Side-by-Side Comparison</div>
+      <div class="see-table-wrap">
+        <table class="see-table" id="seeCompTable">
+          <thead>
+            <tr>
+              <th>Strategy</th>
+              <th>Net Proceeds</th>
+              <th>Time to Cash</th>
+              <th>Stress</th>
+              <th>Best When…</th>
+            </tr>
+          </thead>
+          <tbody id="seeCompBody"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- FOOTER CTA -->
+    <div class="see-footer">
+      <p>Most families don't know they have <strong>5 options beyond a traditional listing.</strong> The right exit strategy can save you $20,000–$50,000 in unnecessary costs.</p>
+      <div style="display:flex;flex-direction:column;gap:12px;max-width:480px;margin:0 auto;">
+        <a href="https://www.rigginsstrategicsolutions.com/the-blueprint" class="see-footer-btn" style="display:block;text-align:center;">📋 Get the Senior Transition Blueprint — $47</a>
+        <a href="https://api.leadconnectorhq.com/widget/booking/PEGCu2kXYDZgAPPzXGv5" class="see-footer-btn" style="display:block;text-align:center;background:rgba(255,255,255,0.1);border:2px solid rgba(255,255,255,0.3);color:#fff;box-shadow:none;">📞 Book a Free Call with Ryan</a>
+        <a href="https://www.rigginsstrategicsolutions.com/starterguide" style="display:block;text-align:center;color:rgba(255,255,255,0.6);font-size:14px;font-weight:600;text-decoration:none;padding:8px;">📖 Not ready? Download the Free Starter Guide</a>
+        <a href="sms:3365538933" style="display:block;text-align:center;padding:14px 24px;background:rgba(255,255,255,0.15);border:2px solid rgba(255,255,255,0.4);border-radius:10px;color:#fff;font-size:16px;font-weight:700;text-decoration:none;font-family:'Source Sans 3',sans-serif;">💬 Just Text Ryan — (336) 553-8933</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+// ════════════════════════════════════════════
+// DATA & HELPERS
+// ════════════════════════════════════════════
+
+function parseNum(id) {
+  const el = document.getElementById(id);
+  return parseInt(el.value.replace(/[^0-9.-]/g, '')) || 0;
+}
+
+function fmt(n) {
+  if (n < 0) return '-$' + Math.abs(Math.round(n)).toLocaleString();
+  return '$' + Math.round(n).toLocaleString();
+}
+
+function fmtMo(n) {
+  return '$' + Math.round(n).toLocaleString() + '/mo';
+}
+
+// Format input with commas as user types
+function formatInput(el) {
+  let v = el.value.replace(/[^0-9]/g, '');
+  if (v) el.value = parseInt(v).toLocaleString();
+}
+
+document.querySelectorAll('#mortgage, #repairs, #carrying').forEach(el => {
+  el.addEventListener('input', () => formatInput(el));
+});
+
+// Slider + editable input sync
+const slider = document.getElementById('marketValue');
+const mvInput = document.getElementById('mvInput');
+
+function updateSlider() {
+  const v = parseInt(slider.value);
+  mvInput.value = v.toLocaleString();
+  const pct = ((v - 75000) / (1000000 - 75000)) * 100;
+  slider.style.setProperty('--pct', pct + '%');
+}
+
+slider.addEventListener('input', updateSlider);
+updateSlider();
+
+// When user types in the market value input, update slider
+mvInput.addEventListener('input', function() {
+  let raw = this.value.replace(/[^0-9]/g, '');
+  if (raw) {
+    let num = parseInt(raw);
+    this.value = num.toLocaleString();
+    // Clamp to slider range
+    num = Math.max(75000, Math.min(1000000, num));
+    slider.value = num;
+    const pct = ((num - 75000) / (1000000 - 75000)) * 100;
+    slider.style.setProperty('--pct', pct + '%');
+  }
+});
+
+// Allow values above 1M via text input (extend slider max dynamically)
+mvInput.addEventListener('change', function() {
+  let raw = this.value.replace(/[^0-9]/g, '');
+  if (raw) {
+    let num = parseInt(raw);
+    if (num > 1000000) {
+      slider.max = num;
+      slider.value = num;
+      const pct = 100;
+      slider.style.setProperty('--pct', pct + '%');
+    }
+    this.value = num.toLocaleString();
+  }
+});
+
+// Stress colors
+function stressColor(score) {
+  if (score <= 3) return '#2d8a4e';
+  if (score <= 5) return '#d4a20a';
+  if (score <= 7) return '#d4820a';
+  return '#c0392b';
+}
+
+function stressLabel(score) {
+  if (score <= 2) return 'Very Low';
+  if (score <= 4) return 'Low-Moderate';
+  if (score <= 6) return 'Moderate';
+  if (score <= 8) return 'High';
+  return 'Very High';
+}
+
+// Amortization helper
+function monthlyPayment(principal, annualRate, years) {
+  const r = annualRate / 12;
+  const n = years * 12;
+  if (r === 0) return principal / n;
+  return principal * (r * Math.pow(1 + r, n)) / (Math.pow(1 + r, n) - 1);
+}
+
+// ════════════════════════════════════════════
+// STRATEGY DEFINITIONS
+// ════════════════════════════════════════════
+
+function getStrategies(mv, mtg, repairs, carry) {
+  const equity = mv - mtg;
+
+  // 1. Traditional MLS
+  const trad_commission = mv * 0.06;
+  const trad_closing = mv * 0.015;
+  const trad_carry = carry * 4;
+  const trad_net = mv - trad_commission - repairs - trad_closing - trad_carry - mtg;
+
+  // 2. As-Is Cash
+  const cash_offer = mv * 0.75;
+  const cash_closing = 1500;
+  const cash_net = cash_offer - cash_closing - mtg;
+
+  // 3. Owner Financing
+  const of_dp_pct = 0.10;
+  const of_rate = 0.07;
+  const of_dp = mv * of_dp_pct;
+  const of_balance = mv - of_dp;
+  const of_monthly = monthlyPayment(of_balance, of_rate, 30);
+  const of_total = of_dp + (of_monthly * 360);
+
+  // 4. Lease-Option
+  const lo_option_fee = Math.max(5000, mv * 0.02);
+  const lo_rent = Math.round(mv * 0.008);
+  const lo_strike = Math.round(mv * 1.10);
+
+  // 5. 1031 Exchange
+  const ex_gains = Math.max(0, equity - 250000);
+  const ex_tax_saved = ex_gains > 0 ? ex_gains * 0.175 : (equity * 0.175);
+  const ex_net = trad_net;
+
+  // 6. Long-Term Rental
+  const rent_gross = Math.round(mv * 0.007);
+  const rent_mgmt = rent_gross * 0.10;
+  const rent_maint = rent_gross * 0.10;
+  const rent_net_monthly = rent_gross - rent_mgmt - rent_maint - carry;
+  const rent_annual = rent_net_monthly * 12;
+
+  return [
+    {
+      num: 1,
+      name: 'Traditional MLS Listing',
+      tagline: 'Highest gross price, highest hassle',
+      net: trad_net,
+      netLabel: fmt(trad_net),
+      netPositive: trad_net > 0,
+      timeToCash: '3-6 months',
+      timeDetail: 'Repairs + listing + closing',
+      stress: 9,
+      breakdown: `Commission: ${fmt(trad_commission)} · Repairs: ${fmt(repairs)} · Closing: ${fmt(trad_closing)} · 4mo carry: ${fmt(trad_carry)}`,
+      warning: null,
+      info: null,
+      tip: `In my 8 years flipping houses, I've seen families waste $30,000 on HGTV-inspired renovations that returned less than $10,000 at closing. Traditional listings work — but only if you know which repairs actually pay back. Most realtors will tell you to "update the kitchen." I'll tell you to clean, paint, and fix the roof leak. That's the difference between a $30K renovation and a $3K one with the same sale price.`,
+      bestWhen: 'Maximum equity, time to wait',
+      isStream: false
+    },
+    {
+      num: 2,
+      name: 'As-Is Cash Offer',
+      tagline: 'Speed and certainty, lower price',
+      net: cash_net,
+      netLabel: fmt(cash_net),
+      netPositive: cash_net > 0,
+      timeToCash: '14-21 days',
+      timeDetail: 'No repairs, no showings',
+      stress: 1,
+      breakdown: `Offer: ${fmt(cash_offer)} (75% of value) · Closing: ${fmt(cash_closing)} · No repairs · No commission`,
+      warning: null,
+      info: null,
+      tip: `Here's what nobody tells you about cash offers: the "discount" isn't always a loss. When you factor in 4 months of carrying costs (${fmt(carry * 4)}), contractor overcharges, and the emotional toll of 37 showings with Mom's oxygen tank in the corner — that 25% "discount" might only be 10-12% when you do the real math. I've closed deals where the as-is price beat the MLS net by $8,000 after carrying costs.`,
+      bestWhen: 'Urgent timeline, estate clean-out',
+      isStream: false,
+      isFastest: true
+    },
+    {
+      num: 3,
+      name: 'Owner Financing',
+      tagline: 'Wealth over time, monthly income stream',
+      net: of_total - mtg,
+      netLabel: fmtMo(of_monthly),
+      netPositive: true,
+      timeToCash: 'Ongoing (30 years)',
+      timeDetail: `${fmt(of_dp)} down + ${fmtMo(of_monthly)} for 30 years`,
+      stress: 4,
+      breakdown: `Down payment: ${fmt(of_dp)} (10%) · Monthly: ${fmtMo(of_monthly)} at 7% · Total over 30yr: ${fmt(of_total)}`,
+      warning: '⚠️ RISK: If the buyer stops paying, you must go through the legal foreclosure process to take the house back. This can take 6-12 months and cost $5,000-15,000 in legal fees.',
+      info: null,
+      tip: `Owner financing is the hidden gem most realtors don't even know exists. I've structured deals where the seller made 40% MORE than a traditional sale over 10 years — and the buyer got into a home they couldn't otherwise afford. But you MUST have an attorney draft this. The note, the deed of trust, the insurance requirements — get it wrong and you have zero protection. This is "wealthy landlord" strategy, not "quick cash" strategy.`,
+      bestWhen: 'Want monthly income, not a lump sum',
+      isStream: true,
+      ofDp: of_dp_pct * 100,
+      ofRate: of_rate * 100
+    },
+    {
+      num: 4,
+      name: 'Lease-Option',
+      tagline: 'Hold the property, wait for the right price',
+      net: lo_option_fee + (lo_rent * 36) - (carry * 36),
+      netLabel: fmt(lo_option_fee) + ' + ' + fmtMo(lo_rent),
+      netPositive: lo_rent > carry,
+      timeToCash: '1-3 years',
+      timeDetail: `Option fee: ${fmt(lo_option_fee)} upfront · Rent: ${fmtMo(lo_rent)} · Strike price: ${fmt(lo_strike)}`,
+      stress: 7,
+      breakdown: `Option fee: ${fmt(lo_option_fee)} · Monthly rent: ${fmtMo(lo_rent)} · Future strike price: ${fmt(lo_strike)} (110% of value) · Net over 3yr: ${fmt(lo_option_fee + (lo_rent * 36) - (carry * 36))}`,
+      warning: '⚠️ RISK: If the tenant cannot qualify for a mortgage at year 3 and refuses to leave, you face a costly eviction and potential property damage. Budget $3,000-8,000 for worst-case.',
+      info: null,
+      tip: `Lease-options are the bridge strategy nobody talks about. Perfect when the market is soft but you believe values are going up. You get paid rent NOW, you get a higher strike price LATER, and the tenant takes care of the property because they have skin in the game. But here's the construction guy truth: inspect that property every 6 months. I've seen tenants "improve" homes in ways that cost $15,000 to undo.`,
+      bestWhen: 'Soft market, expect values to rise',
+      isStream: true
+    },
+    {
+      num: 5,
+      name: '1031 Exchange',
+      tagline: 'Defer taxes, reinvest the gains',
+      net: trad_net,
+      netLabel: fmt(trad_net),
+      netPositive: trad_net > 0,
+      timeToCash: '3-6 months (reinvested)',
+      timeDetail: `Est. tax savings: ${fmt(ex_tax_saved)} deferred`,
+      stress: 6,
+      breakdown: `Same net as traditional (${fmt(trad_net)}) but defer ${fmt(ex_tax_saved)} in capital gains tax · Must reinvest in 180 days`,
+      warning: null,
+      info: '📋 IRS REQUIREMENT: You must identify a replacement property within 45 days and close within 180 days. Proceeds go through a Qualified Intermediary — you cannot touch the money. Miss either deadline and you owe the full capital gains tax.',
+      tip: `I'll be blunt: 1031 exchanges are powerful but they're not for everyone. If your parents lived in the home for 2+ of the last 5 years, they likely qualify for a $250K ($500K married) capital gains exclusion FIRST. Only consider 1031 if the gains exceed that exclusion. And hire a Qualified Intermediary — do NOT try to DIY this. The IRS gives zero grace period on that 180-day window.`,
+      bestWhen: 'Reinvesting in another property',
+      isStream: false,
+      taxSaved: ex_tax_saved
+    },
+    {
+      num: 6,
+      name: 'Long-Term Rental',
+      tagline: 'Keep the asset, earn monthly income',
+      net: rent_annual,
+      netLabel: fmtMo(rent_net_monthly),
+      netPositive: rent_net_monthly > 0,
+      timeToCash: 'Ongoing',
+      timeDetail: `Gross rent: ${fmtMo(rent_gross)} · After expenses: ${fmtMo(rent_net_monthly)}`,
+      stress: 8,
+      breakdown: `Gross rent: ${fmtMo(rent_gross)} · Mgmt (10%): -${fmtMo(rent_mgmt)} · Maintenance (10%): -${fmtMo(rent_maint)} · Carrying costs: -${fmtMo(carry)} · Net: ${fmtMo(rent_net_monthly)}`,
+      warning: rent_net_monthly < 0 ? `⚠️ WARNING: At these numbers, you would LOSE ${fmtMo(Math.abs(rent_net_monthly))} every month. Your carrying costs exceed rental income. This strategy does not work for this property.` : null,
+      info: null,
+      tip: `After 8 years in construction and real estate, here's my honest take on rentals: most families should NOT become landlords. The "passive income" fantasy ignores midnight toilet calls, $4,000 HVAC replacements, and tenants who stop paying in month 6. If you want rental income, hire a property manager (10%) and budget 10% for maintenance. If the numbers don't work with those costs built in, the numbers don't work. Period.`,
+      bestWhen: 'Want to keep the asset long-term',
+      isStream: true
+    }
+  ];
+}
+
+// ════════════════════════════════════════════
+// RENDER
+// ════════════════════════════════════════════
+
+function calculate() {
+  // Read market value from text input (supports values above slider max)
+  const mvRaw = document.getElementById('mvInput').value.replace(/[^0-9]/g, '');
+  const mv = parseInt(mvRaw) || parseInt(document.getElementById('marketValue').value);
+  const mtg = parseNum('mortgage');
+  const repairs = parseNum('repairs');
+  const carry = parseNum('carrying');
+
+  document.getElementById('seeResultVal').textContent = '$' + mv.toLocaleString();
+
+  const strategies = getStrategies(mv, mtg, repairs, carry);
+
+  // Find best net (non-stream)
+  let bestNet = -Infinity;
+  strategies.forEach(s => {
+    if (!s.isStream && s.net > bestNet) bestNet = s.net;
+  });
+
+  // Render cards
+  const container = document.getElementById('seeStrategies');
+  container.innerHTML = '';
+
+  strategies.forEach(s => {
+    const isBest = !s.isStream && s.net === bestNet && s.net > 0;
+
+    let ownerFinanceInputs = '';
+    if (s.num === 3) {
+      ownerFinanceInputs = `
+        <div class="see-of-inputs">
+          <div class="see-of-field">
+            <label>Down Payment %</label>
+            <input type="number" id="ofDp" value="${s.ofDp}" min="0" max="50" step="1" onchange="calculate()">
+          </div>
+          <div class="see-of-field">
+            <label>Interest Rate %</label>
+            <input type="number" id="ofRate" value="${s.ofRate}" min="0" max="15" step="0.5" onchange="calculate()">
+          </div>
+        </div>`;
+    }
+
+    const card = document.createElement('div');
+    card.className = 'see-card' + (isBest ? ' best' : '') + (s.isFastest ? ' fastest' : '');
+
+    card.innerHTML = `
+      <div class="see-card-num">Strategy ${s.num}</div>
+      <div class="see-card-name">${s.name}</div>
+      <div class="see-card-tagline">${s.tagline}</div>
+
+      ${ownerFinanceInputs}
+
+      <div class="see-metrics">
+        <div class="see-metric">
+          <div class="see-metric-label">${s.isStream ? 'Monthly Income' : 'Net Proceeds'}</div>
+          <div class="see-metric-value ${s.netPositive ? 'positive' : 'negative'} ${s.isStream ? 'stream' : ''}">${s.netLabel}</div>
+          ${s.num === 5 ? `<div class="see-metric-detail">+ ${fmt(s.taxSaved)} tax deferred</div>` : ''}
+        </div>
+        <div class="see-metric">
+          <div class="see-metric-label">Time to Cash</div>
+          <div class="see-metric-value stream">${s.timeToCash}</div>
+          <div class="see-metric-detail">${s.timeDetail}</div>
+        </div>
+      </div>
+
+      <div style="font-size:12px; color:var(--gray-600); margin-bottom:14px; line-height:1.5;">${s.breakdown}</div>
+
+      <div class="see-stress">
+        <div class="see-stress-header">
+          <span class="see-stress-label">Stress Level</span>
+          <span class="see-stress-score" style="color:${stressColor(s.stress)}">${s.stress}/10 · ${stressLabel(s.stress)}</span>
+        </div>
+        <div class="see-stress-bar">
+          <div class="see-stress-fill" style="width:${s.stress * 10}%; background:${stressColor(s.stress)};"></div>
+        </div>
+      </div>
+
+      ${s.warning ? `<div class="see-warning"><svg viewBox="0 0 24 24"><path d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z"/></svg>${s.warning}</div>` : ''}
+      ${s.info ? `<div class="see-info">${s.info}</div>` : ''}
+
+      <div class="see-tip" onclick="this.classList.toggle('open')">
+        <div class="see-tip-toggle">
+          <span class="arrow">▶</span>
+          🔧 Ryan's Expert Take
+        </div>
+        <div class="see-tip-content">
+          "${s.tip}"
+          <div class="see-tip-sig">— Ryan Riggins, 8+ Years Construction PM &amp; Licensed Broker</div>
+        </div>
+      </div>
+    `;
+
+    container.appendChild(card);
+  });
+
+  // Render comparison table
+  const tbody = document.getElementById('seeCompBody');
+  tbody.innerHTML = '';
+
+  strategies.forEach(s => {
+    const isBest = !s.isStream && s.net === bestNet && s.net > 0;
+    const tr = document.createElement('tr');
+    if (isBest) tr.className = 'highlight';
+
+    tr.innerHTML = `
+      <td>${s.name}</td>
+      <td class="${s.netPositive ? 'proceeds' : 'negative-val'}">${s.isStream ? s.netLabel : fmt(s.net)}</td>
+      <td>${s.timeToCash}</td>
+      <td><span style="color:${stressColor(s.stress)};font-weight:800;">${s.stress}/10</span></td>
+      <td>${s.bestWhen}</td>
+    `;
+
+    tbody.appendChild(tr);
+  });
+
+  // Show results
+  const results = document.getElementById('seeResults');
+  results.classList.add('active');
+  results.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+// Override owner finance if user changes inputs
+const origCalc = calculate;
+window.addEventListener('change', function(e) {
+  if (e.target.id === 'ofDp' || e.target.id === 'ofRate') {
+    // Recalc with custom OF values
+    const mv = parseInt(document.getElementById('marketValue').value);
+    const mtg = parseNum('mortgage');
+    const dpPct = parseFloat(document.getElementById('ofDp').value) / 100;
+    const rate = parseFloat(document.getElementById('ofRate').value) / 100;
+
+    // Update strategy 3 with new values before full recalc
+    calculate();
+  }
+});
+</script>
+
+</body>
+</html>

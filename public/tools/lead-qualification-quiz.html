@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lead Qualification Quiz | Riggins Strategic Solutions</title>
+<style>html,body{margin:0;padding:0;background:transparent;font-family:system-ui,-apple-system,sans-serif;}</style>
+</head>
+<body>
+<!--
+  RIGGINS STRATEGIC SOLUTIONS — Lead Qualification Quiz v2
+  Paste this entire block into a Squarespace Code Block on /quiz
+  Version: 2.0 | Free tool - no email gate
+-->
+<style>
+  .rss-quiz-container {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 24px 16px 48px;
+    color: #1B365D;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  .rss-quiz-container * { box-sizing: border-box; }
+  .rss-quiz-header {
+    text-align: center;
+    margin-bottom: 32px;
+    padding-bottom: 24px;
+    border-bottom: 2px solid #D4A843;
+  }
+  .rss-quiz-header h1 {
+    font-family: 'Georgia', serif;
+    font-size: 28px;
+    color: #1B365D;
+    margin: 0 0 8px;
+    line-height: 1.3;
+  }
+  .rss-quiz-header p {
+    font-size: 16px;
+    color: #4a5568;
+    margin: 0;
+  }
+  .rss-progress-wrap { margin-bottom: 28px; }
+  .rss-progress-label {
+    font-size: 14px;
+    color: #6b7280;
+    margin-bottom: 6px;
+    text-align: right;
+  }
+  .rss-progress-track {
+    width: 100%;
+    height: 8px;
+    background: #e5e7eb;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  .rss-progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #1B365D, #D4A843);
+    border-radius: 4px;
+    transition: width 0.4s ease;
+    width: 0%;
+  }
+  .rss-question-card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 32px 28px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 8px rgba(27,54,93,0.06);
+    animation: rss-fadeIn 0.35s ease;
+  }
+  @keyframes rss-fadeIn {
+    from { opacity: 0; transform: translateY(12px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  .rss-question-card h2 {
+    font-family: 'Georgia', serif;
+    font-size: 20px;
+    color: #1B365D;
+    margin: 0 0 6px;
+    line-height: 1.4;
+  }
+  .rss-question-subtitle {
+    font-size: 14px;
+    color: #6b7280;
+    margin: 0 0 20px;
+    font-style: italic;
+  }
+  .rss-option {
+    display: block;
+    width: 100%;
+    padding: 16px 20px;
+    margin-bottom: 10px;
+    border: 2px solid #e2e8f0;
+    border-radius: 8px;
+    background: #fafbfc;
+    cursor: pointer;
+    font-size: 16px;
+    color: #1B365D;
+    text-align: left;
+    font-family: 'Georgia', serif;
+    transition: all 0.2s ease;
+    line-height: 1.5;
+    -webkit-appearance: none;
+  }
+  .rss-option:hover { border-color: #D4A843; background: #fffdf7; }
+  .rss-option.selected {
+    border-color: #D4A843;
+    background: linear-gradient(135deg, #fffdf7, #fef9ee);
+    box-shadow: 0 0 0 1px #D4A843;
+    font-weight: 600;
+  }
+  .rss-option:active { transform: scale(0.995); }
+  .rss-nav-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8px;
+    gap: 12px;
+  }
+  .rss-btn {
+    padding: 14px 32px;
+    border-radius: 8px;
+    font-family: 'Georgia', serif;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    transition: all 0.2s ease;
+    min-height: 48px;
+    min-width: 48px;
+  }
+  .rss-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+  .rss-btn-back {
+    background: transparent;
+    color: #6b7280;
+    border: 1px solid #d1d5db;
+    padding: 14px 24px;
+  }
+  .rss-btn-back:hover:not(:disabled) { background: #f9fafb; }
+  .rss-btn-next {
+    background: #1B365D;
+    color: #ffffff;
+    margin-left: auto;
+  }
+  .rss-btn-next:hover:not(:disabled) {
+    background: #152c4d;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(27,54,93,0.25);
+  }
+  .rss-btn-gold {
+    background: #D4A843;
+    color: #1B365D;
+  }
+  .rss-btn-gold:hover:not(:disabled) {
+    background: #c89a38;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(212,168,67,0.35);
+  }
+
+  /* Results */
+  .rss-results-screen { text-align: center; }
+  .rss-score-badge {
+    display: inline-block;
+    padding: 16px 40px;
+    border-radius: 12px;
+    margin-bottom: 24px;
+  }
+  .rss-score-badge.high {
+    background: linear-gradient(135deg, #fef2f2, #fee2e2);
+    border: 2px solid #f87171;
+  }
+  .rss-score-badge.medium {
+    background: linear-gradient(135deg, #fffdf7, #fef3c7);
+    border: 2px solid #D4A843;
+  }
+  .rss-score-badge.low {
+    background: linear-gradient(135deg, #f0fdf4, #dcfce7);
+    border: 2px solid #4ade80;
+  }
+  .rss-score-number {
+    font-family: 'Georgia', serif;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1.1;
+  }
+  .rss-score-badge.high .rss-score-number { color: #dc2626; }
+  .rss-score-badge.medium .rss-score-number { color: #b8860b; }
+  .rss-score-badge.low .rss-score-number { color: #16a34a; }
+  .rss-score-label {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 4px;
+  }
+  .rss-score-badge.high .rss-score-label { color: #dc2626; }
+  .rss-score-badge.medium .rss-score-label { color: #b8860b; }
+  .rss-score-badge.low .rss-score-label { color: #16a34a; }
+  .rss-results-heading {
+    font-family: 'Georgia', serif;
+    font-size: 22px;
+    color: #1B365D;
+    margin: 0 0 12px;
+  }
+  .rss-results-text {
+    font-size: 16px;
+    color: #4a5568;
+    margin: 0 0 32px;
+    max-width: 520px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.7;
+  }
+
+  /* Next Steps Grid */
+  .rss-next-steps {
+    text-align: left;
+    max-width: 540px;
+    margin: 0 auto 32px;
+  }
+  .rss-next-steps h3 {
+    font-family: 'Georgia', serif;
+    font-size: 18px;
+    color: #1B365D;
+    margin: 0 0 16px;
+    text-align: center;
+  }
+  .rss-step-card {
+    display: block;
+    padding: 18px 20px;
+    border: 2px solid #e2e8f0;
+    border-radius: 10px;
+    margin-bottom: 12px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    color: #1B365D;
+  }
+  .rss-step-card:hover {
+    border-color: #D4A843;
+    background: #fffdf7;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 16px rgba(27,54,93,0.1);
+  }
+  .rss-step-card.recommended {
+    border-color: #D4A843;
+    background: linear-gradient(135deg, #fffdf7, #fef9ee);
+    box-shadow: 0 2px 8px rgba(212,168,67,0.15);
+  }
+  .rss-step-badge {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 3px 10px;
+    border-radius: 4px;
+    background: #D4A843;
+    color: #1B365D;
+    margin-bottom: 6px;
+  }
+  .rss-step-title {
+    font-family: 'Georgia', serif;
+    font-size: 17px;
+    font-weight: 700;
+    margin: 0 0 4px;
+    color: #1B365D;
+  }
+  .rss-step-desc {
+    font-size: 14px;
+    color: #6b7280;
+    margin: 0;
+    line-height: 1.5;
+  }
+  .rss-step-arrow {
+    float: right;
+    font-size: 20px;
+    color: #D4A843;
+    margin-top: -28px;
+  }
+
+  /* Text Ryan card */
+  .rss-text-card {
+    display: block;
+    padding: 18px 20px;
+    border: 2px solid #1B365D;
+    border-radius: 10px;
+    margin-bottom: 12px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    background: #1B365D;
+    color: #ffffff;
+    text-align: center;
+  }
+  .rss-text-card:hover {
+    background: #152c4d;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 16px rgba(27,54,93,0.25);
+  }
+  .rss-text-card .rss-step-title { color: #ffffff; }
+  .rss-text-card .rss-step-desc { color: #cbd5e1; }
+
+  .rss-results-footer {
+    margin-top: 36px;
+    padding-top: 24px;
+    border-top: 1px solid #e5e7eb;
+    font-size: 14px;
+    color: #6b7280;
+    text-align: center;
+  }
+  .rss-results-footer a { color: #D4A843; text-decoration: none; font-weight: 600; }
+  .rss-results-footer a:hover { text-decoration: underline; }
+
+  .rss-hidden { display: none !important; }
+
+  /* Intro */
+  .rss-intro-screen { text-align: center; }
+  .rss-intro-screen h2 {
+    font-family: 'Georgia', serif;
+    font-size: 22px;
+    color: #1B365D;
+    margin: 0 0 16px;
+  }
+  .rss-intro-features {
+    text-align: left;
+    max-width: 420px;
+    margin: 20px auto 28px;
+  }
+  .rss-intro-features div {
+    padding: 8px 0;
+    font-size: 15px;
+    color: #374151;
+  }
+  .rss-intro-features span {
+    color: #D4A843;
+    margin-right: 8px;
+    font-weight: 700;
+  }
+
+  @media (max-width: 600px) {
+    .rss-quiz-container { padding: 16px 12px 40px; }
+    .rss-question-card { padding: 24px 18px; }
+    .rss-quiz-header h1 { font-size: 24px; }
+    .rss-score-number { font-size: 36px; }
+    .rss-step-arrow { display: none; }
+  }
+</style>
+
+<div class="rss-quiz-container" id="rssQuiz">
+
+  <!-- INTRO -->
+  <div id="rssIntro" class="rss-intro-screen">
+    <div class="rss-quiz-header">
+      <h1>Senior Transition Readiness Quiz</h1>
+      <p>Find out exactly where you stand — and what to do next.</p>
+    </div>
+    <div class="rss-intro-features">
+      <div><span>✓</span> Takes about 3 minutes</div>
+      <div><span>✓</span> 10 quick questions about your situation</div>
+      <div><span>✓</span> Instant results — no email required</div>
+      <div><span>✓</span> Personalized next steps based on your answers</div>
+    </div>
+    <button class="rss-btn rss-btn-gold" onclick="rssQuizApp.startQuiz()" style="padding:16px 48px; font-size:18px;">
+      Start the Quiz →
+    </button>
+  </div>
+
+  <!-- QUESTIONS -->
+  <div id="rssQuestions" class="rss-hidden">
+    <div class="rss-progress-wrap">
+      <div class="rss-progress-label" id="rssProgressLabel">Question 1 of 10</div>
+      <div class="rss-progress-track">
+        <div class="rss-progress-fill" id="rssProgressFill"></div>
+      </div>
+    </div>
+    <div class="rss-question-card" id="rssQuestionCard">
+      <h2 id="rssQuestionText"></h2>
+      <p class="rss-question-subtitle" id="rssQuestionSub"></p>
+      <div id="rssOptionsContainer"></div>
+    </div>
+    <div class="rss-nav-row">
+      <button class="rss-btn rss-btn-back" id="rssBtnBack" onclick="rssQuizApp.prevQuestion()">← Back</button>
+      <button class="rss-btn rss-btn-next" id="rssBtnNext" onclick="rssQuizApp.nextQuestion()" disabled>Next →</button>
+    </div>
+  </div>
+
+  <!-- RESULTS — shown immediately, no email gate -->
+  <div id="rssResults" class="rss-hidden rss-results-screen">
+    <div class="rss-question-card" style="padding:36px 28px;">
+      <div id="rssScoreBadge" class="rss-score-badge">
+        <div class="rss-score-number" id="rssScoreNumber"></div>
+        <div class="rss-score-label" id="rssScoreLabel"></div>
+      </div>
+      <h2 class="rss-results-heading" id="rssResultsHeading"></h2>
+      <p class="rss-results-text" id="rssResultsText"></p>
+
+      <!-- ALL 4 next steps always shown -->
+      <div class="rss-next-steps">
+        <h3>Your Next Steps</h3>
+
+        <div id="rssRecommendedStep"></div>
+
+        <a class="rss-step-card" href="https://api.leadconnectorhq.com/widget/booking/PEGCu2kXYDZgAPPzXGv5" target="_blank" id="rssStepCall">
+          <div class="rss-step-title">📞 Book a Free Call with Ryan</div>
+          <div class="rss-step-desc">20 minutes. No pressure. Just clarity on your situation and what to do next.</div>
+          <div class="rss-step-arrow">→</div>
+        </a>
+
+        <a class="rss-step-card" href="https://www.rigginsstrategicsolutions.com/the-blueprint" target="_blank" id="rssStepBlueprint">
+          <div class="rss-step-title">📋 Get the Senior Transition Blueprint — $47</div>
+          <div class="rss-step-desc">19 modules. 90+ tools. The complete DIY roadmap for every step of the transition.</div>
+          <div class="rss-step-arrow">→</div>
+        </a>
+
+        <a class="rss-step-card" href="https://www.rigginsstrategicsolutions.com/starterguide" target="_blank" id="rssStepGuide">
+          <div class="rss-step-title">📖 Download the Free Starter Guide</div>
+          <div class="rss-step-desc">Not ready to commit? Start here. Quick read, big clarity, zero cost.</div>
+          <div class="rss-step-arrow">→</div>
+        </a>
+
+        <a class="rss-text-card" href="sms:3365538933" id="rssStepText">
+          <div class="rss-step-title">💬 Just Text Ryan — (336) 553-8933</div>
+          <div class="rss-step-desc">Easiest path. Send a text and he'll get back to you personally.</div>
+        </a>
+      </div>
+    </div>
+
+    <div class="rss-results-footer">
+      <p>This quiz is for educational purposes. Every family's situation is unique.</p>
+      <p style="margin-top:12px;">© Riggins Strategic Solutions<br>
+      <span style="font-size:12px;">Ryan Riggins, Realtor | eXp Realty | NC License #361546</span></p>
+    </div>
+  </div>
+</div>
+
+<script>
+(function() {
+  'use strict';
+
+  var QUESTIONS = [
+    {
+      id: 'timeline',
+      text: "What's your timeline for this transition?",
+      subtitle: "When does the move need to happen?",
+      options: [
+        { text: "We need to move or sell within 30-60 days", points: 3 },
+        { text: "We're planning for 3-6 months from now", points: 2 },
+        { text: "Just exploring options — no set timeline yet", points: 1 }
+      ]
+    },
+    {
+      id: 'financial',
+      text: "What's the financial situation for this transition?",
+      subtitle: "This helps us understand your options.",
+      options: [
+        { text: "We have limited funds — the home needs to sell to pay for care", points: 3 },
+        { text: "Some savings available, but we're exploring Medicare/Medicaid help", points: 2 },
+        { text: "Finances are comfortable — long-term care is planned for", points: 1 }
+      ]
+    },
+    {
+      id: 'homeCondition',
+      text: "What's the condition of the home?",
+      subtitle: "Be honest — this affects your best exit strategy.",
+      options: [
+        { text: "Significant deferred maintenance — the house needs a lot of work", points: 3 },
+        { text: "Decent shape, probably needs $5-10K to be market ready", points: 2 },
+        { text: "Good condition — likely ready for a traditional listing", points: 1 }
+      ]
+    },
+    {
+      id: 'decisionStage',
+      text: "Where is your parent or loved one in accepting this transition?",
+      subtitle: "Their emotional readiness matters as much as anything.",
+      options: [
+        { text: "They resist moving, but safety is becoming a real concern (falls, confusion, etc.)", points: 3 },
+        { text: "They're starting to slow down — we'll need to address this in 1-2 years", points: 2 },
+        { text: "They're 4-5 years out, but we want to start planning now", points: 1 }
+      ]
+    },
+    {
+      id: 'geography',
+      text: "Where is the home located?",
+      subtitle: "This helps us connect you with the right resources.",
+      options: [
+        { text: "North Carolina (Triad area — Greensboro, Winston-Salem, High Point)", points: 3 },
+        { text: "North Carolina (other area)", points: 2 },
+        { text: "Outside of North Carolina", points: 1 }
+      ]
+    },
+    {
+      id: 'biggestConcern',
+      text: "What's your biggest concern right now?",
+      subtitle: "Pick the one that keeps you up at night.",
+      options: [
+        { text: "Physical safety — I'm worried about falls, medication issues, or living alone", points: 3 },
+        { text: "Financial — I don't know how to pay for care or what the house is worth", points: 3 },
+        { text: "Emotional — getting my parent to accept help, or family disagreements", points: 2 },
+        { text: "Logistical — I don't know where to start or what steps to take", points: 1 }
+      ]
+    },
+    {
+      id: 'familyDynamics',
+      text: "How aligned is your family on this transition?",
+      subtitle: "Family dynamics can accelerate or derail the entire process.",
+      options: [
+        { text: "Major disagreements — siblings fighting, no one leading", points: 3 },
+        { text: "Somewhat aligned, but one person is doing all the heavy lifting", points: 2 },
+        { text: "We're mostly on the same page and working together", points: 1 }
+      ]
+    },
+    {
+      id: 'currentLiving',
+      text: "What's your parent's current living situation?",
+      subtitle: "This helps us understand the urgency.",
+      options: [
+        { text: "Living alone and struggling with daily tasks", points: 3 },
+        { text: "Living with family, but it's becoming unsustainable", points: 3 },
+        { text: "Still mostly independent, but signs of decline", points: 2 },
+        { text: "Independent and doing well — planning ahead", points: 1 }
+      ]
+    },
+    {
+      id: 'agentContact',
+      text: "Have you spoken to a real estate agent about selling the home?",
+      subtitle: "There's no wrong answer — we want to understand where you are.",
+      options: [
+        { text: "Yes, and I'm not confident they understand senior transitions", points: 3 },
+        { text: "We've had cash offer/\"we buy houses\" contacts reach out", points: 3 },
+        { text: "Not yet — we haven't started that conversation", points: 2 },
+        { text: "Not applicable — we're not planning to sell right now", points: 1 }
+      ]
+    },
+    {
+      id: 'legalDocs',
+      text: "Are essential legal documents in place?",
+      subtitle: "Power of Attorney, Healthcare Directive, Will or Trust.",
+      options: [
+        { text: "No — we haven't set any of these up yet", points: 3 },
+        { text: "Some are in place, but they may need updating", points: 2 },
+        { text: "Yes — POA, Healthcare Directive, and Will/Trust are current", points: 1 }
+      ]
+    }
+  ];
+
+  var currentQ = 0;
+  var answers = {};
+
+  function saveState() {
+    try { sessionStorage.setItem('rssQuizState2', JSON.stringify({ currentQ: currentQ, answers: answers })); } catch(e) {}
+  }
+  function restoreState() {
+    try {
+      var s = sessionStorage.getItem('rssQuizState2');
+      if (s) { var d = JSON.parse(s); currentQ = d.currentQ || 0; answers = d.answers || {}; return true; }
+    } catch(e) {}
+    return false;
+  }
+
+  function renderQuestion() {
+    var q = QUESTIONS[currentQ];
+    var totalQ = QUESTIONS.length;
+    document.getElementById('rssProgressLabel').textContent = 'Question ' + (currentQ + 1) + ' of ' + totalQ;
+    document.getElementById('rssProgressFill').style.width = ((currentQ + 1) / totalQ * 100) + '%';
+    document.getElementById('rssQuestionText').textContent = q.text;
+    document.getElementById('rssQuestionSub').textContent = q.subtitle || '';
+
+    var container = document.getElementById('rssOptionsContainer');
+    container.innerHTML = '';
+    q.options.forEach(function(opt, i) {
+      var btn = document.createElement('button');
+      btn.className = 'rss-option';
+      btn.textContent = opt.text;
+      btn.setAttribute('type', 'button');
+      if (answers[q.id] !== undefined && answers[q.id].index === i) btn.classList.add('selected');
+      btn.addEventListener('click', function() {
+        answers[q.id] = { index: i, points: opt.points, text: opt.text };
+        saveState();
+        container.querySelectorAll('.rss-option').forEach(function(o, j) { o.classList.toggle('selected', j === i); });
+        document.getElementById('rssBtnNext').disabled = false;
+      });
+      container.appendChild(btn);
+    });
+
+    document.getElementById('rssBtnBack').style.visibility = currentQ === 0 ? 'hidden' : 'visible';
+    document.getElementById('rssBtnNext').disabled = answers[q.id] === undefined;
+    document.getElementById('rssBtnNext').textContent = currentQ === totalQ - 1 ? 'See My Results →' : 'Next →';
+
+    var card = document.getElementById('rssQuestionCard');
+    card.style.animation = 'none'; card.offsetHeight; card.style.animation = '';
+  }
+
+  function calculateScore() {
+    var total = 0;
+    Object.keys(answers).forEach(function(k) { total += answers[k].points; });
+    return total;
+  }
+
+  function getPriority(score) {
+    if (score >= 24) return 'high';
+    if (score >= 12) return 'medium';
+    return 'low';
+  }
+
+  function showResults() {
+    var score = calculateScore();
+    var priority = getPriority(score);
+
+    document.getElementById('rssQuestions').classList.add('rss-hidden');
+    document.getElementById('rssResults').classList.remove('rss-hidden');
+    document.getElementById('rssQuiz').scrollIntoView({ behavior: 'smooth', block: 'start' });
+
+    var badge = document.getElementById('rssScoreBadge');
+    badge.className = 'rss-score-badge ' + priority;
+    document.getElementById('rssScoreNumber').textContent = score + '/' + (QUESTIONS.length * 3);
+
+    var config = {
+      high: {
+        label: 'Immediate Priority',
+        heading: 'Your family needs support right now.',
+        text: "Based on your answers, you're dealing with urgent timeline pressures, safety concerns, or complex decisions that shouldn't wait. The good news? You don't have to figure this out alone.",
+        recommended: 'call'
+      },
+      medium: {
+        label: 'Active Planning',
+        heading: "You're in the planning phase — this is the ideal time to prepare.",
+        text: "You have some time, but gaps in your plan could cost your family thousands or create unnecessary stress. Getting organized now will make the entire process smoother.",
+        recommended: 'blueprint'
+      },
+      low: {
+        label: 'Early Research',
+        heading: "Smart move — you're planning ahead.",
+        text: "You're in a great position because you have time on your side. Start learning now so you're never caught off guard when things change.",
+        recommended: 'guide'
+      }
+    };
+
+    var c = config[priority];
+    document.getElementById('rssScoreLabel').textContent = c.label;
+    document.getElementById('rssResultsHeading').textContent = c.heading;
+    document.getElementById('rssResultsText').textContent = c.text;
+
+    // Mark recommended step
+    var recMap = { call: 'rssStepCall', blueprint: 'rssStepBlueprint', guide: 'rssStepGuide' };
+    var recEl = document.getElementById(recMap[c.recommended]);
+    if (recEl) {
+      recEl.classList.add('recommended');
+      var badgeEl = document.createElement('div');
+      badgeEl.className = 'rss-step-badge';
+      badgeEl.textContent = '★ Recommended for you';
+      recEl.insertBefore(badgeEl, recEl.firstChild);
+    }
+
+    // Clear session
+    try { sessionStorage.removeItem('rssQuizState2'); } catch(e) {}
+  }
+
+  window.rssQuizApp = {
+    startQuiz: function() {
+      document.getElementById('rssIntro').classList.add('rss-hidden');
+      document.getElementById('rssQuestions').classList.remove('rss-hidden');
+      renderQuestion();
+      document.getElementById('rssQuiz').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    },
+    nextQuestion: function() {
+      if (answers[QUESTIONS[currentQ].id] === undefined) return;
+      if (currentQ < QUESTIONS.length - 1) {
+        currentQ++; saveState(); renderQuestion();
+      } else {
+        showResults();
+      }
+    },
+    prevQuestion: function() {
+      if (currentQ > 0) { currentQ--; saveState(); renderQuestion(); }
+    }
+  };
+
+  if (restoreState() && currentQ > 0 && Object.keys(answers).length > 0) {
+    document.getElementById('rssIntro').classList.add('rss-hidden');
+    document.getElementById('rssQuestions').classList.remove('rss-hidden');
+    renderQuestion();
+  }
+})();
+</script>
+
+</body>
+</html>

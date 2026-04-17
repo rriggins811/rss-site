@@ -1,0 +1,949 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aging in Place Break-Even Tool | Riggins Strategic Solutions</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800;900&family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<style>
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+  :root {
+    --navy: #1a3052;
+    --navy-deep: #0f1f35;
+    --navy-light: #2a4a72;
+    --gold: #c9a84c;
+    --gold-light: #e8d48b;
+    --gold-dark: #a88a30;
+    --cream: #faf8f4;
+    --g50: #f7f6f3;
+    --g100: #f0eee9;
+    --g200: #dbd8d0;
+    --g400: #a09b90;
+    --g600: #6b665c;
+    --g800: #333028;
+    --green: #2d8a4e;
+    --green-bg: #e8f5ec;
+    --red: #c0392b;
+    --red-bg: #fdecea;
+    --blue: #2a6cb8;
+    --blue-bg: #eaf2fa;
+    --orange: #d4820a;
+    --orange-bg: #fef5e7;
+    --home-color: #2a6cb8;
+    --al-color: #c9a84c;
+    --radius: 14px;
+    --radius-sm: 10px;
+    --shadow: 0 4px 20px rgba(26,48,82,0.1);
+  }
+
+  body {
+    font-family: 'Source Sans 3', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: var(--g50);
+    color: var(--g800);
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .aip-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 24px 16px 60px;
+  }
+
+  /* ═══════ HEADER ═══════ */
+  .aip-header {
+    background: linear-gradient(165deg, var(--navy) 0%, var(--navy-deep) 100%);
+    border-radius: var(--radius) var(--radius) 0 0;
+    padding: 36px 28px 32px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .aip-header::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(ellipse at 25% 75%, rgba(201,168,76,0.08) 0%, transparent 50%),
+      radial-gradient(ellipse at 75% 25%, rgba(42,108,184,0.06) 0%, transparent 45%);
+    pointer-events: none;
+  }
+
+  .aip-credential {
+    font-size: 11px;
+    font-weight: 600;
+    color: rgba(255,255,255,0.45);
+    letter-spacing: 0.5px;
+    margin-bottom: 16px;
+    position: relative;
+    line-height: 1.5;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .aip-header h1 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 900;
+    font-size: clamp(26px, 5vw, 38px);
+    color: #fff;
+    line-height: 1.15;
+    letter-spacing: -0.5px;
+    position: relative;
+    margin-bottom: 10px;
+  }
+
+  .aip-header h1 span { color: var(--gold); }
+
+  .aip-header p {
+    font-size: 15px;
+    color: rgba(255,255,255,0.6);
+    max-width: 520px;
+    margin: 0 auto;
+    position: relative;
+    line-height: 1.6;
+  }
+
+  /* ═══════ INPUTS ═══════ */
+  .aip-inputs {
+    background: #fff;
+    padding: 32px 28px 24px;
+    border-bottom: 1px solid var(--g200);
+  }
+
+  .aip-section-title {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 800;
+    font-size: 20px;
+    color: var(--navy);
+    margin-bottom: 4px;
+  }
+
+  .aip-section-sub {
+    font-size: 14px;
+    color: var(--g600);
+    margin-bottom: 24px;
+  }
+
+  .aip-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+  }
+
+  .aip-field { display: flex; flex-direction: column; gap: 6px; }
+
+  .aip-field label {
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--g600);
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+    line-height: 1.4;
+  }
+
+  .aip-field label small {
+    display: block;
+    font-weight: 500;
+    font-size: 11px;
+    color: var(--g400);
+    text-transform: none;
+    letter-spacing: 0;
+    margin-top: 1px;
+  }
+
+  .aip-wrap {
+    display: flex;
+    align-items: center;
+    background: var(--g50);
+    border: 2px solid var(--g200);
+    border-radius: var(--radius-sm);
+    padding: 0 14px;
+    transition: border-color 0.2s;
+  }
+
+  .aip-wrap:focus-within { border-color: var(--navy); background: #fff; }
+
+  .aip-prefix {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--g400);
+    margin-right: 4px;
+    user-select: none;
+  }
+
+  .aip-wrap input {
+    width: 100%;
+    border: none;
+    background: transparent;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--g800);
+    padding: 12px 0;
+    outline: none;
+  }
+
+  .aip-wrap input::placeholder { color: var(--g400); font-weight: 400; }
+
+  /* Color-coded field borders */
+  .aip-field.home .aip-wrap { border-left: 4px solid var(--home-color); }
+  .aip-field.al .aip-wrap { border-left: 4px solid var(--gold); }
+
+  /* Legend dots */
+  .aip-field.home label::before {
+    content: '';
+    display: inline-block;
+    width: 8px; height: 8px;
+    border-radius: 50%;
+    background: var(--home-color);
+    margin-right: 6px;
+    vertical-align: 1px;
+  }
+  .aip-field.al label::before {
+    content: '';
+    display: inline-block;
+    width: 8px; height: 8px;
+    border-radius: 50%;
+    background: var(--gold);
+    margin-right: 6px;
+    vertical-align: 1px;
+  }
+
+  .aip-btn {
+    grid-column: 1 / -1;
+    margin-top: 8px;
+    padding: 16px 32px;
+    background: linear-gradient(160deg, var(--gold-light) 0%, var(--gold) 40%, var(--gold-dark) 100%);
+    border: none;
+    border-radius: var(--radius-sm);
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    color: var(--navy-deep);
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 4px 12px rgba(201,168,76,0.3);
+    letter-spacing: 0.3px;
+  }
+
+  .aip-btn:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(201,168,76,0.4); }
+  .aip-btn:active { transform: translateY(0); }
+
+  /* ═══════ RESULTS ═══════ */
+  .aip-results {
+    background: #fff;
+    border-radius: 0 0 var(--radius) var(--radius);
+    overflow: hidden;
+    display: none;
+  }
+
+  .aip-results.active { display: block; }
+
+  /* Verdict Banner */
+  .aip-verdict {
+    padding: 24px 28px;
+    text-align: center;
+    border-bottom: 1px solid var(--g200);
+  }
+
+  .aip-verdict-text {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 800;
+    font-size: 22px;
+    color: var(--navy);
+    line-height: 1.35;
+    margin-bottom: 6px;
+  }
+
+  .aip-verdict-text .month-num {
+    color: var(--red);
+    font-size: 28px;
+  }
+
+  .aip-verdict-sub {
+    font-size: 14px;
+    color: var(--g600);
+  }
+
+  .aip-verdict.never .aip-verdict-text .month-num { color: var(--green); }
+
+  /* Chart Area */
+  .aip-chart-wrap {
+    padding: 24px 20px 16px;
+    position: relative;
+  }
+
+  .aip-chart-legend {
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+    margin-bottom: 16px;
+    flex-wrap: wrap;
+  }
+
+  .aip-legend-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--g600);
+  }
+
+  .aip-legend-dot {
+    width: 12px;
+    height: 4px;
+    border-radius: 2px;
+  }
+
+  .aip-legend-dot.home { background: var(--home-color); }
+  .aip-legend-dot.al { background: var(--gold); }
+  .aip-legend-dot.xmark { background: var(--red); width: 8px; height: 8px; border-radius: 50%; }
+
+  .aip-canvas-container {
+    position: relative;
+    width: 100%;
+    max-height: 400px;
+  }
+
+  /* Phase Markers */
+  .aip-phases {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    padding: 0 20px 20px;
+  }
+
+  .aip-phase {
+    text-align: center;
+    padding: 14px 10px;
+    border-radius: 8px;
+    border: 1px solid var(--g200);
+    background: var(--g50);
+  }
+
+  .aip-phase-label {
+    font-size: 10px;
+    font-weight: 800;
+    color: var(--g400);
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    margin-bottom: 4px;
+  }
+
+  .aip-phase-title {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 800;
+    font-size: 14px;
+    color: var(--navy);
+    margin-bottom: 2px;
+  }
+
+  .aip-phase-cost {
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--g600);
+  }
+
+  .aip-phase.warning {
+    border-color: rgba(192,57,43,0.2);
+    background: var(--red-bg);
+  }
+
+  .aip-phase.warning .aip-phase-cost { color: var(--red); font-weight: 800; }
+
+  /* Breakdown Table */
+  .aip-breakdown {
+    padding: 0 28px 24px;
+  }
+
+  .aip-breakdown-title {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 800;
+    font-size: 18px;
+    color: var(--navy);
+    margin-bottom: 12px;
+  }
+
+  .aip-b-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+  }
+
+  .aip-b-table th {
+    text-align: left;
+    padding: 10px 12px;
+    background: var(--navy);
+    color: #fff;
+    font-weight: 700;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    white-space: nowrap;
+  }
+
+  .aip-b-table th:first-child { border-radius: 8px 0 0 0; }
+  .aip-b-table th:last-child { border-radius: 0 8px 0 0; }
+
+  .aip-b-table td {
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--g100);
+    font-weight: 600;
+  }
+
+  .aip-b-table tr:nth-child(even) td { background: var(--g50); }
+  .aip-b-table .cost-high { color: var(--red); font-weight: 800; }
+  .aip-b-table .cost-low { color: var(--green); font-weight: 800; }
+
+  .aip-b-table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+
+  /* Expert Warning */
+  .aip-expert-warning {
+    margin: 0 28px 24px;
+    background: var(--red-bg);
+    border-left: 4px solid var(--red);
+    border-radius: 0 8px 8px 0;
+    padding: 16px 18px;
+  }
+
+  .aip-ew-title {
+    font-size: 13px;
+    font-weight: 800;
+    color: var(--red);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 6px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .aip-ew-text {
+    font-size: 15px;
+    color: var(--red);
+    font-weight: 600;
+    line-height: 1.55;
+  }
+
+  /* 5-Year Summary Cards */
+  .aip-totals {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    padding: 0 28px 24px;
+  }
+
+  .aip-total-card {
+    padding: 20px;
+    border-radius: var(--radius-sm);
+    text-align: center;
+  }
+
+  .aip-total-card.home {
+    background: linear-gradient(135deg, rgba(42,108,184,0.06) 0%, rgba(42,108,184,0.02) 100%);
+    border: 1px solid rgba(42,108,184,0.15);
+  }
+
+  .aip-total-card.al {
+    background: linear-gradient(135deg, rgba(201,168,76,0.06) 0%, rgba(201,168,76,0.02) 100%);
+    border: 1px solid rgba(201,168,76,0.15);
+  }
+
+  .aip-tc-label {
+    font-size: 11px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    margin-bottom: 4px;
+  }
+
+  .aip-total-card.home .aip-tc-label { color: var(--home-color); }
+  .aip-total-card.al .aip-tc-label { color: var(--gold-dark); }
+
+  .aip-tc-amount {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 900;
+    font-size: 28px;
+    color: var(--navy);
+    margin-bottom: 2px;
+  }
+
+  .aip-tc-detail {
+    font-size: 12px;
+    color: var(--g600);
+  }
+
+  .aip-diff {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 16px;
+    border-radius: var(--radius-sm);
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .aip-diff.home-wins {
+    background: var(--green-bg);
+    color: var(--green);
+    border: 1px solid rgba(45,138,78,0.2);
+  }
+
+  .aip-diff.al-wins {
+    background: var(--orange-bg);
+    color: var(--orange);
+    border: 1px solid rgba(212,130,10,0.2);
+  }
+
+  /* Footer CTA */
+  .aip-footer {
+    background: var(--navy);
+    padding: 32px 28px;
+    text-align: center;
+  }
+
+  .aip-footer p {
+    font-size: 15px;
+    color: rgba(255,255,255,0.7);
+    margin-bottom: 16px;
+    max-width: 460px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+  }
+
+  .aip-footer p strong { color: var(--gold-light); }
+
+  .aip-footer-btn {
+    display: inline-block;
+    padding: 16px 36px;
+    background: linear-gradient(160deg, var(--gold-light) 0%, var(--gold) 40%, var(--gold-dark) 100%);
+    border: none;
+    border-radius: var(--radius-sm);
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    color: var(--navy-deep);
+    cursor: pointer;
+    text-decoration: none;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 4px 12px rgba(201,168,76,0.3);
+  }
+
+  .aip-footer-btn:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(201,168,76,0.4); }
+
+  /* ═══════ RESPONSIVE ═══════ */
+  @media (max-width: 768px) {
+    .aip-container { padding: 12px 8px 40px; }
+    .aip-header { padding: 28px 16px; }
+    .aip-inputs { padding: 24px 16px 20px; }
+    .aip-grid { grid-template-columns: 1fr; gap: 16px; }
+    .aip-phases { grid-template-columns: 1fr; gap: 8px; padding: 0 16px 16px; }
+    .aip-breakdown { padding: 0 16px 20px; }
+    .aip-totals { padding: 0 16px 20px; }
+    .aip-expert-warning { margin: 0 16px 20px; }
+    .aip-chart-wrap { padding: 16px 8px 12px; }
+    .aip-verdict { padding: 20px 16px; }
+    .aip-footer { padding: 24px 16px; }
+    .aip-totals { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<div class="aip-container">
+
+  <!-- HEADER -->
+  <div class="aip-header">
+    <div class="aip-credential">Developed by Ryan Riggins: Senior Protection Coordinator, Licensed Real Estate Broker, and former Construction Project Manager</div>
+    <h1>The Aging in Place <span>Break-Even Tool</span></h1>
+    <p>See exactly when staying at home becomes more expensive than assisted living — before you make a $100,000 mistake.</p>
+  </div>
+
+  <!-- INPUTS -->
+  <div class="aip-inputs">
+    <div class="aip-section-title">Your Numbers</div>
+    <div class="aip-section-sub">Enter your current costs. We'll project 5 years of realistic care progression.</div>
+
+    <div class="aip-grid">
+      <div class="aip-field home">
+        <label>Monthly Home Costs <small>Mortgage/taxes + utilities + maintenance</small></label>
+        <div class="aip-wrap">
+          <span class="aip-prefix">$</span>
+          <input type="text" id="homeCosts" value="2,500" inputmode="numeric">
+        </div>
+      </div>
+
+      <div class="aip-field home">
+        <label>Current Monthly Care Costs <small>Private aides or home health now</small></label>
+        <div class="aip-wrap">
+          <span class="aip-prefix">$</span>
+          <input type="text" id="careCosts" value="0" inputmode="numeric">
+        </div>
+      </div>
+
+      <div class="aip-field home">
+        <label>Home Modification Cost <small>One-time: ramps, grab bars, widened doors</small></label>
+        <div class="aip-wrap">
+          <span class="aip-prefix">$</span>
+          <input type="text" id="modCost" value="5,000" inputmode="numeric">
+        </div>
+      </div>
+
+      <div class="aip-field al">
+        <label>Assisted Living Monthly Quote <small>The "all-in" rate from the community</small></label>
+        <div class="aip-wrap">
+          <span class="aip-prefix">$</span>
+          <input type="text" id="alCost" value="6,000" inputmode="numeric">
+        </div>
+      </div>
+
+      <button class="aip-btn" onclick="runAnalysis()">📊 Calculate My 5-Year Break-Even</button>
+    </div>
+  </div>
+
+  <!-- RESULTS -->
+  <div class="aip-results" id="aipResults">
+
+    <!-- Verdict -->
+    <div class="aip-verdict" id="aipVerdict"></div>
+
+    <!-- Chart -->
+    <div class="aip-chart-wrap">
+      <div class="aip-chart-legend">
+        <div class="aip-legend-item"><div class="aip-legend-dot home"></div>Stay at Home (Cumulative)</div>
+        <div class="aip-legend-item"><div class="aip-legend-dot al"></div>Assisted Living (Cumulative)</div>
+        <div class="aip-legend-item"><div class="aip-legend-dot xmark"></div>Break-Even Point</div>
+      </div>
+      <div class="aip-canvas-container">
+        <canvas id="aipChart"></canvas>
+      </div>
+    </div>
+
+    <!-- Phase Markers -->
+    <div class="aip-phases" id="aipPhases"></div>
+
+    <!-- 5-Year Totals -->
+    <div class="aip-totals" id="aipTotals"></div>
+
+    <!-- Expert Warning -->
+    <div class="aip-expert-warning">
+      <div class="aip-ew-title">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="#c0392b"><path d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z"/></svg>
+        Ryan's Insight
+      </div>
+      <div class="aip-ew-text">Most families ignore the "24/7 Care Trap." At 24/7 care, your home costs can hit $16,000/mo — nearly TRIPLE the cost of assisted living. The numbers above assume part-time care. Full-time live-in care changes the math dramatically and almost always favors a community.</div>
+    </div>
+
+    <!-- Breakdown Table -->
+    <div class="aip-breakdown">
+      <div class="aip-breakdown-title">Monthly Cost Breakdown by Year</div>
+      <div class="aip-b-table-wrap">
+        <table class="aip-b-table" id="aipBTable">
+          <thead>
+            <tr>
+              <th>Period</th>
+              <th>Home Costs</th>
+              <th>Care Costs</th>
+              <th>Stay at Home Total</th>
+              <th>Assisted Living</th>
+              <th>Difference</th>
+            </tr>
+          </thead>
+          <tbody id="aipBBody"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Footer CTA -->
+    <div class="aip-footer">
+      <p>This calculator shows the financial picture. <strong>The Senior Transition Blueprint</strong> gives you the full system — legal, financial, emotional, and logistical — to make the right decision for your family.</p>
+      <div style="display:flex;flex-direction:column;gap:12px;max-width:480px;margin:0 auto;">
+        <a href="https://www.rigginsstrategicsolutions.com/the-blueprint" class="aip-footer-btn" style="display:block;text-align:center;">📋 Get the Senior Transition Blueprint — $47</a>
+        <a href="https://api.leadconnectorhq.com/widget/booking/PEGCu2kXYDZgAPPzXGv5" class="aip-footer-btn" style="display:block;text-align:center;background:rgba(255,255,255,0.1);border:2px solid rgba(255,255,255,0.3);color:#fff;box-shadow:none;">📞 Book a Free Call with Ryan</a>
+        <a href="https://www.rigginsstrategicsolutions.com/starterguide" style="display:block;text-align:center;color:rgba(255,255,255,0.6);font-size:14px;font-weight:600;text-decoration:none;padding:8px;">📖 Not ready? Download the Free Starter Guide</a>
+        <a href="sms:3365538933" style="display:block;text-align:center;padding:14px 24px;background:rgba(255,255,255,0.15);border:2px solid rgba(255,255,255,0.4);border-radius:10px;color:#fff;font-size:16px;font-weight:700;text-decoration:none;font-family:'Source Sans 3',sans-serif;">💬 Just Text Ryan — (336) 553-8933</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+// ═══════ HELPERS ═══════
+function parseVal(id) {
+  return parseInt(document.getElementById(id).value.replace(/[^0-9]/g, '')) || 0;
+}
+
+function fmt(n) {
+  if (n < 0) return '-$' + Math.abs(Math.round(n)).toLocaleString();
+  return '$' + Math.round(n).toLocaleString();
+}
+
+function fmtK(n) {
+  if (Math.abs(n) >= 1000) return '$' + (Math.round(n / 100) / 10).toLocaleString() + 'K';
+  return fmt(n);
+}
+
+// Comma-format inputs on type
+document.querySelectorAll('#homeCosts, #careCosts, #modCost, #alCost').forEach(el => {
+  el.addEventListener('input', function() {
+    let v = this.value.replace(/[^0-9]/g, '');
+    if (v) this.value = parseInt(v).toLocaleString();
+  });
+});
+
+let chartInstance = null;
+
+// ═══════ MAIN CALCULATION ═══════
+function runAnalysis() {
+  const homeCosts = parseVal('homeCosts');
+  const careCostsBase = parseVal('careCosts');
+  const modCost = parseVal('modCost');
+  const alBase = parseVal('alCost');
+
+  // Build 60-month arrays
+  const homeMonthly = [];
+  const alMonthly = [];
+  const homeCum = [];
+  const alCum = [];
+  const labels = [];
+
+  let homeRunning = modCost; // Start with modification cost
+  let alRunning = 0;
+  let breakEvenMonth = -1;
+
+  for (let m = 1; m <= 60; m++) {
+    labels.push(m);
+
+    // Care progression
+    let careCost = careCostsBase;
+    if (m > 24 && m <= 48) {
+      // Year 3-4: Health decline, add 20hr/week ($2000/mo)
+      careCost = careCostsBase + 2000;
+    } else if (m > 48) {
+      // Year 5: Advanced needs, add 40hr/week ($4000/mo)
+      careCost = careCostsBase + 4000;
+    }
+
+    const homeThisMonth = homeCosts + careCost;
+    homeMonthly.push(homeThisMonth);
+    homeRunning += homeThisMonth;
+    homeCum.push(homeRunning);
+
+    // AL with 3% annual inflation (0.25% per month compounded)
+    const alInflated = alBase * Math.pow(1.03, (m - 1) / 12);
+    alMonthly.push(alInflated);
+    alRunning += alInflated;
+    alCum.push(alRunning);
+
+    // Detect crossover
+    if (breakEvenMonth === -1 && homeRunning > alRunning) {
+      breakEvenMonth = m;
+    }
+  }
+
+  // ═══════ RENDER VERDICT ═══════
+  const verdictEl = document.getElementById('aipVerdict');
+  if (breakEvenMonth > 0) {
+    const years = Math.floor(breakEvenMonth / 12);
+    const months = breakEvenMonth % 12;
+    const timeStr = years > 0 ? `${years} year${years > 1 ? 's' : ''}${months > 0 ? `, ${months} month${months > 1 ? 's' : ''}` : ''}` : `${months} month${months > 1 ? 's' : ''}`;
+    verdictEl.className = 'aip-verdict';
+    verdictEl.innerHTML = `
+      <div class="aip-verdict-text">In your scenario, staying home becomes a financial loss in <span class="month-num">Month ${breakEvenMonth}</span></div>
+      <div class="aip-verdict-sub">That's approximately ${timeStr} from now. After this point, assisted living is the more affordable option.</div>
+    `;
+  } else {
+    verdictEl.className = 'aip-verdict never';
+    verdictEl.innerHTML = `
+      <div class="aip-verdict-text">In your scenario, staying home remains <span class="month-num">less expensive</span> for the full 5 years</div>
+      <div class="aip-verdict-sub">However, this assumes only part-time care. If needs escalate to 24/7 care, the math changes dramatically.</div>
+    `;
+  }
+
+  // ═══════ RENDER CHART ═══════
+  if (chartInstance) chartInstance.destroy();
+
+  const ctx = document.getElementById('aipChart').getContext('2d');
+
+  // Build crossover point data
+  const crossoverData = new Array(60).fill(null);
+  if (breakEvenMonth > 0 && breakEvenMonth <= 60) {
+    crossoverData[breakEvenMonth - 1] = homeCum[breakEvenMonth - 1];
+  }
+
+  chartInstance = new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: labels,
+      datasets: [
+        {
+          label: 'Stay at Home (Cumulative)',
+          data: homeCum,
+          borderColor: '#2a6cb8',
+          backgroundColor: 'rgba(42,108,184,0.08)',
+          fill: false,
+          borderWidth: 3,
+          tension: 0.3,
+          pointRadius: 0,
+          pointHoverRadius: 5,
+        },
+        {
+          label: 'Assisted Living (Cumulative)',
+          data: alCum,
+          borderColor: '#c9a84c',
+          backgroundColor: 'rgba(201,168,76,0.08)',
+          fill: false,
+          borderWidth: 3,
+          tension: 0.3,
+          pointRadius: 0,
+          pointHoverRadius: 5,
+        },
+        {
+          label: 'Break-Even',
+          data: crossoverData,
+          borderColor: '#c0392b',
+          backgroundColor: '#c0392b',
+          pointRadius: crossoverData.map(v => v !== null ? 8 : 0),
+          pointHoverRadius: crossoverData.map(v => v !== null ? 10 : 0),
+          pointStyle: 'crossRot',
+          borderWidth: 0,
+          showLine: false,
+        }
+      ]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: true,
+      aspectRatio: window.innerWidth < 600 ? 1.2 : 2,
+      interaction: { intersect: false, mode: 'index' },
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          backgroundColor: '#1a3052',
+          titleFont: { family: "'Source Sans 3', sans-serif", weight: '700' },
+          bodyFont: { family: "'Source Sans 3', sans-serif" },
+          padding: 12,
+          cornerRadius: 8,
+          callbacks: {
+            title: (items) => `Month ${items[0].label}`,
+            label: (item) => {
+              if (item.datasetIndex === 2) return item.raw ? '✕ BREAK-EVEN POINT' : '';
+              return `${item.dataset.label}: ${fmt(item.raw)}`;
+            }
+          }
+        },
+        // Vertical line annotation at break-even
+      },
+      scales: {
+        x: {
+          title: { display: true, text: 'Month', font: { family: "'Source Sans 3'", weight: '700', size: 12 }, color: '#a09b90' },
+          grid: { color: 'rgba(0,0,0,0.04)' },
+          ticks: {
+            callback: (v) => (v + 1) % 12 === 0 ? `Yr ${Math.round((v + 1) / 12)}` : '',
+            font: { family: "'Source Sans 3'", weight: '700', size: 11 },
+            color: '#6b665c'
+          }
+        },
+        y: {
+          title: { display: true, text: 'Cumulative Cost ($)', font: { family: "'Source Sans 3'", weight: '700', size: 12 }, color: '#a09b90' },
+          grid: { color: 'rgba(0,0,0,0.04)' },
+          ticks: {
+            callback: (v) => fmtK(v),
+            font: { family: "'Source Sans 3'", weight: '600', size: 11 },
+            color: '#6b665c'
+          }
+        }
+      }
+    }
+  });
+
+  // ═══════ PHASE MARKERS ═══════
+  const phasesEl = document.getElementById('aipPhases');
+  const phase1Cost = homeCosts + careCostsBase;
+  const phase2Cost = homeCosts + careCostsBase + 2000;
+  const phase3Cost = homeCosts + careCostsBase + 4000;
+
+  phasesEl.innerHTML = `
+    <div class="aip-phase">
+      <div class="aip-phase-label">Years 1–2</div>
+      <div class="aip-phase-title">Current Needs</div>
+      <div class="aip-phase-cost">${fmt(phase1Cost)}/mo at home</div>
+    </div>
+    <div class="aip-phase${phase2Cost > alBase ? ' warning' : ''}">
+      <div class="aip-phase-label">Years 3–4</div>
+      <div class="aip-phase-title">Health Decline (+20 hrs/wk)</div>
+      <div class="aip-phase-cost">${fmt(phase2Cost)}/mo at home</div>
+    </div>
+    <div class="aip-phase${phase3Cost > alBase ? ' warning' : ''}">
+      <div class="aip-phase-label">Year 5</div>
+      <div class="aip-phase-title">Advanced Needs (+40 hrs/wk)</div>
+      <div class="aip-phase-cost">${fmt(phase3Cost)}/mo at home</div>
+    </div>
+  `;
+
+  // ═══════ 5-YEAR TOTALS ═══════
+  const homeTotal = homeCum[59];
+  const alTotal = alCum[59];
+  const diff = Math.abs(homeTotal - alTotal);
+  const homeWins = homeTotal < alTotal;
+
+  document.getElementById('aipTotals').innerHTML = `
+    <div class="aip-total-card home">
+      <div class="aip-tc-label">5-Year Stay at Home</div>
+      <div class="aip-tc-amount">${fmt(homeTotal)}</div>
+      <div class="aip-tc-detail">Including ${fmt(modCost)} in modifications</div>
+    </div>
+    <div class="aip-total-card al">
+      <div class="aip-tc-label">5-Year Assisted Living</div>
+      <div class="aip-tc-amount">${fmt(alTotal)}</div>
+      <div class="aip-tc-detail">Including 3% annual inflation</div>
+    </div>
+    <div class="aip-diff ${homeWins ? 'home-wins' : 'al-wins'}">
+      ${homeWins
+        ? `Staying home saves ${fmt(diff)} over 5 years — but watch the Year 3+ escalation`
+        : `Assisted living saves ${fmt(diff)} over 5 years when care needs increase`
+      }
+    </div>
+  `;
+
+  // ═══════ BREAKDOWN TABLE ═══════
+  const tbody = document.getElementById('aipBBody');
+  tbody.innerHTML = '';
+
+  const periods = [
+    { label: 'Years 1–2', homeM: phase1Cost, months: 24 },
+    { label: 'Years 3–4', homeM: phase2Cost, months: 24 },
+    { label: 'Year 5', homeM: phase3Cost, months: 12 },
+  ];
+
+  periods.forEach((p, i) => {
+    const alAtStart = alBase * Math.pow(1.03, i === 0 ? 0 : i === 1 ? 2 : 4);
+    const diff = p.homeM - alAtStart;
+    const homeHigher = diff > 0;
+
+    const tr = document.createElement('tr');
+    tr.innerHTML = `
+      <td>${p.label}</td>
+      <td>${fmt(homeCosts)}</td>
+      <td>${fmt(p.homeM - homeCosts)}</td>
+      <td class="${homeHigher ? 'cost-high' : 'cost-low'}">${fmt(p.homeM)}/mo</td>
+      <td class="${!homeHigher ? 'cost-high' : 'cost-low'}">${fmt(Math.round(alAtStart))}/mo</td>
+      <td class="${homeHigher ? 'cost-high' : 'cost-low'}">${homeHigher ? '+' : ''}${fmt(diff)}/mo</td>
+    `;
+    tbody.appendChild(tr);
+  });
+
+  // Show results
+  const results = document.getElementById('aipResults');
+  results.classList.add('active');
+  results.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+</script>
+
+</body>
+</html>
