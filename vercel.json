@@ -2,25 +2,49 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "redirects": [
     {
-      "source": "/:path*",
+      "source": "/",
       "has": [{ "type": "host", "value": "seniortransitionblueprint.com" }],
       "destination": "https://rigginsstrategicsolutions.com/the-blueprint",
       "permanent": true
     },
     {
-      "source": "/:path*",
+      "source": "/:path+",
+      "has": [{ "type": "host", "value": "seniortransitionblueprint.com" }],
+      "destination": "https://rigginsstrategicsolutions.com/the-blueprint",
+      "permanent": true
+    },
+    {
+      "source": "/",
       "has": [{ "type": "host", "value": "www.seniortransitionblueprint.com" }],
       "destination": "https://rigginsstrategicsolutions.com/the-blueprint",
       "permanent": true
     },
     {
-      "source": "/:path*",
+      "source": "/:path+",
+      "has": [{ "type": "host", "value": "www.seniortransitionblueprint.com" }],
+      "destination": "https://rigginsstrategicsolutions.com/the-blueprint",
+      "permanent": true
+    },
+    {
+      "source": "/",
       "has": [{ "type": "host", "value": "theseniortransitionblueprint.com" }],
       "destination": "https://rigginsstrategicsolutions.com/the-blueprint",
       "permanent": true
     },
     {
-      "source": "/:path*",
+      "source": "/:path+",
+      "has": [{ "type": "host", "value": "theseniortransitionblueprint.com" }],
+      "destination": "https://rigginsstrategicsolutions.com/the-blueprint",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [{ "type": "host", "value": "www.theseniortransitionblueprint.com" }],
+      "destination": "https://rigginsstrategicsolutions.com/the-blueprint",
+      "permanent": true
+    },
+    {
+      "source": "/:path+",
       "has": [{ "type": "host", "value": "www.theseniortransitionblueprint.com" }],
       "destination": "https://rigginsstrategicsolutions.com/the-blueprint",
       "permanent": true
