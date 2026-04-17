@@ -5,49 +5,49 @@
       "source": "/",
       "has": [{ "type": "host", "value": "seniortransitionblueprint.com" }],
       "destination": "https://rigginsstrategicsolutions.com/the-blueprint",
-      "permanent": true
+      "statusCode": 301
     },
     {
       "source": "/:path+",
       "has": [{ "type": "host", "value": "seniortransitionblueprint.com" }],
       "destination": "https://rigginsstrategicsolutions.com/the-blueprint",
-      "permanent": true
+      "statusCode": 301
     },
     {
       "source": "/",
       "has": [{ "type": "host", "value": "www.seniortransitionblueprint.com" }],
       "destination": "https://rigginsstrategicsolutions.com/the-blueprint",
-      "permanent": true
+      "statusCode": 301
     },
     {
       "source": "/:path+",
       "has": [{ "type": "host", "value": "www.seniortransitionblueprint.com" }],
       "destination": "https://rigginsstrategicsolutions.com/the-blueprint",
-      "permanent": true
+      "statusCode": 301
     },
     {
       "source": "/",
       "has": [{ "type": "host", "value": "theseniortransitionblueprint.com" }],
       "destination": "https://rigginsstrategicsolutions.com/the-blueprint",
-      "permanent": true
+      "statusCode": 301
     },
     {
       "source": "/:path+",
       "has": [{ "type": "host", "value": "theseniortransitionblueprint.com" }],
       "destination": "https://rigginsstrategicsolutions.com/the-blueprint",
-      "permanent": true
+      "statusCode": 301
     },
     {
       "source": "/",
       "has": [{ "type": "host", "value": "www.theseniortransitionblueprint.com" }],
       "destination": "https://rigginsstrategicsolutions.com/the-blueprint",
-      "permanent": true
+      "statusCode": 301
     },
     {
       "source": "/:path+",
       "has": [{ "type": "host", "value": "www.theseniortransitionblueprint.com" }],
       "destination": "https://rigginsstrategicsolutions.com/the-blueprint",
-      "permanent": true
+      "statusCode": 301
     }
   ]
 }
