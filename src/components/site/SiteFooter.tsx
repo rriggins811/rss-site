@@ -32,9 +32,9 @@ const footerNav: { heading: string; links: { href: string; label: string }[] }[]
 ];
 
 const legalLinks: { href: string; label: string }[] = [
-  { href: "/privacy-policy", label: "Privacy Policy" },
-  { href: "/terms-of-service", label: "Terms of Service" },
-  { href: "/referral-partner-terms-conditions", label: "Referral Partner Terms" },
+  { href: "/privacy", label: "Privacy Policy" },
+  { href: "/terms", label: "Terms of Service" },
+  { href: "/referral-terms", label: "Referral Partner Terms" },
 ];
 
 export function SiteFooter() {
@@ -106,7 +106,7 @@ export function SiteFooter() {
             This site uses Google Analytics (GA4) to measure how visitors use
             the pages. No personal information is collected. If your browser
             sends a Do Not Track signal, analytics are disabled. See our{" "}
-            <Link href="/privacy-policy" className="underline hover:text-gold-300">
+            <Link href="/privacy" className="underline hover:text-gold-300">
               Privacy Policy
             </Link>{" "}
             for details.

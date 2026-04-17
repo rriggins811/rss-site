@@ -30,13 +30,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/contact", changeFrequency: "monthly", priority: 0.7 },
     { path: "/blog", changeFrequency: "weekly", priority: 0.8 },
     { path: "/media", changeFrequency: "monthly", priority: 0.7 },
-    { path: "/privacy-policy", changeFrequency: "yearly", priority: 0.3 },
-    { path: "/terms-of-service", changeFrequency: "yearly", priority: 0.3 },
-    {
-      path: "/referral-partner-terms-conditions",
-      changeFrequency: "yearly",
-      priority: 0.3,
-    },
+    { path: "/privacy", changeFrequency: "yearly", priority: 0.3 },
+    { path: "/terms", changeFrequency: "yearly", priority: 0.3 },
+    { path: "/referral-terms", changeFrequency: "yearly", priority: 0.3 },
   ];
 
   const staticEntries: MetadataRoute.Sitemap = staticRoutes.map((r) => ({
