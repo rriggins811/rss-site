@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { GoldRule } from "@/components/site/GoldRule";
+import { AppPlatformBadges } from "@/components/site/AppPlatformBadges";
 
 const paths: {
   tag: string;
@@ -11,7 +12,7 @@ const paths: {
   price: string;
   blurb: string;
   bullets: string[];
-  cta: { href: string; label: string };
+  cta: { href: string; label: string; external?: boolean };
   image: string;
   alt: string;
   accent?: boolean;
@@ -52,12 +53,27 @@ const paths: {
     blurb: "For families coordinating daily care across siblings.",
     bullets: [
       "Daily check-ins and medication tracking",
-      "AI assistant, document vault, family messaging",
-      "Keep everyone on the same page without group texts",
+      "SeniorSafe AI as your parent's daily buddy",
+      "Document vault and private family messaging",
     ],
     cta: { href: "/seniorsafe-app", label: "Start free trial" },
     image: "/photos/stock_video_call_setup.jpg",
     alt: "Video call setup representing family coordination via SeniorSafe",
+  },
+  {
+    tag: "Premium+",
+    title: "SeniorSafe + Maggie",
+    price: "$39.99/mo · 14-day free trial",
+    blurb: "For families navigating an active transition.",
+    bullets: [
+      "Everything in SeniorSafe",
+      "Maggie, your AI transition specialist",
+      "24/7 access to the full Blueprint methodology",
+      "Persona detection and predator protection",
+    ],
+    cta: { href: "https://app.seniorsafeapp.com", label: "Start free trial", external: true },
+    image: "/photos/stock_video_call_setup.jpg",
+    alt: "Adult child reviewing transition plan with SeniorSafe Premium+ on a laptop",
   },
 ];
 
@@ -111,6 +127,7 @@ export default function HomePage() {
             <p className="mt-4 text-sm text-ink/60">
               No pressure. No upsells. Just real answers.
             </p>
+            <AppPlatformBadges className="mt-8" />
           </div>
           <div className="relative aspect-[4/5] lg:aspect-[5/6] rounded-lg overflow-hidden shadow-xl shadow-navy-900/10">
             <Image
@@ -130,14 +147,14 @@ export default function HomePage() {
         <div className="mx-auto max-w-6xl px-6 py-20">
           <div className="max-w-2xl">
             <GoldRule />
-            <h2 className="mt-3">Three ways to work with Ryan.</h2>
+            <h2 className="mt-3">Four ways to work with Ryan.</h2>
             <p className="mt-4 text-lg text-ink/80">
-              Self-serve, guided, or daily-care app. Pick the one that matches where
-              your family is right now.
+              Self-serve, guided, daily-care app, or the full transition copilot.
+              Pick the one that matches where your family is right now.
             </p>
           </div>
 
-          <div className="mt-12 grid gap-6 lg:grid-cols-3">
+          <div className="mt-12 grid gap-6 md:grid-cols-2 xl:grid-cols-4">
             {paths.map((p) => (
               <Card
                 key={p.title}
@@ -175,7 +192,13 @@ export default function HomePage() {
                     ))}
                   </ul>
                   <Button asChild variant={p.accent ? "default" : "outline"} className="mt-auto w-full">
-                    <Link href={p.cta.href}>{p.cta.label}</Link>
+                    {p.cta.external ? (
+                      <a href={p.cta.href} target="_blank" rel="noopener noreferrer">
+                        {p.cta.label}
+                      </a>
+                    ) : (
+                      <Link href={p.cta.href}>{p.cta.label}</Link>
+                    )}
                   </Button>
                 </CardContent>
               </Card>

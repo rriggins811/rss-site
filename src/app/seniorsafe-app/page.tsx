@@ -6,12 +6,13 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { GoldRule } from "@/components/site/GoldRule";
 import { EmailFallback } from "@/components/site/EmailFallback";
+import { AppPlatformBadges } from "@/components/site/AppPlatformBadges";
 import { paymentLinks } from "@/lib/payment-links";
 
 export const metadata: Metadata = {
   title: "SeniorSafe — The Family App for Senior Care",
   description:
-    "SeniorSafe is the daily coordination app for families navigating senior care. Daily check-ins, medication tracking, family messaging, document vault, and AI assistant. $14.99/month, 14-day free trial, cancel anytime.",
+    "SeniorSafe is the daily coordination app for families navigating senior care. Daily check-ins, medication tracking, family messaging, document vault, and two AIs: SeniorSafe AI for the elder ($14.99/mo Premium), and Maggie, your AI transition specialist for the adult child ($39.99/mo Premium+). 14-day free trial.",
   alternates: { canonical: "/seniorsafe-app" },
 };
 
@@ -60,8 +61,8 @@ const features: { title: string; body: string }[] = [
     body: "POA, insurance cards, healthcare directives, doctor notes. Scan once, organized forever. Shareable with the family members who need access, private from the ones who don't.",
   },
   {
-    title: "AI senior-care assistant",
-    body: "Not a generic chatbot. A real helper that knows senior care. Drop in a Medicare notice and get it in plain English. Ask what to do about mom\u2019s new diagnosis. Need a script for the hard conversation with dad? It\u2019s got one. Available at 2 AM when the crisis hits and you need an answer before morning.",
+    title: "SeniorSafe AI for your parent",
+    body: "Your parent's daily buddy. A friendly tab they open every day to ask general life questions, decode Medicare notices in plain English, or get help drafting a note to the doctor. Built for the elder using the app, not for the adult child running the move.",
   },
   {
     title: "Works with the Blueprint playbook",
@@ -108,8 +109,10 @@ export default function SeniorSafePage() {
               </Button>
             </div>
             <p className="mt-4 text-sm text-ink/60">
-              $14.99/month after the trial. Cancel anytime. No partial-month refunds.
+              $14.99/mo for SeniorSafe (Premium) or $39.99/mo for SeniorSafe +
+              Maggie (Premium+). Cancel anytime. No partial-month refunds.
             </p>
+            <AppPlatformBadges className="mt-8" />
           </div>
           <div className="relative aspect-[4/5] lg:aspect-[5/6] rounded-lg overflow-hidden shadow-xl shadow-navy-900/10">
             <Image
@@ -179,7 +182,8 @@ export default function SeniorSafePage() {
 
           <div className="mt-8 border-l-2 border-gold-500 pl-4 max-w-xl">
             <p className="italic font-serif text-lg text-burgundy-700">
-              Plus a 24/7 AI that knows senior care. Not a chatbot. A real helper.
+              Plus two AIs that know senior care. SeniorSafe AI for your parent.
+              Maggie, your transition specialist, for you.
             </p>
           </div>
 
@@ -194,15 +198,106 @@ export default function SeniorSafePage() {
         </div>
       </section>
 
+      {/* TWO AIs, ONE APP */}
+      <section className="bg-white border-y border-border">
+        <div className="mx-auto max-w-6xl px-6 py-20">
+          <div className="max-w-2xl">
+            <GoldRule />
+            <h2 className="mt-3">Two AIs, one app.</h2>
+            <p className="mt-4 text-lg text-ink/80">
+              SeniorSafe ships with two distinct AIs because the senior and the
+              adult child running the move need different help. One is the
+              friendly daily companion. The other is the navigator.
+            </p>
+          </div>
+
+          <div className="mt-12 grid gap-6 md:grid-cols-2">
+            <Card className="bg-cream border-border">
+              <CardContent className="pt-6">
+                <div className="text-xs font-semibold uppercase tracking-wider text-burgundy-600">
+                  $14.99/mo · Premium
+                </div>
+                <h3 className="mt-2 font-serif text-2xl text-navy-700">
+                  SeniorSafe AI
+                </h3>
+                <p className="mt-3 italic text-ink/70 text-sm">
+                  Your parent&rsquo;s daily buddy.
+                </p>
+                <p className="mt-4 text-ink/85 leading-relaxed">
+                  Built to help the senior with general life questions, decode
+                  Medicare notices, draft a quick email, or stay engaged through
+                  the day. The friendly tab they open every morning. Designed
+                  around the elder using the app, not the family running the
+                  move.
+                </p>
+                <Button asChild variant="outline" className="mt-6">
+                  <a
+                    href={paymentLinks.seniorSafe}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Start free 14-day trial
+                  </a>
+                </Button>
+              </CardContent>
+            </Card>
+
+            <Card className="bg-cream border-burgundy-600 border-2 shadow-lg shadow-burgundy-600/10">
+              <CardContent className="pt-6">
+                <div className="flex items-baseline justify-between gap-2">
+                  <div className="text-xs font-semibold uppercase tracking-wider text-burgundy-600">
+                    $39.99/mo · Premium+
+                  </div>
+                  <Badge className="bg-gold-500 text-navy-900 hover:bg-gold-500 border-0">
+                    New
+                  </Badge>
+                </div>
+                <h3 className="mt-2 font-serif text-2xl text-navy-700">
+                  Maggie, your AI transition specialist
+                </h3>
+                <p className="mt-3 italic text-ink/70 text-sm">
+                  Your navigator for the adult child managing the move.
+                </p>
+                <p className="mt-4 text-ink/85 leading-relaxed">
+                  Built for you, not your parent. Maggie knows the full
+                  19-module Blueprint. She recognizes resistant-parent personas.
+                  She walks you through wholesaler offers in real time. She
+                  remembers your situation across conversations. Available 24/7
+                  for the moment the wholesaler letter shows up or the 2 AM
+                  hospital call comes in.
+                </p>
+                <Button asChild className="mt-6">
+                  <a
+                    href={paymentLinks.seniorSafe}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Start free 14-day trial
+                  </a>
+                </Button>
+              </CardContent>
+            </Card>
+          </div>
+
+          <p className="mt-10 max-w-3xl text-lg text-ink/80 leading-relaxed">
+            <strong className="text-navy-700">Choose Premium</strong> if your
+            parent uses the app daily and needs a friendly helper.{" "}
+            <strong className="text-navy-700">Choose Premium+</strong> if YOU
+            need the navigator, not just the daily check-in tool.
+          </p>
+        </div>
+      </section>
+
       {/* PRICING / TRIAL */}
       <section className="bg-burgundy-700 text-cream">
         <div className="mx-auto max-w-4xl px-6 py-20 text-center">
           <GoldRule className="mx-auto" />
-          <h2 className="mt-3 text-cream">14 days free. Then $14.99 a month.</h2>
+          <h2 className="mt-3 text-cream">14 days free. Then pick your tier.</h2>
           <p className="mt-6 text-lg text-cream/90 max-w-2xl mx-auto leading-relaxed">
             Start the trial today. Use every feature for 14 days with no
             charge. If it&rsquo;s not the right fit, cancel before day 14 and
-            owe nothing. After that, $14.99 a month. Cancel anytime. No
+            owe nothing. After that, $14.99/mo for SeniorSafe (Premium) or
+            $39.99/mo for SeniorSafe + Maggie (Premium+). Cancel anytime. No
             partial-month refunds.
           </p>
           <Button asChild size="lg" className="mt-8 bg-gold-500 text-navy-900 hover:bg-gold-300">
@@ -241,13 +336,13 @@ export default function SeniorSafePage() {
             </p>
             <p>
               Plenty of families use one without the other. Some use both. The
-              Blueprint page lays out all four tiers side by side so you can
+              Blueprint page lays out all five tiers side by side so you can
               pick what fits.
             </p>
           </div>
           <div className="mt-8 flex flex-wrap gap-3">
             <Button asChild>
-              <Link href="/the-blueprint">See all four tiers</Link>
+              <Link href="/the-blueprint">See all five tiers</Link>
             </Button>
             <Button asChild variant="outline">
               <Link href="/work-with-ryan">Book a free call to talk it through</Link>

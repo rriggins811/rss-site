@@ -14,7 +14,7 @@ import { abs } from "@/lib/site";
 export const metadata: Metadata = {
   title: "The Blueprint — Senior Transition Tiers",
   description:
-    "Four ways to work with Ryan Riggins on a senior housing transition. Free Simple Blueprint, $47 Blueprint Core, $297 Blueprint Premium, and $14.99/mo SeniorSafe app.",
+    "Five ways to work with Ryan Riggins on a senior housing transition. Free Simple Blueprint, $47 Blueprint Core, $297 Blueprint Premium, $14.99/mo SeniorSafe, and $39.99/mo Premium+ with Maggie, your AI transition specialist.",
   alternates: { canonical: "/the-blueprint" },
 };
 
@@ -90,17 +90,34 @@ const tiers: Tier[] = [
     price: "$14.99/mo",
     priceSub: "14-day free trial. Cancel anytime.",
     title: "The app for the daily part.",
-    blurb: "Daily check-ins, medication tracking, family messaging, AI assistant.",
+    blurb: "Daily check-ins, medication tracking, family messaging, SeniorSafe AI.",
     audience: "Families coordinating daily care across siblings and caregivers.",
     bullets: [
       "Daily wellness check-ins with real-time family updates",
       "Medication and appointment tracking in one place",
       "Private family messaging that beats group texts",
-      "Document vault and AI assistant for the paperwork",
+      "SeniorSafe AI as your parent's daily buddy",
     ],
     cta: { href: paymentLinks.seniorSafe, label: "Start free trial", external: true },
     image: "/photos/stock_video_call_setup.jpg",
     alt: "Video call setup representing family coordination via SeniorSafe",
+  },
+  {
+    label: "Premium+",
+    price: "$39.99/mo",
+    priceSub: "14-day free trial. Cancel anytime.",
+    title: "SeniorSafe with Maggie, your AI transition specialist.",
+    blurb: "Everything in SeniorSafe, plus Maggie for the adult child running the move.",
+    audience: "Families navigating an active transition who need a navigator on call.",
+    bullets: [
+      "Everything in SeniorSafe",
+      "Maggie, your AI transition specialist, available 24/7",
+      "Full 19-module Blueprint methodology built into Maggie",
+      "Resistant-parent persona detection and predator protection",
+    ],
+    cta: { href: paymentLinks.seniorSafe, label: "Start free trial", external: true },
+    image: "/photos/stock_video_call_setup.jpg",
+    alt: "Adult child reviewing transition options with Maggie, the AI transition specialist",
   },
 ];
 
@@ -146,6 +163,10 @@ const faqs: { q: string; a: string }[] = [
     a: "Core is the full self-serve system. Premium is Core plus a personalized plan written for your specific situation, a 60-minute 1-on-1 call with Ryan, and 90 days of email follow-up while you execute. If you want someone in your corner, not just a playbook, Premium is the pick.",
   },
   {
+    q: "How is Premium+ different from regular SeniorSafe?",
+    a: "SeniorSafe at $14.99/mo gives you the daily app for the senior plus SeniorSafe AI as a general-purpose helper. Premium+ at $39.99/mo adds Maggie, an AI transition specialist built for the adult child managing the move. Maggie knows the full 19-module Blueprint, recognizes resistant parent personas, and walks you through wholesaler offers in real time. Choose Premium+ if YOU need the navigator, not just the daily check-in tool.",
+  },
+  {
     q: "Can I start with Core and upgrade to Premium later?",
     a: "Yes. When you buy Blueprint Core at $47, you get an email within minutes with a discount code that credits the $47 toward Blueprint Premium whenever you decide to upgrade. No double-paying.",
   },
@@ -155,7 +176,7 @@ const faqs: { q: string; a: string }[] = [
   },
   {
     q: "Is there a money-back guarantee?",
-    a: "Yes. Blueprint Core has a 14-day money-back guarantee. Blueprint Premium has a 14-day money-back guarantee up until the consultation call happens. SeniorSafe has a 14-day free trial, cancel anytime, no charge.",
+    a: "Yes. Blueprint Core has a 14-day money-back guarantee. Blueprint Premium has a 14-day money-back guarantee up until the consultation call happens. SeniorSafe and Premium+ are both 14-day free trials, cancel anytime, no charge.",
   },
 ];
 
@@ -178,7 +199,7 @@ export default function BlueprintPage() {
               The Blueprint
             </Badge>
             <h1 className="mt-6 leading-[1.05]">
-              Four ways to protect your family&rsquo;s equity, dignity, and sanity.
+              Five ways to protect your family&rsquo;s equity, dignity, and sanity.
             </h1>
             <p className="mt-6 font-serif text-xl text-burgundy-600 leading-snug max-w-prose">
               &ldquo;I&rsquo;m not a move manager and I&rsquo;m not a listing
@@ -187,8 +208,9 @@ export default function BlueprintPage() {
             </p>
             <p className="mt-6 max-w-prose text-lg text-ink/80">
               Pick the one that matches where your family is right now. Free
-              starter guide, full DIY system, guided advisory, or the daily
-              coordination app. Same underlying playbook.
+              starter guide, full DIY system, guided advisory, the daily
+              coordination app, or SeniorSafe with Maggie as your AI transition
+              specialist. Same underlying playbook across every tier.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <Button asChild size="lg">
@@ -242,12 +264,12 @@ export default function BlueprintPage() {
             <GoldRule />
             <h2 className="mt-3">Pick your path.</h2>
             <p className="mt-4 text-lg text-ink/80">
-              Four tiers, one playbook. Start small, scale up as the situation
+              Five tiers, one playbook. Start small, scale up as the situation
               demands, or go straight to guided advisory if the clock is ticking.
             </p>
           </div>
 
-          <div className="mt-12 grid gap-6 md:grid-cols-2 xl:grid-cols-4">
+          <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
             {tiers.map((t) => (
               <Card
                 key={t.label}
@@ -360,8 +382,8 @@ export default function BlueprintPage() {
           <p className="mt-6 text-lg text-cream/90 max-w-2xl mx-auto leading-relaxed">
             Blueprint Core has a 14-day money-back guarantee. Blueprint Premium
             has a 14-day money-back guarantee up until the consultation call
-            happens. SeniorSafe is a full 14-day free trial. If it&rsquo;s not
-            the right fit, you walk. No hassle, no guilt trip.
+            happens. SeniorSafe and Premium+ are both 14-day free trials. If
+            it&rsquo;s not the right fit, you walk. No hassle, no guilt trip.
           </p>
         </div>
       </section>

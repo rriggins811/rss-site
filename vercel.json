@@ -2,6 +2,16 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "redirects": [
     {
+      "source": "/services",
+      "destination": "/the-blueprint",
+      "permanent": true
+    },
+    {
+      "source": "/services/:path*",
+      "destination": "/the-blueprint",
+      "permanent": true
+    },
+    {
       "source": "/",
       "has": [{ "type": "host", "value": "seniortransitionblueprint.com" }],
       "destination": "https://rigginsstrategicsolutions.com/the-blueprint",
