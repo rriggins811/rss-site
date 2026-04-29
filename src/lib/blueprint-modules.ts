@@ -476,8 +476,8 @@ export function buildMindMapMarkdown(): string {
   );
   sections.push(
     `## 📚 The Books\n` +
-      `### The Unheard Conversation\n` +
-      `### The Other Side of the Conversation`
+      `### [🛒 The Unheard Conversation, $9.99 on Amazon](https://www.amazon.com/dp/B0GQLB5536)\n` +
+      `### [🛒 The Other Side of the Conversation, $9.99 on Amazon](https://www.amazon.com/dp/B0GRR5FLDD)`
   );
 
   return sections.join("\n\n");

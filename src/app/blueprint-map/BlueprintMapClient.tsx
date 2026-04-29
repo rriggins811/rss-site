@@ -99,15 +99,26 @@ export function BlueprintMapClient() {
       const anchor = target.closest("a");
       if (!anchor) return;
       const href = anchor.getAttribute("href") || "";
-      if (!href.startsWith("#module-")) return;
 
-      const id = href.slice(1); // strip leading "#"
-      const mod = getModuleById(id);
-      if (!mod) return;
+      // Module link: open the inline drawer instead of navigating to a hash.
+      if (href.startsWith("#module-")) {
+        const id = href.slice(1);
+        const mod = getModuleById(id);
+        if (!mod) return;
+        e.preventDefault();
+        e.stopPropagation();
+        setActiveModule(mod);
+        return;
+      }
 
-      e.preventDefault();
-      e.stopPropagation();
-      setActiveModule(mod);
+      // External link (Amazon, Maggie app, Premium tier): open in a new tab
+      // so the user keeps their place in the map. Without this Markmap's
+      // default anchor behavior would replace the full-screen overlay.
+      if (/^https?:\/\//i.test(href)) {
+        e.preventDefault();
+        e.stopPropagation();
+        window.open(href, "_blank", "noopener,noreferrer");
+      }
     };
 
     svg.addEventListener("click", handler);
