@@ -1,9 +1,15 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { Transformer } from "markmap-lib";
 import { Markmap } from "markmap-view";
+import {
+  buildMindMapMarkdown,
+  getModuleById,
+  type Module,
+} from "@/lib/blueprint-modules";
+import { ModuleDrawer } from "@/components/blueprint-map/ModuleDrawer";
 
 /**
  * Single shared access token for v1. Lives client-side because the gate
@@ -15,18 +21,17 @@ const VALID_KEY = "blueprint2026";
 // Brand palette per spec.
 const PALETTE = ["#1C3A52", "#6B2C3E", "#D4AF37", "#1C3A52", "#6B2C3E"];
 
-type Props = {
-  markdown: string;
-};
-
 const transformer = new Transformer();
 
-export function BlueprintMapClient({ markdown }: Props) {
+export function BlueprintMapClient() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const svgRef = useRef<SVGSVGElement | null>(null);
   const mmRef = useRef<Markmap | null>(null);
   const [authorized, setAuthorized] = useState<boolean | null>(null);
+  const [activeModule, setActiveModule] = useState<Module | null>(null);
+
+  const markdown = useMemo(() => buildMindMapMarkdown(), []);
 
   // Gate check
   useEffect(() => {
@@ -70,10 +75,7 @@ export function BlueprintMapClient({ markdown }: Props) {
     );
     mmRef.current = mm;
 
-    // Re-fit on viewport changes so the map stays centered on rotate / resize
-    const onResize = () => {
-      mm.fit();
-    };
+    const onResize = () => mm.fit();
     window.addEventListener("resize", onResize);
     window.addEventListener("orientationchange", onResize);
 
@@ -84,8 +86,34 @@ export function BlueprintMapClient({ markdown }: Props) {
     };
   }, [authorized, markdown]);
 
-  // Pre-auth render: nothing (router.replace is in flight). Avoids flashing
-  // the full-screen map for unauthorized visitors.
+  // Click delegation: intercept #module-* anchor clicks inside the SVG
+  // and open the drawer instead of navigating to the hash.
+  useEffect(() => {
+    if (!authorized) return;
+    const svg = svgRef.current;
+    if (!svg) return;
+
+    const handler = (e: MouseEvent) => {
+      const target = e.target as HTMLElement | null;
+      if (!target) return;
+      const anchor = target.closest("a");
+      if (!anchor) return;
+      const href = anchor.getAttribute("href") || "";
+      if (!href.startsWith("#module-")) return;
+
+      const id = href.slice(1); // strip leading "#"
+      const mod = getModuleById(id);
+      if (!mod) return;
+
+      e.preventDefault();
+      e.stopPropagation();
+      setActiveModule(mod);
+    };
+
+    svg.addEventListener("click", handler);
+    return () => svg.removeEventListener("click", handler);
+  }, [authorized]);
+
   if (!authorized) return null;
 
   return (
@@ -105,7 +133,7 @@ export function BlueprintMapClient({ markdown }: Props) {
             The Senior Transition Blueprint, Interactive Mind Map
           </h1>
           <p className="m-0 text-xs sm:text-sm opacity-85">
-            Click any module to expand. Click a video link to watch the lesson.
+            Click any module to open the lesson, video, and tool downloads.
           </p>
         </div>
       </header>
@@ -117,6 +145,8 @@ export function BlueprintMapClient({ markdown }: Props) {
           aria-label="Senior Transition Blueprint mind map"
         />
       </div>
+
+      <ModuleDrawer module={activeModule} onClose={() => setActiveModule(null)} />
     </main>
   );
 }

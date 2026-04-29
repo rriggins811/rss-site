@@ -1,12 +1,11 @@
 import type { Metadata } from "next";
 import { Suspense } from "react";
-import fs from "node:fs";
-import path from "node:path";
 import { BlueprintMapClient } from "./BlueprintMapClient";
 
 export const metadata: Metadata = {
   title: "Blueprint Mind Map",
-  description: "Interactive mind map of the 19-module Senior Transition Blueprint.",
+  description:
+    "Interactive mind map of the 19-module Senior Transition Blueprint with embedded lessons and tool downloads.",
   alternates: { canonical: "/blueprint-map" },
   robots: {
     index: false,
@@ -22,17 +21,14 @@ export const metadata: Metadata = {
  * Token-gated route accessed via post-purchase email and the Module 0
  * GHL lesson. NOT linked from header/footer/sitemap.
  *
- * Source markdown lives at content/blueprint-map.md. Read at build time
- * and inlined into the static page so the client doesn't have to fetch
- * a separate request.
+ * Mind-map data lives in src/lib/blueprint-modules.ts. The client
+ * component generates the simplified Markmap source from that data,
+ * intercepts module-link clicks, and opens an inline lesson drawer.
  */
 export default function BlueprintMapPage() {
-  const filePath = path.join(process.cwd(), "content", "blueprint-map.md");
-  const markdown = fs.readFileSync(filePath, "utf8");
-
   return (
     <Suspense fallback={null}>
-      <BlueprintMapClient markdown={markdown} />
+      <BlueprintMapClient />
     </Suspense>
   );
 }
