@@ -7,13 +7,11 @@ import Link from "next/link";
  * Play Store listings without touching markup.
  */
 
-// TODO(ryan): replace with real App Store listing URL
 const APP_STORE_URL =
-  "https://apps.apple.com/app/seniorsafe/id0000000000";
+  "https://apps.apple.com/us/app/seniorsafe-app/id6761343239";
 
-// TODO(ryan): replace with real Play Store listing URL
 const PLAY_STORE_URL =
-  "https://play.google.com/store/apps/details?id=com.seniorsafeapp";
+  "https://play.google.com/store/apps/details?id=com.rigginsstrategicsolutions.seniorsafe";
 
 const WEB_APP_URL = "https://app.seniorsafeapp.com";
 
