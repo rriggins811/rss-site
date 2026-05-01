@@ -40,7 +40,13 @@ export function organizationSchema() {
       addressCountry: ORGANIZATION.address.addressCountry,
     },
     areaServed: ORGANIZATION.areaServed,
-    sameAs: socialLinks.map((s) => s.url),
+    // sameAs reinforces the identity graph: same brand on social profiles
+    // plus the SeniorSafe marketing site, which is the consumer-facing
+    // brand for the family coordination app shipped by RSS LLC.
+    sameAs: [
+      ...socialLinks.map((s) => s.url),
+      "https://seniorsafeapp.com",
+    ],
   };
 }
 
