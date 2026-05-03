@@ -26,6 +26,7 @@ const footerNav: { heading: string; links: { href: string; label: string }[] }[]
     links: [
       { href: "/about", label: "About Ryan" },
       { href: "/blog", label: "Blog" },
+      { href: "/resources", label: "Resources" },
       { href: "/media", label: "Media & podcasts" },
     ],
   },

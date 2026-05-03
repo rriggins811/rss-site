@@ -5,6 +5,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Badge } from "@/components/ui/badge";
 import { GoldRule } from "@/components/site/GoldRule";
 import { AppPlatformBadges } from "@/components/site/AppPlatformBadges";
+import { FAQSection, type FAQItem } from "@/components/aeo/FAQSection";
 
 const paths: {
   tag: string;
@@ -74,6 +75,63 @@ const paths: {
     cta: { href: "https://app.seniorsafeapp.com", label: "Start free trial", external: true },
     image: "/photos/stock_video_call_setup.jpg",
     alt: "Adult child reviewing transition plan with SeniorSafe Premium+ on a laptop",
+  },
+];
+
+const homeFaqs: FAQItem[] = [
+  {
+    question: "How do I help my aging parent decide whether to sell their house?",
+    answer:
+      "Start by listening, not selling. Most parents resist because they fear losing autonomy or burdening you, not because they don't see the math. Have an honest conversation about their daily reality, document maintenance costs and time, then bring in a Senior Real Estate Specialist (SRES) who works for the family, not the sale. Senior Transition Blueprint walks you through this conversation step by step.",
+  },
+  {
+    question: "Do I need power of attorney to sell my parent's home?",
+    answer:
+      "Yes, if your parent is mentally competent they can sign their own paperwork, but most families benefit from a power of attorney (POA) document signed in advance. If your parent has lost capacity without a POA in place, you'll need to petition the court for guardianship, which is more expensive and takes months. Talk to an elder law attorney early.",
+  },
+  {
+    question:
+      "What's the difference between a Senior Real Estate Specialist and a regular agent?",
+    answer:
+      "A Senior Real Estate Specialist (SRES) has specific training in working with adults 50+, including understanding Medicare timing, downsizing logistics, and the emotional weight of selling a long-time family home. Regular agents are trained to close deals fast. SRES agents are trained to protect the family.",
+  },
+  {
+    question:
+      "How do I spot a wholesaler trying to take advantage of my elderly parent?",
+    answer:
+      "Wholesalers send 'we buy houses' mailers, knock on doors, or cold call with cash offers 30-50% below market value. They prey on urgency and confusion. Red flags: no MLS listing, no inspection, 'as-is' only, and pressure to sign within 48 hours. A real buyer goes through proper channels and lets you get a second opinion.",
+  },
+  {
+    question: "How much does assisted living cost in 2026?",
+    answer:
+      "National average is around $5,500/month for assisted living, $9,000+/month for memory care. Costs vary 2-3x by state and city. Most families dramatically underestimate. Sale of the home is often the funding source, which is why getting the sale right matters so much for long-term care affordability.",
+  },
+  {
+    question: "What if my parent refuses to even talk about moving?",
+    answer:
+      "This is the most common situation. The right approach depends on your parent's personality (we identify five 'parent personas' in the Blueprint). For most families, the answer isn't pushing harder but creating safety: small conversations over months, addressing their specific fears, and bringing in a neutral third party when emotions run high.",
+  },
+  {
+    question:
+      "How do I avoid the $50K mistakes most families make in a senior transition?",
+    answer:
+      "The five most expensive mistakes: selling to a wholesaler at 30-50% under market, choosing the wrong care level (paying for memory care when assisted living suffices), missing the Medicare lookback window, signing predatory CCRC contracts without legal review, and waiting too long so urgency forces bad decisions. Each one is preventable with the right framework.",
+  },
+  {
+    question: "Are senior referral services like A Place for Mom really free?",
+    answer:
+      "Free to you, but they're paid commissions by the facilities they refer you to (typically 50-100% of the first month's rent). This creates a built-in conflict: they're motivated to recommend facilities that pay them, not necessarily the ones best for your parent. Always do independent research alongside their recommendations.",
+  },
+  {
+    question:
+      "What's the difference between independent living, assisted living, and memory care?",
+    answer:
+      "Independent living is for active seniors who want community without medical support. Assisted living adds help with daily activities (bathing, medication, meals). Memory care is specialized for dementia and Alzheimer's with locked units and 24/7 trained staff. Each tier roughly doubles in cost. Most families overshoot the level needed.",
+  },
+  {
+    question: "How do I get my siblings on the same page about parents' care?",
+    answer:
+      "Sibling conflict is the #1 reason senior transitions go badly. Schedule a structured family meeting (not a casual call), bring in objective data on parents' status, and assign clear roles based on geography and skills. The Blueprint includes a sibling alignment framework that has prevented family fractures in dozens of cases.",
   },
 ];
 
@@ -284,6 +342,13 @@ export default function HomePage() {
           </p>
         </div>
       </section>
+
+      {/* FAQ — homepage */}
+      <FAQSection
+        items={homeFaqs}
+        title="Common questions families ask."
+        kicker="Common questions"
+      />
 
       {/* FINAL CTA */}
       <section className="bg-navy-600 text-cream">
