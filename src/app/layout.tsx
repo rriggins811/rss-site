@@ -36,11 +36,20 @@ export const metadata: Metadata = {
     siteName: SITE_NAME,
     title: `${SITE_NAME} — Senior Transition Advisor`,
     description: SITE_DESCRIPTION,
+    images: [
+      {
+        url: "/photos/hero_ryan_consulting_family.jpg",
+        width: 2752,
+        height: 1536,
+        alt: "Ryan Riggins consulting with an elderly couple at a kitchen table",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: `${SITE_NAME} — Senior Transition Advisor`,
     description: SITE_DESCRIPTION,
+    images: ["/photos/hero_ryan_consulting_family.jpg"],
   },
   robots: {
     index: true,
