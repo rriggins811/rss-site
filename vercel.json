@@ -74,5 +74,11 @@
       "destination": "https://rigginsstrategicsolutions.com/the-blueprint",
       "statusCode": 301
     }
+  ],
+  "crons": [
+    {
+      "path": "/api/cron/ghl-daily-summary",
+      "schedule": "0 11 * * *"
+    }
   ]
 }
