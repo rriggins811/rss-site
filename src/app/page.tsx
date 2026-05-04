@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
@@ -7,6 +8,23 @@ import { GoldRule } from "@/components/site/GoldRule";
 import { AppPlatformBadges } from "@/components/site/AppPlatformBadges";
 import { FAQSection, type FAQItem } from "@/components/aeo/FAQSection";
 import { QuickAnswer } from "@/components/aeo/QuickAnswer";
+
+export const metadata: Metadata = {
+  openGraph: {
+    images: [
+      {
+        url: "/og/homepage.png",
+        width: 1200,
+        height: 630,
+        alt: "Riggins Strategic Solutions — Senior Transition Advisor",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    images: ["/og/homepage.png"],
+  },
+};
 
 const paths: {
   tag: string;
