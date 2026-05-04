@@ -13,7 +13,7 @@ import { breadcrumbListSchema, faqPageSchema } from "@/lib/schema";
 import { abs } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Blueprint Premium — $297 Guided Advisory",
+  title: "Blueprint Premium | $297 Guided Advisory",
   description:
     "Blueprint Premium is everything in Core plus a personalized Senior Transition Plan, a 60-minute 1-on-1 call with Ryan Riggins, and 90 days of email support. $297, one-time, outcome-focused.",
   alternates: { canonical: "/blueprint-premium" },

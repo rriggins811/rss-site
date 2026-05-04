@@ -4,7 +4,7 @@ import { GoldRule } from "@/components/site/GoldRule";
 import { StarterGuideForm } from "@/components/forms/StarterGuideForm";
 
 export const metadata: Metadata = {
-  title: "The Simple Blueprint — Free Starter Guide",
+  title: "The Simple Blueprint | Free Starter Guide",
   description:
     "A free, plain-English starter guide for families facing a senior housing transition. The first 3 moves most families get wrong, and what to do instead.",
   alternates: { canonical: "/freeguide" },

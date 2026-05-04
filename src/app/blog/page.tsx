@@ -8,7 +8,7 @@ import { breadcrumbListSchema } from "@/lib/schema";
 import { getAllPosts, formatPostDate } from "@/lib/blog";
 
 export const metadata: Metadata = {
-  title: "Blog — Senior Transition Insights",
+  title: "Blog | Senior Transition Insights",
   description:
     "Real stories and plain-English guidance on senior housing transitions, aging in place, caregiving, and protecting your family's equity. Senior Transition Advisor Ryan Riggins.",
   alternates: { canonical: "/blog" },

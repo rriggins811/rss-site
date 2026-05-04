@@ -7,7 +7,7 @@ import { breadcrumbListSchema } from "@/lib/schema";
 import { getAllMedia, formatMediaDate } from "@/lib/media";
 
 export const metadata: Metadata = {
-  title: "Media — Podcasts & Press",
+  title: "Media | Podcasts & Press",
   description:
     "Podcast appearances and press where Senior Transition Advisor Ryan Riggins talks about senior housing transitions, family equity, and the $50K mistakes most families never see coming.",
   alternates: { canonical: "/media" },

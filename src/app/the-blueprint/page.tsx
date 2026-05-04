@@ -13,7 +13,7 @@ import { breadcrumbListSchema, faqPageSchema } from "@/lib/schema";
 import { abs } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "The Blueprint — Senior Transition Tiers",
+  title: "The Blueprint | Senior Transition Tiers",
   description:
     "Five ways to work with Ryan Riggins on a senior housing transition. Free Simple Blueprint, $47 Blueprint Core, $297 Blueprint Premium, $14.99/mo SeniorSafe, and $39.99/mo Premium+ with Maggie, your AI transition specialist.",
   alternates: { canonical: "/the-blueprint" },

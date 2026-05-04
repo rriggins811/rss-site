@@ -10,7 +10,7 @@ import { AppPlatformBadges } from "@/components/site/AppPlatformBadges";
 import { paymentLinks } from "@/lib/payment-links";
 
 export const metadata: Metadata = {
-  title: "SeniorSafe — The Family App for Senior Care",
+  title: "SeniorSafe | The Family App for Senior Care",
   description:
     "SeniorSafe is the daily coordination app for families navigating senior care. Daily check-ins, medication tracking, family messaging, document vault, and two AIs: SeniorSafe AI for the elder ($14.99/mo Premium), and Maggie, your AI transition specialist for the adult child ($39.99/mo Premium+). 14-day free trial.",
   alternates: { canonical: "/seniorsafe-app" },
