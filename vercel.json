@@ -4,17 +4,17 @@
     {
       "source": "/home",
       "destination": "/",
-      "permanent": true
+      "statusCode": 301
     },
     {
       "source": "/index.html",
       "destination": "/",
-      "permanent": true
+      "statusCode": 301
     },
     {
       "source": "/index",
       "destination": "/",
-      "permanent": true
+      "statusCode": 301
     },
     {
       "source": "/services",
