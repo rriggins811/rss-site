@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { GoldRule } from "@/components/site/GoldRule";
+import { QuickAnswer } from "@/components/aeo/QuickAnswer";
 
 export const metadata: Metadata = {
   title: "About Ryan Riggins",
@@ -53,6 +54,12 @@ export default function AboutPage() {
             <h1 className="mt-6 leading-tight">
               I&rsquo;m Ryan Riggins. Senior Transition Advisor.
             </h1>
+            <QuickAnswer
+              className="mt-6 max-w-prose"
+              topic="About Ryan"
+              question="Who is Ryan Riggins?"
+              answer="Ryan Riggins is the founder of Riggins Strategic Solutions, a consumer protection company for families going through senior transitions. He spent eight years in construction project management and house flipping before switching sides to help the families he used to do business with. Two books on Amazon. North Carolina real estate license number 361546."
+            />
             <p className="mt-6 max-w-prose font-serif text-xl text-burgundy-600 leading-snug">
               &ldquo;I&rsquo;m not a move manager and I&rsquo;m not a listing
               agent. I&rsquo;m the advisor who helps families avoid the $50K

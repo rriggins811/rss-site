@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Badge } from "@/components/ui/badge";
 import { GoldRule } from "@/components/site/GoldRule";
 import { EmailFallback } from "@/components/site/EmailFallback";
+import { QuickAnswer } from "@/components/aeo/QuickAnswer";
 import { BOOKING_URL } from "@/lib/booking";
 
 export const metadata: Metadata = {
@@ -23,6 +24,12 @@ export default function WorkWithRyanPage() {
           <h1 className="mt-6 leading-[1.05]">
             Book a 30-minute call with Ryan.
           </h1>
+          <QuickAnswer
+            className="mt-6 max-w-prose mx-auto text-left"
+            topic="Working with Ryan"
+            question="How do I work directly with Ryan Riggins?"
+            answer="Book a free 20 minute call to talk through your family situation with Ryan. He listens, asks the questions you have not been asked yet, and tells you straight whether the Blueprint, Premium, the SeniorSafe app, or just a different conversation is the right next step. No pitch. No pressure."
+          />
           <p className="mt-6 text-lg text-ink/80 leading-relaxed max-w-prose mx-auto">
             We&rsquo;ll walk through where you are, what&rsquo;s urgent, and
             what your next move is. This is not a listing pitch. Ryan is

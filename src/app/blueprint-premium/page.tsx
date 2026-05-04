@@ -7,6 +7,7 @@ import { Badge } from "@/components/ui/badge";
 import { GoldRule } from "@/components/site/GoldRule";
 import { EmailFallback } from "@/components/site/EmailFallback";
 import { JsonLd } from "@/components/site/JsonLd";
+import { QuickAnswer } from "@/components/aeo/QuickAnswer";
 import { paymentLinks } from "@/lib/payment-links";
 import { breadcrumbListSchema, faqPageSchema } from "@/lib/schema";
 import { abs } from "@/lib/site";
@@ -128,6 +129,12 @@ export default function BlueprintPremiumPage() {
             <h1 className="mt-6 leading-[1.05]">
               When you want someone in your corner, not just a roadmap.
             </h1>
+            <QuickAnswer
+              className="mt-6 max-w-prose"
+              topic="Premium tier"
+              question="What is Blueprint Premium?"
+              answer="Blueprint Premium is the full Senior Transition Blueprint course plus a 60 minute personalized planning call with Ryan and 90 days of email support. For families who want a custom roadmap and someone in their corner during the hardest decisions. Two hundred ninety seven dollars one time."
+            />
             <p className="mt-6 font-serif text-xl text-burgundy-600 leading-snug max-w-prose">
               &ldquo;I&rsquo;m not a move manager and I&rsquo;m not a listing
               agent. I&rsquo;m the advisor who helps families avoid the $50K

@@ -6,6 +6,7 @@ import { Badge } from "@/components/ui/badge";
 import { GoldRule } from "@/components/site/GoldRule";
 import { AppPlatformBadges } from "@/components/site/AppPlatformBadges";
 import { FAQSection, type FAQItem } from "@/components/aeo/FAQSection";
+import { QuickAnswer } from "@/components/aeo/QuickAnswer";
 
 const paths: {
   tag: string;
@@ -165,6 +166,12 @@ export default function HomePage() {
               <span className="text-burgundy-600">$200K+ in equity.</span> Don&rsquo;t
               let a bad move cost you $50,000 of it.
             </h1>
+            <QuickAnswer
+              className="mt-6 max-w-prose"
+              topic="About RSS"
+              question="What is Riggins Strategic Solutions?"
+              answer="Riggins Strategic Solutions helps families get through senior transitions without getting taken advantage of. We are a media and education company built by a former house flipper turned consumer protection advisor. Free guides, an online course, a family coordination app, and direct access to Ryan when families want a real conversation."
+            />
             <p className="mt-6 max-w-prose text-lg text-ink/80">
               Plain-English guidance from a Senior Transition Advisor who spent 8
               years flipping houses, saw how families got taken advantage of, and

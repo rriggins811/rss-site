@@ -7,6 +7,7 @@ import { Badge } from "@/components/ui/badge";
 import { GoldRule } from "@/components/site/GoldRule";
 import { EmailFallback } from "@/components/site/EmailFallback";
 import { JsonLd } from "@/components/site/JsonLd";
+import { QuickAnswer } from "@/components/aeo/QuickAnswer";
 import { paymentLinks } from "@/lib/payment-links";
 import { breadcrumbListSchema, faqPageSchema } from "@/lib/schema";
 import { abs } from "@/lib/site";
@@ -201,6 +202,12 @@ export default function BlueprintPage() {
             <h1 className="mt-6 leading-[1.05]">
               Five ways to protect your family&rsquo;s equity, dignity, and sanity.
             </h1>
+            <QuickAnswer
+              className="mt-6 max-w-prose"
+              topic="What's the Blueprint"
+              question="What is the Senior Transition Blueprint?"
+              answer="The Senior Transition Blueprint is a 19-module online course with 60 plus tools that walks families through every stage of a senior transition. Built from eight years of working both sides of these conversations. Covers the questions to ask, the contracts to read carefully, and the conversations most families avoid until it is too late."
+            />
             <p className="mt-6 font-serif text-xl text-burgundy-600 leading-snug max-w-prose">
               &ldquo;I&rsquo;m not a move manager and I&rsquo;m not a listing
               agent. I&rsquo;m the advisor who helps families avoid the $50K
