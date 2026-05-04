@@ -10,6 +10,29 @@ export const metadata: Metadata = {
   description:
     "Book a free 30-minute call with Senior Transition Advisor Ryan Riggins. No listing pitch. No sales pressure. Straight answers on where you are and what's next.",
   alternates: { canonical: "/work-with-ryan" },
+  openGraph: {
+    type: "website",
+    url: "https://rigginsstrategicsolutions.com/work-with-ryan",
+    siteName: "Riggins Strategic Solutions",
+    title: "Book a call with Ryan | Riggins Strategic Solutions",
+    description:
+      "Book a free 30-minute call with Senior Transition Advisor Ryan Riggins. No listing pitch. No sales pressure. Straight answers on where you are and what's next.",
+    images: [
+      {
+        url: "https://rigginsstrategicsolutions.com/photos/hero_ryan_consulting_family.jpg",
+        width: 2752,
+        height: 1536,
+        alt: "Ryan Riggins consulting with an elderly couple at a kitchen table",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Book a call with Ryan | Riggins Strategic Solutions",
+    description:
+      "Free 30-minute call with Ryan. No listing pitch. No sales pressure. Straight answers.",
+    images: ["https://rigginsstrategicsolutions.com/photos/hero_ryan_consulting_family.jpg"],
+  },
 };
 
 export default function WorkWithRyanPage() {

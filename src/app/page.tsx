@@ -11,18 +11,27 @@ import { QuickAnswer } from "@/components/aeo/QuickAnswer";
 
 export const metadata: Metadata = {
   openGraph: {
+    type: "website",
+    url: "https://rigginsstrategicsolutions.com",
+    siteName: "Riggins Strategic Solutions",
+    title: "Riggins Strategic Solutions | Senior Transition Advisor",
+    description:
+      "Senior Transition Advisor Ryan Riggins helps families avoid the $50K mistakes of a senior housing transition. Not a move manager. Not a listing agent.",
     images: [
       {
-        url: "/og/homepage.png",
+        url: "https://rigginsstrategicsolutions.com/og/homepage.png",
         width: 1200,
         height: 630,
-        alt: "Riggins Strategic Solutions — Senior Transition Advisor",
+        alt: "Riggins Strategic Solutions, Senior Transition Advisor",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    images: ["/og/homepage.png"],
+    title: "Riggins Strategic Solutions | Senior Transition Advisor",
+    description:
+      "Senior Transition Advisor Ryan Riggins helps families avoid the $50K mistakes of a senior housing transition.",
+    images: ["https://rigginsstrategicsolutions.com/og/homepage.png"],
   },
 };
 

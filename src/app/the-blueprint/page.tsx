@@ -17,6 +17,29 @@ export const metadata: Metadata = {
   description:
     "Five ways to work with Ryan Riggins on a senior housing transition. Free Simple Blueprint, $47 Blueprint Core, $297 Blueprint Premium, $14.99/mo SeniorSafe, and $39.99/mo Premium+ with Maggie, your AI transition specialist.",
   alternates: { canonical: "/the-blueprint" },
+  openGraph: {
+    type: "website",
+    url: "https://rigginsstrategicsolutions.com/the-blueprint",
+    siteName: "Riggins Strategic Solutions",
+    title: "The Blueprint | Senior Transition Tiers",
+    description:
+      "Five ways to work with Ryan Riggins on a senior housing transition. Free Simple Blueprint, $47 Blueprint Core, $297 Blueprint Premium, $14.99/mo SeniorSafe, and $39.99/mo Premium+ with Maggie.",
+    images: [
+      {
+        url: "https://rigginsstrategicsolutions.com/photos/hero_ryan_consulting_family.jpg",
+        width: 2752,
+        height: 1536,
+        alt: "Ryan Riggins consulting with an elderly couple at a kitchen table",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "The Blueprint | Senior Transition Tiers",
+    description:
+      "Five ways to work with Ryan Riggins on a senior housing transition. Free guide, $47 course, $297 advisory, SeniorSafe app, Premium+ with Maggie.",
+    images: ["https://rigginsstrategicsolutions.com/photos/hero_ryan_consulting_family.jpg"],
+  },
 };
 
 type Tier = {

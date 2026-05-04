@@ -12,6 +12,29 @@ export const metadata: Metadata = {
   description:
     "Senior Transition Advisor helping families avoid the $50K mistakes of a senior housing transition. Not a move manager, not a listing agent. Greensboro, NC.",
   alternates: { canonical: "/about" },
+  openGraph: {
+    type: "website",
+    url: "https://rigginsstrategicsolutions.com/about",
+    siteName: "Riggins Strategic Solutions",
+    title: "About Ryan Riggins | Riggins Strategic Solutions",
+    description:
+      "Senior Transition Advisor helping families avoid the $50K mistakes of a senior housing transition. Not a move manager, not a listing agent. Greensboro, NC.",
+    images: [
+      {
+        url: "https://rigginsstrategicsolutions.com/photos/hero_ryan_consulting_family.jpg",
+        width: 2752,
+        height: 1536,
+        alt: "Ryan Riggins consulting with an elderly couple at a kitchen table",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "About Ryan Riggins | Riggins Strategic Solutions",
+    description:
+      "Senior Transition Advisor helping families avoid the $50K mistakes of a senior housing transition.",
+    images: ["https://rigginsstrategicsolutions.com/photos/hero_ryan_consulting_family.jpg"],
+  },
 };
 
 const credentials: { title: string; body: string }[] = [

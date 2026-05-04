@@ -17,6 +17,29 @@ export const metadata: Metadata = {
   description:
     "Blueprint Premium is everything in Core plus a personalized Senior Transition Plan, a 60-minute 1-on-1 call with Ryan Riggins, and 90 days of email support. $297, one-time, outcome-focused.",
   alternates: { canonical: "/blueprint-premium" },
+  openGraph: {
+    type: "website",
+    url: "https://rigginsstrategicsolutions.com/blueprint-premium",
+    siteName: "Riggins Strategic Solutions",
+    title: "Blueprint Premium | $297 Guided Advisory",
+    description:
+      "Everything in Core plus a personalized Senior Transition Plan, a 60-minute 1-on-1 call with Ryan, and 90 days of email support. $297, one-time, outcome-focused.",
+    images: [
+      {
+        url: "https://rigginsstrategicsolutions.com/photos/hero_ryan_consulting_family.jpg",
+        width: 2752,
+        height: 1536,
+        alt: "Ryan Riggins consulting with an elderly couple at a kitchen table",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Blueprint Premium | $297 Guided Advisory",
+    description:
+      "Personalized Senior Transition Plan, a 60-minute call with Ryan, and 90 days of email support. $297, one-time.",
+    images: ["https://rigginsstrategicsolutions.com/photos/hero_ryan_consulting_family.jpg"],
+  },
 };
 
 const whatYouGet: { title: string; body: string }[] = [
