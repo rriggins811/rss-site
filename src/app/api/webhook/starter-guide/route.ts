@@ -6,10 +6,41 @@ import { GHL_WEBHOOKS, postToGhl } from "@/lib/ghl-webhooks";
 
 export const runtime = "nodejs";
 
+// Per SYSTEM_ARCHITECTURE.md, RSS form submissions now flow primarily to the
+// Blueprint freeguide-signup endpoint (creates Supabase auth user with free
+// course_access, sends magic link, fires Kit + Twilio). The legacy GHL POST
+// runs in parallel as redundancy for the transition window (sunsets June 22).
+const BLUEPRINT_FREESIGNUP_URL =
+  "https://blueprint.rigginsstrategicsolutions.com/api/freeguide-signup";
+
 const SUCCESS = NextResponse.json(
   { ok: true, message: "Thanks. Check your inbox in the next minute." },
   { status: 200 }
 );
+
+async function postToBlueprint(payload: {
+  email: string;
+  firstName: string;
+  lastName?: string;
+  phone?: string;
+  source: string;
+}): Promise<{ ok: boolean; status: number; error?: string }> {
+  try {
+    const res = await fetch(BLUEPRINT_FREESIGNUP_URL, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(payload),
+      signal: AbortSignal.timeout(8000),
+    });
+    return { ok: res.ok, status: res.status };
+  } catch (err) {
+    return {
+      ok: false,
+      status: 0,
+      error: err instanceof Error ? err.message : String(err),
+    };
+  }
+}
 
 export async function POST(req: Request) {
   const ip = getClientIp(req);
@@ -59,6 +90,16 @@ export async function POST(req: Request) {
     timestamp,
   };
 
+  const blueprintPayload = {
+    email: lead.email,
+    firstName: lead.first_name,
+    lastName: lead.last_name ?? "",
+    phone: lead.phone ?? undefined,
+    source,
+  };
+
+  // Durable backup row in Supabase (same project as Blueprint, shared leads
+  // table). Even if both downstreams fail, we don't lose the lead.
   const sb = getServiceSupabase();
   const { error: insertErr } = await sb.from("leads").insert({
     form_type: "starter-guide",
@@ -70,17 +111,36 @@ export async function POST(req: Request) {
     source,
     raw_payload: { ...ghlPayload, ip },
   });
-
   if (insertErr) {
     console.error("[starter-guide] supabase insert failed", insertErr);
-    // We lost the backup row but still try to get the lead into GHL.
   }
 
-  const ghl = await postToGhl(GHL_WEBHOOKS.starterGuide, ghlPayload);
-  if (!ghl.ok) {
-    console.error(
-      `[starter-guide] GHL POST failed status=${ghl.status} error=${ghl.error ?? ""}`
-    );
+  // Fan out to Blueprint (primary) + GHL (legacy redundancy) in parallel.
+  // Promise.allSettled so one failure never blocks the other.
+  const [blueprintRes, ghlRes] = await Promise.allSettled([
+    postToBlueprint(blueprintPayload),
+    postToGhl(GHL_WEBHOOKS.starterGuide, ghlPayload),
+  ]);
+
+  if (
+    blueprintRes.status === "rejected" ||
+    (blueprintRes.status === "fulfilled" && !blueprintRes.value.ok)
+  ) {
+    const detail =
+      blueprintRes.status === "fulfilled"
+        ? `status=${blueprintRes.value.status} error=${blueprintRes.value.error ?? ""}`
+        : `rejected=${String(blueprintRes.reason)}`;
+    console.error(`[starter-guide] Blueprint POST failed ${detail}`);
+  }
+  if (
+    ghlRes.status === "rejected" ||
+    (ghlRes.status === "fulfilled" && !ghlRes.value.ok)
+  ) {
+    const detail =
+      ghlRes.status === "fulfilled"
+        ? `status=${ghlRes.value.status} error=${ghlRes.value.error ?? ""}`
+        : `rejected=${String(ghlRes.reason)}`;
+    console.error(`[starter-guide] GHL POST failed ${detail}`);
   }
 
   return SUCCESS;
