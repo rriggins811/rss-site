@@ -105,7 +105,7 @@ export default function SeniorSafePage() {
                 </a>
               </Button>
               <Button asChild size="lg" variant="outline">
-                <Link href="/the-blueprint">Compare with The Blueprint</Link>
+                <a href="https://blueprint.rigginsstrategicsolutions.com/pricing">Compare with The Blueprint</a>
               </Button>
             </div>
             <p className="mt-4 text-sm text-ink/60">
@@ -342,7 +342,7 @@ export default function SeniorSafePage() {
           </div>
           <div className="mt-8 flex flex-wrap gap-3">
             <Button asChild>
-              <Link href="/the-blueprint">See all five tiers</Link>
+              <a href="https://blueprint.rigginsstrategicsolutions.com/pricing">See all five tiers</a>
             </Button>
             <Button asChild variant="outline">
               <Link href="/work-with-ryan">Book a free call to talk it through</Link>

@@ -5,9 +5,9 @@ import Image from "next/image";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 
-const navLinks: { href: string; label: string }[] = [
+const navLinks: { href: string; label: string; external?: boolean }[] = [
   { href: "/about", label: "About" },
-  { href: "/the-blueprint", label: "Blueprint" },
+  { href: "https://blueprint.rigginsstrategicsolutions.com/pricing", label: "Blueprint", external: true },
   { href: "/seniorsafe-app", label: "SeniorSafe" },
   { href: "/tools", label: "Tools" },
   { href: "/media", label: "Media" },
@@ -34,15 +34,25 @@ export function SiteHeader() {
           </Link>
 
           <nav className="hidden lg:flex items-center gap-8">
-            {navLinks.map((l) => (
-              <Link
-                key={l.href}
-                href={l.href}
-                className="text-sm font-medium text-navy-700 hover:text-burgundy-600 transition-colors"
-              >
-                {l.label}
-              </Link>
-            ))}
+            {navLinks.map((l) =>
+              l.external ? (
+                <a
+                  key={l.href}
+                  href={l.href}
+                  className="text-sm font-medium text-navy-700 hover:text-burgundy-600 transition-colors"
+                >
+                  {l.label}
+                </a>
+              ) : (
+                <Link
+                  key={l.href}
+                  href={l.href}
+                  className="text-sm font-medium text-navy-700 hover:text-burgundy-600 transition-colors"
+                >
+                  {l.label}
+                </Link>
+              )
+            )}
             <Button asChild size="sm">
               <Link href="/work-with-ryan">Book free 20-min call</Link>
             </Button>
@@ -68,16 +78,27 @@ export function SiteHeader() {
 
         {open && (
           <nav id="mobile-nav" className="lg:hidden pb-4 flex flex-col gap-2">
-            {navLinks.map((l) => (
-              <Link
-                key={l.href}
-                href={l.href}
-                className="rounded-md px-3 py-2 text-base font-medium text-navy-700 hover:bg-burgundy-100"
-                onClick={() => setOpen(false)}
-              >
-                {l.label}
-              </Link>
-            ))}
+            {navLinks.map((l) =>
+              l.external ? (
+                <a
+                  key={l.href}
+                  href={l.href}
+                  className="rounded-md px-3 py-2 text-base font-medium text-navy-700 hover:bg-burgundy-100"
+                  onClick={() => setOpen(false)}
+                >
+                  {l.label}
+                </a>
+              ) : (
+                <Link
+                  key={l.href}
+                  href={l.href}
+                  className="rounded-md px-3 py-2 text-base font-medium text-navy-700 hover:bg-burgundy-100"
+                  onClick={() => setOpen(false)}
+                >
+                  {l.label}
+                </Link>
+              )
+            )}
             <Button asChild className="mt-2 w-full">
               <Link href="/work-with-ryan" onClick={() => setOpen(false)}>
                 Book free 20-min call

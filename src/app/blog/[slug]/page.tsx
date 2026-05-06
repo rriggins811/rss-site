@@ -137,7 +137,7 @@ export default async function BlogPostPage({
               </p>
               <div className="mt-4 flex flex-wrap gap-3 items-center">
                 <Button asChild size="sm">
-                  <Link href="/the-blueprint">See The Blueprint</Link>
+                  <a href="https://blueprint.rigginsstrategicsolutions.com/pricing">See The Blueprint</a>
                 </Button>
                 <Button asChild size="sm" variant="outline">
                   <Link

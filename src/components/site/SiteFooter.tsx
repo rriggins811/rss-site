@@ -2,12 +2,12 @@ import Link from "next/link";
 import Image from "next/image";
 import { SocialLinks } from "@/components/site/SocialLinks";
 
-const footerNav: { heading: string; links: { href: string; label: string }[] }[] = [
+const footerNav: { heading: string; links: { href: string; label: string; external?: boolean }[] }[] = [
   {
     heading: "Work with Ryan",
     links: [
-      { href: "/the-blueprint", label: "The Blueprint" },
-      { href: "/blueprint-premium", label: "Blueprint Premium" },
+      { href: "https://blueprint.rigginsstrategicsolutions.com/pricing", label: "The Blueprint", external: true },
+      { href: "https://blueprint.rigginsstrategicsolutions.com/pricing", label: "Blueprint Premium", external: true },
       { href: "/seniorsafe-app", label: "SeniorSafe App" },
       { href: "/work-with-ryan", label: "Book a call" },
     ],
@@ -76,10 +76,16 @@ export function SiteFooter() {
               </h3>
               <ul className="mt-4 space-y-2 text-sm">
                 {group.links.map((l) => (
-                  <li key={l.href}>
-                    <Link href={l.href} className="text-cream/80 hover:text-gold-300">
-                      {l.label}
-                    </Link>
+                  <li key={`${group.heading}-${l.label}`}>
+                    {l.external ? (
+                      <a href={l.href} className="text-cream/80 hover:text-gold-300">
+                        {l.label}
+                      </a>
+                    ) : (
+                      <Link href={l.href} className="text-cream/80 hover:text-gold-300">
+                        {l.label}
+                      </Link>
+                    )}
                   </li>
                 ))}
               </ul>

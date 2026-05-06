@@ -124,7 +124,7 @@ export default function FreeGuidePage() {
             If the situation is more complex than the Simple Blueprint covers,
             there are two paid resources built for exactly that.{" "}
             <a
-              href="/the-blueprint"
+              href="https://blueprint.rigginsstrategicsolutions.com/pricing"
               className="text-burgundy-600 hover:text-burgundy-700 underline underline-offset-2"
             >
               See The Blueprint.

@@ -157,7 +157,7 @@ export default async function ResourceArticlePage({
                   $47, one-time, 14-day money-back guarantee.
                 </p>
                 <Button asChild className="mt-5">
-                  <Link href="/the-blueprint">See Blueprint Core, $47</Link>
+                  <a href="https://blueprint.rigginsstrategicsolutions.com/pricing">See Blueprint Core, $47</a>
                 </Button>
               </>
             ) : (

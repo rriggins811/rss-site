@@ -472,7 +472,7 @@ export function buildMindMapMarkdown(): string {
   sections.push(
     `## ✨ Want a navigator instead of a roadmap?\n` +
       `### [Maggie, Premium+ Tier](https://app.seniorsafeapp.com)\n` +
-      `### [Step up to Blueprint Premium](https://rigginsstrategicsolutions.com/the-blueprint)`
+      `### [Step up to Blueprint Premium](https://blueprint.rigginsstrategicsolutions.com/pricing)`
   );
   sections.push(
     `## 📚 The Books\n` +
