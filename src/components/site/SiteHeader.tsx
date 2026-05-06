@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 
 const navLinks: { href: string; label: string; external?: boolean }[] = [
   { href: "/about", label: "About" },
-  { href: "https://blueprint.rigginsstrategicsolutions.com/pricing", label: "Blueprint", external: true },
+  { href: "/the-blueprint", label: "Blueprint" },
   { href: "/seniorsafe-app", label: "SeniorSafe" },
   { href: "/tools", label: "Tools" },
   { href: "/media", label: "Media" },

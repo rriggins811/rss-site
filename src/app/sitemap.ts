@@ -24,6 +24,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }[] = [
     { path: "/", changeFrequency: "monthly", priority: 1.0 },
     { path: "/about", changeFrequency: "monthly", priority: 0.8 },
+    { path: "/the-blueprint", changeFrequency: "monthly", priority: 0.9 },
+    { path: "/blueprint-premium", changeFrequency: "monthly", priority: 0.9 },
     { path: "/seniorsafe-app", changeFrequency: "monthly", priority: 0.9 },
     { path: "/freeguide", changeFrequency: "monthly", priority: 0.9 },
     { path: "/work-with-ryan", changeFrequency: "monthly", priority: 0.8 },
