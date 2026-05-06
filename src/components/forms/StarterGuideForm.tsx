@@ -6,7 +6,6 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { trackEvent } from "@/lib/analytics";
-import { getBrowserSupabase } from "@/lib/supabase-browser";
 
 type Status = "idle" | "submitting" | "success" | "error";
 
@@ -15,8 +14,13 @@ type Props = {
   className?: string;
 };
 
-const BLUEPRINT_OAUTH_REDIRECT =
-  "https://blueprint.rigginsstrategicsolutions.com/auth/callback?next=/dashboard";
+// PKCE code_verifier is stored in localStorage on the origin that initiates
+// the OAuth call. Initiating from rss-site would leave the verifier on
+// rigginsstrategicsolutions.com, where blueprint.rigginsstrategicsolutions.com
+// can't read it. Bounce to Blueprint /login first; the OAuth call (and the
+// verifier) lives there end-to-end.
+const BLUEPRINT_GOOGLE_SIGNUP_URL =
+  "https://blueprint.rigginsstrategicsolutions.com/login?signup_via_google=1&from=freeguide";
 
 function GoogleIcon({ className = "" }: { className?: string }) {
   return (
@@ -60,25 +64,11 @@ export function StarterGuideForm({
   const [phone, setPhone] = useState("");
   const [googleLoading, setGoogleLoading] = useState(false);
 
-  async function onGoogle() {
+  function onGoogle() {
     setError(null);
     setGoogleLoading(true);
-    try {
-      trackEvent("lead_magnet_google_click", { source });
-      const supabase = getBrowserSupabase();
-      const { error: oauthError } = await supabase.auth.signInWithOAuth({
-        provider: "google",
-        options: { redirectTo: BLUEPRINT_OAUTH_REDIRECT },
-      });
-      if (oauthError) {
-        setGoogleLoading(false);
-        setError(oauthError.message || "Could not start Google sign-in. Try again.");
-      }
-      // On success the browser is redirected to Supabase → Google → Blueprint.
-    } catch {
-      setGoogleLoading(false);
-      setError("Could not start Google sign-in. Try again.");
-    }
+    trackEvent("lead_magnet_google_click", { source });
+    window.location.href = BLUEPRINT_GOOGLE_SIGNUP_URL;
   }
 
   async function onSubmit(e: React.FormEvent<HTMLFormElement>) {
