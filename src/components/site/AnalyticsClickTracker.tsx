@@ -13,7 +13,7 @@ import { trackEvent } from "@/lib/analytics";
 
 const BOOK_CALL_PATTERNS = [
   /^\/work-with-ryan(?:\/|$|\?)/,
-  /^https?:\/\/(?:api|app|services)\.leadconnectorhq\.com\/widget\/booking\//i,
+  /^https?:\/\/cal\.com\/ryan-riggins\//i,
 ];
 
 const STRIPE_CHECKOUT_PATTERN =
