@@ -1,5 +1,6 @@
 "use client";
 
+import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -17,6 +18,7 @@ export function StarterGuideForm({
   source = "website-freeguide",
   className = "",
 }: Props) {
+  const router = useRouter();
   const [status, setStatus] = useState<Status>("idle");
   const [error, setError] = useState<string | null>(null);
   const [first, setFirst] = useState("");
@@ -51,30 +53,15 @@ export function StarterGuideForm({
         return;
       }
       trackEvent("lead_magnet_download", { source });
-      setStatus("success");
+      // Redirect to the dedicated check-email page so the activation flow
+      // is the obvious next step.
+      router.push(
+        `/freeguide/check-email?email=${encodeURIComponent(email)}`
+      );
     } catch {
       setStatus("error");
       setError("Network error. Try again.");
     }
-  }
-
-  if (status === "success") {
-    return (
-      <div
-        className={`rounded-lg bg-white border border-gold-300 p-8 ${className}`}
-        role="status"
-        aria-live="polite"
-      >
-        <div className="font-serif text-2xl text-navy-700">
-          You&rsquo;re in. Check your inbox.
-        </div>
-        <p className="mt-3 text-ink/80 leading-relaxed">
-          The Simple Blueprint is heading to <strong>{email}</strong> in the next
-          minute. If you don&rsquo;t see it, check your spam folder, then mark it
-          safe so the follow-ups get through.
-        </p>
-      </div>
-    );
   }
 
   const submitting = status === "submitting";
