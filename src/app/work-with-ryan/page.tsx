@@ -19,7 +19,7 @@ export const metadata: Metadata = {
       "Book a free 30-minute call with Senior Transition Advisor Ryan Riggins. No listing pitch. No sales pressure. Straight answers on where you are and what's next.",
     images: [
       {
-        url: "https://rigginsstrategicsolutions.com/og/homepage.png",
+        url: "https://rigginsstrategicsolutions.com/og/work-with-ryan.png",
         width: 1200,
         height: 630,
         alt: "Riggins Strategic Solutions — Senior Transition Blueprint and SeniorSafe app",
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     title: "Book a call with Ryan | Riggins Strategic Solutions",
     description:
       "Free 30-minute call with Ryan. No listing pitch. No sales pressure. Straight answers.",
-    images: ["https://rigginsstrategicsolutions.com/og/homepage.png"],
+    images: ["https://rigginsstrategicsolutions.com/og/work-with-ryan.png"],
   },
 };
 

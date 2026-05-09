@@ -26,7 +26,7 @@ export const metadata: Metadata = {
       "Five ways to work with Ryan Riggins on a senior housing transition. Free Simple Blueprint, $47 Blueprint Core, $297 Blueprint Premium, $14.99/mo SeniorSafe, and $39.99/mo Premium+ with Maggie.",
     images: [
       {
-        url: "https://rigginsstrategicsolutions.com/og/homepage.png",
+        url: "https://rigginsstrategicsolutions.com/og/the-blueprint.png",
         width: 1200,
         height: 630,
         alt: "Riggins Strategic Solutions — Senior Transition Blueprint and SeniorSafe app",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     title: "The Blueprint | Senior Transition Tiers",
     description:
       "Five ways to work with Ryan Riggins on a senior housing transition. Free guide, $47 course, $297 advisory, SeniorSafe app, Premium+ with Maggie.",
-    images: ["https://rigginsstrategicsolutions.com/og/homepage.png"],
+    images: ["https://rigginsstrategicsolutions.com/og/the-blueprint.png"],
   },
 };
 

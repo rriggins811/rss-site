@@ -17,7 +17,7 @@ export const metadata: Metadata = {
       "A free, plain-English starter guide for families facing a senior housing transition. The first 3 moves most families get wrong, and what to do instead.",
     images: [
       {
-        url: "https://rigginsstrategicsolutions.com/og/homepage.png",
+        url: "https://rigginsstrategicsolutions.com/og/freeguide.png",
         width: 1200,
         height: 630,
         alt: "Riggins Strategic Solutions — Senior Transition Blueprint and SeniorSafe app",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     title: "The Simple Blueprint | Free Starter Guide",
     description:
       "Free, plain-English starter guide for families facing a senior housing transition. First 3 moves most families get wrong.",
-    images: ["https://rigginsstrategicsolutions.com/og/homepage.png"],
+    images: ["https://rigginsstrategicsolutions.com/og/freeguide.png"],
   },
 };
 
