@@ -23,10 +23,10 @@ export const metadata: Metadata = {
       "Ryan Riggins speaks to AAAs, senior living communities, elder law firms, and community groups about senior transitions, consumer protection, and family coordination.",
     images: [
       {
-        url: "https://rigginsstrategicsolutions.com/photos/hero_ryan_consulting_family.jpg",
-        width: 2752,
-        height: 1536,
-        alt: "Ryan Riggins consulting with an elderly couple at a kitchen table",
+        url: "https://rigginsstrategicsolutions.com/og/homepage.png",
+        width: 1200,
+        height: 630,
+        alt: "Riggins Strategic Solutions — Senior Transition Blueprint and SeniorSafe app",
       },
     ],
   },
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     title: "Speaking & Seminars | Riggins Strategic Solutions",
     description:
       "Ryan Riggins speaks to AAAs, senior living communities, elder law firms, and community groups. NC Triad / Charlotte / Triangle in person or virtual anywhere.",
-    images: ["https://rigginsstrategicsolutions.com/photos/hero_ryan_consulting_family.jpg"],
+    images: ["https://rigginsstrategicsolutions.com/og/homepage.png"],
   },
 };
 
