@@ -10,6 +10,7 @@ const navLinks: { href: string; label: string; external?: boolean }[] = [
   { href: "/the-blueprint", label: "Blueprint" },
   { href: "/seniorsafe-app", label: "SeniorSafe" },
   { href: "/tools", label: "Tools" },
+  { href: "/speaking", label: "Speaking" },
   { href: "/media", label: "Media" },
   { href: "/blog", label: "Blog" },
   { href: "/contact", label: "Contact" },

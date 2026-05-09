@@ -29,6 +29,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/seniorsafe-app", changeFrequency: "monthly", priority: 0.9 },
     { path: "/freeguide", changeFrequency: "monthly", priority: 0.9 },
     { path: "/work-with-ryan", changeFrequency: "monthly", priority: 0.8 },
+    { path: "/speaking", changeFrequency: "monthly", priority: 0.7 },
     { path: "/contact", changeFrequency: "monthly", priority: 0.7 },
     { path: "/partners", changeFrequency: "monthly", priority: 0.6 },
     { path: "/blog", changeFrequency: "weekly", priority: 0.8 },
