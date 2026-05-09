@@ -154,7 +154,9 @@ export default function SpeakingPage() {
                 className="flex items-start gap-5 rounded-lg border border-border bg-white p-6"
               >
                 <div
-                  className="font-serif text-3xl text-gold-500 leading-none w-10 flex-none"
+                  // cream-on-navy badge for AA contrast (>10:1).
+                  // gold-on-white was 2.1:1 (WCAG large-text threshold is 3:1).
+                  className="font-serif text-xl text-cream bg-navy-700 rounded-full w-12 h-12 flex items-center justify-center flex-none"
                   aria-hidden
                 >
                   {String(i + 1).padStart(2, "0")}
@@ -231,7 +233,7 @@ export default function SpeakingPage() {
               </a>
             </Button>
           </div>
-          <p className="mt-6 text-sm text-ink/60">
+          <p className="mt-6 text-sm text-ink/75">
             Or visit{" "}
             <Link href="/work-with-ryan" className="underline hover:text-burgundy-600">
               rigginsstrategicsolutions.com/work-with-ryan
