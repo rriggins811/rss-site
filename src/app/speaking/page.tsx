@@ -8,7 +8,9 @@ import { breadcrumbListSchema } from "@/lib/schema";
 import { BOOKING_URL } from "@/lib/booking";
 
 export const metadata: Metadata = {
-  title: "Speaking & Seminars | Riggins Strategic Solutions",
+  // Layout's title template auto-appends " | Riggins Strategic Solutions",
+  // so the rendered <title> becomes "Speaking & Seminars | Riggins Strategic Solutions".
+  title: "Speaking & Seminars",
   description:
     "Ryan Riggins speaks to AAAs, senior living communities, elder law firms, and community groups about senior transitions, consumer protection, and family coordination. Bookings in NC Triad / Charlotte / Triangle (in person) or virtual anywhere.",
   alternates: { canonical: "/speaking" },
