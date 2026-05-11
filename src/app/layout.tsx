@@ -6,6 +6,7 @@ import { SiteFooter } from "@/components/site/SiteFooter";
 import { JsonLd } from "@/components/site/JsonLd";
 import { Analytics } from "@/components/site/Analytics";
 import { AnalyticsClickTracker } from "@/components/site/AnalyticsClickTracker";
+import { MetaPixel } from "@/components/site/MetaPixel";
 import { organizationSchema, personSchema } from "@/lib/schema";
 import { SITE_DESCRIPTION, SITE_NAME, SITE_URL } from "@/lib/site";
 
@@ -80,6 +81,7 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col bg-background text-foreground">
         <Analytics />
         <AnalyticsClickTracker />
+        <MetaPixel />
         <SiteHeader />
         <div className="flex-1">{children}</div>
         <SiteFooter />

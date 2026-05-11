@@ -6,6 +6,8 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { trackEvent } from "@/lib/analytics";
+import { trackPixelEvent, getFbc, getFbp } from "@/lib/meta/pixel";
+import { META_EVENTS, generateEventId } from "@/lib/meta/events";
 
 type Status = "idle" | "submitting" | "success" | "error";
 
@@ -98,6 +100,35 @@ export function StarterGuideForm({
         return;
       }
       trackEvent("lead_magnet_download", { source });
+
+      // Meta Pixel + CAPI dedup fire on Lead conversion. Same event_id on
+      // both legs so Meta merges into a single counted conversion.
+      const metaEventId = generateEventId();
+      trackPixelEvent({
+        eventName: META_EVENTS.LEAD,
+        eventId: metaEventId,
+        customData: { content_name: "freeguide", content_category: source },
+      });
+      void fetch("/api/track", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          eventName: META_EVENTS.LEAD,
+          eventId: metaEventId,
+          eventSourceUrl: window.location.href,
+          userData: {
+            email,
+            phone: phone || undefined,
+            firstName: first,
+            lastName: last || undefined,
+            fbc: getFbc(),
+            fbp: getFbp(),
+          },
+          customData: { content_name: "freeguide", content_category: source },
+        }),
+      }).catch(() => {
+        // Best-effort. Browser pixel already fired; CAPI is the dedup leg.
+      });
       // Redirect to the dedicated check-email page so the activation flow
       // is the obvious next step.
       router.push(

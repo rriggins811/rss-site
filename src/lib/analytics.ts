@@ -16,7 +16,10 @@ declare global {
   }
 }
 
-export const GA_MEASUREMENT_ID = "G-4435CEVWS9";
+// Source of truth: NEXT_PUBLIC_GA_ID Vercel env var. Hardcoded fallback
+// preserved so prerender + local dev don't break if the env var is unset.
+export const GA_MEASUREMENT_ID =
+  process.env.NEXT_PUBLIC_GA_ID || "G-4435CEVWS9";
 
 export function shouldTrack(): boolean {
   if (typeof window === "undefined") return false;
