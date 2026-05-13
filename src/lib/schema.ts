@@ -158,6 +158,173 @@ export function mediaSchemaFromItem(item: MediaItem) {
   };
 }
 
+/**
+ * Product schema for Blueprint Core ($47 DIY course). Mounted on
+ * /the-blueprint. Brand/seller derive from ORGANIZATION constants so a name
+ * change in lib/site.ts propagates here automatically.
+ */
+export function blueprintCoreProductSchema() {
+  const url = abs("/the-blueprint");
+  return {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    name: "Blueprint Core",
+    description:
+      "The Blueprint Core is a $47 DIY course covering the full senior housing transition process. 19 modules, 60+ tools and worksheets, self-paced.",
+    brand: { "@type": "Brand", name: ORGANIZATION.name },
+    image: abs("/og/the-blueprint.png"),
+    url,
+    category: "Online Course",
+    offers: {
+      "@type": "Offer",
+      price: "47",
+      priceCurrency: "USD",
+      availability: "https://schema.org/InStock",
+      url,
+      priceValidUntil: "2027-12-31",
+      seller: { "@id": ORG_ID },
+    },
+  };
+}
+
+/**
+ * Product schema for Blueprint Premium ($297 advisory). Mounted on
+ * /blueprint-premium.
+ */
+export function blueprintPremiumProductSchema() {
+  const url = abs("/blueprint-premium");
+  return {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    name: "Blueprint Premium",
+    description:
+      "Blueprint Premium is everything in Core plus a personalized Senior Transition Plan, a 60-minute 1-on-1 call with Ryan Riggins, and 90 days of email support. $297, one-time, outcome-focused.",
+    brand: { "@type": "Brand", name: ORGANIZATION.name },
+    image: abs("/og/blueprint-premium.png"),
+    url,
+    category: "Senior Transition Advisory",
+    offers: {
+      "@type": "Offer",
+      price: "297",
+      priceCurrency: "USD",
+      availability: "https://schema.org/InStock",
+      url,
+      priceValidUntil: "2027-12-31",
+      seller: { "@id": ORG_ID },
+    },
+  };
+}
+
+/**
+ * MobileApplication schema for the SeniorSafe app. Mounted on /seniorsafe-app.
+ * Two subscription tiers exposed as Offer[] so Google can surface both prices
+ * in rich results. Intentionally omits aggregateRating until legitimate app
+ * store reviews exist (faking ratings violates Google's structured data
+ * policies).
+ */
+export function seniorSafeMobileApplicationSchema() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "MobileApplication",
+    name: "SeniorSafe",
+    alternateName: "SeniorSafe App",
+    description:
+      "SeniorSafe is the family coordination app for senior care. Daily check-ins, medication tracking, family messaging, document vault, and two AI assistants: SeniorSafe AI for the elder, Maggie for the adult child managing the transition.",
+    operatingSystem: "iOS, Android, Web",
+    applicationCategory: "HealthApplication",
+    applicationSubCategory: "Family Coordination",
+    url: "https://seniorsafeapp.com",
+    downloadUrl:
+      "https://apps.apple.com/us/app/seniorsafe-app/id6753033083",
+    image: "https://seniorsafeapp.com/og/homepage.png",
+    offers: [
+      {
+        "@type": "Offer",
+        name: "SeniorSafe Premium",
+        price: "14.99",
+        priceCurrency: "USD",
+        category: "Subscription",
+        priceSpecification: {
+          "@type": "UnitPriceSpecification",
+          price: "14.99",
+          priceCurrency: "USD",
+          billingDuration: "P1M",
+          unitText: "MONTH",
+        },
+        availability: "https://schema.org/InStock",
+      },
+      {
+        "@type": "Offer",
+        name: "SeniorSafe Premium+",
+        price: "39.99",
+        priceCurrency: "USD",
+        category: "Subscription",
+        priceSpecification: {
+          "@type": "UnitPriceSpecification",
+          price: "39.99",
+          priceCurrency: "USD",
+          billingDuration: "P1M",
+          unitText: "MONTH",
+        },
+        availability: "https://schema.org/InStock",
+      },
+    ],
+    creator: { "@id": PERSON_ID },
+    publisher: { "@id": ORG_ID },
+  };
+}
+
+/**
+ * ProfessionalService schema for the homepage. Adds local-business signals
+ * (geo, areaServed, opening hours, price range) on top of the global
+ * Organization + Person schemas emitted from layout.tsx. Helps with
+ * "Greensboro senior transition advisor"-style local queries.
+ */
+export function professionalServiceSchema() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "@id": `${SITE_URL}/#professionalservice`,
+    name: ORGANIZATION.name,
+    description:
+      "Senior transition advisory for families navigating elderly parent housing transitions. Education-first consumer protection company.",
+    url: SITE_URL,
+    telephone: ORGANIZATION.telephone,
+    email: ORGANIZATION.email,
+    image: abs("/og/homepage.png"),
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: ORGANIZATION.address.addressLocality,
+      addressRegion: ORGANIZATION.address.addressRegion,
+      addressCountry: ORGANIZATION.address.addressCountry,
+    },
+    geo: {
+      "@type": "GeoCoordinates",
+      latitude: 36.0726,
+      longitude: -79.792,
+    },
+    areaServed: [
+      { "@type": "State", name: "North Carolina" },
+      { "@type": "Country", name: "United States" },
+    ],
+    openingHoursSpecification: {
+      "@type": "OpeningHoursSpecification",
+      dayOfWeek: [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+      ],
+      opens: "09:00",
+      closes: "17:00",
+    },
+    priceRange: "$$",
+    founder: { "@id": PERSON_ID },
+    sameAs: socialLinks.map((s) => s.url),
+  };
+}
+
 export type FaqItem = { q: string; a: string };
 
 /**

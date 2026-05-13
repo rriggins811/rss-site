@@ -7,7 +7,9 @@ import { Badge } from "@/components/ui/badge";
 import { GoldRule } from "@/components/site/GoldRule";
 import { EmailFallback } from "@/components/site/EmailFallback";
 import { AppPlatformBadges } from "@/components/site/AppPlatformBadges";
+import { JsonLd } from "@/components/site/JsonLd";
 import { paymentLinks } from "@/lib/payment-links";
+import { seniorSafeMobileApplicationSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "SeniorSafe | The Family App for Senior Care",
@@ -73,6 +75,8 @@ const features: { title: string; body: string }[] = [
 export default function SeniorSafePage() {
   return (
     <main>
+      <JsonLd data={seniorSafeMobileApplicationSchema()} />
+
       {/* HERO */}
       <section className="bg-cream">
         <div className="mx-auto max-w-6xl px-6 py-20 lg:py-24 grid gap-12 lg:grid-cols-2 items-center">

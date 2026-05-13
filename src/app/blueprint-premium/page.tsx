@@ -9,7 +9,11 @@ import { EmailFallback } from "@/components/site/EmailFallback";
 import { JsonLd } from "@/components/site/JsonLd";
 import { QuickAnswer } from "@/components/aeo/QuickAnswer";
 import { paymentLinks } from "@/lib/payment-links";
-import { breadcrumbListSchema, faqPageSchema } from "@/lib/schema";
+import {
+  breadcrumbListSchema,
+  faqPageSchema,
+  blueprintPremiumProductSchema,
+} from "@/lib/schema";
 import { abs } from "@/lib/site";
 
 export const metadata: Metadata = {
@@ -141,6 +145,7 @@ export default function BlueprintPremiumPage() {
     <main>
       <JsonLd data={faqPageSchema(faqs, abs("/blueprint-premium"))} />
       <JsonLd data={breadcrumbs} />
+      <JsonLd data={blueprintPremiumProductSchema()} />
 
       {/* HERO */}
       <section className="bg-cream">

@@ -8,6 +8,8 @@ import { GoldRule } from "@/components/site/GoldRule";
 import { AppPlatformBadges } from "@/components/site/AppPlatformBadges";
 import { FAQSection, type FAQItem } from "@/components/aeo/FAQSection";
 import { QuickAnswer } from "@/components/aeo/QuickAnswer";
+import { JsonLd } from "@/components/site/JsonLd";
+import { professionalServiceSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
   openGraph: {
@@ -181,6 +183,8 @@ const testimonials: { quote: string; author: string; location: string }[] = [
 export default function HomePage() {
   return (
     <main>
+      <JsonLd data={professionalServiceSchema()} />
+
       {/* HERO */}
       <section className="bg-cream">
         <div className="mx-auto max-w-6xl px-6 py-20 lg:py-28 grid gap-12 lg:grid-cols-2 items-center">
