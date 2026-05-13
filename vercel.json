@@ -17,6 +17,26 @@
       "statusCode": 301
     },
     {
+      "source": "/starterguide",
+      "destination": "/freeguide",
+      "statusCode": 301
+    },
+    {
+      "source": "/starter-guide",
+      "destination": "/freeguide",
+      "statusCode": 301
+    },
+    {
+      "source": "/simpleblueprint",
+      "destination": "/freeguide",
+      "statusCode": 301
+    },
+    {
+      "source": "/simple-blueprint",
+      "destination": "/freeguide",
+      "statusCode": 301
+    },
+    {
       "source": "/services",
       "destination": "/the-blueprint",
       "permanent": true
