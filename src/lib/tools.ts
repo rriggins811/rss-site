@@ -95,11 +95,15 @@ export const TOOLS: Tool[] = [
   },
   {
     slug: "caregiver-burnout-triage",
-    title: "Caregiver Burnout Triage",
+    // Title + description tuned 2026-05-13 to capture the
+    // "caregiver burnout quiz" GSC query (66 imp / 28d, position ~10-15
+    // pre-optimization). Keep "Free Caregiver Burnout Quiz" as exact-match
+    // anchor; "2-Minute Triage" as differentiator.
+    title: "Free Caregiver Burnout Quiz | 2-Minute Triage",
     shortDescription:
       "Honest check-in for the adult child carrying the load",
     description:
-      "Ten questions scored across emotional, physical, financial, and time strain. Built for the adult child who keeps saying \"I'm fine\" and isn't.",
+      "Free 2-minute caregiver burnout quiz for adult children caring for aging parents. Ten questions across emotional, physical, financial, and time strain. Get your burnout score instantly. No email required.",
     category: "assessment",
     minHeight: 1800,
   },
