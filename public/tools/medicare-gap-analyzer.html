@@ -3,7 +3,94 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Medicare Gap Analyzer | Riggins Strategic Solutions</title>
+<title>Medicare Gap Analyzer | What Medicare Doesn't Cover | Riggins Strategic Solutions</title>
+<meta name="description" content="Free Medicare gap analyzer for adult children managing aging parents' coverage. See exactly what Medicare doesn't cover in 3 minutes: long-term care, dental, vision, hearing, and the gaps that catch families flat-footed. No email required.">
+<link rel="canonical" href="https://www.rigginsstrategicsolutions.com/tools/medicare-gap-analyzer">
+
+<!-- FAQPage structured data — mirrors the on-page FAQ section. -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "url": "https://www.rigginsstrategicsolutions.com/tools/medicare-gap-analyzer",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a Medicare gap?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A Medicare gap refers to the costs and care that traditional Medicare doesn't cover. The biggest gaps are long-term custodial care (bathing, dressing, eating), most dental and vision and hearing, assisted living, memory care, and 24/7 in-home care. Families often discover these gaps only after a parent needs care, when out-of-pocket costs hit $5,000 to $15,000 per month."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Medicare cover assisted living?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Medicare does not pay for assisted living, ever. It covers limited skilled nursing care after a qualifying hospital stay (capped at 100 days), but custodial care in an assisted living facility is not covered. Medicaid can cover assisted living but only after a 5-year asset look-back and only at facilities that accept Medicaid."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the Medicare Part D out-of-pocket cap for 2026?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Starting in 2026, Medicare Part D caps prescription drug out-of-pocket spending at $2,100 per year. AARP estimates about 9 million enrollees will save around $1.5 billion in 2026 because of this change. Hit the cap and the rest of the year is covered."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I know if my parent has Medicare Advantage or Original Medicare?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Original Medicare uses red, white, and blue cards from the federal government. Medicare Advantage uses cards from private insurers (UnitedHealthcare, Humana, Aetna, etc.). The difference matters because Medicare Advantage plans often have prior authorization requirements and network restrictions that Original Medicare doesn't."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who built this Medicare gap analyzer?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ryan Riggins built this tool based on data from KFF, AARP, and CMS, plus 8+ years of helping families navigate senior housing transitions and Medicare coverage shortfalls. Ryan is a senior transition advisor and former house flipper who switched sides to help families avoid the $50K mistakes most don't see coming."
+      }
+    }
+  ]
+}
+</script>
+
+<!-- Article schema. Author/publisher @id-linked to the global Person + Organization schemas emitted from the Next.js layout. -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Free Medicare Gap Analyzer: See What Medicare Doesn't Cover",
+  "description": "Free Medicare gap analyzer for adult children managing aging parents' coverage. See exactly what Medicare doesn't cover in 3 minutes: long-term care, dental, vision, hearing, and the gaps that catch families flat-footed. No email required.",
+  "url": "https://www.rigginsstrategicsolutions.com/tools/medicare-gap-analyzer",
+  "datePublished": "2026-05-13",
+  "dateModified": "2026-05-13",
+  "inLanguage": "en-US",
+  "author": {
+    "@type": "Person",
+    "@id": "https://rigginsstrategicsolutions.com/#ryan-riggins",
+    "name": "Ryan Riggins",
+    "jobTitle": "Senior Transition Advisor",
+    "url": "https://rigginsstrategicsolutions.com/about"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://rigginsstrategicsolutions.com/#organization",
+    "name": "Riggins Strategic Solutions",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://rigginsstrategicsolutions.com/logo/riggins_logo_horizontal.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.rigginsstrategicsolutions.com/tools/medicare-gap-analyzer"
+  }
+}
+</script>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800;900&family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
 <style>
   .mga *, .mga *::before, .mga *::after { margin: 0; padding: 0; box-sizing: border-box; }
@@ -701,8 +788,8 @@
   <!-- HEADER -->
   <div class="mga-header">
     <div class="mga-credential">Developed by Ryan Riggins: Senior Protection Coordinator, Licensed Real Estate Broker, and Investment Strategist</div>
-    <h1>The Medicare <span>Gap Analyzer</span></h1>
-    <p>Most families don't realize Medicare covers less than half of what seniors actually need. See exactly where the gaps are — and what they'll cost you.</p>
+    <h1>Free Medicare Gap Analyzer: <span>See What Medicare Doesn't Cover</span></h1>
+    <p>If your parent is on Medicare, there are big things it doesn't cover. Long-term custodial care. Most dental, vision, and hearing. 24/7 in-home care. Assisted living entirely. This free Medicare gap analyzer takes 3 minutes. It shows you exactly what your parent's specific Medicare plan does and doesn't cover, plus the dollar amounts Medicare-only families typically face. No email, no signup, no sales pitch.</p>
   </div>
 
   <!-- BODY -->
@@ -893,6 +980,38 @@
       </div>
     </div>
   </div>
+
+  <!-- FAQ — visible content + structured data parity. Renders regardless
+       of analyzer state so it indexes cleanly. -->
+  <section class="mga-faq" aria-labelledby="mga-faq-title" style="font-family:'Source Sans 3',-apple-system,BlinkMacSystemFont,sans-serif;max-width:700px;margin:48px auto 0;padding:0 16px;">
+    <h2 id="mga-faq-title" style="font-family:'Playfair Display',serif;font-size:1.75rem;font-weight:800;color:#1a3052;margin-top:0;margin-bottom:8px;line-height:1.15;">Frequently Asked Questions</h2>
+    <p style="color:#6b665c;font-size:0.95rem;margin-bottom:24px;">About Medicare gaps, what Medicare doesn't cover, and what families typically face out-of-pocket.</p>
+
+    <details style="border-top:1px solid #dbd8d0;padding:16px 0;">
+      <summary style="cursor:pointer;font-family:'Playfair Display',serif;font-size:1.15rem;font-weight:700;color:#1a3052;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:16px;">What is a Medicare gap?<span aria-hidden="true" style="color:#c9a84c;font-weight:800;font-size:1.4rem;line-height:1;">+</span></summary>
+      <p style="margin-top:12px;color:#333028;font-size:1rem;line-height:1.6;">A Medicare gap refers to the costs and care that traditional Medicare doesn't cover. The biggest gaps are long-term custodial care (bathing, dressing, eating), most dental and vision and hearing, assisted living, memory care, and 24/7 in-home care. Families often discover these gaps only after a parent needs care, when out-of-pocket costs hit $5,000 to $15,000 per month.</p>
+    </details>
+
+    <details style="border-top:1px solid #dbd8d0;padding:16px 0;">
+      <summary style="cursor:pointer;font-family:'Playfair Display',serif;font-size:1.15rem;font-weight:700;color:#1a3052;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:16px;">Does Medicare cover assisted living?<span aria-hidden="true" style="color:#c9a84c;font-weight:800;font-size:1.4rem;line-height:1;">+</span></summary>
+      <p style="margin-top:12px;color:#333028;font-size:1rem;line-height:1.6;">No. Medicare does not pay for assisted living, ever. It covers limited skilled nursing care after a qualifying hospital stay (capped at 100 days), but custodial care in an assisted living facility is not covered. Medicaid can cover assisted living but only after a 5-year asset look-back and only at facilities that accept Medicaid.</p>
+    </details>
+
+    <details style="border-top:1px solid #dbd8d0;padding:16px 0;">
+      <summary style="cursor:pointer;font-family:'Playfair Display',serif;font-size:1.15rem;font-weight:700;color:#1a3052;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:16px;">What is the Medicare Part D out-of-pocket cap for 2026?<span aria-hidden="true" style="color:#c9a84c;font-weight:800;font-size:1.4rem;line-height:1;">+</span></summary>
+      <p style="margin-top:12px;color:#333028;font-size:1rem;line-height:1.6;">Starting in 2026, Medicare Part D caps prescription drug out-of-pocket spending at $2,100 per year. AARP estimates about 9 million enrollees will save around $1.5 billion in 2026 because of this change. Hit the cap and the rest of the year is covered.</p>
+    </details>
+
+    <details style="border-top:1px solid #dbd8d0;padding:16px 0;">
+      <summary style="cursor:pointer;font-family:'Playfair Display',serif;font-size:1.15rem;font-weight:700;color:#1a3052;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:16px;">How do I know if my parent has Medicare Advantage or Original Medicare?<span aria-hidden="true" style="color:#c9a84c;font-weight:800;font-size:1.4rem;line-height:1;">+</span></summary>
+      <p style="margin-top:12px;color:#333028;font-size:1rem;line-height:1.6;">Original Medicare uses red, white, and blue cards from the federal government. Medicare Advantage uses cards from private insurers (UnitedHealthcare, Humana, Aetna, etc.). The difference matters because Medicare Advantage plans often have prior authorization requirements and network restrictions that Original Medicare doesn't.</p>
+    </details>
+
+    <details style="border-top:1px solid #dbd8d0;border-bottom:1px solid #dbd8d0;padding:16px 0;">
+      <summary style="cursor:pointer;font-family:'Playfair Display',serif;font-size:1.15rem;font-weight:700;color:#1a3052;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:16px;">Who built this Medicare gap analyzer?<span aria-hidden="true" style="color:#c9a84c;font-weight:800;font-size:1.4rem;line-height:1;">+</span></summary>
+      <p style="margin-top:12px;color:#333028;font-size:1rem;line-height:1.6;">Ryan Riggins built this tool based on data from KFF, AARP, and CMS, plus 8+ years of helping families navigate senior housing transitions and Medicare coverage shortfalls. Ryan is a senior transition advisor and former house flipper who switched sides to help families avoid the $50K mistakes most don't see coming.</p>
+    </details>
+  </section>
 </div>
 
 <script>

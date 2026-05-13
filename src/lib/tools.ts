@@ -21,11 +21,13 @@ export const TOOLS: Tool[] = [
   // Financial
   {
     slug: "net-proceeds-calculator",
-    title: "Net Proceeds Calculator",
+    // Title + description tuned 2026-05-13 for "net proceeds calculator" /
+    // "how much will I get from selling my house" GSC queries.
+    title: "Free Net Proceeds Calculator | What You'll Actually Walk Away With",
     shortDescription:
       "What you actually walk away with after selling",
     description:
-      "Strip out agent commissions, closing costs, repair credits, and payoffs to see what ends up in the family's bank account after the house sells.",
+      "Free net proceeds calculator for families selling a parent's home. Calculate exactly what you'll walk away with after fees, repairs, payoffs, and taxes. Most families overestimate by $30K to $50K. Get the real math in 5 minutes. No email required.",
     category: "financial",
     minHeight: 1800,
   },
@@ -41,11 +43,13 @@ export const TOOLS: Tool[] = [
   },
   {
     slug: "medicare-gap-analyzer",
-    title: "Medicare Gap Analyzer",
+    // Title + description tuned 2026-05-13 for "medicare gap analyzer" /
+    // "what medicare doesn't cover" / "medicare coverage gap" GSC queries.
+    title: "Free Medicare Gap Analyzer | What Medicare Doesn't Cover",
     shortDescription:
       "Find the holes in your parent's Medicare coverage",
     description:
-      "Walk through the six biggest gaps in Medicare (dental, vision, long-term care, prescription exposure, out-of-network, overseas) and see the real dollar risk.",
+      "Free Medicare gap analyzer for adult children managing aging parents' coverage. See exactly what Medicare doesn't cover in 3 minutes: long-term care, dental, vision, hearing, and the gaps that catch families flat-footed. No email required.",
     category: "financial",
     minHeight: 1800,
   },
@@ -63,11 +67,14 @@ export const TOOLS: Tool[] = [
   // Planning
   {
     slug: "aging-in-place-break-even",
-    title: "Aging-in-Place Break-Even",
+    // Title + description tuned 2026-05-13 for "aging in place vs assisted
+    // living cost" / "is aging in place cheaper than assisted living" /
+    // "cost of staying home vs nursing home" GSC queries.
+    title: "Aging in Place vs Assisted Living Cost Calculator | Honest Break-Even",
     shortDescription:
       "Cost of staying put vs. cost of moving",
     description:
-      "Plug in home modifications, in-home care hours, and monthly burn rate. See the year the cost of aging in place passes the cost of a senior community.",
+      "Free calculator comparing the true cost of aging in place versus assisted living. Most families think staying home is cheaper. The math says otherwise once you factor in home modifications, in-home care, and 24/7 supervision. Get the honest break-even in 4 minutes.",
     category: "planning",
     minHeight: 2000,
   },
