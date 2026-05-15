@@ -3,6 +3,7 @@ import { validateLead } from "@/lib/lead-validation";
 import { getServiceSupabase } from "@/lib/supabase-server";
 import { checkAndRecordRateLimit, getClientIp } from "@/lib/rate-limit";
 import { GHL_WEBHOOKS, postToGhl } from "@/lib/ghl-webhooks";
+import { upsertGhlContactWithTags, GHL_TAGS } from "@/lib/ghl-proxy";
 
 export const runtime = "nodejs";
 
@@ -161,11 +162,29 @@ export async function POST(req: Request) {
     console.error("[starter-guide] supabase insert failed", insertErr);
   }
 
-  // Fan out to Blueprint (primary) + GHL (legacy redundancy) in parallel.
-  // Promise.allSettled so one failure never blocks the other.
-  const [blueprintRes, ghlRes] = await Promise.allSettled([
+  // Fan out to Blueprint (primary), legacy GHL inbound webhook (redundancy
+  // during the May-15 ghl-proxy migration), and the new ghl-proxy direct
+  // API call in parallel. Promise.allSettled so one failure never blocks
+  // the others.
+  //
+  // The ghl-proxy call is the future-state path per memory/sop_ghl_operations.md
+  // — it goes through the Supabase Edge Function that holds GHL_PIT_TOKEN
+  // in Edge Function secrets (vs the legacy webhook URL which bypasses
+  // the proxy entirely). After 1-2 successful signups confirm the proxy
+  // path is landing tags correctly in GHL, we drop the legacy webhook fan-out.
+  const [blueprintRes, ghlWebhookRes, ghlProxyRes] = await Promise.allSettled([
     postToBlueprint(blueprintPayload),
     postToGhl(GHL_WEBHOOKS.starterGuide, ghlPayload),
+    upsertGhlContactWithTags(
+      {
+        email: lead.email,
+        firstName: lead.first_name,
+        lastName: lead.last_name,
+        phone: lead.phone,
+        source,
+      },
+      [GHL_TAGS.LEAD_STARTER_GUIDE]
+    ),
   ]);
 
   if (
@@ -179,14 +198,29 @@ export async function POST(req: Request) {
     console.error(`[starter-guide] Blueprint POST failed ${detail}`);
   }
   if (
-    ghlRes.status === "rejected" ||
-    (ghlRes.status === "fulfilled" && !ghlRes.value.ok)
+    ghlWebhookRes.status === "rejected" ||
+    (ghlWebhookRes.status === "fulfilled" && !ghlWebhookRes.value.ok)
   ) {
     const detail =
-      ghlRes.status === "fulfilled"
-        ? `status=${ghlRes.value.status} error=${ghlRes.value.error ?? ""}`
-        : `rejected=${String(ghlRes.reason)}`;
-    console.error(`[starter-guide] GHL POST failed ${detail}`);
+      ghlWebhookRes.status === "fulfilled"
+        ? `status=${ghlWebhookRes.value.status} error=${ghlWebhookRes.value.error ?? ""}`
+        : `rejected=${String(ghlWebhookRes.reason)}`;
+    console.error(`[starter-guide] GHL legacy webhook POST failed ${detail}`);
+  }
+  if (ghlProxyRes.status === "rejected") {
+    console.error(
+      `[starter-guide] ghl-proxy upsert+tag rejected=${String(ghlProxyRes.reason)}`
+    );
+  } else if (!ghlProxyRes.value.ok) {
+    console.error(
+      `[starter-guide] ghl-proxy upsert+tag failed status=${ghlProxyRes.value.status} error=${ghlProxyRes.value.error}`
+    );
+  } else {
+    // Success path — log contactId so we can correlate with GHL UI when
+    // verifying. Drop this log line after Phase 5 verification.
+    console.info(
+      `[starter-guide] ghl-proxy upsert+tag ok contactId=${ghlProxyRes.value.contactId}`
+    );
   }
 
   return SUCCESS;
