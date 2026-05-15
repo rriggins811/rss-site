@@ -1,7 +1,7 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -66,6 +66,38 @@ export function StarterGuideForm({
   const [phone, setPhone] = useState("");
   const [googleLoading, setGoogleLoading] = useState(false);
 
+  // Capture UTM / ad attribution on first paint and persist in sessionStorage
+  // so it survives navigation (e.g. user clicks through other tabs and comes
+  // back to submit). Server-side, /api/webhook/starter-guide reads the
+  // attribution field off the POST body and writes it into leads.raw_payload.
+  // Sparse object: any missing UTM key is omitted entirely (per spec) — we
+  // never write empty strings.
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    if (sessionStorage.getItem("rss_attribution")) return; // first-touch wins
+    const params = new URLSearchParams(window.location.search);
+    const attribution: Record<string, string> = {};
+    const KEYS = [
+      "utm_source",
+      "utm_medium",
+      "utm_campaign",
+      "utm_content",
+      "utm_term",
+      "fbclid",
+      "gclid",
+    ] as const;
+    for (const k of KEYS) {
+      const v = params.get(k);
+      if (v) attribution[k] = v;
+    }
+    if (document.referrer) attribution.referrer = document.referrer;
+    // landing_url always captured for context (even on organic visits with
+    // no UTMs/referrer). Acceptance criterion 6 expects organic rows to
+    // still have a populated attribution object.
+    attribution.landing_url = window.location.href;
+    sessionStorage.setItem("rss_attribution", JSON.stringify(attribution));
+  }, []);
+
   function onGoogle() {
     setError(null);
     setGoogleLoading(true);
@@ -78,6 +110,22 @@ export function StarterGuideForm({
     setStatus("submitting");
     setError(null);
 
+    // Pull attribution captured on page load (sessionStorage). Best-effort:
+    // if storage is blocked or the JSON is corrupt, attribution is just
+    // omitted from the POST and the server records the lead without it.
+    let attribution: Record<string, string> | undefined;
+    try {
+      const stored = sessionStorage.getItem("rss_attribution");
+      if (stored) {
+        const parsed = JSON.parse(stored) as unknown;
+        if (parsed && typeof parsed === "object") {
+          attribution = parsed as Record<string, string>;
+        }
+      }
+    } catch {
+      // ignore
+    }
+
     try {
       const res = await fetch("/api/webhook/starter-guide", {
         method: "POST",
@@ -88,6 +136,7 @@ export function StarterGuideForm({
           email,
           phone: phone || undefined,
           source,
+          attribution,
         }),
       });
       const json = (await res.json().catch(() => ({}))) as {

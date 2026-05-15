@@ -18,6 +18,36 @@ const SUCCESS = NextResponse.json(
   { status: 200 }
 );
 
+// Whitelisted attribution keys we accept from the client-side capture. Any
+// other keys on the inbound `attribution` blob are dropped. Caps each value
+// at 500 chars to keep raw_payload bounded — UTM values are normally <100,
+// referrer URLs occasionally longer, but 500 is comfortable headroom without
+// risking pathological payloads.
+const ATTRIBUTION_KEYS = [
+  "utm_source",
+  "utm_medium",
+  "utm_campaign",
+  "utm_content",
+  "utm_term",
+  "fbclid",
+  "gclid",
+  "referrer",
+  "landing_url",
+] as const;
+
+function sanitizeAttribution(input: unknown): Record<string, string> | undefined {
+  if (!input || typeof input !== "object") return undefined;
+  const src = input as Record<string, unknown>;
+  const out: Record<string, string> = {};
+  for (const key of ATTRIBUTION_KEYS) {
+    const v = src[key];
+    if (typeof v === "string" && v.length > 0) {
+      out[key] = v.slice(0, 500);
+    }
+  }
+  return Object.keys(out).length > 0 ? out : undefined;
+}
+
 async function postToBlueprint(payload: {
   email: string;
   firstName: string;
@@ -72,6 +102,12 @@ export async function POST(req: Request) {
   const body = raw as Record<string, unknown>;
   const source = typeof body.source === "string" ? body.source : "website-freeguide";
 
+  // UTM / ad attribution captured client-side from URL params + referrer at
+  // /freeguide page load (see StarterGuideForm useEffect). Defensively keep
+  // only string values, drop everything else (no XSS surface — this never
+  // hits the rendered DOM, but keeps the JSONB column tidy and bounded).
+  const attribution = sanitizeAttribution(body.attribution);
+
   const result = validateLead(body);
   if (!result.ok) {
     return NextResponse.json({ ok: false, error: result.error }, { status: 400 });
@@ -100,6 +136,12 @@ export async function POST(req: Request) {
 
   // Durable backup row in Supabase (same project as Blueprint, shared leads
   // table). Even if both downstreams fail, we don't lose the lead.
+  // raw_payload includes the full GHL payload (for parity with the legacy
+  // GHL fan-out) plus client IP and the optional ad-attribution blob from
+  // the form submit (utm_*, fbclid, gclid, referrer, landing_url). Any
+  // missing fields on the attribution blob are simply absent — never empty
+  // strings — so organic leads are visually distinct from ad-driven leads
+  // when querying raw_payload->>'attribution'.
   const sb = getServiceSupabase();
   const { error: insertErr } = await sb.from("leads").insert({
     form_type: "starter-guide",
@@ -109,7 +151,11 @@ export async function POST(req: Request) {
     phone: lead.phone,
     message: null,
     source,
-    raw_payload: { ...ghlPayload, ip },
+    raw_payload: {
+      ...ghlPayload,
+      ip,
+      ...(attribution ? { attribution } : {}),
+    },
   });
   if (insertErr) {
     console.error("[starter-guide] supabase insert failed", insertErr);
