@@ -2,6 +2,45 @@ import type { Metadata } from "next";
 import { Badge } from "@/components/ui/badge";
 import { GoldRule } from "@/components/site/GoldRule";
 import { StarterGuideForm } from "@/components/forms/StarterGuideForm";
+import { FAQSection, type FAQItem } from "@/components/aeo/FAQSection";
+
+// FAQs derived from the actual signup-flow questions that come in
+// repeatedly (search console "people also ask" + Ryan's inbox). FAQSection
+// auto-emits the matching FAQPage JSON-LD so schema and visible content
+// stay in lockstep — Google's "structured data must match visible page
+// content" rule is enforced structurally, not by convention.
+const FREEGUIDE_FAQS: FAQItem[] = [
+  {
+    question: "What is the Simple Blueprint?",
+    answer:
+      "The Simple Blueprint is a free, plain-English starter guide for families just beginning to think about a parent's senior housing transition. It covers the 10 most common mistakes families make, the three conversations to have before calling any professional, and the four-stage transition timeline. Short enough to read on a lunch break.",
+  },
+  {
+    question: "How much does it cost?",
+    answer:
+      "It's free. Email signup, no credit card, no upsell during checkout. The Simple Blueprint is the entry-level resource — there are paid Blueprint Core ($47) and Blueprint Premium ($297) products for families who want more, but those are entirely optional.",
+  },
+  {
+    question: "What happens after I sign up?",
+    answer:
+      "You get an email with the activation link to your free Blueprint account. One click sets up your account, gives you the interactive Module 00, three free tools (Starting Point Assessment, Net Proceeds Calculator, 7-Day Quick Start tracker), and a 14-day Premium+ trial of the SeniorSafe family coordination app — no card required, the trial is automatic.",
+  },
+  {
+    question: "Who is the Simple Blueprint for?",
+    answer:
+      "Adult children (typically 40-65) whose aging parent is starting to need help with housing decisions. It also fits people who live out of state from a parent, the sibling who handles things, and anyone about to call a realtor about a parent's home — read this first.",
+  },
+  {
+    question: "Do I have to enter a credit card for the SeniorSafe trial?",
+    answer:
+      "No. The 14-day Premium+ trial activates automatically with your Simple Blueprint signup. When the trial ends you can pick a paid SeniorSafe plan ($14.99/mo Premium or $39.99/mo Premium+) or just stop using the app — no charges either way.",
+  },
+  {
+    question: "How is the free Simple Blueprint different from Blueprint Core ($47)?",
+    answer:
+      "The Simple Blueprint is the starter guide — first principles, 10 common mistakes, the four-stage transition framework. Blueprint Core is the full DIY course: 19 modules, 60+ interactive tools and worksheets, the whole playbook Ryan uses with paying clients. Most families start with the free guide and decide from there whether Core is the right next step.",
+  },
+];
 
 export const metadata: Metadata = {
   title: "The Simple Blueprint | Free Starter Guide",
@@ -137,6 +176,17 @@ export default function FreeGuidePage() {
           </div>
         </div>
       </section>
+
+      {/* FAQ — auto-emits FAQPage schema, same items render visibly +
+          structurally. Mounts between WHO IT'S FOR and NEXT STEPS so the
+          AEO-friendly FAQ content sits in the page's natural Q&A slot
+          (typical visitor pattern: "is this for me?" → "what are the
+          common questions?" → "what's next?"). */}
+      <FAQSection
+        items={FREEGUIDE_FAQS}
+        kicker="Common questions"
+        title="Frequently asked questions about the Simple Blueprint"
+      />
 
       {/* NEXT STEPS */}
       <section className="bg-sand">

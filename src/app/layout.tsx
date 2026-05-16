@@ -39,10 +39,13 @@ export const metadata: Metadata = {
     description: SITE_DESCRIPTION,
     images: [
       {
-        url: "/photos/hero_ryan_consulting_family.jpg",
-        width: 2752,
-        height: 1536,
-        alt: "Ryan Riggins consulting with an elderly couple at a kitchen table",
+        // Optimized canonical brand portrait hosted at /brand/. Same
+        // image URL referenced by Person + ProfessionalService schemas
+        // — single source for the entity graph + social card preview.
+        url: "/brand/ryan-headshot.jpg",
+        width: 1200,
+        height: 670,
+        alt: "Ryan Riggins, Senior Transition Advisor, Riggins Strategic Solutions",
       },
     ],
   },
@@ -50,7 +53,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: `${SITE_NAME} | Senior Transition Advisor`,
     description: SITE_DESCRIPTION,
-    images: ["/photos/hero_ryan_consulting_family.jpg"],
+    images: ["/brand/ryan-headshot.jpg"],
   },
   robots: {
     index: true,

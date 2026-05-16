@@ -3,7 +3,7 @@ import Link from "next/link";
 import { Badge } from "@/components/ui/badge";
 import { GoldRule } from "@/components/site/GoldRule";
 import { JsonLd } from "@/components/site/JsonLd";
-import { breadcrumbListSchema } from "@/lib/schema";
+import { breadcrumbListSchema, collectionPageSchema } from "@/lib/schema";
 import { RESOURCES } from "@/lib/resources";
 import { abs } from "@/lib/site";
 
@@ -35,23 +35,26 @@ export default function ResourcesIndexPage() {
     { name: "Resources", path: "/resources" },
   ]);
 
-  const itemList = {
-    "@context": "https://schema.org",
-    "@type": "ItemList",
-    url: abs("/resources"),
-    numberOfItems: RESOURCES.length,
-    itemListElement: RESOURCES.map((r, i) => ({
-      "@type": "ListItem",
-      position: i + 1,
-      url: abs(`/resources/${r.slug}`),
+  // Upgraded from bare ItemList to CollectionPage (which wraps the same
+  // ItemList) so Google sees this as a proper hub page entity, not a
+  // floating list. Uses the same collectionPageSchema() factory mounted on
+  // /guides, /tools, /blog so all hub pages emit the same shape.
+  const collection = collectionPageSchema({
+    name: TITLE,
+    description:
+      "Plain-English guides for families navigating a senior housing transition. Selling a parent's home, talking to a stubborn parent, spotting cash-buyer scams, choosing between assisted living and memory care, and more.",
+    pageUrl: abs("/resources"),
+    items: RESOURCES.map((r) => ({
       name: r.title,
+      itemUrl: abs(`/resources/${r.slug}`),
+      description: r.description,
     })),
-  };
+  });
 
   return (
     <main>
       <JsonLd data={breadcrumbs} />
-      <JsonLd data={itemList} />
+      <JsonLd data={collection} />
 
       <section className="bg-cream">
         <div className="mx-auto max-w-4xl px-6 py-20 lg:py-24">

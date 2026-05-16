@@ -3,8 +3,9 @@ import Link from "next/link";
 import { Badge } from "@/components/ui/badge";
 import { GoldRule } from "@/components/site/GoldRule";
 import { JsonLd } from "@/components/site/JsonLd";
-import { breadcrumbListSchema } from "@/lib/schema";
+import { breadcrumbListSchema, collectionPageSchema } from "@/lib/schema";
 import { getAllMedia, formatMediaDate } from "@/lib/media";
+import { abs } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Media | Podcasts & Press",
@@ -21,9 +22,28 @@ export default function MediaIndexPage() {
     { name: "Media", path: "/media" },
   ]);
 
+  // CollectionPage + ItemList for the media hub. Renders silently when
+  // items.length === 0 (avoids emitting an empty list, which Google flags
+  // as low-quality).
+  const collection =
+    items.length > 0
+      ? collectionPageSchema({
+          name: "Media | Podcasts & Press",
+          description:
+            "Podcast appearances and press where Senior Transition Advisor Ryan Riggins talks about senior housing transitions, family equity, and the $50K mistakes most families never see coming.",
+          pageUrl: abs("/media"),
+          items: items.map((m) => ({
+            name: m.frontmatter.title,
+            itemUrl: abs(`/media/${m.frontmatter.slug}`),
+            description: m.frontmatter.excerpt,
+          })),
+        })
+      : null;
+
   return (
     <main>
       <JsonLd data={breadcrumbs} />
+      {collection ? <JsonLd data={collection} /> : null}
 
       {/* HERO */}
       <section className="bg-cream">

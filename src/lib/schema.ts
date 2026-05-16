@@ -10,6 +10,51 @@ import { socialLinks, additionalSameAs } from "@/lib/social";
 import { AUTHOR, ORGANIZATION, SITE_NAME, SITE_URL, abs } from "@/lib/site";
 import type { BlogPost, HowToStep } from "@/lib/blog";
 import type { MediaItem } from "@/lib/media";
+import {
+  getClusterFor,
+  memberToUrl,
+  type ClusterMember,
+} from "@/lib/internal-links";
+
+/**
+ * Resolve `mentions` array for a blog post (Article or HowTo). Pulls the
+ * post's cluster siblings from the typed registry and shapes them as
+ * schema.org entity references — gives Google + AI tools an explicit
+ * machine-readable signal "this post is topically related to entities
+ * X, Y, Z" beyond what internal hyperlinks alone convey.
+ *
+ * Returns undefined when the post isn't in any cluster (post still gets
+ * Article/HowTo schema, just without mentions — clean fallthrough).
+ *
+ * Each mention is a typed shape:
+ *   - tool       → SoftwareApplication @id
+ *   - resource   → Article @id
+ *   - blog       → Article @id
+ * Using @id (not @type alone) keeps the entity graph linked back to
+ * canonical entries elsewhere in the document tree.
+ */
+function mentionsForBlogSlug(slug: string): object[] | undefined {
+  const { related } = (() => {
+    const cluster = getClusterFor({ type: "blog", slug });
+    if (!cluster) return { related: [] as ClusterMember[] };
+    return {
+      related: cluster.members.filter(
+        (m) => !(m.type === "blog" && m.slug === slug)
+      ),
+    };
+  })();
+  if (related.length === 0) return undefined;
+  return related.map((m) => {
+    const url = abs(memberToUrl(m));
+    const type =
+      m.type === "tool" ? "SoftwareApplication" : "Article";
+    return {
+      "@type": type,
+      "@id": url,
+      url,
+    };
+  });
+}
 
 const ORG_ID = `${SITE_URL}/#organization`;
 const PERSON_ID = `${SITE_URL}/#ryan-riggins`;
@@ -314,6 +359,13 @@ export function articleSchemaFromPost(post: BlogPost) {
     // All blog posts are free to read — explicit so AI assistants can
     // confidently cite without "paywalled" hedging.
     isAccessibleForFree: true,
+    // mentions[] derived from the cluster registry — explicit entity
+    // relationships beyond internal hyperlinks. Returns undefined when
+    // post isn't in a cluster, in which case mentions key is omitted.
+    ...(() => {
+      const mentions = mentionsForBlogSlug(post.frontmatter.slug);
+      return mentions ? { mentions } : {};
+    })(),
   };
 }
 
@@ -355,6 +407,12 @@ export function howToSchemaFromPost(
     mainEntityOfPage: { "@type": "WebPage", "@id": url },
     speakable: speakableSpec(),
     isAccessibleForFree: true,
+    // mentions[] same as articleSchemaFromPost — cluster-derived entity
+    // links beyond hyperlinks.
+    ...(() => {
+      const mentions = mentionsForBlogSlug(post.frontmatter.slug);
+      return mentions ? { mentions } : {};
+    })(),
     ...(totalTime ? { totalTime } : {}),
     step: steps.map((s, i) => ({
       "@type": "HowToStep",

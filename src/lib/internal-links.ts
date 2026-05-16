@@ -29,7 +29,9 @@ export type ClusterTopic =
   | "medicare-coverage-gaps"
   | "aging-in-place-vs-assisted-living"
   | "crisis-response"
-  | "elder-fraud-and-predatory-buyers";
+  | "elder-fraud-and-predatory-buyers"
+  | "senior-transition-fundamentals"
+  | "long-term-care-funding-policy";
 
 export type ClusterMember =
   | { type: "tool"; slug: string }
@@ -138,6 +140,61 @@ export const CLUSTERS: Cluster[] = [
       { type: "blog", slug: "they-stole-the-house-while-the-family-was-grieving" },
       { type: "blog", slug: "how-a-1-8-million-estate-got-stolen-with-a-signature" },
       { type: "resource", slug: "wholesaler-scams-targeting-seniors" },
+    ],
+  },
+  {
+    // Big-picture orientation cluster — claims the "adult-child guide"
+    // post as pillar since it's the most comprehensive overview piece
+    // (1,980 words, the longest post in the library). Pairs it with the
+    // other broad-overview/listicle posts that don't fit a single
+    // narrow topic. New post bucket: anything that's "intro to senior
+    // transitions" goes here unless a more specific cluster fits better.
+    id: "senior-transition-fundamentals",
+    label: "Senior transition fundamentals",
+    pillar: {
+      type: "blog",
+      slug: "the-adult-childs-guide-to-mastering-a-senior-housing-transition-without-the-chaos",
+    },
+    members: [
+      {
+        type: "blog",
+        slug: "the-adult-childs-guide-to-mastering-a-senior-housing-transition-without-the-chaos",
+      },
+      {
+        type: "blog",
+        slug: "the-starting-point-fallacy-5-surprising-realities-of-navigating-a-senior-move-without-losing-your-mind-or-your-savings",
+      },
+      {
+        type: "blog",
+        slug: "the-50000-transition-trap-5-surprising-truths-about-navigating-a-senior-move-without-the-chaos",
+      },
+      {
+        type: "blog",
+        slug: "navigating-your-aging-parents-senior-housing-transition",
+      },
+      {
+        type: "blog",
+        slug: "free-tools-to-help-your-family-assess-senior-transition-readiness-1",
+      },
+    ],
+  },
+  {
+    // State-level long-term care funding policy. Anchors on Washington
+    // (first state with public LTC benefits) + Massachusetts disclosure
+    // rules — both state-specific policy explainers that don't fit the
+    // tactical/personal clusters. Add new state-policy posts here as
+    // they ship.
+    id: "long-term-care-funding-policy",
+    label: "Long-term care funding by state",
+    members: [
+      {
+        type: "blog",
+        slug: "washington-wa-cares-fund-first-state-long-term-care-benefits",
+      },
+      {
+        type: "blog",
+        slug: "massachusetts-assisted-living-disclosure-rules",
+      },
     ],
   },
 ];

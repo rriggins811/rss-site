@@ -6,9 +6,11 @@
     "dev": "next dev",
     "prebuild": "node scripts/generate-llms-full.mjs",
     "build": "next build",
+    "postbuild": "node scripts/validate-schemas.mjs",
     "start": "next start",
     "lint": "eslint",
-    "llms:gen": "node scripts/generate-llms-full.mjs"
+    "llms:gen": "node scripts/generate-llms-full.mjs",
+    "schemas:validate": "node scripts/validate-schemas.mjs"
   },
   "dependencies": {
     "@base-ui/react": "^1.4.0",

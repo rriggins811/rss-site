@@ -4,8 +4,9 @@ import Image from "next/image";
 import { Badge } from "@/components/ui/badge";
 import { GoldRule } from "@/components/site/GoldRule";
 import { JsonLd } from "@/components/site/JsonLd";
-import { breadcrumbListSchema } from "@/lib/schema";
+import { breadcrumbListSchema, collectionPageSchema } from "@/lib/schema";
 import { getAllPosts, formatPostDate } from "@/lib/blog";
+import { abs } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Blog | Senior Transition Insights",
@@ -70,9 +71,26 @@ export default async function BlogIndexPage({
     { name: "Blog", path: "/blog" },
   ]);
 
+  // CollectionPage + ItemList for the blog hub. Cap to the 25 most-recent
+  // posts so the ItemList stays a reasonable size for Google's parser
+  // (recommended max ~30 items per ItemList). Full archive remains
+  // crawlable via individual post links + the sitemap.
+  const collection = collectionPageSchema({
+    name: "Blog | Senior Transition Insights",
+    description:
+      "Real stories and plain-English guidance on senior housing transitions, aging in place, caregiving, and protecting your family's equity. Written by Senior Transition Advisor Ryan Riggins.",
+    pageUrl: abs("/blog"),
+    items: posts.slice(0, 25).map((p) => ({
+      name: p.frontmatter.title,
+      itemUrl: abs(`/blog/${p.frontmatter.slug}`),
+      description: p.frontmatter.excerpt,
+    })),
+  });
+
   return (
     <main>
       <JsonLd data={breadcrumbs} />
+      <JsonLd data={collection} />
 
       {/* HERO */}
       <section className="bg-cream">
