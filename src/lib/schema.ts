@@ -195,7 +195,19 @@ export function clientReviewsSchema(reviews: ClientReview[]) {
   return reviews.map((r) => ({
     "@context": "https://schema.org",
     "@type": "Review",
-    itemReviewed: { "@id": `${SITE_URL}/#professionalservice` },
+    // itemReviewed needs @type + @id (not @id alone) — Google's Review
+    // snippet validator treats bare-@id references as `Thing`, which fails
+    // the "must be a concrete reviewable type" rule (LocalBusiness,
+    // Organization, Product, SoftwareApplication, etc.). Explicit @type
+    // lets Google resolve the type without graph-walking, and @id still
+    // links it to the canonical ProfessionalService entity emitted from
+    // the homepage so the graph stays connected. `name` is optional per
+    // Google but recommended — gives the review snippet display text.
+    itemReviewed: {
+      "@type": "ProfessionalService",
+      "@id": `${SITE_URL}/#professionalservice`,
+      name: ORGANIZATION.name,
+    },
     author: { "@type": "Person", name: r.authorName },
     reviewRating: {
       "@type": "Rating",
