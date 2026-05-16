@@ -65,6 +65,13 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
+  // Facebook domain verification — required so the "info" link on
+  // Meta ads (and the rendered link preview in any FB/IG ad) resolves
+  // to rigginsstrategicsolutions.com instead of Meta's fallback page.
+  // Verified token from Business Manager → Brand Safety → Domains.
+  other: {
+    "facebook-domain-verification": "xkpw2bv5hkepkglqcn1l78d9x0qbsa",
+  },
 };
 
 export default function RootLayout({
