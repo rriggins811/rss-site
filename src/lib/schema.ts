@@ -8,12 +8,42 @@
 
 import { socialLinks, additionalSameAs } from "@/lib/social";
 import { AUTHOR, ORGANIZATION, SITE_NAME, SITE_URL, abs } from "@/lib/site";
-import type { BlogPost } from "@/lib/blog";
+import type { BlogPost, HowToStep } from "@/lib/blog";
 import type { MediaItem } from "@/lib/media";
 
 const ORG_ID = `${SITE_URL}/#organization`;
 const PERSON_ID = `${SITE_URL}/#ryan-riggins`;
 const LOGO_ID = `${SITE_URL}/#logo`;
+
+/**
+ * WebSite schema with SearchAction. Enables the Google sitelinks search box
+ * rich result for branded queries like "riggins strategic solutions [thing]".
+ * Mounted sitewide via layout.tsx.
+ *
+ * The SearchAction `target` template uses /blog?q={search_term_string} — the
+ * blog page reads `?q=` and filters posts by title + excerpt + tag match.
+ * Even without the filter, the URL is valid (just shows the unfiltered blog
+ * index), so the schema is safe to ship before/independent of the search UI.
+ */
+export function websiteSchema() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": `${SITE_URL}/#website`,
+    url: SITE_URL,
+    name: SITE_NAME,
+    publisher: { "@id": ORG_ID },
+    inLanguage: "en-US",
+    potentialAction: {
+      "@type": "SearchAction",
+      target: {
+        "@type": "EntryPoint",
+        urlTemplate: `${SITE_URL}/blog?q={search_term_string}`,
+      },
+      "query-input": "required name=search_term_string",
+    },
+  };
+}
 
 export function organizationSchema() {
   return {
@@ -78,6 +108,108 @@ export function personSchema() {
   };
 }
 
+/**
+ * Enriched Person schema mounted ON the /about page (in addition to the
+ * baseline `personSchema()` emitted sitewide from layout.tsx). Adds
+ * occupation, alumni, birth year, and award scaffolds — the strongest
+ * E-E-A-T signal short of major-outlet citation.
+ *
+ * Uses the same @id as personSchema() so the two entries merge into a
+ * single Person entity in the graph rather than creating a duplicate.
+ *
+ * Award + alumniOf populate from `lib/site.ts:AUTHOR` if/when populated;
+ * the prompt's spec said "leave award empty until Ryan has credentials" —
+ * the array is intentionally empty in AUTHOR for now and this factory
+ * just passes it through.
+ */
+export function enrichedPersonSchema() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "@id": PERSON_ID,
+    name: AUTHOR.name,
+    jobTitle: AUTHOR.jobTitle,
+    description: AUTHOR.bio,
+    image: AUTHOR.imageUrl,
+    url: AUTHOR.url,
+    worksFor: { "@id": ORG_ID },
+    knowsAbout: [...AUTHOR.knowsAbout],
+    hasCredential: AUTHOR.credentials.map((c) => ({
+      "@type": "EducationalOccupationalCredential",
+      name: c,
+    })),
+    hasOccupation: {
+      "@type": "Occupation",
+      name: "Senior Transition Advisor",
+      occupationLocation: {
+        "@type": "City",
+        name: `${ORGANIZATION.address.addressLocality}, ${ORGANIZATION.address.addressRegion}`,
+      },
+      skills: [...AUTHOR.knowsAbout].join(", "),
+    },
+    // birthDate as year only — keeps schema accurate for entity
+    // disambiguation without exposing the full date publicly.
+    // Per Round 2 prompt spec: "1990 only (don't expose full date)".
+    birthDate: "1990",
+    // alumniOf from LinkedIn per Round 2 prompt spec.
+    alumniOf: {
+      "@type": "EducationalOrganization",
+      name: "Sandhills Community College",
+    },
+    // award stays empty until Ryan has earned credentials worth listing.
+    // Examples Google accepts: "Top 1% NC Realtors 2026", "Senior Transition
+    // Specialist Certification", broker-of-the-year awards, etc.
+    award: [],
+    sameAs: [
+      ...socialLinks.map((s) => s.url),
+      ...additionalSameAs.person,
+    ],
+  };
+}
+
+/**
+ * Review schema for a client testimonial. Mounted on /about (or wherever
+ * the testimonial is visually rendered — Google's "schema must match
+ * visible content" rule).
+ *
+ * Callers pass an array of typed Review entries. The factory wraps each
+ * one with the right `itemReviewed` reference to the RSS ProfessionalService
+ * entity. Returns a single schema array so layout.tsx can mount it via
+ * one <JsonLd> tag.
+ *
+ * IMPORTANT: per the Round 2 prompt — do NOT fabricate reviews. Empty
+ * array = no Review schema emitted. Add real reviews only.
+ */
+export type ClientReview = {
+  authorName: string;
+  ratingValue: 1 | 2 | 3 | 4 | 5;
+  reviewBody: string;
+  /** ISO date or year (YYYY or YYYY-MM-DD). */
+  datePublished: string;
+  /** Optional — where the review originated. e.g. "Google". */
+  publisher?: string;
+};
+
+export function clientReviewsSchema(reviews: ClientReview[]) {
+  if (reviews.length === 0) return null;
+  return reviews.map((r) => ({
+    "@context": "https://schema.org",
+    "@type": "Review",
+    itemReviewed: { "@id": `${SITE_URL}/#professionalservice` },
+    author: { "@type": "Person", name: r.authorName },
+    reviewRating: {
+      "@type": "Rating",
+      ratingValue: String(r.ratingValue),
+      bestRating: "5",
+    },
+    reviewBody: r.reviewBody,
+    datePublished: r.datePublished,
+    ...(r.publisher
+      ? { publisher: { "@type": "Organization", name: r.publisher } }
+      : {}),
+  }));
+}
+
 export function localBusinessSchema() {
   return {
     "@context": "https://schema.org",
@@ -114,6 +246,33 @@ export function localBusinessSchema() {
 }
 
 /**
+ * CSS selectors carrying voice-readable content sitewide. The selector list
+ * is consumed by SpeakableSpecification embedded in Article + HowTo schemas
+ * below. Adding a new speakable region anywhere on the site is a one-line
+ * edit here — no per-page schema changes needed.
+ *
+ * Components that contribute:
+ *   - QuickAnswer (`aeo-speakable-quickanswer` on its wrapper)
+ *   - FAQSection (`aeo-speakable-faq` on each Q+A item)
+ *
+ * Per Google's docs, Speakable is currently a limited-rollout feature
+ * intended for news-style content. Limiting the property to Article + HowTo
+ * (and not Product / MobileApplication pages) keeps us inside the intended
+ * use case so we don't get flagged as schema spam.
+ */
+const SPEAKABLE_SELECTORS = [
+  ".aeo-speakable-quickanswer",
+  ".aeo-speakable-faq",
+];
+
+function speakableSpec() {
+  return {
+    "@type": "SpeakableSpecification",
+    cssSelector: SPEAKABLE_SELECTORS,
+  };
+}
+
+/**
  * Article schema derived entirely from BlogPost frontmatter.
  * No manual per-post schema code required.
  */
@@ -139,6 +298,60 @@ export function articleSchemaFromPost(post: BlogPost) {
     publisher: { "@id": ORG_ID },
     inLanguage: "en-US",
     url,
+    speakable: speakableSpec(),
+    // All blog posts are free to read — explicit so AI assistants can
+    // confidently cite without "paywalled" hedging.
+    isAccessibleForFree: true,
+  };
+}
+
+/**
+ * HowTo schema for procedural blog posts. Opt-in per post via the
+ * `schemaType: "HowTo"` frontmatter field; the [slug] route emits this
+ * instead of articleSchemaFromPost when present.
+ *
+ * Steps come from the post's `howToSteps` frontmatter array. AI assistants
+ * (Perplexity, ChatGPT browse, Google AI Overviews) pull HowTo step text
+ * directly into answer panels, so step text should be self-contained and
+ * actionable — not "click here to read more."
+ *
+ * See docs/blog-schema-types.md for authoring guidance + the conversion
+ * checklist used to qualify a post as HowTo-eligible.
+ */
+export function howToSchemaFromPost(
+  post: BlogPost,
+  steps: HowToStep[],
+  totalTime?: string
+) {
+  const url = abs(`/blog/${post.frontmatter.slug}`);
+  const imageUrl = post.frontmatter.image
+    ? abs(post.frontmatter.image)
+    : `${url}/opengraph-image`;
+
+  return {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    name: post.frontmatter.title,
+    description: post.frontmatter.excerpt,
+    image: [imageUrl],
+    datePublished: post.datePublished,
+    dateModified: post.dateModified,
+    author: { "@id": PERSON_ID },
+    publisher: { "@id": ORG_ID },
+    inLanguage: "en-US",
+    url,
+    mainEntityOfPage: { "@type": "WebPage", "@id": url },
+    speakable: speakableSpec(),
+    isAccessibleForFree: true,
+    ...(totalTime ? { totalTime } : {}),
+    step: steps.map((s, i) => ({
+      "@type": "HowToStep",
+      position: i + 1,
+      name: s.name,
+      text: s.text,
+      url: `${url}#step-${i + 1}`,
+      ...(s.duration ? { performTime: s.duration } : {}),
+    })),
   };
 }
 
@@ -173,6 +386,10 @@ export function mediaSchemaFromItem(item: MediaItem) {
  * Product schema for Blueprint Core ($47 DIY course). Mounted on
  * /the-blueprint. Brand/seller derive from ORGANIZATION constants so a name
  * change in lib/site.ts propagates here automatically.
+ *
+ * `isAccessibleForFree: false` helps AI assistants route "free version of"
+ * vs "paid version of" queries to the right entity. Pair tag with
+ * /freeguide which is `true` (sitewide WebPage default).
  */
 export function blueprintCoreProductSchema() {
   const url = abs("/the-blueprint");
@@ -186,6 +403,7 @@ export function blueprintCoreProductSchema() {
     image: abs("/og/the-blueprint.png"),
     url,
     category: "Online Course",
+    isAccessibleForFree: false,
     offers: {
       "@type": "Offer",
       price: "47",
@@ -214,6 +432,7 @@ export function blueprintPremiumProductSchema() {
     image: abs("/og/blueprint-premium.png"),
     url,
     category: "Senior Transition Advisory",
+    isAccessibleForFree: false,
     offers: {
       "@type": "Offer",
       price: "297",
@@ -248,6 +467,9 @@ export function seniorSafeMobileApplicationSchema() {
     downloadUrl:
       "https://apps.apple.com/us/app/seniorsafe-app/id6753033083",
     image: "https://seniorsafeapp.com/og/homepage.png",
+    // Paid app with a 14-day free trial. The trial doesn't make the app
+    // "free" for schema purposes — the Offers below are the truth.
+    isAccessibleForFree: false,
     offers: [
       {
         "@type": "Offer",
@@ -367,6 +589,9 @@ export function collectionPageSchema(args: {
     isPartOf: { "@id": ORG_ID },
     publisher: { "@id": ORG_ID },
     inLanguage: "en-US",
+    // Hub pages like /guides + /tools surface free interactive resources —
+    // explicit flag so AI tools route "free tools for X" queries here.
+    isAccessibleForFree: true,
     mainEntity: {
       "@type": "ItemList",
       numberOfItems: args.items.length,

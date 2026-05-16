@@ -4,9 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "prebuild": "node scripts/generate-llms-full.mjs",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "llms:gen": "node scripts/generate-llms-full.mjs"
   },
   "dependencies": {
     "@base-ui/react": "^1.4.0",

@@ -14,8 +14,42 @@ export const metadata: Metadata = {
   alternates: { canonical: "/blog" },
 };
 
-export default function BlogIndexPage() {
-  const posts = getAllPosts();
+// Optional `?q=` filter to support the SearchAction target advertised by
+// the WebSite schema in layout.tsx. Filters by title + excerpt + tag
+// (case-insensitive substring match). Conservative on purpose — no fuzzy
+// matching, no relevance ranking — because the primary callers are AI
+// crawlers + Google sitelinks search box, both of which work fine with
+// "exact substring or nothing." If the query yields zero posts we show
+// the full list with a "no matches" notice so the URL is never broken.
+type BlogSearchParams = { q?: string };
+
+export default async function BlogIndexPage({
+  searchParams,
+}: {
+  searchParams: Promise<BlogSearchParams>;
+}) {
+  const all = getAllPosts();
+  const { q } = await searchParams;
+  const query = (q ?? "").trim().toLowerCase();
+
+  const matched = query
+    ? all.filter((p) => {
+        const hay = [
+          p.frontmatter.title,
+          p.frontmatter.excerpt,
+          ...(p.frontmatter.tags ?? []),
+        ]
+          .join(" ")
+          .toLowerCase();
+        return hay.includes(query);
+      })
+    : all;
+
+  // Fall back to full index when query returns nothing — keeps the URL
+  // useful for Google's "Search this site" UI even when the term misses.
+  const posts = matched.length > 0 ? matched : all;
+  const showNoMatchNotice = query.length > 0 && matched.length === 0;
+
   if (posts.length === 0) {
     return (
       <main className="bg-cream">
@@ -54,6 +88,20 @@ export default function BlogIndexPage() {
             senior transitions. Written by Senior Transition Advisor Ryan
             Riggins.
           </p>
+          {query ? (
+            <p className="mt-4 text-sm text-ink/70">
+              {showNoMatchNotice ? (
+                <>
+                  No posts matched <span className="font-semibold">&ldquo;{query}&rdquo;</span> —
+                  showing all posts.
+                </>
+              ) : (
+                <>
+                  Showing posts matching <span className="font-semibold">&ldquo;{query}&rdquo;</span> ({matched.length})
+                </>
+              )}
+            </p>
+          ) : null}
         </div>
       </section>
 

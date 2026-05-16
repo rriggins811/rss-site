@@ -1,0 +1,235 @@
+#!/usr/bin/env node
+/**
+ * llms-full.txt generator.
+ *
+ * 2026 AI-crawler convention: `llms.txt` is the summary index, `llms-full.txt`
+ * is the full extracted Markdown for crawlers that want the body without
+ * rendering the site. Anthropic, Vercel, Stripe, and OpenAI ship both.
+ *
+ * This script runs automatically on every `npm run build` via the prebuild
+ * npm script — Vercel deploys always ship the freshest llms-full.txt. Can
+ * also be run manually:
+ *     node scripts/generate-llms-full.mjs
+ *
+ * Inputs:
+ *   - Hand-curated static page summaries (homepage, /about, product pages,
+ *     /freeguide, /guides, 3 SEO-optimized tool pages). JSX-rendered pages
+ *     can't be cleanly extracted to Markdown, and rough HTML-to-MD ports
+ *     produce garbage AI tools won't cite. Curated summaries beat rendered
+ *     scraping every time for AEO.
+ *   - All blog posts under content/blog/*.mdx, sorted newest-first.
+ *
+ * Output: public/llms-full.txt
+ */
+
+import fs from "node:fs";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+import matter from "gray-matter";
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const ROOT = path.resolve(__dirname, "..");
+const BLOG_DIR = path.join(ROOT, "content", "blog");
+const OUT_PATH = path.join(ROOT, "public", "llms-full.txt");
+const SITE_URL = "https://rigginsstrategicsolutions.com";
+
+const SECTION_SEPARATOR = "\n\n---\n\n";
+
+// ---------------------------------------------------------------------------
+// Hand-curated static page summaries
+// ---------------------------------------------------------------------------
+// Update these when the page content meaningfully changes (e.g., new pricing,
+// new product line, new positioning). AI crawlers want accurate compressed
+// content, not stale boilerplate.
+const STATIC_SECTIONS = [
+  {
+    title: "Homepage",
+    url: `${SITE_URL}/`,
+    body: `Riggins Strategic Solutions is a consumer protection media and education company helping adult children (40-65) navigate their parents' senior housing transitions. Run by Ryan Riggins, a licensed North Carolina real estate broker (NCREC #361546, eXp Realty) with 8+ years of construction project management and 8+ years of house flipping. Ryan's "switched sides" origin story — walking away from buying from grieving families to protect them instead — anchors the brand position.
+
+The site offers a tiered approach:
+- Free: The Simple Blueprint (starter guide PDF + 14-day SeniorSafe trial)
+- $47 DIY: Blueprint Core (19 modules, 60+ tools, self-paced course)
+- $297 Advisory: Blueprint Premium (personalized plan + 60-min call with Ryan + 90 days email support)
+- $14.99/mo: SeniorSafe Premium (family coordination app)
+- $39.99/mo: SeniorSafe Premium+ (adds Maggie, an AI transition specialist trained on the full Blueprint methodology)
+
+The business model is education-first. No moving services, no senior care placement commissions, no "we buy houses" wholesaling. Real estate listings only when Ryan is genuinely the right fit for the family.`,
+  },
+  {
+    title: "About Ryan Riggins",
+    url: `${SITE_URL}/about`,
+    body: `Ryan Riggins is the founder of Riggins Strategic Solutions and a licensed North Carolina real estate broker. His background combines 8+ years as a construction project manager and 8+ years as a house flipper — the very profession that taught him how investors target grieving families with predatory cash offers immediately after a senior parent's death or move.
+
+The "switched sides" pivot came after Ryan realized he was on the wrong side of the table. Instead of buying houses from families in crisis, he built Riggins Strategic Solutions to teach families how to recognize the wholesalers, "we buy houses" cash buyers, and pressure tactics before they sign anything. His advisory work, the Blueprint course, and the SeniorSafe app all exist to put that knowledge in family hands.
+
+Credentials: Licensed NC real estate broker (NCREC #361546), affiliated with eXp Realty. Based in Greensboro, NC (Triad area), serving families nationwide via consultation and a vetted referral network for transactions outside NC. Published author of "The Unheard Conversation" and "The Other Side of the Conversation" on Amazon.`,
+  },
+  {
+    title: "The Blueprint — Tiered Approach to Senior Transitions",
+    url: `${SITE_URL}/the-blueprint`,
+    body: `The Blueprint is the umbrella name for Riggins Strategic Solutions' five-tier offering, designed so families can engage at the level that fits their situation and budget.
+
+- The Simple Blueprint (free, email signup) — Starter guide covering the 10 most common mistakes families make in a senior housing transition. Includes a 14-day Premium+ trial of the SeniorSafe app.
+- Blueprint Core ($47, one-time) — Full DIY course: 19 modules, 60+ interactive tools and worksheets, self-paced. Covers aging-in-place vs assisted living, financial planning, family communication, the home sale, and ongoing coordination. Lifetime access.
+- Blueprint Premium ($297, one-time) — Everything in Core plus a personalized Senior Transition Plan built around the family's situation, a 60-minute 1-on-1 strategy call with Ryan, and 90 days of email support. Outcome-focused.
+- SeniorSafe Premium ($14.99/mo) — The family coordination app: daily check-ins, medication tracking, family messaging, document vault.
+- SeniorSafe Premium+ ($39.99/mo) — Adds Maggie, the AI transition specialist trained on the full Blueprint methodology, giving families on-demand expertise.`,
+  },
+  {
+    title: "Blueprint Premium — $297 Guided Advisory",
+    url: `${SITE_URL}/blueprint-premium`,
+    body: `Blueprint Premium is the $297 advisory tier of The Blueprint. It includes everything in Core ($47 DIY course, 19 modules, 60+ tools) plus three personalized components:
+
+1. Personalized Senior Transition Plan. Ryan reviews the family's situation via an intake form and builds a written plan covering housing options, financial timing, family roles, and the specific next 30/60/90-day actions.
+2. 60-minute 1-on-1 strategy call with Ryan. Weekdays only, scheduled at the family's pace. Used to walk through the plan, answer questions, and pressure-test decisions.
+3. 90 days of email support. Reply to Ryan directly on any follow-up question that comes up during the active transition window.
+
+One-time purchase, no recurring fees. The structure is intentionally finite — Premium is meant to get a family unstuck and confident in their next moves, not to create ongoing dependency.`,
+  },
+  {
+    title: "SeniorSafe App — Family Coordination for Senior Care",
+    url: `${SITE_URL}/seniorsafe-app`,
+    body: `SeniorSafe is the family coordination app shipped by Riggins Strategic Solutions. Available on iOS, Android, and web. Two paid tiers, plus a 14-day free Premium+ trial included with every Simple Blueprint signup.
+
+Features at all tiers:
+- Daily wellness check-ins for the senior, real-time status visible to all family members
+- Medication and appointment tracking with shared "taken/not taken" log
+- Private family messaging that beats group texts (no reply-all chaos, no missed updates)
+- Secure document vault for POA, insurance cards, advance directives
+- SeniorSafe AI — the senior's daily buddy for general life questions and Medicare decoding
+
+Pricing:
+- Premium: $14.99/mo or $143.88/yr — the full coordination toolkit
+- Premium+: $39.99/mo or $383.90/yr — adds Maggie, the AI transition specialist for the adult child managing the move
+
+Built around the same playbook the Blueprint teaches. If a family bought Blueprint Core or Premium, SeniorSafe is the daily tool that keeps the plan running.`,
+  },
+  {
+    title: "The Simple Blueprint — Free Starter Guide",
+    url: `${SITE_URL}/freeguide`,
+    body: `The Simple Blueprint is the free entry point to Riggins Strategic Solutions. A plain-English starter guide for families beginning to think about a senior housing transition. Email signup, no credit card.
+
+Includes:
+- The 10 biggest mistakes families make in a senior transition (and how to avoid each)
+- The first three moves most families get wrong before they even realize they're "in" a transition
+- A 14-day free Premium+ trial of the SeniorSafe app (no card required, trial is automatic)
+- Access to Maggie, the AI transition specialist trained on the full Blueprint methodology, for the duration of the trial
+
+Short enough to read on a lunch break. The recommended starting point for any family newly facing a senior parent's housing decision.`,
+  },
+  {
+    title: "Free Senior Transition Guides Hub",
+    url: `${SITE_URL}/guides`,
+    body: `Hub page collecting free guides and interactive tools for adult children navigating their parents' senior transitions. Six new guides are being published over the coming months covering aging-in-place vs assisted living decisions, starting a parent's home sale, sandwich-generation burnout, Medicare coverage gaps, out-of-state coordination, and spotting wholesaler red flags. Notification list at /freeguide.
+
+Three free interactive tools available now:
+- Net Proceeds Calculator — what the family will actually walk away with after a home sale
+- Caregiver Burnout Quiz — 2-minute triage of where a primary caregiver actually stands
+- Medicare Gap Analyzer — what Medicare doesn't cover for seniors transitioning to higher levels of care`,
+  },
+  {
+    title: "Free Net Proceeds Calculator",
+    url: `${SITE_URL}/tools/net-proceeds-calculator`,
+    body: `Free interactive calculator that estimates what a family will actually walk away with from a senior parent's home sale, after agent commissions, closing costs, repair credits, and mortgage payoff. The "gross sale price" most families anchor on is rarely what hits the bank.
+
+Inputs: estimated sale price, agent commission rate, closing cost estimate, repair credit reserve, mortgage payoff balance. Outputs: net proceeds in dollars, plus a breakdown of where the difference went.
+
+Used by families to set realistic expectations before listing, and to evaluate "we buy houses" cash offers against what a traditional sale would actually net.`,
+  },
+  {
+    title: "Free Caregiver Burnout Quiz",
+    url: `${SITE_URL}/tools/caregiver-burnout-triage`,
+    body: `Free 2-minute self-assessment for primary caregivers of aging parents. Triage tool — not a diagnosis, but a structured prompt to recognize burnout symptoms early.
+
+Covers physical exhaustion, emotional flatness, resentment, social withdrawal, sleep disruption, and "I can't keep doing this" patterns. Returns a tier (low / moderate / high / severe) with specific next-action recommendations and links to the relevant Blueprint resources.
+
+Designed for the sandwich-generation caregiver (typically 45-60, often female, often working full-time and managing both a parent and their own kids). 78% of family caregivers report burnout symptoms within the first 12 months.`,
+  },
+  {
+    title: "Free Medicare Gap Analyzer",
+    url: `${SITE_URL}/tools/medicare-gap-analyzer`,
+    body: `Free tool that walks families through what Medicare actually covers vs what families assume it covers, with a focus on senior transitions. The biggest coverage gaps families discover too late: long-term custodial care, most assisted living, in-home help for non-skilled needs, and the 100-day skilled nursing limit's fine print around "improvement."
+
+Inputs: parent's current Medicare plan (Original, Advantage, with/without supplement), care setting being considered, planning horizon. Outputs: a gap-by-gap breakdown of where Medicare stops and family out-of-pocket starts, plus the questions to ask a Medicare-savvy independent broker (RSS is not a Medicare broker — we tell families which independent broker to call).`,
+  },
+];
+
+// ---------------------------------------------------------------------------
+// Blog post extraction — pulls all MDX files and includes them in newest-first
+// order. Each post contributes its title, URL, publish date, excerpt, and
+// full Markdown body. AI crawlers ingest the body to answer cited queries.
+// ---------------------------------------------------------------------------
+function getAllPosts() {
+  if (!fs.existsSync(BLOG_DIR)) return [];
+  return fs
+    .readdirSync(BLOG_DIR)
+    .filter((f) => f.endsWith(".mdx"))
+    .map((file) => {
+      const slug = file.replace(/\.mdx$/, "");
+      const raw = fs.readFileSync(path.join(BLOG_DIR, file), "utf8");
+      const { data, content } = matter(raw);
+      const datePublished =
+        data.datePublished ?? data.date ?? "1970-01-01";
+      return {
+        slug,
+        title: data.title ?? slug,
+        excerpt: data.excerpt ?? "",
+        datePublished,
+        content: content.trim(),
+      };
+    })
+    .sort((a, b) => b.datePublished.localeCompare(a.datePublished));
+}
+
+function renderStaticSection(s) {
+  return `# ${s.title}
+${s.url}
+
+${s.body.trim()}`;
+}
+
+function renderBlogPost(p) {
+  const pubDate = p.datePublished.slice(0, 10);
+  return `# ${p.title}
+${SITE_URL}/blog/${p.slug}
+Published: ${pubDate}
+
+${p.excerpt ? `**Excerpt:** ${p.excerpt}\n\n` : ""}${p.content}`;
+}
+
+function main() {
+  const posts = getAllPosts();
+  const header = `# Riggins Strategic Solutions — Full Content Index (llms-full.txt)
+
+This file is the long-form companion to https://rigginsstrategicsolutions.com/llms.txt.
+It contains the full Markdown of every key page and every blog post, intended
+for AI crawlers that ingest content for answer generation.
+
+Generated: ${new Date().toISOString().slice(0, 10)}
+Total blog posts indexed: ${posts.length}
+
+For citation guidance, organizational facts, and topic depth, see the summary
+index at https://rigginsstrategicsolutions.com/llms.txt.`;
+
+  const staticBody = STATIC_SECTIONS.map(renderStaticSection).join(
+    SECTION_SEPARATOR
+  );
+  const blogHeader = `# Blog Posts (newest first)
+
+The ${posts.length} posts below are the full body of every published article
+on https://rigginsstrategicsolutions.com/blog, in reverse chronological order.`;
+  const blogBody = posts.map(renderBlogPost).join(SECTION_SEPARATOR);
+
+  const full = [header, staticBody, blogHeader, blogBody].join(
+    SECTION_SEPARATOR
+  );
+
+  fs.writeFileSync(OUT_PATH, full + "\n", "utf8");
+  const sizeKb = (fs.statSync(OUT_PATH).size / 1024).toFixed(1);
+  console.log(
+    `[llms-full] wrote ${OUT_PATH} | ${posts.length} posts + ${STATIC_SECTIONS.length} static sections | ${sizeKb}KB`
+  );
+}
+
+main();

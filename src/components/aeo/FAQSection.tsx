@@ -50,7 +50,11 @@ export function FAQSection({
         <h2 className="mt-3">{title}</h2>
         <div className="mt-10 space-y-8">
           {items.map((item) => (
-            <div key={item.question}>
+            // `aeo-speakable-faq` is load-bearing for the
+            // SpeakableSpecification selector declared on Article + HowTo
+            // schemas in schema.ts. Don't rename without updating
+            // SPEAKABLE_SELECTORS there.
+            <div key={item.question} className="aeo-speakable-faq">
               <h3 className="font-serif text-xl text-navy-700">
                 {item.question}
               </h3>

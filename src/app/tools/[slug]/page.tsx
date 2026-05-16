@@ -12,6 +12,7 @@ import {
 } from "@/lib/tools";
 import { breadcrumbListSchema } from "@/lib/schema";
 import { abs, AUTHOR, ORGANIZATION, SITE_URL } from "@/lib/site";
+import { RelatedReading } from "@/components/site/RelatedReading";
 
 type RouteParams = { slug: string };
 
@@ -110,6 +111,12 @@ export default async function ToolPage({
           />
         </div>
       </section>
+
+      {/* RELATED READING — cluster-aware, renders only when this tool is
+          part of a topical cluster in lib/internal-links.ts. Builds the
+          internal-link graph Google uses to decide which page ranks for
+          a topic. */}
+      <RelatedReading current={{ type: "tool", slug: tool.slug }} />
 
       {/* FOLLOW-UP */}
       <section className="bg-sand border-y border-border">

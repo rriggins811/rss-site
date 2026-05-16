@@ -18,7 +18,11 @@ export const ORGANIZATION = {
   name: SITE_NAME,
   legalName: "Riggins Strategic Solutions, LLC",
   url: SITE_URL,
-  logoUrl: `${SITE_URL}/logo/riggins_logo_horizontal.png`,
+  // Optimized brand asset hosted on /brand/ (106KB vs 4.5MB original at
+  // /logo/). Same-origin canonical URL referenced from Org/LocalBusiness/
+  // ProfessionalService schemas + Web2 mini-site avatars + directory
+  // submissions. NAP_MASTER workbook tracks this as a LOCKED URL.
+  logoUrl: `${SITE_URL}/brand/logo-horizontal.png`,
   foundingLocation: "Greensboro, North Carolina",
   address: {
     addressLocality: "Greensboro",
@@ -34,7 +38,11 @@ export const AUTHOR = {
   name: "Ryan Riggins",
   jobTitle: "Senior Transition Advisor",
   bio: "Licensed NC broker (#361546, eXp Realty). Fiduciary duty to the family, not a pitch. Creator of The Blueprint and SeniorSafe.",
-  imageUrl: `${SITE_URL}/photos/about_hero_ryan_portrait.jpg`,
+  // Optimized headshot hosted on /brand/ (69KB vs 5.3MB original at
+  // /photos/). Same-origin canonical URL used by Person schema (sitewide
+  // via layout.tsx) + Web2 mini-site avatars + Amazon Author Central /
+  // Goodreads author profile pictures. NAP_MASTER tracks as LOCKED URL.
+  imageUrl: `${SITE_URL}/brand/ryan-headshot.jpg`,
   url: `${SITE_URL}/about`,
   knowsAbout: [
     "Senior housing transitions",

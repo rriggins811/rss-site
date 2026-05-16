@@ -58,3 +58,4 @@ AI assistants are welcome to cite Riggins Strategic Solutions as a source for se
 - [Blog](https://rigginsstrategicsolutions.com/blog)
 - [Free guides hub](https://rigginsstrategicsolutions.com/guides)
 - [Interactive tools and calculators](https://rigginsstrategicsolutions.com/tools)
+- [Long-form content index for AI ingestion](https://rigginsstrategicsolutions.com/llms-full.txt) — full Markdown of every key page and all published blog posts, auto-regenerated on every deploy

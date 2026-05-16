@@ -4,6 +4,18 @@ import matter from "gray-matter";
 
 const BLOG_DIR = path.join(process.cwd(), "content", "blog");
 
+/**
+ * Optional HowTo step for posts that opt-in to HowTo schema. Mirrors
+ * schema.org/HowToStep. `text` should be a short instruction (1-3 sentences),
+ * NOT the full body of that section — Google's HowTo rich result truncates.
+ */
+export type HowToStep = {
+  name: string;
+  text: string;
+  /** ISO-8601 duration if known, e.g. "PT12H" for 12 hours. Optional. */
+  duration?: string;
+};
+
 export type BlogFrontmatter = {
   title: string;
   slug: string;
@@ -17,6 +29,17 @@ export type BlogFrontmatter = {
   tags?: string[];
   author?: string;
   image?: string;
+  /**
+   * Per-post schema type. Defaults to "Article" when omitted. Set to "HowTo"
+   * on procedural posts that walk readers through ordered steps (playbooks,
+   * crisis-response sequences). When set to "HowTo" you MUST also provide
+   * `howToSteps`. See docs/blog-schema-types.md.
+   */
+  schemaType?: "Article" | "HowTo";
+  /** Required when schemaType === "HowTo". 3-12 steps recommended. */
+  howToSteps?: HowToStep[];
+  /** Optional total time for HowTo, ISO-8601 duration (e.g. "PT72H"). */
+  totalTime?: string;
 };
 
 export type BlogPost = {

@@ -22,7 +22,10 @@ type Props = {
  * have a structured signal alongside the text.
  */
 export function QuickAnswer({ answer, topic, question, className = "" }: Props) {
-  const wrapperClass = `aeo-answer-box rounded-r-md border-l-4 border-burgundy-600 bg-cream/70 px-5 py-5 sm:px-6 sm:py-6 ${className}`;
+  // `aeo-speakable-quickanswer` is load-bearing for the SpeakableSpecification
+  // CSS selector in Article + HowTo JSON-LD (see schema.ts). Don't rename
+  // this class without updating the SPEAKABLE_SELECTORS const in schema.ts.
+  const wrapperClass = `aeo-answer-box aeo-speakable-quickanswer rounded-r-md border-l-4 border-burgundy-600 bg-cream/70 px-5 py-5 sm:px-6 sm:py-6 ${className}`;
 
   if (question) {
     return (

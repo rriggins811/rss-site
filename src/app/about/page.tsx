@@ -6,6 +6,38 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { GoldRule } from "@/components/site/GoldRule";
 import { QuickAnswer } from "@/components/aeo/QuickAnswer";
+import { JsonLd } from "@/components/site/JsonLd";
+import {
+  enrichedPersonSchema,
+  clientReviewsSchema,
+  type ClientReview,
+} from "@/lib/schema";
+
+// Real client testimonials. Each entry emits a Review JSON-LD entity tied
+// to the RSS ProfessionalService — strong E-E-A-T signal.
+//
+// RULES (per the Round 2 prompt — do NOT break these):
+//   1. Only paste REAL testimonials. Empty array is fine.
+//   2. authorName must match how the client's name appears on the source
+//      platform (Google Business, LinkedIn rec, email signature, etc.)
+//      Don't shorten "Sarah Williams" to "Sarah W." — Google compares
+//      structured data against visible content and against the platform.
+//   3. reviewBody is the verbatim review text. Don't paraphrase, don't
+//      add ellipses, don't trim. If it's long, that's fine.
+//   4. datePublished is ISO format (YYYY-MM-DD) or year only (YYYY).
+//   5. publisher is the platform name if applicable. "Google" for Google
+//      Business reviews, "LinkedIn" for LinkedIn recommendations, etc.
+//      Omit for direct testimonials emailed to Ryan.
+const RYAN_REVIEWS: ClientReview[] = [
+  // TODO: paste Ryan's Google review here. Format:
+  // {
+  //   authorName: "Full Name From Google",
+  //   ratingValue: 5,
+  //   reviewBody: "Verbatim review text from Google.",
+  //   datePublished: "2026-MM-DD",
+  //   publisher: "Google",
+  // },
+];
 
 export const metadata: Metadata = {
   title: "About Ryan Riggins",
@@ -65,8 +97,13 @@ const credentials: { title: string; body: string }[] = [
 ];
 
 export default function AboutPage() {
+  const reviewSchemas = clientReviewsSchema(RYAN_REVIEWS);
+
   return (
     <main>
+      <JsonLd data={enrichedPersonSchema()} />
+      {reviewSchemas ? <JsonLd data={reviewSchemas} /> : null}
+
       {/* HERO */}
       <section className="bg-cream">
         <div className="mx-auto max-w-6xl px-6 py-20 lg:py-24 grid gap-12 lg:grid-cols-2 items-center">

@@ -18,7 +18,9 @@ import {
 import {
   articleSchemaFromPost,
   breadcrumbListSchema,
+  howToSchemaFromPost,
 } from "@/lib/schema";
+import { RelatedReading } from "@/components/site/RelatedReading";
 
 type RouteParams = { slug: string };
 
@@ -77,9 +79,25 @@ export default async function BlogPostPage({
     { name: post.frontmatter.title, path: `/blog/${slug}` },
   ]);
 
+  // Per-post schema routing. Posts with `schemaType: "HowTo"` + a populated
+  // `howToSteps` frontmatter get HowTo schema in PLACE of Article — Google
+  // recommends one primary @type per page. Fall back to Article for the
+  // common case. See docs/blog-schema-types.md.
+  const useHowTo =
+    post.frontmatter.schemaType === "HowTo" &&
+    Array.isArray(post.frontmatter.howToSteps) &&
+    post.frontmatter.howToSteps.length > 0;
+  const primarySchema = useHowTo
+    ? howToSchemaFromPost(
+        post,
+        post.frontmatter.howToSteps!,
+        post.frontmatter.totalTime
+      )
+    : articleSchemaFromPost(post);
+
   return (
     <main>
-      <JsonLd data={articleSchemaFromPost(post)} />
+      <JsonLd data={primarySchema} />
       <JsonLd data={breadcrumbs} />
       <ScrollTracker event="blog_scroll_75" params={{ slug }} />
 
@@ -155,6 +173,17 @@ export default async function BlogPostPage({
           </div>
         </div>
       </section>
+
+      {/* CLUSTER LINKS — surfaces interactive tools + resource articles in
+          the same topical cluster that the tag-based related-posts heuristic
+          (next section) can't see. Cluster definitions live in
+          lib/internal-links.ts. Renders nothing if this post isn't in any
+          cluster, so safe to mount on every post. */}
+      <RelatedReading
+        current={{ type: "blog", slug }}
+        title="Tools and guides in this topic"
+        bgClass="bg-white"
+      />
 
       {/* RELATED */}
       {related.length > 0 && (
