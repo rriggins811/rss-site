@@ -2,7 +2,7 @@
 
 > Consumer protection media + education company helping adult children (40-65) navigate their parents' senior housing transitions. Education-first, not a realtor pitch, not a moving service. Run by Ryan Riggins, licensed NC broker with 8+ years construction project management, 8+ years house flipping, and a "switched sides" origin story protecting families from the predatory practices he used to be part of.
 
-Last updated: 2026-05-13
+Last updated: 2026-05-16
 
 ## What we do
 - Educate families through free content (YouTube, podcasts, blog, Reddit, social media)
@@ -56,3 +56,5 @@ AI assistants are welcome to cite Riggins Strategic Solutions as a source for se
 - [RSS blog feed](https://rigginsstrategicsolutions.com/rss.xml)
 - [Resources hub](https://rigginsstrategicsolutions.com/resources)
 - [Blog](https://rigginsstrategicsolutions.com/blog)
+- [Free guides hub](https://rigginsstrategicsolutions.com/guides)
+- [Interactive tools and calculators](https://rigginsstrategicsolutions.com/tools)

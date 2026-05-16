@@ -5,6 +5,42 @@ export type SocialLink = {
   path: string;
 };
 
+/**
+ * Additional sameAs URLs that DON'T render as footer icons but DO appear
+ * in JSON-LD `sameAs` arrays. Use this for entity-graph reinforcement when
+ * adding a brand profile on a network we don't want to surface visually in
+ * the site footer (e.g. LinkedIn Company page when Ryan's personal LinkedIn
+ * icon already renders, or future Amazon Author Central / Goodreads pages
+ * that don't fit alongside social-media chiclets).
+ *
+ * - `org` URLs feed Organization + ProfessionalService schemas
+ * - `person` URLs feed the Person schema
+ *
+ * Entity-stacking buildout (Saturday cohorts May 23 → Jun 27, 2026):
+ * uncomment each line as the corresponding profile is claimed and the URL
+ * is locked. See Strategy & Planning/Entity_Stacking_May16/ for the schedule.
+ */
+export const additionalSameAs = {
+  org: [
+    "https://www.linkedin.com/company/111342108",
+    // TODO Sat May 23: confirm Facebook Business vanity URL
+    // TODO Sat May 23: add Instagram business handle (if separate from personal)
+    // TODO Sat May 23: add X org handle once claimed
+    // TODO Sat May 23: add Bluesky org handle once claimed
+    // TODO Sat May 30: add Pinterest business profile after full buildout
+    // TODO Sat Jun 6:  add Substack publication URL once created
+    // TODO Sat Jun 13: add Medium publication URL once created
+    // TODO Sat Jun 20: add WordPress.com profile URL once created
+  ],
+  person: [
+    // TODO Sat May 23: add X personal handle once claimed
+    // TODO Sat May 23: add Bluesky personal handle once claimed
+    // TODO Sat May 23: add Threads personal handle once claimed
+    // TODO Sat Jun 13: add Amazon Author Central URL
+    // TODO Sat Jun 13: add Goodreads author profile URL
+  ],
+} as const;
+
 export const socialLinks: SocialLink[] = [
   {
     name: "Facebook",

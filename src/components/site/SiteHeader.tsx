@@ -9,6 +9,7 @@ const navLinks: { href: string; label: string; external?: boolean }[] = [
   { href: "/about", label: "About" },
   { href: "/the-blueprint", label: "Blueprint" },
   { href: "/seniorsafe-app", label: "SeniorSafe" },
+  { href: "/guides", label: "Guides" },
   { href: "/tools", label: "Tools" },
   { href: "/speaking", label: "Speaking" },
   { href: "/media", label: "Media" },

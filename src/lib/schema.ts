@@ -6,7 +6,7 @@
  * values per page.
  */
 
-import { socialLinks } from "@/lib/social";
+import { socialLinks, additionalSameAs } from "@/lib/social";
 import { AUTHOR, ORGANIZATION, SITE_NAME, SITE_URL, abs } from "@/lib/site";
 import type { BlogPost } from "@/lib/blog";
 import type { MediaItem } from "@/lib/media";
@@ -40,12 +40,15 @@ export function organizationSchema() {
       addressCountry: ORGANIZATION.address.addressCountry,
     },
     areaServed: ORGANIZATION.areaServed,
-    // sameAs reinforces the identity graph: same brand on social profiles
-    // plus the SeniorSafe marketing site, which is the consumer-facing
-    // brand for the family coordination app shipped by RSS LLC.
+    // sameAs reinforces the identity graph: same brand on social profiles,
+    // the SeniorSafe marketing site (consumer brand for the app shipped by
+    // RSS LLC), and any additional org-only profiles from
+    // social.ts:additionalSameAs (LinkedIn Company page, future Substack /
+    // Medium publication URLs, etc.) that don't render as footer icons.
     sameAs: [
       ...socialLinks.map((s) => s.url),
       "https://seniorsafeapp.com",
+      ...additionalSameAs.org,
     ],
   };
 }
@@ -66,7 +69,12 @@ export function personSchema() {
       "@type": "EducationalOccupationalCredential",
       name: c,
     })),
-    sameAs: socialLinks.map((s) => s.url),
+    // socialLinks (rendered in footer) + person-only additionalSameAs
+    // (Amazon Author Central, Goodreads, X, Bluesky once claimed).
+    sameAs: [
+      ...socialLinks.map((s) => s.url),
+      ...additionalSameAs.person,
+    ],
   };
 }
 
@@ -98,7 +106,10 @@ export function localBusinessSchema() {
       name: "United States",
     },
     founder: { "@id": PERSON_ID },
-    sameAs: socialLinks.map((s) => s.url),
+    sameAs: [
+      ...socialLinks.map((s) => s.url),
+      ...additionalSameAs.org,
+    ],
   };
 }
 
@@ -321,7 +332,52 @@ export function professionalServiceSchema() {
     },
     priceRange: "$$",
     founder: { "@id": PERSON_ID },
-    sameAs: socialLinks.map((s) => s.url),
+    sameAs: [
+      ...socialLinks.map((s) => s.url),
+      ...additionalSameAs.org,
+    ],
+  };
+}
+
+/**
+ * CollectionPage + ItemList schema for hub pages like /guides, /tools,
+ * /resources. Pass the items the page actually links to. Google treats
+ * ItemList as a strong topical-cluster signal; pointing 6 placeholder
+ * items at the same URL gets flagged as low-quality, so callers should
+ * pass real distinct itemUrls.
+ */
+export type CollectionItem = {
+  name: string;
+  itemUrl: string;
+  description?: string;
+};
+
+export function collectionPageSchema(args: {
+  name: string;
+  description: string;
+  pageUrl: string;
+  items: CollectionItem[];
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: args.name,
+    description: args.description,
+    url: args.pageUrl,
+    isPartOf: { "@id": ORG_ID },
+    publisher: { "@id": ORG_ID },
+    inLanguage: "en-US",
+    mainEntity: {
+      "@type": "ItemList",
+      numberOfItems: args.items.length,
+      itemListElement: args.items.map((it, i) => ({
+        "@type": "ListItem",
+        position: i + 1,
+        name: it.name,
+        url: it.itemUrl,
+        ...(it.description ? { description: it.description } : {}),
+      })),
+    },
   };
 }
 
