@@ -47,7 +47,7 @@ export function SiteFooter() {
         <div className="grid gap-10 md:grid-cols-4">
           <div>
             <Image
-              src="/logo/riggins_logo_horizontal.png"
+              src="/brand/logo-horizontal.png"
               alt="Riggins Strategic Solutions"
               width={220}
               height={48}

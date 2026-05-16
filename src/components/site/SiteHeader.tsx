@@ -26,7 +26,7 @@ export function SiteHeader() {
         <div className="flex h-16 items-center justify-between">
           <Link href="/" aria-label="Riggins Strategic Solutions home" className="flex items-center">
             <Image
-              src="/logo/riggins_logo_horizontal.png"
+              src="/brand/logo-horizontal.png"
               alt="Riggins Strategic Solutions"
               width={240}
               height={52}

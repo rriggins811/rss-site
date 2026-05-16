@@ -284,6 +284,75 @@ export default function AboutPage() {
         </div>
       </section>
 
+      {/* CLIENT TESTIMONIALS — visible render of the same RYAN_REVIEWS
+          array that powers the Review JSON-LD schema mounted at the top
+          of this page. Single source of truth so the schema-must-match-
+          visible-content rule is enforced structurally. Mounts only when
+          there's at least one real review to show. */}
+      {RYAN_REVIEWS.length > 0 && (
+        <section className="bg-cream border-y border-border">
+          <div className="mx-auto max-w-4xl px-6 py-20">
+            <GoldRule />
+            <h2 className="mt-3">What clients say.</h2>
+            <p className="mt-4 text-ink/70 text-base max-w-2xl">
+              Real reviews from real families. We don&rsquo;t solicit them — these
+              come in unprompted when the work lands.
+            </p>
+            <ul
+              className={
+                "mt-12 grid gap-6 " +
+                (RYAN_REVIEWS.length === 1
+                  ? "max-w-2xl mx-auto"
+                  : "md:grid-cols-2")
+              }
+            >
+              {RYAN_REVIEWS.map((r) => (
+                <li key={`${r.authorName}-${r.datePublished}`}>
+                  <Card className="bg-white h-full">
+                    <CardContent className="pt-6 flex flex-col h-full">
+                      {/* Star rating — visible match for the Rating in the
+                          Review JSON-LD. Filled gold star for each
+                          ratingValue point. */}
+                      <div
+                        aria-label={`${r.ratingValue} out of 5 stars`}
+                        className="flex gap-1 text-gold-500"
+                      >
+                        {Array.from({ length: 5 }).map((_, i) => (
+                          <span
+                            key={i}
+                            aria-hidden
+                            className={
+                              i < r.ratingValue ? "text-gold-500" : "text-ink/15"
+                            }
+                          >
+                            ★
+                          </span>
+                        ))}
+                      </div>
+                      {/* Verbatim review body (italic). Must match the
+                          reviewBody field in the JSON-LD exactly — do not
+                          paraphrase or truncate. */}
+                      <blockquote className="mt-5 font-serif text-lg text-ink/90 leading-relaxed italic">
+                        &ldquo;{r.reviewBody}&rdquo;
+                      </blockquote>
+                      <div className="mt-6 pt-5 border-t border-border text-sm text-ink/70">
+                        <p className="font-semibold text-navy-700 not-italic">
+                          {r.authorName}
+                        </p>
+                        <p className="mt-1">
+                          {formatReviewDate(r.datePublished)}
+                          {r.publisher ? ` · via ${r.publisher}` : ""}
+                        </p>
+                      </div>
+                    </CardContent>
+                  </Card>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </section>
+      )}
+
       {/* CTA */}
       <section className="bg-navy-600 text-cream">
         <div className="mx-auto max-w-4xl px-6 py-20 text-center">
@@ -300,4 +369,23 @@ export default function AboutPage() {
       </section>
     </main>
   );
+}
+
+/**
+ * Format a review's datePublished ("2026-02-14" or "2026") to a human
+ * "February 2026" / "2026" string for visible display. The schema keeps
+ * the ISO format; this is just for the rendered card.
+ */
+function formatReviewDate(iso: string): string {
+  // Year-only form ("2026"). Just return it.
+  if (/^\d{4}$/.test(iso)) return iso;
+  // Full ISO date — format as "Month Year". Use UTC parsing to avoid TZ
+  // edge cases that shift the displayed month.
+  const d = new Date(iso + "T00:00:00Z");
+  if (Number.isNaN(d.getTime())) return iso;
+  return d.toLocaleDateString("en-US", {
+    month: "long",
+    year: "numeric",
+    timeZone: "UTC",
+  });
 }
