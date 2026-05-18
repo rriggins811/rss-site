@@ -59,6 +59,13 @@ export const CLUSTERS: Cluster[] = [
       { type: "blog", slug: "quitclaim-deed-fraud-protect-parents-home" },
       { type: "blog", slug: "they-stole-the-house-while-the-family-was-grieving" },
       { type: "blog", slug: "how-a-1-8-million-estate-got-stolen-with-a-signature" },
+      // Post's frontmatter declares pillar_cluster: selling-parents-home —
+      // wired here so <RelatedReading> + mentions[] schema pick it up
+      // alongside the other cluster members.
+      {
+        type: "blog",
+        slug: "boomer-sellers-55-percent-net-proceeds-math-2026",
+      },
     ],
   },
   {

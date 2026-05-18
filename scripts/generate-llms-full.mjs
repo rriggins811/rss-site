@@ -169,8 +169,15 @@ function getAllPosts() {
       const slug = file.replace(/\.mdx$/, "");
       const raw = fs.readFileSync(path.join(BLOG_DIR, file), "utf8");
       const { data, content } = matter(raw);
+      // Defensive coerce — unquoted YAML dates parse as Date objects,
+      // not strings, and break the `.localeCompare` sort below. Quoting
+      // the date in frontmatter (e.g. `date: "2026-05-18"`) is the right
+      // pattern; this coerce protects the build if someone forgets.
+      const rawDate = data.datePublished ?? data.date ?? "1970-01-01";
       const datePublished =
-        data.datePublished ?? data.date ?? "1970-01-01";
+        rawDate instanceof Date
+          ? rawDate.toISOString().slice(0, 10)
+          : String(rawDate);
       return {
         slug,
         title: data.title ?? slug,
