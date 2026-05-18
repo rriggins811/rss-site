@@ -89,33 +89,47 @@ export type ParsedNewsletter = {
 // extracts each block. Tolerant of minor formatting variation (heading
 // suffix text in parens, blank lines, different bullet markers).
 // ---------------------------------------------------------------------------
-export function parseNewsletterMarkdown(md: string): ParsedNewsletter {
+export function parseNewsletterMarkdown(rawMd: string): ParsedNewsletter {
+  // Append a sentinel heading so every section's regex lookahead has a
+  // guaranteed terminator. JS regex doesn't treat \Z as end-of-string
+  // (only \z in PCRE/Python does); when combined with the `i` flag, a
+  // literal `\Z` matches lowercase `z` and truncates body text at the
+  // first such char. Sentinel approach is robust regardless of body
+  // content + works without per-section special cases.
+  const md = rawMd + "\n## __END_SENTINEL__\n";
+
   const grab = (heading: RegExp): string => {
     const match = md.match(heading);
     if (!match) throw new Error(`Newsletter parse failed: missing ${heading}`);
     return match[1].trim();
   };
 
-  // Each section is bounded by the next `## ` heading or end-of-file.
-  // Capture group is everything BETWEEN the heading and the next heading.
+  // Each section is bounded by the next `## ` heading (sentinel
+  // guarantees there's always one). Capture group is everything BETWEEN
+  // the heading and the next heading.
   const sectionRe = (label: string) =>
     new RegExp(
-      `^## ${label}[^\\n]*\\n([\\s\\S]*?)(?=^## |\\Z)`,
+      `^## ${label}[^\\n]*\\n([\\s\\S]*?)(?=^## )`,
       "im"
     );
 
-  const subject = grab(sectionRe("SUBJECT LINE"));
-  const preheader = grab(sectionRe("PREHEADER"));
+  // Strip trailing `---` horizontal-rule separators that sit between
+  // sections in the .md. The section regex captures up to the next
+  // `## ` heading, so the `\n\n---\n\n` separator lands in the body.
+  const trimTail = (s: string): string =>
+    s.replace(/\n\s*-{3,}\s*$/m, "").trim();
+  const subject = trimTail(grab(sectionRe("SUBJECT LINE")));
+  const preheader = trimTail(grab(sectionRe("PREHEADER")));
 
   // Nugget — paragraphs separated by blank lines.
-  const nuggetBlock = grab(sectionRe("SECTION 1"));
+  const nuggetBlock = trimTail(grab(sectionRe("SECTION 1")));
   const nuggetParagraphs = nuggetBlock
     .split(/\n\s*\n/)
     .map((p) => p.trim())
     .filter(Boolean);
 
   // Highlights — lines starting with `- ` then `**Topic.**` then body text.
-  const highlightsBlock = grab(sectionRe("SECTION 2"));
+  const highlightsBlock = trimTail(grab(sectionRe("SECTION 2")));
   const highlights: ParsedNewsletter["highlights"] = [];
   for (const rawLine of highlightsBlock.split(/\n(?=- )/)) {
     const line = rawLine.trim();
@@ -151,11 +165,11 @@ export function parseNewsletterMarkdown(md: string): ParsedNewsletter {
   const moduleHeaderRe = /## SECTION 3[^\n]*\(([^)]+)\)/im;
   const weekLabel =
     md.match(moduleHeaderRe)?.[1]?.trim() ?? "This week";
-  const moduleBlock = grab(sectionRe("SECTION 3"));
+  const moduleBlock = trimTail(grab(sectionRe("SECTION 3")));
   const moduleParsed = parseSpotlight(moduleBlock);
 
   // Feature spotlight (Section 4). Same shape minus the week label.
-  const featureBlock = grab(sectionRe("SECTION 4"));
+  const featureBlock = trimTail(grab(sectionRe("SECTION 4")));
   const featureParsed = parseSpotlight(featureBlock);
 
   // Sign-off (everything between `## SIGN-OFF` and the next `---` or `## FOOTER`).
