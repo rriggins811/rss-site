@@ -18,8 +18,10 @@ import {
 import {
   articleSchemaFromPost,
   breadcrumbListSchema,
+  faqPageSchema,
   howToSchemaFromPost,
 } from "@/lib/schema";
+import { abs } from "@/lib/site";
 import { RelatedReading } from "@/components/site/RelatedReading";
 
 type RouteParams = { slug: string };
@@ -95,10 +97,26 @@ export default async function BlogPostPage({
       )
     : articleSchemaFromPost(post);
 
+  // Optional secondary FAQPage schema. Emitted only when frontmatter
+  // declares `faqs` and the body actually renders matching Q&A markdown
+  // (Google's schema-must-match-visible rule). Faqs[] in frontmatter is
+  // the source of truth; renderers can mirror them visibly via markdown
+  // (current pattern for migrated posts) or a future <FAQSection> mount.
+  const hasFaqs =
+    Array.isArray(post.frontmatter.faqs) &&
+    post.frontmatter.faqs.length > 0;
+  const faqSchema = hasFaqs
+    ? faqPageSchema(
+        post.frontmatter.faqs!.map((f) => ({ q: f.question, a: f.answer })),
+        abs(`/blog/${slug}`)
+      )
+    : null;
+
   return (
     <main>
       <JsonLd data={primarySchema} />
       <JsonLd data={breadcrumbs} />
+      {faqSchema ? <JsonLd data={faqSchema} /> : null}
       <ScrollTracker event="blog_scroll_75" params={{ slug }} />
 
       {/* HEADER */}

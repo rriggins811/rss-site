@@ -4,8 +4,8 @@ This file is the long-form companion to https://rigginsstrategicsolutions.com/ll
 It contains the full Markdown of every key page and every blog post, intended
 for AI crawlers that ingest content for answer generation.
 
-Generated: 2026-05-16
-Total blog posts indexed: 20
+Generated: 2026-05-18
+Total blog posts indexed: 21
 
 For citation guidance, organizational facts, and topic depth, see the summary
 index at https://rigginsstrategicsolutions.com/llms.txt.
@@ -145,8 +145,153 @@ Inputs: parent's current Medicare plan (Original, Advantage, with/without supple
 
 # Blog Posts (newest first)
 
-The 20 posts below are the full body of every published article
+The 21 posts below are the full body of every published article
 on https://rigginsstrategicsolutions.com/blog, in reverse chronological order.
+
+---
+
+# Boomers Are 55% Of Every Home Seller. The Math Hasn't Caught Up.
+https://rigginsstrategicsolutions.com/blog/boomer-sellers-55-percent-net-proceeds-math-2026
+Published: 2026-05-18
+
+**Excerpt:** Baby boomers are now 55 percent of every U.S. home seller. First-time buyers fell to a record low. Most senior sellers haven't run real numbers in 15 years. Here's the net proceeds math families miss before listing the family home.
+
+When I was buying houses from senior families, the easiest deals always started the same way.
+
+A long-tenure seller, usually in their 70s, sometimes recently widowed, almost always with adult kids living somewhere else. Mom or Dad had been in the house since the Carter or Reagan administration. They hadn't moved, hadn't refinanced, hadn't been in a real estate transaction since the kids were in middle school. The math they had in their head was 1995 math. We were making 2018 offers using 2018 information. The gap was the deal.
+
+I switched sides three years ago. I now help families avoid the kind of transactions I used to profit from. And last week, the National Association of Realtors released April data that put a hard number on what cash buyers have known for a decade.
+
+## The news: a 1981-style buyer shift, and boomers own the seller side
+
+The NAR Existing-Home Sales Report dropped on May 11, 2026. Headline number: 0.2 percent rise in April existing-home sales. That's not the story. The story is two other numbers from NAR's research that came out around the same week.
+
+Baby boomers, ages 61 to 79, are now **55 percent of every U.S. home seller in 2026**. That's the largest single generational share NAR has measured.
+
+First-time buyers fell to **21 percent of buyers** in the same period. That's the **lowest share since 1981**, when Ronald Reagan was three months into his first term.
+
+The third number, buried in NAR's 2026 Home Buyers and Sellers Generational Trends Report: the **median home tenure for sellers age 71 to 79 is 15 years**. Most senior sellers haven't been in a real estate transaction since the year the iPad came out.
+
+Source: NAR's "Existing-Home Sales Report Shows 0.2% Increase in April" press release, May 11, 2026, plus the 2026 Generational Trends Report.
+
+## What this means for families helping aging parents sell
+
+I'll spare you the macroeconomic essay. Here's what matters at the kitchen table.
+
+### The buyer pool has shifted
+
+Fewer first-time buyers means less competition on entry-level homes. That sounds neutral. It isn't, because the gap is being filled by repeat buyers and investors.
+
+The repeat buyers are fine. They've done this before, they understand inspector findings, they expect prep credits.
+
+The investor flow is mixed. Some are reputable buy-and-hold landlords looking for senior-friendly properties. Some are "we buy houses" cash buyers using scripts written specifically to exploit the knowledge gap a 15-year-tenured senior seller walks in with. The postcards have gotten worse. The phone calls have gotten worse. AARP and state AGs have flagged the trend repeatedly in 2025 and 2026.
+
+### The math has shifted underneath the family's feet
+
+A senior seller who last sold a house in 2011 has a mental model built around 2011 numbers. Here's what's different in 2026.
+
+**Commissions are flexible in a way they weren't.** The Tuccori settlement and related cases through 2024 and 2025 changed buyer-broker commission rules. The 5-6 percent default is still common, but it is now negotiable in ways it wasn't 15 years ago.
+
+**Repair credit expectations have roughly doubled.** Inspectors find more, document more, and buyers expect bigger credits or pre-list repairs. On a senior-occupied home (older systems, deferred maintenance) this is the line item that surprises the family the most.
+
+**Capital gains exclusion has stayed frozen.** IRC Section 121 caps the primary-residence capital gains exclusion at **$250,000 single / $500,000 married**. That cap was set by the Taxpayer Relief Act of 1997 and has not been adjusted for inflation in 29 years. Home values in most U.S. markets have more than doubled since then. Long-tenure senior sellers regularly run into capital gains exposure they didn't know existed. AEI and the Tax Policy Center have both documented this lock-in effect on senior homeowners.
+
+**Dual mortgage carry burns cash.** If the parents need to be in the next place before the current house sells, there is bridge financing or short-term carry. That number rarely gets put on the napkin until it shows up on the closing statement.
+
+**Transfer fees, title insurance, property tax proration, deed recording.** Each is a few thousand dollars. Together they're $5K to $10K on a $350K sale.
+
+### A real example: $350K sale, real walk-away
+
+Let's run the math on a $350,000 family home in May 2026. NC numbers, but the framework applies anywhere.
+
+Sale price: $350,000
+
+Subtract commission at 5.5%: -$19,250
+Subtract pre-list repair and prep credits (senior-occupied home average): -$11,000
+Subtract remaining mortgage payoff (varies, assume $40,000): -$40,000
+Subtract capital gains exposure on gain above $250K single exclusion (assume original basis $80K + $30K improvements + $250K exclusion buffer; taxable gain ~$10K × 15% federal long-term rate): -$1,500
+Subtract movers, storage, temporary housing during transition: -$6,000
+Subtract dual mortgage carry (4 months at $1,800): -$7,200
+Subtract title insurance, transfer fees, property tax proration, deed recording: -$5,500
+
+**Walk-away to the family: ~$259,550**
+
+The family thought they were netting $310,000 (sale price minus payoff). The actual walk-away is $50,000 below that. The gap is the line items the listing conversation never covers.
+
+## Step-by-step: what to do before any sign goes in the yard
+
+### Step 1: Run real net proceeds math
+
+Not the agent's casual estimate. Not the cash buyer's "as-is" number. A line-by-line walk-through using current 2026 commission rates, real prep credit averages for senior-occupied homes, actual capital gains exposure based on the parents' basis and improvements, and a realistic bridge or carry estimate.
+
+The free [Net Proceeds Calculator](https://rigginsstrategicsolutions.com/tools/net-proceeds-calculator) does this in two minutes. No email gate.
+
+### Step 2: Pull all 5 exit paths
+
+Cash-buyer postcards push families straight to option 5. There are 5.
+
+1. Traditional listing with a senior-specialist agent
+2. Subject-to (Sub2), where a qualified buyer takes over the existing mortgage
+3. Owner financing, where the family becomes the bank
+4. Lease option, where a buyer rents with an option to purchase and a portion of rent counts as credit
+5. As-is cash sale to an investor
+
+Each has tradeoffs. The math on options 1 through 4 is almost always better when the family has time. The free [Strategic Exit Engine](https://rigginsstrategicsolutions.com/tools/strategic-exit-engine) walks the family through all five.
+
+### Step 3: Get an independent read
+
+Not the cash buyer. Not the agent who wants the listing. A neutral broker (or a Blueprint walkthrough) that gives the family every option in front of them before pen hits paper. RSS has zero financial interest in which direction the family goes. We sell information and tools. That is it.
+
+### Step 4: Document everything
+
+Estimates. Inspection reports. Buyer offers. Counteroffers. Repair credits. Postcard mailings. Email chains. If something later goes sideways (predatory cash buyer, undisclosed wholesaler, undisclosed lien from a prior owner), the family's paper trail is the case.
+
+### Step 5: Verify any third-party caller
+
+If a "we buy houses" caller pushes for an in-person meeting, slow down. Ask for the LLC name, the state of registration, and check Secretary of State records. Ask if they are wholesaling (assigning the contract) or buying for personal ownership. In states with wholesaler disclosure laws now in effect (Ohio, Maryland, North Carolina, and others), they are legally required to tell you.
+
+## Frequently Asked Questions
+
+### Why are boomers selling at higher rates now if they say they'll never move?
+A Redfin survey earlier this year found 1 in 3 boomer homeowners say they'll never sell. That's a stated preference. The NAR data measures actual transactions. The gap is real-world triggers: a health event, the death of a spouse, kids buying parents a place near them, financial pressure. Stated intentions and actual transitions diverge.
+
+### Is the 5-6% commission still standard in 2026?
+Five to six percent is still the most common range, but it's negotiable in a way it wasn't pre-2024. The Tuccori settlement and related cases changed buyer-broker commission rules. A family willing to negotiate or use a flat-fee structure can save $5K to $15K on a typical senior-transition sale.
+
+### Do my parents owe capital gains tax when they sell?
+Maybe. The IRC Section 121 exclusion is $250,000 single / $500,000 married, applied to the gain (sale price minus basis minus improvements minus selling costs). If the gain exceeds that, the excess is taxed at federal long-term capital gains rates plus any state tax. This cap hasn't moved since 1997. Long-tenure senior sellers in appreciating markets regularly hit it. Consult a CPA before listing.
+
+### What's a wholesaler and why does this matter?
+A wholesaler is someone who signs a contract to buy a property and then assigns that contract to a third-party investor for a fee. They typically don't intend to own the house themselves. Several states now require wholesalers to disclose this in writing before contract. If a "cash buyer" can't or won't answer whether they're wholesaling, that's the answer.
+
+### What's the Net Proceeds Calculator and how is it different from Zillow's estimate?
+Zillow's estimate is a sale-price guess. The Net Proceeds Calculator gives you the family's actual walk-away after commissions, prep credits, capital gains exposure, dual mortgage carry, and closing costs. It's free, takes 2 minutes, doesn't require an email address, and is built specifically for senior transition sales.
+
+---
+
+**Free Net Proceeds Calculator (topic-matched lead):** Two minutes, real numbers, no email gate: rigginsstrategicsolutions.com/tools/net-proceeds-calculator
+
+**Want a step-by-step guide?** The free Simple Blueprint walks through every stage of a senior transition: rigginsstrategicsolutions.com/freeguide
+
+**Ready for the full system?** Senior Transition Blueprint Core, 19 modules and 60+ tools: rigginsstrategicsolutions.com/the-blueprint
+
+**Need a personalized plan?** Blueprint Premium adds a 60-min call and 90 days of email support: rigginsstrategicsolutions.com/blueprint-premium
+
+**Coordinate your family in one place.** SeniorSafe app (web, iPhone, Android): app.seniorsafeapp.com
+
+**Talk it through.** Book a free 20-min call with Ryan: rigginsstrategicsolutions.com/work-with-ryan
+
+### Get the SeniorSafe App
+
+[Download on the App Store](https://apps.apple.com/us/app/seniorsafe-app/id6761343239)
+
+[Get it on Google Play](https://play.google.com/store/apps/details?id=com.rigginsstrategicsolutions.seniorsafe)
+
+## About Ryan Riggins
+
+Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafe app](https://seniorsafeapp.com).
+
+Ryan Riggins is the founder of Riggins Strategic Solutions, a consumer protection company for families navigating senior transitions. He spent 8 years in construction project management and house flipping before switching sides. Two books on Amazon. Free resources at rigginsstrategicsolutions.com.
 
 ---
 

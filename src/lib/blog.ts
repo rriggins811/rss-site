@@ -40,6 +40,15 @@ export type BlogFrontmatter = {
   howToSteps?: HowToStep[];
   /** Optional total time for HowTo, ISO-8601 duration (e.g. "PT72H"). */
   totalTime?: string;
+  /**
+   * Optional FAQ array. When present + non-empty, blog/[slug] emits a
+   * FAQPage JSON-LD alongside the primary Article/HowTo schema. Question
+   * + answer text MUST match the visible Q&A rendered in the post body
+   * verbatim (Google's "schema must match visible content" rule). For new
+   * posts authoring fresh FAQs, mirror them in the markdown body so
+   * visitors see the same Q&A the schema declares.
+   */
+  faqs?: { question: string; answer: string }[];
 };
 
 export type BlogPost = {
