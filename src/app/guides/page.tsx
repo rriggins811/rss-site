@@ -49,14 +49,17 @@ export const metadata: Metadata = {
 // when the guide goes live.
 //
 // As real magnets ship, REMOVE the thematically-matching placeholder
-// from this list (current example: "wholesaler and cash-buyer red flags"
-// was removed when Cash Buyer Beware shipped May 18).
+// from this list. Removed so far:
+//   - "wholesaler and cash-buyer red flags" → Cash Buyer Beware (May 18)
+//   - "adult children weighing aging-in-place vs assisted living" →
+//     Aging in Place vs Assisted Living (May 18)
+//   - "families navigating a parent's sudden hospitalization" →
+//     When Mom Falls at 2 AM Crisis Playbook (May 18)
 const PLACEHOLDER_GUIDES: { title: string; audience: string }[] = [
-  { title: "Guide 2 — Coming Soon", audience: "adult children weighing aging-in-place vs assisted living" },
-  { title: "Guide 3 — Coming Soon", audience: "families starting a parent's home sale" },
-  { title: "Guide 4 — Coming Soon", audience: "the sandwich generation managing burnout" },
-  { title: "Guide 5 — Coming Soon", audience: "families navigating Medicare coverage gaps" },
-  { title: "Guide 6 — Coming Soon", audience: "siblings coordinating a parent's care from out of state" },
+  { title: "Guide 4 — Coming Soon", audience: "families starting a parent's home sale" },
+  { title: "Guide 5 — Coming Soon", audience: "the sandwich generation managing burnout" },
+  { title: "Guide 6 — Coming Soon", audience: "families navigating Medicare coverage gaps" },
+  { title: "Guide 7 — Coming Soon", audience: "siblings coordinating a parent's care from out of state" },
 ];
 
 // The 3 SEO-optimized free tools we want to surface alongside the guides

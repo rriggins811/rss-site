@@ -83,6 +83,42 @@ export const LEAD_MAGNETS: LeadMagnet[] = [
       "cash-buyer-beware",
     ],
   },
+  {
+    slug: "when-mom-falls-crisis-playbook",
+    title: "When Mom Falls at 2 AM",
+    subtitle:
+      "The First 30 Minutes (and the 30 Mistakes Most Families Make)",
+    description:
+      "A 17-page crisis playbook. The exact sequence when the 2 AM call comes — 911 first, observation vs admitted, decisions to defer, family meeting structure, and the 5 mistakes that cost families $50K. Plus a pre-crisis prep guide.",
+    pageCount: 17,
+    pdfPath: "/downloads/when-mom-falls-crisis-playbook.pdf",
+    publishedDate: "2026-05-18",
+    // Per May-18 user decision: match Cash Buyer Beware tag pattern so
+    // these signups enter the same Free Guide Trial Nurture workflow
+    // and inherit the universal `meta-lead` paid-traffic tag.
+    ghlTags: [
+      "meta-lead",
+      "freeguide",
+      "lead-source-rss-guides",
+      "when-mom-falls-crisis-playbook",
+    ],
+  },
+  {
+    slug: "aging-in-place-vs-assisted-living",
+    title: "Aging in Place vs Assisted Living",
+    subtitle: "The Honest Math (and 5 Questions That Actually Decide)",
+    description:
+      "A 17-page decision guide with real 5-year cost math for both options, the 5 questions that determine if aging in place is viable, 6 hybrid housing options most families never consider, and a decoder for what Mom says vs what Mom means.",
+    pageCount: 17,
+    pdfPath: "/downloads/aging-in-place-vs-assisted-living.pdf",
+    publishedDate: "2026-05-18",
+    ghlTags: [
+      "meta-lead",
+      "freeguide",
+      "lead-source-rss-guides",
+      "aging-in-place-vs-assisted-living",
+    ],
+  },
   // Future magnets: append here. /guides hub will auto-render them in
   // source-of-truth order. No component edits required.
   //
