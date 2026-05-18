@@ -4,6 +4,8 @@ import { getServiceSupabase } from "@/lib/supabase-server";
 import { checkAndRecordRateLimit, getClientIp } from "@/lib/rate-limit";
 import { GHL_WEBHOOKS, postToGhl } from "@/lib/ghl-webhooks";
 import { upsertGhlContactWithTags, GHL_TAGS } from "@/lib/ghl-proxy";
+import { getLeadMagnet, magnetAbsoluteUrl } from "@/lib/lead-magnets";
+import { sendLeadMagnetEmail } from "@/lib/email/lead-magnets";
 
 export const runtime = "nodejs";
 
@@ -103,6 +105,26 @@ export async function POST(req: Request) {
   const body = raw as Record<string, unknown>;
   const source = typeof body.source === "string" ? body.source : "website-freeguide";
 
+  // Lead-magnet branch detection. When body.magnet is a known LEAD_MAGNETS
+  // slug, this is a NON-Blueprint-signup lead capture (just contact info
+  // + PDF delivery). Skips postToBlueprint + the legacy starter-guide GHL
+  // webhook, swaps in the magnet-specific GHL tag set, fires Resend email
+  // with the PDF link. When body.magnet is undefined or "starter-guide",
+  // behavior is unchanged from the original starter-guide flow.
+  const requestedMagnetSlug =
+    typeof body.magnet === "string" && body.magnet !== "starter-guide"
+      ? body.magnet
+      : null;
+  const magnet = requestedMagnetSlug ? getLeadMagnet(requestedMagnetSlug) : null;
+  if (requestedMagnetSlug && !magnet) {
+    // Unknown magnet slug — reject so we don't silently mishandle.
+    return NextResponse.json(
+      { ok: false, error: `Unknown magnet: ${requestedMagnetSlug}` },
+      { status: 400 }
+    );
+  }
+  const isLeadMagnetFlow = magnet !== null;
+
   // UTM / ad attribution captured client-side from URL params + referrer at
   // /freeguide page load (see StarterGuideForm useEffect). Defensively keep
   // only string values, drop everything else (no XSS surface — this never
@@ -145,7 +167,10 @@ export async function POST(req: Request) {
   // when querying raw_payload->>'attribution'.
   const sb = getServiceSupabase();
   const { error: insertErr } = await sb.from("leads").insert({
-    form_type: "starter-guide",
+    // form_type distinguishes "starter-guide" (Blueprint signup flow) from
+    // "lead-magnet-<slug>" (PDF-only capture). Same leads table, different
+    // downstream nurture sequences depending on form_type.
+    form_type: isLeadMagnetFlow ? `lead-magnet-${magnet!.slug}` : "starter-guide",
     email: lead.email,
     first_name: lead.first_name,
     last_name: lead.last_name,
@@ -156,70 +181,159 @@ export async function POST(req: Request) {
       ...ghlPayload,
       ip,
       ...(attribution ? { attribution } : {}),
+      ...(magnet ? { magnet: magnet.slug } : {}),
     },
   });
   if (insertErr) {
-    console.error("[starter-guide] supabase insert failed", insertErr);
+    console.error(
+      `[${isLeadMagnetFlow ? "lead-magnet" : "starter-guide"}] supabase insert failed`,
+      insertErr
+    );
   }
 
-  // Fan out to Blueprint (primary), legacy GHL inbound webhook (redundancy
-  // during the May-15 ghl-proxy migration), and the new ghl-proxy direct
-  // API call in parallel. Promise.allSettled so one failure never blocks
-  // the others.
+  // Branch fan-out based on whether this is a Blueprint starter-guide
+  // signup (full auth-user creation + Kit + Twilio + magic link flow) or
+  // a simpler PDF lead-magnet capture (contact + tag + PDF email only).
   //
-  // The ghl-proxy call is the future-state path per memory/sop_ghl_operations.md
-  // — it goes through the Supabase Edge Function that holds GHL_PIT_TOKEN
-  // in Edge Function secrets (vs the legacy webhook URL which bypasses
-  // the proxy entirely). After 1-2 successful signups confirm the proxy
-  // path is landing tags correctly in GHL, we drop the legacy webhook fan-out.
-  const [blueprintRes, ghlWebhookRes, ghlProxyRes] = await Promise.allSettled([
-    postToBlueprint(blueprintPayload),
-    postToGhl(GHL_WEBHOOKS.starterGuide, ghlPayload),
-    upsertGhlContactWithTags(
-      {
-        email: lead.email,
+  // Lead-magnet branch is intentionally NARROWER: no Blueprint signup
+  // (the user didn't sign up for a course), no Kit fan-out (Kit is in
+  // teardown per the May-15 GHL pivot — Phase 6 still gated on Monday),
+  // and uses the magnet's own GHL tag set so downstream nurture
+  // workflows can segment per magnet.
+  //
+  // Each result variable is typed by inference from its source helper —
+  // a single unified shape would require either an awkward common
+  // discriminated union or `unknown`, both worse than per-branch infer.
+
+  type ProxyResult = Awaited<ReturnType<typeof upsertGhlContactWithTags>>;
+  type EmailResult = Awaited<ReturnType<typeof sendLeadMagnetEmail>>;
+  type BlueprintResult = Awaited<ReturnType<typeof postToBlueprint>>;
+  type WebhookResult = Awaited<ReturnType<typeof postToGhl>>;
+
+  let blueprintRes: PromiseSettledResult<BlueprintResult> | null = null;
+  let ghlWebhookRes: PromiseSettledResult<WebhookResult> | null = null;
+  let ghlProxyRes: PromiseSettledResult<ProxyResult>;
+  let emailRes: PromiseSettledResult<EmailResult> | null = null;
+
+  if (isLeadMagnetFlow) {
+    // PDF lead-magnet flow: ghl-proxy with magnet-specific tags + Resend
+    // delivery email. Best-effort, fire-and-forget Promise.allSettled.
+    const [proxyResult, emailResult] = await Promise.allSettled([
+      upsertGhlContactWithTags(
+        {
+          email: lead.email,
+          firstName: lead.first_name,
+          lastName: lead.last_name,
+          phone: lead.phone,
+          source,
+        },
+        magnet!.ghlTags
+      ),
+      sendLeadMagnetEmail({
+        to: lead.email,
         firstName: lead.first_name,
-        lastName: lead.last_name,
-        phone: lead.phone,
-        source,
-      },
-      [GHL_TAGS.LEAD_STARTER_GUIDE]
-    ),
-  ]);
+        magnet: magnet!,
+      }),
+    ]);
+    ghlProxyRes = proxyResult;
+    emailRes = emailResult;
+  } else {
+    // Original starter-guide flow — full Blueprint signup fan-out.
+    // ghl-proxy is the future-state GHL write path per
+    // memory/sop_ghl_operations.md; legacy webhook stays in parallel
+    // during the May-15 migration verification window.
+    const [bpResult, ghlWebhookResult, ghlProxyResult] =
+      await Promise.allSettled([
+        postToBlueprint(blueprintPayload),
+        postToGhl(GHL_WEBHOOKS.starterGuide, ghlPayload),
+        upsertGhlContactWithTags(
+          {
+            email: lead.email,
+            firstName: lead.first_name,
+            lastName: lead.last_name,
+            phone: lead.phone,
+            source,
+          },
+          [GHL_TAGS.LEAD_STARTER_GUIDE]
+        ),
+      ]);
+    blueprintRes = bpResult;
+    ghlWebhookRes = ghlWebhookResult;
+    ghlProxyRes = ghlProxyResult;
+  }
+
+  // Log prefix differs per flow so Vercel grep separates the two cleanly.
+  const logPrefix = isLeadMagnetFlow
+    ? `lead-magnet:${magnet!.slug}`
+    : "starter-guide";
 
   if (
-    blueprintRes.status === "rejected" ||
-    (blueprintRes.status === "fulfilled" && !blueprintRes.value.ok)
+    blueprintRes &&
+    (blueprintRes.status === "rejected" ||
+      (blueprintRes.status === "fulfilled" && !blueprintRes.value.ok))
   ) {
     const detail =
       blueprintRes.status === "fulfilled"
         ? `status=${blueprintRes.value.status} error=${blueprintRes.value.error ?? ""}`
         : `rejected=${String(blueprintRes.reason)}`;
-    console.error(`[starter-guide] Blueprint POST failed ${detail}`);
+    console.error(`[${logPrefix}] Blueprint POST failed ${detail}`);
   }
   if (
-    ghlWebhookRes.status === "rejected" ||
-    (ghlWebhookRes.status === "fulfilled" && !ghlWebhookRes.value.ok)
+    ghlWebhookRes &&
+    (ghlWebhookRes.status === "rejected" ||
+      (ghlWebhookRes.status === "fulfilled" && !ghlWebhookRes.value.ok))
   ) {
     const detail =
       ghlWebhookRes.status === "fulfilled"
         ? `status=${ghlWebhookRes.value.status} error=${ghlWebhookRes.value.error ?? ""}`
         : `rejected=${String(ghlWebhookRes.reason)}`;
-    console.error(`[starter-guide] GHL legacy webhook POST failed ${detail}`);
+    console.error(`[${logPrefix}] GHL legacy webhook POST failed ${detail}`);
+  }
+  if (emailRes) {
+    if (emailRes.status === "rejected") {
+      console.error(
+        `[${logPrefix}] resend email rejected=${String(emailRes.reason)}`
+      );
+    } else if (!emailRes.value.ok) {
+      console.warn(
+        `[${logPrefix}] resend email skipped/failed reason=${emailRes.value.reason}`
+      );
+    } else {
+      console.info(
+        `[${logPrefix}] resend email ok id=${emailRes.value.id ?? "?"}`
+      );
+    }
   }
   if (ghlProxyRes.status === "rejected") {
     console.error(
-      `[starter-guide] ghl-proxy upsert+tag rejected=${String(ghlProxyRes.reason)}`
+      `[${logPrefix}] ghl-proxy upsert+tag rejected=${String(ghlProxyRes.reason)}`
     );
   } else if (!ghlProxyRes.value.ok) {
     console.error(
-      `[starter-guide] ghl-proxy upsert+tag failed status=${ghlProxyRes.value.status} error=${ghlProxyRes.value.error}`
+      `[${logPrefix}] ghl-proxy upsert+tag failed status=${ghlProxyRes.value.status} error=${ghlProxyRes.value.error}`
     );
   } else {
     // Success path — log contactId so we can correlate with GHL UI when
     // verifying. Drop this log line after Phase 5 verification.
     console.info(
-      `[starter-guide] ghl-proxy upsert+tag ok contactId=${ghlProxyRes.value.contactId}`
+      `[${logPrefix}] ghl-proxy upsert+tag ok contactId=${ghlProxyRes.value.contactId}`
+    );
+  }
+
+  // Lead-magnet flow returns a magnet-specific success payload so the
+  // form can surface the canonical PDF URL on the "Download Now" button.
+  // (The client form already has magnet.pdfPath from the registry, but
+  // returning the absolute URL here means future surfaces — e.g. an
+  // external embed — don't need their own registry lookup.)
+  if (isLeadMagnetFlow) {
+    return NextResponse.json(
+      {
+        ok: true,
+        message: "Check your inbox in the next minute.",
+        magnet: magnet!.slug,
+        downloadUrl: magnetAbsoluteUrl(magnet!),
+      },
+      { status: 200 }
     );
   }
 

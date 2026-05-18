@@ -5,11 +5,13 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Badge } from "@/components/ui/badge";
 import { GoldRule } from "@/components/site/GoldRule";
 import { JsonLd } from "@/components/site/JsonLd";
+import { LeadMagnetForm } from "@/components/forms/LeadMagnetForm";
 import {
   breadcrumbListSchema,
   collectionPageSchema,
 } from "@/lib/schema";
 import { TOOLS } from "@/lib/tools";
+import { LEAD_MAGNETS } from "@/lib/lead-magnets";
 import { abs } from "@/lib/site";
 
 export const metadata: Metadata = {
@@ -26,9 +28,9 @@ export const metadata: Metadata = {
       "Free guides for adult children navigating their parents' senior transitions. Practical, no-fluff. Use them. Share them. They're free.",
     images: [
       {
-        url: "https://rigginsstrategicsolutions.com/photos/hero_ryan_consulting_family.jpg",
-        width: 2752,
-        height: 1536,
+        url: "https://rigginsstrategicsolutions.com/brand/ryan-headshot.jpg",
+        width: 1200,
+        height: 670,
         alt: "Free senior transition guides from Riggins Strategic Solutions",
       },
     ],
@@ -42,22 +44,24 @@ export const metadata: Metadata = {
 };
 
 // Placeholder guides — published concepts TBD per the 12-month plan
-// (Months 2-4 buildout). The URL structure is shipped now so Web2 mini-sites
-// and social bios built Sat May 23 → Jun 27 can link to /guides immediately.
-// Each card's CTA points to /freeguide so any visitor interest converts to
-// a newsletter subscriber who gets notified when the guide goes live.
+// (Months 2-4 buildout). Each card's CTA points to /freeguide so visitor
+// interest converts to a notification-list subscriber who gets emailed
+// when the guide goes live.
+//
+// As real magnets ship, REMOVE the thematically-matching placeholder
+// from this list (current example: "wholesaler and cash-buyer red flags"
+// was removed when Cash Buyer Beware shipped May 18).
 const PLACEHOLDER_GUIDES: { title: string; audience: string }[] = [
-  { title: "Guide 1 — Coming Soon", audience: "adult children weighing aging-in-place vs assisted living" },
-  { title: "Guide 2 — Coming Soon", audience: "families starting a parent's home sale" },
-  { title: "Guide 3 — Coming Soon", audience: "the sandwich generation managing burnout" },
-  { title: "Guide 4 — Coming Soon", audience: "families navigating Medicare coverage gaps" },
-  { title: "Guide 5 — Coming Soon", audience: "siblings coordinating a parent's care from out of state" },
-  { title: "Guide 6 — Coming Soon", audience: "families spotting wholesaler and cash-buyer red flags" },
+  { title: "Guide 2 — Coming Soon", audience: "adult children weighing aging-in-place vs assisted living" },
+  { title: "Guide 3 — Coming Soon", audience: "families starting a parent's home sale" },
+  { title: "Guide 4 — Coming Soon", audience: "the sandwich generation managing burnout" },
+  { title: "Guide 5 — Coming Soon", audience: "families navigating Medicare coverage gaps" },
+  { title: "Guide 6 — Coming Soon", audience: "siblings coordinating a parent's care from out of state" },
 ];
 
-// The 3 SEO-optimized free tools we want to surface alongside the (future)
-// guides on this hub page. Pulled from the central tools registry so titles
-// and descriptions stay in sync with /tools/[slug] pages.
+// The 3 SEO-optimized free tools we want to surface alongside the guides
+// on this hub page. Pulled from the central tools registry so titles and
+// descriptions stay in sync with /tools/[slug] pages.
 const FEATURED_TOOL_SLUGS = [
   "net-proceeds-calculator",
   "caregiver-burnout-triage",
@@ -74,21 +78,29 @@ export default function GuidesPage() {
     { name: "Guides", path: "/guides" },
   ]);
 
-  // ItemList contains the REAL items the page links to today (the 3 tools).
-  // Once the 6 guides ship in Months 2-4, append guide entries here too. We
-  // intentionally don't list the 6 placeholder cards as ItemList entries
-  // because they all link to the same /freeguide URL — Google flags
-  // duplicate-URL ItemList items as low-quality.
+  // CollectionPage ItemList includes:
+  //   1. Every real LEAD_MAGNETS entry (using the /guides#slug anchor so AI
+  //      tools route visitors through the email gate, not direct PDF)
+  //   2. The 3 featured tools
+  // Placeholder cards intentionally omitted from the schema — they all
+  // CTA to /freeguide so distinct-URL constraint would fail.
   const collection = collectionPageSchema({
     name: "Free Senior Transition Guides",
     description:
-      "Free guides and interactive tools for adult children navigating their parents' senior transitions.",
+      "Free downloadable guides and interactive tools for adult children navigating their parents' senior transitions.",
     pageUrl: abs("/guides"),
-    items: featuredTools.map((t) => ({
-      name: t.title,
-      itemUrl: abs(`/tools/${t.slug}`),
-      description: t.description,
-    })),
+    items: [
+      ...LEAD_MAGNETS.map((m) => ({
+        name: m.title,
+        itemUrl: `${abs("/guides")}#${m.slug}`,
+        description: m.description,
+      })),
+      ...featuredTools.map((t) => ({
+        name: t.title,
+        itemUrl: abs(`/tools/${t.slug}`),
+        description: t.description,
+      })),
+    ],
   });
 
   return (
@@ -120,57 +132,113 @@ export default function GuidesPage() {
         </div>
       </section>
 
-      {/* GUIDES GRID — placeholders, real content TBD */}
+      {/* AVAILABLE NOW — real downloadable lead magnets. Renders one card
+          per LEAD_MAGNETS entry, each with an inline LeadMagnetForm that
+          email-gates the PDF. Section silently omitted when registry empty. */}
+      {LEAD_MAGNETS.length > 0 && (
+        <section className="bg-white">
+          <div className="mx-auto max-w-6xl px-6 py-16 md:py-20">
+            <h2 className="text-3xl md:text-4xl font-semibold">
+              Available now
+            </h2>
+            <p className="mt-4 text-base text-ink/70 max-w-2xl">
+              Free downloadable guides. Enter your email to get the PDF and
+              we&apos;ll add you to the no-spam notification list for future
+              guides.
+            </p>
+
+            <ul
+              className={
+                "mt-10 grid gap-8 " +
+                (LEAD_MAGNETS.length === 1
+                  ? "max-w-3xl mx-auto"
+                  : "md:grid-cols-2")
+              }
+            >
+              {LEAD_MAGNETS.map((magnet) => (
+                <li key={magnet.slug} id={magnet.slug}>
+                  <Card className="h-full">
+                    <CardHeader>
+                      <Badge
+                        variant="outline"
+                        className="w-fit border-navy-700/30 text-navy-700"
+                      >
+                        Free · {magnet.pageCount} pages
+                      </Badge>
+                      <CardTitle className="mt-3 text-2xl">
+                        {magnet.title}
+                      </CardTitle>
+                      <p className="mt-1 text-base font-semibold text-burgundy-600">
+                        {magnet.subtitle}
+                      </p>
+                      <CardDescription className="mt-3 text-ink/75 leading-relaxed text-base">
+                        {magnet.description}
+                      </CardDescription>
+                    </CardHeader>
+                    <CardContent>
+                      <LeadMagnetForm magnet={magnet} />
+                    </CardContent>
+                  </Card>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </section>
+      )}
+
+      {/* COMING SOON — remaining placeholders. As LEAD_MAGNETS grows,
+          remove the matching thematic placeholder from this list above. */}
+      {PLACEHOLDER_GUIDES.length > 0 && (
+        <section className="bg-cream">
+          <div className="mx-auto max-w-6xl px-6 py-16 md:py-20">
+            <h2 className="text-3xl md:text-4xl font-semibold">
+              Coming soon
+            </h2>
+            <p className="mt-4 text-base text-ink/70 max-w-2xl">
+              {PLACEHOLDER_GUIDES.length} more guides are in the oven, each
+              tackling a different transition decision. Sign up below and
+              we&apos;ll send each one the day it goes live.
+            </p>
+
+            <ul className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+              {PLACEHOLDER_GUIDES.map((g) => (
+                <li key={g.title}>
+                  <Card className="h-full flex flex-col">
+                    <CardHeader>
+                      <Badge variant="outline" className="w-fit border-burgundy-200 text-burgundy-700">
+                        Coming Soon
+                      </Badge>
+                      <CardTitle className="mt-3 text-xl">{g.title}</CardTitle>
+                      <CardDescription className="text-ink/70">
+                        A practical guide for {g.audience}. Building now —
+                        sign up to be notified when it goes live.
+                      </CardDescription>
+                    </CardHeader>
+                    <CardContent className="mt-auto">
+                      <Button asChild variant="outline" className="w-full">
+                        <Link href="/freeguide">Notify Me</Link>
+                      </Button>
+                    </CardContent>
+                  </Card>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </section>
+      )}
+
+      {/* AVAILABLE RIGHT NOW — 3 SEO-optimized free tools. Surfaces real
+          working tools alongside the guides so the page isn't waiting on
+          future content to be useful today. */}
       <section className="bg-white">
         <div className="mx-auto max-w-6xl px-6 py-16 md:py-20">
           <h2 className="text-3xl md:text-4xl font-semibold">
-            The guide library
+            Interactive tools, ready now
           </h2>
           <p className="mt-4 text-base text-ink/70 max-w-2xl">
-            We&apos;re publishing six new guides over the next few months.
-            Each one tackles a different transition decision families wrestle
-            with. Sign up below and we&apos;ll send each one the day it goes
-            live — no other emails, no spam.
-          </p>
-
-          <ul className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-            {PLACEHOLDER_GUIDES.map((g) => (
-              <li key={g.title}>
-                <Card className="h-full flex flex-col">
-                  <CardHeader>
-                    <Badge variant="outline" className="w-fit border-burgundy-200 text-burgundy-700">
-                      Coming Soon
-                    </Badge>
-                    <CardTitle className="mt-3 text-xl">{g.title}</CardTitle>
-                    <CardDescription className="text-ink/70">
-                      A practical guide for {g.audience}. Building now — sign
-                      up to be notified when it goes live.
-                    </CardDescription>
-                  </CardHeader>
-                  <CardContent className="mt-auto">
-                    <Button asChild variant="outline" className="w-full">
-                      <Link href="/freeguide">Notify Me</Link>
-                    </Button>
-                  </CardContent>
-                </Card>
-              </li>
-            ))}
-          </ul>
-        </div>
-      </section>
-
-      {/* AVAILABLE NOW — link the 3 SEO-optimized tools so the page isn't
-          empty-looking and so search engines see real, distinct itemUrls
-          in the ItemList schema above. */}
-      <section className="bg-cream">
-        <div className="mx-auto max-w-6xl px-6 py-16 md:py-20">
-          <h2 className="text-3xl md:text-4xl font-semibold">
-            Available right now
-          </h2>
-          <p className="mt-4 text-base text-ink/70 max-w-2xl">
-            While the guides are in the oven, these free interactive tools
-            are ready to use. Each one answers a specific question families
-            get wrong by tens of thousands of dollars.
+            Free interactive tools you can use right now. Each one answers
+            a specific question families get wrong by tens of thousands of
+            dollars.
           </p>
 
           <ul className="mt-10 grid gap-6 md:grid-cols-3">
@@ -205,7 +273,7 @@ export default function GuidesPage() {
 
       {/* CLOSING CTA — the Simple Blueprint is the canonical free-tier
           entry into the funnel, so end the page pointing there. */}
-      <section className="bg-white">
+      <section className="bg-cream">
         <div className="mx-auto max-w-3xl px-6 py-16 md:py-20 text-center">
           <h2 className="text-3xl md:text-4xl font-semibold">
             Start with the Simple Blueprint
