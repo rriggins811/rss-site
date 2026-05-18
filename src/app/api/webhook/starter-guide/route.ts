@@ -5,7 +5,6 @@ import { checkAndRecordRateLimit, getClientIp } from "@/lib/rate-limit";
 import { GHL_WEBHOOKS, postToGhl } from "@/lib/ghl-webhooks";
 import { upsertGhlContactWithTags, GHL_TAGS } from "@/lib/ghl-proxy";
 import { getLeadMagnet, magnetAbsoluteUrl } from "@/lib/lead-magnets";
-import { sendLeadMagnetEmail } from "@/lib/email/lead-magnets";
 
 export const runtime = "nodejs";
 
@@ -57,6 +56,13 @@ async function postToBlueprint(payload: {
   lastName?: string;
   phone?: string;
   source: string;
+  /**
+   * Optional lead-magnet slug. When present, blueprint-site routes the
+   * welcome email through the magnet-aware template (adds a direct PDF
+   * link to whichever magnet the user signed up for). When absent, the
+   * standard Simple Blueprint activation email fires unchanged.
+   */
+  magnet?: string;
 }): Promise<{ ok: boolean; status: number; error?: string }> {
   try {
     const res = await fetch(BLUEPRINT_FREESIGNUP_URL, {
@@ -191,34 +197,40 @@ export async function POST(req: Request) {
     );
   }
 
-  // Branch fan-out based on whether this is a Blueprint starter-guide
-  // signup (full auth-user creation + Kit + Twilio + magic link flow) or
-  // a simpler PDF lead-magnet capture (contact + tag + PDF email only).
+  // Branch fan-out. BOTH branches now run the full Blueprint signup
+  // pipeline (postToBlueprint → /api/freeguide-signup creates the
+  // activation token, sends the welcome email, fires Kit + Twilio +
+  // legacy GHL webhook). Lead-magnet branch DIFFERENCES from starter-
+  // guide branch:
+  //   1. magnet slug propagated to blueprint-site so welcome email
+  //      template adds a direct PDF link for the bonus magnet
+  //   2. ghl-proxy upsert uses magnet.ghlTags (which include
+  //      `freeguide` so the Free Guide nurture workflow fires the
+  //      same as for /freeguide signups) PLUS `meta-lead`,
+  //      `lead-source-rss-guides`, and the magnet slug for funnel-
+  //      attribution segmentation
+  //   3. rss-site's standalone GHL_WEBHOOKS.starterGuide is SKIPPED
+  //      for the magnet flow — blueprint-site's legacy webhook fires
+  //      from inside notifyFreeSignup, that's sufficient and avoids
+  //      double-firing starter-guide-specific workflow tags onto a
+  //      magnet contact.
   //
-  // Lead-magnet branch is intentionally NARROWER: no Blueprint signup
-  // (the user didn't sign up for a course), no Kit fan-out (Kit is in
-  // teardown per the May-15 GHL pivot — Phase 6 still gated on Monday),
-  // and uses the magnet's own GHL tag set so downstream nurture
-  // workflows can segment per magnet.
-  //
-  // Each result variable is typed by inference from its source helper —
-  // a single unified shape would require either an awkward common
-  // discriminated union or `unknown`, both worse than per-branch infer.
+  // Each result variable is typed by inference from its source helper.
 
   type ProxyResult = Awaited<ReturnType<typeof upsertGhlContactWithTags>>;
-  type EmailResult = Awaited<ReturnType<typeof sendLeadMagnetEmail>>;
   type BlueprintResult = Awaited<ReturnType<typeof postToBlueprint>>;
   type WebhookResult = Awaited<ReturnType<typeof postToGhl>>;
 
-  let blueprintRes: PromiseSettledResult<BlueprintResult> | null = null;
+  let blueprintRes: PromiseSettledResult<BlueprintResult>;
   let ghlWebhookRes: PromiseSettledResult<WebhookResult> | null = null;
   let ghlProxyRes: PromiseSettledResult<ProxyResult>;
-  let emailRes: PromiseSettledResult<EmailResult> | null = null;
 
   if (isLeadMagnetFlow) {
-    // PDF lead-magnet flow: ghl-proxy with magnet-specific tags + Resend
-    // delivery email. Best-effort, fire-and-forget Promise.allSettled.
-    const [proxyResult, emailResult] = await Promise.allSettled([
+    // Lead-magnet flow: Blueprint signup (with magnet hint for email
+    // template) + ghl-proxy with the 4 magnet tags. No standalone
+    // starter-guide webhook (avoids mistagging).
+    const [bpResult, ghlProxyResult] = await Promise.allSettled([
+      postToBlueprint({ ...blueprintPayload, magnet: magnet!.slug }),
       upsertGhlContactWithTags(
         {
           email: lead.email,
@@ -229,14 +241,9 @@ export async function POST(req: Request) {
         },
         magnet!.ghlTags
       ),
-      sendLeadMagnetEmail({
-        to: lead.email,
-        firstName: lead.first_name,
-        magnet: magnet!,
-      }),
     ]);
-    ghlProxyRes = proxyResult;
-    emailRes = emailResult;
+    blueprintRes = bpResult;
+    ghlProxyRes = ghlProxyResult;
   } else {
     // Original starter-guide flow — full Blueprint signup fan-out.
     // ghl-proxy is the future-state GHL write path per
@@ -288,21 +295,6 @@ export async function POST(req: Request) {
         ? `status=${ghlWebhookRes.value.status} error=${ghlWebhookRes.value.error ?? ""}`
         : `rejected=${String(ghlWebhookRes.reason)}`;
     console.error(`[${logPrefix}] GHL legacy webhook POST failed ${detail}`);
-  }
-  if (emailRes) {
-    if (emailRes.status === "rejected") {
-      console.error(
-        `[${logPrefix}] resend email rejected=${String(emailRes.reason)}`
-      );
-    } else if (!emailRes.value.ok) {
-      console.warn(
-        `[${logPrefix}] resend email skipped/failed reason=${emailRes.value.reason}`
-      );
-    } else {
-      console.info(
-        `[${logPrefix}] resend email ok id=${emailRes.value.id ?? "?"}`
-      );
-    }
   }
   if (ghlProxyRes.status === "rejected") {
     console.error(

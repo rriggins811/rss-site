@@ -1,5 +1,6 @@
 "use client";
 
+import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -13,7 +14,7 @@ import {
 import { META_EVENTS, generateEventId } from "@/lib/meta/events";
 import type { LeadMagnet } from "@/lib/lead-magnets";
 
-type Status = "idle" | "submitting" | "success" | "error";
+type Status = "idle" | "submitting" | "error";
 
 type Props = {
   magnet: LeadMagnet;
@@ -48,6 +49,7 @@ export function LeadMagnetForm({
   startExpanded = false,
   className = "",
 }: Props) {
+  const router = useRouter();
   const [expanded, setExpanded] = useState(startExpanded);
   const [status, setStatus] = useState<Status>("idle");
   const [error, setError] = useState<string | null>(null);
@@ -70,46 +72,6 @@ export function LeadMagnetForm({
       >
         Get the Guide
       </Button>
-    );
-  }
-
-  // Success state — fire-and-forget email already triggered server-side;
-  // the immediate "Download Now" button covers the user need so they get
-  // the PDF whether or not the email shows up.
-  if (status === "success") {
-    return (
-      <div
-        className={`rounded-md border border-navy-700/20 bg-cream/70 p-5 ${className}`}
-      >
-        <p className="text-base font-semibold text-navy-700">
-          Check your email — your guide is on the way.
-        </p>
-        <p className="mt-2 text-sm text-ink/75">
-          We sent <span className="font-semibold">{magnet.title}</span> to{" "}
-          <span className="font-semibold">{email}</span>. Or download it
-          right now:
-        </p>
-        <Button
-          asChild
-          size="lg"
-          className="mt-4 w-full bg-navy-700 hover:bg-navy-800"
-        >
-          <a
-            href={magnet.pdfPath}
-            target="_blank"
-            rel="noopener noreferrer"
-            download
-            onClick={() => {
-              trackEvent("download_lead_magnet", {
-                magnet: magnet.slug,
-                source: "guides_inline_success",
-              });
-            }}
-          >
-            Download {magnet.title} (PDF)
-          </a>
-        </Button>
-      </div>
     );
   }
 
@@ -197,7 +159,13 @@ export function LeadMagnetForm({
         }),
       }).catch(() => {});
 
-      setStatus("success");
+      // Redirect to the same activation-pending page the /freeguide
+      // form uses. The user now lands in the EXACT same flow: check
+      // email, click activation link, set password, land on /dashboard
+      // with both PDFs (Simple Blueprint + Cash Buyer Beware) visible.
+      router.push(
+        `/freeguide/check-email?email=${encodeURIComponent(email)}`
+      );
     } catch {
       setStatus("error");
       setError("Network error. Try again.");

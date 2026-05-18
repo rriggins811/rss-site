@@ -69,8 +69,16 @@ export const LEAD_MAGNETS: LeadMagnet[] = [
     pageCount: 15,
     pdfPath: "/downloads/cash-buyer-beware.pdf",
     publishedDate: "2026-05-18",
+    // Tag set per the May-18 spec update: /guides signups now route
+    // through the full Blueprint Free signup flow, so they need the
+    // same `freeguide` tag the /freeguide flow uses to enroll in the
+    // existing Free Guide Trial Nurture workflow. The `meta-lead` tag
+    // is the universal paid-traffic tag set on every Meta-ad-sourced
+    // signup; `cash-buyer-beware` is the entry-door identifier so
+    // segmentation can split this funnel from future magnets.
     ghlTags: [
-      "lead-magnet-download",
+      "meta-lead",
+      "freeguide",
       "lead-source-rss-guides",
       "cash-buyer-beware",
     ],
