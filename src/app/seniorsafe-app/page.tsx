@@ -16,6 +16,29 @@ export const metadata: Metadata = {
   description:
     "SeniorSafe is the daily coordination app for families navigating senior care. Daily check-ins, medication tracking, family messaging, document vault, and two AIs: SeniorSafe AI for the elder ($14.99/mo Premium), and Maggie, your AI transition specialist for the adult child ($39.99/mo Premium+). 14-day free trial.",
   alternates: { canonical: "/seniorsafe-app" },
+  openGraph: {
+    type: "website",
+    url: "https://rigginsstrategicsolutions.com/seniorsafe-app",
+    siteName: "Riggins Strategic Solutions",
+    title: "SeniorSafe | The Family App for Senior Care",
+    description:
+      "Your family. One place. One plan. Daily check-ins, medication tracking, family messaging, document vault, and two AIs — SeniorSafe AI for the elder and Maggie for the adult child. 14-day free trial.",
+    images: [
+      {
+        url: "https://rigginsstrategicsolutions.com/og/seniorsafe-app.png",
+        width: 1200,
+        height: 630,
+        alt: "SeniorSafe — your family, one place, one plan",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "SeniorSafe | The Family App for Senior Care",
+    description:
+      "Your family. One place. One plan. The daily coordination app for families navigating senior care.",
+    images: ["https://rigginsstrategicsolutions.com/og/seniorsafe-app.png"],
+  },
 };
 
 const painPoints: { feature: string; title: string; pain: string; fix: string }[] = [
