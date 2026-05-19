@@ -57,8 +57,8 @@ export const metadata: Metadata = {
 //     When Mom Falls at 2 AM Crisis Playbook (May 18)
 const PLACEHOLDER_GUIDES: { title: string; audience: string }[] = [
   { title: "Guide 4 — Coming Soon", audience: "families starting a parent's home sale" },
-  { title: "Guide 5 — Coming Soon", audience: "the sandwich generation managing burnout" },
-  { title: "Guide 6 — Coming Soon", audience: "families navigating Medicare coverage gaps" },
+  { title: "Guide 5 — Coming Soon", audience: "families wary of wholesaler home offers" },
+  { title: "Guide 6 — Coming Soon", audience: "the sandwich generation managing burnout" },
   { title: "Guide 7 — Coming Soon", audience: "siblings coordinating a parent's care from out of state" },
 ];
 

@@ -119,11 +119,29 @@ export const LEAD_MAGNETS: LeadMagnet[] = [
       "aging-in-place-vs-assisted-living",
     ],
   },
+  {
+    slug: "medicare-coverage-gaps",
+    title: "Medicare Coverage Gaps Most Families Don't Know About",
+    subtitle: "The hospital and rehab questions that cost families $10K to $30K",
+    description:
+      "A 17-page coverage guide. The inpatient vs observation trap, the 100-day skilled nursing myth, Medicare Advantage prior auth tactics, the Medicaid 5-year lookback, the underused VA Aid & Attendance benefit, and the exact questions to ask before the next hospital stay so a coverage gap doesn't cost the family $10K-$30K out of pocket.",
+    pageCount: 17,
+    pdfPath: "/downloads/medicare-coverage-gaps.pdf",
+    publishedDate: "2026-05-19",
+    ghlTags: [
+      "meta-lead",
+      "freeguide",
+      "lead-source-rss-guides",
+      "medicare-coverage-gaps",
+    ],
+  },
   // Future magnets: append here. /guides hub will auto-render them in
   // source-of-truth order. No component edits required.
   //
-  // Next per the 12-month plan: "5 Wholesaler Red Flags Mom Won't See"
-  // slug: "wholesaler-red-flags"
+  // Next-planned rotation (per the May-19 audit): "5 Wholesaler Red Flags
+  // Mom Won't See" (slug: wholesaler-red-flags), then "Sandwich Generation
+  // Burnout" (slug: sandwich-generation-burnout). Both placeholders are
+  // live in PLACEHOLDER_GUIDES at /guides/page.tsx slots 5 and 6.
 ];
 
 /**
