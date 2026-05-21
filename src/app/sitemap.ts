@@ -37,6 +37,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/tools", changeFrequency: "monthly", priority: 0.8 },
     { path: "/guides", changeFrequency: "monthly", priority: 0.8 },
     { path: "/resources", changeFrequency: "weekly", priority: 0.8 },
+    { path: "/resources/sorting-tracker", changeFrequency: "monthly", priority: 0.7 },
     { path: "/privacy", changeFrequency: "yearly", priority: 0.3 },
     { path: "/terms", changeFrequency: "yearly", priority: 0.3 },
     { path: "/referral-terms", changeFrequency: "yearly", priority: 0.3 },

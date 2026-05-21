@@ -79,6 +79,44 @@ export default function ResourcesIndexPage() {
       <section className="bg-white border-y border-border">
         <div className="mx-auto max-w-4xl px-6 py-16">
           <GoldRule />
+          <h2 className="mt-3 text-2xl md:text-3xl">Free downloads</h2>
+          <p className="mt-3 text-sm text-ink/70">
+            Spreadsheets, printables, and templates you can download, fill out,
+            and share with your family. No email signup required.
+          </p>
+          <ul className="mt-6 space-y-5">
+            <li>
+              <Link
+                href="/resources/sorting-tracker"
+                className="group block rounded-md border border-border bg-cream/50 p-5 hover:border-burgundy-600 transition-colors"
+              >
+                <div className="flex items-center gap-2">
+                  <Badge
+                    variant="secondary"
+                    className="bg-burgundy-100 text-burgundy-700 border-0"
+                  >
+                    Excel spreadsheet (.xlsx)
+                  </Badge>
+                </div>
+                <h3 className="mt-3 font-serif text-lg sm:text-xl text-navy-700 leading-snug group-hover:text-burgundy-700 transition-colors">
+                  Sorting &amp; Progress Tracker
+                </h3>
+                <p className="mt-2 text-sm text-ink/75 leading-relaxed">
+                  Track decluttering across every room in your parent&rsquo;s
+                  home. Five-pile system, two-bag daily log, room-by-room
+                  dashboard. Built for the families who need a system, not a
+                  pep talk.
+                </p>
+              </Link>
+            </li>
+            {/* Future free downloads: add a <li> here. Card pattern above. */}
+          </ul>
+        </div>
+      </section>
+
+      <section className="bg-white">
+        <div className="mx-auto max-w-4xl px-6 py-16">
+          <GoldRule />
           <h2 className="mt-3 text-2xl md:text-3xl">All guides</h2>
           <ul className="mt-8 space-y-5">
             {RESOURCES.map((r) => (
