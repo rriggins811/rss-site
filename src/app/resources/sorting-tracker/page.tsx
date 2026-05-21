@@ -15,7 +15,8 @@ const FILE_PATH = "/downloads/sorting-progress-tracker.xlsx";
 const PUBLISHED_ISO = "2026-05-21";
 
 export const metadata: Metadata = {
-  title: `${TITLE} | Riggins Strategic Solutions`,
+  // Site suffix is appended by the root layout title template.
+  title: TITLE,
   description: DESCRIPTION,
   alternates: { canonical: "/resources/sorting-tracker" },
   openGraph: {
