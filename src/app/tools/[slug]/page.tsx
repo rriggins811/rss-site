@@ -13,6 +13,7 @@ import {
 import { breadcrumbListSchema } from "@/lib/schema";
 import { abs, AUTHOR, ORGANIZATION, SITE_URL } from "@/lib/site";
 import { RelatedReading } from "@/components/site/RelatedReading";
+import { FAQSection } from "@/components/aeo/FAQSection";
 
 type RouteParams = { slug: string };
 
@@ -112,7 +113,17 @@ export default async function ToolPage({
         </div>
       </section>
 
-      {/* RELATED READING — cluster-aware, renders only when this tool is
+      {/* FAQ: visible Q+A list and matching FAQPage JSON-LD on the
+          canonical /tools/<slug> URL. The schema previously lived inside
+          public/tools/<slug>.html which is iframed and therefore invisible
+          to crawlers parsing the parent canonical page. Moved here on
+          2026-05-22 so Google + AI bots actually see it. Only renders
+          when the tool has FAQ data in lib/tools.ts. */}
+      {tool.faqs && tool.faqs.length > 0 && (
+        <FAQSection items={tool.faqs} kicker="Common questions" />
+      )}
+
+      {/* RELATED READING: cluster-aware, renders only when this tool is
           part of a topical cluster in lib/internal-links.ts. Builds the
           internal-link graph Google uses to decide which page ranks for
           a topic. */}
