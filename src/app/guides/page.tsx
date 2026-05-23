@@ -198,9 +198,11 @@ export default function GuidesPage() {
               Coming soon
             </h2>
             <p className="mt-4 text-base text-ink/70 max-w-2xl">
-              {PLACEHOLDER_GUIDES.length} more guides are in the oven, each
-              tackling a different transition decision. Sign up below and
-              we&apos;ll send each one the day it goes live.
+              {PLACEHOLDER_GUIDES.length}
+              {" "}
+              more guides are in the oven, each tackling a different
+              transition decision. Sign up below and we&apos;ll send each one
+              the day it goes live.
             </p>
 
             <ul className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
