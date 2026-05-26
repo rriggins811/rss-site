@@ -2,7 +2,8 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { useState } from "react";
+import { useState, Suspense } from "react";
+import { usePathname, useSearchParams } from "next/navigation";
 import { Button } from "@/components/ui/button";
 
 const navLinks: { href: string; label: string; external?: boolean }[] = [
@@ -17,9 +18,63 @@ const navLinks: { href: string; label: string; external?: boolean }[] = [
   { href: "/contact", label: "Contact" },
 ];
 
-export function SiteHeader() {
-  const [open, setOpen] = useState(false);
+// Ad-landing minimal header. Triggered when a visitor arrives on
+// /freeguide or /guides with a Facebook click signal (fbclid auto-added
+// by FB) or explicit ?ads=1 flag. Strips the 9-item nav + the parallel
+// "Book free 20-min call" CTA so an ad-clicker has one decision: the
+// signup form. Organic traffic to the same paths keeps the full nav.
+// Added 2026-05-26 after a Saturday landing-page audit identified the
+// 11-link header as the largest exit-ramp leak on the paid funnel.
+function useAdMode(): boolean {
+  const pathname = usePathname();
+  const searchParams = useSearchParams();
+  if (!pathname) return false;
+  const isLandingPath =
+    pathname === "/freeguide" ||
+    pathname === "/guides" ||
+    pathname.startsWith("/guides/");
+  if (!isLandingPath) return false;
+  return (
+    searchParams.has("fbclid") ||
+    searchParams.get("ads") === "1" ||
+    searchParams.get("utm_source") === "meta" ||
+    searchParams.get("utm_source") === "facebook"
+  );
+}
 
+// Minimal logo-only header rendered for ad-landing visitors. Also serves
+// as the Suspense fallback during static prerender + the full header's
+// initial paint before client-side searchParams resolves.
+function MinimalHeader() {
+  return (
+    <header className="sticky top-0 z-50 border-b border-border bg-cream/95 backdrop-blur supports-[backdrop-filter]:bg-cream/80">
+      <div className="mx-auto max-w-6xl px-6">
+        <div className="flex h-16 items-center justify-center">
+          <Link
+            href="/"
+            aria-label="Riggins Strategic Solutions home"
+            className="flex items-center"
+          >
+            <Image
+              src="/brand/logo-horizontal.png"
+              alt="Riggins Strategic Solutions"
+              width={240}
+              height={52}
+              priority
+              className="h-10 w-auto"
+            />
+          </Link>
+        </div>
+      </div>
+    </header>
+  );
+}
+
+// Default site header used by SiteHeaderInner.useAdMode = false. Pulled
+// into its own function (rather than inline JSX) so the Suspense boundary
+// in <SiteHeader /> can fall back to the full nav during prerender.
+function FullHeader() {
+  const [open, setOpen] = useState(false);
   return (
     <header className="sticky top-0 z-50 border-b border-border bg-cream/95 backdrop-blur supports-[backdrop-filter]:bg-cream/80">
       <div className="mx-auto max-w-6xl px-6">
@@ -110,5 +165,26 @@ export function SiteHeader() {
         )}
       </div>
     </header>
+  );
+}
+
+// Inner component that reads the URL via useSearchParams (must be inside
+// a Suspense boundary or the entire page is forced into client-side
+// rendering). Picks MinimalHeader for ad traffic, FullHeader otherwise.
+function SiteHeaderInner() {
+  const adMode = useAdMode();
+  return adMode ? <MinimalHeader /> : <FullHeader />;
+}
+
+// Public entry. Suspense fallback renders the full nav so the prerendered
+// HTML (and any user without JS or with a slow hydration) always sees the
+// default navigation. Ad-mode switch happens after hydration, which is
+// fine because ad-clickers land with searchParams already in the URL and
+// hydration is fast.
+export function SiteHeader() {
+  return (
+    <Suspense fallback={<FullHeader />}>
+      <SiteHeaderInner />
+    </Suspense>
   );
 }

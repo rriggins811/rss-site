@@ -172,6 +172,17 @@ export function LeadMagnetForm({
     }
   }
 
+  // Google sign-in fast path. Bounces to blueprint.r.com/login with the
+  // signup_via_google=1 trigger so PKCE state stays on blueprint subdomain.
+  // The /auth/callback there runs applyFreeTierSetup with course_access for
+  // all 4 lead magnets included, so the user lands on the dashboard with the
+  // magnet PDF they came for visible alongside the Blueprint modules. Added
+  // 2026-05-26 because the magnet email funnel had a 0% activation rate;
+  // skipping the email step entirely via OAuth should match the /freeguide
+  // funnel's higher rate.
+  const googleSignupUrl =
+    "https://blueprint.rigginsstrategicsolutions.com/login?signup_via_google=1";
+
   return (
     <form
       onSubmit={onSubmit}
@@ -182,6 +193,29 @@ export function LeadMagnetForm({
         Tell us where to send <span className="font-semibold">{magnet.title}</span>.
         Plain-English, {magnet.pageCount} pages, no spam.
       </p>
+
+      <a
+        href={googleSignupUrl}
+        className="flex w-full items-center justify-center gap-3 rounded-md border border-neutral-300 bg-white px-4 py-3 text-sm font-medium text-neutral-800 transition hover:border-neutral-400 hover:bg-neutral-50"
+        onClick={() =>
+          trackEvent("lead_magnet_google_signup", { magnet: magnet.slug })
+        }
+      >
+        <GoogleLogo />
+        Continue with Google
+      </a>
+      <p className="mt-2 text-center text-xs text-ink/60">
+        Fastest. One tap. No password to remember.
+      </p>
+
+      <div className="my-5 flex items-center gap-3">
+        <span className="h-px flex-1 bg-border" />
+        <span className="text-xs uppercase tracking-wider text-ink/50">
+          or use your email
+        </span>
+        <span className="h-px flex-1 bg-border" />
+      </div>
+
       <div className="grid gap-3">
         <div>
           <Label htmlFor={`lm-${magnet.slug}-first`}>First name *</Label>
@@ -245,5 +279,28 @@ export function LeadMagnetForm({
         No spam. Unsubscribe anytime.
       </p>
     </form>
+  );
+}
+
+function GoogleLogo() {
+  return (
+    <svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true">
+      <path
+        fill="#4285F4"
+        d="M17.64 9.2c0-.64-.06-1.25-.16-1.84H9v3.48h4.84a4.14 4.14 0 0 1-1.8 2.71v2.26h2.92c1.7-1.57 2.68-3.88 2.68-6.61z"
+      />
+      <path
+        fill="#34A853"
+        d="M9 18c2.43 0 4.46-.8 5.96-2.18l-2.92-2.26c-.81.54-1.85.86-3.04.86-2.34 0-4.32-1.58-5.03-3.7H.96v2.32A9 9 0 0 0 9 18z"
+      />
+      <path
+        fill="#FBBC05"
+        d="M3.97 10.71a5.4 5.4 0 0 1 0-3.42V4.96H.96a9 9 0 0 0 0 8.07l3.01-2.32z"
+      />
+      <path
+        fill="#EA4335"
+        d="M9 3.58c1.32 0 2.5.46 3.44 1.35l2.58-2.58A8.99 8.99 0 0 0 .96 4.96L3.97 7.3C4.68 5.16 6.66 3.58 9 3.58z"
+      />
+    </svg>
   );
 }

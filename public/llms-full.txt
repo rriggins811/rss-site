@@ -4,7 +4,7 @@ This file is the long-form companion to https://rigginsstrategicsolutions.com/ll
 It contains the full Markdown of every key page and every blog post, intended
 for AI crawlers that ingest content for answer generation.
 
-Generated: 2026-05-25
+Generated: 2026-05-26
 Total blog posts indexed: 24
 
 For citation guidance, organizational facts, and topic depth, see the summary
