@@ -4,8 +4,8 @@ This file is the long-form companion to https://rigginsstrategicsolutions.com/ll
 It contains the full Markdown of every key page and every blog post, intended
 for AI crawlers that ingest content for answer generation.
 
-Generated: 2026-05-26
-Total blog posts indexed: 24
+Generated: 2026-05-27
+Total blog posts indexed: 25
 
 For citation guidance, organizational facts, and topic depth, see the summary
 index at https://rigginsstrategicsolutions.com/llms.txt.
@@ -145,8 +145,157 @@ Inputs: parent's current Medicare plan (Original, Advantage, with/without supple
 
 # Blog Posts (newest first)
 
-The 24 posts below are the full body of every published article
+The 25 posts below are the full body of every published article
 on https://rigginsstrategicsolutions.com/blog, in reverse chronological order.
+
+---
+
+# The 90-Day Mistake: Why Most Families Sell Their Parents' Home Under Duress (And How to Avoid It)
+https://rigginsstrategicsolutions.com/blog/the-90-day-mistake-why-most-families-sell-their-parents-home-under-duress
+Published: 2026-05-27
+
+**Excerpt:** NAR's 2026 report says 61% of boomer-aged homeowners will never sell. Fannie Mae projects the same. Then a fall happens and the 9-month plan becomes a 90-day fire sale. Here is the math on the gap, what it costs, and how families can build the plan before the trigger event.
+
+I spent eight years on the cash-buyer side of real estate. House flips. Sub2 deals. Owner financing. Lease options. The whole creative-financing menu. The houses I bought the fastest were not the prettiest ones in the best neighborhoods. They were paid-off houses owned by seniors whose families were on a 90-day clock instead of a 9-month one.
+
+The family answering the door usually told me some version of the same story. "Mom had a fall." "Dad got the diagnosis last month." "She's been declining for a year, but the last hospital stay made it obvious." Then the next sentence: "We need to sell fast."
+
+I knew before I walked in what they were going to take. I knew because the timeline made the decision for them. The offers were lower because the timeline was shorter. The decisions about furniture, about paperwork, about which sibling handles what were all worse than they would have been with even three more months of runway. I made money on that gap. I am not proud of it.
+
+That's why I switched sides. And it is why, when the National Association of Realtors put out its 2026 Generational Trends Report last month and the data confirmed the pattern I had watched for almost a decade, I decided to write this one as the most important piece of the year.
+
+## The data: 61% of boomers say they will never sell
+
+The 2026 NAR Generational Trends Report, published in the spring, included a statistic that should be on the desk of every adult child with an aging parent: 61% of boomer-aged homeowners report they will never sell. That intent number is at record highs.
+
+Fannie Mae's housing economics team published a report this year called "The Coming Exodus of Older Homeowners" that frames the same dynamic from the residential demographics side. Intent to age in place is record-high. The demographic wave of homeowners turning 80 keeps building. The pressure release valve, the assumption that boomers would downsize en masse and feed inventory back into the market, is stuck.
+
+NIC MAP, the senior housing industry's data tracker, has the back end of the same story. The average senior housing occupancy rate is projected to push above 90% in 2026, the highest level since the metric has been tracked. Supply growth has slowed to a 20-year low. Demand keeps building.
+
+So you have record demand for senior housing, record reluctance to actually move, and a wave of homeowners turning 80 right behind it.
+
+The math catches up the day a fall, a diagnosis, or a spouse's death forces a sale on a 90-day clock. The family had not planned for that clock. The decisions made under that compressed timeline are typically the most expensive decisions the family will make in a 5-year span.
+
+There is also a downsizing paradox sitting on top of all this. Per Pleasanton Weekly's reporting in May 2026 covering recent NAR and Redfin research, boomers in their 60s reduce their square footage by basically zero when they do move. Boomers in their 70s drop about 200 square feet. The downsizing assumption baked into a lot of family financial plans is, statistically, not what actually happens. Families are not freeing up the equity they think they will free up, and they are not moving into housing types that match their care needs as they age.
+
+## What this actually costs a family
+
+I want to translate the data into dollars, because dollars are the language families respond to.
+
+A family that sells a paid-off home on a 9-month planning timeline typically captures something like fair market value, minus standard agent commissions (5-6%), minus standard transfer taxes, minus a moderate prep budget ($3,000-$15,000 in cleanout, paint, and small repairs). They time the listing for the market, they negotiate from a position of patience, and they walk away with most of what the home was worth.
+
+A family that sells the same home on a 90-day planning timeline after a health event typically ends up in one of three buckets:
+
+The first bucket is a fast cash-buyer offer at 60-75% of fair market value. The "we buy houses" letters that arrive in the mailbox after a hospital admission look very attractive when the family is trying to coordinate a move, manage a parent's care, handle paperwork, and split inheritance conversations across three siblings. The 25-40% discount the family takes shows up in real dollars on the closing statement.
+
+The second bucket is a rushed listing that hits the market without proper prep, gets stale because the price was set in a panic, and eventually closes 6-9% under what a properly prepped listing would have captured.
+
+The third bucket, sometimes the worst one financially, is a family that holds the house for 12-18 months while everyone fights about what to do with it, paying property taxes, insurance, utilities, and minor maintenance the whole time, until they sell it for the same dollar amount they would have gotten on the original 9-month plan, minus the carrying costs.
+
+The gap between "planned" and "panic-sold" is typically $30,000-$80,000 in equity depending on the market. In high-cost markets it can be $150,000 or more. Plus the emotional cost, which I am not even going to try to quantify here.
+
+## Why the planning conversation never happens
+
+In all my years buying houses from families on a 90-day clock, the second sentence after "we have to sell fast" was almost always some version of the same thing: "We knew we should have talked about this years ago."
+
+There are reasons the conversation does not happen. Parents do not want to be a burden. Adult kids do not want to seem like they are circling the inheritance. Siblings do not agree on what the plan should be. The parent's identity is tied to the house. Everyone is busy. Everyone assumes there is more time.
+
+I am not going to tell you the conversation is easy. It is not. But I will tell you that the conversation is dramatically easier when there is a third party in the room. Not a stranger, not a salesperson with a quota, but someone who has watched the 90-day version happen enough times to map out the 9-month version with the family before the trigger event.
+
+## What to do this week, regardless of whether you buy anything
+
+I want to give you actual steps you can take in the next seven days that do not cost a dollar.
+
+### Step 1: Find out what your parents' home is actually worth, today
+
+Pull a Zillow estimate, a Redfin estimate, and if you can, a quick conversation with a local real estate broker (not a "we buy houses" person) for a market comp. Average the three. Write the number down. This is the number your family should be planning against.
+
+### Step 2: Estimate what the home would net after a typical sale
+
+This is where the free Net Proceeds Calculator on our site comes in. It accounts for agent commissions, transfer taxes, typical seller concessions, and a moderate prep budget. The output is a realistic net-walk-away number, which is almost always 15-25% less than the Zillow estimate the family was using in their heads.
+
+### Step 3: Check the deed and the property tax record
+
+Pull the most recent property tax statement and verify the owner name matches what you expect. Pull the deed history on the county Register of Deeds website. While you are there, check whether your parents' county offers a free property fraud alert service. (Most metro counties do, including Mecklenburg, Wake, and Guilford in North Carolina.) Enroll the property. This costs nothing and protects against the deed fraud the FBI just warned about.
+
+### Step 4: Confirm the four legal documents exist and are current
+
+The four: Will or living trust. Durable Power of Attorney (financial). Healthcare Power of Attorney. Living Will / Advance Directive. If any of these are missing or older than 10 years, the family should be talking to an elder law attorney this month. Beneficiary designations on IRAs, 401(k)s, and life insurance override the will entirely, so confirm those are current too.
+
+### Step 5: Have one 30-minute conversation with your parents about the three "what if" scenarios
+
+You do not need to solve anything in this conversation. You just need to surface the three scenarios: what if you can stay here, what if you need help at home, what if the home no longer works. Ask, "Have you thought about what you would want in each of those scenarios?" Listen. Take notes. The conversation gets easier every time after the first one.
+
+That is a free 7-day plan. If you do nothing else, do those five things.
+
+## What Blueprint Premium is, and why I built it
+
+This is the part where I tell you about a product I sell. I am going to do it directly because that is how I do everything.
+
+Blueprint Premium is $297. It is one 60-minute strategy call with me. A personalized written plan you keep. 90 days of email support while you actually start executing the plan.
+
+I built it specifically for the gap I just described. Families who know "we will figure it out when the time comes" is not actually a plan, but who have not been able to make the time to build the actual plan themselves.
+
+I do not earn commissions on whether your family sells, lists, holds, or pivots. I do not have referral kickback arrangements with assisted living communities, home care agencies, financial advisors, or real estate investors. We sell information and tools. That alignment is the entire point. Every option goes on the table before the family is forced to choose under duress.
+
+The 60-minute call covers your parents' specific situation, the five paths I see most often (sell now, lease option, owner financing, age in place with modifications, hybrid), the math on each path, and which legal and financial documents need attention first. The personalized written plan distills the call into a one-page action document you can share with siblings, parents, and any pros you bring in. The 90 days of email support is for the questions that surface when you start moving on the plan.
+
+Most families who buy Blueprint Premium tell me afterward that the conversation with their parents was easier because they were armed with specifics. The 9-month plan became real because the 90-day plan was no longer the default.
+
+If your parents are in their 70s or 80s and you have been sitting on this conversation for a year, this is the cheapest insurance policy you will ever write.
+
+## Frequently Asked Questions
+
+### How much equity do families actually lose selling under a 90-day timeline?
+In most U.S. markets, the gap between a planned 9-month sale and a 90-day rushed sale is $30,000-$80,000 in equity. In high-cost markets (Bay Area, NYC metro, Boston, Seattle) the gap can exceed $150,000. The biggest drivers are cash-buyer discounts (25-40% off fair market value), poor pricing under panic, and skipped prep work that would have added 6-9% to a properly prepped listing.
+
+### What is the difference between Blueprint Premium and just hiring a real estate agent?
+A real estate agent earns 2.5-3% of the sale price as commission, which aligns them with selling the house. Blueprint Premium is $297 flat and earns nothing on the outcome. The plan we build together might recommend selling with an agent, holding and modifying for aging in place, exploring owner financing or a lease option, or some combination. Whichever path fits your family wins, and I am financially neutral on which one you pick. If you do decide to list with an agent, I can help you interview and vet them.
+
+### Why are boomers refusing to downsize even though they say they want to?
+The 2026 NAR data shows 61% of boomer-aged homeowners say they will never sell. The Fannie Mae "Coming Exodus" report attributes this to a combination of low mortgage rates locked in years ago, emotional attachment to the home, lack of attractive smaller-home inventory in their preferred markets, and the absence of a forcing function (health event) to make them act. The Pleasanton Weekly coverage of NAR + Redfin research shows that even when boomers do move, they barely reduce square footage, so the "downsize plan" most families assume is happening is largely not happening.
+
+### What is quit claim deed fraud and how do I protect my parents from it?
+Quit claim deed fraud is a scam in which bad actors prepare a forged or coerced single-page deed transfer, record it with the local Register of Deeds, then try to refinance or sell the property before the actual owner notices. The FBI's Boston Division publicly warned about a rise in this scam in 2025. Per FBI data, seniors 60+ filed 1,765 deed-fraud complaints in one tracking year and lost $76.3 million. Protection: enroll your parents' property in their county's free property fraud alert program, check the property tax statement annually for owner-name match, and never use a quit claim deed for "estate purposes" without a real estate attorney (use a Transfer on Death Deed or trust instead).
+
+### When should families start the senior transition conversation?
+The honest answer is "sooner than you think." If a parent is in their 70s or 80s and in good health, the right time was five years ago and the second-right time is this month. Health events that compress the planning window happen quickly and without warning. A family that has already had the 30-minute "three scenarios" conversation, knows the home's net proceeds number, and has the four legal documents in place is dramatically better positioned than a family scrambling after a hospital admission. The conversation does not need to solve anything on the first try. It just needs to start.
+
+## What to do next
+
+If you read this far and you have aging parents and no plan, here is the order I would do things in.
+
+This week: Run the free Net Proceeds Calculator. Pull the Zillow estimate. Check the deed on your parents' county website and enroll in the property fraud alert. That is two hours of work and it changes the family's information set forever.
+
+This month: Confirm the four legal documents exist and are current. If any are missing, schedule the elder law attorney conversation. Have the 30-minute "three scenarios" talk with your parents.
+
+When the conversation needs structure: Blueprint Premium is $297. One call, one plan, 90 days of support. Built for exactly the families this article describes.
+
+---
+
+**Want a step-by-step guide?** The free Simple Blueprint walks through every stage of a senior transition: rigginsstrategicsolutions.com/freeguide
+
+**Ready for the full system?** Senior Transition Blueprint Core, 19 modules and 60+ tools: rigginsstrategicsolutions.com/the-blueprint
+
+**Need a personalized plan?** Blueprint Premium adds a 60-min call and 90 days of email support: rigginsstrategicsolutions.com/blueprint-premium
+
+**Coordinate your family in one place.** SeniorSafe app (web, iPhone, Android): app.seniorsafeapp.com
+
+**Talk it through.** Book a free 20-min call with Ryan: rigginsstrategicsolutions.com/work-with-ryan
+
+**Run the math now.** Free Net Proceeds Calculator: rigginsstrategicsolutions.com/tools/net-proceeds-calculator
+
+### Get the SeniorSafe App
+
+[Download on the App Store](https://apps.apple.com/us/app/seniorsafe-app/id6761343239)
+
+[Get it on Google Play](https://play.google.com/store/apps/details?id=com.rigginsstrategicsolutions.seniorsafe)
+
+## About Ryan Riggins
+
+Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafe app](https://seniorsafeapp.com).
+
+Ryan Riggins is the founder of Riggins Strategic Solutions, a consumer protection company for families navigating senior transitions. He spent 8 years in construction project management and house flipping before switching sides. Two books on Amazon. Free resources at rigginsstrategicsolutions.com.
 
 ---
 
