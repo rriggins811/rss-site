@@ -138,7 +138,7 @@ export async function GET() {
         url: "https://seniorsafeapp.com",
         platforms: ["iOS", "Android", "Web"],
         app_store_url:
-          "https://apps.apple.com/us/app/seniorsafe-app/id6753033083",
+          "https://apps.apple.com/us/app/seniorsafe-app/id6761343239",
         description:
           "Family coordination app: daily check-ins, medication tracking, family messaging, document vault, SeniorSafe AI for the elder.",
       },

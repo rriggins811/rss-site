@@ -1,4 +1,7 @@
+"use client";
+
 import Link from "next/link";
+import { useEffect, useState } from "react";
 
 /**
  * SeniorSafe is now live on iPhone, Android, and the web (Apr 29, 2026).
@@ -35,6 +38,25 @@ export function AppPlatformBadges({
   variant = "light",
   hideLeadIn = false,
 }: Props) {
+  // Forward the Meta click id + UTMs across the domain hop to the PWA so signups
+  // can be attributed to the ad. App Store / Google Play buttons stay untouched
+  // (native installs can't read web params; older users rely on the store path).
+  const [trackedWebAppUrl, setTrackedWebAppUrl] = useState(WEB_APP_URL);
+  useEffect(() => {
+    try {
+      const incoming = new URLSearchParams(window.location.search);
+      const keep = ["fbclid", "utm_source", "utm_medium", "utm_campaign", "utm_content", "utm_term"];
+      const out = new URLSearchParams();
+      for (const k of keep) {
+        const v = incoming.get(k);
+        if (v) out.set(k, v);
+      }
+      const qs = out.toString();
+      setTrackedWebAppUrl(qs ? `${WEB_APP_URL}?${qs}` : WEB_APP_URL);
+    } catch {
+      /* fall back to the bare web app URL */
+    }
+  }, []);
   const leadInClass =
     variant === "dark" ? "text-cream/80" : "text-ink/70";
   const webBtnClass =
@@ -69,7 +91,7 @@ export function AppPlatformBadges({
           <PlayStoreBadge />
         </a>
         <Link
-          href={WEB_APP_URL}
+          href={trackedWebAppUrl}
           target="_blank"
           rel="noopener noreferrer"
           className={`inline-flex h-[44px] items-center rounded-md border px-4 text-sm font-semibold ${webBtnClass}`}

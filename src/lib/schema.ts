@@ -535,7 +535,7 @@ export function seniorSafeMobileApplicationSchema() {
     applicationSubCategory: "Family Coordination",
     url: "https://seniorsafeapp.com",
     downloadUrl:
-      "https://apps.apple.com/us/app/seniorsafe-app/id6753033083",
+      "https://apps.apple.com/us/app/seniorsafe-app/id6761343239",
     image: "https://seniorsafeapp.com/og/homepage.png",
     // Paid app with a 14-day free trial. The trial doesn't make the app
     // "free" for schema purposes — the Offers below are the truth.
