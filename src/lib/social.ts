@@ -16,9 +16,9 @@ export type SocialLink = {
  * - `org` URLs feed Organization + ProfessionalService schemas
  * - `person` URLs feed the Person schema
  *
- * Entity-stacking buildout (Saturday cohorts May 23 → Jun 27, 2026):
- * uncomment each line as the corresponding profile is claimed and the URL
- * is locked. See Strategy & Planning/Entity_Stacking_May16/ for the schedule.
+ * Entity-stacking buildout (Saturday cohorts May 23 -> Jun 27, 2026):
+ * add each line as the corresponding profile is claimed and the URL is
+ * locked. See Strategy & Planning/Entity_Stacking_May16/ for the schedule.
  */
 export const additionalSameAs = {
   org: [
@@ -27,13 +27,19 @@ export const additionalSameAs = {
     "https://www.pinterest.com/rigginsstrategicsolutions",
     // AlternativeTo: SeniorSafe listing accepted by moderators May 19, 2026
     "https://alternativeto.net/software/seniorsafe/",
-    // TODO: Facebook Business vanity URL, Instagram business handle,
-    // X / Bluesky org handles, Substack / Medium / WordPress.com URLs
-    // once each is claimed (entity-stacking Saturdays).
+    // ORG WIKIDATA GOES HERE: when the "Riggins Strategic Solutions" company
+    // Wikidata item exists, add "https://www.wikidata.org/wiki/Q########"
+    // on its own line below. No other code change is needed.
+    // TODO as each is claimed: Facebook Business vanity URL, Instagram,
+    //   X, Bluesky, Substack, Medium, WordPress.com.
   ],
   person: [
-    // TODO: X / Bluesky / Threads personal handles, Amazon Author Central,
-    // Goodreads author profile, Wikidata QID once each exists.
+    // Wikidata item for Ryan Riggins (created 2026-05-31). Strongest
+    // Knowledge-Graph signal. This sameAs is a static pointer to the item;
+    // adding statements on Wikidata later needs NO code change.
+    "https://www.wikidata.org/wiki/Q139998083",
+    // TODO as each is claimed: X, Bluesky, Threads personal handles,
+    //   Amazon Author Central URL, Goodreads author profile URL.
   ],
 } as const;
 
