@@ -23,11 +23,14 @@ export type SocialLink = {
 export const additionalSameAs = {
   org: [
     "https://www.linkedin.com/company/111342108",
+    // Pinterest business: claimed + DNS-verified May 19, 2026
+    "https://www.pinterest.com/rigginsstrategicsolutions",
+    // AlternativeTo: SeniorSafe listing accepted by moderators May 19, 2026
+    "https://alternativeto.net/software/seniorsafe/",
     // TODO Sat May 23: confirm Facebook Business vanity URL
     // TODO Sat May 23: add Instagram business handle (if separate from personal)
     // TODO Sat May 23: add X org handle once claimed
     // TODO Sat May 23: add Bluesky org handle once claimed
-    // TODO Sat May 30: add Pinterest business profile after full buildout
     // TODO Sat Jun 6:  add Substack publication URL once created
     // TODO Sat Jun 13: add Medium publication URL once created
     // TODO Sat Jun 20: add WordPress.com profile URL once created
