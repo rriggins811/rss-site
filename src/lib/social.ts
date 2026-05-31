@@ -27,20 +27,13 @@ export const additionalSameAs = {
     "https://www.pinterest.com/rigginsstrategicsolutions",
     // AlternativeTo: SeniorSafe listing accepted by moderators May 19, 2026
     "https://alternativeto.net/software/seniorsafe/",
-    // TODO Sat May 23: confirm Facebook Business vanity URL
-    // TODO Sat May 23: add Instagram business handle (if separate from personal)
-    // TODO Sat May 23: add X org handle once claimed
-    // TODO Sat May 23: add Bluesky org handle once claimed
-    // TODO Sat Jun 6:  add Substack publication URL once created
-    // TODO Sat Jun 13: add Medium publication URL once created
-    // TODO Sat Jun 20: add WordPress.com profile URL once created
+    // TODO: Facebook Business vanity URL, Instagram business handle,
+    // X / Bluesky org handles, Substack / Medium / WordPress.com URLs
+    // once each is claimed (entity-stacking Saturdays).
   ],
   person: [
-    // TODO Sat May 23: add X personal handle once claimed
-    // TODO Sat May 23: add Bluesky personal handle once claimed
-    // TODO Sat May 23: add Threads personal handle once claimed
-    // TODO Sat Jun 13: add Amazon Author Central URL
-    // TODO Sat Jun 13: add Goodreads author profile URL
+    // TODO: X / Bluesky / Threads personal handles, Amazon Author Central,
+    // Goodreads author profile, Wikidata QID once each exists.
   ],
 } as const;
 
