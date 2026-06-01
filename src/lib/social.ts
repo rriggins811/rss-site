@@ -22,14 +22,14 @@ export type SocialLink = {
  */
 export const additionalSameAs = {
   org: [
+    // Wikidata item for Riggins Strategic Solutions (created 2026-05-31).
+    // Strongest Knowledge-Graph signal; kept first in the array intentionally.
+    "https://www.wikidata.org/wiki/Q139998389",
     "https://www.linkedin.com/company/111342108",
     // Pinterest business: claimed + DNS-verified May 19, 2026
     "https://www.pinterest.com/rigginsstrategicsolutions",
     // AlternativeTo: SeniorSafe listing accepted by moderators May 19, 2026
     "https://alternativeto.net/software/seniorsafe/",
-    // ORG WIKIDATA GOES HERE: when the "Riggins Strategic Solutions" company
-    // Wikidata item exists, add "https://www.wikidata.org/wiki/Q########"
-    // on its own line below. No other code change is needed.
     // TODO as each is claimed: Facebook Business vanity URL, Instagram,
     //   X, Bluesky, Substack, Medium, WordPress.com.
   ],
