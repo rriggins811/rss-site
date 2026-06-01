@@ -171,30 +171,73 @@ export async function POST(req: Request) {
   // missing fields on the attribution blob are simply absent — never empty
   // strings — so organic leads are visually distinct from ad-driven leads
   // when querying raw_payload->>'attribution'.
+  const formType = isLeadMagnetFlow
+    ? `lead-magnet-${magnet!.slug}`
+    : "starter-guide";
+
+  // Idempotency guard. The endpoint gets hit twice per signup (a ~2s retry
+  // on the slow downstream fan-out below), which previously wrote two leads
+  // rows AND fired two Twilio "new signup" texts. A unique index on
+  // (lower(email), form_type, dedupe_hour) backs this: upsert with
+  // ignoreDuplicates returns the row on a genuine first insert and an EMPTY
+  // result on a same-hour duplicate. We then ONLY run the Blueprint + GHL +
+  // Twilio fan-out when a new row was actually created, so a retry/double-
+  // submit produces exactly one row and one notification. A real re-signup
+  // in a later hour still flows normally.
   const sb = getServiceSupabase();
-  const { error: insertErr } = await sb.from("leads").insert({
-    // form_type distinguishes "starter-guide" (Blueprint signup flow) from
-    // "lead-magnet-<slug>" (PDF-only capture). Same leads table, different
-    // downstream nurture sequences depending on form_type.
-    form_type: isLeadMagnetFlow ? `lead-magnet-${magnet!.slug}` : "starter-guide",
-    email: lead.email,
-    first_name: lead.first_name,
-    last_name: lead.last_name,
-    phone: lead.phone,
-    message: null,
-    source,
-    raw_payload: {
-      ...ghlPayload,
-      ip,
-      ...(attribution ? { attribution } : {}),
-      ...(magnet ? { magnet: magnet.slug } : {}),
-    },
-  });
+  const { data: insertedRows, error: insertErr } = await sb
+    .from("leads")
+    .upsert(
+      {
+        // form_type distinguishes "starter-guide" (Blueprint signup flow)
+        // from "lead-magnet-<slug>" (PDF-only capture). Same leads table,
+        // different downstream nurture sequences depending on form_type.
+        form_type: formType,
+        email: lead.email,
+        first_name: lead.first_name,
+        last_name: lead.last_name,
+        phone: lead.phone,
+        message: null,
+        source,
+        raw_payload: {
+          ...ghlPayload,
+          ip,
+          ...(attribution ? { attribution } : {}),
+          ...(magnet ? { magnet: magnet.slug } : {}),
+        },
+      },
+      { onConflict: "lower(email),form_type,dedupe_hour", ignoreDuplicates: true }
+    )
+    .select("id");
   if (insertErr) {
     console.error(
-      `[${isLeadMagnetFlow ? "lead-magnet" : "starter-guide"}] supabase insert failed`,
+      `[${isLeadMagnetFlow ? "lead-magnet" : "starter-guide"}] supabase upsert failed`,
       insertErr
     );
+  }
+
+  // A same-hour duplicate returns zero rows. Skip the entire downstream
+  // fan-out (Blueprint signup, GHL webhook, ghl-proxy tag, and the Twilio
+  // SMS that fires inside Blueprint's notifyFreeSignup) so the duplicate is
+  // silently absorbed: no second row, no second text. Still return success
+  // so the user's form shows the normal confirmation.
+  const isDuplicate = !insertErr && (!insertedRows || insertedRows.length === 0);
+  if (isDuplicate) {
+    console.info(
+      `[${isLeadMagnetFlow ? `lead-magnet:${magnet!.slug}` : "starter-guide"}] duplicate within the hour for ${lead.email} — skipping fan-out`
+    );
+    if (isLeadMagnetFlow) {
+      return NextResponse.json(
+        {
+          ok: true,
+          message: "Check your inbox in the next minute.",
+          magnet: magnet!.slug,
+          downloadUrl: magnetAbsoluteUrl(magnet!),
+        },
+        { status: 200 }
+      );
+    }
+    return SUCCESS;
   }
 
   // Branch fan-out. BOTH branches now run the full Blueprint signup
