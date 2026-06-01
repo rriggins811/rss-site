@@ -37,7 +37,15 @@ export function trackEvent(name: string, params: EventParams = {}) {
 
 export function trackPageView(path: string) {
   if (!shouldTrack() || !window.gtag) return;
-  window.gtag("config", GA_MEASUREMENT_ID, {
+  // GA4 reads campaign attribution (utm_source/medium/campaign) from
+  // page_location at the moment of the page_view event. Sending a clean
+  // page_path via gtag('config', ...) made GA4 ignore the UTMs on the
+  // landing URL, so paid traffic was bucketed as Direct/Organic. Fire a
+  // proper GA4 page_view EVENT that includes the full URL with its query
+  // string so attribution is preserved.
+  window.gtag("event", "page_view", {
     page_path: path,
+    page_location: window.location.href,
+    page_title: typeof document !== "undefined" ? document.title : undefined,
   });
 }
