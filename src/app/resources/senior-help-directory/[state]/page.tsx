@@ -5,11 +5,16 @@ import { compileMDX } from "next-mdx-remote/rsc";
 import { Badge } from "@/components/ui/badge";
 import { GoldRule } from "@/components/site/GoldRule";
 import { JsonLd } from "@/components/site/JsonLd";
-import { breadcrumbListSchema, collectionPageSchema } from "@/lib/schema";
+import {
+  breadcrumbListSchema,
+  collectionPageSchema,
+  faqPageSchema,
+} from "@/lib/schema";
 import {
   DIRECTORY_STATES,
   NATIONAL_ANCHORS,
   countiesForState,
+  isStateIndexable,
   stateBySlug,
 } from "@/lib/directory";
 import { getStateContent } from "@/lib/directory-state-content";
@@ -32,7 +37,6 @@ export async function generateMetadata({
   const state = stateBySlug(slug);
   if (!state) return { title: "State not found" };
 
-  const hasCounties = countiesForState(state.code).length > 0;
   const canonical = `${HUB}/${state.slug}`;
 
   const title = `${state.name} Senior Help Directory: Statewide Programs for Seniors & Families`;
@@ -42,12 +46,11 @@ export async function generateMetadata({
     title,
     description,
     alternates: { canonical },
-    // States are noindex until they gain real depth (a county page, or
-    // verified state-specific data). This keeps the near-duplicate, locator
-    // routed statewide pages out of the index so they cannot be read as thin
-    // doorway content. A state flips to indexed automatically once it has a
-    // county page (hasCounties === true). North Carolina is live.
-    robots: hasCounties ? undefined : { index: false, follow: true },
+    // States are noindex until they gain real depth: either verified
+    // state-specific content (indexable flag) or a county page. This keeps the
+    // thin, locator-only placeholder states out of the index so they cannot be
+    // read as near-duplicate doorway content.
+    robots: isStateIndexable(state) ? undefined : { index: false, follow: true },
     openGraph: {
       title,
       description,
@@ -75,13 +78,21 @@ export default async function StateDirectoryPage({
   const hasCounties = counties.length > 0;
   const canonical = `${HUB}/${state.slug}`;
 
-  // Statewide prose from content/directory-states/<slug>.md (H1, county
-  // section, and source disclaimer stripped by the loader). Falls back to the
-  // national anchor block if a state has no content file yet.
-  const stateBodyMd = getStateContent(slug);
-  const stateBody = stateBodyMd
-    ? (await compileMDX({ source: stateBodyMd })).content
+  // Statewide prose + parsed FAQs from content/directory-states/<slug>.md
+  // (H1, county section, disclaimer, and UNVERIFIED flags stripped by the
+  // loader). Falls back to the national anchor block if a state has no file.
+  const stateContent = getStateContent(slug);
+  const stateBody = stateContent
+    ? (await compileMDX({ source: stateContent.body })).content
     : null;
+  const stateFaqs = stateContent?.faqs ?? [];
+  const faqSchema =
+    stateFaqs.length > 0
+      ? faqPageSchema(
+          stateFaqs.map((f) => ({ q: f.question, a: f.answer })),
+          abs(canonical)
+        )
+      : null;
 
   const breadcrumbs = breadcrumbListSchema([
     { name: "Home", path: "/" },
@@ -121,6 +132,7 @@ export default async function StateDirectoryPage({
     <main>
       <JsonLd data={breadcrumbs} />
       {collection ? <JsonLd data={collection} /> : null}
+      {faqSchema ? <JsonLd data={faqSchema} /> : null}
 
       {/* HERO */}
       <section className="bg-cream">

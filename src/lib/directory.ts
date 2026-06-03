@@ -197,6 +197,14 @@ export type DirectoryState = {
   name: string;
   /** URL slug for /resources/senior-help-directory/<slug>. */
   slug: string;
+  /**
+   * Set true once the state's content file has been enriched with verified,
+   * state-specific data (real program names, figures, sources). Flips the page
+   * from noindex to indexed + adds it to the sitemap even before it has county
+   * pages. States gain indexing either via this flag OR via a county page
+   * (stateHasCounties). Leave unset for the thin, locator-only placeholders.
+   */
+  indexable?: boolean;
 };
 
 /**
@@ -213,12 +221,12 @@ export const DIRECTORY_STATES: DirectoryState[] = [
   { code: "AK", name: "Alaska", slug: "alaska" },
   { code: "AZ", name: "Arizona", slug: "arizona" },
   { code: "AR", name: "Arkansas", slug: "arkansas" },
-  { code: "CA", name: "California", slug: "california" },
+  { code: "CA", name: "California", slug: "california", indexable: true },
   { code: "CO", name: "Colorado", slug: "colorado" },
   { code: "CT", name: "Connecticut", slug: "connecticut" },
   { code: "DE", name: "Delaware", slug: "delaware" },
   { code: "DC", name: "District of Columbia", slug: "district-of-columbia" },
-  { code: "FL", name: "Florida", slug: "florida" },
+  { code: "FL", name: "Florida", slug: "florida", indexable: true },
   { code: "GA", name: "Georgia", slug: "georgia" },
   { code: "HI", name: "Hawaii", slug: "hawaii" },
   { code: "ID", name: "Idaho", slug: "idaho" },
@@ -241,18 +249,18 @@ export const DIRECTORY_STATES: DirectoryState[] = [
   { code: "NH", name: "New Hampshire", slug: "new-hampshire" },
   { code: "NJ", name: "New Jersey", slug: "new-jersey" },
   { code: "NM", name: "New Mexico", slug: "new-mexico" },
-  { code: "NY", name: "New York", slug: "new-york" },
+  { code: "NY", name: "New York", slug: "new-york", indexable: true },
   { code: "NC", name: "North Carolina", slug: "north-carolina" },
   { code: "ND", name: "North Dakota", slug: "north-dakota" },
   { code: "OH", name: "Ohio", slug: "ohio" },
   { code: "OK", name: "Oklahoma", slug: "oklahoma" },
   { code: "OR", name: "Oregon", slug: "oregon" },
-  { code: "PA", name: "Pennsylvania", slug: "pennsylvania" },
+  { code: "PA", name: "Pennsylvania", slug: "pennsylvania", indexable: true },
   { code: "RI", name: "Rhode Island", slug: "rhode-island" },
   { code: "SC", name: "South Carolina", slug: "south-carolina" },
   { code: "SD", name: "South Dakota", slug: "south-dakota" },
   { code: "TN", name: "Tennessee", slug: "tennessee" },
-  { code: "TX", name: "Texas", slug: "texas" },
+  { code: "TX", name: "Texas", slug: "texas", indexable: true },
   { code: "UT", name: "Utah", slug: "utah" },
   { code: "VT", name: "Vermont", slug: "vermont" },
   { code: "VA", name: "Virginia", slug: "virginia" },
@@ -277,7 +285,23 @@ export function stateBySlug(slug: string): DirectoryState | undefined {
   return DIRECTORY_STATES.find((s) => s.slug === slug);
 }
 
-/** States that currently have county pages (the indexable, sitemapped ones). */
+/** States that currently have county pages. */
 export function statesWithCounties(): DirectoryState[] {
   return DIRECTORY_STATES.filter((s) => stateHasCounties(s.code));
+}
+
+/**
+ * States safe to index + sitemap: either enriched with verified state-specific
+ * content (indexable flag) or backed by at least one county page. The thin,
+ * locator-only placeholder states are excluded until they earn one of those.
+ */
+export function indexableStates(): DirectoryState[] {
+  return DIRECTORY_STATES.filter(
+    (s) => s.indexable || stateHasCounties(s.code)
+  );
+}
+
+/** Whether a single state page should be indexed. */
+export function isStateIndexable(state: DirectoryState): boolean {
+  return Boolean(state.indexable) || stateHasCounties(state.code);
 }
