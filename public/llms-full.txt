@@ -4,8 +4,8 @@ This file is the long-form companion to https://rigginsstrategicsolutions.com/ll
 It contains the full Markdown of every key page and every blog post, intended
 for AI crawlers that ingest content for answer generation.
 
-Generated: 2026-05-27
-Total blog posts indexed: 25
+Generated: 2026-06-03
+Total blog posts indexed: 30
 
 For citation guidance, organizational facts, and topic depth, see the summary
 index at https://rigginsstrategicsolutions.com/llms.txt.
@@ -145,8 +145,611 @@ Inputs: parent's current Medicare plan (Original, Advantage, with/without supple
 
 # Blog Posts (newest first)
 
-The 25 posts below are the full body of every published article
+The 30 posts below are the full body of every published article
 on https://rigginsstrategicsolutions.com/blog, in reverse chronological order.
+
+---
+
+# The Guilford County Senior Help Directory: Programs Most Families Never Hear About
+https://rigginsstrategicsolutions.com/blog/guilford-county-senior-help-directory
+Published: 2026-06-03
+
+**Excerpt:** A plain-English directory of senior assistance in Guilford County and NC: Meals on Wheels, LIEAP energy help, SHIIP Medicare, NC MedAssist prescriptions, home repair grants, PACE, Legal Aid, and the 3 numbers that open most doors. Free.
+
+*By Ryan Riggins, Riggins Strategic Solutions. NC Real Estate License #361546, eXp Realty.*
+
+*Last updated June 3, 2026. Important: I am a licensed North Carolina real estate agent, but Riggins Strategic Solutions is an education and media company, not a real estate sales business. I am not here to list or sell your house. I am also not a financial advisor and not an attorney. This is general education only, not financial, tax, medical, or legal advice. Programs, income limits, and contacts change, so verify current details with each program before you rely on them.*
+
+When my own family started navigating a senior transition, I learned fast that the help is out there, but nobody hands you the list. Caseworkers are stretched thin, websites are scattered, and most families find out about a program a year after they needed it. So here's the list, in plain English, for Guilford County and North Carolina. Most of it is built for seniors (age 60 or 65 and up), but several of these will help anyone who's stretched thin.
+
+If you only remember three phone numbers, remember these. They open most of the doors below.
+
+- **NC 211:** dial **2-1-1** (or 1-888-892-1162). Free, 24/7, every county. The "I don't know where to start" number. They route you to rent, utility, food, and medical help near you.
+- **Senior Resources of Guilford:** the local hub for anyone 60+. Meals, in-home help, caregiver support, and more.
+- **Guilford County DSS:** **336-641-3000.** The front door for energy assistance, food benefits, and Medicaid.
+
+One big category has its own guide. If the pressure point is the property tax bill, especially with the 2026 Guilford County reappraisal, I broke those programs out separately in **[NC Senior Property Tax Relief: 5 Guilford County Programs](/blog/nc-senior-property-tax-relief-guilford-county)**.
+
+## Food
+
+- **Meals on Wheels** delivers a hot noon meal to homebound seniors 60+ in Guilford County. Greensboro area **336-333-6981**, High Point/Jamestown **336-884-6981**. Through Senior Resources of Guilford.
+- **SNAP (food stamps)** through Guilford County DSS. SNAP line **336-641-3447.** Income-based, not age-based, so working families qualify too.
+- **Second Harvest Food Bank of Northwest NC** connects you to 470+ pantries and meal programs across the region, including Guilford. **336-744-3456**, secondharvestnwnc.org.
+- **Greensboro Urban Ministry** for emergency food and crisis help.
+
+## Heating, Cooling, and Utility Bills
+
+- **LIEAP (Low Income Energy Assistance Program):** a one-time annual payment toward heating costs. Households with someone 60+ or a disabled adult get a priority sign-up window (typically December), everyone else from January until funds run out. Income under 130% of the federal poverty level. Apply through **Guilford County DSS** or at epass.nc.gov.
+- **Crisis Intervention Program (CIP):** for households in a heating OR cooling emergency (shutoff notice, broken unit). Same office.
+- **Duke Energy** offers customer assistance and a low-income program, ask them directly or let 211 connect you.
+
+## Medicare, Medicaid, and Prescriptions
+
+- **SHIIP (Seniors' Health Insurance Information Program):** free, unbiased Medicare counseling from the NC Department of Insurance. **1-855-408-1212.** Start here before any Medicare decision.
+- **Medicare Savings Programs** help pay Part A and B premiums for lower-income beneficiaries. Apply through DSS or ask SHIIP.
+- **Extra Help / Low-Income Subsidy** cuts Part D prescription drug costs for those who qualify.
+- **NC MedAssist Free Pharmacy Program:** free prescription medications for uninsured NC residents under the income limit (around 300% of the federal poverty level). **1-866-331-1348**, medassist.org. They also run mobile free-pharmacy events.
+
+## Home Repairs and Safety
+
+- **USDA Section 504** grants up to $10,000 for very-low-income homeowners 62+ to remove health and safety hazards (loans available too, combined up to $50,000). For eligible rural areas, check with USDA Rural Development.
+- **City of Greensboro Housing Rehabilitation programs** help income-qualified homeowners with repairs.
+- **PTRC Weatherization:** **336-904-0300.**
+- **Community Housing Solutions of Guilford:** repairs and accessibility modifications (ramps, grab bars). **336-676-6986.**
+
+## Rent, Housing, and Emergency Cash
+
+- **NC 211** is the fastest route to temporary rent and utility help.
+- **Salvation Army** and the **Welfare Reform Liaison Project** (the local community action agency) offer short-term emergency assistance.
+- **Guilford County DSS** administers several emergency and self-sufficiency programs.
+
+## Transportation
+
+- **GTA Access GSO** paratransit, curb-to-curb service inside Greensboro city limits for riders whose disability prevents using fixed-route buses. Reservations **336-333-6589.**
+- **Guilford County** provides senior transportation to meals, senior programs, and adult day care.
+
+## Legal Help
+
+- **Legal Aid of North Carolina** for free civil legal help for low-income residents facing eviction, foreclosure, benefit denials, or scams. This is the one to call before a problem becomes a lawsuit.
+
+## Caregiver Support (help for the family, not just the senior)
+
+- **NC Family Caregiver Support Program**, run locally through Senior Resources of Guilford, offers options counseling, respite care referrals, and support groups so the caregiver doesn't burn out. Family Caregiver Specialist Brent Howerton, **336-373-4816 ext. 240.**
+
+## Staying at Home Instead of a Nursing Home
+
+- **PACE of the Triad** (Program of All-Inclusive Care for the Elderly) coordinates a senior's entire medical care, primary care, day program, therapy, personal care, and transportation, so people who would otherwise qualify for a nursing home can keep living at home. Serves Guilford and surrounding counties. **336-550-4040** (East Greensboro center at 1471 E Cone Blvd).
+
+## How to actually use this list
+
+Don't try to call all of it. Pick the one pressure point that's hurting most right now, food, the power bill, prescriptions, the house, and start with that program or with 211. An adult child can call and help an aging parent apply, just have proof of age, proof of income, and the relevant paperwork handy.
+
+If this helped, share it with a neighbor or a church group. The whole reason these programs go unused is that nobody passes the list along.
+
+## Frequently Asked Questions
+
+### Where do I start finding senior help in Guilford County?
+Start with three numbers. NC 211 (dial 2-1-1) is the free 24/7 line that routes you to rent, utility, food, and medical help. Senior Resources of Guilford is the local hub for anyone 60 and older. Guilford County DSS at 336-641-3000 is the front door for energy assistance, food benefits, and Medicaid.
+
+### How do seniors get help with heating and cooling bills in North Carolina?
+Two programs run through Guilford County DSS. LIEAP is a one-time annual payment toward heating costs, with a priority sign-up window around December for households that include someone 60 or older or a disabled adult. The Crisis Intervention Program helps with a heating or cooling emergency such as a shutoff notice or a broken unit. Apply through DSS or at epass.nc.gov.
+
+### Is there free prescription help in North Carolina?
+Yes. NC MedAssist runs a free pharmacy program that mails prescription medications to uninsured North Carolina residents under the income limit, around 300% of the federal poverty level. Call 1-866-331-1348 or visit medassist.org. For Medicare drug costs, the Extra Help program lowers Part D costs for those who qualify.
+
+### Can a senior get full medical care and still live at home instead of a nursing home?
+Yes. PACE of the Triad coordinates a senior's entire medical care, including primary care, a day program, therapy, personal care, and transportation, so someone who would otherwise qualify for a nursing home can keep living at home. It serves Guilford and surrounding counties. Call 336-550-4040.
+
+### How can a homebound senior in Guilford County get meals?
+Meals on Wheels delivers a hot noon meal to homebound seniors 60 and older through Senior Resources of Guilford. Call 336-333-6981 in the Greensboro area or 336-884-6981 for High Point and Jamestown. For grocery help, SNAP is available through Guilford County DSS at 336-641-3447, and it is income-based so working families can qualify too.
+
+### Is there free legal help for low-income seniors in NC?
+Yes. Legal Aid of North Carolina provides free civil legal help to low-income residents facing eviction, foreclosure, benefit denials, or scams. It is the one to call before a problem becomes a lawsuit.
+
+*I'm Ryan Riggins. I spent years on the investor side of real estate, then switched to [educating families through senior transitions](/freeguide) so they don't get taken advantage of during the hardest season of their lives. This guide is free. If it helped, pass it on.*
+
+*Ryan Riggins | Riggins Strategic Solutions | NC Real Estate License #361546 | eXp Realty | rigginsstrategicsolutions.com*
+
+*Disclaimer: Ryan Riggins is a licensed North Carolina real estate agent (#361546, eXp Realty). Riggins Strategic Solutions is an education and media company, not a real estate sales business. This guide is not a solicitation to buy, sell, or list your home, and it is not financial, tax, medical, or legal advice. We are not financial advisors, tax advisors, attorneys, or medical providers. Programs, income limits, contacts, and deadlines change and vary by individual situation. Confirm current details directly with each program or a licensed professional before making any decision.*
+
+---
+
+# NC Senior Property Tax Relief: 5 Programs Guilford County Won't Hand You (and 1 That's a Trap)
+https://rigginsstrategicsolutions.com/blog/nc-senior-property-tax-relief-guilford-county
+Published: 2026-06-03
+
+**Excerpt:** How NC seniors can lower their property tax bill: the Homestead Exclusion, Circuit Breaker, Disabled Veteran exclusion, Greensboro's reimbursement, and value appeals. Income limits, deadlines, and phone numbers. Free, plain English.
+
+*By Ryan Riggins, Riggins Strategic Solutions. NC Real Estate License #361546, eXp Realty.*
+
+*Last updated June 3, 2026. Important: I am a licensed North Carolina real estate agent (#361546, eXp Realty), but Riggins Strategic Solutions is an education and media company, not a real estate sales business. I am not here to list or sell your house. I am also not a financial advisor and not an attorney. This is general education only, not financial, tax, or legal advice. Verify everything with the Guilford County Tax Department or a licensed professional before you act.*
+
+On June 2, a Greensboro homeowner stood up at a city council meeting and said out loud what a lot of folks around here are feeling: the tax bill, the utilities, the insurance, the solid waste fee, all of it climbing at once, and seniors on fixed incomes wondering how much longer they can afford the house they've lived in for thirty years.
+
+She's not wrong, and she's not alone. Guilford County is in the middle of a 2026 reappraisal. Home values jumped on paper, and even with a proposed rate cut, a lot of bills are going up anyway. The comments under that post were full of people saying the same thing: "the income limit is too low," "we're retired and on disability and we still don't qualify."
+
+So here's what nobody packaged up for them at that meeting. There are real programs that can help. There's also one that looks like help and quietly takes a bite out of your house. I spent years on the investor side of real estate before I switched to helping families, so let me walk you through it straight, the way I'd want somebody to walk my own parents through it.
+
+**Quick note on city vs. county.** Your property tax bill includes both a Guilford County rate and a City of Greensboro rate, charged against the same home value. The big exclusions below (the Homestead Exclusion and the Disabled Veteran Exclusion) lower that taxable value, so they cut your whole bill, county and city both. The Circuit Breaker caps your total tax. The Greensboro reimbursement (program 4) is the only city-only one. You apply for the county-administered programs through the Guilford County Tax Department.
+
+## 1. The Homestead Exclusion (the big one most people miss)
+
+This is the one to start with. If you're 65 or older, or totally and permanently disabled, and the home is your permanent residence, you can knock the **greater of $25,000 or 50% off the taxable value** of your home.
+
+- **Income limit (2026): $38,800.** That's your total income from all sources for 2025, and yes, Social Security counts.
+- **One application.** Once you're approved it stays in place until you move or your income crosses the line. No repayment, no lien, no catch.
+- **Deadline: June 1** for that tax year.
+- **Apply through the Guilford County Tax Department.**
+
+For most qualifying seniors, this is straight money off the bill every year, and a lot of people who qualify have simply never applied.
+
+## 2. The Circuit Breaker (this is the one that can bite you)
+
+The Circuit Breaker has a higher income limit, so it catches the married couples who make too much for the Homestead. It caps your property tax at a percentage of your income (4% up to the Homestead limit, 5% above it, up to the cutoff).
+
+- **Income limit (2026): $58,200.**
+
+Here's the part nobody explains at the council meeting. The Circuit Breaker is a **deferral, not an exclusion.** The difference between what you pay and what you actually owe doesn't disappear, it becomes a **lien on your house at 6% interest.** The last three years of deferred taxes come due when the home is sold or the owner passes away.
+
+If a family is planning to sell that home in a few years to pay for assisted living, that deferred balance can eat several thousand dollars of equity right at closing, exactly when they need it most. (If a sale is anywhere on the horizon, our free [Net Proceeds Calculator](/tools/net-proceeds-calculator) shows what you would actually walk away with after a payoff like this.) That doesn't make the Circuit Breaker bad. It makes it a tool you use on purpose, with your eyes open, not a thing you sign up for because someone at the counter suggested it. If you know you'll be in the home for the long haul, or the family has planned for the payoff, it can be the smarter move than skipping medication to cover a tax bill. Just know what you're signing.
+
+## 3. The Disabled Veteran Exclusion (no income limit)
+
+If you, your spouse, or a parent is a veteran with a 100% VA disability rating (or qualifies under the program's service-connected rules), you can exclude **$45,000 off the home's taxable value, with no income limit and no age requirement.** Surviving spouses can qualify too. This one gets overlooked constantly because people assume there's an income test. There isn't.
+
+## 4. Greensboro's Low-Income Homeowner Assistance (the "rollback" the councilwoman mentioned)
+
+When the councilwoman pointed to "a tax rollback through the city," this is it. The City of Greensboro will cut a **check for the difference** between your 2021 and 2024 city property taxes if you qualify.
+
+- **Income limit: $54,800 or less (household).**
+- Average check has run a little over $200, minimum $50, no set maximum.
+- **Deadline to apply: October 31.**
+- You must live inside the city limits, and **you can't double-dip** if you've already received help through a Guilford County assistance program.
+- Apply on the City of Greensboro website (Housing & Neighborhood Development).
+
+## 5. Appeal Your Assessed Value (the move almost nobody makes)
+
+You can't change the tax rate. But you *can* challenge what the county says your home is worth. If the 2026 reappraisal pushed your value up further than comparable sales in your neighborhood support, you can file an appeal with the county and, if needed, the Board of Equalization and Review. Knock the assessed value down and the bill drops with it. Watch the deadline on your reappraisal notice, it's tight.
+
+## What about "moving income into a trust or LLC" to qualify?
+
+I get this question a lot from sharp people trying to think their way around the limit, and I want to be honest with you because the line between smart planning and fraud is real here.
+
+**It does not work for property taxes, and it can get you in trouble.** A Medicaid Asset Protection Trust works because Medicaid looks at *assets* after a five-year lookback. Property tax relief looks at *income*, and NC defines income broadly, Social Security, pensions, retirement distributions, trust income, all of it. Funneling Social Security into an LLC or trust doesn't remove it from the calculation because you're still the one it belongs to. The assessor's office is trained to catch exactly that, and the penalty is losing the exclusion plus back taxes.
+
+What *is* legitimate: managing voluntary retirement withdrawals to stay under a threshold, Qualified Charitable Distributions (QCDs) for folks 70.5+ who can send IRA money straight to a charity so it doesn't count as income, and appealing your assessed value. Those are real tools. The trust shortcut isn't.
+
+## The honest bottom line
+
+If a married couple's only income is two Social Security checks, they may already clear the $38,800 Homestead limit, and the Circuit Breaker (with its lien) becomes the only state option. That's a real gap, and it's why folks are speaking up at council meetings. The limits haven't kept pace with Social Security. There's pending legislation in Raleigh (House Bill 432) that would raise them, but it stalled in the Senate and is not law, so it doesn't help anyone's bill today.
+
+What you *can* do today: check the Homestead first, look hard at the veteran exclusion, see if you qualify for Greensboro's reimbursement, and appeal your value if the reappraisal overshot. Don't leave money on the table because nobody handed you the list.
+
+## How to apply (start here)
+
+- **Guilford County Tax Department** for the Homestead, Circuit Breaker, Disabled Veteran, and value appeals. Call **(336) 641-3345** or visit guilfordcountync.gov (Tax Department, Property Tax Relief).
+- **City of Greensboro Low-Income Homeowner Assistance** by calling **(336) 373-2349** or applying at greensboro-nc.gov (Housing & Neighborhood Development).
+- An adult child can help an aging parent gather paperwork and apply. Bring proof of age, proof of income, and the deed.
+
+## Frequently Asked Questions
+
+### What is the income limit for North Carolina's senior Homestead Exclusion in 2026?
+For 2026 the income limit is $38,800. That is your total income from all sources for 2025, and Social Security counts. If you qualify, the Homestead Exclusion removes the greater of $25,000 or 50% of your home's taxable value. The deadline to apply is June 1, through the Guilford County Tax Department.
+
+### What is the NC Circuit Breaker property tax deferment, and what is the catch?
+The Circuit Breaker has a higher 2026 income limit of $58,200 and caps your property tax at 4% or 5% of income. The catch is that it is a deferral, not an exclusion. The difference you do not pay becomes a lien on your home at 6% interest, and the last three years of deferred taxes come due when the home is sold or the owner passes away.
+
+### Does the disabled veteran property tax exclusion have an income limit?
+No. The Disabled Veteran Exclusion takes $45,000 off your home's taxable value with no income limit and no age requirement. It applies to veterans with a 100% VA disability rating or who qualify under the service-connected rules, and surviving spouses can qualify too. People skip it because they wrongly assume there is an income test.
+
+### What is Greensboro's Low-Income Homeowner Assistance Program?
+It is a City of Greensboro program that sends you a check for the difference between your 2021 and 2024 city property taxes. The household income limit is $54,800 or less, the average check has run a little over $200, and the deadline to apply is October 31. You must live inside the city limits and cannot combine it with a Guilford County assistance program.
+
+### Can I move income into a trust or LLC to qualify for property tax relief?
+No. Property tax relief is based on income, which North Carolina defines broadly to include Social Security, pensions, and retirement and trust distributions. Funneling that income into an LLC or trust does not remove it from the calculation because it still belongs to you, and the assessor is trained to catch it. The penalty is losing the exclusion plus back taxes.
+
+### What is the deadline to apply for the NC senior Homestead Exclusion?
+June 1 of the tax year. You apply once through the Guilford County Tax Department, and once approved the exclusion stays in place until you move or your income rises above the limit. There is no repayment and no lien.
+
+### Can I appeal my 2026 Guilford County property reappraisal?
+Yes. You cannot change the tax rate, but you can challenge the assessed value. If the 2026 reappraisal pushed your value higher than comparable sales support, file an appeal with the county and, if needed, the Board of Equalization and Review. Watch the deadline on your reappraisal notice, because it is tight.
+
+## More help beyond your tax bill
+
+Property tax is just one line on the budget. If you or your parents are stretched thin, North Carolina and Guilford County have more help than most people realize. A few worth knowing:
+
+- **Heating and cooling bills:** LIEAP (a one-time annual heating payment) and the Crisis Intervention Program for emergencies. Seniors 60+ and disabled adults get an early sign-up window. Apply through Guilford County DSS.
+- **Food:** Meals on Wheels for homebound seniors 60+ through Senior Resources of Guilford (336-333-6981), plus SNAP and pantries connected through Second Harvest Food Bank (336-744-3456).
+- **Medicare costs:** Free, unbiased counseling through SHIIP (1-855-408-1212), plus Medicare Savings Programs and Extra Help that pay premiums and drug costs.
+- **Prescriptions:** NC MedAssist runs a free pharmacy program for uninsured residents under the income limit (1-866-331-1348).
+- **Home repairs:** Grants for homeowners 62+ to fix health and safety hazards, plus City of Greensboro and weatherization programs.
+- **Staying at home:** PACE of the Triad coordinates full medical care so seniors who would otherwise need a nursing home can stay in their own house (336-550-4040).
+
+Three numbers open most of these doors: **Senior Resources of Guilford**, **NC 211** (just dial 2-1-1), and **Guilford County DSS (336-641-3000)**.
+
+We put the full rundown, every program, who qualifies, and how to reach it, in a companion guide: **[The Guilford County Senior Help Directory](/blog/guilford-county-senior-help-directory)**.
+
+*I'm Ryan Riggins. I spent years on the investor side of real estate, then switched to [educating families through senior transitions](/freeguide) so they don't get taken advantage of during the hardest season of their lives. This guide is part of that work, and it's free. If it helped, share it with a neighbor who needs it.*
+
+*Ryan Riggins | Riggins Strategic Solutions | NC Real Estate License #361546 | eXp Realty | rigginsstrategicsolutions.com*
+
+*Disclaimer: Ryan Riggins is a licensed North Carolina real estate agent (#361546, eXp Realty). Riggins Strategic Solutions is an education and media company, not a real estate sales business. This guide is not a solicitation to buy, sell, or list your home. We are not financial advisors, not tax advisors, and not attorneys, and nothing here is financial, tax, or legal advice. Programs, income limits, rates, and deadlines change and vary by individual situation. Confirm current details with the Guilford County Tax Department, the City of Greensboro, or a licensed tax or legal professional before making any decision.*
+
+---
+
+# Your Parents' Reverse Mortgage Could Be Running Out of Money. Here Is What to Check.
+https://rigginsstrategicsolutions.com/blog/reverse-mortgage-running-out-of-money-what-to-check
+Published: 2026-06-03
+
+**Excerpt:** A federal watchdog just found more than 1,200 reverse mortgages where the account that pays property taxes and insurance is draining years early. Here is what that means for your family, and how to fund senior care without losing the house.
+
+When I was on the buying side of real estate, a paid-off house owned by an older couple with no plan was the easiest conversation I ever had. I would knock, they would be overwhelmed, and the home would change hands for a number that made my year and cost them theirs. I am not proud of that. It is the exact reason I read government audits about reverse mortgages now instead of working angles around them.
+
+And one of those audits this spring is worth your attention, because it points at a problem that hides inside a financial product millions of older homeowners think of as safe and finished.
+
+Here is the short version. A reverse mortgage is not a set-it-and-forget-it product. It is a loan with moving parts. And the moving parts just started moving faster than anyone planned for.
+
+## What the federal watchdog actually found
+
+The U.S. Department of Housing and Urban Development runs the country's main reverse mortgage program, the Home Equity Conversion Mortgage, or HECM. For borrowers the program considers financially vulnerable, HECM requires a special account called a Life Expectancy Set-Aside, or LESA. The LESA exists to pay the borrower's property taxes and homeowners insurance, so the senior does not fall behind on the two bills that can trigger a default.
+
+In a recent audit, HUD's own Office of Inspector General found that those set-aside accounts are draining roughly six years sooner than the program assumed. Auditors reviewed loans with early signs of depletion and found that most sampled cases were already empty or projected to run out about six years ahead of HUD's estimates. The watchdog flagged more than 1,200 borrowers at heightened risk, and pegged HUD's own potential losses at up to $258 million, as reported by HousingWire in May 2026.
+
+The cause is not exotic. It is the same thing squeezing every homeowner in America right now. Property tax assessments and homeowners insurance premiums have climbed faster than the numbers baked into those accounts years ago. The cushion was sized for a gentler world.
+
+## Why this is a quiet emergency, not a headline
+
+The dangerous part of this story is how invisible it is. A reverse mortgage statement looks fine month after month. The set-aside is doing its job, paying the taxes and the insurance on schedule, and the family relaxes. Nobody is watching the balance trend toward zero.
+
+Then comes the year the account is empty. Suddenly the homeowner, often someone in their eighties on a fixed income, has to start paying the full property tax bill and the full insurance premium out of pocket. If they cannot, they fall behind. And falling behind on taxes or insurance is one of the few things that can push a reverse mortgage into default. A defaulted reverse mortgage puts the home itself on the line.
+
+So the family that thought the house was handled discovers, with almost no warning, that it is not. That is the trap. It is not that reverse mortgages are evil. It is that the part most families never understood, what happens when the cushion runs out, is now arriving years earlier than the paperwork promised.
+
+## The bigger picture: care costs are the reason this matters so much
+
+Step back and the reverse mortgage problem is really a symptom of a larger squeeze on older families: the cost of care has gotten enormous, and the home is usually the only asset big enough to cover it.
+
+The 2025 CareScout Cost of Care Survey, published by Genworth, lays the numbers out plainly. The national median cost of assisted living is now $6,200 a month, which is $74,400 a year. A semi-private room in a nursing home runs about $114,975 a year, and a private room about $129,575. In-home, non-medical caregiving sits around $35 an hour, which works out to roughly $80,000 a year at 44 hours a week.
+
+Those are not numbers most retirement accounts absorb easily. For a huge share of middle-income families, the only asset large enough to fund years of care is the paid-off home. Which means the home is doing double duty: it is where your parent lives, and it is the war chest for the care your parent may need. A reverse mortgage that quietly defaults does not just cost a house. It can wipe out the one funding source the family was counting on.
+
+## What it means for your family
+
+If there is a reverse mortgage anywhere in your family, this is not a someday problem. Here is how I would think about it.
+
+First, understand that the home is a financial instrument now, not just a place. The decision about whether to keep it, sell it, or borrow against it is one of the highest-stakes financial moves your family will make, and it deserves to be made on purpose, not in a panic.
+
+Second, understand the timing trap. The single most expensive mistake I watched families make, over and over, was waiting until a crisis to decide what to do with the house. A fall, a stroke, a diagnosis, and suddenly the home has to be sold in two weeks, while the family has no time, no information, and no leverage. That is exactly when a house gets dumped for less than it is worth, and a buyer like the old me walks away happy. A home sold under deadline gets the deferred-repair discount priced straight in.
+
+Third, understand that the protection is mostly attention. Most of what goes wrong here goes wrong because nobody was looking at the right number at the right time.
+
+## Step-by-step: what to actually do this month
+
+### Step 1. Find the projected depletion date.
+If your parents have a reverse mortgage with a LESA, call the servicer and ask directly: when is the set-aside projected to run out? Get it in writing. If the answer is sooner than you expected, you have just bought yourself time to plan instead of being surprised.
+
+### Step 2. Put the future tax and insurance bill in the budget now.
+Once the set-aside empties, those two bills land on the household. Add them to the budget today as a future line item, so the cash is identified before the account hits zero, not after.
+
+### Step 3. Run the stay-or-sell math while everyone is calm.
+Do not wait for the crisis to ask whether the home should be kept or sold. There is a break-even number on staying home versus moving into care, and almost nobody runs it. Run it now, when you can think clearly.
+
+### Step 4. Map the funding plan against real care costs.
+Use the actual cost-of-care figures for your area, not a guess. If assisted living is $74,400 a year and the plan is to fund it from home equity, you need to know how many years that equity actually buys, and what happens after.
+
+### Step 5. Protect the title while you are at it.
+Older, paid-off homes are also the prime target for deed and title fraud. While you have the deed out, sign up for your county's property records alerts if they offer them, and confirm the owner of record still reads your parents' names. It costs almost nothing and closes a door predators count on staying open.
+
+## Frequently Asked Questions
+
+### Can you lose your house with a reverse mortgage?
+Yes, in specific situations. A reverse mortgage does not require monthly principal and interest payments, but the borrower must keep up with property taxes, homeowners insurance, and basic upkeep, and must keep living in the home as a primary residence. Falling behind on taxes or insurance can trigger a default, which can lead to foreclosure. The recent HUD audit matters because the accounts meant to prevent exactly that are running dry early for over 1,200 borrowers.
+
+### What is a LESA on a reverse mortgage?
+A Life Expectancy Set-Aside, or LESA, is an account set up within certain reverse mortgages to pay the borrower's property taxes and homeowners insurance. It is required for borrowers the program considers at higher risk of falling behind. The 2026 HUD Office of Inspector General audit found many of these accounts are depleting about six years sooner than projected, because property taxes and insurance premiums rose faster than expected.
+
+### How much does assisted living cost in 2026?
+According to the 2025 CareScout Cost of Care Survey, the national median cost of assisted living is $6,200 a month, or $74,400 a year. A semi-private nursing home room runs about $114,975 a year, and a private room about $129,575. Actual costs vary widely by location and care level.
+
+### Should we sell our parents' home to pay for care?
+Sometimes it is the right move, sometimes it is not, and the only way to know is to run the numbers before a crisis forces the decision. Compare the cost of staying in the home, including any modifications, against the cost of care plus the equity the home could provide. The worst outcome is selling reactively under deadline, which usually means selling for less than the home is worth.
+
+### How do I protect my parents' home from deed theft?
+Sign up for your county recorder's property records alert service if one exists, so you are notified the moment anything is filed against the home. Pull the deed once a year and confirm the owner of record has not changed. The FBI's latest data shows people over 60 absorb a disproportionate share of real estate fraud losses, and the defense is mostly just checking.
+
+## About Ryan Riggins
+
+Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafe app](https://seniorsafeapp.com).
+
+---
+
+**Run the stay-or-sell math first.** The free Strategic Exit Engine walks through your options when there is a mortgage, a reverse mortgage, or a care bill in the picture: rigginsstrategicsolutions.com/tools/strategic-exit-engine
+
+**Want a step-by-step guide?** The free Simple Blueprint walks through every stage of a senior transition: rigginsstrategicsolutions.com/freeguide
+
+**Ready for the full system?** Senior Transition Blueprint Core, 19 modules and 60+ tools: rigginsstrategicsolutions.com/the-blueprint
+
+**Need a personalized plan?** Blueprint Premium adds a 60-min call and 90 days of email support: rigginsstrategicsolutions.com/blueprint-premium
+
+**Coordinate your family in one place.** SeniorSafe app (web, iPhone, Android): app.seniorsafeapp.com
+
+**Talk it through.** Book a free 20-min call with Ryan: rigginsstrategicsolutions.com/work-with-ryan
+
+### Get the SeniorSafe App
+
+[Download on the App Store](https://apps.apple.com/us/app/seniorsafe-app/id6761343239)
+
+[Get it on Google Play](https://play.google.com/store/apps/details?id=com.rigginsstrategicsolutions.seniorsafe)
+
+Ryan Riggins is the founder of Riggins Strategic Solutions, a consumer protection company for families navigating senior transitions. He spent 8 years in construction project management and house flipping before switching sides. Two books on Amazon. Free resources at rigginsstrategicsolutions.com.
+
+---
+
+# The Roof Scam Built for Seniors: How to Protect Your Parents From Contractor Fraud
+https://rigginsstrategicsolutions.com/blog/protect-elderly-parents-from-roofing-contractor-scams
+Published: 2026-06-01
+
+**Excerpt:** On May 20, 2026, the Texas Attorney General sued a roofing company for taking around $500,000 in work that was never finished, with elderly homeowners among the targets. Here is how the scam works and the three rules that stop it cold.
+
+I spent eight years in construction and house flipping before I switched sides. I have stood on a lot of roofs, written a lot of repair estimates, and sat across from a lot of homeowners who were nervous about what a job was going to cost. So when I read that the Texas Attorney General sued a Dallas-Fort Worth roofing company last month for taking around 500,000 dollars in work that was never finished, I did not need the details explained to me. I have watched this play run from the inside.
+
+The part that still gets me is who it targets. Not the contractor down the street who has been roofing for twenty years. The older homeowner. The one who is home during the day, answers the door alone, and is not about to climb a ladder to check whether the "storm damage" the nice young man just pointed out is even real.
+
+If you have a parent who owns their home, this is one of the easier scams to prevent and one of the most expensive to clean up after. Let me walk you through exactly how it works, what just happened in Texas, and the three rules I would put on your parents' refrigerator today.
+
+## What Just Happened in Texas
+
+On May 20, 2026, Texas Attorney General Ken Paxton announced a lawsuit against a Dallas-Fort Worth area roofing company. The complaint alleges the company used aggressive sales tactics and failed to complete promised roofing work. The figure attached to the case is roughly 500,000 dollars in paid work that was never finished, and the press release specifically notes that elderly Texans were among the people who got hit.
+
+That is not a one-off. Home improvement and repair fraud is one of the most common categories of elder financial abuse in the country, and it spikes every spring and summer when storm season gives door-knockers a reason to be in the neighborhood. The Federal Trade Commission has reported that older adults may have lost as much as 81.5 billion dollars to fraud of all kinds in a single year, with reported losses climbing sharply since 2020. Contractor scams are a meaningful slice of that, and they are particularly cruel because they often take a person's home equity, the one asset most seniors are counting on, and turn it into a hole in the roof and an empty bank account.
+
+Here is the uncomfortable truth from my side of the fence. The honest contractors and the scammers use a lot of the same words. "Storm damage." "We were already in the neighborhood." "We can start tomorrow." The difference is not in the pitch. It is in what they ask you to do next.
+
+## How the Scam Actually Works
+
+Strip away the friendly conversation and almost every version of this scam follows the same five steps.
+
+First, the approach. Someone knocks on the door, usually after a storm, sometimes claiming to be working on a neighbor's house. They offer a free inspection.
+
+Second, the manufactured emergency. They go up, or they say they went up, and they come back down with bad news. The roof is failing. Water is about to get into the structure. It needs to be handled now, before the next rain.
+
+Third, the pressure. There is always a reason to decide today. A discount that expires. A crew that is leaving the area. A price that goes up next week.
+
+Fourth, the deposit. This is the heart of the whole thing. They ask for a large payment up front, often half or more of the total, sometimes the entire amount, before any real work begins.
+
+Fifth, the disappearing act. They do nothing, or they do a fraction of the work with the cheapest materials they can find, and then they stop returning calls. By the time the family realizes the roof was never actually fixed, the money is gone and the company has folded its tent and moved to the next town.
+
+I want to be clear about something, because my construction background is the whole reason I can say it with confidence. A legitimate roofer does not need most of your money before they start. They have suppliers they already have accounts with. They have crews they already pay. They front the materials and collect when the work is done or in honest progress draws tied to actual milestones. When someone needs a giant pile of your cash before a single shingle moves, that is not how the trade works. That is how the scam works.
+
+## What This Means for Your Family
+
+If your parent owns their home, you are the safeguard whether you signed up for it or not. Most of these scams succeed in a narrow window of time, between the knock on the door and the signature on the contract, when an older homeowner is alone and feeling pressured. Your job is to make sure that window never closes without a second set of eyes.
+
+The good news is that the defenses do not require any special expertise. You do not need to know anything about roofing. You need to know three rules, and you need your parents to know them cold.
+
+The other piece worth understanding is the money math, because it explains why seniors are the target. A paid-off or nearly paid-off home is a pool of equity. Scammers know that an older homeowner can often write a large check or pull from savings without a bank loan officer asking questions. There is no underwriting step, no second party reviewing the deal. That is exactly what makes a senior homeowner attractive and exactly why an outside voice, yours, matters so much.
+
+## The Three Rules That Stop It Cold
+
+### Rule One: Never Pay a Large Deposit Up Front
+
+This is the single most important rule, and it filters out the overwhelming majority of scams by itself. A reasonable deposit to hold a spot or order specialty materials is normal in some jobs. Handing over half or all of the money before work begins is not. If a contractor cannot start your job without most of your cash in their pocket, they are telling you they do not have the working capital a real business has. Walk away.
+
+### Rule Two: Verify the License With the State Before You Sign
+
+Most states have an online tool where you can check a contractor's license and registration in under a minute. Look up the company name and the license number they give you. Confirm they are who they say they are, that the license is active, and that there are no obvious red flags. A real operator expects this and will hand you the number without flinching. A scammer will get vague, get annoyed, or suddenly remember they have to be somewhere.
+
+### Rule Three: Get the Full Scope and Price in Writing
+
+A verbal quote on the porch is not a contract. Before any money changes hands, get the entire job in writing: what work will be done, what materials will be used, the total price, the payment schedule tied to actual progress, and a start and finish date. If they will not put it in writing, there is nothing to enforce when the work does not happen. Anything worth paying for is worth documenting.
+
+If you do those three things, you have closed almost every door a contractor scammer tries to walk through. They depend on speed, isolation, and cash. Verification, a second opinion, and a written contract take all three weapons away.
+
+## What to Do If Your Parent Already Signed
+
+If you are reading this because it already happened, move quickly. Stop any further payments immediately. Contact your parent's bank or card company to see whether a recent payment can be disputed or reversed. Document everything, including the contract, any receipts, text messages, and a written timeline of what was promised and what was actually done. File a complaint with your state Attorney General's office and your state contractor licensing board, and report it to the FTC at ReportFraud.ftc.gov. If you suspect your parent was targeted because of their age, the National Elder Fraud Hotline at 1-833-372-8311 can point you to the right resources. The faster you act, the better your odds of recovering money and stopping the operator before they hit the next family.
+
+## Frequently Asked Questions
+
+### How can I tell a real roofing contractor from a scammer?
+The clearest tell is the deposit. A legitimate contractor does not need most of your money before they start, because they front materials and labor and collect as the work progresses. A scammer almost always demands a large up-front payment. Beyond that, a real operator will give you a license number to verify, put the full job in writing, and let you take your time. Pressure to sign and pay today is the warning sign.
+
+### Why do roofing and home repair scammers target elderly homeowners?
+Older homeowners are more likely to be home during the day, more likely to answer the door alone, and less likely to climb up and verify the supposed damage themselves. They also tend to own their homes outright, which means a large amount of equity and the ability to write a big check without a bank reviewing the deal. That combination makes them the preferred target.
+
+### What should my parents do if a contractor knocks on the door after a storm?
+They should not sign anything or pay anything on the spot. The right move is to say they will think it over and call a family member. A real emergency can wait a day for a second opinion, and most "emergencies" a door-knocker invents are not real. Getting a second independent inspection from a contractor they found themselves is the safest path.
+
+### How much of a deposit is normal for roofing work?
+It varies, but a large up-front payment is a red flag. Some jobs involve a modest deposit to order specialty materials, but a contractor asking for half or all of the total before work begins is operating outside how the trade normally functions. Tie any payments to actual progress milestones written into the contract.
+
+### Where do I report a contractor scam?
+Report it to your state Attorney General's office and your state contractor licensing board, and file a complaint with the Federal Trade Commission at ReportFraud.ftc.gov. If your parent was targeted because of their age, the National Elder Fraud Hotline at 1-833-372-8311 can connect you to additional help. Acting quickly improves the odds of recovering money.
+
+## About Ryan Riggins
+
+Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafe app](https://seniorsafeapp.com).
+
+---
+
+**Worried about your parents' home equity? Start with the math.** The free [Net Proceeds Calculator](https://rigginsstrategicsolutions.com/tools/net-proceeds-calculator) shows what selling the family home would actually leave on the table.
+
+**Want a step-by-step guide?** The free Simple Blueprint walks through every stage of a senior transition: rigginsstrategicsolutions.com/freeguide
+
+**Ready for the full system?** Senior Transition Blueprint Core, 19 modules and 60+ tools: rigginsstrategicsolutions.com/the-blueprint
+
+**Need a personalized plan?** Blueprint Premium adds a 60-min call and 90 days of email support: rigginsstrategicsolutions.com/blueprint-premium
+
+**Coordinate your family in one place.** SeniorSafe app (web, iPhone, Android): app.seniorsafeapp.com
+
+**Talk it through.** Book a free 20-min call with Ryan: rigginsstrategicsolutions.com/work-with-ryan
+
+### Get the SeniorSafe App
+
+[Download on the App Store](https://apps.apple.com/us/app/seniorsafe-app/id6761343239)
+
+[Get it on Google Play](https://play.google.com/store/apps/details?id=com.rigginsstrategicsolutions.seniorsafe)
+
+Ryan Riggins is the founder of Riggins Strategic Solutions, a consumer protection company for families navigating senior transitions. He spent 8 years in construction project management and house flipping before switching sides. Two books on Amazon. Free resources at rigginsstrategicsolutions.com.
+
+---
+
+# The Capital Gains Cap on Home Sales Hasn't Moved Since 1997. Senior Sellers Are Paying for It.
+https://rigginsstrategicsolutions.com/blog/capital-gains-cap-1997-senior-home-sellers
+Published: 2026-05-29
+
+**Excerpt:** The federal cap on tax-free home sale profits is still $250,000 single and $500,000 married, the same numbers from 1997. Home prices have tripled in many markets. About 1.9 million senior homeowners are now sitting on gains that blow past the cap, and a bipartisan fix is stuck in committee.
+
+When I was buying houses on the cash side, the first thing I learned about senior sellers was that almost none of them had run the tax math on the sale.
+
+Most had owned the house for 30 or 40 years. They bought it for $60,000, watched it climb to $600,000, and assumed the whole gain was theirs. By the time anyone mentioned capital gains, the contract was already signed and the tax pro was breaking news that should have been broken six months earlier.
+
+That gap, between what families think a senior home sale will net and what it actually nets after taxes, is bigger in 2026 than it has been at any point in the last 30 years. The reason is simple. The federal exclusion on capital gains from a primary home sale has not moved since 1997.
+
+## The Cap That Didn't Move
+
+The current rule is straightforward. When you sell your primary home, the first $250,000 of gain is excluded from federal capital gains tax. If you are married and file jointly, the exclusion is $500,000. You have to have owned and lived in the home as your primary residence for at least 24 months out of the 5 years leading up to the sale.
+
+The Internal Revenue Service published this rule in 1997 as part of the Taxpayer Relief Act. The numbers have never been adjusted. Not for inflation, not for the housing market, not for anything.
+
+For comparison, the federal estate tax exemption has been adjusted dozens of times since 1997. The standard deduction adjusts automatically. Social Security benefits adjust automatically. Almost every other dollar threshold in the federal tax code that touches consumer life has some form of inflation indexing built in.
+
+The home sale exclusion does not. Same number. Year after year.
+
+## What Inflation Did to the Cap
+
+Consumer price inflation since 1997 has been roughly 100 percent. The dollar in 2026 buys about half of what it bought in 1997. If the home sale exclusion had been indexed to inflation when it was written, the current caps would be approximately $500,000 single and $1 million married.
+
+Housing inflation has been even more aggressive. The national median existing home price has more than tripled since 1997. In a long list of markets, including most of California, the Northeast, the Mountain West, and the major Southern metros, prices have quadrupled or more.
+
+That combination, a frozen exclusion plus aggressive home price appreciation, has produced a specific kind of taxpayer the 1997 rule was never designed to catch.
+
+## Who Gets Hit
+
+Take a typical example. A couple bought their house in 1985 for $90,000. They are now in their late 70s. They are ready to downsize. The house is worth $720,000.
+
+Their capital gain is $630,000. If they are married, they exclude $500,000 and pay capital gains tax on $130,000. Depending on their other income and state of residence, that bill can land between $20,000 and $35,000.
+
+If one of them has died and the surviving spouse is selling within two years, the exclusion is still $500,000 because the IRS allows the joint exclusion in that window. Outside that window, the exclusion drops to $250,000 single and the taxable gain jumps to $380,000. The tax bill can exceed $70,000.
+
+According to data cited in the bipartisan More Homes on the Market Act, approximately 1.9 million senior homeowners are currently sitting on gains that already exceed the existing cap. Another 1.4 million sit between the current cap and where an inflation-adjusted cap would be. That is over 3 million households facing a tax bill at sale that earlier generations never saw.
+
+## The "Lock-In" Effect
+
+What happens when seniors face a five-figure or six-figure tax bill just for selling? A lot of them stop selling.
+
+This is called the lock-in effect. Economists at the American Enterprise Institute, the Federal Reserve, and the Tax Policy Center have all documented it. When the tax cost of selling exceeds the inconvenience cost of staying, seniors stay. They age in a house that is too big, too old, and increasingly unsafe for them.
+
+That has knock-on effects on the whole housing market. Inventory dries up. First-time buyers can't find starter homes because the seniors who own them can't afford to sell. The U.S. housing market is currently down millions of homes against the demand curve, and the National Association of Realtors estimates that a meaningful portion of the gap is driven by senior homeowners who refuse to sell because of the tax bill at the end.
+
+In other words, the 1997 cap is now actively hurting the people it was written to help.
+
+## What's Moving in Congress
+
+The bipartisan fix is the More Homes on the Market Act, introduced as H.R.1340 in the House and S.3332 in the Senate. It would double the exclusion to $500,000 single and $1 million married, and it would index the new caps annually for inflation going forward, so this exact problem cannot happen again.
+
+The bill has 94 cosponsors in the House, including 58 Democrats and 36 Republicans. It is sitting in the House Ways and Means Committee. As of late May 2026, no markup is scheduled.
+
+A second bill, the No Tax on Home Sales Act, has also been introduced. It would eliminate capital gains tax on primary home sales entirely. That bill is more aggressive and has fewer cosponsors.
+
+Neither bill has cleared committee. The tax break could move this year if a larger tax package picks one of them up. It could also keep sitting. Senior sellers planning a 2026 transition should not assume relief is coming.
+
+## What Families Can Actually Do
+
+If your parents are within 12 months of selling, here is what to do right now. Most of this is from Module 04 and Module 05 of the Senior Transition Blueprint, and you can pull the same checklist from the [free Simple Blueprint](https://rigginsstrategicsolutions.com/freeguide).
+
+### Pull every capital improvement receipt
+
+Cost basis matters more than people realize. Capital improvements add to the original purchase price and shrink the taxable gain. Roof replacements, kitchen remodels, bathroom renovations, HVAC systems, additions, decks, fences, capitalized landscaping, foundation work, and major plumbing or electrical upgrades all count.
+
+If your parents have owned the house for 40 years, you are looking for 40 years of receipts. Bank statements, credit card records, contractor invoices, permits pulled, anything with a dollar amount tied to a capital improvement. Even rough records, properly documented, are better than no records.
+
+A house that has had $180,000 of documented capital improvements over the years has a higher cost basis. That shrinks the taxable gain by $180,000. At a 20 percent federal rate, that is $36,000 of tax saved.
+
+### Time the sale year against other income
+
+Capital gains tax brackets are tied to total taxable income for the year. A senior who has retirement income at the low end of the bracket pays a lower rate on the gain than one who took a big IRA distribution that same year.
+
+If your parents have flexibility on when to sell, run the math against expected Social Security, pension, IRA distributions, and Roth conversions. A January closing vs. a December closing of the same calendar year can move the federal tax rate from 0 percent to 15 percent on the same gain.
+
+### Use the [Net Proceeds Calculator](https://rigginsstrategicsolutions.com/tools/net-proceeds-calculator) before listing
+
+The biggest surprise in every senior home sale is the gap between the listed price and the check at closing. Agent commission, title fees, repair credits, loan payoff, prorated taxes, and capital gains all eat into the proceeds. The free calculator walks through every line. Two minutes.
+
+### Get a tax pro involved 6 months early
+
+Most families call a tax accountant after the sale closes. By then, every planning opportunity is gone. The sale should be scoped with a tax professional 6 to 12 months before listing, especially if any of the following are true.
+
+Your parents have owned the home for 25 years or more.
+They are in a market where prices have appreciated significantly.
+One spouse has died within the last 2 years.
+There are any home office, rental use, or Section 121 partial-disqualification questions.
+
+The tax pro doesn't have to be expensive. A two-hour consultation with a CPA who specializes in senior real estate can save five figures.
+
+### Don't let the tax bill push them into the wrong sale
+
+This is the one I see most often. The tax math scares the family into accepting a low cash offer because "at least it's done." That's almost never the right move. The tax bill is what it is. Selling for $80,000 less than the home is worth to avoid a $20,000 tax bill is a $60,000 mistake.
+
+If the right answer is to list with an agent and do the work, do the work. If the right answer is owner financing or a strategic exit to spread the gain over multiple tax years, do that. Run the math on every option before letting urgency drive the decision. The [Strategic Exit Engine](https://rigginsstrategicsolutions.com/tools/strategic-exit-engine) walks through all seven sale paths.
+
+## A Note on the Politics
+
+The capital gains cap is a tax policy issue with bipartisan support, but it is sitting in a Ways and Means Committee that has dozens of competing priorities. Both Republican and Democratic members have cosponsored the More Homes on the Market Act. Both real estate industry associations and senior advocacy groups support it.
+
+What's blocking it is not opposition. What's blocking it is bandwidth. Tax legislation moves in big packages. The fix to the home sale cap will move when it gets folded into a larger bill, and that timing is unpredictable.
+
+For families planning a 2026 sale, the right answer is to assume nothing changes and plan accordingly. If the law improves before closing, that is a windfall. If it doesn't, you are still positioned to net the most possible.
+
+## Frequently Asked Questions
+
+### What is the capital gains exclusion on a home sale in 2026?
+
+The federal exclusion is $250,000 of gain for a single seller and $500,000 of gain for married couples filing jointly, assuming the home was your primary residence for at least 24 months out of the 5 years prior to sale. These caps have not been adjusted since 1997.
+
+### Is there a special capital gains exclusion for seniors?
+
+No. The old "over-55 home sale exemption" was repealed in 1997 and replaced with the current $250,000 / $500,000 rule that applies to homeowners of all ages. Some states have additional protections, but at the federal level, there is no senior-specific exclusion.
+
+### How can I prove cost basis on a home owned for 30 or 40 years?
+
+The IRS allows reasonable substantiation, not perfection. Receipts are best. Bank statements and credit card statements showing payments to contractors are next best. Building permits pulled, contractor sworn statements, and even photos of completed work with dates are accepted. A tax pro who specializes in real estate can help reconstruct basis from imperfect records.
+
+### What is the More Homes on the Market Act?
+
+It is a bipartisan bill in Congress, H.R.1340 in the House and S.3332 in the Senate, that would double the home sale capital gains exclusion to $500,000 single and $1 million married, and index it annually for inflation. As of late May 2026, the bill has 94 House cosponsors and remains in the House Ways and Means Committee.
+
+### Does the capital gains tax apply if I'm selling a parent's home after they've died?
+
+It depends on whether you inherited the home or whether you were a co-owner. If you inherited the home at death, your cost basis is the fair market value on the date of death (called a "stepped-up basis"), which usually eliminates most or all of the gain on a quick sale. If your parent transferred title to you while alive, you generally inherit their original cost basis, and the gain can be substantial. This is a meaningful enough difference that families should consult an estate planning attorney before any title transfers.
+
+## About Ryan Riggins
+
+Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafe app](https://seniorsafeapp.com).
+
+---
+
+**Want to run the real math on what your parents will net?** The free [Net Proceeds Calculator](https://rigginsstrategicsolutions.com/tools/net-proceeds-calculator) does it in two minutes. No email gate.
+
+**Want a step-by-step guide?** The free Simple Blueprint walks through every stage of a senior transition: rigginsstrategicsolutions.com/freeguide
+
+**Ready for the full system?** Senior Transition Blueprint Core, 19 modules and 60+ tools: rigginsstrategicsolutions.com/the-blueprint
+
+**Need a personalized plan?** Blueprint Premium adds a 60-min call and 90 days of email support: rigginsstrategicsolutions.com/blueprint-premium
+
+**Coordinate your family in one place.** SeniorSafe app (web, iPhone, Android): app.seniorsafeapp.com
+
+**Talk it through.** Book a free 20-min call with Ryan: rigginsstrategicsolutions.com/work-with-ryan
+
+### Get the SeniorSafe App
+
+[Download on the App Store](https://apps.apple.com/us/app/seniorsafe-app/id6761343239)
+
+[Get it on Google Play](https://play.google.com/store/apps/details?id=com.rigginsstrategicsolutions.seniorsafe)
+
+---
+
+Ryan Riggins is the founder of Riggins Strategic Solutions, a consumer protection company for families navigating senior transitions. He spent 8 years in construction project management and house flipping before switching sides. Two books on Amazon. Free resources at rigginsstrategicsolutions.com.
 
 ---
 
