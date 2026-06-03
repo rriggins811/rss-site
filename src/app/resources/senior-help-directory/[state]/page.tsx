@@ -1,19 +1,18 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { compileMDX } from "next-mdx-remote/rsc";
 import { Badge } from "@/components/ui/badge";
 import { GoldRule } from "@/components/site/GoldRule";
 import { JsonLd } from "@/components/site/JsonLd";
-import {
-  breadcrumbListSchema,
-  collectionPageSchema,
-} from "@/lib/schema";
+import { breadcrumbListSchema, collectionPageSchema } from "@/lib/schema";
 import {
   DIRECTORY_STATES,
   NATIONAL_ANCHORS,
   countiesForState,
   stateBySlug,
 } from "@/lib/directory";
+import { getStateContent } from "@/lib/directory-state-content";
 import { abs } from "@/lib/site";
 
 type RouteParams = { state: string };
@@ -33,24 +32,21 @@ export async function generateMetadata({
   const state = stateBySlug(slug);
   if (!state) return { title: "State not found" };
 
-  const counties = countiesForState(state.code);
-  const hasCounties = counties.length > 0;
+  const hasCounties = countiesForState(state.code).length > 0;
   const canonical = `${HUB}/${state.slug}`;
 
-  const title = hasCounties
-    ? `${state.name} Senior Help Directory: Programs by County`
-    : `${state.name} Senior Help: Free Programs for Seniors & Families`;
-  const description = hasCounties
-    ? `Free, plain-English senior help in ${state.name}, organized by county: food, energy, Medicare, home repair, transportation, legal, and caregiver programs. No sign-up.`
-    : `Free national resources for seniors and families in ${state.name}. County-by-county listings are being added. Start with 211 and the Eldercare Locator.`;
+  const title = `${state.name} Senior Help Directory: Statewide Programs for Seniors & Families`;
+  const description = `Free, plain-English senior help in ${state.name}: Medicare counseling (SHIP), energy assistance (LIHEAP), property tax relief, food, caregiver, and legal help, routed to the right local office. No sign-up.`;
 
   return {
     title,
     description,
     alternates: { canonical },
-    // Empty state pages are noindex until they have at least one county page,
-    // so we never publish thin near-duplicate pages. They flip to indexed
-    // automatically once a county is added (hasCounties === true).
+    // States are noindex until they gain real depth (a county page, or
+    // verified state-specific data). This keeps the near-duplicate, locator
+    // routed statewide pages out of the index so they cannot be read as thin
+    // doorway content. A state flips to indexed automatically once it has a
+    // county page (hasCounties === true). North Carolina is live.
     robots: hasCounties ? undefined : { index: false, follow: true },
     openGraph: {
       title,
@@ -78,6 +74,14 @@ export default async function StateDirectoryPage({
   const counties = countiesForState(state.code);
   const hasCounties = counties.length > 0;
   const canonical = `${HUB}/${state.slug}`;
+
+  // Statewide prose from content/directory-states/<slug>.md (H1, county
+  // section, and source disclaimer stripped by the loader). Falls back to the
+  // national anchor block if a state has no content file yet.
+  const stateBodyMd = getStateContent(slug);
+  const stateBody = stateBodyMd
+    ? (await compileMDX({ source: stateBodyMd })).content
+    : null;
 
   const breadcrumbs = breadcrumbListSchema([
     { name: "Home", path: "/" },
@@ -134,55 +138,59 @@ export default async function StateDirectoryPage({
             {state.name}
           </Badge>
           <h1 className="mt-4 leading-[1.05]">
-            {hasCounties
-              ? `Senior help in ${state.name}, by county.`
-              : `Senior help in ${state.name}.`}
+            {state.name} Senior Help Directory
           </h1>
           <p className="mt-6 text-lg text-ink/80 leading-relaxed">
             {hasCounties
-              ? `Free government and nonprofit programs for seniors and families in ${state.name}. Pick your county for local phone numbers, or use the national resources below, which work anywhere in the state.`
-              : `We are building out ${state.name} county by county. Until your county page is up, the national resources below work statewide. The fastest start is to call 211 or the Eldercare Locator.`}
+              ? `Free statewide programs for seniors and families in ${state.name}, plus county-by-county guides. No sign-up, no email wall.`
+              : `Free statewide programs for seniors and families in ${state.name}. The fastest start is to call 211 or the Eldercare Locator below.`}
           </p>
         </div>
       </section>
 
-      {/* NATIONAL "WORKS ANYWHERE" — placed ABOVE the county list so visitors
-          see statewide resources first, then scroll down to filter by county.
-          On an empty state page this is the only substantive content (useful,
-          not thin). */}
-      <section className="bg-white border-y border-border">
-        <div className="mx-auto max-w-4xl px-6 py-16">
-          <GoldRule />
-          <h2 className="mt-3 text-2xl md:text-3xl">
-            Works anywhere in {state.name}
-          </h2>
-          <p className="mt-3 text-ink/75 leading-relaxed">
-            These national resources reach local services in any county. Start
-            with 211 or the Eldercare Locator and let them route you.
-            {hasCounties ? " For local programs, scroll to your county below." : ""}
-          </p>
-          <ul className="mt-8 space-y-4">
-            {NATIONAL_ANCHORS.map((a) => (
-              <li
-                key={a.name}
-                className="rounded-md border border-border bg-cream/50 p-5"
-              >
-                <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
-                  <span className="font-serif text-lg text-navy-700">
-                    {a.name}
-                  </span>
-                  <span className="font-semibold text-burgundy-700">
-                    {a.contact}
-                  </span>
-                </div>
-                <p className="mt-2 text-sm text-ink/75 leading-relaxed">
-                  {a.desc}
-                </p>
-              </li>
-            ))}
-          </ul>
-        </div>
-      </section>
+      {/* STATEWIDE BODY — renders the per-state content file (which leads with a
+          "works anywhere" section, so statewide resources show first). Falls
+          back to the national anchor list if a state has no file yet. */}
+      {stateBody ? (
+        <section className="bg-white border-y border-border">
+          <div className="mx-auto max-w-4xl px-6 py-14">
+            <article className="prose-rss">{stateBody}</article>
+          </div>
+        </section>
+      ) : (
+        <section className="bg-white border-y border-border">
+          <div className="mx-auto max-w-4xl px-6 py-16">
+            <GoldRule />
+            <h2 className="mt-3 text-2xl md:text-3xl">
+              Works anywhere in {state.name}
+            </h2>
+            <p className="mt-3 text-ink/75 leading-relaxed">
+              These national resources reach local services in any county. Start
+              with 211 or the Eldercare Locator and let them route you.
+            </p>
+            <ul className="mt-8 space-y-4">
+              {NATIONAL_ANCHORS.map((a) => (
+                <li
+                  key={a.name}
+                  className="rounded-md border border-border bg-cream/50 p-5"
+                >
+                  <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
+                    <span className="font-serif text-lg text-navy-700">
+                      {a.name}
+                    </span>
+                    <span className="font-semibold text-burgundy-700">
+                      {a.contact}
+                    </span>
+                  </div>
+                  <p className="mt-2 text-sm text-ink/75 leading-relaxed">
+                    {a.desc}
+                  </p>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </section>
+      )}
 
       {/* COUNTIES (only when present) */}
       {hasCounties ? (

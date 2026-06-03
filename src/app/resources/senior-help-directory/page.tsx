@@ -163,7 +163,7 @@ export default function SeniorHelpDirectoryHubPage() {
       <section className="bg-white">
         <div className="mx-auto max-w-4xl px-6 py-16">
           <GoldRule />
-          <h2 className="mt-3 text-2xl md:text-3xl">Browse by state</h2>
+          <h2 className="mt-3 text-2xl md:text-3xl">Find help by state</h2>
           <p className="mt-3 text-ink/75 leading-relaxed">
             States with county guides are listed first. We are building this
             out one county at a time. If your state is not filled in yet, its
