@@ -114,6 +114,34 @@ export default function ResourcesIndexPage() {
         </div>
       </section>
 
+      <section className="bg-white border-b border-border">
+        <div className="mx-auto max-w-4xl px-6 py-16">
+          <GoldRule />
+          <h2 className="mt-3 text-2xl md:text-3xl">Local help directories</h2>
+          <p className="mt-3 text-sm text-ink/70">
+            Free, plain-English lists of government and nonprofit help for
+            seniors and families, organized by county. No email signup.
+          </p>
+          <ul className="mt-6 space-y-5">
+            <li>
+              <Link
+                href="/resources/senior-help-directory"
+                className="group block rounded-md border border-border bg-cream/50 p-5 hover:border-burgundy-600 transition-colors"
+              >
+                <h3 className="font-serif text-lg sm:text-xl text-navy-700 leading-snug group-hover:text-burgundy-700 transition-colors">
+                  Senior Help Directory
+                </h3>
+                <p className="mt-2 text-sm text-ink/75 leading-relaxed">
+                  Food, energy, Medicare, home repair, transportation, legal,
+                  and caregiver help, organized by county, with the national
+                  numbers that work anywhere. Growing one county at a time.
+                </p>
+              </Link>
+            </li>
+          </ul>
+        </div>
+      </section>
+
       <section className="bg-white">
         <div className="mx-auto max-w-4xl px-6 py-16">
           <GoldRule />
