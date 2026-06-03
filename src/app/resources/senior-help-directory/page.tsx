@@ -8,13 +8,18 @@ import {
   collectionPageSchema,
   faqPageSchema,
 } from "@/lib/schema";
-import { NATIONAL_ANCHORS, DIRECTORY_COUNTIES } from "@/lib/directory";
+import {
+  NATIONAL_ANCHORS,
+  DIRECTORY_COUNTIES,
+  DIRECTORY_STATES,
+  countiesForState,
+} from "@/lib/directory";
 import { abs } from "@/lib/site";
 
 const TITLE =
-  "Senior Help Directory: Free Programs for Seniors & Families (by County)";
+  "Senior Help Directory: Free Programs for Seniors & Families (by State & County)";
 const DESCRIPTION =
-  "A free, plain-English directory of senior assistance: food, energy, Medicare, home repair, transportation, legal, and caregiver help, organized by county. No sign-up.";
+  "A free, plain-English directory of senior assistance: food, energy, Medicare, home repair, transportation, legal, and caregiver help, organized by state and county. No sign-up.";
 const CANONICAL = "/resources/senior-help-directory";
 
 export const metadata: Metadata = {
@@ -42,16 +47,16 @@ const HUB_FAQS: { q: string; a: string }[] = [
     a: "Yes, completely free and open. There is no sign-up, no email wall, and nothing to buy. It lists government and nonprofit programs only.",
   },
   {
-    q: "How do I find senior help in my county?",
-    a: "If your county is listed below, open its page for local programs and phone numbers. If it is not listed yet, three national front doors work in any US county: call 211, call the Eldercare Locator at 1-800-677-1116, or screen for benefits at benefitscheckup.org.",
+    q: "How do I find senior help in my state and county?",
+    a: "Use the national resources at the top, which work anywhere, then pick your state below and open your county for local programs and phone numbers. If your county is not listed yet, call 211 or the Eldercare Locator at 1-800-677-1116, which route to local aging services in any US county.",
   },
   {
     q: "What kind of help does the directory cover?",
     a: "Property tax relief, food, energy and utility bills, Medicare and prescriptions, home repair and safety, transportation, legal help, caregiver support, and full medical care that lets a senior stay at home instead of a nursing home.",
   },
   {
-    q: "My county is not listed yet. What should I do?",
-    a: "We add counties a little at a time. Until yours is up, start with 211 or the Eldercare Locator at 1-800-677-1116, which route to local aging services in any US county.",
+    q: "My state or county is not listed yet. What should I do?",
+    a: "We add states and counties a little at a time. Until yours is up, start with 211 or the Eldercare Locator at 1-800-677-1116, which route to local aging services in any US county.",
   },
 ];
 
@@ -62,6 +67,9 @@ export default function SeniorHelpDirectoryHubPage() {
     { name: "Senior Help Directory", path: CANONICAL },
   ]);
 
+  // Hub ItemList points at the substantive content pages (the live county
+  // guides) so crawlers reach the real content directly, regardless of the
+  // state grouping shown visually.
   const collection = collectionPageSchema({
     name: TITLE,
     description: DESCRIPTION,
@@ -74,6 +82,20 @@ export default function SeniorHelpDirectoryHubPage() {
   });
 
   const faq = faqPageSchema(HUB_FAQS, abs(CANONICAL));
+
+  // States ordered: ones with county guides first (by count, then name),
+  // then the rest alphabetically. Names are already alphabetical in the
+  // registry except NC; a stable sort keeps that order within each group.
+  const statesByActivity = DIRECTORY_STATES.map((s) => ({
+    state: s,
+    count: countiesForState(s.code).length,
+  })).sort((a, b) => {
+    if ((b.count > 0 ? 1 : 0) !== (a.count > 0 ? 1 : 0)) {
+      return (b.count > 0 ? 1 : 0) - (a.count > 0 ? 1 : 0);
+    }
+    if (b.count !== a.count) return b.count - a.count;
+    return a.state.name.localeCompare(b.state.name);
+  });
 
   return (
     <main>
@@ -91,14 +113,14 @@ export default function SeniorHelpDirectoryHubPage() {
             Senior Help Directory
           </Badge>
           <h1 className="mt-6 leading-[1.05]">
-            Free help for seniors and families, organized by county.
+            Free help for seniors and families, organized by state and county.
           </h1>
           <p className="mt-6 text-lg text-ink/80 leading-relaxed">
             Most families find out about a program a year after they needed it.
             This is the list nobody hands you: real government and nonprofit
             help for food, energy bills, Medicare, home repairs,
             transportation, legal trouble, and caregiver support. It is free,
-            there is no sign-up, and we add counties over time.
+            there is no sign-up, and we add states and counties over time.
           </p>
         </div>
       </section>
@@ -137,46 +159,42 @@ export default function SeniorHelpDirectoryHubPage() {
         </div>
       </section>
 
-      {/* BY COUNTY */}
+      {/* BROWSE BY STATE */}
       <section className="bg-white">
         <div className="mx-auto max-w-4xl px-6 py-16">
           <GoldRule />
-          <h2 className="mt-3 text-2xl md:text-3xl">Find help by county</h2>
+          <h2 className="mt-3 text-2xl md:text-3xl">Browse by state</h2>
           <p className="mt-3 text-ink/75 leading-relaxed">
-            County pages list local programs with phone numbers. We are
-            building this out one county at a time.
+            States with county guides are listed first. We are building this
+            out one county at a time. If your state is not filled in yet, its
+            page still points you to the national resources above.
           </p>
-          <ul className="mt-8 space-y-5">
-            {DIRECTORY_COUNTIES.map((c) => (
-              <li key={c.slug}>
-                <div className="group block rounded-md border border-border bg-cream/50 p-5 hover:border-burgundy-600 transition-colors">
-                  <Link href={`/blog/${c.slug}`} className="block">
-                    <div className="flex flex-wrap items-center gap-2">
-                      <h3 className="font-serif text-lg sm:text-xl text-navy-700 leading-snug group-hover:text-burgundy-700 transition-colors">
-                        {c.county}, {c.state}
-                      </h3>
-                      <Badge
-                        variant="secondary"
-                        className="bg-burgundy-100 text-burgundy-700 border-0"
-                      >
-                        {c.metro}
-                      </Badge>
-                    </div>
-                    <p className="mt-2 text-sm text-ink/75 leading-relaxed">
-                      {c.blurb}
-                    </p>
-                  </Link>
-                  {c.taxArticleSlug ? (
-                    <p className="mt-3 text-sm">
-                      <Link
-                        href={`/blog/${c.taxArticleSlug}`}
-                        className="font-semibold text-burgundy-600 hover:text-burgundy-700"
-                      >
-                        Also: property tax relief guide for this county &rarr;
-                      </Link>
-                    </p>
+          <ul className="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
+            {statesByActivity.map(({ state, count }) => (
+              <li key={state.code}>
+                <Link
+                  href={`${CANONICAL}/${state.slug}`}
+                  className={`group flex items-center justify-between gap-2 rounded-md border px-4 py-3 transition-colors ${
+                    count > 0
+                      ? "border-burgundy-200 bg-cream/60 hover:border-burgundy-600"
+                      : "border-border bg-white hover:border-burgundy-400"
+                  }`}
+                >
+                  <span
+                    className={`text-sm leading-snug ${
+                      count > 0
+                        ? "font-semibold text-navy-700 group-hover:text-burgundy-700"
+                        : "text-ink/70 group-hover:text-burgundy-700"
+                    }`}
+                  >
+                    {state.name}
+                  </span>
+                  {count > 0 ? (
+                    <span className="shrink-0 rounded-full bg-burgundy-100 px-2 py-0.5 text-xs font-semibold text-burgundy-700">
+                      {count}
+                    </span>
                   ) : null}
-                </div>
+                </Link>
               </li>
             ))}
           </ul>

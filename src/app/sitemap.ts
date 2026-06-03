@@ -3,6 +3,7 @@ import { getAllPosts } from "@/lib/blog";
 import { getAllMedia } from "@/lib/media";
 import { TOOLS } from "@/lib/tools";
 import { RESOURCES } from "@/lib/resources";
+import { statesWithCounties } from "@/lib/directory";
 import { SITE_URL } from "@/lib/site";
 
 /**
@@ -79,11 +80,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
+  // Senior Help Directory state pages. Only states that actually have county
+  // pages are indexable + sitemapped; empty state pages are noindex (see the
+  // [state] route's generateMetadata) so we never ship thin near-duplicates.
+  const directoryStateEntries: MetadataRoute.Sitemap = statesWithCounties().map(
+    (s) => ({
+      url: `${SITE_URL}/resources/senior-help-directory/${s.slug}`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.7,
+    })
+  );
+
   return [
     ...staticEntries,
     ...blogEntries,
     ...mediaEntries,
     ...toolEntries,
     ...resourceEntries,
+    ...directoryStateEntries,
   ];
 }
