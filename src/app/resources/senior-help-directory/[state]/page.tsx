@@ -146,9 +146,47 @@ export default async function StateDirectoryPage({
         </div>
       </section>
 
+      {/* NATIONAL "WORKS ANYWHERE" — placed ABOVE the county list so visitors
+          see statewide resources first, then scroll down to filter by county.
+          On an empty state page this is the only substantive content (useful,
+          not thin). */}
+      <section className="bg-white border-y border-border">
+        <div className="mx-auto max-w-4xl px-6 py-16">
+          <GoldRule />
+          <h2 className="mt-3 text-2xl md:text-3xl">
+            Works anywhere in {state.name}
+          </h2>
+          <p className="mt-3 text-ink/75 leading-relaxed">
+            These national resources reach local services in any county. Start
+            with 211 or the Eldercare Locator and let them route you.
+            {hasCounties ? " For local programs, scroll to your county below." : ""}
+          </p>
+          <ul className="mt-8 space-y-4">
+            {NATIONAL_ANCHORS.map((a) => (
+              <li
+                key={a.name}
+                className="rounded-md border border-border bg-cream/50 p-5"
+              >
+                <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
+                  <span className="font-serif text-lg text-navy-700">
+                    {a.name}
+                  </span>
+                  <span className="font-semibold text-burgundy-700">
+                    {a.contact}
+                  </span>
+                </div>
+                <p className="mt-2 text-sm text-ink/75 leading-relaxed">
+                  {a.desc}
+                </p>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
       {/* COUNTIES (only when present) */}
       {hasCounties ? (
-        <section className="bg-white border-y border-border">
+        <section className="bg-white">
           <div className="mx-auto max-w-4xl px-6 py-16">
             <GoldRule />
             <h2 className="mt-3 text-2xl md:text-3xl">Find help by county</h2>
@@ -201,41 +239,6 @@ export default async function StateDirectoryPage({
           </div>
         </section>
       ) : null}
-
-      {/* NATIONAL FALLBACK (works anywhere; the only substantive content on
-          an empty state page, so it is useful rather than thin) */}
-      <section className="bg-white">
-        <div className="mx-auto max-w-4xl px-6 py-16">
-          <GoldRule />
-          <h2 className="mt-3 text-2xl md:text-3xl">
-            Works anywhere in {state.name}
-          </h2>
-          <p className="mt-3 text-ink/75 leading-relaxed">
-            These national resources reach local services in any county. Start
-            with 211 or the Eldercare Locator and let them route you.
-          </p>
-          <ul className="mt-8 space-y-4">
-            {NATIONAL_ANCHORS.map((a) => (
-              <li
-                key={a.name}
-                className="rounded-md border border-border bg-cream/50 p-5"
-              >
-                <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
-                  <span className="font-serif text-lg text-navy-700">
-                    {a.name}
-                  </span>
-                  <span className="font-semibold text-burgundy-700">
-                    {a.contact}
-                  </span>
-                </div>
-                <p className="mt-2 text-sm text-ink/75 leading-relaxed">
-                  {a.desc}
-                </p>
-              </li>
-            ))}
-          </ul>
-        </div>
-      </section>
 
       {/* DISCLAIMER */}
       <section className="bg-sand border-t border-border">
