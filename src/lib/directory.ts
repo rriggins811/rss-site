@@ -153,6 +153,15 @@ export const DIRECTORY_COUNTIES: DirectoryCounty[] = [
       "Burlington and Alamance County programs for seniors and families: food, utilities, Medicare, home repair, transportation, legal, and caregiver support.",
   },
   {
+    slug: "randolph-county-senior-help-directory",
+    county: "Randolph County",
+    state: "NC",
+    metro: "Asheboro",
+    region: "Triad",
+    blurb:
+      "Asheboro and Randolph County programs for seniors and families: food, utilities, Medicare, home repair, transportation, legal, and caregiver support.",
+  },
+  {
     slug: "wake-county-senior-help-directory",
     county: "Wake County",
     state: "NC",
