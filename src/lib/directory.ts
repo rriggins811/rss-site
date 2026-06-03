@@ -111,6 +111,12 @@ export type DirectoryCounty = {
    * secondary link on the hub card when present.
    */
   taxArticleSlug?: string;
+  /**
+   * Optional metro/region label (e.g. "Triad", "Triangle"). When counties in
+   * a state carry regions, the state page groups them under region headings
+   * for readability. Omit for states/counties that do not need grouping.
+   */
+  region?: string;
 };
 
 /**
@@ -123,6 +129,7 @@ export const DIRECTORY_COUNTIES: DirectoryCounty[] = [
     county: "Guilford County",
     state: "NC",
     metro: "Greensboro & High Point",
+    region: "Triad",
     blurb:
       "Food, energy, Medicare, home repair, transportation, legal, and caregiver help across Guilford County, plus the three numbers that open most doors.",
     taxArticleSlug: "nc-senior-property-tax-relief-guilford-county",
@@ -132,8 +139,54 @@ export const DIRECTORY_COUNTIES: DirectoryCounty[] = [
     county: "Forsyth County",
     state: "NC",
     metro: "Winston-Salem",
+    region: "Triad",
     blurb:
       "Winston-Salem and Forsyth County programs for seniors and families: food, utilities, Medicare, home repair, transportation, legal, and caregiver support.",
+  },
+  {
+    slug: "alamance-county-senior-help-directory",
+    county: "Alamance County",
+    state: "NC",
+    metro: "Burlington",
+    region: "Triad",
+    blurb:
+      "Burlington and Alamance County programs for seniors and families: food, utilities, Medicare, home repair, transportation, legal, and caregiver support.",
+  },
+  {
+    slug: "wake-county-senior-help-directory",
+    county: "Wake County",
+    state: "NC",
+    metro: "Raleigh",
+    region: "Triangle",
+    blurb:
+      "Raleigh and Wake County programs for seniors and families: food, utilities, Medicare, home repair, transportation, legal, and caregiver support.",
+  },
+  {
+    slug: "durham-county-senior-help-directory",
+    county: "Durham County",
+    state: "NC",
+    metro: "Durham",
+    region: "Triangle",
+    blurb:
+      "Durham County programs for seniors and families, including the county Low-Income Homeowner's Relief tax program: food, utilities, Medicare, transportation, legal, and caregiver support.",
+  },
+  {
+    slug: "orange-county-senior-help-directory",
+    county: "Orange County",
+    state: "NC",
+    metro: "Chapel Hill & Hillsborough",
+    region: "Triangle",
+    blurb:
+      "Chapel Hill, Hillsborough, and Orange County programs for seniors and families: food, utilities, Medicare, home repair, transportation, legal, and caregiver support.",
+  },
+  {
+    slug: "mecklenburg-county-senior-help-directory",
+    county: "Mecklenburg County",
+    state: "NC",
+    metro: "Charlotte",
+    region: "Charlotte",
+    blurb:
+      "Charlotte and Mecklenburg County programs for seniors and families, including free tax-relief application help: food, utilities, Medicare, transportation, legal, and caregiver support.",
   },
 ];
 

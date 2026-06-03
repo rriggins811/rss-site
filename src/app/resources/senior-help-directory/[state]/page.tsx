@@ -86,6 +86,20 @@ export default async function StateDirectoryPage({
     { name: state.name, path: canonical },
   ]);
 
+  // Group counties by region (metro) for readability, preserving the order
+  // each region first appears in the registry. Counties without a region fall
+  // into a single unlabeled group, so states that do not use regions still
+  // render a flat list.
+  const countyGroups: { region: string | null; items: typeof counties }[] = [];
+  for (const c of counties) {
+    const key = c.region ?? null;
+    const existing = countyGroups.find((g) => g.region === key);
+    if (existing) existing.items.push(c);
+    else countyGroups.push({ region: key, items: [c] });
+  }
+  const useRegionHeadings =
+    countyGroups.length > 1 || countyGroups[0]?.region != null;
+
   const collection = hasCounties
     ? collectionPageSchema({
         name: `${state.name} Senior Help Directory`,
@@ -138,40 +152,52 @@ export default async function StateDirectoryPage({
           <div className="mx-auto max-w-4xl px-6 py-16">
             <GoldRule />
             <h2 className="mt-3 text-2xl md:text-3xl">Find help by county</h2>
-            <ul className="mt-8 space-y-5">
-              {counties.map((c) => (
-                <li key={c.slug}>
-                  <div className="group block rounded-md border border-border bg-cream/50 p-5 hover:border-burgundy-600 transition-colors">
-                    <Link href={`/blog/${c.slug}`} className="block">
-                      <div className="flex flex-wrap items-center gap-2">
-                        <h3 className="font-serif text-lg sm:text-xl text-navy-700 leading-snug group-hover:text-burgundy-700 transition-colors">
-                          {c.county}, {c.state}
-                        </h3>
-                        <Badge
-                          variant="secondary"
-                          className="bg-burgundy-100 text-burgundy-700 border-0"
-                        >
-                          {c.metro}
-                        </Badge>
-                      </div>
-                      <p className="mt-2 text-sm text-ink/75 leading-relaxed">
-                        {c.blurb}
-                      </p>
-                    </Link>
-                    {c.taxArticleSlug ? (
-                      <p className="mt-3 text-sm">
-                        <Link
-                          href={`/blog/${c.taxArticleSlug}`}
-                          className="font-semibold text-burgundy-600 hover:text-burgundy-700"
-                        >
-                          Also: property tax relief guide for this county &rarr;
-                        </Link>
-                      </p>
-                    ) : null}
-                  </div>
-                </li>
+            <div className="mt-8 space-y-10">
+              {countyGroups.map((group) => (
+                <div key={group.region ?? "_"}>
+                  {useRegionHeadings && group.region ? (
+                    <h3 className="font-serif text-lg text-burgundy-700 uppercase tracking-wider">
+                      {group.region}
+                    </h3>
+                  ) : null}
+                  <ul className="mt-4 space-y-5">
+                    {group.items.map((c) => (
+                      <li key={c.slug}>
+                        <div className="group block rounded-md border border-border bg-cream/50 p-5 hover:border-burgundy-600 transition-colors">
+                          <Link href={`/blog/${c.slug}`} className="block">
+                            <div className="flex flex-wrap items-center gap-2">
+                              <h4 className="font-serif text-lg sm:text-xl text-navy-700 leading-snug group-hover:text-burgundy-700 transition-colors">
+                                {c.county}, {c.state}
+                              </h4>
+                              <Badge
+                                variant="secondary"
+                                className="bg-burgundy-100 text-burgundy-700 border-0"
+                              >
+                                {c.metro}
+                              </Badge>
+                            </div>
+                            <p className="mt-2 text-sm text-ink/75 leading-relaxed">
+                              {c.blurb}
+                            </p>
+                          </Link>
+                          {c.taxArticleSlug ? (
+                            <p className="mt-3 text-sm">
+                              <Link
+                                href={`/blog/${c.taxArticleSlug}`}
+                                className="font-semibold text-burgundy-600 hover:text-burgundy-700"
+                              >
+                                Also: property tax relief guide for this county
+                                &rarr;
+                              </Link>
+                            </p>
+                          ) : null}
+                        </div>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
               ))}
-            </ul>
+            </div>
           </div>
         </section>
       ) : null}
