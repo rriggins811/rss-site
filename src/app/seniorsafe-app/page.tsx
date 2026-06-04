@@ -140,6 +140,16 @@ export default function SeniorSafePage() {
               Maggie (Premium+). Cancel anytime. No partial-month refunds.
             </p>
             <AppPlatformBadges className="mt-8" />
+            <p className="mt-4 text-sm text-ink/60">
+              More on the app, features, and pricing at{" "}
+              <a
+                href="https://seniorsafeapp.com"
+                className="font-semibold text-burgundy-600 hover:text-burgundy-700 underline underline-offset-2"
+              >
+                seniorsafeapp.com
+              </a>
+              .
+            </p>
           </div>
           <div className="relative aspect-[4/5] lg:aspect-[5/6] rounded-lg overflow-hidden shadow-xl shadow-navy-900/10">
             <Image
