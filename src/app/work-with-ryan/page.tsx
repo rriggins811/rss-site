@@ -3,12 +3,12 @@ import { Badge } from "@/components/ui/badge";
 import { GoldRule } from "@/components/site/GoldRule";
 import { EmailFallback } from "@/components/site/EmailFallback";
 import { QuickAnswer } from "@/components/aeo/QuickAnswer";
-import { BOOKING_URL } from "@/lib/booking";
+import { BOOKING_EMBED_URL } from "@/lib/booking";
 
 export const metadata: Metadata = {
   title: "Book a call with Ryan",
   description:
-    "Book a free 30-minute call with Senior Transition Advisor Ryan Riggins. No listing pitch. No sales pressure. Straight answers on where you are and what's next.",
+    "Book a free 20-minute call with Senior Transition Advisor Ryan Riggins. No listing pitch. No sales pressure. Straight answers on where you are and what's next.",
   alternates: { canonical: "/work-with-ryan" },
   openGraph: {
     type: "website",
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     siteName: "Riggins Strategic Solutions",
     title: "Book a call with Ryan | Riggins Strategic Solutions",
     description:
-      "Book a free 30-minute call with Senior Transition Advisor Ryan Riggins. No listing pitch. No sales pressure. Straight answers on where you are and what's next.",
+      "Book a free 20-minute call with Senior Transition Advisor Ryan Riggins. No listing pitch. No sales pressure. Straight answers on where you are and what's next.",
     images: [
       {
         url: "https://rigginsstrategicsolutions.com/og/work-with-ryan.png",
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Book a call with Ryan | Riggins Strategic Solutions",
     description:
-      "Free 30-minute call with Ryan. No listing pitch. No sales pressure. Straight answers.",
+      "Free 20-minute call with Ryan. No listing pitch. No sales pressure. Straight answers.",
     images: ["https://rigginsstrategicsolutions.com/og/work-with-ryan.png"],
   },
 };
@@ -45,7 +45,7 @@ export default function WorkWithRyanPage() {
             Book a call
           </Badge>
           <h1 className="mt-6 leading-[1.05]">
-            Book a 30-minute call with Ryan.
+            Book a 20-minute call with Ryan.
           </h1>
           <QuickAnswer
             className="mt-6 max-w-prose mx-auto text-left"
@@ -67,8 +67,8 @@ export default function WorkWithRyanPage() {
         <div className="mx-auto max-w-4xl px-6 py-10">
           <div className="w-full overflow-hidden rounded-lg border border-border bg-white">
             <iframe
-              src={BOOKING_URL}
-              title="Book a 30-minute call with Ryan Riggins"
+              src={BOOKING_EMBED_URL}
+              title="Book a 20-minute call with Ryan Riggins"
               className="block w-full"
               style={{ minHeight: "820px", border: 0 }}
               allow="payment *; fullscreen *"

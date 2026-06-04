@@ -209,7 +209,7 @@ export default function FreeGuidePage() {
               href="/work-with-ryan"
               className="text-burgundy-600 hover:text-burgundy-700 underline underline-offset-2"
             >
-              book a free 30-minute call.
+              book a free 20-minute call.
             </a>{" "}
             No pitch, no pressure.
           </p>
