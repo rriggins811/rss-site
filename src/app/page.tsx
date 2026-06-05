@@ -6,6 +6,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Badge } from "@/components/ui/badge";
 import { GoldRule } from "@/components/site/GoldRule";
 import { AppPlatformBadges } from "@/components/site/AppPlatformBadges";
+import { WelcomeVideo } from "@/components/site/WelcomeVideo";
 import { FAQSection, type FAQItem } from "@/components/aeo/FAQSection";
 import { QuickAnswer } from "@/components/aeo/QuickAnswer";
 import { JsonLd } from "@/components/site/JsonLd";
@@ -184,6 +185,9 @@ export default function HomePage() {
   return (
     <main>
       <JsonLd data={professionalServiceSchema()} />
+
+      {/* WELCOME VIDEO (AI avatar of Ryan) — first thing visitors see */}
+      <WelcomeVideo />
 
       {/* HERO */}
       <section className="bg-cream">
