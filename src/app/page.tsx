@@ -224,9 +224,13 @@ export default function HomePage() {
             <p className="mt-4 text-sm text-ink/60">
               No pressure. No upsells. Just real answers.
             </p>
-            <AppPlatformBadges className="mt-8" />
           </div>
-          <WelcomeVideo />
+          <div>
+            <WelcomeVideo />
+            <div className="mt-8 flex justify-center">
+              <AppPlatformBadges className="text-center" />
+            </div>
+          </div>
         </div>
       </section>
 
