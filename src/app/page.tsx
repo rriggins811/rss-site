@@ -188,7 +188,7 @@ export default function HomePage() {
 
       {/* HERO — value-prop copy + welcome video (AI avatar of Ryan) */}
       <section className="bg-cream">
-        <div className="mx-auto max-w-6xl px-6 py-20 lg:py-28 grid gap-12 lg:grid-cols-2 items-center">
+        <div className="mx-auto max-w-6xl px-6 py-20 lg:py-28 grid gap-12 lg:grid-cols-2 items-start">
           <div>
             <Badge variant="secondary" className="bg-burgundy-100 text-burgundy-700 border-0">
               Senior Transition Advisor · Greensboro, NC · Serving families nationwide
