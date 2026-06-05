@@ -186,10 +186,7 @@ export default function HomePage() {
     <main>
       <JsonLd data={professionalServiceSchema()} />
 
-      {/* WELCOME VIDEO (AI avatar of Ryan) — first thing visitors see */}
-      <WelcomeVideo />
-
-      {/* HERO */}
+      {/* HERO — value-prop copy + welcome video (AI avatar of Ryan) */}
       <section className="bg-cream">
         <div className="mx-auto max-w-6xl px-6 py-20 lg:py-28 grid gap-12 lg:grid-cols-2 items-center">
           <div>
@@ -229,16 +226,7 @@ export default function HomePage() {
             </p>
             <AppPlatformBadges className="mt-8" />
           </div>
-          <div className="relative aspect-[4/5] lg:aspect-[5/6] rounded-lg overflow-hidden shadow-xl shadow-navy-900/10">
-            <Image
-              src="/photos/hero_ryan_consulting_family.jpg"
-              alt="Ryan Riggins consulting with an elderly couple, reviewing documents at a kitchen table"
-              fill
-              sizes="(min-width: 1024px) 50vw, 100vw"
-              className="object-cover"
-              priority
-            />
-          </div>
+          <WelcomeVideo />
         </div>
       </section>
 
