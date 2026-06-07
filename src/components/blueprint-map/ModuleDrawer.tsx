@@ -2,6 +2,7 @@
 
 import { useEffect, useRef } from "react";
 import { type Module, moduleVideoUrl } from "@/lib/blueprint-modules";
+import { getGuidePreview } from "@/lib/blueprint-guide-previews";
 
 type Props = {
   module: Module | null;
@@ -33,6 +34,7 @@ type Props = {
  */
 export function ModuleDrawer({ module, onClose, preview = false, upgradeUrl }: Props) {
   const open = module !== null;
+  const guide = preview && module ? getGuidePreview(module.id) : undefined;
   const drawerRef = useRef<HTMLDivElement | null>(null);
 
   // ESC to close
@@ -185,6 +187,42 @@ export function ModuleDrawer({ module, onClose, preview = false, upgradeUrl }: P
                 ))}
               </ul>
             </section>
+
+            {/* Readable excerpt from the free Simple Blueprint guide (preview only) */}
+            {guide && (
+              <section>
+                <h3
+                  className="m-0 mb-3 text-sm font-semibold uppercase tracking-[0.12em] text-[#6B2C3E]"
+                  style={{ fontFamily: "var(--font-inter)" }}
+                >
+                  Inside this module
+                </h3>
+                <p className="m-0 mb-4 text-[#1C3A52]/90 leading-relaxed">
+                  {guide.intro}
+                </p>
+                <p className="m-0 mb-2 font-semibold text-[#1C3A52]">{guide.heading}</p>
+                <ul className="m-0 space-y-2 pl-0 list-none">
+                  {guide.points.map((p) => (
+                    <li
+                      key={p}
+                      className="relative pl-6 text-[#1C3A52]/90 leading-relaxed"
+                    >
+                      <span
+                        aria-hidden
+                        className="absolute left-0 top-[0.55em] h-1.5 w-1.5 rounded-full"
+                        style={{ background: "#D4AF37" }}
+                      />
+                      {p}
+                    </li>
+                  ))}
+                </ul>
+                {guide.footnote && (
+                  <p className="mt-3 mb-0 text-sm italic text-[#1C3A52]/65">
+                    {guide.footnote}
+                  </p>
+                )}
+              </section>
+            )}
 
             {/* Tools: real downloads in the full experience, locked teasers in preview */}
             {module.tools.length > 0 && !preview && (
