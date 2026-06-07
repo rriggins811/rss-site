@@ -437,6 +437,22 @@ export function getModuleById(id: string): Module | undefined {
 }
 
 /**
+ * Public Supabase Storage base for the AI-narrated module overview videos
+ * (the same clips embedded at the top of each Blueprint module page). Absolute
+ * URL on purpose: these are public CDN objects, so this is project-independent
+ * and needs no env wiring on rss-site. Files are named by zero-padded module
+ * number: module-00.mp4 ... module-19.mp4, plus module-19-premium.mp4.
+ */
+const MODULE_VIDEO_BASE =
+  "https://ynsakoxsmuvwfjgbhxky.supabase.co/storage/v1/object/public/module-videos";
+
+/** URL of a module's overview video, derived from its display number. */
+export function moduleVideoUrl(m: Module): string {
+  const padded = m.number.includes("-") ? m.number : m.number.padStart(2, "0");
+  return `${MODULE_VIDEO_BASE}/module-${padded}.mp4`;
+}
+
+/**
  * Build the simplified Markmap source markdown from MODULES. Each
  * module heading is a markdown link with href "#<module-id>", which
  * Markmap renders as a clickable anchor inside the SVG. The drawer
@@ -445,7 +461,14 @@ export function getModuleById(id: string): Module | undefined {
  * Maggie + Books branches stay as direct external/internal links so
  * they remain useful even without a drawer entry.
  */
-export function buildMindMapMarkdown(): string {
+export function buildMindMapMarkdown(opts?: {
+  rootTitle?: string;
+  tagline?: string;
+}): string {
+  const rootTitle = opts?.rootTitle ?? "Senior Transition Blueprint";
+  const tagline =
+    opts?.tagline ?? "Protect equity, dignity, and family, one decision at a time";
+
   const phases = new Map<string, Module[]>();
   for (const m of MODULES) {
     const list = phases.get(m.phase) ?? [];
@@ -457,8 +480,8 @@ export function buildMindMapMarkdown(): string {
   sections.push(
     `---\nmarkmap:\n  colorFreezeLevel: 2\n  initialExpandLevel: 2\n  maxWidth: 320\n  spacingHorizontal: 110\n  spacingVertical: 16\n---`
   );
-  sections.push(`# Senior Transition Blueprint`);
-  sections.push(`## Protect equity, dignity, and family, one decision at a time`);
+  sections.push(`# ${rootTitle}`);
+  sections.push(`## ${tagline}`);
 
   for (const [phase, mods] of phases) {
     const lines = [`## ${phase}`];

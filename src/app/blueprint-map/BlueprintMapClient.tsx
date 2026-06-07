@@ -18,12 +18,15 @@ import { ModuleDrawer } from "@/components/blueprint-map/ModuleDrawer";
  */
 const VALID_KEY = "blueprint2026";
 
+// Where the preview/tripwire unlock CTAs point (the full Blueprint sales page).
+const UPGRADE_URL = "https://blueprint.rigginsstrategicsolutions.com/pricing";
+
 // Brand palette per spec.
 const PALETTE = ["#1C3A52", "#6B2C3E", "#D4AF37", "#1C3A52", "#6B2C3E"];
 
 const transformer = new Transformer();
 
-export function BlueprintMapClient() {
+export function BlueprintMapClient({ preview = false }: { preview?: boolean } = {}) {
   const router = useRouter();
   const searchParams = useSearchParams();
   const svgRef = useRef<SVGSVGElement | null>(null);
@@ -31,17 +34,32 @@ export function BlueprintMapClient() {
   const [authorized, setAuthorized] = useState<boolean | null>(null);
   const [activeModule, setActiveModule] = useState<Module | null>(null);
 
-  const markdown = useMemo(() => buildMindMapMarkdown(), []);
+  const markdown = useMemo(
+    () =>
+      buildMindMapMarkdown(
+        preview
+          ? {
+              rootTitle: "The Senior Transition Blueprint",
+              tagline: "by Ryan Riggins · Riggins Strategic Solutions",
+            }
+          : undefined
+      ),
+    [preview]
+  );
 
-  // Gate check
+  // Gate check. The public preview/tripwire variant is ungated.
   useEffect(() => {
+    if (preview) {
+      setAuthorized(true);
+      return;
+    }
     const key = searchParams.get("key");
     if (key !== VALID_KEY) {
       router.replace("/the-blueprint");
       return;
     }
     setAuthorized(true);
-  }, [searchParams, router]);
+  }, [searchParams, router, preview]);
 
   // Lock body scroll while the full-screen map is mounted
   useEffect(() => {
@@ -144,7 +162,9 @@ export function BlueprintMapClient() {
             The Senior Transition Blueprint, Interactive Mind Map
           </h1>
           <p className="m-0 text-xs sm:text-sm opacity-85">
-            Click any module to open the lesson, video, and tool downloads.
+            {preview
+              ? "Click any module to watch the overview and see what is inside."
+              : "Click any module to open the lesson, video, and tool downloads."}
           </p>
         </div>
       </header>
@@ -157,7 +177,12 @@ export function BlueprintMapClient() {
         />
       </div>
 
-      <ModuleDrawer module={activeModule} onClose={() => setActiveModule(null)} />
+      <ModuleDrawer
+        module={activeModule}
+        onClose={() => setActiveModule(null)}
+        preview={preview}
+        upgradeUrl={UPGRADE_URL}
+      />
     </main>
   );
 }
