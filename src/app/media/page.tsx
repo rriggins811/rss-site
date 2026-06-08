@@ -83,6 +83,39 @@ export default function MediaIndexPage() {
                   href={`/media/${item.frontmatter.slug}`}
                   className="group block bg-white border border-border rounded-lg overflow-hidden hover:border-burgundy-600 transition-colors"
                 >
+                  {item.frontmatter.cover_image ? (
+                    <div className="relative aspect-video overflow-hidden bg-navy-900">
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
+                      <img
+                        src={item.frontmatter.cover_image}
+                        alt={`${item.frontmatter.podcast} video thumbnail`}
+                        loading="lazy"
+                        className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
+                      />
+                      {/* darkening + play affordance so it reads as a video */}
+                      <div className="absolute inset-0 bg-navy-900/15 transition-colors group-hover:bg-navy-900/5" />
+                      <span
+                        aria-hidden
+                        className="absolute left-3 top-3 inline-flex items-center rounded-full bg-black/65 px-2.5 py-1 text-xs font-semibold uppercase tracking-wider text-white"
+                      >
+                        Watch
+                      </span>
+                      <span className="absolute inset-0 flex items-center justify-center">
+                        <span className="flex h-16 w-16 items-center justify-center rounded-full bg-white/90 text-burgundy-700 shadow-lg transition-all duration-300 group-hover:scale-110 group-hover:bg-burgundy-600 group-hover:text-white">
+                          <svg
+                            width="22"
+                            height="22"
+                            viewBox="0 0 24 24"
+                            fill="currentColor"
+                            aria-hidden
+                            className="ml-1"
+                          >
+                            <path d="M8 5v14l11-7z" />
+                          </svg>
+                        </span>
+                      </span>
+                    </div>
+                  ) : null}
                   <div className="p-6">
                     <div className="text-xs font-semibold uppercase tracking-wider text-burgundy-600">
                       Podcast &middot; {formatMediaDate(item.datePublished)}
@@ -100,7 +133,7 @@ export default function MediaIndexPage() {
                       {item.frontmatter.excerpt}
                     </p>
                     <span className="mt-6 inline-flex items-center text-burgundy-600 font-semibold group-hover:text-burgundy-700">
-                      See the episode &rarr;
+                      Watch the episode &rarr;
                     </span>
                   </div>
                 </Link>
