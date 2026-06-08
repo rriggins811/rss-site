@@ -5,7 +5,7 @@ It contains the full Markdown of every key page and every blog post, intended
 for AI crawlers that ingest content for answer generation.
 
 Generated: 2026-06-08
-Total blog posts indexed: 38
+Total blog posts indexed: 39
 
 For citation guidance, organizational facts, and topic depth, see the summary
 index at https://rigginsstrategicsolutions.com/llms.txt.
@@ -145,8 +145,130 @@ Inputs: parent's current Medicare plan (Original, Advantage, with/without supple
 
 # Blog Posts (newest first)
 
-The 38 posts below are the full body of every published article
+The 39 posts below are the full body of every published article
 on https://rigginsstrategicsolutions.com/blog, in reverse chronological order.
+
+---
+
+# The Home Sale Tax Break Hasn't Moved Since 1997. Here's What It Means for Selling a Parent's House
+https://rigginsstrategicsolutions.com/blog/capital-gains-selling-parents-house-2026
+Published: 2026-06-08
+
+**Excerpt:** A new House bill wants to raise the home sale capital gains exclusion to $1 million for seniors. It is not law yet. Here is the tax math that is freezing older homeowners in place, and what families can do about it right now.
+
+When I was on the buying side of the business, I loved a confused seller. I am not proud of it, but it is the truth. The less a homeowner understood about what their house was really worth and what they would actually walk away with, the better my number looked. Eight years buying and flipping houses taught me that the gap between the sale price and the money that lands in your bank account is where families get hurt. And one of the biggest pieces of that gap is a tax rule almost nobody talks about until it is too late.
+
+Last week that rule made the news. A new bill in Congress is trying to fix a number that has not changed since 1997, and it points straight at a problem I see in family after family: a parent sitting on a paid-off house, wanting to downsize or move closer to the kids, and quietly terrified of a tax bill nobody has actually calculated. They stay put. The house keeps them, instead of the other way around.
+
+Let me walk you through what changed, what did not, and what you can do about it this week without waiting on Congress.
+
+## The news: a $1 million exclusion for senior home sellers
+
+On June 1, 2026, Rep. Nicole Malliotakis introduced a bill called the Nest Egg Protection Act (H.R. 9064). It would temporarily raise the federal capital gains exclusion on a home sale to $1 million for homeowners ages 65 and older who have owned their primary residence for at least 25 years. The $1 million figure would apply to both single filers and married couples.
+
+To understand why that matters, you have to know the current rule. Right now, when you sell your primary home, you can exclude up to $250,000 in capital gains from federal tax if you are single, or $500,000 if you are married filing jointly. Those thresholds were set in 1997. They have never been adjusted for inflation. Not once in nearly three decades.
+
+Think about what your parents' house has done since 1997. In a lot of markets it has tripled. The exclusion stood completely still while the home value ran away from it.
+
+The Nest Egg Protection Act is not alone. It joins the More Homes on the Market Act (H.R. 1340), which would double the exclusion to $500,000 for individuals and $1 million for couples and index it to inflation going forward. There is also the Don't Tax the American Dream Act (H.R. 7034), which would eliminate capital gains tax on a primary home sale entirely. Here is the honest part: none of these has passed. The Nest Egg Protection Act was just introduced. I am not telling you relief is coming. I am telling you the problem is real enough that multiple members of Congress are now chasing it.
+
+## The data: how many families this actually hits
+
+This is not a niche issue for mansion owners. The National Association of Realtors found that roughly 29 million homeowners, about 34% of all owners, could already owe capital gains tax on a sale based on the equity they have built above the $250,000 cap. NAR projects that number climbs toward 70% of homeowners by 2035 if nothing changes.
+
+Read that again. A third of homeowners today, two thirds within a decade. The people most exposed are exactly the ones I work with: seniors who bought decades ago at a fraction of today's price and have watched their home become the single largest asset they own.
+
+Economists call the result the lock-in effect. A senior wants to right-size into something smaller and easier to manage. They run into a possible six-figure tax bill that nobody warned them about. So they do nothing. The house that was supposed to fund the next chapter becomes the reason they cannot start it. And on the market level, all those frozen homes are inventory that never shows up for the younger families trying to buy.
+
+## What it means for your family
+
+Here is where I want to slow down, because there is good news buried in the tax code that has nothing to do with whether any bill passes.
+
+The capital gains tax is not charged on the sale price of the house. It is charged on the gain, and the gain is the sale price minus your cost basis. Your cost basis is not just what your parents paid in 1985. It is what they paid plus the cost of major improvements over all those years plus the costs of selling.
+
+That distinction is worth tens of thousands of dollars, and most families never do the math.
+
+Say your parents bought the house for $90,000 in 1990. Today it sells for $560,000. On the surface that looks like a $470,000 gain, which would blow past the $250,000 single exclusion and trigger a real tax bill. But over 35 years they put on a new roof, redid the kitchen, added a bathroom, replaced the HVAC, and built a deck. Add in the agent commission and closing costs at sale. Suddenly the cost basis is not $90,000, it is closer to $200,000, and the taxable gain shrinks dramatically. If your mom is widowed and selling alone, the math is different than if both parents are alive and filing jointly with a $500,000 exclusion. The details decide everything.
+
+This is the part that gets me. Families either overpay because they never tracked the improvements, or they freeze and never sell because they assume the worst-case number. Both mistakes come from the same place: nobody ran the real calculation early, with real documents, before emotion and a listing deadline took over.
+
+## Step by step: what to do this week
+
+You do not need to wait for a bill to become law. You need to know your number. Here is the order I would run it in.
+
+### 1. Pull the original purchase documents
+
+Find the closing statement from when your parents bought the home. That is your starting basis. If it is lost, the county recorder's office or the title company can usually help reconstruct the purchase price and date.
+
+### 2. Build the improvement list
+
+Walk the house with your parents and write down every major improvement: roofs, kitchens, bathrooms, additions, HVAC, windows, major landscaping. Repairs do not count, but capital improvements do. Hunt for receipts, but even a documented, reasonable estimate is better than ignoring it. Every legitimate dollar here lowers the taxable gain.
+
+### 3. Confirm the filing situation
+
+Single or married filing jointly changes the exclusion from $250,000 to $500,000. If a spouse has passed, there are special rules about the step-up in basis on the inherited half and a window to still claim the full $500,000. This is a moment to talk to a tax professional, not to guess.
+
+### 4. Run the net proceeds, not the Zillow number
+
+The Zillow estimate is a starting price, not your outcome. Subtract the mortgage payoff if any, the agent and closing costs, the repairs you will make to sell, and then layer in the tax picture. What is left is the real number that should drive the decision. I built a free net proceeds calculator specifically so families can see this before the house ever hits the market.
+
+### 5. Decide with the real number in hand
+
+Once you know what actually lands in the bank, the stay-or-sell conversation changes completely. Sometimes the tax hit is smaller than feared and the move makes obvious sense. Sometimes it is large enough that you time the sale differently or explore another path. Either way, you are deciding on facts instead of fear.
+
+## Why this is exactly the wrong moment to wing it
+
+One more piece of timing. In April 2026, Redfin reported that 5.8% of all listings were pulled off the market, the highest share in at least a decade outside of the early pandemic. Sellers are listing on hope, watching the home sit, and yanking it down. A parent's house priced without a real net proceeds number and a prep plan is exactly the listing that lingers and then comes down with a bruised price history.
+
+The families who plan a year out have the upper hand. The families who scramble after a fall or a hospital call take whatever the market gives them on a Monday. The tax math is one of the biggest levers you have, and it is one of the easiest to run early.
+
+## Frequently Asked Questions
+
+### How much capital gains tax will my parents owe when they sell their home?
+
+It depends on the gain above their cost basis, not the sale price. A single owner can exclude $250,000 of gain, a married couple $500,000. The taxable amount is the gain beyond that exclusion, and your cost basis includes the purchase price plus major improvements plus selling costs. Run the real numbers or talk to a tax professional before assuming a figure.
+
+### What counts toward cost basis on a home sale?
+
+The original purchase price, plus capital improvements like a new roof, kitchen remodel, room addition, or HVAC replacement, plus the costs of selling such as agent commissions and closing fees. Routine repairs and maintenance do not count. Keeping records of improvements over the years can save thousands at sale.
+
+### Did Congress raise the home sale capital gains exclusion in 2026?
+
+Not as of June 2026. The Nest Egg Protection Act (H.R. 9064) was introduced on June 1, 2026 and would raise the exclusion to $1 million for owners 65 and older who have held the home 25 years, but it is a proposal, not law. The More Homes on the Market Act and the Don't Tax the American Dream Act are also pending. None has passed.
+
+### Why do seniors avoid selling because of capital gains?
+
+Because the $250,000 and $500,000 exclusions have not been adjusted since 1997 while home values soared, many longtime owners now face a potential tax bill if they sell. This creates a lock-in effect where seniors stay in homes that no longer fit rather than risk a tax hit they have not calculated. Often the real taxable gain is smaller than feared once cost basis is figured correctly.
+
+### How do I figure out what my parents will actually net from selling their home?
+
+Start with a realistic sale price, then subtract the mortgage payoff, agent and closing costs, repairs needed to sell, and the estimated capital gains tax. What remains is the net proceeds. A free net proceeds calculator can walk you through each line so you decide based on the real outcome, not a Zillow estimate.
+
+## About Ryan Riggins
+
+Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafe app](https://seniorsafeapp.com).
+
+---
+
+**Want to see your parents' real number first?** Run the free [Net Proceeds Calculator](https://rigginsstrategicsolutions.com/tools/net-proceeds-calculator) before anything hits the market.
+
+**Want a step-by-step guide?** The free Simple Blueprint walks through every stage of a senior transition: rigginsstrategicsolutions.com/freeguide
+
+**Ready for the full system?** Senior Transition Blueprint Core, 19 modules and 60+ tools: rigginsstrategicsolutions.com/the-blueprint
+
+**Need a personalized plan?** Blueprint Premium adds a 60-min call and 90 days of email support: rigginsstrategicsolutions.com/blueprint-premium
+
+**Coordinate your family in one place.** SeniorSafe app (web, iPhone, Android): app.seniorsafeapp.com
+
+**Talk it through.** Book a free 20-min call with Ryan: rigginsstrategicsolutions.com/work-with-ryan
+
+### Get the SeniorSafe App
+
+[Download on the App Store](https://apps.apple.com/us/app/seniorsafe-app/id6761343239)
+
+[Get it on Google Play](https://play.google.com/store/apps/details?id=com.rigginsstrategicsolutions.seniorsafe)
+
+Ryan Riggins is the founder of Riggins Strategic Solutions, a consumer protection company for families navigating senior transitions. He spent 8 years in construction project management and house flipping before switching sides. Two books on Amazon. Free resources at rigginsstrategicsolutions.com.
 
 ---
 
