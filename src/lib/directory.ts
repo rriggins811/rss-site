@@ -226,7 +226,7 @@ export type DirectoryState = {
  * indexed automatically. Names + slugs only; no em-dashes.
  */
 export const DIRECTORY_STATES: DirectoryState[] = [
-  { code: "AL", name: "Alabama", slug: "alabama" },
+  { code: "AL", name: "Alabama", slug: "alabama", indexable: true },
   { code: "AK", name: "Alaska", slug: "alaska" },
   { code: "AZ", name: "Arizona", slug: "arizona", indexable: true },
   { code: "AR", name: "Arkansas", slug: "arkansas" },
@@ -243,7 +243,7 @@ export const DIRECTORY_STATES: DirectoryState[] = [
   { code: "IN", name: "Indiana", slug: "indiana", indexable: true },
   { code: "IA", name: "Iowa", slug: "iowa" },
   { code: "KS", name: "Kansas", slug: "kansas" },
-  { code: "KY", name: "Kentucky", slug: "kentucky" },
+  { code: "KY", name: "Kentucky", slug: "kentucky", indexable: true },
   { code: "LA", name: "Louisiana", slug: "louisiana" },
   { code: "ME", name: "Maine", slug: "maine" },
   { code: "MD", name: "Maryland", slug: "maryland", indexable: true },
@@ -263,10 +263,10 @@ export const DIRECTORY_STATES: DirectoryState[] = [
   { code: "ND", name: "North Dakota", slug: "north-dakota" },
   { code: "OH", name: "Ohio", slug: "ohio", indexable: true },
   { code: "OK", name: "Oklahoma", slug: "oklahoma" },
-  { code: "OR", name: "Oregon", slug: "oregon" },
+  { code: "OR", name: "Oregon", slug: "oregon", indexable: true },
   { code: "PA", name: "Pennsylvania", slug: "pennsylvania", indexable: true },
   { code: "RI", name: "Rhode Island", slug: "rhode-island" },
-  { code: "SC", name: "South Carolina", slug: "south-carolina" },
+  { code: "SC", name: "South Carolina", slug: "south-carolina", indexable: true },
   { code: "SD", name: "South Dakota", slug: "south-dakota" },
   { code: "TN", name: "Tennessee", slug: "tennessee", indexable: true },
   { code: "TX", name: "Texas", slug: "texas", indexable: true },
