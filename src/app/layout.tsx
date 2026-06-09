@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter, Lora } from "next/font/google";
 import "./globals.css";
 import { SiteHeader } from "@/components/site/SiteHeader";
+import { SiteHeaderGate } from "@/components/site/SiteHeaderGate";
 import { SiteFooter } from "@/components/site/SiteFooter";
 import { JsonLd } from "@/components/site/JsonLd";
 import { Analytics } from "@/components/site/Analytics";
@@ -93,7 +94,9 @@ export default function RootLayout({
         <Analytics />
         <AnalyticsClickTracker />
         <MetaPixel />
-        <SiteHeader />
+        <SiteHeaderGate>
+          <SiteHeader />
+        </SiteHeaderGate>
         <div className="flex-1">{children}</div>
         <SiteFooter />
       </body>
