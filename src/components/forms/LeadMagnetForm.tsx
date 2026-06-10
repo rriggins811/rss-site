@@ -5,7 +5,7 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
-import { trackEvent } from "@/lib/analytics";
+import { trackEvent, trackGoogleAdsLeadConversion } from "@/lib/analytics";
 import {
   trackPixelEvent,
   getFbc,
@@ -127,6 +127,9 @@ export function LeadMagnetForm({
         magnet: magnet.slug,
         source: "guides_inline",
       });
+      // Google Ads "Free Guide Lead" conversion (Enhanced Conversions via email).
+      // Single-fire: success block runs once + page redirects on success.
+      trackGoogleAdsLeadConversion({ email });
       const metaEventId = generateEventId();
       trackPixelEvent({
         eventName: META_EVENTS.LEAD,

@@ -3,7 +3,12 @@
 import Script from "next/script";
 import { useEffect, Suspense } from "react";
 import { usePathname, useSearchParams } from "next/navigation";
-import { GA_MEASUREMENT_ID, trackPageView } from "@/lib/analytics";
+import {
+  GA_MEASUREMENT_ID,
+  GOOGLE_ADS_ID,
+  googleAdsConfigured,
+  trackPageView,
+} from "@/lib/analytics";
 
 function RouteChangeTracker() {
   const pathname = usePathname();
@@ -20,6 +25,13 @@ function RouteChangeTracker() {
 }
 
 export function Analytics() {
+  // Add the Google Ads (AW-) tag alongside GA4 on the same gtag instance. This
+  // also sets up the conversion linker, which reads the ?gclid= from ad clicks
+  // (Google Ads auto-tagging must be ON account-side) into a first-party cookie
+  // so click-to-lead attribution works. Skipped until the AW- id is real.
+  const googleAdsConfig = googleAdsConfigured()
+    ? `gtag('config', '${GOOGLE_ADS_ID}');`
+    : "";
   return (
     <>
       <Script
@@ -34,6 +46,7 @@ export function Analytics() {
             window.gtag = gtag;
             gtag('js', new Date());
             gtag('config', '${GA_MEASUREMENT_ID}', { send_page_view: false });
+            ${googleAdsConfig}
           }
         `}
       </Script>
