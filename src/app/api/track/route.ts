@@ -56,7 +56,9 @@ export async function POST(req: NextRequest) {
 
     return NextResponse.json({ eventId, ...result });
   } catch (err) {
+    // Keep the detail server-side only; do not reflect raw internal error
+    // strings to the client (can leak stack/internal shapes).
     console.error("[/api/track] error:", err);
-    return NextResponse.json({ error: String(err) }, { status: 500 });
+    return NextResponse.json({ error: "Tracking failed" }, { status: 500 });
   }
 }
