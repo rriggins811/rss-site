@@ -31,7 +31,9 @@ export async function checkAndRecordRateLimit(
 
   if (countErr) {
     // Fail open — don't block a legit lead because Supabase hiccuped.
-    // Still record the hit so future checks see it.
+    // Still record the hit so future checks see it. Log it so a silently
+    // disabled limiter is visible instead of looking like a hard guarantee.
+    console.warn("[rate-limit] fail-open: count query errored:", countErr.message);
     await sb.from("lead_rate_limit").insert({ ip });
     return { ok: true };
   }
@@ -43,6 +45,7 @@ export async function checkAndRecordRateLimit(
   const { error: insertErr } = await sb.from("lead_rate_limit").insert({ ip });
   if (insertErr) {
     // Again, fail open rather than drop a legit lead.
+    console.warn("[rate-limit] fail-open: insert errored:", insertErr.message);
     return { ok: true };
   }
 
