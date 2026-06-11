@@ -121,7 +121,10 @@ export function organizationSchema() {
     // social.ts:additionalSameAs (LinkedIn Company page, future Substack /
     // Medium publication URLs, etc.) that don't render as footer icons.
     sameAs: [
-      ...socialLinks.map((s) => s.url),
+      // Personal LinkedIn (in/ryanriggins) is intentionally excluded here. It is a
+      // PERSON identity and stays on the Person schema; the Org keeps the COMPANY
+      // LinkedIn (in additionalSameAs.org).
+      ...socialLinks.filter((s) => s.name !== "LinkedIn").map((s) => s.url),
       "https://seniorsafeapp.com",
       ...additionalSameAs.org,
     ],
@@ -296,7 +299,8 @@ export function localBusinessSchema() {
     },
     founder: { "@id": PERSON_ID },
     sameAs: [
-      ...socialLinks.map((s) => s.url),
+      // Personal LinkedIn excluded here too (it is a Person identity); see organizationSchema.
+      ...socialLinks.filter((s) => s.name !== "LinkedIn").map((s) => s.url),
       ...additionalSameAs.org,
     ],
   };
@@ -625,7 +629,8 @@ export function professionalServiceSchema() {
     priceRange: "$$",
     founder: { "@id": PERSON_ID },
     sameAs: [
-      ...socialLinks.map((s) => s.url),
+      // Personal LinkedIn excluded here too (it is a Person identity); see organizationSchema.
+      ...socialLinks.filter((s) => s.name !== "LinkedIn").map((s) => s.url),
       ...additionalSameAs.org,
     ],
   };
