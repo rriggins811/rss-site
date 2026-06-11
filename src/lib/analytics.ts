@@ -31,8 +31,8 @@ export const GA_MEASUREMENT_ID =
 //     GOOGLE_ADS_LEAD_CONVERSION_LABEL  = the part AFTER the /
 // Until both are real (placeholders below), the conversion fire is a no-op and
 // the AW tag config is skipped, so this ships safely inert.
-export const GOOGLE_ADS_ID = "AW-XXXXXXXXXX";
-export const GOOGLE_ADS_LEAD_CONVERSION_LABEL = "YYYYYYYYYYYYYYYY";
+export const GOOGLE_ADS_ID = "AW-17907566007";
+export const GOOGLE_ADS_LEAD_CONVERSION_LABEL = "-s-fCLasm70cELeL_9pC";
 
 export function googleAdsConfigured(): boolean {
   return (
