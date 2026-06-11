@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
-import { trackEvent } from "@/lib/analytics";
+import { trackEvent, trackGoogleAdsLeadConversion } from "@/lib/analytics";
 import { trackPixelEvent, getFbc, getFbp } from "@/lib/meta/pixel";
 import { META_EVENTS, generateEventId } from "@/lib/meta/events";
 
@@ -149,6 +149,10 @@ export function StarterGuideForm({
         return;
       }
       trackEvent("lead_magnet_download", { source });
+      // Google Ads "Free Guide Lead" conversion (Enhanced Conversions via email).
+      // Fires once: this success block runs once per submission and the page
+      // redirects on success, so it can't double-fire.
+      trackGoogleAdsLeadConversion({ email });
 
       // Meta Pixel + CAPI dedup fire on Lead conversion. Same event_id on
       // both legs so Meta merges into a single counted conversion.
