@@ -87,3 +87,5 @@ Apply online at kancare.ks.gov/apply-now or contact your local Aging and Disabil
 - KanCare eligibility: https://www.kancare.ks.gov/apply-now/eligibility (Verified June 10, 2026)
 
 UNVERIFIED: The SHICK toll-free number 1-800-860-5260 appeared in secondary sources referencing kdads.ks.gov. Claude Code should confirm it is current at kdads.ks.gov before publishing.
+
+*Ryan Riggins, NC Real Estate License #361546, eXp Realty. Riggins Strategic Solutions is an education and media company, not a real estate sales business. This is not financial, tax, medical, or legal advice. Income limits, rates, and deadlines change annually, confirm with the program or a licensed professional before acting.*

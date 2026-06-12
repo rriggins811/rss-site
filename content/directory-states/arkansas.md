@@ -75,3 +75,5 @@ Contact the Department of Human Services at 1-800-482-8988 or apply at humanserv
 - Arkansas DHS Medicaid Quick Reference: https://humanservices.arkansas.gov/divisions-shared-services/county-operations/medicaid-quick-reference-chart/ (Verified June 10, 2026)
 - Arkansas LIHEAP overview: https://www.adeq.state.ar.us/energy/assistance/liheap.aspx (Verified June 10, 2026)
 - Arkansas LIHEAP CBO locator: https://www.adeq.state.ar.us/energy/assistance/caad.aspx (Verified June 10, 2026)
+
+*Ryan Riggins, NC Real Estate License #361546, eXp Realty. Riggins Strategic Solutions is an education and media company, not a real estate sales business. This is not financial, tax, medical, or legal advice. Income limits, rates, and deadlines change annually, confirm with the program or a licensed professional before acting.*

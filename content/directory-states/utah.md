@@ -83,3 +83,5 @@ Visit medicaid.utah.gov/apply-medicaid/ or call the Division of Aging and Adult 
 - Utah HEAT Program (LIHEAP): https://jobs.utah.gov/housing/scso/seal/heat.html (Verified June 10, 2026)
 - Utah State Tax Commission Property Tax Relief FAQ: https://tax.utah.gov/propertytax/tax-relief/tax-relief-faq/ (Verified June 10, 2026)
 - Utah Circuit Breaker homeowner's credit: https://tax.utah.gov/relief/circuitbreaker/ (Verified June 10, 2026)
+
+*Ryan Riggins, NC Real Estate License #361546, eXp Realty. Riggins Strategic Solutions is an education and media company, not a real estate sales business. This is not financial, tax, medical, or legal advice. Income limits, rates, and deadlines change annually, confirm with the program or a licensed professional before acting.*

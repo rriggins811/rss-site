@@ -81,3 +81,5 @@ Call 1-800-992-0900 or visit access.nv.gov. For home and community-based service
 - Nevada Medicaid Access Nevada: https://access.nv.gov (Verified June 10, 2026)
 - Nevada EAP (LIHEAP) Division of Social Services: https://dss.nv.gov/programs/energy (Verified June 10, 2026)
 - Nevada NRS 361.4723 residential cap: https://www.leg.state.nv.us/NRS/NRS-361.html#NRS361Sec4723 (Verified June 10, 2026)
+
+*Ryan Riggins, NC Real Estate License #361546, eXp Realty. Riggins Strategic Solutions is an education and media company, not a real estate sales business. This is not financial, tax, medical, or legal advice. Income limits, rates, and deadlines change annually, confirm with the program or a licensed professional before acting.*
