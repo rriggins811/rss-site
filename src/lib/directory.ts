@@ -227,7 +227,7 @@ export type DirectoryState = {
  */
 export const DIRECTORY_STATES: DirectoryState[] = [
   { code: "AL", name: "Alabama", slug: "alabama", indexable: true },
-  { code: "AK", name: "Alaska", slug: "alaska" },
+  { code: "AK", name: "Alaska", slug: "alaska", indexable: true },
   { code: "AZ", name: "Arizona", slug: "arizona", indexable: true },
   { code: "AR", name: "Arkansas", slug: "arkansas", indexable: true },
   { code: "CA", name: "California", slug: "california", indexable: true },
@@ -260,7 +260,7 @@ export const DIRECTORY_STATES: DirectoryState[] = [
   { code: "NM", name: "New Mexico", slug: "new-mexico", indexable: true },
   { code: "NY", name: "New York", slug: "new-york", indexable: true },
   { code: "NC", name: "North Carolina", slug: "north-carolina" },
-  { code: "ND", name: "North Dakota", slug: "north-dakota" },
+  { code: "ND", name: "North Dakota", slug: "north-dakota", indexable: true },
   { code: "OH", name: "Ohio", slug: "ohio", indexable: true },
   { code: "OK", name: "Oklahoma", slug: "oklahoma", indexable: true },
   { code: "OR", name: "Oregon", slug: "oregon", indexable: true },
@@ -271,12 +271,12 @@ export const DIRECTORY_STATES: DirectoryState[] = [
   { code: "TN", name: "Tennessee", slug: "tennessee", indexable: true },
   { code: "TX", name: "Texas", slug: "texas", indexable: true },
   { code: "UT", name: "Utah", slug: "utah", indexable: true },
-  { code: "VT", name: "Vermont", slug: "vermont" },
+  { code: "VT", name: "Vermont", slug: "vermont", indexable: true },
   { code: "VA", name: "Virginia", slug: "virginia", indexable: true },
   { code: "WA", name: "Washington", slug: "washington", indexable: true },
   { code: "WV", name: "West Virginia", slug: "west-virginia", indexable: true },
   { code: "WI", name: "Wisconsin", slug: "wisconsin", indexable: true },
-  { code: "WY", name: "Wyoming", slug: "wyoming" },
+  { code: "WY", name: "Wyoming", slug: "wyoming", indexable: true },
 ];
 
 /** Counties published under a given state code, in registry order. */
