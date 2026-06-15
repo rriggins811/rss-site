@@ -4,8 +4,8 @@ This file is the long-form companion to https://rigginsstrategicsolutions.com/ll
 It contains the full Markdown of every key page and every blog post, intended
 for AI crawlers that ingest content for answer generation.
 
-Generated: 2026-06-13
-Total blog posts indexed: 41
+Generated: 2026-06-15
+Total blog posts indexed: 42
 
 For citation guidance, organizational facts, and topic depth, see the summary
 index at https://rigginsstrategicsolutions.com/llms.txt.
@@ -145,8 +145,133 @@ Inputs: parent's current Medicare plan (Original, Advantage, with/without supple
 
 # Blog Posts (newest first)
 
-The 41 posts below are the full body of every published article
+The 42 posts below are the full body of every published article
 on https://rigginsstrategicsolutions.com/blog, in reverse chronological order.
+
+---
+
+# World Elder Abuse Awareness Day 2026: The One Habit That Stops Most Scams Aimed at Your Parents
+https://rigginsstrategicsolutions.com/blog/world-elder-abuse-awareness-day-2026-stop-scams
+Published: 2026-06-15
+
+**Excerpt:** On World Elder Abuse Awareness Day, older Americans are losing record amounts to scams. The good news: most of it comes down to one habit you can teach your parents this week.
+
+When I was on the buying side of real estate, I learned something I am not proud of. Confusion was good for business. The more overwhelmed a seller felt, the faster they wanted out, the better the numbers worked in my favor. Nobody had to lie. You just had to keep things moving fast enough that the person across the table never got a quiet minute to think.
+
+I switched sides because I got tired of profiting from that. And once you have seen how confusion gets used as a tool, you start seeing it everywhere. Nowhere is it clearer than in the scams aimed at older people. The pitch is always built the same way: create panic, isolate the person, and push them to act before anyone can slow them down.
+
+Today is World Elder Abuse Awareness Day, June 15. So I want to do something useful with it. Not scare you. Give you one habit you can teach your mom and dad this week that shuts down most of these schemes before they start.
+
+## What just changed, and why it matters
+
+The Federal Trade Commission released its annual report to Congress on protecting older consumers in December 2025, and the numbers are hard to look away from. Adults 60 and older reported losing 2.4 billion dollars to fraud in 2024. In 2020, that figure was around 600 million. That is roughly a fourfold jump in four years.
+
+The worst part is where the money is going. The largest individual losses climbed the fastest. Reported losses of more than 100 thousand dollars per person went from 55 million dollars in 2020 to 445 million dollars in 2024, an eight-fold increase. For people 80 and over, the median reported loss now tops 1,600 dollars, far higher than what younger adults report.
+
+These are reported losses. Most fraud against older adults never gets reported at all, because the victim is embarrassed, or does not realize what happened, or does not want their adult kids to think they cannot manage on their own. So treat these numbers as the floor, not the ceiling.
+
+Here is the thing I want you to take from the data. This is not happening because seniors are gullible. It is happening because the scams have gotten better, faster, and more personal, and because most families have never had a plain conversation about how to handle a high-pressure call.
+
+## What it means for your family
+
+Let me translate the data into the kitchen-table version.
+
+The fraud that drains six figures is not usually the obvious sweepstakes letter. It is investment scams, romance scams, and impersonation scams, often starting on social media or with a single phone call. The criminal builds trust or builds panic, sometimes over weeks. By the time money moves, the target believes they are doing the smart, responsible thing.
+
+Impersonation is the engine behind a huge share of it. The FTC reported a more than four-fold increase in older adults losing large sums to impersonation scammers, people pretending to be the bank, the government, a tech company, or a family member. The script changes, but the structure does not. Something is wrong, it is urgent, and you have to act right now to fix it.
+
+That word, urgent, is the whole game. A real bank does not need you to move your savings into a "protected account" in the next twenty minutes. A real government agency does not call demanding gift cards. A real grandchild in real trouble can wait the ninety seconds it takes you to hang up and call their actual number.
+
+This is where I think most protection advice goes wrong. It focuses on technology, spam filters, call blockers, monitoring services. Those help around the edges. But the criminals are not beaten by software. They are beaten by a pause.
+
+## The one habit that beats most of it
+
+If you teach your parents nothing else, teach them this:
+
+When a call, text, or email creates urgency, that urgency is the warning sign, not the proof. Stop. Hang up. Call back on a number you already trust, never the number the message gave you.
+
+That is the entire defense, and it works because it breaks the one thing every scam depends on: momentum. The criminal needs you moving fast. The moment you slow down and verify through a channel you control, the whole thing falls apart.
+
+Make it a rule with no exceptions, because exceptions are where people get hurt. "I will always hang up and call back" is easy to follow under pressure. "I will hang up and call back unless it really sounds serious" is useless, because the scammer's entire job is to make it sound serious.
+
+## Step by step: protect your parents this week
+
+You do not need a weekend. You need about an hour, spread across a few short conversations. Here is the order I would do it in.
+
+### Step 1: Have the calm conversation first
+
+Do not wait for a scary phone call to talk about scary phone calls. Sit down on a normal afternoon and say, plainly, "I want us to have a rule for any call or message that pushes you to act fast." Frame it as a team habit, not a lecture. You are not telling your parent they are losing it. You are saying the criminals have gotten good, and smart people get caught, so the family has a system.
+
+### Step 2: Install the hang-up-and-call-back rule
+
+Write the rule down and put it where the phone lives. Then practice it once, out loud. Role-play a fake "your account is frozen" call and let your parent practice saying, "I am going to hang up and call my bank directly." Practicing it once makes it automatic when it counts.
+
+### Step 3: Save the real numbers now
+
+Put the genuine phone numbers in your parent's phone and on a card by the landline: their bank, their doctor, their main credit card, and you. When a fake call comes in, the real number is right there, so there is no need to use the one the caller is pushing.
+
+Two free resources worth adding while you are at it. The Department of Justice runs a National Elder Fraud Hotline at 833-372-8311. You can report fraud to the FTC at reportfraud.ftc.gov. If your parent is ever targeted, those are the places to call.
+
+### Step 4: Close the paperwork gap
+
+Scams are not the only way money walks out the door. So does a missing document. If a parent loses the ability to manage their own affairs and there is no durable power of attorney in place, you do not get to step in and protect them. A court decides who does, through guardianship, on its schedule and at its cost.
+
+Get four documents done with a qualified attorney before you think you need them: a will or living trust, a durable financial power of attorney, a healthcare power of attorney, and an advance directive. While you are at it, check the beneficiary designations on every retirement account and insurance policy, because the name on that line overrides whatever the will says.
+
+### Step 5: Make verification normal, not insulting
+
+The hardest part is emotional, not practical. A lot of older adults will not mention a suspicious call because they are afraid it means losing independence. Flip that. Tell your parent that calling you to double-check a weird message is the strong, smart move, not the weak one. The families that handle this well are the ones where "let me check with my kid" is a point of pride, not shame.
+
+## The bigger picture
+
+I spent eight years in construction project management and house flipping before I switched sides, and the lesson that carried over is this: the expensive mistakes almost never come from the big, visible decision. They come from the small thing nobody slowed down to check. I lost money on flips the exact same way, by assuming a number instead of writing it down and verifying it.
+
+Protecting an aging parent runs on the same principle. The dramatic stuff, the lawyers and the locked-down accounts, matters less than the quiet daily habit of slowing down and verifying. A pause is cheaper than a mistake. Every single time.
+
+World Elder Abuse Awareness Day is one day. The habit is what lasts. Pick one step above and do it today.
+
+## Frequently Asked Questions
+
+### What is the most common scam targeting older adults right now?
+Impersonation scams are the biggest driver of large losses, according to the FTC. These include criminals posing as your bank, a government agency, a tech company, or a family member. Investment scams, often starting on social media, also account for a large share of the biggest individual losses.
+
+### What is the single best thing I can do to protect my parents from fraud?
+Teach them one rule: when a call, text, or email creates urgency, hang up and call back on a number they already trust, never the number in the message. Urgency is the warning sign, not proof the contact is real. That one habit breaks the momentum every scam depends on.
+
+### My parent already gave money to a scammer. What do I do?
+Contact their bank or card issuer immediately to try to stop or reverse the transfer, then report it to the FTC at reportfraud.ftc.gov and call the DOJ National Elder Fraud Hotline at 833-372-8311. Acting fast matters, and so does reassuring your parent that reporting it is the right move, not a reason for shame.
+
+### How do legal documents protect against elder abuse?
+A durable power of attorney, a healthcare power of attorney, and an advance directive let a trusted person step in quickly if a parent cannot act, which closes the gap that bad actors exploit when nobody has clear authority. Without them, you may have to go through court guardianship during a crisis, which is slower and more expensive.
+
+### Where can I report suspected elder financial exploitation?
+Report to the FTC at reportfraud.ftc.gov, call the DOJ National Elder Fraud Hotline at 833-372-8311, and in North Carolina you can also reach the Attorney General's consumer line at 1-877-5-NO-SCAM. If you believe a senior is in immediate danger, contact Adult Protective Services or local law enforcement.
+
+## About Ryan Riggins
+
+Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafe app](https://seniorsafeapp.com).
+
+---
+
+**Worried about the documents gap?** The free Beneficiary Designation Audit checks every account in about five minutes: rigginsstrategicsolutions.com/tools/beneficiary-designation-audit
+
+**Want a step-by-step guide?** The free Simple Blueprint walks through every stage of a senior transition: rigginsstrategicsolutions.com/freeguide
+
+**Ready for the full system?** Senior Transition Blueprint Core, 19 modules and 60+ tools: rigginsstrategicsolutions.com/the-blueprint
+
+**Need a personalized plan?** Blueprint Premium adds a 60-min call and 90 days of email support: rigginsstrategicsolutions.com/blueprint-premium
+
+**Coordinate your family in one place.** SeniorSafe app (web, iPhone, Android): app.seniorsafeapp.com
+
+**Talk it through.** Book a free 20-min call with Ryan: rigginsstrategicsolutions.com/work-with-ryan
+
+### Get the SeniorSafe App
+
+[Download on the App Store](https://apps.apple.com/us/app/seniorsafe-app/id6761343239)
+
+[Get it on Google Play](https://play.google.com/store/apps/details?id=com.rigginsstrategicsolutions.seniorsafe)
+
+Ryan Riggins is the founder of Riggins Strategic Solutions, a consumer protection company for families navigating senior transitions. He spent 8 years in construction project management and house flipping before switching sides. Two books on Amazon. Free resources at rigginsstrategicsolutions.com.
 
 ---
 
