@@ -372,7 +372,7 @@ export function ModuleDrawer({ module, onClose, preview = false, upgradeUrl }: P
                       className="mt-4 inline-flex w-full items-center justify-center rounded-lg px-5 py-3 text-sm font-semibold transition-opacity hover:opacity-90"
                       style={{ background: "#D4AF37", color: "#1C3A52" }}
                     >
-                      Unlock every tool, get the full Blueprint
+                      Unlock all 65+ tools, full Blueprint for $30 (normally $47)
                       <span aria-hidden className="ml-2">&rarr;</span>
                     </a>
                   )}

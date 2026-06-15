@@ -17,8 +17,10 @@ import { ModuleDrawer } from "@/components/blueprint-map/ModuleDrawer";
  */
 const VALID_KEY = "blueprint2026";
 
-// Where the $9.99 map's locked-tool CTAs point (the full $47 Blueprint).
-const UPGRADE_URL = "https://blueprint.rigginsstrategicsolutions.com/the-blueprint";
+// Where the $9.99 map's locked-tool CTAs point: the ascension checkout that
+// upgrades a Map buyer to the full Blueprint Core for a discounted $30.
+const UPGRADE_URL =
+  "https://blueprint.rigginsstrategicsolutions.com/api/checkout/map-upgrade";
 
 // The sales page cold visitors land on when they have no valid key or token.
 const SALES_PAGE = "/blueprint-preview";
