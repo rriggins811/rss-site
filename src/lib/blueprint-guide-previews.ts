@@ -8,9 +8,11 @@
  * preview real substance to read and scroll past before reaching the locked
  * tools, without giving away anything that is paid-exclusive.
  *
- * Keyed by Module.id. The starter guide covers Modules 0 to 13; the advanced
- * modules (14 to 19) have no starter-guide section, so they fall back to the
- * video plus the "What you'll do" outcomes.
+ * Keyed by Module.id. Modules 0 to 13 are excerpted from the free "Simple
+ * Blueprint" starter guide. Modules 14 to 19 are summarized from the full
+ * Blueprint module content (the deeper financial, legal, and care material the
+ * free guide does not cover), written to teach the decision while the tools
+ * stay locked.
  */
 
 export type GuidePreview = {
@@ -176,6 +178,77 @@ export const GUIDE_PREVIEWS: Record<string, GuidePreview> = {
       "After: send a summary, schedule the next meeting, follow up on commitments.",
     ],
     footnote: "And remember: you cannot pour from an empty cup. Caregiver self-care is necessary.",
+  },
+  "module-14": {
+    intro: "Over 75% of seniors say they want to stay home. Here is the honest math on whether that is actually the cheaper, safer choice.",
+    heading: "The Real Cost of Aging in Place",
+    points: [
+      "The home that was perfect at 55 can be dangerous at 75: stairs, step-over tubs, overhead storage, a car-only grocery run.",
+      "Modifications are never one-time. A bathroom safe for a walker is not safe for a wheelchair, and bathroom safety alone runs $5,000 to $25,000 or more.",
+      "The hidden cost is in-home care. Help with bathing and dressing runs $30 to $40 an hour. At 44 hours a week, that is over $6,000 a month.",
+      "Round-the-clock care can top $20,000 a month, often more than assisted living. Aging in place is not automatically cheaper.",
+      "Six signs it is not viable: progressive disease, an unmodifiable home, isolation, money that cannot cover both modifications and care, burned-out caregivers, rising safety incidents. Three or more, rethink it.",
+    ],
+    footnote: "The full Blueprint's Aging Cost Calculator runs the real 5-year aging-in-place vs senior-living comparison for your numbers, plus a room-by-room modification assessment and a Plan B timeline.",
+  },
+  "module-15": {
+    intro: "Assisted living runs $6,000 to $8,000 a month, Medicare pays none of it, and most families' savings last 2 to 3 years. Long-term care insurance answers the 'then what,' but only if you act before you need it.",
+    heading: "Long-Term Care Insurance, Straight",
+    points: [
+      "Medicare does not cover long-term care. LTC insurance is what pays for nursing homes, assisted living, memory care, and in-home aides.",
+      "The catch: wait until you need it and you cannot get it. The window is ages 50 to 65, while you are healthy enough to qualify and premiums are low.",
+      "An identical policy can cost more than double if you wait from 55 to 65. After 70, premiums are often out of reach.",
+      "Traditional means use it or lose it but the most coverage per dollar. Hybrid pairs with life insurance so heirs get it if you never need care.",
+      "Cannot afford or qualify? You still need a plan: Medicaid planning 5 or more years out, self-funding, a family agreement, or home-sale equity. Ignoring it is not a strategy.",
+    ],
+    footnote: "Ryan sells no policies and earns nothing here. The full Blueprint's Decision Guide, Policy Comparison, and Affordability Calculator help you decide without getting upsold.",
+  },
+  "module-16": {
+    intro: "Most families learn about the coverage gap during a crisis, when Medicare will not pay for nursing care at $8,000 to $12,000 a month. Here is the maze before you are trapped in it.",
+    heading: "Medicare, Medicaid & VA, Decoded",
+    points: [
+      "Medicare does not cover long-term care. Part A covers only up to 100 days of skilled nursing after a 3-day hospital stay, then you are on your own.",
+      "Medigap vs Advantage in one line: ongoing health issues or you travel, pay more for Medigap and see any doctor; healthy and budget-tight, Advantage is cheaper until you need care outside the network.",
+      "Medicaid is the payer of last resort: roughly $2,000 in countable assets and a 5-year lookback on every transfer. Planning 5 years out can protect $100,000 or more.",
+      "Estate recovery: after a Medicaid recipient passes, the state can put a lien on the home to recover what it paid.",
+      "VA Aid and Attendance is the most underused benefit in America: $1,500 to $3,000 or more a month for a wartime veteran or surviving spouse who needs daily help, with more generous limits than Medicaid.",
+    ],
+    footnote: "Rules change and vary by state, so this is education, not advice. The Medicare Gap Analysis, VA Eligibility Checker, Medicaid Spend-Down Planner, and Benefits Coordination Worksheet turn the maze into a plan.",
+  },
+  "module-17": {
+    intro: "Module 8 covered the basic documents. This is where planning ahead literally saves hundreds of thousands of dollars, or does not, depending on whether you start 5 years early.",
+    heading: "Trusts, the MAPT & Asset Protection",
+    points: [
+      "Revocable trust means you control it and avoid probate, but it does not protect assets from Medicaid or creditors. Irrevocable trust is locked, but it shields them. Many families with real assets need both.",
+      "The Medicaid Asset Protection Trust is the most powerful tool most families have never heard of: it can protect an entire life savings from nursing-home costs, but only if funded 5 or more years before care is needed.",
+      "Ryan has seen families save $300,000 or more with a MAPT set up at 70, and others lose everything because they waited for the crisis to ask.",
+      "Gifting has traps: every gift still hits the 5-year Medicaid lookback, and gifting a home directly can trigger capital gains. A trust is almost always better.",
+      "The most overlooked killer: beneficiary designations on IRAs, 401(k)s, and life insurance override your will. An ex-spouse still listed gets the money.",
+    ],
+    footnote: "Trusts require a real elder-law attorney, never online forms. The Trust Selection Guide, Estate Tax Worksheet, and Beneficiary Audit show you exactly what to bring.",
+  },
+  "module-18": {
+    intro: "48 million Americans give unpaid care to a family member, spend about $7,000 a year of their own money, and quietly carry it until they break. If you are running point, this one is about you.",
+    heading: "The Caregiver Survival Guide",
+    points: [
+      "The unseen costs are real: $7,000 or more a year out of pocket, $300,000 or more in lifetime lost wages for women who leave work to care, and depression in 40% of caregivers.",
+      "It is almost always one person, usually the daughter who lives closest, carrying 80% while siblings help only when asked. Divide the work by strength before someone burns out.",
+      "Respite is infrastructure, not luxury: in-home help ($25 to $40 an hour), adult day centers ($50 to $100 a day), or short 1 to 2 week community stays. Plan it before you feel desperate.",
+      "Out-of-state siblings still have a job: research, calls, bill paying, scheduling, emotional check-ins. Distance is not an excuse.",
+      "Hiring help is not failure. When the caregiver's own health, marriage, or job is suffering, it is the responsible call.",
+    ],
+    footnote: "The Burnout Assessment, Respite Planning Guide, and Caregiver Information Sheet (so anyone can step in) turn 'I am drowning' into a plan.",
+  },
+  "module-19": {
+    intro: "Finish the Blueprint and you know more about senior transitions than 99% of families. But knowledge without action is just information. Here is how to actually execute, and where to get help when it is bigger than a DIY course.",
+    heading: "The Complete Loops Follow-Up System",
+    points: [
+      "A transition does not end on move-in day. Schedule the check-ins now: 30, 60, 90, 180, and 365 days. The families who follow up catch problems early.",
+      "Be honest about where you are: Confident (execute the plan), Specific Questions (a quick call clears it), or Need Hands-On Guidance (you need a partner, not a course).",
+      "Free help stays free: the strategy call, the SeniorSafe app for daily check-ins and AI guidance, and the daily content.",
+      "Go deeper when DIY hits its edge: Blueprint Premium adds a personalized plan and a 60-minute call with Ryan; full advisory walks alongside you for 3 to 6 months.",
+    ],
+    footnote: "The natural step up from the DIY Blueprint to working with Ryan directly.",
   },
 };
 
