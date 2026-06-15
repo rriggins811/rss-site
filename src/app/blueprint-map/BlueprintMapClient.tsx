@@ -12,68 +12,97 @@ import {
 import { ModuleDrawer } from "@/components/blueprint-map/ModuleDrawer";
 
 /**
- * Single shared access token for v1. Lives client-side because the gate
- * is convenience (keep the URL out of indexers + casual sharing), not a
- * security boundary. Rotate by changing this constant + the GHL email.
+ * Legacy shared key for $47 buyers (?key=blueprint2026). Kept working so the
+ * existing buyer path never breaks. Convenience gate, not a security boundary.
  */
 const VALID_KEY = "blueprint2026";
 
-// Where the preview/tripwire unlock CTAs point (the full Blueprint sales page).
-const UPGRADE_URL = "https://blueprint.rigginsstrategicsolutions.com/pricing";
+// Where the $9.99 map's locked-tool CTAs point (the full $47 Blueprint).
+const UPGRADE_URL = "https://blueprint.rigginsstrategicsolutions.com/the-blueprint";
+
+// The sales page cold visitors land on when they have no valid key or token.
+const SALES_PAGE = "/blueprint-preview";
 
 // Brand palette per spec.
 const PALETTE = ["#1C3A52", "#6B2C3E", "#D4AF37", "#1C3A52", "#6B2C3E"];
 
 const transformer = new Transformer();
 
-export function BlueprintMapClient({ preview = false }: { preview?: boolean } = {}) {
+/**
+ * Access modes:
+ *  - "full" = $47 buyer (?key) or a token with tier "full": real tool downloads.
+ *  - "map"  = $9.99 buyer (token tier "map"/"map_book"): overview videos +
+ *             summaries, tools shown as locked teasers with an upgrade CTA.
+ *  - null   = still checking (token validation is async) → render nothing.
+ */
+type Mode = "full" | "map" | null;
+
+export function BlueprintMapClient() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const svgRef = useRef<SVGSVGElement | null>(null);
   const mmRef = useRef<Markmap | null>(null);
-  const [authorized, setAuthorized] = useState<boolean | null>(null);
+  const [mode, setMode] = useState<Mode>(null);
   const [activeModule, setActiveModule] = useState<Module | null>(null);
+
+  // "map" mode renders the preview-style experience (videos + summaries +
+  // locked tools); "full" renders real downloads.
+  const preview = mode === "map";
 
   const markdown = useMemo(
     () =>
-      buildMindMapMarkdown(
-        preview
-          ? {
-              rootTitle: "The Senior Transition Blueprint",
-              tagline: "by Ryan Riggins · Riggins Strategic Solutions",
-            }
-          : undefined
-      ),
+      preview
+        ? buildMindMapMarkdown({
+            rootTitle: "The Senior Transition Blueprint",
+            tagline: "by Ryan Riggins · Riggins Strategic Solutions",
+          })
+        : buildMindMapMarkdown(),
     [preview]
   );
 
-  // Gate check. The public preview/tripwire variant is ungated.
+  // Gate: ?key (legacy $47) → full. ?token → validate server-side, tier drives
+  // mode. Neither → bounce to the sales page.
   useEffect(() => {
-    if (preview) {
-      setAuthorized(true);
-      return;
-    }
+    let cancelled = false;
     const key = searchParams.get("key");
-    if (key !== VALID_KEY) {
-      router.replace("/the-blueprint");
+    const token = searchParams.get("token");
+
+    if (key === VALID_KEY) {
+      setMode("full");
       return;
     }
-    setAuthorized(true);
-  }, [searchParams, router, preview]);
+    if (token) {
+      fetch(`/api/blueprint-access?token=${encodeURIComponent(token)}`)
+        .then((r) => r.json())
+        .then((data: { tier?: string | null }) => {
+          if (cancelled) return;
+          if (data.tier === "full") setMode("full");
+          else if (data.tier === "map" || data.tier === "map_book") setMode("map");
+          else router.replace(SALES_PAGE);
+        })
+        .catch(() => {
+          if (!cancelled) router.replace(SALES_PAGE);
+        });
+      return () => {
+        cancelled = true;
+      };
+    }
+    router.replace(SALES_PAGE);
+  }, [searchParams, router]);
 
-  // Lock body scroll while the full-screen map is mounted
+  // Lock body scroll while the full-screen map is mounted.
   useEffect(() => {
-    if (!authorized) return;
+    if (mode === null) return;
     const prev = document.body.style.overflow;
     document.body.style.overflow = "hidden";
     return () => {
       document.body.style.overflow = prev;
     };
-  }, [authorized]);
+  }, [mode]);
 
-  // Markmap render
+  // Markmap render.
   useEffect(() => {
-    if (!authorized || !svgRef.current) return;
+    if (mode === null || !svgRef.current) return;
 
     const { root } = transformer.transform(markdown);
     const mm = Markmap.create(
@@ -102,12 +131,12 @@ export function BlueprintMapClient({ preview = false }: { preview?: boolean } = 
       window.removeEventListener("orientationchange", onResize);
       mmRef.current = null;
     };
-  }, [authorized, markdown]);
+  }, [mode, markdown]);
 
-  // Click delegation: intercept #module-* anchor clicks inside the SVG
-  // and open the drawer instead of navigating to the hash.
+  // Click delegation: intercept #module-* anchor clicks inside the SVG and open
+  // the drawer instead of navigating to the hash.
   useEffect(() => {
-    if (!authorized) return;
+    if (mode === null) return;
     const svg = svgRef.current;
     if (!svg) return;
 
@@ -118,7 +147,6 @@ export function BlueprintMapClient({ preview = false }: { preview?: boolean } = 
       if (!anchor) return;
       const href = anchor.getAttribute("href") || "";
 
-      // Module link: open the inline drawer instead of navigating to a hash.
       if (href.startsWith("#module-")) {
         const id = href.slice(1);
         const mod = getModuleById(id);
@@ -129,9 +157,6 @@ export function BlueprintMapClient({ preview = false }: { preview?: boolean } = 
         return;
       }
 
-      // External link (Amazon, Maggie app, Premium tier): open in a new tab
-      // so the user keeps their place in the map. Without this Markmap's
-      // default anchor behavior would replace the full-screen overlay.
       if (/^https?:\/\//i.test(href)) {
         e.preventDefault();
         e.stopPropagation();
@@ -141,9 +166,9 @@ export function BlueprintMapClient({ preview = false }: { preview?: boolean } = 
 
     svg.addEventListener("click", handler);
     return () => svg.removeEventListener("click", handler);
-  }, [authorized]);
+  }, [mode]);
 
-  if (!authorized) return null;
+  if (mode === null) return null;
 
   return (
     <main
