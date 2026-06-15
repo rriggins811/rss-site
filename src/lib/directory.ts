@@ -234,7 +234,7 @@ export const DIRECTORY_STATES: DirectoryState[] = [
   { code: "CO", name: "Colorado", slug: "colorado", indexable: true },
   { code: "CT", name: "Connecticut", slug: "connecticut", indexable: true },
   { code: "DE", name: "Delaware", slug: "delaware", indexable: true },
-  { code: "DC", name: "District of Columbia", slug: "district-of-columbia" },
+  { code: "DC", name: "District of Columbia", slug: "district-of-columbia", indexable: true },
   { code: "FL", name: "Florida", slug: "florida", indexable: true },
   { code: "GA", name: "Georgia", slug: "georgia", indexable: true },
   { code: "HI", name: "Hawaii", slug: "hawaii", indexable: true },
