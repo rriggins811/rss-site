@@ -187,7 +187,7 @@ export default async function ResourceArticlePage({
                   </h3>
                   <p className="mt-3 text-ink/80 leading-relaxed">
                     Blueprint Core is the 19-module system Ryan uses with
-                    client families. 60+ tools, scripts for the hard
+                    client families. 65+ tools, scripts for the hard
                     conversations, and the five exit strategies for the home.
                     $47, one-time, 14-day money-back guarantee.
                   </p>
@@ -252,7 +252,7 @@ export default async function ResourceArticlePage({
                   </h3>
                   <p className="mt-3 text-ink/80 leading-relaxed">
                     Blueprint Core is the 19-module system Ryan uses with
-                    client families. 60+ tools, scripts for the hard
+                    client families. 65+ tools, scripts for the hard
                     conversations, and the five exit strategies for the home.
                     $47, one-time, 14-day money-back guarantee.
                   </p>

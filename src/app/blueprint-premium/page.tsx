@@ -49,7 +49,7 @@ export const metadata: Metadata = {
 const whatYouGet: { title: string; body: string }[] = [
   {
     title: "Everything in Blueprint Core",
-    body: "The full 19-module system, 60+ tools, 5 exit strategies, and every checklist and script. You get the foundation first.",
+    body: "The full 19-module system, 65+ tools, 5 exit strategies, and every checklist and script. You get the foundation first.",
   },
   {
     title: "A personalized Senior Transition Plan",

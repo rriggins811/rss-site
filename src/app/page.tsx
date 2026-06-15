@@ -55,7 +55,7 @@ const paths: {
     price: "$47 one-time",
     blurb: "For families who want a self-serve roadmap.",
     bullets: [
-      "19 modules, 60+ tools and checklists",
+      "19 modules, 65+ tools and checklists",
       "Walk through it at your own pace",
       "The exact playbook Ryan uses with clients",
     ],

@@ -472,7 +472,7 @@ export function blueprintCoreProductSchema() {
     "@type": "Product",
     name: "Blueprint Core",
     description:
-      "The Blueprint Core is a $47 DIY course covering the full senior housing transition process. 19 modules, 60+ tools and worksheets, self-paced.",
+      "The Blueprint Core is a $47 DIY course covering the full senior housing transition process. 19 modules, 65+ tools and worksheets, self-paced.",
     brand: { "@type": "Brand", name: ORGANIZATION.name },
     image: abs("/og/the-blueprint.png"),
     url,
