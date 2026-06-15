@@ -10,6 +10,7 @@ import {
   type Module,
 } from "@/lib/blueprint-modules";
 import { ModuleDrawer } from "@/components/blueprint-map/ModuleDrawer";
+import { trackPixelEvent, getFbc, getFbp } from "@/lib/meta/pixel";
 
 /**
  * Legacy shared key for $47 buyers (?key=blueprint2026). Kept working so the
@@ -30,6 +31,40 @@ const PALETTE = ["#1C3A52", "#6B2C3E", "#D4AF37", "#1C3A52", "#6B2C3E"];
 
 const transformer = new Transformer();
 
+// Fire Meta Purchase (pixel + CAPI, deduped on the stripe session id, value 9.99)
+// once a $9.99 map buyer lands on the success page and the instant-access unlock
+// succeeds. Same pixel as the free-guide Lead events.
+function fireMapPurchase(sessionId: string) {
+  const eventId = `purchase_${sessionId}`;
+  const customData = {
+    value: 9.99,
+    currency: "USD",
+    content_name: "blueprint_map",
+  };
+  try {
+    trackPixelEvent({ eventName: "Purchase", eventId, customData });
+  } catch {
+    /* pixel best-effort */
+  }
+  try {
+    void fetch("/api/track", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      keepalive: true,
+      body: JSON.stringify({
+        eventName: "Purchase",
+        eventId,
+        eventSourceUrl:
+          typeof window !== "undefined" ? window.location.href : "",
+        userData: { fbc: getFbc(), fbp: getFbp() },
+        customData,
+      }),
+    }).catch(() => {});
+  } catch {
+    /* CAPI best-effort */
+  }
+}
+
 /**
  * Access modes:
  *  - "full" = $47 buyer (?key) or a token with tier "full": real tool downloads.
@@ -44,6 +79,7 @@ export function BlueprintMapClient() {
   const searchParams = useSearchParams();
   const svgRef = useRef<SVGSVGElement | null>(null);
   const mmRef = useRef<Markmap | null>(null);
+  const purchaseFiredRef = useRef(false);
   const [mode, setMode] = useState<Mode>(null);
   const [claiming, setClaiming] = useState(false);
   const [activeModule, setActiveModule] = useState<Module | null>(null);
@@ -116,6 +152,10 @@ export function BlueprintMapClient() {
             if (cancelled) return;
             if (applyTier(d.tier)) {
               setClaiming(false);
+              if (!purchaseFiredRef.current) {
+                purchaseFiredRef.current = true;
+                fireMapPurchase(sessionId);
+              }
               return;
             }
             if (++attempts >= 12) {

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { MODULES } from "@/lib/blueprint-modules";
+import { MapCheckoutButton } from "@/components/blueprint-map/MapCheckoutButton";
 
 export const metadata: Metadata = {
   title: "The Senior Transition Blueprint Map, $9.99",
@@ -15,27 +16,10 @@ export const metadata: Metadata = {
   },
 };
 
-// The $9.99 checkout lives on blueprint-site (reuses its Stripe + webhook).
-const CHECKOUT_URL =
-  "https://blueprint.rigginsstrategicsolutions.com/api/checkout/map";
-
 const NAVY = "#1C3A52";
 const MAROON = "#6B2C3E";
 const GOLD = "#D4AF37";
 const CREAM = "#FAF8F3";
-
-function Cta({ block = false }: { block?: boolean }) {
-  return (
-    <a
-      href={CHECKOUT_URL}
-      className={`${block ? "flex w-full" : "inline-flex"} items-center justify-center rounded-lg px-7 py-4 text-base font-bold transition-opacity hover:opacity-90`}
-      style={{ background: GOLD, color: NAVY }}
-    >
-      Unlock the full map for $9.99
-      <span aria-hidden className="ml-2">&rarr;</span>
-    </a>
-  );
-}
 
 export default async function BlueprintMapSalesPage({
   searchParams,
@@ -97,7 +81,7 @@ export default async function BlueprintMapSalesPage({
           of these deals.
         </p>
         <div className="mt-8 flex justify-center">
-          <Cta />
+          <MapCheckoutButton />
         </div>
         <p className="mt-3 text-sm text-[#1C3A52]/60">
           One-time $9.99. Instant access by email. No subscription.
@@ -185,7 +169,7 @@ export default async function BlueprintMapSalesPage({
             needs, before you make a single expensive decision.
           </p>
           <div className="mt-8 flex justify-center">
-            <Cta />
+            <MapCheckoutButton />
           </div>
           <p className="mt-4 text-sm text-[#FAF8F3]/60">
             Want the done-for-you toolkit too? It is one click away inside.
