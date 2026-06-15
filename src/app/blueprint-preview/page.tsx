@@ -176,7 +176,7 @@ export default async function BlueprintMapSalesPage({
         >
           <h2
             className="m-0 text-2xl font-bold"
-            style={{ fontFamily: "var(--font-lora), Georgia, serif" }}
+            style={{ fontFamily: "var(--font-lora), Georgia, serif", color: CREAM }}
           >
             $9.99 to see the whole thing. $0 to keep guessing.
           </h2>

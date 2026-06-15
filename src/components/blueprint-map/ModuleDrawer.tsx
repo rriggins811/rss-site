@@ -4,6 +4,16 @@ import { useEffect, useRef } from "react";
 import { type Module, moduleVideoUrl } from "@/lib/blueprint-modules";
 import { getGuidePreview } from "@/lib/blueprint-guide-previews";
 
+// The starter tools unlocked at the $9.99 (preview) tier, matching the free
+// guide's giveaway. Everything else stays a locked teaser until the $47 Blueprint.
+const FREE_TOOL_HREFS = new Set<string>([
+  "/blueprint-tools/Tool_00A_Quick_Start_7Day_Checklist.pdf",
+  "/blueprint-tools/Tool_00B_Family_Sharing_Letter.pdf",
+  "/blueprint-tools/Tool_01A_Starting_Point_Quick_Assessment.pdf",
+  "/blueprint-tools/Tool_02A_5_Pile_Sorting_System.pdf",
+  "/blueprint-tools/Tool_03A_Paperwork_3_Folder_System.pdf",
+]);
+
 type Props = {
   module: Module | null;
   onClose: () => void;
@@ -277,65 +287,98 @@ export function ModuleDrawer({ module, onClose, preview = false, upgradeUrl }: P
               </section>
             )}
 
-            {/* Locked tool teasers (preview/tripwire mode): show the value, gate the goods. */}
-            {module.tools.length > 0 && preview && (
-              <section>
-                <h3
-                  className="m-0 mb-3 text-sm font-semibold uppercase tracking-[0.12em] text-[#6B2C3E]"
-                  style={{ fontFamily: "var(--font-inter)" }}
-                >
-                  Done-for-you tools in this module
-                </h3>
-                <ul className="m-0 grid gap-3 pl-0 list-none sm:grid-cols-1">
-                  {module.tools.map((tool) => (
-                    <li key={tool.href}>
-                      <div className="flex items-center gap-3 rounded-lg border border-[#1C3A52]/15 bg-[#1C3A52]/[0.03] px-4 py-3">
-                        <span
-                          aria-hidden
-                          className="flex h-9 w-9 shrink-0 items-center justify-center rounded-md"
-                          style={{ background: "#1C3A52", color: "#D4AF37" }}
-                        >
-                          <svg
-                            width="16"
-                            height="16"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            stroke="currentColor"
-                            strokeWidth="2"
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            aria-hidden
-                          >
-                            <rect x="3" y="11" width="18" height="11" rx="2" ry="2" />
-                            <path d="M7 11V7a5 5 0 0 1 10 0v4" />
-                          </svg>
-                        </span>
-                        <span className="flex-1 min-w-0">
-                          <span className="block text-sm font-semibold text-[#1C3A52]">
-                            {tool.name}
-                          </span>
-                          <span className="block text-xs text-[#1C3A52]/60">
-                            Included in the full Blueprint
-                          </span>
-                        </span>
-                      </div>
-                    </li>
-                  ))}
-                </ul>
-                {upgradeUrl && (
-                  <a
-                    href={upgradeUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="mt-4 inline-flex w-full items-center justify-center rounded-lg px-5 py-3 text-sm font-semibold transition-opacity hover:opacity-90"
-                    style={{ background: "#D4AF37", color: "#1C3A52" }}
+            {/* Tools in preview/$9.99 mode: the starter set is unlocked as real
+                downloads; the rest are locked teasers with the $47 upsell. */}
+            {module.tools.length > 0 && preview && (() => {
+              const freeTools = module.tools.filter((t) => FREE_TOOL_HREFS.has(t.href));
+              const lockedTools = module.tools.filter((t) => !FREE_TOOL_HREFS.has(t.href));
+              return (
+                <section>
+                  <h3
+                    className="m-0 mb-3 text-sm font-semibold uppercase tracking-[0.12em] text-[#6B2C3E]"
+                    style={{ fontFamily: "var(--font-inter)" }}
                   >
-                    Unlock every tool, get the full Blueprint
-                    <span aria-hidden className="ml-2">&rarr;</span>
-                  </a>
-                )}
-              </section>
-            )}
+                    Done-for-you tools in this module
+                  </h3>
+
+                  {freeTools.length > 0 && (
+                    <ul className="m-0 mb-3 grid gap-3 pl-0 list-none sm:grid-cols-1">
+                      {freeTools.map((tool) => (
+                        <li key={tool.href}>
+                          <a
+                            href={tool.href}
+                            download
+                            className="group flex items-center gap-3 rounded-lg border border-[#1C3A52]/15 bg-white px-4 py-3 transition-colors hover:border-[#6B2C3E] hover:bg-[#6B2C3E]/[0.03] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#D4AF37]"
+                          >
+                            <span
+                              aria-hidden
+                              className="flex h-9 w-9 shrink-0 items-center justify-center rounded-md transition-colors group-hover:bg-[#6B2C3E] group-hover:text-[#FAF8F3]"
+                              style={{ background: "#1C3A52", color: "#FAF8F3" }}
+                            >
+                              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                                <polyline points="7 10 12 15 17 10" />
+                                <line x1="12" y1="15" x2="12" y2="3" />
+                              </svg>
+                            </span>
+                            <span className="flex-1 min-w-0">
+                              <span className="block text-sm font-semibold text-[#1C3A52] group-hover:text-[#6B2C3E]">
+                                {tool.name}
+                              </span>
+                              <span className="block text-xs font-semibold" style={{ color: "#6B2C3E" }}>
+                                Yours free, PDF download
+                              </span>
+                            </span>
+                          </a>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+
+                  {lockedTools.length > 0 && (
+                    <ul className="m-0 grid gap-3 pl-0 list-none sm:grid-cols-1">
+                      {lockedTools.map((tool) => (
+                        <li key={tool.href}>
+                          <div className="flex items-center gap-3 rounded-lg border border-[#1C3A52]/15 bg-[#1C3A52]/[0.03] px-4 py-3">
+                            <span
+                              aria-hidden
+                              className="flex h-9 w-9 shrink-0 items-center justify-center rounded-md"
+                              style={{ background: "#1C3A52", color: "#D4AF37" }}
+                            >
+                              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+                                <rect x="3" y="11" width="18" height="11" rx="2" ry="2" />
+                                <path d="M7 11V7a5 5 0 0 1 10 0v4" />
+                              </svg>
+                            </span>
+                            <span className="flex-1 min-w-0">
+                              <span className="block text-sm font-semibold text-[#1C3A52]">
+                                {tool.name}
+                              </span>
+                              <span className="block text-xs text-[#1C3A52]/60">
+                                Included in the full Blueprint
+                              </span>
+                            </span>
+                          </div>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+
+                  {upgradeUrl && lockedTools.length > 0 && (
+                    <a
+                      href={upgradeUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="mt-4 inline-flex w-full items-center justify-center rounded-lg px-5 py-3 text-sm font-semibold transition-opacity hover:opacity-90"
+                      style={{ background: "#D4AF37", color: "#1C3A52" }}
+                    >
+                      Unlock every tool, get the full Blueprint
+                      <span aria-hidden className="ml-2">&rarr;</span>
+                    </a>
+                  )}
+                </section>
+              );
+            })()}
 
             {/* GHL lesson CTA (hidden when no URL set) */}
             {module.ghlLessonUrl && (

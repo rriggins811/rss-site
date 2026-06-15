@@ -43,6 +43,7 @@ export function BlueprintMapClient() {
   const svgRef = useRef<SVGSVGElement | null>(null);
   const mmRef = useRef<Markmap | null>(null);
   const [mode, setMode] = useState<Mode>(null);
+  const [claiming, setClaiming] = useState(false);
   const [activeModule, setActiveModule] = useState<Module | null>(null);
 
   // "map" mode renders the preview-style experience (videos + summaries +
@@ -66,19 +67,30 @@ export function BlueprintMapClient() {
     let cancelled = false;
     const key = searchParams.get("key");
     const token = searchParams.get("token");
+    const sessionId = searchParams.get("session_id");
+
+    const applyTier = (tier?: string | null): boolean => {
+      if (tier === "full") {
+        setMode("full");
+        return true;
+      }
+      if (tier === "map" || tier === "map_book") {
+        setMode("map");
+        return true;
+      }
+      return false;
+    };
 
     if (key === VALID_KEY) {
       setMode("full");
       return;
     }
+
     if (token) {
       fetch(`/api/blueprint-access?token=${encodeURIComponent(token)}`)
         .then((r) => r.json())
-        .then((data: { tier?: string | null }) => {
-          if (cancelled) return;
-          if (data.tier === "full") setMode("full");
-          else if (data.tier === "map" || data.tier === "map_book") setMode("map");
-          else router.replace(SALES_PAGE);
+        .then((d: { tier?: string | null }) => {
+          if (!cancelled && !applyTier(d.tier)) router.replace(SALES_PAGE);
         })
         .catch(() => {
           if (!cancelled) router.replace(SALES_PAGE);
@@ -87,6 +99,44 @@ export function BlueprintMapClient() {
         cancelled = true;
       };
     }
+
+    if (sessionId) {
+      // Just purchased: poll until the Stripe webhook has written the access row
+      // (usually a second or two), then unlock. Fall back to the check-your-email
+      // page if it takes too long.
+      setClaiming(true);
+      let attempts = 0;
+      const poll = () => {
+        if (cancelled) return;
+        fetch(`/api/blueprint-access?session_id=${encodeURIComponent(sessionId)}`)
+          .then((r) => r.json())
+          .then((d: { tier?: string | null }) => {
+            if (cancelled) return;
+            if (applyTier(d.tier)) {
+              setClaiming(false);
+              return;
+            }
+            if (++attempts >= 12) {
+              router.replace(`${SALES_PAGE}?purchased=1`);
+              return;
+            }
+            setTimeout(poll, 1500);
+          })
+          .catch(() => {
+            if (cancelled) return;
+            if (++attempts >= 12) {
+              router.replace(`${SALES_PAGE}?purchased=1`);
+              return;
+            }
+            setTimeout(poll, 1500);
+          });
+      };
+      poll();
+      return () => {
+        cancelled = true;
+      };
+    }
+
     router.replace(SALES_PAGE);
   }, [searchParams, router]);
 
@@ -168,7 +218,26 @@ export function BlueprintMapClient() {
     return () => svg.removeEventListener("click", handler);
   }, [mode]);
 
-  if (mode === null) return null;
+  if (mode === null) {
+    if (!claiming) return null;
+    return (
+      <main
+        className="fixed inset-0 z-[60] flex flex-col items-center justify-center gap-4 bg-[#FAF8F3] px-6 text-center"
+        style={{ fontFamily: "var(--font-inter), system-ui, sans-serif" }}
+      >
+        <div
+          className="h-8 w-8 animate-spin rounded-full border-2 border-[#1C3A52]/20 border-t-[#1C3A52]"
+          aria-hidden
+        />
+        <p className="m-0 font-semibold text-[#1C3A52]">
+          Unlocking your Blueprint Map...
+        </p>
+        <p className="m-0 text-sm text-[#1C3A52]/60">
+          This takes a few seconds. A link is also on its way to your email.
+        </p>
+      </main>
+    );
+  }
 
   return (
     <main
