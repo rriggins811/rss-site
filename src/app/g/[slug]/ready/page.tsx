@@ -88,7 +88,17 @@ export default async function GuideReadyPage({
           <h2 className="mt-3 font-serif text-2xl font-semibold leading-tight tracking-tight text-white md:text-3xl">
             See every step of the transition, in order, on one screen.
           </h2>
-          <p className="mt-3 text-base leading-relaxed text-white/80">
+          <figure className="mt-5">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/blueprint-map-graphic.png"
+              alt="The Blueprint Map: the central plan and its 8 main branches, every step of a senior transition in order on one screen."
+              width={1060}
+              height={648}
+              className="h-auto w-full rounded-lg border border-white/15 shadow-md"
+            />
+          </figure>
+          <p className="mt-4 text-base leading-relaxed text-white/80">
             That guide answers one question. The Blueprint Map answers the rest,
             every step of a senior transition laid out in order, each with a
             short video that explains it in plain English. No more digging

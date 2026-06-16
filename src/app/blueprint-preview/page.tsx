@@ -80,7 +80,21 @@ export default async function BlueprintMapSalesPage({
           module by module, by someone who spent eight years on the other side
           of these deals.
         </p>
-        <div className="mt-8 flex justify-center">
+        <figure className="mx-auto mt-9">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/blueprint-map-graphic.png"
+            alt="The Blueprint Map: the central plan and its 8 main branches (Start Here, Sort and Prep, Authority Money and Care, Sell and Move, Settle In, Your Action Plan, the navigator option, and the books), every step of a senior transition in order on one screen."
+            width={1060}
+            height={648}
+            className="mx-auto h-auto w-full max-w-2xl rounded-xl border shadow-sm"
+            style={{ borderColor: "rgba(28,58,82,0.12)" }}
+          />
+          <figcaption className="mt-3 text-sm text-[#1C3A52]/60">
+            This is the map. Every step in order, on one screen.
+          </figcaption>
+        </figure>
+        <div className="mt-9 flex justify-center">
           <MapCheckoutButton />
         </div>
         <p className="mt-3 text-sm text-[#1C3A52]/60">
