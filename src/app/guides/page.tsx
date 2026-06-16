@@ -11,7 +11,7 @@ import {
   collectionPageSchema,
 } from "@/lib/schema";
 import { TOOLS } from "@/lib/tools";
-import { LEAD_MAGNETS } from "@/lib/lead-magnets";
+import { HUB_LEAD_MAGNETS } from "@/lib/lead-magnets";
 import { abs } from "@/lib/site";
 
 export const metadata: Metadata = {
@@ -93,7 +93,7 @@ export default function GuidesPage() {
       "Free downloadable guides and interactive tools for adult children navigating their parents' senior transitions.",
     pageUrl: abs("/guides"),
     items: [
-      ...LEAD_MAGNETS.map((m) => ({
+      ...HUB_LEAD_MAGNETS.map((m) => ({
         name: m.title,
         itemUrl: `${abs("/guides")}#${m.slug}`,
         description: m.description,
@@ -138,7 +138,7 @@ export default function GuidesPage() {
       {/* AVAILABLE NOW — real downloadable lead magnets. Renders one card
           per LEAD_MAGNETS entry, each with an inline LeadMagnetForm that
           email-gates the PDF. Section silently omitted when registry empty. */}
-      {LEAD_MAGNETS.length > 0 && (
+      {HUB_LEAD_MAGNETS.length > 0 && (
         <section className="bg-white">
           <div className="mx-auto max-w-6xl px-6 py-16 md:py-20">
             <h2 className="text-3xl md:text-4xl font-semibold">
@@ -153,12 +153,12 @@ export default function GuidesPage() {
             <ul
               className={
                 "mt-10 grid gap-8 " +
-                (LEAD_MAGNETS.length === 1
+                (HUB_LEAD_MAGNETS.length === 1
                   ? "max-w-3xl mx-auto"
                   : "md:grid-cols-2")
               }
             >
-              {LEAD_MAGNETS.map((magnet) => (
+              {HUB_LEAD_MAGNETS.map((magnet) => (
                 <li key={magnet.slug} id={magnet.slug}>
                   <Card className="h-full">
                     <CardHeader>

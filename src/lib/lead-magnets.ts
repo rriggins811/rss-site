@@ -15,10 +15,31 @@
  *   - Resend email template lookup by slug
  *   - Meta CAPI Lead event_id stamped with the slug
  *
+ * The warm-funnel ad pages at /g/[slug] also read this registry: each
+ * magnet's `landing` block is the per-guide ad landing-page copy, and
+ * /api/guide-deliver delivers the magnet instantly (Resend email +
+ * branded /g/[slug]/ready page) without the account-creation step.
+ *
  * Same source-of-truth principle as lib/internal-links.ts (cluster
  * registry): the data shape is typed and validated, components pull from
  * here rather than holding their own copy.
  */
+
+/**
+ * Ad landing-page copy for a guide. Empathy-first, plain language, no
+ * urgency/pressure (brand voice). Lives in the registry so a new guide's
+ * /g/[slug] page is a data add, not a new page component.
+ */
+export type GuideLanding = {
+  /** Feeling-first H1 on the /g/[slug] ad landing page. */
+  headline: string;
+  /** One-line bridge under the H1. */
+  subhead: string;
+  /** The gut-level "this is you" paragraph that earns the email. */
+  pain: string;
+  /** What's inside — 4 short, scannable bullets. */
+  bullets: string[];
+};
 
 export type LeadMagnet = {
   /** URL-safe identifier, used in tags, event_ids, API params. */
@@ -34,7 +55,7 @@ export type LeadMagnet = {
   /**
    * Public path (same-origin, served from public/downloads/). Canonical
    * download URL for this magnet across every surface that links it
-   * (rss-site /guides, blueprint-site dashboard tile, future ad LPs).
+   * (rss-site /guides, blueprint-site dashboard tile, the /g ad LPs).
    * Update here, propagates everywhere.
    */
   pdfPath: string;
@@ -52,6 +73,20 @@ export type LeadMagnet = {
    * per the locked SOP tag convention.
    */
   ghlTags: string[];
+  /**
+   * Per-guide ad landing-page copy (the /g/[slug] warm-funnel page).
+   * Optional so older callers/tests don't break, but every shipped
+   * magnet should carry it so its ad LP renders fully.
+   */
+  landing?: GuideLanding;
+  /**
+   * When true, the magnet is excluded from the public /guides browse hub
+   * but still powers its own /g/[slug] ad landing page and
+   * /api/guide-deliver. Used for the Simple Blueprint, whose canonical
+   * opt-in is /freeguide; we don't want a duplicate hub card routing
+   * through the account-creation flow.
+   */
+  hideFromHub?: boolean;
 };
 
 /**
@@ -82,6 +117,18 @@ export const LEAD_MAGNETS: LeadMagnet[] = [
       "lead-source-rss-guides",
       "cash-buyer-beware",
     ],
+    landing: {
+      headline: "Before your parent signs with a cash buyer, read this.",
+      subhead:
+        "A plain-English look at what those 'we buy houses' offers really cost, and the questions that protect your family.",
+      pain: "The letters and the calls feel like a lifeline when you are overwhelmed and the house is one more thing to deal with. Some of those offers are fair. Some quietly cost a family tens of thousands of dollars. The hard part is telling them apart when you are already stretched thin.",
+      bullets: [
+        "The 5 questions to ask before anyone signs anything",
+        "The simple math that shows what an offer really nets your family",
+        "What to do if your parent has already signed",
+        "How to tell the fair buyers from the predatory ones",
+      ],
+    },
   },
   {
     slug: "when-mom-falls-crisis-playbook",
@@ -102,6 +149,19 @@ export const LEAD_MAGNETS: LeadMagnet[] = [
       "lead-source-rss-guides",
       "when-mom-falls-crisis-playbook",
     ],
+    landing: {
+      headline:
+        "When the 2 AM call comes, you will not have time to figure it out.",
+      subhead:
+        "The first 30 minutes, step by step, so you can act instead of freeze.",
+      pain: "One phone call and everything changes. In that moment no one is thinking clearly, and the decisions coming at you fast are the ones that shape the months ahead. This is the playbook to keep by the phone before you ever need it.",
+      bullets: [
+        "Exactly what to do in the first 30 minutes",
+        "Observation vs admitted, and why it costs families thousands",
+        "The 5 mistakes that cost families $50K",
+        "How to run the family meeting that has to happen next",
+      ],
+    },
   },
   {
     slug: "aging-in-place-vs-assisted-living",
@@ -118,6 +178,19 @@ export const LEAD_MAGNETS: LeadMagnet[] = [
       "lead-source-rss-guides",
       "aging-in-place-vs-assisted-living",
     ],
+    landing: {
+      headline:
+        "Keep Mom at home, or move her somewhere safer? There is no easy answer.",
+      subhead:
+        "The honest 5-year cost math and the 5 questions that actually decide it.",
+      pain: "Everyone in the family has an opinion, and they rarely agree. What you actually need is the real math and the right questions, so the decision holds up later and the family stays together through it instead of splitting over it.",
+      bullets: [
+        "Real 5-year cost math for both paths",
+        "The 5 questions that actually decide it",
+        "6 hybrid options most families never consider",
+        "What Mom says vs what Mom means, decoded",
+      ],
+    },
   },
   {
     slug: "medicare-coverage-gaps",
@@ -134,6 +207,53 @@ export const LEAD_MAGNETS: LeadMagnet[] = [
       "lead-source-rss-guides",
       "medicare-coverage-gaps",
     ],
+    landing: {
+      headline:
+        "The Medicare gaps that cost families $10K to $30K, before anyone sees them coming.",
+      subhead:
+        "The hospital and rehab questions to ask before the next stay, not after the bill.",
+      pain: "Most families learn how Medicare really works the expensive way: after a hospital stay, when the bill arrives and a word like 'observation' suddenly costs them thousands. This is how to know the right questions before you need them, while you can still ask.",
+      bullets: [
+        "The inpatient vs observation trap, in plain English",
+        "The 100-day skilled nursing myth that surprises everyone",
+        "The Medicaid 5-year lookback, explained simply",
+        "The underused VA Aid & Attendance benefit",
+      ],
+    },
+  },
+  {
+    slug: "simple-blueprint",
+    title: "The Simple Blueprint",
+    subtitle: "Where to start when a parent needs more help",
+    description:
+      "A 14-page, plain-English starter map for the whole senior transition: what to handle first and what can wait, the conversations to have before a crisis forces them, and where the money usually hides and leaks. The calm starting point when it all lands at once.",
+    pageCount: 14,
+    // The Simple Blueprint PDF lives at /files/ (the original free-guide
+    // path), not /downloads/ with the other magnets. The registry keeps
+    // the canonical path so every surface links the same file.
+    pdfPath: "/files/simple-blueprint.pdf",
+    publishedDate: "2026-05-18",
+    ghlTags: [
+      "meta-lead",
+      "freeguide",
+      "lead-source-rss-guides",
+      "simple-blueprint",
+    ],
+    // Canonical Simple Blueprint opt-in is /freeguide; keep it off the
+    // /guides browse hub but power its /g/simple-blueprint ad LP.
+    hideFromHub: true,
+    landing: {
+      headline: "Where do you even start? Here is the whole picture on one page.",
+      subhead:
+        "A plain-English starter map for the senior transition, so the overwhelm has somewhere to go.",
+      pain: "When a parent needs more help, it all lands at once: the house, the money, the care, the hard conversations, the rest of the family. This is the calm starting point that puts it in order, so you are working a plan instead of fighting a fire.",
+      bullets: [
+        "The big picture in plain English, start to finish",
+        "What to handle first, and what can safely wait",
+        "The conversations to have before a crisis forces them",
+        "Where the money usually hides, and where it leaks",
+      ],
+    },
   },
   // Future magnets: append here. /guides hub will auto-render them in
   // source-of-truth order. No component edits required.
@@ -143,6 +263,16 @@ export const LEAD_MAGNETS: LeadMagnet[] = [
   // Burnout" (slug: sandwich-generation-burnout). Both placeholders are
   // live in PLACEHOLDER_GUIDES at /guides/page.tsx slots 5 and 6.
 ];
+
+/**
+ * Magnets shown on the public /guides browse hub. Excludes entries flagged
+ * hideFromHub (e.g. Simple Blueprint, whose canonical opt-in is /freeguide).
+ * The /g/[slug] ad landing pages and /api/guide-deliver use the full
+ * LEAD_MAGNETS list, so a hidden magnet still has a working ad funnel.
+ */
+export const HUB_LEAD_MAGNETS: LeadMagnet[] = LEAD_MAGNETS.filter(
+  (m) => !m.hideFromHub
+);
 
 /**
  * Lookup helper. Returns undefined when slug doesn't match — callers
@@ -160,4 +290,22 @@ export function getLeadMagnet(slug: string): LeadMagnet | undefined {
  */
 export function magnetAbsoluteUrl(magnet: LeadMagnet): string {
   return `https://rigginsstrategicsolutions.com${magnet.pdfPath}`;
+}
+
+/**
+ * Canonical absolute URL for a guide's branded delivery page (the warm-
+ * funnel /g/[slug]/ready page). This is what the Resend delivery email
+ * links to instead of dumping the raw PDF URL — a branded page that
+ * presents the guide AND the $9.99 Blueprint Map next step.
+ */
+export function guideDeliveryUrl(magnet: LeadMagnet): string {
+  return `https://rigginsstrategicsolutions.com/g/${magnet.slug}/ready`;
+}
+
+/**
+ * Canonical absolute URL for a guide's ad landing page (/g/[slug]). The
+ * destination an ad points at: one guide, one job, email-only opt-in.
+ */
+export function guideLandingUrl(magnet: LeadMagnet): string {
+  return `https://rigginsstrategicsolutions.com/g/${magnet.slug}`;
 }

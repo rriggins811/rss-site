@@ -2,8 +2,13 @@ import { Resend } from "resend";
 import {
   type LeadMagnet,
   magnetAbsoluteUrl,
+  guideDeliveryUrl,
 } from "@/lib/lead-magnets";
 import { ORGANIZATION } from "@/lib/site";
+
+// Soft next-step in the delivery email: the $9.99 Blueprint Map sales page.
+// One mention, never a hard sell (brand voice).
+const MAP_SALES_URL = "https://rigginsstrategicsolutions.com/blueprint-preview";
 
 /**
  * Resend-backed lead-magnet email delivery.
@@ -62,6 +67,7 @@ export async function sendLeadMagnetEmail(args: {
   const firstName = args.firstName?.trim() || "there";
   const subject = `Your ${args.magnet.title} guide is here, ${firstName}`;
   const pdfUrl = magnetAbsoluteUrl(args.magnet);
+  const readUrl = guideDeliveryUrl(args.magnet);
 
   const html = `
 <!DOCTYPE html>
@@ -74,20 +80,25 @@ export async function sendLeadMagnetEmail(args: {
 
   <p>Hi ${escapeHtml(firstName)},</p>
 
-  <p>Here is your free copy of <strong>${escapeHtml(args.magnet.title)}</strong> — ${escapeHtml(args.magnet.subtitle)}. Plain-English, ${args.magnet.pageCount} pages, no fluff.</p>
+  <p>Here is your free copy of <strong>${escapeHtml(args.magnet.title)}</strong>, ${escapeHtml(args.magnet.subtitle)}. Plain-English, ${args.magnet.pageCount} pages, no fluff.</p>
 
   <p style="text-align:center;margin:32px 0;">
-    <a href="${pdfUrl}" style="background:#1F3A5F;color:#ffffff;padding:14px 32px;border-radius:6px;text-decoration:none;font-weight:600;display:inline-block;font-size:16px;">Download the PDF</a>
+    <a href="${readUrl}" style="background:#1F3A5F;color:#ffffff;padding:14px 32px;border-radius:6px;text-decoration:none;font-weight:600;display:inline-block;font-size:16px;">Read your guide</a>
   </p>
 
   <p style="font-size:13px;color:#666;">
-    If the button does not work, paste this link into your browser:<br>
-    <a href="${pdfUrl}" style="word-break:break-all;color:#1F3A5F;">${pdfUrl}</a>
+    Prefer the file directly? <a href="${pdfUrl}" style="color:#1F3A5F;">Download the PDF here</a>.
   </p>
 
   <p>${escapeHtml(args.magnet.description)}</p>
 
   <p>If anything in the guide raises a question about your family's specific situation, hit reply to this email. I read every one.</p>
+
+  <div style="margin:32px 0;padding:20px 24px;background:#FAF8F3;border:1px solid #e7e2d6;border-radius:8px;">
+    <p style="margin:0 0 8px;font-weight:600;color:#1C3A52;">When one piece isn't the whole picture</p>
+    <p style="margin:0 0 14px;font-size:14px;color:#444;">The Blueprint Map walks every step of a senior transition in order, on one screen, with a short video for each. It's the same video lessons and summaries from our $47 course, for $9.99. The calm shortcut when everything feels like too much.</p>
+    <a href="${MAP_SALES_URL}" style="font-weight:600;color:#1C3A52;text-decoration:underline;">See the Blueprint Map &rarr;</a>
+  </div>
 
   <p style="margin-top:32px;">
     Ryan Riggins<br>
@@ -109,13 +120,16 @@ export async function sendLeadMagnetEmail(args: {
 
   const text = `Hi ${firstName},
 
-Here is your free copy of ${args.magnet.title} — ${args.magnet.subtitle}. Plain-English, ${args.magnet.pageCount} pages, no fluff.
+Here is your free copy of ${args.magnet.title}, ${args.magnet.subtitle}. Plain-English, ${args.magnet.pageCount} pages, no fluff.
 
-Download the PDF: ${pdfUrl}
+Read your guide: ${readUrl}
+Prefer the file directly? Download the PDF: ${pdfUrl}
 
 ${args.magnet.description}
 
 If anything in the guide raises a question about your family's specific situation, hit reply to this email. I read every one.
+
+When one piece isn't the whole picture: the Blueprint Map walks every step of a senior transition in order, on one screen, with a short video for each. It's the same video lessons and summaries from our $47 course, for $9.99. See it here: ${MAP_SALES_URL}
 
 Ryan Riggins
 Senior Transition Advisor
