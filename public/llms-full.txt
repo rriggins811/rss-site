@@ -4,8 +4,8 @@ This file is the long-form companion to https://rigginsstrategicsolutions.com/ll
 It contains the full Markdown of every key page and every blog post, intended
 for AI crawlers that ingest content for answer generation.
 
-Generated: 2026-06-16
-Total blog posts indexed: 42
+Generated: 2026-06-17
+Total blog posts indexed: 43
 
 For citation guidance, organizational facts, and topic depth, see the summary
 index at https://rigginsstrategicsolutions.com/llms.txt.
@@ -145,8 +145,327 @@ Inputs: parent's current Medicare plan (Original, Advantage, with/without supple
 
 # Blog Posts (newest first)
 
-The 42 posts below are the full body of every published article
+The 43 posts below are the full body of every published article
 on https://rigginsstrategicsolutions.com/blog, in reverse chronological order.
+
+---
+
+# Durham County Senior Help Directory: Programs for Seniors and Families (2026)
+https://rigginsstrategicsolutions.com/blog/durham-county-senior-help-directory
+Published: 2026-06-17
+
+**Excerpt:** Free, plain-English senior help in Durham County, NC: property tax relief including the county LIHR program, food, energy, Medicare, prescriptions, home repair, transportation, legal, caregiver support, and PACE, with local phone numbers. No sign-up.
+
+*By Ryan Riggins, Riggins Strategic Solutions. NC Real Estate License #361546, eXp Realty.*
+
+*Last updated June 17, 2026. Important: I am a licensed North Carolina real estate agent, but Riggins Strategic Solutions is an education and media company, not a real estate sales business. I am not here to list or sell your house. This is general education only, not financial, tax, medical, or legal advice. Programs and contacts change, so verify before you rely on them.*
+
+If you're caring for an aging parent in Durham County, there's more help out there than most families ever hear about. Here it is in plain English, grouped by what you'd actually go looking for. It's part of our growing [Senior Help Directory](/resources/senior-help-directory).
+
+**Three local front doors open most of these:**
+
+- **NC 211:** dial **2-1-1.** Free, 24/7. Routes you to rent, utility, food, and medical help.
+- **Durham Center for Senior Life:** the local hub for older adults. **919-688-8247.**
+- **Durham County DSS:** **919-560-8000.** Energy assistance, food benefits, and Medicaid.
+
+## Property tax relief
+
+North Carolina has three statewide programs, administered by the **Durham County Tax Administration** (201 East Main St., 3rd Floor, Durham; **919-560-0300**), plus Durham runs one of its own. The deadline for the three state programs is **June 1.**
+
+- **Homestead Exclusion:** greater of $25,000 or 50% off taxable value. 2025 income limit $38,800. Age 65+ or totally and permanently disabled.
+- **Circuit Breaker:** caps tax at 4% of income (up to $38,800) or 5% (up to $58,200). CAUTION: it's a deferral, not forgiveness. The unpaid difference becomes a lien at 6% interest, due when the home is sold or the owner passes. Understand it before you sign.
+- **Disabled Veteran Exclusion:** $45,000 off, no income limit, no age requirement. An unmarried surviving spouse may also qualify.
+- **Durham's Low-Income Homeowner Relief (LIHR):** a Durham County program (run by DSS, not the tax office) that helps eligible homeowners with the property tax bill on a three-tier income model. You must have owned and lived in the home five years, be at or below 80% of area median income, and not already be receiving a state property tax subsidy. Applications typically open September 1. Apply through **Durham County DSS, 919-560-8000.**
+
+For the full walk-through of how the statewide programs work (and the Circuit Breaker lien trap in particular), see our guide to [NC senior property tax relief](/blog/nc-senior-property-tax-relief-guilford-county).
+
+## Food
+
+- **Meals on Wheels of Durham:** a meal and a daily safety check for homebound seniors and adults with limited mobility. **919-667-9424.**
+- **Durham Center for Senior Life:** a free congregate lunch for adults 60+, Monday to Friday around 11:30 a.m. **919-688-8247.**
+- **Urban Ministries of Durham** food pantry (plus clothing and hygiene items), 410 Liberty St. **919-682-0538.**
+- **SNAP (food stamps)** through Durham County DSS. Income-based, so working families qualify too. Apply at epass.nc.gov or **919-560-8000.**
+
+## Heating, cooling, and utility bills
+
+- **LIEAP** (one-time annual heating payment) and the **Crisis Intervention Program (CIP)** for heating or cooling emergencies, through Durham County DSS Aging and Adult Services. LIEAP specialist line **919-560-8192**; main DSS **919-560-8000**; or apply at epass.nc.gov. Seniors 60+ and disabled adults get a priority sign-up window (opening December 1).
+- **Duke Energy** offers customer assistance for past-due accounts; ask them directly or let 211 connect you.
+
+## Medicare, Medicaid, and prescriptions
+
+- **SHIIP** free, unbiased Medicare counseling from the NC Department of Insurance: **1-855-408-1212.** Start here before any Medicare decision.
+- **Medicare Savings Programs** and **Extra Help / Low-Income Subsidy:** apply through Durham County DSS or ask SHIIP.
+- **NC MedAssist Free Pharmacy** for uninsured NC residents under the income limit: **1-866-331-1348.**
+
+## Home repairs and safety
+
+- **USDA Section 504** grants up to $10,000 for very-low-income homeowners 62+ (eligible rural areas), through USDA Rural Development.
+- **Central Pines Regional Council** (formerly Triangle J) administers home repair and rehabilitation help for income-qualified Durham County homeowners; ask about current funding and the waitlist. **919-549-0551.**
+- For ramps, grab bars, and accessibility modifications, ask the **Durham Center for Senior Life** (919-688-8247) or 211 for the current local provider.
+
+## Rent, housing, and emergency cash
+
+- **NC 211** is the fastest route to temporary rent and utility help.
+- **Urban Ministries of Durham** (**919-682-0538**), the **Salvation Army of Durham**, and local crisis ministries offer short-term emergency assistance.
+- **Durham County DSS** administers several emergency and self-sufficiency programs. **919-560-8000.**
+
+## Transportation
+
+- **GoDurham ACCESS / Durham County ACCESS:** door-to-door paratransit for riders 60+, people with a disability, and rural Durham County residents (medical, human-services, work, and personal trips). Reserve at **919-560-1551** or text 984-342-4446.
+- **GoDurham Senior Shuttle** offers free weekly grocery trips for select senior communities; ask GoDurham or your community manager.
+- **Durham Center for Senior Life** also provides transportation tied to its senior programs. **919-688-8247.**
+
+## Legal help
+
+- **NC Legal Aid Senior Legal Helpline:** free civil legal help for anyone 60+, no income limit (powers of attorney, wills, Medicaid and benefits, housing, scams). **1-877-579-7562**, Monday to Friday 9 to 11 a.m. and 1 to 3 p.m.
+- **Central Pines Area Agency on Aging** (the regional aging agency, based in Durham, formerly Triangle J): free information, options counseling, benefits help, and the Long-Term Care Ombudsman for nursing-home and assisted-living complaints. **1-800-310-9777.**
+- **Legal Aid of North Carolina** general intake for lower-income residents under 60: **1-866-219-5262.**
+
+## Caregiver support
+
+- The **NC Family Caregiver Support Program**, delivered locally through the Durham Center for Senior Life, offers caregiver counseling, help making decisions, respite referrals, and support so the family caregiver does not burn out. **919-688-8247.**
+- **Central Pines Area Agency on Aging** also provides caregiving resources for the region. **1-800-310-9777.**
+
+## Staying at home instead of a nursing home
+
+- **Senior CommUnity Care of North Carolina (SCCNC)** is the PACE program serving Durham County. PACE coordinates a senior's entire medical care, primary care, a day center, therapy, personal care, prescriptions, and transportation, so someone who would otherwise qualify for a nursing home can keep living at home. For adults 55+ at a nursing-home level of care; most participants pay nothing through Medicare and Medicaid. **919-425-3050.**
+
+## How to use this list
+
+Don't try to call all of it. Pick the one pressure point hurting most right now and start there, or call 211 and let them point you. An adult child can call and apply on a parent's behalf, just have proof of age, proof of income, and the paperwork handy.
+
+## Frequently Asked Questions
+
+### Where do I start finding senior help in Durham County?
+Start with three front doors. NC 211 (dial 2-1-1) is the free 24/7 line that routes you to rent, utility, food, and medical help. The Durham Center for Senior Life at 919-688-8247 is the local hub for older adults. Durham County DSS at 919-560-8000 handles energy assistance, food benefits, and Medicaid.
+
+### What property tax relief is available to seniors in Durham County?
+The statewide North Carolina programs apply through Durham County Tax Administration at 919-560-0300: the Homestead Exclusion (2025 income limit $38,800), the Circuit Breaker (a deferral that becomes a 6% lien), and the Disabled Veteran Exclusion ($45,000 off, no income limit), all due June 1. Durham also runs its own Low-Income Homeowner Relief (LIHR) program through Durham County DSS at 919-560-8000, on a three-tier income model for owners at or below 80% of area median income who have lived in the home five years.
+
+### How do older adults in Durham get help with heating bills?
+Apply through Durham County DSS for LIEAP, a one-time annual heating payment, and the Crisis Intervention Program for a heating or cooling emergency. The LIEAP specialist line is 919-560-8192 and the main DSS number is 919-560-8000. Seniors 60 and older and disabled adults get a priority sign-up window.
+
+### How does a Durham County senior get home-delivered meals?
+Meals on Wheels of Durham at 919-667-9424 delivers a meal and a daily safety check to homebound seniors. The Durham Center for Senior Life at 919-688-8247 offers congregate lunches and caregiver support, and SNAP is available through Durham County DSS.
+
+*I'm Ryan Riggins. I spent years on the investor side of real estate, then switched to [educating families through senior transitions](/freeguide) so they don't get taken advantage of during the hardest season of their lives. This guide is free. If it helped, pass it on.*
+
+*Ryan Riggins | Riggins Strategic Solutions | NC Real Estate License #361546 | eXp Realty | rigginsstrategicsolutions.com*
+
+*Disclaimer: Ryan Riggins is a licensed North Carolina real estate agent (#361546, eXp Realty). Riggins Strategic Solutions is an education and media company, not a real estate sales business. This guide is not a solicitation to buy, sell, or list your home, and it is not financial, tax, medical, or legal advice. We are not financial advisors, tax advisors, attorneys, or medical providers. Programs, income limits, and contacts change and vary by individual situation. Confirm current details directly with each program or a licensed professional before making any decision.*
+
+---
+
+# The 40-Year Listing Contract: How Predatory Real Estate Deals Target Aging Homeowners
+https://rigginsstrategicsolutions.com/blog/predatory-listing-contracts-target-aging-homeowners
+Published: 2026-06-17
+
+**Excerpt:** California just settled with a company over 40-year listing contracts that trapped nearly 1,500 homeowners. Here is how these deals target seniors, and the simple rule that stops them.
+
+When I was on the buying side of real estate, confusion was the business model.
+
+I am not proud of it, but I will be honest about it, because honesty is the whole reason I do what I do now. For years I bought and flipped houses. I learned exactly how a deal gets structured so the person on the other side of the table does not fully understand what they signed until it is too late to matter. The best margins almost always came from the contracts people did not read closely. Older homeowners, people on fixed incomes, families in the middle of a crisis. They were not bad at math. They were tired, they were trusting, and they were handed a stack of paper with one friendly number on the front and a trap somewhere in the back.
+
+I walked away from that side. Now I spend my days teaching families how to see the trap before they sign. So when a story breaks that shows exactly how this game is still being played on seniors, I want every adult child reading this to understand it, because your parents are the target.
+
+## What just happened in California
+
+In June 2026, California Attorney General Rob Bonta announced a $2.5 million settlement with a Florida-based company called MV Realty, along with its CEO and COO. State prosecutors described it as a predatory scheme aimed at financially vulnerable homeowners.
+
+Here is how the deal worked. The company offered homeowners a small upfront cash payment, often a few hundred dollars. In exchange, the homeowner signed an agreement giving MV Realty the exclusive right to be their listing agent if they ever sold the home, and that right ran for 40 years. To enforce it, the company recorded a lien against the property. That lien meant the homeowner could not sell the house, refinance it, or pass it to their kids without paying the company thousands of dollars in what the contracts called early termination fees.
+
+Nearly 1,500 California homeowners were caught in these agreements. Under the settlement, every one of those contracts is now void, the company must individually terminate all the liens, affected homeowners get restitution, and MV Realty along with its CEO and COO are barred from any business in California requiring a real estate license for five years. The $2.5 million breaks down to more than $1.3 million in restitution to consumers and nearly $1.2 million in civil penalties.
+
+California is not alone. Attorneys general in Pennsylvania, New Jersey, Florida, and other states have pursued the same company, with settlements that voided contracts and stripped liens off thousands of additional homes. In response to this exact tactic, a growing number of states have passed laws against these long-term listing agreements, sometimes called NTRAPS, which stands for non-title-recorded agreements for personal service.
+
+The pattern matters more than the single company. When one operator gets shut down, the playbook does not disappear. It gets copied, renamed, and mailed to the next list of homeowners. And those lists are heavy with seniors.
+
+## What this means for families with aging parents
+
+If your mom or dad owns their home, the house is almost certainly their single largest asset. For a lot of older Americans, decades of mortgage payments have turned into six figures of equity sitting in a paid-off or nearly paid-off home. That equity is supposed to be their safety net, the money that funds care, covers a move, or passes to the next generation.
+
+It is also exactly what predatory operators are after.
+
+Here is the uncomfortable truth I learned on the other side. The ideal target for these deals is not someone who is careless. It is someone who is isolated, on a fixed income, and a little worried about money. A few hundred dollars today feels like real help when you are watching every dollar. The 40-year string attached to it does not feel real, because 40 years is abstract and the cash is concrete. That gap between the immediate and the far-off is the whole con.
+
+And these offers do not show up looking like scams. They arrive as a friendly letter, a warm phone call, a flyer that says we want to help. The MV Realty pitch was literally branded as a homeowner benefit. The grandparent scam works because it sounds like your grandchild. The predatory real estate deal works because it sounds like a favor.
+
+There is a second cost most families never see coming, and it lands on the kids. A lien on the house does not just hurt your parent. It can freeze the entire estate. If your father signs one of these and then has a stroke, you may discover the lien only when you try to sell the house to pay for his memory care, and now you are negotiating a five-figure termination fee in the middle of a medical crisis. The contract your parent did not understand becomes the problem you inherit.
+
+This is why the house cannot be an afterthought in a senior transition. It is the biggest number on the board, and it is the one predators understand best.
+
+## How to protect your parents, step by step
+
+The good news is that the defense against all of this is simple, cheap, and boring. Boring beats sorry every time. Here is what I tell every family.
+
+### Make one rule non-negotiable: nothing tied to the house gets signed alone
+
+This is the whole ballgame. Your parents should never sign anything connected to their property, a contract, a lien, a deed, a refinance, a reverse mortgage, a cash offer, without a second set of eyes first. Ideally that is a real estate attorney, and a one-hour review costs far less than a five-figure termination fee. The phrase to put on the refrigerator: a real offer will still be there tomorrow. Anyone pressuring your parent to sign today is telling you exactly what kind of deal it is.
+
+### Run the real number before any sale
+
+Most seniors who get taken do not know what their home is actually worth, or what they would truly walk away with after costs. That blind spot is what makes a lowball cash offer or a slick listing contract look reasonable. Run the math first. Our free Net Proceeds Calculator shows what your family would actually net after commission, repairs, and closing costs, so a fast-talking offer has nothing to hide behind.
+
+### Enroll in your county's property fraud alert program
+
+Most county registers of deeds offer a free property fraud alert service. You sign up with your parent's name and property, and the county notifies you any time a document is recorded against the home, including a lien or a deed transfer. It takes about five minutes and it is one of the highest-value free protections that exists. If a predatory lien ever gets filed, you find out immediately instead of years later.
+
+### Know that you have more than one way to sell
+
+A big reason families fall for a single pushy offer is that they think they only have one option. They do not. There are several legitimate ways to move a senior's home, from a traditional listing to as-is sales to owner financing, and the right one depends on the home's condition, the timeline, and the family's goals. When you understand the full menu, no single buyer can corner you. Our Strategic Exit Engine walks through which path fits your situation.
+
+### Watch the mail and the phone together
+
+Predatory real estate offers travel the same roads as every other elder scam: unsolicited mail, cold calls, and increasingly texts and emails. Make a habit of asking your parents what showed up this week. If a handwritten we buy houses letter arrives, that is not a neighbor. That is the buy side scoping a deal. Teaching your parent to simply set those aside and call you first is a quiet, powerful defense.
+
+## The bigger picture
+
+I share these stories not to scare anyone, but because I know how the other side thinks, and the families who understand the game do not get played. The companies running these schemes are betting on three things: that your parents are isolated, that they are worried about money, and that no one is sitting in the middle of the family looking at the whole picture. You can take all three bets off the table. Stay close, talk about money before there is a crisis, and make the no-signing-alone rule a family law. That is most of the protection right there.
+
+## Frequently Asked Questions
+
+### What is a 40-year listing agreement and why is it dangerous?
+It is a contract that gives a company the exclusive right to list a home for sale for up to 40 years, often in exchange for a small upfront cash payment. It becomes dangerous when the company records a lien to enforce it, because that lien can block the homeowner from selling, refinancing, or transferring the home without paying large termination fees. Several states have now banned these agreements.
+
+### How do I know if my parent signed one of these contracts?
+Start by asking them directly whether they ever took a cash offer in exchange for signing a real estate or homeowner benefit agreement. Then check the property records at your county register of deeds for any liens or recorded agreements. A real estate attorney can pull a title report and tell you definitively what is attached to the home.
+
+### Are cash offer letters for my parent's house always scams?
+Not always, but treat every unsolicited offer as a starting point, never a finish line. Legitimate buyers exist, but the unsolicited we buy houses letter is often the wholesale side trying to lock up a property below market. Always run the real net number and have any contract reviewed before signing.
+
+### What is a property fraud alert and how do we sign up?
+It is a free service offered by most county registers of deeds that notifies you whenever a document is recorded against a specific property. You enroll online or by phone with your parent's name and property information. It is one of the easiest ways to catch a fraudulent lien or deed transfer early.
+
+### My parent already signed something. What now?
+Do not panic and do not pay a termination fee before getting advice. Contact a real estate or elder-law attorney, and report the agreement to your state attorney general's consumer protection office. As the MV Realty cases show, when regulators act, these contracts can be voided and the liens removed.
+
+## About Ryan Riggins
+
+Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafe app](https://seniorsafeapp.com).
+
+---
+
+**Run the real number first.** Before any sale, see what your family would actually net: rigginsstrategicsolutions.com/tools/net-proceeds-calculator
+
+**Know all your options.** The Strategic Exit Engine flags which sale path fits your situation: rigginsstrategicsolutions.com/tools/strategic-exit-engine
+
+**Want a step-by-step guide?** The free Simple Blueprint walks through every stage of a senior transition: rigginsstrategicsolutions.com/freeguide
+
+**Ready for the full system?** Senior Transition Blueprint Core, 19 modules and 60+ tools: rigginsstrategicsolutions.com/the-blueprint
+
+**Need a personalized plan?** Blueprint Premium adds a 60-min call and 90 days of email support: rigginsstrategicsolutions.com/blueprint-premium
+
+### Get the SeniorSafe App
+
+[Download on the App Store](https://apps.apple.com/us/app/seniorsafe-app/id6761343239)
+
+[Get it on Google Play](https://play.google.com/store/apps/details?id=com.rigginsstrategicsolutions.seniorsafe)
+
+Ryan Riggins is the founder of Riggins Strategic Solutions, a consumer protection company for families navigating senior transitions. He spent 8 years in construction project management and house flipping before switching sides. Two books on Amazon. Free resources at rigginsstrategicsolutions.com.
+
+---
+
+# Wake County Senior Help Directory: Raleigh Programs for Seniors and Families (2026)
+https://rigginsstrategicsolutions.com/blog/wake-county-senior-help-directory
+Published: 2026-06-17
+
+**Excerpt:** Free, plain-English senior help in Wake County and Raleigh, NC: property tax relief, food, energy, Medicare, prescriptions, home repair, transportation, legal, caregiver support, and PACE, with local phone numbers. No sign-up.
+
+*By Ryan Riggins, Riggins Strategic Solutions. NC Real Estate License #361546, eXp Realty.*
+
+*Last updated June 17, 2026. Important: I am a licensed North Carolina real estate agent, but Riggins Strategic Solutions is an education and media company, not a real estate sales business. I am not here to list or sell your house. This is general education only, not financial, tax, medical, or legal advice. Programs and contacts change, so verify before you rely on them.*
+
+If you're helping an aging parent in Raleigh or anywhere in Wake County, there's more help out there than most families ever hear about. Here it is in plain English, grouped by what you'd actually go looking for. It's part of our growing [Senior Help Directory](/resources/senior-help-directory).
+
+**Three local front doors open most of these:**
+
+- **NC 211:** dial **2-1-1.** Free, 24/7. Routes you to rent, utility, food, and medical help.
+- **Resources for Seniors:** the Wake County aging hub. **919-872-7933.**
+- **Wake County Health & Human Services, Energy and Benefits:** **919-212-7000.** Energy assistance, food benefits, and Medicaid.
+
+## Property tax relief
+
+North Carolina's senior tax programs are administered by the **Wake County Department of Tax Administration** (301 S. McDowell St., 3rd Floor, Raleigh; **919-856-5400**, taxhelp@wake.gov). The deadline for all three is **June 1.**
+
+- **Homestead Exclusion:** greater of $25,000 or 50% off taxable value. 2025 income limit $38,800. Age 65+ or totally and permanently disabled.
+- **Circuit Breaker:** caps tax at 4% of income (up to $38,800) or 5% (up to $58,200). CAUTION: it's a deferral, not forgiveness. The unpaid difference for the current and three prior years becomes a lien at 6% interest, due when the home is sold or the owner passes. Understand it before you sign.
+- **Disabled Veteran Exclusion:** $45,000 off, no income limit, no age requirement. An unmarried surviving spouse may also qualify.
+
+These are statewide programs, so for the full walk-through of how each one works (and the Circuit Breaker lien trap in particular), see our guide to [NC senior property tax relief](/blog/nc-senior-property-tax-relief-guilford-county). Just use the Wake County Tax Administration number above.
+
+## Food
+
+- **Meals on Wheels of Wake County:** a noon meal delivered to homebound residents 60+. **919-833-1749.** wakemow.org.
+- **Inter-Faith Food Shuttle, "Grocery Bags for Seniors":** a monthly bag of groceries delivered to low-income seniors. **919-250-0043.**
+- **Food Bank of Central & Eastern NC:** connects you to local pantries and SNAP help. **919-875-0707.**
+- **SNAP (food stamps)** through Wake County HHS. Income-based, so working families qualify too. Apply at epass.nc.gov or **919-212-7000.**
+
+## Heating, cooling, and utility bills
+
+- **LIEAP** (one-time annual heating payment) and the **Crisis Intervention Program (CIP)** for heating or cooling emergencies, through Wake County HHS Energy Program: **919-212-7000**, epass.nc.gov, or SS.Energy@wake.gov. Seniors 60+ and disabled adults get a priority sign-up window (typically opening in December).
+- **Duke Energy** offers customer assistance for past-due accounts; ask them directly or let 211 connect you.
+
+## Medicare, Medicaid, and prescriptions
+
+- **SHIIP** free, unbiased Medicare counseling from the NC Department of Insurance: **1-855-408-1212.** Start here before any Medicare decision.
+- **Medicare Savings Programs** and **Extra Help / Low-Income Subsidy:** apply through Wake County HHS or ask SHIIP.
+- **NC MedAssist Free Pharmacy** for uninsured NC residents under the income limit: **1-866-331-1348.**
+
+## Home repairs and safety
+
+- **USDA Section 504** grants up to $10,000 for very-low-income homeowners 62+ (eligible rural areas), through USDA Rural Development.
+- **Resources for Seniors** runs Home Improvement and Weatherization for income-qualified Wake County seniors: ramps, grab bars, minor repairs, energy upgrades. **919-872-7933.**
+- **Central Pines Regional Council** (formerly Triangle J) administers home repair and rehabilitation help; ask about current funding. **919-549-0551.**
+
+## Rent, housing, and emergency cash
+
+- **NC 211** is the fastest route to temporary rent and utility help.
+- **Salvation Army of Wake County** and local crisis ministries offer short-term emergency assistance.
+- **Wake County HHS** administers several emergency and self-sufficiency programs. **919-212-7000.**
+
+## Transportation
+
+- **GoWake Access:** county door-to-door, shared-ride transportation for riders 60+, people with a disability, and rural residents. Monday to Saturday. **919-212-7005** (TTY 800-735-2962).
+- **GoRaleigh Access** (ADA paratransit): for riders in the GoRaleigh service area whose disability prevents using fixed-route buses. Schedule at least 24 hours ahead. **919-996-3459.**
+- **Resources for Seniors** can also point you to medical-appointment transportation. **919-872-7933.**
+
+## Legal help
+
+- **NC Legal Aid Senior Legal Helpline:** free civil legal help for anyone 60+, no income limit (powers of attorney, wills, Medicaid and benefits, housing, scams). **1-877-579-7562**, Monday to Friday 9 to 11 a.m. and 1 to 3 p.m.
+- **Central Pines Area Agency on Aging** (the regional aging agency for Wake, formerly Triangle J): free information, options counseling, benefits help, and the Long-Term Care Ombudsman for nursing-home and assisted-living complaints. **1-800-310-9777.**
+- **Legal Aid of North Carolina** general intake for lower-income residents under 60: **1-866-219-5262.**
+
+## Caregiver support
+
+- The **NC Family Caregiver Support Program**, delivered locally through Resources for Seniors, offers options counseling, respite referrals, and a "Powerful Tools for Caregivers" class so the family caregiver does not burn out. **919-872-7933.**
+
+## Staying at home instead of a nursing home
+
+- **Senior CommUnity Care of North Carolina (SCCNC)** is the PACE program serving Wake County. PACE coordinates a senior's entire medical care, primary care, a day center, therapy, personal care, prescriptions, and transportation, so someone who would otherwise qualify for a nursing home can keep living at home. For adults 55+ at a nursing-home level of care; most participants pay nothing through Medicare and Medicaid. **919-425-3050.**
+
+## How to use this list
+
+Don't try to call all of it. Pick the one pressure point hurting most right now and start there, or call 211 and let them point you. An adult child can call and apply on a parent's behalf, just have proof of age, proof of income, and the paperwork handy.
+
+## Frequently Asked Questions
+
+### Where do I start finding senior help in Wake County?
+Start with three front doors. NC 211 (dial 2-1-1) is the free 24/7 line that routes you to rent, utility, food, and medical help. Resources for Seniors at 919-872-7933 is the Wake County hub for older adults. Wake County Health and Human Services, Energy and Benefits, at 919-212-7000 handles energy assistance, food benefits, and Medicaid.
+
+### What property tax relief is available to seniors in Wake County?
+The statewide North Carolina programs apply, administered by Wake County Tax Administration at 919-856-5400: the Homestead Exclusion (2025 income limit $38,800), the Circuit Breaker (a deferral that becomes a 6% lien, so understand it before you sign), and the Disabled Veteran Exclusion ($45,000 off with no income limit). The deadline is June 1.
+
+### How do older adults in Raleigh get help with heating bills?
+Apply through Wake County Health and Human Services at 919-212-7000 for LIEAP, a one-time annual heating payment, and the Crisis Intervention Program for a heating or cooling emergency. Seniors 60 and older and disabled adults get a priority sign-up window.
+
+### What transportation help is there for Wake County seniors?
+GoWake Access at 919-212-7005 provides county-wide door-to-door rides for residents 60 and older, and GoRaleigh Access (ADA paratransit) at 919-996-3459 covers the Raleigh service area. Resources for Seniors at 919-872-7933 can also point you to medical-appointment transportation.
+
+*I'm Ryan Riggins. I spent years on the investor side of real estate, then switched to [educating families through senior transitions](/freeguide) so they don't get taken advantage of during the hardest season of their lives. This guide is free. If it helped, pass it on.*
+
+*Ryan Riggins | Riggins Strategic Solutions | NC Real Estate License #361546 | eXp Realty | rigginsstrategicsolutions.com*
+
+*Disclaimer: Ryan Riggins is a licensed North Carolina real estate agent (#361546, eXp Realty). Riggins Strategic Solutions is an education and media company, not a real estate sales business. This guide is not a solicitation to buy, sell, or list your home, and it is not financial, tax, medical, or legal advice. We are not financial advisors, tax advisors, attorneys, or medical providers. Programs, income limits, and contacts change and vary by individual situation. Confirm current details directly with each program or a licensed professional before making any decision.*
 
 ---
 
@@ -846,98 +1165,6 @@ Apply through Alamance County DSS, Services for Adults, at 336-570-6532 for LIEA
 
 ### How does an Alamance County senior get home-delivered meals?
 Alamance County Meals on Wheels delivers meals and groceries to homebound seniors at 336-228-8815. SNAP is also available through Alamance County DSS at 336-570-6532.
-
-*I'm Ryan Riggins. I spent years on the investor side of real estate, then switched to [educating families through senior transitions](/freeguide) so they don't get taken advantage of during the hardest season of their lives. This guide is free. If it helped, pass it on.*
-
-*Ryan Riggins | Riggins Strategic Solutions | NC Real Estate License #361546 | eXp Realty | rigginsstrategicsolutions.com*
-
-*Disclaimer: Ryan Riggins is a licensed North Carolina real estate agent (#361546, eXp Realty). Riggins Strategic Solutions is an education and media company, not a real estate sales business. This guide is not a solicitation to buy, sell, or list your home, and it is not financial, tax, medical, or legal advice. We are not financial advisors, tax advisors, attorneys, or medical providers. Programs, income limits, and contacts change and vary by individual situation. Confirm current details directly with each program or a licensed professional before making any decision.*
-
----
-
-# Durham County Senior Help Directory: Programs for Seniors and Families (2026)
-https://rigginsstrategicsolutions.com/blog/durham-county-senior-help-directory
-Published: 2026-06-03
-
-**Excerpt:** Free, plain-English senior help in Durham County, NC: property tax relief, food, energy, Medicare, prescriptions, home repair, transportation, legal, and caregiver programs, with local phone numbers. No sign-up.
-
-*By Ryan Riggins, Riggins Strategic Solutions. NC Real Estate License #361546, eXp Realty.*
-
-*Last updated June 3, 2026. Important: I am a licensed North Carolina real estate agent, but Riggins Strategic Solutions is an education and media company, not a real estate sales business. I am not here to list or sell your house. This is general education only, not financial, tax, medical, or legal advice. Programs and contacts change, so verify before you rely on them.*
-
-If you're caring for an aging parent in Durham County, there's more help out there than most families ever hear about. Here it is in plain English, grouped by what you'd actually go looking for. It's part of our growing [Senior Help Directory](/resources/senior-help-directory).
-
-**Three local front doors open most of these:**
-
-- **NC 211:** dial **2-1-1.** Free, 24/7. Routes you to rent, utility, food, and medical help.
-- **Durham Center for Senior Life:** the local hub for older adults. **919-688-8247.**
-- **Durham County DSS:** **919-560-8622.** Energy assistance, food benefits, and Medicaid.
-
-## Property tax relief
-
-North Carolina's senior tax programs are administered by the **Durham County Tax Administration.**
-
-- **Homestead Exclusion:** greater of $25,000 or 50% off taxable value. 2026 income limit $38,800. Age 65+ or totally and permanently disabled. Deadline June 1.
-- **Circuit Breaker:** caps tax at 4-5% of income, limit $58,200. CAUTION: it's a deferral, the unpaid difference becomes a lien at 6% interest, due when the home is sold or the owner passes. Understand it before you sign.
-- **Disabled Veteran Exclusion:** $45,000 off, no income limit, no age requirement.
-- **Durham's Low-Income Homeowner's Relief (LIHR):** a county program that helps eligible homeowners with current property taxes. Apply through Durham County DSS.
-
-For the full walk-through of how the statewide programs work (and the Circuit Breaker lien trap in particular), see our guide to [NC senior property tax relief](/blog/nc-senior-property-tax-relief-guilford-county).
-
-## Food
-
-- **Meals on Wheels of Durham:** **919-667-9424.**
-- **Congregate meals and caregiver support** through the Durham Center for Senior Life: **919-688-8247.**
-- **SNAP (food stamps)** through Durham County DSS.
-
-## Heating, cooling, and utility bills
-
-- **LIEAP** (one-time annual heating payment) and the **Crisis Intervention Program (CIP)** for heating or cooling emergencies, through Durham County DSS: **919-560-8622.** Seniors 60+ and disabled adults get a priority sign-up window.
-
-## Medicare, Medicaid, and prescriptions
-
-- **SHIIP** free, unbiased Medicare counseling: **1-855-408-1212.**
-- **Medicare Savings Programs** and **Extra Help / Low-Income Subsidy:** apply through DSS or SHIIP.
-- **NC MedAssist Free Pharmacy** for uninsured residents under the income limit: **1-866-331-1348.**
-
-## Home repairs and safety
-
-- **USDA Section 504** grants up to $10,000 for very-low-income homeowners 62+ (eligible rural areas), through USDA Rural Development.
-- **Repair and weatherization referrals** through 211.
-
-## Transportation
-
-- **GoDurham ACCESS / Durham County ACCESS** paratransit (county service for residents 60+, disabled, or rural): **919-560-1551.**
-
-## Legal help
-
-- **Legal Aid of North Carolina (Durham):** free civil legal help for eviction, foreclosure, benefits, and scams.
-
-## Caregiver support
-
-- **Durham Center for Senior Life** caregiver services and the **NC Family Caregiver Support Program:** **919-688-8247.**
-
-## Staying at home instead of a nursing home
-
-- Ask about **PACE** (full coordinated at-home medical care so a nursing-home-eligible senior can stay home) through NC 211 or the Eldercare Locator at **1-800-677-1116.**
-
-## How to use this list
-
-Don't try to call all of it. Pick the one pressure point hurting most right now and start there, or call 211 and let them point you. An adult child can call and apply on a parent's behalf, just have proof of age, proof of income, and the paperwork handy.
-
-## Frequently Asked Questions
-
-### Where do I start finding senior help in Durham County?
-Start with three front doors. NC 211 (dial 2-1-1) is the free 24/7 line that routes you to rent, utility, food, and medical help. The Durham Center for Senior Life at 919-688-8247 is the local hub for older adults. Durham County DSS at 919-560-8622 handles energy assistance, food benefits, and Medicaid.
-
-### What property tax relief is available to seniors in Durham County?
-The statewide North Carolina programs apply through Durham County Tax Administration: the Homestead Exclusion (2026 income limit $38,800), the Circuit Breaker (a deferral that becomes a 6% lien), and the Disabled Veteran Exclusion ($45,000 off, no income limit). Durham also runs a county Low-Income Homeowner's Relief (LIHR) program that helps eligible homeowners with current property taxes, applied for through Durham County DSS. The state deadline is June 1.
-
-### How do older adults in Durham get help with heating bills?
-Apply through Durham County DSS at 919-560-8622 for LIEAP, a one-time annual heating payment, and the Crisis Intervention Program for a heating or cooling emergency. Seniors 60 and older and disabled adults get a priority sign-up window.
-
-### How does a Durham County senior get home-delivered meals?
-Meals on Wheels of Durham at 919-667-9424 delivers to homebound seniors. The Durham Center for Senior Life at 919-688-8247 offers congregate meals and caregiver support, and SNAP is available through Durham County DSS.
 
 *I'm Ryan Riggins. I spent years on the investor side of real estate, then switched to [educating families through senior transitions](/freeguide) so they don't get taken advantage of during the hardest season of their lives. This guide is free. If it helped, pass it on.*
 
@@ -1668,100 +1895,6 @@ Ryan Riggins is a senior transition advisor and former house flipper. After 8+ y
 [Get it on Google Play](https://play.google.com/store/apps/details?id=com.rigginsstrategicsolutions.seniorsafe)
 
 Ryan Riggins is the founder of Riggins Strategic Solutions, a consumer protection company for families navigating senior transitions. He spent 8 years in construction project management and house flipping before switching sides. Two books on Amazon. Free resources at rigginsstrategicsolutions.com.
-
----
-
-# Wake County Senior Help Directory: Raleigh Programs for Seniors and Families (2026)
-https://rigginsstrategicsolutions.com/blog/wake-county-senior-help-directory
-Published: 2026-06-03
-
-**Excerpt:** Free, plain-English senior help in Wake County and Raleigh, NC: property tax relief, food, energy, Medicare, prescriptions, home repair, transportation, legal, and caregiver programs, with local phone numbers. No sign-up.
-
-*By Ryan Riggins, Riggins Strategic Solutions. NC Real Estate License #361546, eXp Realty.*
-
-*Last updated June 3, 2026. Important: I am a licensed North Carolina real estate agent, but Riggins Strategic Solutions is an education and media company, not a real estate sales business. I am not here to list or sell your house. This is general education only, not financial, tax, medical, or legal advice. Programs and contacts change, so verify before you rely on them.*
-
-If you're helping an aging parent in Raleigh or anywhere in Wake County, there's more help out there than most families ever hear about. Here it is in plain English, grouped by what you'd actually go looking for. It's part of our growing [Senior Help Directory](/resources/senior-help-directory).
-
-**Three local front doors open most of these:**
-
-- **NC 211:** dial **2-1-1.** Free, 24/7. Routes you to rent, utility, food, and medical help.
-- **Resources for Seniors:** the Wake County hub for older adults. **919-713-1556.**
-- **Wake County DSS, Senior & Adult Services:** energy assistance, food benefits, and Medicaid.
-
-## Property tax relief
-
-North Carolina's senior tax programs are administered by the **Wake County Tax Administration, 919-856-5400.**
-
-- **Homestead Exclusion:** greater of $25,000 or 50% off taxable value. 2026 income limit $38,800. Age 65+ or totally and permanently disabled. Deadline June 1.
-- **Circuit Breaker:** caps tax at 4-5% of income, limit $58,200. CAUTION: it's a deferral, the unpaid difference becomes a lien at 6% interest, due when the home is sold or the owner passes. Understand it before you sign.
-- **Disabled Veteran Exclusion:** $45,000 off, no income limit, no age requirement.
-
-These are statewide programs, so for the full walk-through of how each one works (and the Circuit Breaker lien trap in particular), see our guide to [NC senior property tax relief](/blog/nc-senior-property-tax-relief-guilford-county). Just use the Wake County Tax Administration number above.
-
-## Food
-
-- **Meals on Wheels of Wake County:** wakemow.org.
-- **Food Bank of Central & Eastern NC:** **919-875-0707.**
-- **Inter-Faith Food Shuttle "Grocery Bags for Seniors":** **919-250-0043.**
-- **SNAP (food stamps)** through Wake County DSS.
-
-## Heating, cooling, and utility bills
-
-- **LIEAP** (one-time annual heating payment) and the **Crisis Intervention Program (CIP)** for heating or cooling emergencies, through Wake County DSS. Seniors 60+ and disabled adults get a priority sign-up window.
-
-## Medicare, Medicaid, and prescriptions
-
-- **SHIIP** free, unbiased Medicare counseling: **1-855-408-1212.**
-- **Medicare Savings Programs** and **Extra Help / Low-Income Subsidy:** apply through DSS or SHIIP.
-- **NC MedAssist Free Pharmacy** for uninsured residents under the income limit: **1-866-331-1348.**
-
-## Home repairs and safety
-
-- **USDA Section 504** grants up to $10,000 for very-low-income homeowners 62+ (eligible rural areas), through USDA Rural Development.
-- **Weatherization and repair referrals** through Resources for Seniors or 211.
-
-## Transportation
-
-- **GoWake Access:** **919-212-7005.**
-- **GoRaleigh Access** (ADA paratransit): **919-996-3459.**
-- **Resources for Seniors** medical-appointment transportation for residents 60+.
-
-## Legal help
-
-- **Legal Aid of North Carolina (Raleigh):** free civil legal help for eviction, foreclosure, benefits, and scams.
-
-## Caregiver support
-
-- **Resources for Seniors** and the **NC Family Caregiver Support Program.** Start at **919-713-1556.**
-
-## Staying at home instead of a nursing home
-
-- Ask about **PACE** (full coordinated at-home medical care so a nursing-home-eligible senior can stay home) through NC 211 or the Eldercare Locator at **1-800-677-1116.**
-
-## How to use this list
-
-Don't try to call all of it. Pick the one pressure point hurting most right now and start there, or call 211 and let them point you. An adult child can call and apply on a parent's behalf, just have proof of age, proof of income, and the paperwork handy.
-
-## Frequently Asked Questions
-
-### Where do I start finding senior help in Wake County?
-Start with three front doors. NC 211 (dial 2-1-1) is the free 24/7 line that routes you to rent, utility, food, and medical help. Resources for Seniors at 919-713-1556 is the Wake County hub for older adults. Wake County DSS Senior and Adult Services handles energy assistance, food benefits, and Medicaid.
-
-### What property tax relief is available to seniors in Wake County?
-The statewide North Carolina programs apply, administered by Wake County Tax Administration at 919-856-5400: the Homestead Exclusion (2026 income limit $38,800), the Circuit Breaker (a deferral that becomes a 6% lien, so understand it before you sign), and the Disabled Veteran Exclusion ($45,000 off with no income limit). The deadline is June 1.
-
-### How do older adults in Raleigh get help with heating bills?
-Apply through Wake County DSS for LIEAP, a one-time annual heating payment, and the Crisis Intervention Program for a heating or cooling emergency. Seniors 60 and older and disabled adults get a priority sign-up window.
-
-### What transportation help is there for Wake County seniors?
-GoWake Access at 919-212-7005 and GoRaleigh Access (ADA paratransit) at 919-996-3459 provide door-to-door rides. Resources for Seniors also offers medical-appointment transportation for residents 60 and older.
-
-*I'm Ryan Riggins. I spent years on the investor side of real estate, then switched to [educating families through senior transitions](/freeguide) so they don't get taken advantage of during the hardest season of their lives. This guide is free. If it helped, pass it on.*
-
-*Ryan Riggins | Riggins Strategic Solutions | NC Real Estate License #361546 | eXp Realty | rigginsstrategicsolutions.com*
-
-*Disclaimer: Ryan Riggins is a licensed North Carolina real estate agent (#361546, eXp Realty). Riggins Strategic Solutions is an education and media company, not a real estate sales business. This guide is not a solicitation to buy, sell, or list your home, and it is not financial, tax, medical, or legal advice. We are not financial advisors, tax advisors, attorneys, or medical providers. Programs, income limits, and contacts change and vary by individual situation. Confirm current details directly with each program or a licensed professional before making any decision.*
 
 ---
 
