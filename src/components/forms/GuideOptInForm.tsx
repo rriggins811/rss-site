@@ -29,6 +29,7 @@ export function GuideOptInForm({ magnet }: { magnet: LeadMagnet }) {
   const router = useRouter();
   const [status, setStatus] = useState<Status>("idle");
   const [error, setError] = useState<string | null>(null);
+  const [first, setFirst] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
 
@@ -60,6 +61,7 @@ export function GuideOptInForm({ magnet }: { magnet: LeadMagnet }) {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
+          first_name: first,
           email,
           phone: phone || undefined,
           magnet: magnet.slug,
@@ -102,7 +104,13 @@ export function GuideOptInForm({ magnet }: { magnet: LeadMagnet }) {
           eventId: metaEventId,
           eventSourceUrl:
             typeof window !== "undefined" ? window.location.href : undefined,
-          userData: { email, phone: phone || undefined, fbc: getFbc(), fbp: getFbp() },
+          userData: {
+            email,
+            phone: phone || undefined,
+            firstName: first || undefined,
+            fbc: getFbc(),
+            fbp: getFbp(),
+          },
           customData: {
             content_name: magnet.slug,
             content_category: "lead_magnet",
@@ -124,6 +132,21 @@ export function GuideOptInForm({ magnet }: { magnet: LeadMagnet }) {
         Email address
       </label>
       <div className="flex flex-col gap-3">
+        <label htmlFor="guide-optin-first" className="sr-only">
+          First name
+        </label>
+        <Input
+          id="guide-optin-first"
+          name="first_name"
+          type="text"
+          autoComplete="given-name"
+          required
+          placeholder="First name"
+          value={first}
+          onChange={(e) => setFirst(e.target.value)}
+          disabled={submitting}
+          className="h-12 text-base"
+        />
         <Input
           id="guide-optin-email"
           name="email"
