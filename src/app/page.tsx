@@ -230,6 +230,27 @@ export default function HomePage() {
             <div className="mt-8 flex justify-center">
               <AppPlatformBadges className="text-center" />
             </div>
+            {/* Pure-utility nudge to the free directory. No sales, no pitch. */}
+            <Link
+              href="/resources/senior-help-directory"
+              className="group mt-10 block rounded-lg border border-border bg-white p-6 transition-colors hover:border-burgundy-400"
+            >
+              <p className="text-xs font-semibold uppercase tracking-wide text-burgundy-700">
+                Free · Nationwide · No sign-up
+              </p>
+              <h3 className="mt-2 font-serif text-xl text-navy-700">
+                Senior Help Directory
+              </h3>
+              <p className="mt-2 text-sm leading-relaxed text-ink/75">
+                Government and nonprofit help for seniors, organized by state,
+                with county programs added over time. Food, energy bills,
+                Medicare, home repair, transportation, legal, and caregiver
+                support. No sales, no pitch.
+              </p>
+              <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-burgundy-700 group-hover:text-burgundy-800">
+                Browse the directory <span aria-hidden>→</span>
+              </span>
+            </Link>
           </div>
         </div>
       </section>
