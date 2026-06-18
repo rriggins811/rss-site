@@ -4,7 +4,7 @@ This file is the long-form companion to https://rigginsstrategicsolutions.com/ll
 It contains the full Markdown of every key page and every blog post, intended
 for AI crawlers that ingest content for answer generation.
 
-Generated: 2026-06-17
+Generated: 2026-06-18
 Total blog posts indexed: 43
 
 For citation guidance, organizational facts, and topic depth, see the summary
@@ -147,6 +147,221 @@ Inputs: parent's current Medicare plan (Original, Advantage, with/without supple
 
 The 43 posts below are the full body of every published article
 on https://rigginsstrategicsolutions.com/blog, in reverse chronological order.
+
+---
+
+# Mecklenburg County Senior Help Directory: Charlotte Programs for Seniors and Families (2026)
+https://rigginsstrategicsolutions.com/blog/mecklenburg-county-senior-help-directory
+Published: 2026-06-18
+
+**Excerpt:** Free, plain-English senior help in Mecklenburg County and Charlotte, NC: property tax relief plus free application help, food, energy, Medicare, prescriptions, home repair, transportation, legal, caregiver support, and PACE. No sign-up.
+
+*By Ryan Riggins, Riggins Strategic Solutions. NC Real Estate License #361546, eXp Realty.*
+
+*Last updated June 18, 2026. Important: I am a licensed North Carolina real estate agent, but Riggins Strategic Solutions is an education and media company, not a real estate sales business. I am not here to list or sell your house. This is general education only, not financial, tax, medical, or legal advice. Programs and contacts change, so verify before you rely on them.*
+
+If you're caring for an aging parent in Charlotte or anywhere in Mecklenburg County, there's more help out there than most families ever hear about. Here it is in plain English, grouped by what you'd actually go looking for. It's part of our growing [Senior Help Directory](/resources/senior-help-directory).
+
+**Three local front doors open most of these:**
+
+- **NC 211:** dial **2-1-1.** Free, 24/7. Routes you to rent, utility, food, and medical help.
+- **Mecklenburg County Just 1 Call:** **704-432-1111.** The single front door for senior and adult services.
+- **Mecklenburg County DSS:** **704-336-3000.** Energy assistance, food benefits, and Medicaid.
+
+## Property tax relief
+
+North Carolina's senior tax programs are administered by the **Mecklenburg County Assessor's Office** (Valerie C. Woodard Center, 3205 Freedom Dr. Ste 3500, Charlotte; **980-314-4226**). The deadline for all three is **June 1**, and after a county revaluation, watch your mail for relief deadlines.
+
+- **Homestead Exclusion:** greater of $25,000 or 50% off taxable value. 2025 income limit $38,800. Age 65+ or totally and permanently disabled.
+- **Circuit Breaker:** caps tax at 4% of income (up to $38,800) or 5% (up to $58,200). CAUTION: it's a deferral, not forgiveness. The unpaid difference for the current and three prior years becomes a lien at 6% interest, due when the home is sold or the owner passes, and you cannot combine it with the Homestead Exclusion. Understand it before you sign.
+- **Disabled Veteran Exclusion:** $45,000 off, no income limit, no age requirement. An unmarried surviving spouse may also qualify.
+- **Free help applying:** the **Charlotte Center for Legal Advocacy** prepares NC property tax relief applications for eligible low-income seniors, disabled residents, and disabled veterans at no charge. **980-256-7952.**
+
+For the full walk-through of how these statewide programs work (and the Circuit Breaker lien trap in particular), see our guide to [NC senior property tax relief](/blog/nc-senior-property-tax-relief-guilford-county).
+
+## Food
+
+- **Nourish Up** (formerly Loaves & Fishes and Friendship Trays) runs the main Meals on Wheels program, delivering weekday meals to homebound seniors on a sliding scale, plus food pantries. **704-523-4333.**
+- **Senior Citizens Nutrition Program:** free home-delivered and congregate meals for adults 60+ through the county. **704-336-3144.**
+- **Second Harvest Food Bank of Metrolina:** find the nearest of 950+ partner pantries. **704-376-1785.**
+- **SNAP (food stamps)** through Mecklenburg County DSS. Income-based, so working families qualify too. Apply at epass.nc.gov or **704-336-3000.**
+
+## Heating, cooling, and utility bills
+
+- **LIEAP** (a one-time heating payment of $300, $400, or $500) and the year-round **Crisis Intervention Program (CIP)** for heating or cooling emergencies, through Mecklenburg County DSS at **704-336-3000**, or call **Just 1 Call 704-432-1111** for a telephone application. Adults 60+ and disabled adults get a priority sign-up window opening December 1.
+- **Duke Energy** offers customer assistance for past-due accounts; ask them directly or let 211 connect you.
+
+## Medicare, Medicaid, and prescriptions
+
+- **SHIIP** free, unbiased Medicare counseling from the NC Department of Insurance: **1-855-408-1212.** Start here before any Medicare decision.
+- **Medicare Savings Programs** and **Extra Help / Low-Income Subsidy:** apply through Mecklenburg County DSS or ask SHIIP.
+- **NC MedAssist Free Pharmacy** (based in Charlotte) for uninsured NC residents under the income limit: **1-866-331-1348.**
+
+## Home repairs and safety
+
+- **Rebuilding Together of Greater Charlotte:** a Critical Home Repair program that fixes major safety and structural hazards at no cost to qualifying low-income homeowners, with a focus on seniors, veterans, and people with disabilities. Apply through rebuildingtogetherclt.org or 211.
+- **Habitat for Humanity of the Charlotte Region:** a Critical Home Repair program for income-qualified homeowners (repairs, accessibility, weatherization).
+- **NC Weatherization Assistance Program:** energy-efficiency upgrades that prioritize seniors and people with disabilities, through 211 or the county.
+- **USDA Section 504** grants up to $10,000 for very-low-income homeowners 62+ in eligible rural areas, through USDA Rural Development.
+
+## Rent, housing, and emergency cash
+
+- **Crisis Assistance Ministry:** emergency rent and utility assistance plus a free furniture and clothing store for residents in financial crisis. **704-371-3001.**
+- **NC 211** is the fastest route to other temporary rent and utility help.
+- **Salvation Army of Greater Charlotte** and local churches offer short-term emergency assistance.
+- **Mecklenburg County DSS** administers emergency assistance programs. **704-336-3000.**
+
+## Transportation
+
+- **Mecklenburg Transportation System (MTS):** the county's non-emergency medical and general transportation for eligible seniors 60+ and disabled residents (rides to medical appointments including dialysis, adult day care, grocery stores, and food banks). Schedule at **704-336-4547.**
+- **CATS Special Transportation Service (STS):** ADA curb-to-curb paratransit for riders whose disability prevents using fixed-route buses. Schedule at **833-656-7699.**
+
+## Legal help
+
+- **NC Legal Aid Senior Legal Helpline:** free civil legal help for anyone 60+, no income limit (powers of attorney, wills, Medicaid and benefits, housing, scams). **1-877-579-7562**, Monday to Friday 9 to 11 a.m. and 1 to 3 p.m.
+- **Charlotte Center for Legal Advocacy:** free civil legal help for low-income Mecklenburg residents, including property tax relief applications, benefits, and consumer issues. **980-256-7952.**
+- **Centralina Area Agency on Aging** (the regional aging agency for Mecklenburg): free options counseling, benefits help, and the Long-Term Care Ombudsman for nursing-home and assisted-living complaints. **704-372-2416** or toll-free **1-800-508-5777.**
+- **Legal Aid of North Carolina** general intake for lower-income residents under 60: **1-866-219-5262.**
+
+## Caregiver support
+
+- The **NC Family Caregiver Support Program**, delivered regionally through Centralina Area Agency on Aging, offers caregiver coaching, options counseling, and respite referrals so the family caregiver does not burn out. **704-372-2416.**
+- **Mecklenburg County's Just 1 Call** connects family caregivers to in-home aide, respite, and adult day services. **704-432-1111.**
+
+## Staying at home instead of a nursing home
+
+- **PACE of the Southern Piedmont** (operated by Senior TLC) is the PACE program serving Mecklenburg County. PACE coordinates a senior's entire medical care, primary care, a day center, therapy, personal care, prescriptions, and transportation, so someone who would otherwise qualify for a nursing home can keep living at home. For adults 55+ at a nursing-home level of care; most participants pay nothing through Medicare and Medicaid. **704-887-3840** (enrollment **980-308-0858**).
+
+## How to use this list
+
+Don't try to call all of it. Pick the one pressure point hurting most right now and start there, or call 211 and let them point you. An adult child can call and apply on a parent's behalf, just have proof of age, proof of income, and the paperwork handy.
+
+## Frequently Asked Questions
+
+### Where do I start finding senior help in Mecklenburg County?
+Start with three front doors. NC 211 (dial 2-1-1) is the free 24/7 line that routes you to rent, utility, food, and medical help. Mecklenburg County Just 1 Call at 704-432-1111 is the single front door for senior and adult services. Mecklenburg County DSS at 704-336-3000 handles energy assistance, food benefits, and Medicaid.
+
+### What property tax relief is available to seniors in Charlotte and Mecklenburg County?
+The statewide North Carolina programs apply through the Mecklenburg County Assessor's Office at 980-314-4226: the Homestead Exclusion (2025 income limit $38,800), the Circuit Breaker (a deferral that becomes a 6% lien, up to a $58,200 income limit), and the Disabled Veteran Exclusion ($45,000 off, no income limit). The deadline is June 1. The Charlotte Center for Legal Advocacy offers free help applying at 980-256-7952.
+
+### Is there free help applying for property tax relief in Charlotte?
+Yes. The Charlotte Center for Legal Advocacy prepares NC property tax relief applications for eligible low-income seniors, disabled residents, and disabled veterans at no charge, by phone appointment or at clinics. Call 980-256-7952. It also offers free civil legal help alongside Legal Aid of North Carolina.
+
+### How do older adults in Mecklenburg County get meals?
+Nourish Up (formerly Loaves & Fishes and Friendship Trays) runs the main Meals on Wheels program at 704-523-4333, delivering weekday meals on a sliding scale. The county Senior Citizens Nutrition Program offers free home-delivered and congregate meals for adults 60 and older at 704-336-3144, and SNAP is available through Mecklenburg County DSS.
+
+*I'm Ryan Riggins. I spent years on the investor side of real estate, then switched to [educating families through senior transitions](/freeguide) so they don't get taken advantage of during the hardest season of their lives. This guide is free. If it helped, pass it on.*
+
+*Ryan Riggins | Riggins Strategic Solutions | NC Real Estate License #361546 | eXp Realty | rigginsstrategicsolutions.com*
+
+*Disclaimer: Ryan Riggins is a licensed North Carolina real estate agent (#361546, eXp Realty). Riggins Strategic Solutions is an education and media company, not a real estate sales business. This guide is not a solicitation to buy, sell, or list your home, and it is not financial, tax, medical, or legal advice. We are not financial advisors, tax advisors, attorneys, or medical providers. Programs, income limits, and contacts change and vary by individual situation. Confirm current details directly with each program or a licensed professional before making any decision.*
+
+---
+
+# Orange County Senior Help Directory: Chapel Hill & Hillsborough Programs for Seniors (2026)
+https://rigginsstrategicsolutions.com/blog/orange-county-senior-help-directory
+Published: 2026-06-18
+
+**Excerpt:** Free, plain-English senior help in Orange County, NC (Chapel Hill and Hillsborough): property tax relief, food, energy, Medicare, prescriptions, home repair, transportation, legal, caregiver support, and PACE. No sign-up.
+
+*By Ryan Riggins, Riggins Strategic Solutions. NC Real Estate License #361546, eXp Realty.*
+
+*Last updated June 18, 2026. Important: I am a licensed North Carolina real estate agent, but Riggins Strategic Solutions is an education and media company, not a real estate sales business. I am not here to list or sell your house. This is general education only, not financial, tax, medical, or legal advice. Programs and contacts change, so verify before you rely on them.*
+
+If you're helping an aging parent in Chapel Hill, Hillsborough, or anywhere in Orange County, there's more help out there than most families ever hear about. Here it is in plain English, grouped by what you'd actually go looking for. It's part of our growing [Senior Help Directory](/resources/senior-help-directory).
+
+**Three local front doors open most of these:**
+
+- **NC 211:** dial **2-1-1.** Free, 24/7. Routes you to rent, utility, food, and medical help.
+- **Orange County Department on Aging, Information Helpline:** **919-968-2087.** Runs the Seymour Center (Chapel Hill) and Passmore Center (Hillsborough).
+- **Orange County DSS:** **919-245-2800.** Energy assistance, food benefits, and Medicaid.
+
+## Property tax relief
+
+North Carolina's senior tax programs are administered by the **Orange County Tax Administration** (228 S. Churton St., Hillsborough; **919-245-2100 option 2**, taxrelief@orangecountync.gov). The deadline for all three is **June 1**, and staff will help you fill out the application in person or by phone.
+
+- **Homestead Exclusion:** greater of $25,000 or 50% off taxable value (and up to one acre). 2025 income limit $38,800. Age 65+ on January 1, or totally and permanently disabled.
+- **Circuit Breaker:** caps tax at 4% of income (up to $38,800) or 5% (up to $58,200). CAUTION: it's a deferral, not forgiveness. The unpaid difference for the current and three prior years becomes a lien at 6% interest, due when the home is sold or the owner passes, and you cannot combine it with the Homestead Exclusion. Understand it before you sign.
+- **Disabled Veteran Exclusion:** $45,000 off, no income limit, no age requirement. An unmarried surviving spouse may also qualify.
+
+For the full walk-through of how these statewide programs work (and the Circuit Breaker lien trap in particular), see our guide to [NC senior property tax relief](/blog/nc-senior-property-tax-relief-guilford-county).
+
+## Food
+
+- **Meals on Wheels Orange County:** a hot midday meal for homebound residents on weekdays. **919-942-2948.**
+- **Orange County Department on Aging congregate lunch** for adults 60+ at the senior centers. Register with the Lunch Program Coordinator: **919-245-4256.**
+- **Inter-Faith Council (IFC) Community Market:** a free choice food pantry for anyone who lives or works in Chapel Hill or Carrboro. **919-929-6380** (press 0).
+- **SNAP (food stamps)** through Orange County DSS. Income-based, so working families qualify too. Apply at epass.nc.gov or **919-245-2800.**
+
+## Heating, cooling, and utility bills
+
+- **LIEAP** (one-time annual heating payment) and the **Crisis Intervention Program (CIP)** for heating or cooling emergencies, through Orange County DSS (113 Mayo St., Hillsborough): **919-245-2800**, or epass.nc.gov. Seniors 60+ and disabled adults get a priority sign-up window opening December 1.
+- **Duke Energy** offers customer assistance for past-due accounts; ask them directly or let 211 connect you.
+
+## Medicare, Medicaid, and prescriptions
+
+- **SHIIP** free, unbiased Medicare counseling from the NC Department of Insurance: **1-855-408-1212.** Start here before any Medicare decision.
+- **Medicare Savings Programs** and **Extra Help / Low-Income Subsidy:** apply through Orange County DSS or ask SHIIP.
+- **NC MedAssist Free Pharmacy** for uninsured NC residents under the income limit: **1-866-331-1348.**
+
+## Home repairs and safety
+
+- **Handy Helpers** (Orange County Department on Aging): a volunteer program that builds ramps and railings and installs grab bars at no labor cost. Ask through the Aging Information Helpline **919-968-2087.**
+- **Orange County Urgent Repair Program (URP):** critical health, safety, and accessibility repairs as a deferred, forgivable, zero-interest loan up to $10,000, preference for owners 62+ and households with a disability.
+- **Orange County Single Family Rehabilitation (SFR):** larger comprehensive repairs up to $40,000, preference for owners 62+, members with disabilities, and veterans.
+- **USDA Section 504** grants up to $10,000 for very-low-income homeowners 62+ in eligible rural areas, through USDA Rural Development.
+
+## Rent, housing, and emergency cash
+
+- **NC 211** is the fastest route to temporary rent and utility help.
+- **Inter-Faith Council (IFC):** emergency assistance and shelter for the Chapel Hill and Carrboro area. **919-929-6380.**
+- **Salvation Army** and local crisis ministries offer short-term emergency assistance.
+- **Orange County DSS** administers emergency assistance programs. **919-245-2800.**
+
+## Transportation
+
+- **EZ Rider** door-to-door paratransit (Chapel Hill Transit) for riders inside Chapel Hill and Carrboro whose disability prevents using fixed-route buses. Reserve ahead: **919-969-5544.**
+- **Orange County Public Transportation:** demand-response and rural rides countywide, including a Senior Shuttle and weekday rides for adults 60+ to the senior centers. **919-245-2004.**
+- **GoTriangle Regional Transit Information Center** for help planning a trip across local systems: **919-485-7433.**
+
+## Legal help
+
+- **NC Legal Aid Senior Legal Helpline:** free civil legal help for anyone 60+, no income limit (powers of attorney, wills, Medicaid and benefits, housing, scams). **1-877-579-7562**, Monday to Friday 9 to 11 a.m. and 1 to 3 p.m.
+- **Central Pines Area Agency on Aging** (the regional aging agency for Orange, formerly Triangle J): free information, options counseling, benefits help, and the Long-Term Care Ombudsman for nursing-home and assisted-living complaints. **1-800-310-9777.**
+- **Legal Aid of North Carolina** general intake for lower-income residents under 60: **1-866-219-5262.**
+
+## Caregiver support
+
+- The **NC Family Caregiver Support Program**, delivered locally through the Orange County Department on Aging, offers caregiver coaching, options counseling, respite referrals, and support groups so the family caregiver does not burn out. Aging Information Helpline **919-968-2087.**
+- **Central Pines Area Agency on Aging** also serves the region. **1-800-310-9777.**
+
+## Staying at home instead of a nursing home
+
+- **Piedmont Health SeniorCare** is the PACE program serving Orange County from its Pittsboro center. PACE coordinates a senior's entire medical care, primary care, a day center, therapy, personal care, prescriptions, and transportation, so someone who would otherwise qualify for a nursing home can keep living at home. For adults 55+ at a nursing-home level of care; most participants pay nothing through Medicare and Medicaid. **919-545-7337**, toll-free **1-877-714-2100.**
+
+## How to use this list
+
+Don't try to call all of it. Pick the one pressure point hurting most right now and start there, or call 211 and let them point you. An adult child can call and apply on a parent's behalf, just have proof of age, proof of income, and the paperwork handy.
+
+## Frequently Asked Questions
+
+### Where do I start finding senior help in Orange County, NC?
+Start with three front doors. NC 211 (dial 2-1-1) is the free 24/7 line that routes you to rent, utility, food, and medical help. The Orange County Department on Aging Information Helpline at 919-968-2087 runs the Seymour Center (Chapel Hill) and Passmore Center (Hillsborough). Orange County DSS at 919-245-2800 handles energy assistance, food benefits, and Medicaid.
+
+### What property tax relief is available to seniors in Orange County?
+The statewide North Carolina programs apply through Orange County Tax Administration (919-245-2100 option 2, taxrelief@orangecountync.gov): the Homestead Exclusion (2025 income limit $38,800), the Circuit Breaker (a deferral that becomes a 6% lien, so understand it before you sign), and the Disabled Veteran Exclusion ($45,000 off, no income limit). The deadline is June 1, and staff will help you fill out the form.
+
+### Is there free help building a wheelchair ramp or making home repairs in Orange County?
+Yes. Handy Helpers, run by the Orange County Department on Aging (Aging Helpline 919-968-2087), is a volunteer program that builds ramps and installs grab bars at no labor cost. For larger repairs, the county Urgent Repair Program offers a forgivable zero-interest loan up to $10,000, with preference for owners 62 and older.
+
+### What transportation help is there for Orange County seniors?
+EZ Rider paratransit serves Chapel Hill and Carrboro at 919-969-5544, and Orange County Public Transportation runs demand-response and rural rides countywide, including a Senior Shuttle, at 919-245-2004. Meals on Wheels Orange County is at 919-942-2948.
+
+*I'm Ryan Riggins. I spent years on the investor side of real estate, then switched to [educating families through senior transitions](/freeguide) so they don't get taken advantage of during the hardest season of their lives. This guide is free. If it helped, pass it on.*
+
+*Ryan Riggins | Riggins Strategic Solutions | NC Real Estate License #361546 | eXp Realty | rigginsstrategicsolutions.com*
+
+*Disclaimer: Ryan Riggins is a licensed North Carolina real estate agent (#361546, eXp Realty). Riggins Strategic Solutions is an education and media company, not a real estate sales business. This guide is not a solicitation to buy, sell, or list your home, and it is not financial, tax, medical, or legal advice. We are not financial advisors, tax advisors, attorneys, or medical providers. Programs, income limits, and contacts change and vary by individual situation. Confirm current details directly with each program or a licensed professional before making any decision.*
 
 ---
 
@@ -1386,100 +1601,6 @@ Yes. Legal Aid of North Carolina provides free civil legal help to low-income re
 
 ---
 
-# Mecklenburg County Senior Help Directory: Charlotte Programs for Seniors and Families (2026)
-https://rigginsstrategicsolutions.com/blog/mecklenburg-county-senior-help-directory
-Published: 2026-06-03
-
-**Excerpt:** Free, plain-English senior help in Mecklenburg County and Charlotte, NC: property tax relief, food, energy, Medicare, prescriptions, home repair, transportation, legal, and caregiver programs, with local phone numbers. No sign-up.
-
-*By Ryan Riggins, Riggins Strategic Solutions. NC Real Estate License #361546, eXp Realty.*
-
-*Last updated June 3, 2026. Important: I am a licensed North Carolina real estate agent, but Riggins Strategic Solutions is an education and media company, not a real estate sales business. I am not here to list or sell your house. This is general education only, not financial, tax, medical, or legal advice. Programs and contacts change, so verify before you rely on them.*
-
-If you're caring for an aging parent in Charlotte or anywhere in Mecklenburg County, there's more help out there than most families ever hear about. Here it is in plain English, grouped by what you'd actually go looking for. It's part of our growing [Senior Help Directory](/resources/senior-help-directory).
-
-**Three local front doors open most of these:**
-
-- **NC 211:** dial **2-1-1.** Free, 24/7. Routes you to rent, utility, food, and medical help.
-- **Age-Friendly Mecklenburg / County Senior Services:** **980-314-6070.**
-- **Mecklenburg County DSS:** energy assistance, food benefits, and Medicaid.
-
-## Property tax relief
-
-North Carolina's senior tax programs are administered by the **Mecklenburg County Assessor's Office.**
-
-- **Elderly/Disabled Exclusion:** greater of $25,000 or 50% off taxable value. 2026 income limit $38,800. Age 65+ or totally and permanently disabled. Deadline June 1.
-- **Circuit Breaker deferral:** income limit $58,200, deadline June 1. CAUTION: it defers tax as a lien at 6% interest, due when the home is sold or the owner passes. Understand it before you sign.
-- **Disabled Veteran Exclusion:** $45,000 off, no income limit, no age requirement.
-- **Free help applying:** Charlotte Center for Legal Advocacy property tax relief assistance, **980-256-7952.**
-
-For the full walk-through of how these statewide programs work (and the Circuit Breaker lien trap in particular), see our guide to [NC senior property tax relief](/blog/nc-senior-property-tax-relief-guilford-county).
-
-## Food
-
-- **Nourish Up** (formerly Loaves & Fishes and Friendship Trays): food pantries, grocery home delivery, and Meals on Wheels.
-- **Senior Citizens Nutrition Program** (60+): free home-delivered and congregate meals through County Senior Services.
-- **SNAP (food stamps)** through Mecklenburg County DSS.
-
-## Heating, cooling, and utility bills
-
-- **LIEAP** (one-time annual heating payment) and the **Crisis Intervention Program (CIP)** for heating or cooling emergencies, through Mecklenburg County DSS. Seniors 60+ and disabled adults get a priority sign-up window.
-
-## Medicare, Medicaid, and prescriptions
-
-- **SHIIP** free, unbiased Medicare counseling: **1-855-408-1212.**
-- **Medicare Savings Programs** and **Extra Help / Low-Income Subsidy:** apply through DSS or SHIIP.
-- **NC MedAssist Free Pharmacy** for uninsured residents under the income limit: **1-866-331-1348.**
-
-## Home repairs and safety
-
-- **USDA Section 504** grants up to $10,000 for very-low-income homeowners 62+ (eligible rural areas), through USDA Rural Development.
-- **Repair and weatherization referrals** through 211.
-
-## Transportation
-
-- **Mecklenburg Transportation System:** **704-336-2102.**
-- **CATS Special Transportation Service (STS)** paratransit: **704-365-1995.**
-- Transportation to senior nutrition meal sites for residents 60+.
-
-## Legal help
-
-- **Charlotte Center for Legal Advocacy:** **980-256-7952**, plus **Legal Aid of North Carolina.** Free civil legal help for eviction, foreclosure, benefits, and scams.
-
-## Caregiver support
-
-- **Mecklenburg County DSS Caregiver Support** and the **NC Family Caregiver Support Program.**
-
-## Staying at home instead of a nursing home
-
-- Ask about **PACE** (full coordinated at-home medical care so a nursing-home-eligible senior can stay home) through NC 211 or the Eldercare Locator at **1-800-677-1116.**
-
-## How to use this list
-
-Don't try to call all of it. Pick the one pressure point hurting most right now and start there, or call 211 and let them point you. An adult child can call and apply on a parent's behalf, just have proof of age, proof of income, and the paperwork handy.
-
-## Frequently Asked Questions
-
-### Where do I start finding senior help in Mecklenburg County?
-Start with three front doors. NC 211 (dial 2-1-1) is the free 24/7 line that routes you to rent, utility, food, and medical help. Age-Friendly Mecklenburg and County Senior Services can be reached at 980-314-6070. Mecklenburg County DSS handles energy assistance, food benefits, and Medicaid.
-
-### What property tax relief is available to seniors in Charlotte and Mecklenburg County?
-The statewide North Carolina programs apply through the Mecklenburg County Assessor's Office: the Elderly/Disabled Exclusion (2026 income limit $38,800), the Circuit Breaker deferral (income limit $58,200, a 6% lien due at sale or death), and the Disabled Veteran Exclusion ($45,000 off, no income limit). The deadline is June 1. The Charlotte Center for Legal Advocacy offers free help applying at 980-256-7952.
-
-### Is there free help applying for property tax relief in Charlotte?
-Yes. The Charlotte Center for Legal Advocacy provides free property tax relief application assistance at 980-256-7952. It also offers free civil legal help alongside Legal Aid of North Carolina.
-
-### How do older adults in Mecklenburg County get meals?
-Nourish Up (formerly Loaves & Fishes and Friendship Trays) runs food pantries, grocery home delivery, and Meals on Wheels. The county Senior Citizens Nutrition Program offers free home-delivered and congregate meals for residents 60 and older through County Senior Services, and SNAP is available through Mecklenburg County DSS.
-
-*I'm Ryan Riggins. I spent years on the investor side of real estate, then switched to [educating families through senior transitions](/freeguide) so they don't get taken advantage of during the hardest season of their lives. This guide is free. If it helped, pass it on.*
-
-*Ryan Riggins | Riggins Strategic Solutions | NC Real Estate License #361546 | eXp Realty | rigginsstrategicsolutions.com*
-
-*Disclaimer: Ryan Riggins is a licensed North Carolina real estate agent (#361546, eXp Realty). Riggins Strategic Solutions is an education and media company, not a real estate sales business. This guide is not a solicitation to buy, sell, or list your home, and it is not financial, tax, medical, or legal advice. We are not financial advisors, tax advisors, attorneys, or medical providers. Programs, income limits, and contacts change and vary by individual situation. Confirm current details directly with each program or a licensed professional before making any decision.*
-
----
-
 # NC Senior Property Tax Relief: 5 Programs Guilford County Won't Hand You (and 1 That's a Trap)
 https://rigginsstrategicsolutions.com/blog/nc-senior-property-tax-relief-guilford-county
 Published: 2026-06-03
@@ -1600,98 +1721,6 @@ We put the full rundown, every program, who qualifies, and how to reach it, in a
 *Ryan Riggins | Riggins Strategic Solutions | NC Real Estate License #361546 | eXp Realty | rigginsstrategicsolutions.com*
 
 *Disclaimer: Ryan Riggins is a licensed North Carolina real estate agent (#361546, eXp Realty). Riggins Strategic Solutions is an education and media company, not a real estate sales business. This guide is not a solicitation to buy, sell, or list your home. We are not financial advisors, not tax advisors, and not attorneys, and nothing here is financial, tax, or legal advice. Programs, income limits, rates, and deadlines change and vary by individual situation. Confirm current details with the Guilford County Tax Department, the City of Greensboro, or a licensed tax or legal professional before making any decision.*
-
----
-
-# Orange County Senior Help Directory: Chapel Hill & Hillsborough Programs for Seniors (2026)
-https://rigginsstrategicsolutions.com/blog/orange-county-senior-help-directory
-Published: 2026-06-03
-
-**Excerpt:** Free, plain-English senior help in Orange County, NC (Chapel Hill and Hillsborough): property tax relief, food, energy, Medicare, prescriptions, home repair, transportation, legal, and caregiver programs. No sign-up.
-
-*By Ryan Riggins, Riggins Strategic Solutions. NC Real Estate License #361546, eXp Realty.*
-
-*Last updated June 3, 2026. Important: I am a licensed North Carolina real estate agent, but Riggins Strategic Solutions is an education and media company, not a real estate sales business. I am not here to list or sell your house. This is general education only, not financial, tax, medical, or legal advice. Programs and contacts change, so verify before you rely on them.*
-
-If you're helping an aging parent in Chapel Hill, Hillsborough, or anywhere in Orange County, there's more help out there than most families ever hear about. Here it is in plain English, grouped by what you'd actually go looking for. It's part of our growing [Senior Help Directory](/resources/senior-help-directory).
-
-**Three local front doors open most of these:**
-
-- **NC 211:** dial **2-1-1.** Free, 24/7. Routes you to rent, utility, food, and medical help.
-- **Orange County Department on Aging:** the Seymour Center (Chapel Hill) and Passmore Center (Hillsborough).
-- **Orange County DSS:** energy assistance, food benefits, and Medicaid.
-
-## Property tax relief
-
-North Carolina's senior tax programs are administered by the **Orange County Tax Administration (919-245-2100 option 2, taxrelief@orangecountync.gov).**
-
-- **Homestead Exclusion:** greater of $25,000 or 50% off taxable value. 2026 income limit $38,800. Age 65+ or totally and permanently disabled. Deadline June 1.
-- **Circuit Breaker:** caps tax at 4-5% of income, limit $58,200. CAUTION: it's a deferral, the unpaid difference becomes a lien at 6% interest, due when the home is sold or the owner passes. Understand it before you sign.
-- **Disabled Veteran Exclusion:** $45,000 off, no income limit, no age requirement.
-
-For the full walk-through of how these statewide programs work (and the Circuit Breaker lien trap in particular), see our guide to [NC senior property tax relief](/blog/nc-senior-property-tax-relief-guilford-county).
-
-## Food
-
-- **Meals on Wheels Orange County:** **919-942-2948.**
-- **Congregate meals and programs** through the Orange County Department on Aging (two senior centers).
-- **SNAP (food stamps)** through Orange County DSS.
-
-## Heating, cooling, and utility bills
-
-- **LIEAP** (one-time annual heating payment) and the **Crisis Intervention Program (CIP)** for heating or cooling emergencies, through Orange County DSS. Seniors 60+ and disabled adults get a priority sign-up window.
-
-## Medicare, Medicaid, and prescriptions
-
-- **SHIIP** free, unbiased Medicare counseling: **1-855-408-1212.**
-- **Medicare Savings Programs** and **Extra Help / Low-Income Subsidy:** apply through DSS or SHIIP.
-- **NC MedAssist Free Pharmacy** for uninsured residents under the income limit: **1-866-331-1348.**
-
-## Home repairs and safety
-
-- **USDA Section 504** grants up to $10,000 for very-low-income homeowners 62+ (eligible rural areas), through USDA Rural Development.
-- **Repair and weatherization referrals** through 211.
-
-## Transportation
-
-- **EZ Rider** paratransit (Chapel Hill / Carrboro): **919-969-5544.**
-- **Orange County Public Transportation:** **919-245-2004.**
-
-## Legal help
-
-- **Legal Aid of North Carolina:** free civil legal help for eviction, foreclosure, benefits, and scams.
-
-## Caregiver support
-
-- **Orange County Department on Aging** and the **NC Family Caregiver Support Program.**
-
-## Staying at home instead of a nursing home
-
-- Ask about **PACE** (full coordinated at-home medical care so a nursing-home-eligible senior can stay home) through NC 211 or the Eldercare Locator at **1-800-677-1116.**
-
-## How to use this list
-
-Don't try to call all of it. Pick the one pressure point hurting most right now and start there, or call 211 and let them point you. An adult child can call and apply on a parent's behalf, just have proof of age, proof of income, and the paperwork handy.
-
-## Frequently Asked Questions
-
-### Where do I start finding senior help in Orange County, NC?
-Start with three front doors. NC 211 (dial 2-1-1) is the free 24/7 line that routes you to rent, utility, food, and medical help. The Orange County Department on Aging runs the Seymour Center in Chapel Hill and the Passmore Center in Hillsborough. Orange County DSS handles energy assistance, food benefits, and Medicaid.
-
-### What property tax relief is available to seniors in Orange County?
-The statewide North Carolina programs apply through Orange County Tax Administration (919-245-2100 option 2, taxrelief@orangecountync.gov): the Homestead Exclusion (2026 income limit $38,800), the Circuit Breaker (a deferral that becomes a 6% lien), and the Disabled Veteran Exclusion ($45,000 off, no income limit). The deadline is June 1.
-
-### How do older adults in Chapel Hill get help with heating bills?
-Apply through Orange County DSS for LIEAP, a one-time annual heating payment, and the Crisis Intervention Program for a heating or cooling emergency. Seniors 60 and older and disabled adults get a priority sign-up window.
-
-### What transportation help is there for Orange County seniors?
-EZ Rider paratransit serves Chapel Hill and Carrboro at 919-969-5544, and Orange County Public Transportation is at 919-245-2004. Meals on Wheels Orange County can be reached at 919-942-2948.
-
-*I'm Ryan Riggins. I spent years on the investor side of real estate, then switched to [educating families through senior transitions](/freeguide) so they don't get taken advantage of during the hardest season of their lives. This guide is free. If it helped, pass it on.*
-
-*Ryan Riggins | Riggins Strategic Solutions | NC Real Estate License #361546 | eXp Realty | rigginsstrategicsolutions.com*
-
-*Disclaimer: Ryan Riggins is a licensed North Carolina real estate agent (#361546, eXp Realty). Riggins Strategic Solutions is an education and media company, not a real estate sales business. This guide is not a solicitation to buy, sell, or list your home, and it is not financial, tax, medical, or legal advice. We are not financial advisors, tax advisors, attorneys, or medical providers. Programs, income limits, and contacts change and vary by individual situation. Confirm current details directly with each program or a licensed professional before making any decision.*
 
 ---
 
