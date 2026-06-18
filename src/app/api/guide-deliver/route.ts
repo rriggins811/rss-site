@@ -71,6 +71,21 @@ function cleanName(input: unknown): string | null {
   return n.length > 0 ? n : null;
 }
 
+// Phone is OPTIONAL on the warm-LP form. Normalize to E.164 so GHL/Twilio can
+// text it. 10 digits -> +1XXXXXXXXXX; 11 starting with 1 -> +1...; a leading-+
+// international number (8-15 digits) is kept. Anything else (blank, too short,
+// junk) is treated as absent — we never block the opt-in on a bad phone.
+function normalizePhone(input: unknown): string | null {
+  if (typeof input !== "string") return null;
+  const digits = input.replace(/\D/g, "");
+  if (digits.length === 10) return `+1${digits}`;
+  if (digits.length === 11 && digits.startsWith("1")) return `+${digits}`;
+  if (input.trim().startsWith("+") && digits.length >= 8 && digits.length <= 15) {
+    return `+${digits}`;
+  }
+  return null;
+}
+
 export async function POST(req: Request) {
   const ip = getClientIp(req);
 
@@ -114,6 +129,7 @@ export async function POST(req: Request) {
   }
 
   const firstName = cleanName(body.first_name);
+  const phone = normalizePhone(body.phone);
   const source =
     typeof body.source === "string" && body.source.length > 0
       ? body.source.slice(0, 120)
@@ -135,7 +151,7 @@ export async function POST(req: Request) {
         email,
         first_name: firstName,
         last_name: null,
-        phone: null,
+        phone,
         message: null,
         source,
         raw_payload: {
@@ -172,7 +188,7 @@ export async function POST(req: Request) {
   // instant guarantee, so neither blocks the user-facing success.
   const [ghlRes, emailRes] = await Promise.allSettled([
     upsertGhlContactWithTags(
-      { email, firstName: firstName ?? undefined, source },
+      { email, firstName: firstName ?? undefined, phone: phone ?? undefined, source },
       // Strip `freeguide` on the warm-LP path: that tag enrolls contacts in the
       // OLD account-flow nurture, which assumes a Blueprint dashboard these
       // ad leads do not have (the funnel that converted ~0). The new warm-funnel

@@ -30,6 +30,7 @@ export function GuideOptInForm({ magnet }: { magnet: LeadMagnet }) {
   const [status, setStatus] = useState<Status>("idle");
   const [error, setError] = useState<string | null>(null);
   const [email, setEmail] = useState("");
+  const [phone, setPhone] = useState("");
 
   const submitting = status === "submitting";
 
@@ -60,6 +61,7 @@ export function GuideOptInForm({ magnet }: { magnet: LeadMagnet }) {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           email,
+          phone: phone || undefined,
           magnet: magnet.slug,
           source: `lp-${magnet.slug}`,
           attribution,
@@ -100,7 +102,7 @@ export function GuideOptInForm({ magnet }: { magnet: LeadMagnet }) {
           eventId: metaEventId,
           eventSourceUrl:
             typeof window !== "undefined" ? window.location.href : undefined,
-          userData: { email, fbc: getFbc(), fbp: getFbp() },
+          userData: { email, phone: phone || undefined, fbc: getFbc(), fbp: getFbp() },
           customData: {
             content_name: magnet.slug,
             content_category: "lead_magnet",
@@ -121,7 +123,7 @@ export function GuideOptInForm({ magnet }: { magnet: LeadMagnet }) {
       <label htmlFor="guide-optin-email" className="sr-only">
         Email address
       </label>
-      <div className="flex flex-col gap-3 sm:flex-row">
+      <div className="flex flex-col gap-3">
         <Input
           id="guide-optin-email"
           name="email"
@@ -133,13 +135,28 @@ export function GuideOptInForm({ magnet }: { magnet: LeadMagnet }) {
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           disabled={submitting}
-          className="h-12 flex-1 text-base"
+          className="h-12 text-base"
+        />
+        <label htmlFor="guide-optin-phone" className="sr-only">
+          Phone number (optional)
+        </label>
+        <Input
+          id="guide-optin-phone"
+          name="phone"
+          type="tel"
+          inputMode="tel"
+          autoComplete="tel"
+          placeholder="Phone (optional, for quick text tips)"
+          value={phone}
+          onChange={(e) => setPhone(e.target.value)}
+          disabled={submitting}
+          className="h-12 text-base"
         />
         <Button
           type="submit"
           size="lg"
           disabled={submitting}
-          className="h-12 bg-navy-700 px-6 text-base hover:bg-navy-800"
+          className="h-12 w-full bg-navy-700 px-6 text-base hover:bg-navy-800"
         >
           {submitting ? "Sending..." : `Send me the guide`}
         </Button>
@@ -154,6 +171,10 @@ export function GuideOptInForm({ magnet }: { magnet: LeadMagnet }) {
       <p className="mt-3 text-xs text-ink/60">
         Free. We email it right away and send a link to read it online. No spam,
         unsubscribe anytime.
+      </p>
+      <p className="mt-2 text-xs text-ink/50">
+        Phone is optional. Add it and we will text you occasional quick tips.
+        Message and data rates may apply, reply STOP to opt out.
       </p>
     </form>
   );
