@@ -197,6 +197,16 @@ export default async function StateDirectoryPage({
                   <p className="mt-2 text-sm text-ink/75 leading-relaxed">
                     {a.desc}
                   </p>
+                  {a.url && a.url !== a.contact ? (
+                    <a
+                      href={`https://${a.url}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="mt-2 inline-block text-sm font-semibold text-burgundy-700 underline underline-offset-2 hover:text-burgundy-800"
+                    >
+                      {a.url}
+                    </a>
+                  ) : null}
                 </li>
               ))}
             </ul>

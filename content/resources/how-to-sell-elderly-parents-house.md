@@ -62,7 +62,7 @@ Use five piles: keep, give, sell, donate, toss, deciding one item at a time with
 
 The last piece is sequencing the physical move so your parent is not displaced or carrying two homes at once. Coordinate the move-out with the closing date, build in a cushion for the inevitable delays, and line up the next place before the current one sells when you can.
 
-This is also where you protect against carrying costs: a dual mortgage, storage, temporary housing, and the prep budget all eat into the net. A Senior Real Estate Specialist and, for complex cases, a senior move manager help you sequence it so the transition is smooth instead of a scramble.
+This is also where you protect against carrying costs: a dual mortgage, storage, temporary housing, and the prep budget all eat into the net. A Senior Real Estate Specialist and, for complex cases, a senior move manager help you sequence it so the transition is smooth instead of a scramble. To find a vetted, accredited move manager, use the [National Association of Senior Move Managers (NASMM) directory](https://nasmm.org/find-a-move-manager).
 
 ## Avoid the five most expensive mistakes
 

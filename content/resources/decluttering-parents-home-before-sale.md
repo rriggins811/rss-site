@@ -55,7 +55,7 @@ Pick a fair method and agree to it in advance. Some families take turns choosing
 
 ## Bring in help, and start early
 
-You do not have to do this alone, and the families who try usually burn out. Estate sale companies handle the sell pile and often the haul-away. Senior move managers specialize in exactly this transition. Donation services will pick up. Vet anyone you bring in, the same way you would vet a buyer, because the senior-services space has its share of operators who overcharge a grieving family.
+You do not have to do this alone, and the families who try usually burn out. Estate sale companies handle the sell pile and often the haul-away. Senior move managers specialize in exactly this transition, and you can find a vetted, accredited one through the [National Association of Senior Move Managers (NASMM) directory](https://nasmm.org/find-a-move-manager). Donation services will pick up. Vet anyone you bring in, the same way you would vet a buyer, because the senior-services space has its share of operators who overcharge a grieving family.
 
 Most of all, start early. Decluttering a long-lived-in home is a months-long process if you want to keep the equity and the family. Crammed into the week before a listing, it becomes a fire sale of both the belongings and everyone's patience.
 
