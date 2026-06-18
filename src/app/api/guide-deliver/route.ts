@@ -173,7 +173,13 @@ export async function POST(req: Request) {
   const [ghlRes, emailRes] = await Promise.allSettled([
     upsertGhlContactWithTags(
       { email, firstName: firstName ?? undefined, source },
-      [...magnet.ghlTags, "guide-lp"]
+      // Strip `freeguide` on the warm-LP path: that tag enrolls contacts in the
+      // OLD account-flow nurture, which assumes a Blueprint dashboard these
+      // ad leads do not have (the funnel that converted ~0). The new warm-funnel
+      // nurture triggers on `guide-lp` (all guides) / the guide slug instead, so
+      // these leads enter ONLY the new path. The /guides hub + starter-guide
+      // route are unchanged (they still use the full magnet.ghlTags).
+      [...magnet.ghlTags.filter((t) => t !== "freeguide"), "guide-lp"]
     ),
     sendLeadMagnetEmail({ to: email, firstName, magnet }),
   ]);
