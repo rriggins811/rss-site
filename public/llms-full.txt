@@ -5,7 +5,7 @@ It contains the full Markdown of every key page and every blog post, intended
 for AI crawlers that ingest content for answer generation.
 
 Generated: 2026-06-19
-Total blog posts indexed: 43
+Total blog posts indexed: 44
 
 For citation guidance, organizational facts, and topic depth, see the summary
 index at https://rigginsstrategicsolutions.com/llms.txt.
@@ -145,7 +145,7 @@ Inputs: parent's current Medicare plan (Original, Advantage, with/without supple
 
 # Blog Posts (newest first)
 
-The 43 posts below are the full body of every published article
+The 44 posts below are the full body of every published article
 on https://rigginsstrategicsolutions.com/blog, in reverse chronological order.
 
 ---
@@ -255,6 +255,114 @@ ACTA, the Alamance County Transportation Authority, provides non-emergency rides
 *Ryan Riggins | Riggins Strategic Solutions | NC Real Estate License #361546 | eXp Realty | rigginsstrategicsolutions.com*
 
 *Disclaimer: Ryan Riggins is a licensed North Carolina real estate agent (#361546, eXp Realty). Riggins Strategic Solutions is an education and media company, not a real estate sales business. This guide is not a solicitation to buy, sell, or list your home, and it is not financial, tax, medical, or legal advice. We are not financial advisors, tax advisors, attorneys, or medical providers. Programs, income limits, and contacts change and vary by individual situation. Confirm current details directly with each program or a licensed professional before making any decision.*
+
+---
+
+# Home Title Theft Is Rising: How to Protect Your Parents' Paid-Off House
+https://rigginsstrategicsolutions.com/blog/home-title-theft-protect-parents-house
+Published: 2026-06-19
+
+**Excerpt:** The FBI is warning that home title and deed fraud is rising, and it targets paid-off homes and older owners on purpose. Here is exactly how the scam works and the free five-minute step that stops it.
+
+When I was buying houses, the first thing I looked for was not the granite countertops or the school district. It was who was paying attention.
+
+A house that was paid off, owned by someone who never logged into the county website, with no lender breathing down anyone's neck, was the softest target on the block. I was not breaking any laws back then. I was just reading the signals that told me a deal might be easy. But here is the uncomfortable truth I carry now that I work for families instead of against them: the exact same signals that made a house an easy deal are the signals that make it an easy crime.
+
+That is what is happening right now with home title theft, and the FBI is sounding the alarm. The scary part is not that it is rare and dramatic. The scary part is that it is quiet, it is cheap to pull off, and it goes after the one asset most families assume is safe because it is paid for. If your mom or dad owns their home free and clear, this is the article I would want you to read before the weekend is over.
+
+## What the FBI is warning about
+
+The FBI's Boston field office issued a public warning that quit claim deed fraud, also called home title theft, is on the rise. The mechanics are simple and that is what makes it dangerous. A criminal forges a deed, often using a fake notary stamp and a forged signature, and records that phony transfer of ownership with the county. On paper, the house now belongs to someone else. From there, the thief can try to sell the property, take out a mortgage or home equity loan against it, or even rent it out and pocket the money, all while the real owner has no idea anything happened.
+
+The numbers behind the warning are not small. According to FBI data, real estate and rental fraud schemes hit more than 58,000 property owners between 2019 and 2023, with reported losses of about $1.3 billion. And the cases keep coming. This February, federal prosecutors in the Western District of Tennessee sentenced a notary to 57 months in prison for a real estate fraud scheme in which she filed deeds on more than 30 properties without the true owners knowing. In a separate federal case out of Washington, D.C., a man was sentenced to more than 11 years for using a fake notary stamp and fraudulent deeds to steal a townhome owned free and clear by an elderly homeowner.
+
+The FBI is blunt about who gets targeted. Fraudsters comb public records looking for properties that have no mortgage, sit vacant, or belong to elderly owners who may not check their property records regularly. And in some cases, the person doing the pressuring is not a stranger at all. It is a relative or a close associate who talks an aging owner into signing the property over.
+
+## What this means for families with aging parents
+
+If you are helping an aging parent, here is the part that should stick with you. The house your parents paid off is the least protected thing they own.
+
+Think about how you find out when something goes wrong with the rest of their money. A bank account has monthly statements. A credit card sends fraud alerts. A mortgage company watches the property like a hawk because they have a financial stake in it. But a paid-off house has none of that. There is no lender monitoring the title. There is no statement that lands in the mailbox saying the deed changed. The county records quietly update, and unless someone is specifically watching, the first sign of trouble is a buyer or a tenant showing up at the door, or a foreclosure notice on a loan your parent never took out.
+
+That is why this crime is so cruel. It is invisible until it is a courtroom problem. And untangling a fraudulent deed is not a phone call. It can mean hiring an attorney, filing a quiet title action, and spending months proving you still own the home you have lived in for decades. The financial loss is real, but the stress of it landing on an 80-year-old is worse.
+
+There is a second layer here too, and it is the one families hate to talk about. The FBI specifically flagged that sometimes the person convincing an older owner to transfer the property is family. A relative who needs money, a caregiver who gains too much control, an adult child acting without the others knowing. The protection against a stranger with a forged deed and the protection against a relative with too much influence turn out to be the same: get the right legal documents and monitoring in place early, while your parent is clearly able to make their own decisions.
+
+## The free five-minute step almost nobody takes
+
+Here is the good news. The single most effective defense costs nothing and takes about five minutes.
+
+Most county registers of deeds offer a free property fraud alert. You enroll a name, and the county emails you any time a document is recorded against that property. It does not stop a criminal from filing a fake deed, but it tells you the moment one is filed, which is the difference between catching it in days and finding out in years. In Guilford County, North Carolina, for example, the Register of Deeds runs a free Property Fraud Alert, and the office will help you sign up if you call them. Nearly every county in the country offers some version of this now.
+
+Set it up for your parents. Then set it up for yourself.
+
+### Step 1: Enroll in your county's property fraud alert
+
+Search your county name plus "register of deeds property fraud alert," or call the Register of Deeds office directly. Enroll your parent's name and property. If your parents own property in more than one county, do it in each county. This is the highest-leverage five minutes you will spend all year.
+
+### Step 2: Pull the current deed and confirm it is correct
+
+While you are on the county website, look up the current deed and make sure the ownership reads the way it should. If anything looks off, or if there is a transfer you do not recognize, call the Register of Deeds and ask. Catching an error early is everything.
+
+### Step 3: Get the legal documents in place
+
+A durable power of attorney, a healthcare power of attorney, and an advance directive let a trusted person step in the right way, before a crisis and before a court has to appoint a guardian. Done early with an elder law attorney in your state, these documents are also the best protection against a relative quietly steering a parent's property. Rules vary by state, so use a licensed attorney rather than a form off the internet.
+
+### Step 4: Watch for the warning signs
+
+Be alert if a parent suddenly cannot find paperwork, mentions a new "helper" who is handling their affairs, or talks about signing something they do not fully understand. Unsolicited offers to buy the house for cash, pressure to sign quickly, and anyone discouraging your parent from involving family or an attorney are all red flags.
+
+### Step 5: Decide whether a paid title monitoring service is worth it
+
+You will see ads for paid home title lock services. Be honest about what they do. Most are paid monitoring, and your county already offers free monitoring through the fraud alert. For most families, the free county alert plus the legal documents above covers the same ground. Spend the money only if you have a specific reason the free option does not fit.
+
+## Frequently Asked Questions
+
+### What is quit claim deed fraud?
+
+Quit claim deed fraud, also called home title theft, is when a criminal forges a deed and records a fake transfer of ownership with the county. They can then try to sell the home, borrow against it, or rent it out. The real owner often does not find out until a buyer, tenant, or foreclosure notice appears.
+
+### How do I protect my elderly parent's house from deed fraud?
+
+The fastest step is free: enroll in your county register of deeds property fraud alert, which emails you any time a document is recorded against the property. Then confirm the current deed is correct, and get a durable power of attorney and other legal documents in place with an elder law attorney.
+
+### Is paying for a home title lock service worth it?
+
+For most families, no. Paid services are usually just monitoring, and your county already offers free monitoring through its property fraud alert. The free alert plus solid legal documents covers most of what the paid services advertise. Consider paying only if you have a specific need the free option does not meet.
+
+### Who do title thieves target most?
+
+According to the FBI, criminals look for homes with no mortgage, vacant properties, and homes owned by elderly people who do not regularly check their property records. Sometimes the person pressuring an older owner to sign over the home is a relative or close associate.
+
+### What do I do if a fraudulent deed has already been filed?
+
+Contact your county register of deeds immediately, file a report with local law enforcement and the FBI at ic3.gov, and talk to a real estate or elder law attorney about clearing the title, which may require a court action. Acting quickly matters.
+
+## About Ryan Riggins
+
+Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafe app](https://seniorsafeapp.com).
+
+---
+
+**Not sure where your family stands?** Run the free 5-minute readiness check across the home, money, legal, care, and the conversation: rigginsstrategicsolutions.com/tools/readiness-assessment
+
+**Want a step-by-step guide?** The free Simple Blueprint walks through every stage of a senior transition: rigginsstrategicsolutions.com/freeguide
+
+**Ready for the full system?** Senior Transition Blueprint Core, 19 modules and 60+ tools: rigginsstrategicsolutions.com/the-blueprint
+
+**Need a personalized plan?** Blueprint Premium adds a 60-min call and 90 days of email support: rigginsstrategicsolutions.com/blueprint-premium
+
+**Coordinate your family in one place.** SeniorSafe app (web, iPhone, Android): app.seniorsafeapp.com
+
+**Talk it through.** Book a free 20-min call with Ryan: rigginsstrategicsolutions.com/work-with-ryan
+
+### Get the SeniorSafe App
+
+[Download on the App Store](https://apps.apple.com/us/app/seniorsafe-app/id6761343239)
+
+[Get it on Google Play](https://play.google.com/store/apps/details?id=com.rigginsstrategicsolutions.seniorsafe)
+
+Ryan Riggins is the founder of Riggins Strategic Solutions, a consumer protection company for families navigating senior transitions. He spent 8 years in construction project management and house flipping before switching sides. Two books on Amazon. Free resources at rigginsstrategicsolutions.com.
 
 ---
 
