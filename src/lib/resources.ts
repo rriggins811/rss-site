@@ -247,6 +247,20 @@ export const RESOURCES: Resource[] = [
       "Timing the declutter relative to the listing",
     ],
   },
+  {
+    slug: "senior-scam-protection",
+    title: "Protecting Seniors From Scams: The Rules That Always Work",
+    description:
+      "A plain-English scam protection guide for families with aging parents. The rules that always work, the scams aimed at seniors and their homes, where to report fraud, and how to build a family defense system.",
+    topic: "Consumer Protection",
+    h2s: [
+      "Why smart families still get taken",
+      "The rules that always work",
+      "The scams aimed at seniors",
+      "Where to report fraud and freeze the damage",
+      "How SeniorSafe helps",
+    ],
+  },
 ];
 
 export function getAllResourceSlugs(): string[] {

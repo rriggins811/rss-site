@@ -15,6 +15,13 @@ const nextConfig: NextConfig = {
         destination: "/blog/:slug",
         permanent: true,
       },
+      {
+        // Friendly alias for the Senior Scam Protection hub (canonical lives
+        // at /resources/senior-scam-protection).
+        source: "/resources/protect-parents-from-scams",
+        destination: "/resources/senior-scam-protection",
+        permanent: true,
+      },
     ];
   },
 };

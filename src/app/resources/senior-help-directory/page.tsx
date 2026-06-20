@@ -122,6 +122,27 @@ export default function SeniorHelpDirectoryHubPage() {
             transportation, legal trouble, and caregiver support. It is free,
             there is no sign-up, and we add states and counties over time.
           </p>
+
+          {/* Featured callout: Scam Protection hub */}
+          <Link
+            href="/resources/senior-scam-protection"
+            className="group mt-8 block rounded-lg border border-burgundy-200 bg-white p-6 transition-colors hover:border-burgundy-600"
+          >
+            <p className="text-xs font-semibold uppercase tracking-wide text-burgundy-700">
+              Consumer Protection
+            </p>
+            <p className="mt-2 font-serif text-2xl text-navy-700">
+              Protect Against Scams
+            </p>
+            <p className="mt-2 text-ink/75 leading-relaxed">
+              Older Americans lost 4.9 billion dollars to fraud in 2024. Learn
+              the simple rules that stop the scams aimed at seniors and their
+              homes, and where to report fraud fast.
+            </p>
+            <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-burgundy-700 group-hover:text-burgundy-800">
+              Open the Scam Protection Guide <span aria-hidden>&rarr;</span>
+            </span>
+          </Link>
         </div>
       </section>
 
