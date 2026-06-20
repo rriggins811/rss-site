@@ -168,6 +168,24 @@ export const DIRECTORY_COUNTIES: DirectoryCounty[] = [
       "Asheboro and Randolph County programs for seniors and families: food, utilities, Medicare, home repair, transportation, legal, and caregiver support.",
   },
   {
+    slug: "davidson-county-senior-help-directory",
+    county: "Davidson County",
+    state: "NC",
+    metro: "Lexington",
+    region: "Triad",
+    blurb:
+      "Lexington, Thomasville, and Davidson County programs for seniors and families: food, utilities, Medicare, home repair, transportation, legal, and caregiver support.",
+  },
+  {
+    slug: "rockingham-county-senior-help-directory",
+    county: "Rockingham County",
+    state: "NC",
+    metro: "Reidsville",
+    region: "Triad",
+    blurb:
+      "Reidsville, Eden, and Rockingham County programs for seniors and families: food, utilities, Medicare, home repair, transportation, legal, and caregiver support.",
+  },
+  {
     slug: "wake-county-senior-help-directory",
     county: "Wake County",
     state: "NC",
