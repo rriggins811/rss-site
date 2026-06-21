@@ -186,6 +186,24 @@ export const DIRECTORY_COUNTIES: DirectoryCounty[] = [
       "Reidsville, Eden, and Rockingham County programs for seniors and families: food, utilities, Medicare, home repair, transportation, legal, and caregiver support.",
   },
   {
+    slug: "davie-county-senior-help-directory",
+    county: "Davie County",
+    state: "NC",
+    metro: "Mocksville",
+    region: "Triad",
+    blurb:
+      "Mocksville and Davie County programs for seniors and families: food, utilities, Medicare, home repair, transportation, legal, and caregiver support.",
+  },
+  {
+    slug: "cabarrus-county-senior-help-directory",
+    county: "Cabarrus County",
+    state: "NC",
+    metro: "Concord",
+    region: "Charlotte",
+    blurb:
+      "Concord, Kannapolis, and Cabarrus County programs for seniors and families: food, utilities, Medicare, home repair, transportation, legal, and caregiver support.",
+  },
+  {
     slug: "wake-county-senior-help-directory",
     county: "Wake County",
     state: "NC",

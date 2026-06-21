@@ -4,8 +4,8 @@ This file is the long-form companion to https://rigginsstrategicsolutions.com/ll
 It contains the full Markdown of every key page and every blog post, intended
 for AI crawlers that ingest content for answer generation.
 
-Generated: 2026-06-20
-Total blog posts indexed: 46
+Generated: 2026-06-21
+Total blog posts indexed: 48
 
 For citation guidance, organizational facts, and topic depth, see the summary
 index at https://rigginsstrategicsolutions.com/llms.txt.
@@ -145,8 +145,220 @@ Inputs: parent's current Medicare plan (Original, Advantage, with/without supple
 
 # Blog Posts (newest first)
 
-The 46 posts below are the full body of every published article
+The 48 posts below are the full body of every published article
 on https://rigginsstrategicsolutions.com/blog, in reverse chronological order.
+
+---
+
+# Cabarrus County Senior Help Directory: Concord and Kannapolis Programs for Seniors and Families (2026)
+https://rigginsstrategicsolutions.com/blog/cabarrus-county-senior-help-directory
+Published: 2026-06-21
+
+**Excerpt:** Free, plain-English senior help in Cabarrus County, NC (Concord and Kannapolis): property tax relief, food, energy, Medicare, prescriptions, home repair, transportation, legal, caregiver support, and PACE. Local phone numbers, no sign-up.
+
+*By Ryan Riggins, Riggins Strategic Solutions. NC Real Estate License #361546, eXp Realty.*
+
+*Last updated June 21, 2026. Important: I am a licensed North Carolina real estate agent, but Riggins Strategic Solutions is an education and media company, not a real estate sales business. I am not here to list or sell your house. This is general education only, not financial, tax, medical, or legal advice. Programs and contacts change, so verify before you rely on them.*
+
+If you're caring for an aging parent in Concord, Kannapolis, or anywhere in Cabarrus County, there's more help out there than most families ever hear about. Here it is in plain English, grouped by what you'd actually go looking for. It's part of our growing [Senior Help Directory](/resources/senior-help-directory).
+
+**Three local front doors open most of these:**
+
+- **NC 211:** dial **2-1-1.** Free, 24/7. Routes you to rent, utility, food, and medical help.
+- **Concord Active Living Center:** **704-920-3484.** The county senior center, with programs and aging information.
+- **Cabarrus County DHS:** **704-920-1400.** Energy assistance, food benefits, and Medicaid.
+
+## Property tax relief
+
+North Carolina's senior tax programs are administered by **Cabarrus County Tax Administration** (65 Church Street S, Concord; **704-920-2100**; tax-relief applications are handled by Land Records, 704-920-2127). The application period is **January 1 to June 1**, and after a county revaluation, watch your mail for relief deadlines.
+
+- **Homestead Exclusion:** greater of $25,000 or 50% off taxable value. Income limit $38,800 for the 2026 tax year. Age 65+ or totally and permanently disabled as of January 1.
+- **Circuit Breaker:** caps tax at 4% of income (up to $38,800) or 5% (up to $58,200). CAUTION: it's a deferral, not forgiveness. The unpaid difference for the current and three prior years becomes a lien with interest, due when the home is sold or the owner passes. It requires a new application every year, and you cannot combine it with the Homestead or Disabled Veteran Exclusion. Understand it before you sign.
+- **Disabled Veteran Exclusion:** $45,000 off, no income limit, no age requirement. An unmarried surviving spouse may also qualify.
+
+All three use Form AV-9, available from the tax office. If you missed the June 1 deadline, call and ask: late applications can sometimes be accepted for good cause. For the full walk-through of how these statewide programs work (and the Circuit Breaker lien trap in particular), see our guide to [NC senior property tax relief](/blog/nc-senior-property-tax-relief-guilford-county).
+
+## Food
+
+- **Cabarrus Meals on Wheels** delivers a well-balanced meal five days a week to eligible homebound seniors and people with disabilities. **704-932-3412.**
+- **Cooperative Christian Ministry (CCM)** runs a drive-thru food pantry for Cabarrus County and Kannapolis residents, first come first served, no appointment needed, Monday to Friday 10 a.m. to 1 p.m. (and Thursday 4 to 6 p.m. for working clients). **704-786-4709** (246 Country Club Drive NE, Concord).
+- **Second Harvest Food Bank of Metrolina** supplies a network of partner pantries across the Charlotte region, including Cabarrus. **704-376-1785** or dial 211.
+- **SNAP (food stamps)** through Cabarrus County DHS is income-based, so working families qualify too. Apply at epass.nc.gov or **704-920-1400**.
+
+## Heating, cooling, and utility bills
+
+- **LIEAP** (a one-time heating payment) and the year-round **Crisis Intervention Program (CIP)** for a heating or cooling emergency, through Cabarrus County DHS at **704-920-1400** (Human Services Center, 1303 S. Cannon Boulevard, Kannapolis; Dream Center satellite at 280 Concord Parkway South, Suite 110, Concord) or epass.nc.gov. Households with a member 60+ or a disabled member get priority to apply in December.
+- **Cooperative Christian Ministry** (**704-786-4709**) helps residents avoid utility cutoff with crisis assistance for past-due electric, water, and gas bills.
+- **Duke Energy** offers customer assistance for past-due accounts; ask them directly or let 211 connect you.
+
+## Medicare, Medicaid, and prescriptions
+
+- **SHIIP** free, unbiased Medicare counseling from the NC Department of Insurance: **1-855-408-1212.** The Centralina Area Agency on Aging (**704-372-2416**) can also connect you with a local SHIIP counselor. Start here before any Medicare decision.
+- **Medicare Savings Programs** and **Extra Help / Low-Income Subsidy:** apply through Cabarrus County DHS or ask SHIIP.
+- **NC MedAssist Free Pharmacy** for uninsured NC residents under the income limit: **1-866-331-1348.**
+
+## Home repairs and safety
+
+- **Cabarrus County Weatherization Assistance Program** (run by Cabarrus County Community Development) makes homes more energy efficient for income-eligible residents (household income at or below 200% of the federal poverty guidelines), homeowners and renters of any age. It tunes, repairs, or replaces heating and air systems, insulates, and makes minor health-and-safety repairs (it is not a full rehab program). Apply through the county at **704-920-2100** or dial 211.
+- **Habitat for Humanity Cabarrus County Critical Home Repair** helps low-income homeowners (roughly 20% to 60% of area median income) with repairs that affect health, safety, and accessibility. **704-786-4001** (8 Church Street S, Concord).
+- **USDA Section 504** grants up to $10,000 for very-low-income homeowners 62+ in eligible rural areas, through USDA Rural Development.
+
+## Rent, housing, and emergency cash
+
+- **Cooperative Christian Ministry (CCM)** is the county's main crisis ministry: past-due rent and utility assistance, plus a shelter, for Cabarrus County and Kannapolis residents with a verifiable crisis who have exhausted other resources. **704-786-4709** (246 Country Club Drive NE, Concord).
+- **NC 211** is the fastest route to other temporary rent and utility help.
+- **Cabarrus County DHS** administers emergency and adult services. **704-920-1400.**
+
+## Transportation
+
+- **Cabarrus County Transportation Services (CCTS)** provides demand-response rides for eligible residents. For seniors, the medical-trip service is for riders over 60 who are not on Medicaid. Schedule through the CCTS Demand Response Center at **704-920-2246,** Monday to Friday 8 a.m. to 5 p.m.; reserve no later than 1 p.m. the day before your appointment.
+- **Rider Transit** (Concord Kannapolis Area Transit) runs city bus routes in the Concord and Kannapolis area for the general public; ask CCTS or 211 for current routes and fares.
+- Residents with full Medicaid and no other way to travel may qualify for free non-emergency medical transportation; ask DHS at **704-920-1400.**
+
+## Legal help
+
+- **NC Legal Aid Senior Legal Helpline:** free civil legal help for anyone 60+, no income limit (powers of attorney, wills, Medicaid and benefits, housing, scams). **1-877-579-7562**, Monday to Friday 9 to 11 a.m. and 1 to 3 p.m.
+- **Centralina Area Agency on Aging** (the regional aging agency for Cabarrus, Region F): free options counseling, benefits help, and the Long-Term Care Ombudsman for nursing-home and assisted-living complaints. **704-372-2416** or toll-free **1-800-508-5777.** Regional Ombudsman for Anson, Cabarrus, and Stanly: 704-348-2739.
+- **Legal Aid of North Carolina** general intake for lower-income residents under 60: **1-866-219-5262.**
+
+## Caregiver support
+
+- **Centralina Area Agency on Aging** runs the regional Family Caregiver Support Program: information, options counseling, caregiver education, and respite referrals for those caring for an adult 60+ (or for caregivers of someone with dementia). Family Caregiver Program **704-348-2715**; main line **704-372-2416.**
+- **Cabarrus County's Active Living Centers** and the county Senior 50+ Resources program connect caregivers with local classes and support; start at the Concord Active Living Center, **704-920-3484.**
+
+## Staying at home instead of a nursing home
+
+- **PACE of the Southern Piedmont** serves Cabarrus County. PACE coordinates a senior's entire medical care, primary care, a day center, therapy, personal care, prescriptions, and transportation, so someone who would otherwise qualify for a nursing home can keep living at home. For adults 55+ at a nursing-home level of care who live in the service area (Cabarrus, Mecklenburg, Stanly, Union); most participants pay nothing through Medicare and Medicaid. **704-887-3840** (6133 The Plaza, Charlotte).
+
+## How to use this list
+
+Don't try to call all of it. Pick the one pressure point hurting most right now and start there, or call 211 and let them point you. An adult child can call and apply on a parent's behalf, just have proof of age, proof of income, and the paperwork handy.
+
+## Frequently Asked Questions
+
+### Where do I start finding senior help in Cabarrus County?
+Start with three front doors. NC 211 (dial 2-1-1) is the free 24/7 line that routes you to rent, utility, food, and medical help. The Concord Active Living Center at 704-920-3484 is the county senior center. Cabarrus County DHS at 704-920-1400 handles energy assistance, food benefits, and Medicaid.
+
+### What property tax relief is available to seniors in Cabarrus County?
+The statewide North Carolina programs apply through Cabarrus County Tax Administration at 704-920-2100: the Homestead Exclusion (2026 income limit $38,800), the Circuit Breaker (a deferral that caps tax at 4% or 5% of income up to a $58,200 limit and becomes a lien), and the Disabled Veteran Exclusion ($45,000 off, no income limit). The application period is January 1 to June 1.
+
+### How do older adults in Cabarrus County get meals?
+Cabarrus Meals on Wheels delivers weekday meals to homebound seniors at 704-932-3412. Cooperative Christian Ministry (704-786-4709) runs a drive-thru food pantry, Second Harvest Food Bank of Metrolina (704-376-1785) fills in, and SNAP is available through Cabarrus County DHS at 704-920-1400.
+
+### My parent can't drive. What transportation does Cabarrus County offer?
+Cabarrus County Transportation Services (CCTS) provides demand-response medical-trip rides for residents over 60 who are not on Medicaid. Call 704-920-2246 and reserve by 1 p.m. the day before. Riders with full Medicaid may qualify for free medical transportation through DHS at 704-920-1400.
+
+*I'm Ryan Riggins. I spent years on the investor side of real estate, then switched to [educating families through senior transitions](/freeguide) so they don't get taken advantage of during the hardest season of their lives. This guide is free. If it helped, pass it on.*
+
+*Ryan Riggins | Riggins Strategic Solutions | NC Real Estate License #361546 | eXp Realty | rigginsstrategicsolutions.com*
+
+*Disclaimer: Ryan Riggins is a licensed North Carolina real estate agent (#361546, eXp Realty). Riggins Strategic Solutions is an education and media company, not a real estate sales business. This guide is not a solicitation to buy, sell, or list your home, and it is not financial, tax, medical, or legal advice. We are not financial advisors, tax advisors, attorneys, or medical providers. Programs, income limits, and contacts change and vary by individual situation. Confirm current details directly with each program or a licensed professional before making any decision.*
+
+---
+
+# Davie County Senior Help Directory: Mocksville Programs for Seniors and Families (2026)
+https://rigginsstrategicsolutions.com/blog/davie-county-senior-help-directory
+Published: 2026-06-21
+
+**Excerpt:** Free, plain-English senior help in Davie County, NC (Mocksville): property tax relief, food, energy, Medicare, prescriptions, home repair, transportation, legal, caregiver support, and PACE. Local phone numbers, no sign-up.
+
+*By Ryan Riggins, Riggins Strategic Solutions. NC Real Estate License #361546, eXp Realty.*
+
+*Last updated June 21, 2026. Important: I am a licensed North Carolina real estate agent, but Riggins Strategic Solutions is an education and media company, not a real estate sales business. I am not here to list or sell your house. This is general education only, not financial, tax, medical, or legal advice. Programs and contacts change, so verify before you rely on them.*
+
+If you're caring for an aging parent in Mocksville or anywhere in Davie County, there's more help out there than most families ever hear about. Here it is in plain English, grouped by what you'd actually go looking for. It's part of our growing [Senior Help Directory](/resources/senior-help-directory).
+
+**Three local front doors open most of these:**
+
+- **NC 211:** dial **2-1-1.** Free, 24/7. Routes you to rent, utility, food, and medical help.
+- **Davie County Senior Services:** **336-753-6230.** Local aging programs, homebound meals, and caregiver help.
+- **Davie County DSS:** **336-753-6180.** Energy assistance, food benefits, and Medicaid.
+
+## Property tax relief
+
+North Carolina's senior tax programs are administered by **Davie County Tax Administration** (123 South Main Street, Mocksville). To request the elderly or disabled exclusion application, call **336-753-6120** (other lines: revaluation and land records 336-753-6140, collections 336-753-6130). The deadline for all three is **June 1**, and after a county revaluation, watch your mail for relief deadlines.
+
+- **Homestead Exclusion:** greater of $25,000 or 50% off taxable value. Income limit $38,800 for the 2026 tax year. Age 65+ or totally and permanently disabled.
+- **Circuit Breaker:** caps tax at 4% of income (up to $38,800) or 5% (up to $58,200). CAUTION: it's a deferral, not forgiveness. The unpaid difference for the current and three prior years becomes a lien with interest, due when the home is sold or the owner passes. It requires a new application every year, and you cannot combine it with the Homestead Exclusion. Understand it before you sign.
+- **Disabled Veteran Exclusion:** $45,000 off, no income limit, no age requirement. An unmarried surviving spouse may also qualify.
+
+All three use Form AV-9, available from the tax office. If you missed the June 1 deadline, call and ask: late applications can sometimes be accepted for good cause. For the full walk-through of how these statewide programs work (and the Circuit Breaker lien trap in particular), see our guide to [NC senior property tax relief](/blog/nc-senior-property-tax-relief-guilford-county).
+
+## Food
+
+- **Davie County Senior Services Homebound Meals** delivers a meal plus a check-in to homebound residents 60+ who cannot prepare their own food. **336-753-6230** (Bobby H. Knight Senior Services Building, 278 Meroney Street, Mocksville). Senior Services also runs congregate senior lunches.
+- **A Storehouse for Jesus** is the county's largest help ministry: a food pantry (Davie residents first), clothing, and medical, dental, and eye clinics. **336-751-1060** (675 E. Lexington Road, Mocksville).
+- **Second Harvest Food Bank of Northwest NC** supplies a network of partner pantries. Find the nearest one at **336-784-5770** or dial 211.
+- **SNAP (food stamps)** through Davie County DSS is income-based, so working families qualify too. Apply at epass.nc.gov or **336-753-6180**.
+
+## Heating, cooling, and utility bills
+
+- **LIEAP** (a one-time heating payment) and the year-round **Crisis Intervention Program (CIP)** for a heating or cooling emergency, through Davie County DSS at **336-753-6180** (154 Government Center Drive, Mocksville) or epass.nc.gov. Households with a member 60+ or a disabled member get a priority sign-up window opening in December.
+- **A Storehouse for Jesus** (**336-751-1060**) and local churches can help with additional crisis needs; 211 will route you.
+- **Duke Energy** offers customer assistance for past-due accounts; ask them directly or let 211 connect you.
+
+## Medicare, Medicaid, and prescriptions
+
+- **SHIIP** free, unbiased Medicare counseling from the NC Department of Insurance: **1-855-408-1212.** Davie County Senior Services (**336-753-6230**) can also connect you with a local SHIIP counselor. Start here before any Medicare decision.
+- **Medicare Savings Programs** and **Extra Help / Low-Income Subsidy:** apply through Davie County DSS or ask SHIIP.
+- **NC MedAssist Free Pharmacy** for uninsured NC residents under the income limit: **1-866-331-1348.**
+
+## Home repairs and safety
+
+- **YVEDDI Weatherization Assistance Program** is the local provider for Davie County. YVEDDI (Yadkin Valley Economic Development District) weatherizes homes of low-income, elderly, and disabled residents (income up to 200% of the federal poverty level) with insulation and air sealing, and runs HARRP, the Heating Appliance Repair and Replacement Program, to fix or replace heating systems. **336-367-7251.**
+- **NCHFA Urgent Repair Program** funds emergency repairs and accessibility modifications (ramps, grab bars) for very-low-income homeowners with a special need, such as being 62+ or disabled. It runs through a local agency; ask Davie County Senior Services (**336-753-6230**), DSS, or 211 for the current provider.
+- **USDA Section 504** grants up to $10,000 for very-low-income homeowners 62+ in eligible rural areas, through USDA Rural Development.
+- **Davie County Senior Services** can also point you to in-home aid and minor home-modification help. **336-753-6230.**
+
+## Rent, housing, and emergency cash
+
+- **A Storehouse for Jesus** is the county's main emergency-help ministry: food, clothing, medical assistance, and crisis support for Davie residents. **336-751-1060** (675 E. Lexington Road, Mocksville).
+- **NC 211** is the fastest route to other temporary rent and utility help.
+- **Davie County DSS** administers emergency and adult services. Economic Services **336-753-6180**; Adult and Protective Services **336-753-6250**.
+
+## Transportation
+
+- **YVEDDI Public Transportation** provides door-to-door rides in Davie County (and Stokes, Surry, and Yadkin) for medical appointments, senior programs, and other trips. **336-367-7251,** Monday to Friday. Typical fares run $2 each way in town and $3 in the county, with the NC DOT elderly-and-disabled grant asking a cost-share donation of $2 per round trip. Schedule ahead.
+- Residents with full Medicaid and no other way to travel may qualify for free non-emergency medical transportation; ask DSS at **336-753-6180.**
+
+## Legal help
+
+- **NC Legal Aid Senior Legal Helpline:** free civil legal help for anyone 60+, no income limit (powers of attorney, wills, Medicaid and benefits, housing, scams). **1-877-579-7562**, Monday to Friday 9 to 11 a.m. and 1 to 3 p.m.
+- **Piedmont Triad Regional Council Area Agency on Aging** (the regional aging agency for Davie): free options counseling, benefits help, and the Long-Term Care Ombudsman for nursing-home and assisted-living complaints. **336-904-0300.**
+- **Legal Aid of North Carolina** general intake for lower-income residents under 60: **1-866-219-5262.**
+
+## Caregiver support
+
+- **Davie County Senior Services** runs the local Family Caregiver Support Program: information, options counseling, caregiver education, and limited respite for those caring for an adult 60+ (or for caregivers of someone under 60 with early-onset dementia). **336-753-6230** (278 Meroney Street, Mocksville).
+- The **NC Family Caregiver Support Program**, supported regionally through the PTRC Area Agency on Aging, adds coaching, options counseling, and respite referrals so the family caregiver does not burn out. **336-904-0300.**
+
+## Staying at home instead of a nursing home
+
+- **Carolina SeniorCare (PACE)** serves Davie County from Lexington. PACE coordinates a senior's entire medical care, primary care, a day center, therapy, personal care, prescriptions, and transportation, so someone who would otherwise qualify for a nursing home can keep living at home. For adults 55+ at a nursing-home level of care who live in the service area (Davidson, Davie, Iredell, Rowan); most participants pay nothing through Medicare and Medicaid. **336-746-3500** (toll-free 833-233-4476; 802 East Center Street, Lexington).
+
+## How to use this list
+
+Don't try to call all of it. Pick the one pressure point hurting most right now and start there, or call 211 and let them point you. An adult child can call and apply on a parent's behalf, just have proof of age, proof of income, and the paperwork handy.
+
+## Frequently Asked Questions
+
+### Where do I start finding senior help in Davie County?
+Start with three front doors. NC 211 (dial 2-1-1) is the free 24/7 line that routes you to rent, utility, food, and medical help. Davie County Senior Services at 336-753-6230 runs local aging programs, homebound meals, and caregiver help. Davie County DSS at 336-753-6180 handles energy assistance, food benefits, and Medicaid.
+
+### What property tax relief is available to seniors in Davie County?
+The statewide North Carolina programs apply through Davie County Tax Administration (call 336-753-6120 for the application): the Homestead Exclusion (2026 income limit $38,800), the Circuit Breaker (a deferral that caps tax at 4% or 5% of income up to a $58,200 limit and becomes a lien), and the Disabled Veteran Exclusion ($45,000 off, no income limit). The deadline is June 1.
+
+### How do older adults in Davie County get meals?
+Davie County Senior Services delivers Homebound Meals to residents 60 and older at 336-753-6230. A Storehouse for Jesus (336-751-1060) runs a food pantry, Second Harvest Food Bank of Northwest NC (336-784-5770) fills in, and SNAP is available through Davie County DSS at 336-753-6180.
+
+### My parent can't drive. What transportation does Davie County offer?
+YVEDDI Public Transportation provides door-to-door rides in Davie County for medical appointments, senior programs, and errands. Call 336-367-7251 to set up a trip and ask about fares and the elderly and disabled grant. Riders with full Medicaid may qualify for free medical transportation through DSS at 336-753-6180.
+
+*I'm Ryan Riggins. I spent years on the investor side of real estate, then switched to [educating families through senior transitions](/freeguide) so they don't get taken advantage of during the hardest season of their lives. This guide is free. If it helped, pass it on.*
+
+*Ryan Riggins | Riggins Strategic Solutions | NC Real Estate License #361546 | eXp Realty | rigginsstrategicsolutions.com*
+
+*Disclaimer: Ryan Riggins is a licensed North Carolina real estate agent (#361546, eXp Realty). Riggins Strategic Solutions is an education and media company, not a real estate sales business. This guide is not a solicitation to buy, sell, or list your home, and it is not financial, tax, medical, or legal advice. We are not financial advisors, tax advisors, attorneys, or medical providers. Programs, income limits, and contacts change and vary by individual situation. Confirm current details directly with each program or a licensed professional before making any decision.*
 
 ---
 
