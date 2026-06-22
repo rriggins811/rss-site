@@ -30,6 +30,8 @@ import matter from "gray-matter";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
 const BLOG_DIR = path.join(ROOT, "content", "blog");
+const RESOURCES_DIR = path.join(ROOT, "content", "resources");
+const DIRECTORY_DIR = path.join(ROOT, "content", "directory-states");
 const OUT_PATH = path.join(ROOT, "public", "llms-full.txt");
 const SITE_URL = "https://rigginsstrategicsolutions.com";
 
@@ -189,11 +191,45 @@ function getAllPosts() {
     .sort((a, b) => b.datePublished.localeCompare(a.datePublished));
 }
 
+// ---------------------------------------------------------------------------
+// Generic Markdown doc extraction for the resource pillars and the Senior Help
+// Directory state pages. Both are plain `.md` with gray-matter frontmatter, so
+// one reader serves both — we just pass the URL builder per content type. These
+// were previously absent from llms-full.txt even though the directory state
+// pages carry the .gov-sourced facts AI answer engines most want to cite.
+// ---------------------------------------------------------------------------
+function getMarkdownDocs(dir, urlFor) {
+  if (!fs.existsSync(dir)) return [];
+  return fs
+    .readdirSync(dir)
+    .filter((f) => f.endsWith(".md"))
+    .map((file) => {
+      const slug = file.replace(/\.md$/, "");
+      const raw = fs.readFileSync(path.join(dir, file), "utf8");
+      const { data, content } = matter(raw);
+      return {
+        slug,
+        title: data.title ?? slug,
+        url: urlFor(slug),
+        summary: data.excerpt ?? data.meta_description ?? data.quick_answer ?? "",
+        content: content.trim(),
+      };
+    })
+    .sort((a, b) => a.title.localeCompare(b.title));
+}
+
 function renderStaticSection(s) {
   return `# ${s.title}
 ${s.url}
 
 ${s.body.trim()}`;
+}
+
+function renderMarkdownDoc(d) {
+  return `# ${d.title}
+${d.url}
+
+${d.summary ? `**Summary:** ${d.summary}\n\n` : ""}${d.content}`;
 }
 
 function renderBlogPost(p) {
@@ -207,14 +243,24 @@ ${p.excerpt ? `**Excerpt:** ${p.excerpt}\n\n` : ""}${p.content}`;
 
 function main() {
   const posts = getAllPosts();
+  const resources = getMarkdownDocs(
+    RESOURCES_DIR,
+    (slug) => `${SITE_URL}/resources/${slug}`
+  );
+  const states = getMarkdownDocs(
+    DIRECTORY_DIR,
+    (slug) => `${SITE_URL}/resources/senior-help-directory/${slug}`
+  );
+
   const header = `# Riggins Strategic Solutions — Full Content Index (llms-full.txt)
 
 This file is the long-form companion to https://rigginsstrategicsolutions.com/llms.txt.
-It contains the full Markdown of every key page and every blog post, intended
-for AI crawlers that ingest content for answer generation.
+It contains the full Markdown of every key page, resource pillar, Senior Help
+Directory state page, and blog post, intended for AI crawlers that ingest
+content for answer generation.
 
 Generated: ${new Date().toISOString().slice(0, 10)}
-Total blog posts indexed: ${posts.length}
+Indexed: ${posts.length} blog posts, ${resources.length} resource pillars, ${states.length} Senior Help Directory state pages.
 
 For citation guidance, organizational facts, and topic depth, see the summary
 index at https://rigginsstrategicsolutions.com/llms.txt.`;
@@ -222,20 +268,42 @@ index at https://rigginsstrategicsolutions.com/llms.txt.`;
   const staticBody = STATIC_SECTIONS.map(renderStaticSection).join(
     SECTION_SEPARATOR
   );
+
+  const resourceHeader = `# Resource Pillar Guides
+
+The ${resources.length} in-depth guides below are the full body of every pillar
+article on https://rigginsstrategicsolutions.com/resources.`;
+  const resourceBody = resources.map(renderMarkdownDoc).join(SECTION_SEPARATOR);
+
+  const directoryHeader = `# Senior Help Directory — State Pages
+
+The ${states.length} pages below make up the Senior Help Directory, a free,
+state-by-state index of senior aid programs (property tax relief, food, energy,
+Medicare counseling, transportation, legal aid, caregiver support) with local
+phone numbers and primary .gov sources. Hub: ${SITE_URL}/resources/senior-help-directory`;
+  const directoryBody = states.map(renderMarkdownDoc).join(SECTION_SEPARATOR);
+
   const blogHeader = `# Blog Posts (newest first)
 
 The ${posts.length} posts below are the full body of every published article
 on https://rigginsstrategicsolutions.com/blog, in reverse chronological order.`;
   const blogBody = posts.map(renderBlogPost).join(SECTION_SEPARATOR);
 
-  const full = [header, staticBody, blogHeader, blogBody].join(
-    SECTION_SEPARATOR
-  );
+  const full = [
+    header,
+    staticBody,
+    resourceHeader,
+    resourceBody,
+    directoryHeader,
+    directoryBody,
+    blogHeader,
+    blogBody,
+  ].join(SECTION_SEPARATOR);
 
   fs.writeFileSync(OUT_PATH, full + "\n", "utf8");
   const sizeKb = (fs.statSync(OUT_PATH).size / 1024).toFixed(1);
   console.log(
-    `[llms-full] wrote ${OUT_PATH} | ${posts.length} posts + ${STATIC_SECTIONS.length} static sections | ${sizeKb}KB`
+    `[llms-full] wrote ${OUT_PATH} | ${posts.length} posts + ${resources.length} resources + ${states.length} state pages + ${STATIC_SECTIONS.length} static sections | ${sizeKb}KB`
   );
 }
 
