@@ -23,6 +23,8 @@ import {
 } from "@/lib/schema";
 import { abs } from "@/lib/site";
 import { RelatedReading } from "@/components/site/RelatedReading";
+import { QuickAnswer } from "@/components/aeo/QuickAnswer";
+import { remarkAutolinkCta } from "@/lib/remark-autolink-cta";
 
 type RouteParams = { slug: string };
 
@@ -71,6 +73,7 @@ export default async function BlogPostPage({
 
   const { content } = await compileMDX({
     source: post.content,
+    options: { mdxOptions: { remarkPlugins: [remarkAutolinkCta] } },
   });
 
   const related = getRelatedPosts(slug, 3);
@@ -135,6 +138,13 @@ export default async function BlogPostPage({
           <p className="mt-6 text-lg text-ink/80 leading-relaxed">
             {post.frontmatter.excerpt}
           </p>
+          {post.frontmatter.quick_answer ? (
+            <QuickAnswer
+              className="mt-8"
+              topic={post.frontmatter.category ?? "Senior transitions"}
+              answer={post.frontmatter.quick_answer}
+            />
+          ) : null}
         </div>
       </section>
 

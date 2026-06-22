@@ -57,6 +57,14 @@ export type BlogFrontmatter = {
   datePublished?: string;
   dateModified?: string;
   excerpt: string;
+  /**
+   * Optional 40-60 word direct answer rendered in a QuickAnswer box right
+   * under the intro (with Schema.org Answer microdata + Speakable). Lets the
+   * post lead with the liftable answer for AI Overviews / Perplexity while the
+   * story stays below. Authored per-post in frontmatter; renders nothing when
+   * absent, so it's opt-in and safe to leave off.
+   */
+  quick_answer?: string;
   source?: string;
   category?: string;
   tags?: string[];
