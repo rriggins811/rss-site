@@ -48,6 +48,11 @@ const navItems: NavItem[] = [
         description: "Readable pillar guides",
       },
       {
+        href: "/resources/senior-help-directory",
+        label: "Senior Help Directory",
+        description: "Local senior aid by state & county",
+      },
+      {
         href: "/tools",
         label: "Tools",
         description: "Calculators and quizzes",

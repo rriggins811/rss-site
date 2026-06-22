@@ -31,7 +31,9 @@ export type ClusterTopic =
   | "crisis-response"
   | "elder-fraud-and-predatory-buyers"
   | "senior-transition-fundamentals"
-  | "long-term-care-funding-policy";
+  | "long-term-care-funding-policy"
+  | "home-sale-taxes-and-equity"
+  | "paying-for-senior-care";
 
 export type ClusterMember =
   | { type: "tool"; slug: string }
@@ -66,6 +68,8 @@ export const CLUSTERS: Cluster[] = [
         type: "blog",
         slug: "boomer-sellers-55-percent-net-proceeds-math-2026",
       },
+      { type: "resource", slug: "decluttering-parents-home-before-sale" },
+      { type: "resource", slug: "how-to-have-the-conversation-with-stubborn-parent" },
     ],
   },
   {
@@ -85,6 +89,8 @@ export const CLUSTERS: Cluster[] = [
         type: "blog",
         slug: "why-group-texts-dont-work-for-senior-transitions-and-what-to-use-instead",
       },
+      { type: "resource", slug: "how-to-help-aging-parents-without-burning-out" },
+      { type: "resource", slug: "sandwich-generation-caregiver-burnout" },
     ],
   },
   {
@@ -100,6 +106,10 @@ export const CLUSTERS: Cluster[] = [
       {
         type: "blog",
         slug: "the-first-72-hours-after-your-parent-falls-what-nobody-tells-you",
+      },
+      {
+        type: "blog",
+        slug: "medicare-part-d-changes-2026-what-families-need-to-know",
       },
       { type: "resource", slug: "medicare-vs-medicaid-senior-care" },
     ],
@@ -119,6 +129,7 @@ export const CLUSTERS: Cluster[] = [
       },
       { type: "resource", slug: "assisted-living-vs-memory-care-difference" },
       { type: "resource", slug: "cost-of-assisted-living-in-2026" },
+      { type: "resource", slug: "signs-its-time-for-senior-living" },
     ],
   },
   {
@@ -138,7 +149,10 @@ export const CLUSTERS: Cluster[] = [
   {
     id: "elder-fraud-and-predatory-buyers",
     label: "Elder fraud, scams, and predatory cash buyers",
+    // The scam-protection hub is the canonical "101" page for this topic.
+    pillar: { type: "resource", slug: "senior-scam-protection" },
     members: [
+      { type: "resource", slug: "senior-scam-protection" },
       {
         type: "blog",
         slug: "doj-2025-annual-report-elder-fraud-2-billion-2024",
@@ -146,7 +160,15 @@ export const CLUSTERS: Cluster[] = [
       { type: "blog", slug: "quitclaim-deed-fraud-protect-parents-home" },
       { type: "blog", slug: "they-stole-the-house-while-the-family-was-grieving" },
       { type: "blog", slug: "how-a-1-8-million-estate-got-stolen-with-a-signature" },
+      { type: "blog", slug: "home-title-theft-protect-parents-house" },
+      { type: "blog", slug: "predatory-listing-contracts-target-aging-homeowners" },
+      { type: "blog", slug: "wholesaler-disclosure-laws-2026-senior-homeowners" },
+      { type: "blog", slug: "missouri-sb-973-wholesaler-disclosure-law" },
+      { type: "blog", slug: "world-elder-abuse-awareness-day-2026-stop-scams" },
+      { type: "blog", slug: "protect-elderly-parents-from-roofing-contractor-scams" },
       { type: "resource", slug: "wholesaler-scams-targeting-seniors" },
+      { type: "resource", slug: "cash-buyer-scams-elderly-homeowners" },
+      { type: "resource", slug: "seniors-real-estate-specialist-vs-investor" },
     ],
   },
   {
@@ -183,6 +205,10 @@ export const CLUSTERS: Cluster[] = [
         type: "blog",
         slug: "free-tools-to-help-your-family-assess-senior-transition-readiness-1",
       },
+      {
+        type: "blog",
+        slug: "60-day-countdown-moving-parent-takes-longer",
+      },
     ],
   },
   {
@@ -202,6 +228,58 @@ export const CLUSTERS: Cluster[] = [
         type: "blog",
         slug: "massachusetts-assisted-living-disclosure-rules",
       },
+    ],
+  },
+  {
+    // Home-sale money: capital-gains exclusion, the equity at stake, reverse
+    // mortgages, and property-tax relief. Anchors on the evergreen 2026
+    // capital-gains explainer. Add new "what a senior home sale costs/keeps"
+    // posts here.
+    id: "home-sale-taxes-and-equity",
+    label: "Home sale taxes and equity",
+    pillar: {
+      type: "blog",
+      slug: "capital-gains-selling-parents-house-2026",
+    },
+    members: [
+      { type: "blog", slug: "capital-gains-selling-parents-house-2026" },
+      { type: "blog", slug: "capital-gains-cap-1997-senior-home-sellers" },
+      {
+        type: "blog",
+        slug: "nest-egg-protection-act-senior-home-sale-capital-gains",
+      },
+      {
+        type: "blog",
+        slug: "senior-home-equity-1466-trillion-cash-buyer-math",
+      },
+      {
+        type: "blog",
+        slug: "reverse-mortgage-running-out-of-money-what-to-check",
+      },
+      {
+        type: "blog",
+        slug: "nc-senior-property-tax-relief-guilford-county",
+      },
+      { type: "resource", slug: "financial-planning-for-aging-parents" },
+      { type: "tool", slug: "net-proceeds-calculator" },
+    ],
+  },
+  {
+    // How families pay for senior care: veterans benefits, reverse mortgages,
+    // and the Medicare-vs-Medicaid divide. Pairs the standalone benefits
+    // posts that don't fit the tactical/personal clusters.
+    id: "paying-for-senior-care",
+    label: "Paying for senior care",
+    members: [
+      {
+        type: "blog",
+        slug: "va-aid-attendance-2026-benefit-veteran-families",
+      },
+      {
+        type: "blog",
+        slug: "reverse-mortgage-running-out-of-money-what-to-check",
+      },
+      { type: "resource", slug: "medicare-vs-medicaid-senior-care" },
     ],
   },
 ];
