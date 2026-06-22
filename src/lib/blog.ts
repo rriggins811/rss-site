@@ -1,8 +1,41 @@
 import fs from "node:fs";
 import path from "node:path";
+import { execFileSync } from "node:child_process";
 import matter from "gray-matter";
 
 const BLOG_DIR = path.join(process.cwd(), "content", "blog");
+
+// Cache git lookups per file. Content is immutable during a build, and
+// getAllPosts() re-reads every post several times per build (sitemap, blog
+// index, related-posts, schema), so without this we'd spawn hundreds of git
+// processes. Keyed by absolute file path.
+const gitDateCache = new Map<string, string | null>();
+
+/**
+ * Last-commit date (YYYY-MM-DD) for a content file, used as the dateModified
+ * fallback so a post that gets "leveled up" reflects its real freshness even
+ * when the author forgets to bump frontmatter. Returns null when git history
+ * isn't available for the file (e.g. an untracked new file, or a shallow CI
+ * checkout that doesn't contain the file's last commit) — callers then fall
+ * back to datePublished, i.e. the original behavior. Never throws.
+ */
+function getGitLastModified(filePath: string): string | null {
+  const cached = gitDateCache.get(filePath);
+  if (cached !== undefined) return cached;
+  let result: string | null = null;
+  try {
+    const out = execFileSync(
+      "git",
+      ["log", "-1", "--format=%cI", "--", filePath],
+      { cwd: process.cwd(), encoding: "utf8", stdio: ["ignore", "pipe", "ignore"] }
+    ).trim();
+    result = out ? out.slice(0, 10) : null;
+  } catch {
+    result = null;
+  }
+  gitDateCache.set(filePath, result);
+  return result;
+}
 
 /**
  * Optional HowTo step for posts that opt-in to HowTo schema. Mirrors
@@ -80,7 +113,16 @@ export function getPostBySlug(slug: string): BlogPost | null {
   const fm = data as BlogFrontmatter;
 
   const datePublished = fm.datePublished ?? fm.date ?? new Date().toISOString();
-  const dateModified = fm.dateModified ?? datePublished;
+  // Resolve "last modified" in priority order: explicit frontmatter wins;
+  // otherwise the file's real last git-commit date (so daily content
+  // level-ups register as fresh); otherwise the publish date. The git date is
+  // only used when it's genuinely newer than the publish date.
+  const gitModified = fm.dateModified ? null : getGitLastModified(filePath);
+  const dateModified =
+    fm.dateModified ??
+    (gitModified && gitModified > datePublished.slice(0, 10)
+      ? gitModified
+      : datePublished);
 
   return {
     frontmatter: fm,
