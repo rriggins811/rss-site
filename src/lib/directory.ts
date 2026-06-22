@@ -204,6 +204,24 @@ export const DIRECTORY_COUNTIES: DirectoryCounty[] = [
       "Concord, Kannapolis, and Cabarrus County programs for seniors and families: food, utilities, Medicare, home repair, transportation, legal, and caregiver support.",
   },
   {
+    slug: "union-county-senior-help-directory",
+    county: "Union County",
+    state: "NC",
+    metro: "Monroe",
+    region: "Charlotte",
+    blurb:
+      "Monroe and Union County programs for seniors and families: food, utilities, Medicare, home repair, transportation, legal, and caregiver support.",
+  },
+  {
+    slug: "gaston-county-senior-help-directory",
+    county: "Gaston County",
+    state: "NC",
+    metro: "Gastonia",
+    region: "Charlotte",
+    blurb:
+      "Gastonia and Gaston County programs for seniors and families: food, utilities, Medicare, home repair, transportation, legal, and caregiver support.",
+  },
+  {
     slug: "wake-county-senior-help-directory",
     county: "Wake County",
     state: "NC",

@@ -4,8 +4,8 @@ This file is the long-form companion to https://rigginsstrategicsolutions.com/ll
 It contains the full Markdown of every key page and every blog post, intended
 for AI crawlers that ingest content for answer generation.
 
-Generated: 2026-06-21
-Total blog posts indexed: 48
+Generated: 2026-06-22
+Total blog posts indexed: 51
 
 For citation guidance, organizational facts, and topic depth, see the summary
 index at https://rigginsstrategicsolutions.com/llms.txt.
@@ -145,8 +145,338 @@ Inputs: parent's current Medicare plan (Original, Advantage, with/without supple
 
 # Blog Posts (newest first)
 
-The 48 posts below are the full body of every published article
+The 51 posts below are the full body of every published article
 on https://rigginsstrategicsolutions.com/blog, in reverse chronological order.
+
+---
+
+# Gaston County Senior Help Directory: Gastonia Programs for Seniors and Families (2026)
+https://rigginsstrategicsolutions.com/blog/gaston-county-senior-help-directory
+Published: 2026-06-22
+
+**Excerpt:** Free, plain-English senior help in Gaston County, NC (Gastonia and the surrounding towns): property tax relief, food, energy, Medicare, prescriptions, home repair, transportation, legal, caregiver support, and PACE. Local phone numbers, no sign-up.
+
+*By Ryan Riggins, Riggins Strategic Solutions. NC Real Estate License #361546, eXp Realty.*
+
+*Last updated June 22, 2026. Important: I am a licensed North Carolina real estate agent, but Riggins Strategic Solutions is an education and media company, not a real estate sales business. I am not here to list or sell your house. This is general education only, not financial, tax, medical, or legal advice. Programs and contacts change, so verify before you rely on them.*
+
+If you're caring for an aging parent in Gastonia, Belmont, Mount Holly, or anywhere in Gaston County, there's more help out there than most families ever hear about. Here it is in plain English, grouped by what you'd actually go looking for. It's part of our growing [Senior Help Directory](/resources/senior-help-directory).
+
+**Three local front doors open most of these:**
+
+- **NC 211:** dial **2-1-1.** Free, 24/7. Routes you to rent, utility, food, and medical help.
+- **Gaston County Adult & Aging Services:** **704-862-7540.** The county's aging front door: meals, in-home aide, caregiver support, and senior transportation.
+- **Gaston County DSS Economic Services:** **704-862-7889.** Medicaid, food benefits, and energy assistance.
+
+## Property tax relief
+
+North Carolina's senior tax programs are administered by the **Gaston County Tax Office** (100 East Garrison Boulevard, Gastonia; **704-866-3158**, ask for tax relief, option 6 on the main line). The application period is **January 1 to June 1**, and after a county revaluation, watch your mail for relief deadlines.
+
+- **Homestead Exclusion:** greater of $25,000 or 50% off taxable value (including up to one acre of land). Income limit $38,800 for the 2026 tax year. Age 65+ or totally and permanently disabled as of January 1.
+- **Circuit Breaker:** caps tax at 4% of income (up to $38,800) or 5% (up to $58,200). CAUTION: it's a deferral, not forgiveness. The unpaid difference for the current and three prior years becomes a lien with interest, due when the home is sold or the owner passes. It requires a new application every year, and you cannot combine it with the Homestead or Disabled Veteran Exclusion. Understand it before you sign.
+- **Disabled Veteran Exclusion:** $45,000 off, no income limit, no age requirement. An unmarried surviving spouse may also qualify.
+
+All three use Form AV-9, available from the tax office (disabled applicants under 65 also need the AV-9 Certification of Disability completed by a physician). If you missed the June 1 deadline, call and ask: late applications can sometimes be accepted for good cause. For the full walk-through of how these statewide programs work (and the Circuit Breaker lien trap in particular), see our guide to [NC senior property tax relief](/blog/nc-senior-property-tax-relief-guilford-county).
+
+## Food
+
+- **Gaston County Meals on Wheels** (run by the county Adult & Aging Services with help from over 950 volunteers) delivers a noon meal to homebound seniors who cannot prepare meals and have no one available to do it for them. Routes run in Belmont, Bessemer City, Cherryville, Cramerton, Dallas, Gastonia, Lowell, McAdenville, Mt. Holly, and Stanley. Apply through the Adult & Aging Services intake line, **704-862-7540** (330 Dr. Martin Luther King, Jr. Way, Gastonia).
+- **Crisis Assistance Ministry (CAM)** runs an on-site food pantry in Gastonia; clients can receive food roughly once every 30 to 90 days depending on need and supply. **704-867-8901** (805 W. Airline Avenue, Gastonia; Monday to Thursday 9 a.m. to 2 p.m.). CAM serves the greater Gastonia area, not every town in the county.
+- **Second Harvest Food Bank of Metrolina** supplies a network of partner pantries across a 14-county region that includes Gaston. **704-376-1785** or dial 211.
+- **SNAP (food stamps)** through Gaston County DSS is income-based, so working families qualify too. Apply at epass.nc.gov or through DSS Economic Services.
+
+## Heating, cooling, and utility bills
+
+- **LIEAP** (a one-time heating payment) and the year-round **Crisis Intervention Program (CIP)** for a heating or cooling emergency, through **Gaston County DSS Economic Services** (330 Dr. Martin Luther King, Jr. Way, Gastonia; **704-862-7889**) or epass.nc.gov. Households with a member 60+ or a disabled member get priority to apply in December.
+- **Crisis Assistance Ministry (CAM)** helps with past-due electric, water, or natural gas bills (and utility deposits in some cases) for the greater Gastonia area; payment goes directly to the utility. **704-867-8901** (805 W. Airline Avenue, Gastonia).
+- **The Salvation Army of Gaston and Lincoln Counties** can also help with utilities and other basic needs. **704-867-6145.**
+- **Duke Energy** offers customer assistance for past-due accounts; ask them directly or let 211 connect you.
+
+## Medicare, Medicaid, and prescriptions
+
+- **SHIIP** free, unbiased Medicare counseling from the NC Department of Insurance: **1-855-408-1212.** The Centralina Area Agency on Aging (**704-372-2416**) can also connect you with a local SHIIP counselor. Start here before any Medicare decision.
+- **Medicare Savings Programs** and **Extra Help / Low-Income Subsidy:** apply through Gaston County DSS or ask SHIIP.
+- **NC MedAssist Free Pharmacy** for uninsured NC residents under the income limit: **1-866-331-1348.**
+
+## Home repairs and safety
+
+- **Blue Ridge Community Action (BRCA)** runs the Weatherization Assistance Program for Gaston County: free energy-efficiency work (insulation, air sealing, heating and cooling repair or replacement, and minor health-and-safety repairs) for income-eligible households at or below 200% of the federal poverty guidelines (households that received SSI or TANF in the last 12 months are automatically eligible). The elderly, people with disabilities, and families with children are served first; homeowners and renters can qualify. **828-438-6255** (800 North Green Street, Morganton) or dial 211.
+- **USDA Section 504** grants up to $10,000 for very-low-income homeowners 62+ in eligible rural areas, through USDA Rural Development.
+- **Adult & Aging Services Family Caregiver Support Program** can fund some home modifications and adaptive equipment for eligible caregiving situations; ask at **704-862-7540.**
+
+## Rent, housing, and emergency cash
+
+- **Crisis Assistance Ministry (CAM)** is the area's main crisis ministry for rent, mortgage, and utility help in the greater Gastonia community. Rent or mortgage must be past due with a written late notice (a court eviction is not required); first month's rent help is available, but CAM does not pay deposits. **704-867-8901** (805 W. Airline Avenue, Gastonia; Monday to Thursday 9 a.m. to 2 p.m.).
+- **The Salvation Army of Gaston and Lincoln Counties** offers emergency assistance and other basic-needs help. **704-867-6145.**
+- **NC 211** is the fastest route to other temporary rent and utility help.
+- **Gaston County DSS** administers emergency and adult services. Adult & Aging intake **704-862-7540.**
+
+## Transportation
+
+- **Gaston County ACCESS** provides demand-response rides countywide, including non-emergency medical transportation, Monday to Friday 4 a.m. to 6 p.m. (appointment desk 9 a.m. to 4 p.m.). Schedule at **704-866-3206** or **1-800-735-2962** (TDD/TTY).
+- **Senior Transportation Services** through Adult & Aging Services give riders 60 and older trips to medical appointments and community resources such as grocery shopping and the pharmacy. Apply at **704-862-7540.**
+- Residents with full Medicaid and no other way to travel may qualify for free non-emergency medical transportation; ask DSS or ACCESS.
+
+## Legal help
+
+- **NC Legal Aid Senior Legal Helpline:** free civil legal help for anyone 60+, no income limit (powers of attorney, wills, Medicaid and benefits, housing, scams). **1-877-579-7562**, Monday to Friday 9 to 11 a.m. and 1 to 3 p.m.
+- **Centralina Area Agency on Aging** (the regional aging agency for Gaston, Region F): free options counseling, benefits help, and the Long-Term Care Ombudsman for nursing-home and assisted-living complaints. **704-372-2416** or toll-free **1-800-508-5777.**
+- **Legal Aid of North Carolina** general intake for lower-income residents under 60: **1-866-219-5262.**
+
+## Caregiver support
+
+- **Gaston County Adult & Aging Services** runs the Family Caregiver Support Program: referrals, education, and funding for respite and supplemental services such as home modifications, nutritional supplements, and adaptive equipment. It also offers In-Home Aide Services to help elderly and disabled adults stay in their own homes. Intake **704-862-7540** (330 Dr. Martin Luther King, Jr. Way, Gastonia).
+- **Centralina Area Agency on Aging** also administers the regional Family Caregiver Support Program. Family Caregiver Program **704-348-2715**; main line **704-372-2416.**
+
+## Staying at home instead of a nursing home
+
+- **Senior Total Life Care (Senior TLC) Gastonia** is the local PACE program. PACE coordinates a senior's entire medical care, primary care, a day center, therapy, personal care, prescriptions, and transportation, so someone who would otherwise qualify for a nursing home can keep living at home. For adults 55+ at a nursing-home level of care who live in the service area (Cleveland, Gaston, and Rutherford counties, and a portion of Lincoln); most participants pay nothing through Medicare and Medicaid. **704-874-0600** (1875 Remount Road, Gastonia).
+
+## How to use this list
+
+Don't try to call all of it. Pick the one pressure point hurting most right now and start there, or call 211 and let them point you. An adult child can call and apply on a parent's behalf, just have proof of age, proof of income, and the paperwork handy.
+
+## Frequently Asked Questions
+
+### Where do I start finding senior help in Gaston County?
+Start with three front doors. NC 211 (dial 2-1-1) is the free 24/7 line that routes you to rent, utility, food, and medical help. Gaston County Adult & Aging Services at 704-862-7540 is the county's aging front door for meals, in-home aide, caregiver support, and senior transportation. Gaston County DSS Economic Services at 704-862-7889 handles Medicaid, food benefits, and energy assistance.
+
+### What property tax relief is available to seniors in Gaston County?
+The statewide North Carolina programs apply through the Gaston County Tax Office at 704-866-3158: the Homestead Exclusion (2026 income limit $38,800), the Circuit Breaker (a deferral that caps tax at 4% or 5% of income up to a $58,200 limit and becomes a lien), and the Disabled Veteran Exclusion ($45,000 off, no income limit). The application period is January 1 to June 1.
+
+### How do older adults in Gaston County get meals?
+Gaston County Meals on Wheels, run by Adult & Aging Services, delivers a noon meal to homebound seniors at 704-862-7540, with routes across Belmont, Bessemer City, Cherryville, Cramerton, Dallas, Gastonia, Lowell, McAdenville, Mt. Holly, and Stanley. In the greater Gastonia area, Crisis Assistance Ministry (704-867-8901) runs an on-site food pantry, Second Harvest Food Bank of Metrolina (704-376-1785) fills in, and SNAP is available through Gaston County DSS.
+
+### My parent can't drive. What transportation does Gaston County offer?
+Gaston County ACCESS provides demand-response rides countywide, including non-emergency medical transportation. Schedule at 704-866-3206 or 1-800-735-2962. For seniors 60 and older, Adult & Aging Services also runs Senior Transportation to medical appointments and errands at 704-862-7540. Riders with full Medicaid may qualify for free medical transportation.
+
+*I'm Ryan Riggins. I spent years on the investor side of real estate, then switched to [educating families through senior transitions](/freeguide) so they don't get taken advantage of during the hardest season of their lives. This guide is free. If it helped, pass it on.*
+
+*Ryan Riggins | Riggins Strategic Solutions | NC Real Estate License #361546 | eXp Realty | rigginsstrategicsolutions.com*
+
+*Disclaimer: Ryan Riggins is a licensed North Carolina real estate agent (#361546, eXp Realty). Riggins Strategic Solutions is an education and media company, not a real estate sales business. This guide is not a solicitation to buy, sell, or list your home, and it is not financial, tax, medical, or legal advice. We are not financial advisors, tax advisors, attorneys, or medical providers. Programs, income limits, and contacts change and vary by individual situation. Confirm current details directly with each program or a licensed professional before making any decision.*
+
+---
+
+# Medicare Just Changed What Your Parents Pay for Prescriptions in 2026 (And Why the Cap Might Not Help)
+https://rigginsstrategicsolutions.com/blog/medicare-part-d-changes-2026-what-families-need-to-know
+Published: 2026-06-22
+
+**Excerpt:** Medicare put a hard $2,100 cap on out-of-pocket Part D drug costs for 2026, raised the deductible, and rolled out the first negotiated drug prices. Here is what actually changed, and the one mistake that keeps the cap from helping your parents.
+
+I spent years on the side of senior transitions where confusion was good for business. When I was buying houses from families in a hurry, the less they understood about what they had, the better the deal worked out for me. I think about that a lot when I look at how Medicare gets explained to families. Not because anyone is running a scam, but because the system is so dense that the people it is built to help end up paying for not understanding it.
+
+That is exactly what is happening with prescriptions right now. Medicare made a real change for 2026, the kind of change that should put money back in your parents' pocket. And most families are going to miss the benefit, not because they did anything wrong, but because nobody told them the one thing they actually have to do.
+
+So let me do that here, in plain English, the way I would explain it at my own kitchen table. No jargon. No fear. Just what changed, what it means, and the boring move that turns a headline into real savings for the people you love.
+
+## What actually changed in 2026
+
+Here is the news, sourced and specific. Starting in 2026, Medicare Part D, the prescription drug benefit, has a hard cap on what your parent pays out of pocket for covered drugs. That cap is $2,100 for 2026, up from $2,000 in 2025. Once your parent's out-of-pocket spending on covered prescriptions hits that number, they pay nothing more for covered drugs for the rest of the year. These figures come straight from Medicare.gov and the Centers for Medicare and Medicaid Services, with plain-language breakdowns from AARP and the National Council on Aging.
+
+A couple of other numbers moved too. The maximum Part D deductible rose to $615 in 2026, up from $590. And for the first time, Medicare negotiated lower prices on 10 of the costliest brand-name drugs that had no generic competition. According to AARP, nearly 9 million people who take those drugs are expected to save roughly $1.5 billion in out-of-pocket costs in 2026.
+
+One detail families miss: the $2,100 cap covers deductibles, copays, and coinsurance on covered drugs. It does not include the monthly premium your parent pays to have the plan in the first place. So the cap limits drug spending, not the total cost of being covered. That distinction matters when you are doing the math.
+
+These rules grew out of the Inflation Reduction Act, the same law that capped insulin at $35 a month and made the shingles vaccine free under Part D. The drug provisions have been phasing in over a few years, and 2026 is the year the cap and the first negotiated prices both land.
+
+## What it means for families
+
+A cap on drug costs sounds like pure good news, and for a lot of seniors it genuinely is. If your mom takes an expensive specialty medication, a $2,100 ceiling can be the difference between filling the prescription and skipping doses to make the money last. I have watched families ration pills because the math felt impossible. This change is real relief for those households.
+
+But here is the part that keeps me up at night, and it is the same pattern I saw on the buying side: a real protection exists, and the people who need it most never reach for it.
+
+### The cap only helps if your parent is in the right plan
+
+Medicare Part D is not one plan. It is hundreds of plans, sold by private insurers, and each one covers a different list of drugs, called a formulary, at different prices. The $2,100 cap applies to covered drugs. If your parent's specific medication is not on their plan's formulary, or sits in a high-cost tier, that spending can work very differently than they expect.
+
+So the cap is a ceiling, not a guarantee. It protects your parent if they are enrolled in a plan that actually covers the drugs they take. If they are in the wrong plan, they can still get hammered, and the headline never reaches them.
+
+### Plans change every year, and almost nobody re-checks
+
+This is the quiet trap. Every fall, insurers change their formularies, their tiers, and their prices. A plan that was perfect for your dad in 2025 can drop his main drug or move it to a pricier tier in 2026. Medicare even sends a notice about it, the Annual Notice of Change, and most families never open it.
+
+The result is predictable. Open enrollment, which runs from October 15 to December 7 each year, comes and goes. The family lets the plan auto-renew. Then a January refill costs three times what it did in December, and everyone is blindsided. The families who plan a year out have leverage. The families who wait take whatever the plan decides to do to them.
+
+### A real-world way to picture it
+
+Say your mother takes a brand-name blood thinner and two other maintenance drugs. In her current plan, the blood thinner is covered in a mid tier and her yearly out-of-pocket lands around $1,400. Good. But the plan down the street covers the exact same drug in a lower tier and would put her closer to $700, with a lower premium on top. Same medication, same pharmacy, hundreds of dollars apart. The only way to know is to compare, and the only time to switch without penalty is during open enrollment.
+
+That is the whole game. Not luck. Not insider access. Just matching the plan to the pills, on purpose, once a year.
+
+## Step-by-step: what to do before fall open enrollment
+
+You do not need to be an expert. You need a list and an afternoon. Here is the order I would run it in for my own parents.
+
+### 1. Build the prescription list this summer
+
+Write down every prescription your parent takes, the exact name, the dose, and how often. Include the ones they pick up only a few times a year. This single list is the most powerful tool in the whole process, and most families never make it. Do it now, in June, while things are calm, not in the chaos of December.
+
+### 2. Pull up the plan they have today
+
+Find your parent's current Part D plan or Medicare Advantage plan with drug coverage. When the Annual Notice of Change arrives in the fall, do not throw it out. It tells you exactly what is changing about their plan for next year.
+
+### 3. Compare plans during open enrollment
+
+From October 15 to December 7, use the official Plan Finder at Medicare.gov. Enter the prescription list from step one and your parent's pharmacy, and the tool ranks plans by total yearly cost, premium plus drugs, for their actual medications. This is the step that finds the hundreds of dollars.
+
+### 4. Get free, unbiased help
+
+Your parent does not have to do this alone, and they should not pay anyone to do it. Every state runs a free Medicare counseling program called SHIIP, the State Health Insurance Information Program, staffed by trained volunteers who do not sell anything. Here in the Triad, Senior Resources of Guilford can connect families to a counselor. SHIIP help is free, confidential, and exactly built for this.
+
+### 5. Switch if the math says so, then confirm
+
+If a better plan exists, enroll during open enrollment so coverage starts January 1. Then confirm the new card arrives and the pharmacy has the new plan on file before the first refill of the year. Boring follow-through is what makes the savings real.
+
+This is general education, not Medicare advice, and the right plan depends on your parent's specific drugs, doctors, and county. Confirm the details with a licensed SHIIP counselor or a trusted benefits specialist before you change anything.
+
+## Frequently Asked Questions
+
+### What is the Medicare Part D out-of-pocket cap for 2026?
+For 2026, Medicare caps what you pay out of pocket for covered Part D prescription drugs at $2,100, up from $2,000 in 2025. Once you reach that amount in deductibles, copays, and coinsurance on covered drugs, you pay nothing more for them for the rest of the year. The cap does not include your monthly plan premium.
+
+### Does the $2,100 cap apply to every drug my parent takes?
+No. The cap applies to drugs covered by your parent's specific Part D plan. Each plan covers a different list of drugs, called a formulary. If a medication is not on the plan's formulary, that spending may not count toward the cap the way you expect, which is why matching the plan to the prescriptions matters.
+
+### When can my parent change their Medicare drug plan?
+The main window is Medicare Open Enrollment, October 15 to December 7 each year, with changes taking effect January 1. Medicare Advantage members also have a separate window from January 1 to March 31. Outside those windows, switching usually requires a special enrollment circumstance.
+
+### Is there free help to compare Medicare drug plans?
+Yes. Every state has a free counseling program called SHIIP, the State Health Insurance Information Program, with trained volunteers who do not sell insurance. The official Plan Finder at Medicare.gov also compares plans by your parent's actual prescription list. Both are free.
+
+### What are the new negotiated drug prices in 2026?
+For the first time, Medicare negotiated lower prices on 10 high-cost brand-name drugs with no generic competition, under the Inflation Reduction Act. AARP estimates nearly 9 million enrollees who use these drugs will save roughly $1.5 billion in out-of-pocket costs in 2026. Whether your parent benefits depends on whether they take one of the 10 drugs.
+
+## About Ryan Riggins
+
+Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafe app](https://seniorsafeapp.com).
+
+---
+
+**See exactly where your parent's coverage falls short.** The free Medicare Gap Analyzer walks through what their plan does and does not cover: rigginsstrategicsolutions.com/tools/medicare-gap-analyzer
+
+**Want a step-by-step guide?** The free Simple Blueprint walks through every stage of a senior transition: rigginsstrategicsolutions.com/freeguide
+
+**Ready for the full system?** Senior Transition Blueprint Core, 19 modules and 60+ tools: rigginsstrategicsolutions.com/the-blueprint
+
+**Need a personalized plan?** Blueprint Premium adds a 60-min call and 90 days of email support: rigginsstrategicsolutions.com/blueprint-premium
+
+**Coordinate your family in one place.** SeniorSafe app (web, iPhone, Android): app.seniorsafeapp.com
+
+**Talk it through.** Book a free 20-min call with Ryan: rigginsstrategicsolutions.com/work-with-ryan
+
+### Get the SeniorSafe App
+
+[Download on the App Store](https://apps.apple.com/us/app/seniorsafe-app/id6761343239)
+
+[Get it on Google Play](https://play.google.com/store/apps/details?id=com.rigginsstrategicsolutions.seniorsafe)
+
+Ryan Riggins is the founder of Riggins Strategic Solutions, a consumer protection company for families navigating senior transitions. He spent 8 years in construction project management and house flipping before switching sides. Two books on Amazon. Free resources at rigginsstrategicsolutions.com.
+
+---
+
+# Union County Senior Help Directory: Monroe Programs for Seniors and Families (2026)
+https://rigginsstrategicsolutions.com/blog/union-county-senior-help-directory
+Published: 2026-06-22
+
+**Excerpt:** Free, plain-English senior help in Union County, NC (Monroe and the surrounding towns): property tax relief, food, energy, Medicare, prescriptions, home repair, transportation, legal, caregiver support, and PACE. Local phone numbers, no sign-up.
+
+*By Ryan Riggins, Riggins Strategic Solutions. NC Real Estate License #361546, eXp Realty.*
+
+*Last updated June 22, 2026. Important: I am a licensed North Carolina real estate agent, but Riggins Strategic Solutions is an education and media company, not a real estate sales business. I am not here to list or sell your house. This is general education only, not financial, tax, medical, or legal advice. Programs and contacts change, so verify before you rely on them.*
+
+If you're caring for an aging parent in Monroe, Indian Trail, Waxhaw, or anywhere in Union County, there's more help out there than most families ever hear about. Here it is in plain English, grouped by what you'd actually go looking for. It's part of our growing [Senior Help Directory](/resources/senior-help-directory).
+
+**Three local front doors open most of these:**
+
+- **NC 211:** dial **2-1-1.** Free, 24/7. Routes you to rent, utility, food, and medical help.
+- **Union County Senior Nutrition:** **704-283-3712.** The county's aging front door (run by Community Support & Outreach), with meals and aging referrals.
+- **Union County DSS:** **704-296-4300.** Medicaid, food benefits, and adult services.
+
+## Property tax relief
+
+North Carolina's senior tax programs are administered by the **Union County Tax Administration, Assessment Division** (500 N. Main Street, Suite 236, Monroe; **704-283-3746**), which handles exemptions and exclusions. The application period is **January 1 to June 1**, and after a county revaluation, watch your mail for relief deadlines. For registered motor vehicle tax questions, the Tax Collector's office is 704-283-3848.
+
+- **Homestead Exclusion:** greater of $25,000 or 50% off taxable value. Income limit $38,800 for the 2026 tax year. Age 65+ or totally and permanently disabled as of January 1.
+- **Circuit Breaker:** caps tax at 4% of income (up to $38,800) or 5% (up to $58,200). CAUTION: it's a deferral, not forgiveness. The unpaid difference for the current and three prior years becomes a lien with interest, due when the home is sold or the owner passes. It requires a new application every year, and you cannot combine it with the Homestead or Disabled Veteran Exclusion. Understand it before you sign.
+- **Disabled Veteran Exclusion:** $45,000 off, no income limit, no age requirement. An unmarried surviving spouse may also qualify.
+
+All three use Form AV-9, available from the tax office (disabled applicants under 65 also need Form AV-9A completed by a physician). If you missed the June 1 deadline, call and ask: late applications can sometimes be accepted for good cause. For the full walk-through of how these statewide programs work (and the Circuit Breaker lien trap in particular), see our guide to [NC senior property tax relief](/blog/nc-senior-property-tax-relief-guilford-county).
+
+## Food
+
+- **Union County Senior Nutrition** (run by the county Community Support & Outreach division) delivers five healthy meals a week to homebound seniors 60 and older who cannot leave home unassisted and have no one to prepare meals for them. No cost, no income limit. It also runs group lunch sites Monday to Friday in Indian Trail, Mineral Springs, Wingate, and Monroe (the Bazemore Active Adult Center, 500 W. Jefferson St.). **704-283-3712** or **704-292-2567** (2330 Concord Avenue, Monroe). Free rides to the dining sites can be arranged through Union County Transportation at 704-292-2511.
+- **Loaves and Fishes of Union County** is a volunteer food pantry that gives a week of groceries free to Union County residents in crisis, up to three times in a 12-month period. **704-960-1486** (116 South Church Street, Monroe; open Wednesday, Thursday, and Saturday 10 a.m. to noon).
+- **Second Harvest Food Bank of Metrolina** supplies a network of partner pantries across a 14-county region that includes Union. **704-376-1785** or dial 211.
+- **SNAP (food stamps)** through Union County DSS is income-based, so working families qualify too. Apply at epass.nc.gov or **704-296-4300**.
+
+## Heating, cooling, and utility bills
+
+- **LIEAP** (a one-time heating payment) and the year-round **Crisis Intervention Program (CIP)** for a heating or cooling emergency, through **Union County Community Support & Outreach** (Human Services Agency, 2330 Concord Avenue, Monroe). Apply at epass.nc.gov, email crisis@unioncountync.gov, or call the county at **704-283-3500**. Households with a member 60+ or a disabled member get priority to apply December 1 to 31.
+- **Union County Crisis Assistance Ministry** helps prevent evictions and utility shutoffs in Union and Anson Counties with emergency financial aid sent directly to the utility company or landlord. Crisis line **704-225-0440**.
+- **Duke Energy** and **Union Power Cooperative** offer customer assistance for past-due accounts; ask them directly or let 211 connect you.
+
+## Medicare, Medicaid, and prescriptions
+
+- **SHIIP** free, unbiased Medicare counseling from the NC Department of Insurance: **1-855-408-1212.** The Centralina Area Agency on Aging (**704-372-2416**) can also connect you with a local SHIIP counselor. Start here before any Medicare decision.
+- **Medicare Savings Programs** and **Extra Help / Low-Income Subsidy:** apply through Union County DSS or ask SHIIP.
+- **NC MedAssist Free Pharmacy** for uninsured NC residents under the income limit: **1-866-331-1348.**
+
+## Home repairs and safety
+
+- **Blue Ridge Community Action (BRCA)** runs the Weatherization Assistance Program for Union County: free energy-efficiency work (insulation, air sealing, heating and cooling repair or replacement, and minor health-and-safety repairs) for income-eligible households at or below 200% of the federal poverty guidelines. The elderly, people with disabilities, and families with children are served first; homeowners and renters can qualify. **828-438-6255** (800 North Green Street, Morganton) or dial 211.
+- **USDA Section 504** grants up to $10,000 for very-low-income homeowners 62+ in eligible rural areas, through USDA Rural Development.
+- **Union County Community Development Block Grant (CDBG):** the county can fund housing-related help; ask at **704-283-3500** or dial 211 about current housing rehabilitation or accessibility programs.
+
+## Rent, housing, and emergency cash
+
+- **Union County Crisis Assistance Ministry** is the county's main crisis ministry for stopping evictions and utility cutoffs (Union and Anson Counties), sending payment directly to the landlord or utility. Crisis line **704-225-0440**.
+- **NC 211** is the fastest route to other temporary rent and utility help.
+- **Union County DSS** administers emergency and adult services. **704-296-4300** (after-hours adult emergencies 704-289-1591).
+
+## Transportation
+
+- **Union County Transportation** provides scheduled rides for residents 16 and older, including seniors, to medical appointments and other destinations, Monday to Friday 6 a.m. to 6 p.m. Reserve at least 48 business hours ahead. Call **704-292-2511**, option 2 to schedule a ride, or option 3 for a registration application. Cost is low and is often covered by grant or county funds.
+- Residents with full Medicaid and no other way to travel may qualify for free non-emergency medical transportation; ask DSS at **704-296-4300.**
+
+## Legal help
+
+- **NC Legal Aid Senior Legal Helpline:** free civil legal help for anyone 60+, no income limit (powers of attorney, wills, Medicaid and benefits, housing, scams). **1-877-579-7562**, Monday to Friday 9 to 11 a.m. and 1 to 3 p.m.
+- **Centralina Area Agency on Aging** (the regional aging agency for Union, Region F): free options counseling, benefits help, and the Long-Term Care Ombudsman for nursing-home and assisted-living complaints. **704-372-2416** or toll-free **1-800-508-5777.**
+- **Legal Aid of North Carolina** general intake for lower-income residents under 60: **1-866-219-5262.**
+
+## Caregiver support
+
+- **Council on Aging in Union County** (a local nonprofit) runs the Family Caregiver Support Program: respite, a caregiver support group, education, and referrals, plus In-Home Aide respite services (an aide can sit with a loved one, shop for groceries, or pick up prescriptions). Family Caregiver Support Specialist **704-292-1797** (1401 Skyway Drive, Monroe; Monday to Friday 8:30 a.m. to 4:30 p.m.).
+- **Centralina Area Agency on Aging** also administers the regional Family Caregiver Support Program. Family Caregiver Program **704-348-2715**; main line **704-372-2416.**
+
+## Staying at home instead of a nursing home
+
+- **Senior Total Life Care** (formerly PACE of the Southern Piedmont), the Charlotte PACE program, serves Union County. PACE coordinates a senior's entire medical care, primary care, a day center, therapy, personal care, prescriptions, and transportation, so someone who would otherwise qualify for a nursing home can keep living at home. For adults 55+ at a nursing-home level of care who live in the service area (Mecklenburg, Cabarrus, Union, and a portion of Stanly); most participants pay nothing through Medicare and Medicaid. **704-887-3840** (6133 The Plaza, Charlotte).
+
+## How to use this list
+
+Don't try to call all of it. Pick the one pressure point hurting most right now and start there, or call 211 and let them point you. An adult child can call and apply on a parent's behalf, just have proof of age, proof of income, and the paperwork handy.
+
+## Frequently Asked Questions
+
+### Where do I start finding senior help in Union County?
+Start with three front doors. NC 211 (dial 2-1-1) is the free 24/7 line that routes you to rent, utility, food, and medical help. Union County Senior Nutrition at 704-283-3712 is the county's aging front door for meals and referrals. Union County DSS at 704-296-4300 handles Medicaid, food benefits, and adult services.
+
+### What property tax relief is available to seniors in Union County?
+The statewide North Carolina programs apply through the Union County Tax Administration Assessment Division at 704-283-3746: the Homestead Exclusion (2026 income limit $38,800), the Circuit Breaker (a deferral that caps tax at 4% or 5% of income up to a $58,200 limit and becomes a lien), and the Disabled Veteran Exclusion ($45,000 off, no income limit). The application period is January 1 to June 1.
+
+### How do older adults in Union County get meals?
+Union County Senior Nutrition delivers five meals a week to homebound seniors 60 and older at 704-283-3712, with no cost and no income limit. Loaves and Fishes of Union County (704-960-1486) gives a week of groceries in a crisis, Second Harvest Food Bank of Metrolina (704-376-1785) fills in, and SNAP is available through Union County DSS at 704-296-4300.
+
+### My parent can't drive. What transportation does Union County offer?
+Union County Transportation provides scheduled weekday rides to medical appointments and other destinations. Call 704-292-2511, option 2, and reserve at least 48 business hours ahead. Riders with full Medicaid may qualify for free non-emergency medical transportation through DSS at 704-296-4300.
+
+*I'm Ryan Riggins. I spent years on the investor side of real estate, then switched to [educating families through senior transitions](/freeguide) so they don't get taken advantage of during the hardest season of their lives. This guide is free. If it helped, pass it on.*
+
+*Ryan Riggins | Riggins Strategic Solutions | NC Real Estate License #361546 | eXp Realty | rigginsstrategicsolutions.com*
+
+*Disclaimer: Ryan Riggins is a licensed North Carolina real estate agent (#361546, eXp Realty). Riggins Strategic Solutions is an education and media company, not a real estate sales business. This guide is not a solicitation to buy, sell, or list your home, and it is not financial, tax, medical, or legal advice. We are not financial advisors, tax advisors, attorneys, or medical providers. Programs, income limits, and contacts change and vary by individual situation. Confirm current details directly with each program or a licensed professional before making any decision.*
 
 ---
 
@@ -228,7 +558,7 @@ All three use Form AV-9, available from the tax office. If you missed the June 1
 
 ## Staying at home instead of a nursing home
 
-- **PACE of the Southern Piedmont** serves Cabarrus County. PACE coordinates a senior's entire medical care, primary care, a day center, therapy, personal care, prescriptions, and transportation, so someone who would otherwise qualify for a nursing home can keep living at home. For adults 55+ at a nursing-home level of care who live in the service area (Cabarrus, Mecklenburg, Stanly, Union); most participants pay nothing through Medicare and Medicaid. **704-887-3840** (6133 The Plaza, Charlotte).
+- **Senior Total Life Care** (formerly PACE of the Southern Piedmont) serves Cabarrus County. PACE coordinates a senior's entire medical care, primary care, a day center, therapy, personal care, prescriptions, and transportation, so someone who would otherwise qualify for a nursing home can keep living at home. For adults 55+ at a nursing-home level of care who live in the service area (Cabarrus, Mecklenburg, Stanly, Union); most participants pay nothing through Medicare and Medicaid. **704-887-3840** (6133 The Plaza, Charlotte).
 
 ## How to use this list
 
@@ -981,7 +1311,7 @@ For the full walk-through of how these statewide programs work (and the Circuit 
 
 ## Staying at home instead of a nursing home
 
-- **PACE of the Southern Piedmont** (operated by Senior TLC) is the PACE program serving Mecklenburg County. PACE coordinates a senior's entire medical care, primary care, a day center, therapy, personal care, prescriptions, and transportation, so someone who would otherwise qualify for a nursing home can keep living at home. For adults 55+ at a nursing-home level of care; most participants pay nothing through Medicare and Medicaid. **704-887-3840** (enrollment **980-308-0858**).
+- **Senior Total Life Care** (formerly PACE of the Southern Piedmont) is the PACE program serving Mecklenburg County. PACE coordinates a senior's entire medical care, primary care, a day center, therapy, personal care, prescriptions, and transportation, so someone who would otherwise qualify for a nursing home can keep living at home. For adults 55+ at a nursing-home level of care; most participants pay nothing through Medicare and Medicaid. **704-887-3840** (enrollment **980-308-0858**).
 
 ## How to use this list
 
