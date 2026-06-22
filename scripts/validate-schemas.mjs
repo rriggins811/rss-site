@@ -39,6 +39,7 @@ const REQUIRED_FIELDS = {
   Article: ["headline", "author", "datePublished"],
   HowTo: ["name", "step"],
   Product: ["name", "offers"],
+  Course: ["name", "description", "provider"],
   MobileApplication: ["name", "offers"],
   WebSite: ["url"],
   ProfessionalService: ["name", "url"],

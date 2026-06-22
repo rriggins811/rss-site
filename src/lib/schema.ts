@@ -491,6 +491,59 @@ export function blueprintCoreProductSchema() {
 }
 
 /**
+ * Course schema for the Senior Transition Blueprint. Mounted on /the-blueprint
+ * ALONGSIDE the Product schema: Product drives merchant/price rich results,
+ * Course drives education rich results + AI "best course for X" citations.
+ * `provider` and the instance `instructor` link to the canonical Org/Person
+ * @ids so the course joins the existing entity graph. We intentionally omit
+ * `courseWorkload` rather than invent a total-hours figure for a self-paced
+ * course — add a verified value later to unlock the enhanced course result.
+ */
+export function blueprintCourseSchema() {
+  const url = abs("/the-blueprint");
+  return {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "@id": `${url}#course`,
+    name: "The Senior Transition Blueprint",
+    description:
+      "A self-paced course that walks adult children through every stage of a parent's senior housing transition: aging in place vs assisted living, the home sale, financial and Medicare planning, family coordination, and avoiding predatory cash buyers. 19 modules with 65+ tools and worksheets.",
+    url,
+    image: abs("/og/the-blueprint.png"),
+    provider: { "@id": ORG_ID },
+    inLanguage: "en-US",
+    educationalLevel: "Beginner",
+    teaches: [
+      "How to decide between aging in place and assisted living",
+      "How to net the most from a senior parent's home sale",
+      "How to spot and avoid predatory cash buyers and wholesalers",
+      "How to coordinate a family through a senior transition",
+    ],
+    about: [
+      "Senior housing transitions",
+      "Selling an aging parent's home",
+      "Medicare and paying for senior care",
+      "Elder financial protection",
+    ],
+    offers: {
+      "@type": "Offer",
+      category: "Paid",
+      price: "47",
+      priceCurrency: "USD",
+      availability: "https://schema.org/InStock",
+      url,
+      priceValidUntil: "2027-12-31",
+      seller: { "@id": ORG_ID },
+    },
+    hasCourseInstance: {
+      "@type": "CourseInstance",
+      courseMode: "online",
+      instructor: { "@id": PERSON_ID },
+    },
+  };
+}
+
+/**
  * Product schema for Blueprint Premium ($297 advisory). Mounted on
  * /blueprint-premium.
  */

@@ -13,6 +13,7 @@ import {
   breadcrumbListSchema,
   faqPageSchema,
   blueprintCoreProductSchema,
+  blueprintCourseSchema,
 } from "@/lib/schema";
 import { abs } from "@/lib/site";
 
@@ -219,6 +220,7 @@ export default function BlueprintPage() {
       <JsonLd data={faqPageSchema(faqs, abs("/the-blueprint"))} />
       <JsonLd data={breadcrumbs} />
       <JsonLd data={blueprintCoreProductSchema()} />
+      <JsonLd data={blueprintCourseSchema()} />
 
       {/* HERO */}
       <section className="bg-cream">
