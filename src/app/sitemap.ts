@@ -3,6 +3,7 @@ import { getAllPosts } from "@/lib/blog";
 import { getAllMedia } from "@/lib/media";
 import { TOOLS } from "@/lib/tools";
 import { RESOURCES } from "@/lib/resources";
+import { getResourceContent } from "@/lib/resource-content";
 import { indexableStates } from "@/lib/directory";
 import { SITE_URL } from "@/lib/site";
 
@@ -73,12 +74,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  const resourceEntries: MetadataRoute.Sitemap = RESOURCES.map((r) => ({
-    url: `${SITE_URL}/resources/${r.slug}`,
-    lastModified: now,
-    changeFrequency: "monthly",
-    priority: 0.7,
-  }));
+  const resourceEntries: MetadataRoute.Sitemap = RESOURCES.map((r) => {
+    // Use the authored markdown's real date so genuinely-updated pillars get an
+    // honest freshness signal, instead of stamping every page "modified today"
+    // on every build. Unauthored stubs (no markdown) fall back to now.
+    const authoredDate = getResourceContent(r.slug)?.frontmatter.date;
+    return {
+      url: `${SITE_URL}/resources/${r.slug}`,
+      lastModified: authoredDate ? new Date(authoredDate) : now,
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+    };
+  });
 
   // Senior Help Directory state pages. Only indexable states (enriched with
   // verified content, or backed by a county page) are sitemapped; the thin,

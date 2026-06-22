@@ -24,6 +24,31 @@ const nextConfig: NextConfig = {
       },
     ];
   },
+  async headers() {
+    return [
+      {
+        source: "/:path*",
+        // Site-wide security headers. Deliberately NO X-Frame-Options /
+        // frame-ancestors: the interactive tools are embedded via same-origin
+        // iframes (ToolIframe -> /tools/<slug>.html) and the paid course embeds
+        // the tool HTML too, so a framing restriction could break that feature.
+        // The headers below never affect functionality.
+        headers: [
+          {
+            key: "Strict-Transport-Security",
+            value: "max-age=31536000; includeSubDomains",
+          },
+          { key: "X-Content-Type-Options", value: "nosniff" },
+          { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
+          { key: "X-DNS-Prefetch-Control", value: "on" },
+          {
+            key: "Permissions-Policy",
+            value: "camera=(), microphone=(), geolocation=()",
+          },
+        ],
+      },
+    ];
+  },
 };
 
 export default nextConfig;
