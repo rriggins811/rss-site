@@ -228,6 +228,36 @@ export default async function BlogPostPage({
           </div>
         </section>
       )}
+
+      {/* DIRECTORY BRIDGE — one internal link from every post into the Senior
+          Help Directory, bridging the blog into the local-programs silo. Free
+          government/nonprofit programs, so it's a help pointer, not a pitch. */}
+      <section className="bg-navy-700 text-cream">
+        <div className="mx-auto max-w-6xl px-6 py-12">
+          <div className="flex flex-col gap-5 md:flex-row md:items-center md:justify-between">
+            <div>
+              <div className="text-xs font-semibold uppercase tracking-wider text-gold-300">
+                Free &middot; Nationwide &middot; No sign-up
+              </div>
+              <h2 className="mt-2 font-serif text-2xl text-cream">
+                Need local help for your parent?
+              </h2>
+              <p className="mt-2 max-w-2xl text-cream/80 leading-relaxed">
+                The Senior Help Directory lists aid programs by state and county:
+                property tax relief, energy and food help, Medicare counseling,
+                transportation, legal aid, and caregiver support. Government and
+                nonprofit programs, with local phone numbers.
+              </p>
+            </div>
+            <Link
+              href="/resources/senior-help-directory"
+              className="shrink-0 inline-flex items-center justify-center rounded-md bg-gold-300 px-5 py-3 font-semibold text-navy-700 hover:opacity-90 transition-opacity"
+            >
+              Browse the directory &rarr;
+            </Link>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }

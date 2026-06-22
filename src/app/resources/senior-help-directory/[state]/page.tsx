@@ -24,6 +24,37 @@ type RouteParams = { state: string };
 
 const HUB = "/resources/senior-help-directory";
 
+// Curated evergreen guides surfaced on every state page to bridge the
+// directory (local programs) into the educational library (the decisions
+// behind a senior move). Static + universally relevant, so one edit here
+// updates all 51 state pages. Keep slugs in sync with the real content.
+const RELATED_GUIDES: { href: string; label: string; blurb: string }[] = [
+  {
+    href: "/resources/how-to-sell-elderly-parents-house",
+    label: "How to sell an aging parent's home",
+    blurb:
+      "The full process, the five exit paths, and how to net the most without rushing into a lowball cash offer.",
+  },
+  {
+    href: "/resources/senior-scam-protection",
+    label: "Protect against senior scams and predatory buyers",
+    blurb:
+      "Spot the wholesaler, title-theft, and 'we buy houses' tactics that target older homeowners before anyone signs.",
+  },
+  {
+    href: "/blog/capital-gains-selling-parents-house-2026",
+    label: "Capital gains when you sell a parent's home",
+    blurb:
+      "How the $250,000 / $500,000 exclusion works, and the timing mistakes that cost families thousands.",
+  },
+  {
+    href: "/resources/medicare-vs-medicaid-senior-care",
+    label: "Medicare vs Medicaid for senior care",
+    blurb:
+      "What each actually pays for, where the gaps are, and how families cover long-term care costs.",
+  },
+];
+
 export function generateStaticParams(): RouteParams[] {
   return DIRECTORY_STATES.map((s) => ({ state: s.slug }));
 }
@@ -269,6 +300,36 @@ export default async function StateDirectoryPage({
           </div>
         </section>
       ) : null}
+
+      {/* KEEP LEARNING — bridges the directory into the educational library.
+          Static, curated evergreen guides relevant to seniors in any state. */}
+      <section className="bg-cream border-t border-border">
+        <div className="mx-auto max-w-4xl px-6 py-16">
+          <GoldRule />
+          <h2 className="mt-3 text-2xl md:text-3xl">Guides to read next</h2>
+          <p className="mt-3 text-ink/75 leading-relaxed">
+            Plain-English guides on the money and care decisions behind a senior
+            move in {state.name}.
+          </p>
+          <ul className="mt-8 grid gap-4 sm:grid-cols-2">
+            {RELATED_GUIDES.map((g) => (
+              <li key={g.href}>
+                <Link
+                  href={g.href}
+                  className="group block h-full rounded-md border border-border bg-white p-5 hover:border-burgundy-600 transition-colors"
+                >
+                  <span className="font-serif text-lg text-navy-700 group-hover:text-burgundy-700 transition-colors">
+                    {g.label}
+                  </span>
+                  <p className="mt-2 text-sm text-ink/75 leading-relaxed">
+                    {g.blurb}
+                  </p>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
 
       {/* DISCLAIMER */}
       <section className="bg-sand border-t border-border">
