@@ -1,80 +1,18 @@
-import { ImageResponse } from "next/og";
 import { getPostBySlug, formatPostDate } from "@/lib/blog";
+import { renderOgImage, OG_SIZE, OG_CONTENT_TYPE } from "@/lib/og";
 
-export const size = { width: 1200, height: 630 };
-export const contentType = "image/png";
+export const size = OG_SIZE;
+export const contentType = OG_CONTENT_TYPE;
 export const alt = "Riggins Strategic Solutions blog post";
 
-export default async function OGImage({ params }: { params: Promise<{ slug: string }> }) {
+export default async function OGImage({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
   const { slug } = await params;
   const post = getPostBySlug(slug);
   const title = post?.frontmatter.title ?? "Riggins Strategic Solutions";
-  const dateStr = post ? formatPostDate(post.datePublished) : "";
-
-  return new ImageResponse(
-    (
-      <div
-        style={{
-          display: "flex",
-          flexDirection: "column",
-          width: "100%",
-          height: "100%",
-          background: "#6B2C3E",
-          color: "#FAF8F4",
-          padding: "72px",
-          fontFamily: "serif",
-        }}
-      >
-        <div
-          style={{
-            display: "flex",
-            alignItems: "center",
-            gap: "16px",
-            fontSize: "22px",
-            letterSpacing: "3px",
-            color: "#D4AF37",
-            textTransform: "uppercase",
-            fontWeight: 700,
-            fontFamily: "sans-serif",
-          }}
-        >
-          <div style={{ height: "4px", width: "48px", background: "#D4AF37" }} />
-          Riggins Strategic Solutions
-        </div>
-
-        <div
-          style={{
-            marginTop: "32px",
-            fontSize: "60px",
-            fontWeight: 800,
-            lineHeight: 1.1,
-            letterSpacing: "-0.01em",
-            color: "#FAF8F4",
-          }}
-        >
-          {title}
-        </div>
-
-        <div
-          style={{
-            marginTop: "auto",
-            display: "flex",
-            justifyContent: "space-between",
-            alignItems: "flex-end",
-            fontFamily: "sans-serif",
-          }}
-        >
-          <div style={{ fontSize: "22px", color: "#D4AF37", fontWeight: 600 }}>
-            rigginsstrategicsolutions.com
-          </div>
-          {dateStr && (
-            <div style={{ fontSize: "20px", color: "#FAF8F4", opacity: 0.85 }}>
-              {dateStr}
-            </div>
-          )}
-        </div>
-      </div>
-    ),
-    size
-  );
+  const dateStr = post ? formatPostDate(post.datePublished) : undefined;
+  return renderOgImage({ title, footerNote: dateStr });
 }

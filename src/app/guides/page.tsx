@@ -26,14 +26,8 @@ export const metadata: Metadata = {
     title: "Free Senior Transition Guides | Riggins Strategic Solutions",
     description:
       "Free guides for adult children navigating their parents' senior transitions. Practical, no-fluff. Use them. Share them. They're free.",
-    images: [
-      {
-        url: "https://rigginsstrategicsolutions.com/brand/ryan-headshot.jpg",
-        width: 1200,
-        height: 670,
-        alt: "Free senior transition guides from Riggins Strategic Solutions",
-      },
-    ],
+    // OG image is generated per-route by ./opengraph-image.tsx (topical card),
+    // so we intentionally do not set a static image here.
   },
   twitter: {
     card: "summary_large_image",
