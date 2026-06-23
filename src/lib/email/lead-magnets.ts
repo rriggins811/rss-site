@@ -10,6 +10,13 @@ import { ORGANIZATION } from "@/lib/site";
 // One mention, never a hard sell (brand voice).
 const MAP_SALES_URL = "https://rigginsstrategicsolutions.com/blueprint-preview";
 
+// Physical mailing address for the CAN-SPAM footer. A real postal address is
+// legally required on commercial email AND is a positive deliverability signal
+// (its absence reads as a spam marker). TODO(ryan): append your PO Box or
+// street for full compliance — a PO Box is recommended for a home-based
+// business, e.g. "Riggins Strategic Solutions, LLC, PO Box 1234, Greensboro, NC 27401".
+const MAILING_ADDRESS = "Riggins Strategic Solutions, LLC, Greensboro, NC";
+
 /**
  * Resend-backed lead-magnet email delivery.
  *
@@ -111,7 +118,9 @@ export async function sendLeadMagnetEmail(args: {
 
   <p style="font-size:11px;color:#888;">
     Ryan Riggins | NC Real Estate License #361546 | eXp Realty<br>
-    This guide is educational and not a substitute for legal or financial advice.
+    ${escapeHtml(MAILING_ADDRESS)}<br>
+    This guide is educational and not a substitute for legal or financial advice.<br>
+    You're receiving this because you requested this guide at rigginsstrategicsolutions.com. To stop receiving emails, reply with "unsubscribe."
   </p>
 
 </body>
@@ -138,7 +147,9 @@ Riggins Strategic Solutions
 
 ---
 Ryan Riggins | NC Real Estate License #361546 | eXp Realty
+${MAILING_ADDRESS}
 This guide is educational and not a substitute for legal or financial advice.
+You're receiving this because you requested this guide at rigginsstrategicsolutions.com. To stop receiving emails, reply with "unsubscribe."
 `;
 
   try {
@@ -149,6 +160,13 @@ This guide is educational and not a substitute for legal or financial advice.
       html,
       text,
       replyTo: ORGANIZATION.email,
+      headers: {
+        // List-Unsubscribe is a strong inbox-placement signal for Gmail/Yahoo
+        // and surfaces a one-tap unsubscribe link next to the sender. mailto
+        // points at a monitored inbox; a hosted one-click (https) endpoint can
+        // be added later for full bulk-sender compliance.
+        "List-Unsubscribe": `<mailto:${ORGANIZATION.email}?subject=Unsubscribe>`,
+      },
     });
     if (error) {
       console.warn(
