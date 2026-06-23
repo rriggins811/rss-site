@@ -222,6 +222,15 @@ export const DIRECTORY_COUNTIES: DirectoryCounty[] = [
       "Gastonia and Gaston County programs for seniors and families: food, utilities, Medicare, home repair, transportation, legal, and caregiver support.",
   },
   {
+    slug: "iredell-county-senior-help-directory",
+    county: "Iredell County",
+    state: "NC",
+    metro: "Statesville",
+    region: "Charlotte",
+    blurb:
+      "Statesville, Mooresville, and Iredell County programs for seniors and families: food, utilities, Medicare, home repair, transportation, legal, and caregiver support.",
+  },
+  {
     slug: "wake-county-senior-help-directory",
     county: "Wake County",
     state: "NC",
@@ -247,6 +256,15 @@ export const DIRECTORY_COUNTIES: DirectoryCounty[] = [
     region: "Triangle",
     blurb:
       "Chapel Hill, Hillsborough, and Orange County programs for seniors and families: food, utilities, Medicare, home repair, transportation, legal, and caregiver support.",
+  },
+  {
+    slug: "johnston-county-senior-help-directory",
+    county: "Johnston County",
+    state: "NC",
+    metro: "Smithfield",
+    region: "Triangle",
+    blurb:
+      "Smithfield, Clayton, and Johnston County programs for seniors and families: food, utilities, Medicare, home repair, transportation, legal, and caregiver support.",
   },
   {
     slug: "mecklenburg-county-senior-help-directory",

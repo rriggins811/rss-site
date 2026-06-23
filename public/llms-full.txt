@@ -5,8 +5,8 @@ It contains the full Markdown of every key page, resource pillar, Senior Help
 Directory state page, and blog post, intended for AI crawlers that ingest
 content for answer generation.
 
-Generated: 2026-06-22
-Indexed: 51 blog posts, 16 resource pillars, 51 Senior Help Directory state pages.
+Generated: 2026-06-23
+Indexed: 53 blog posts, 16 resource pillars, 51 Senior Help Directory state pages.
 
 For citation guidance, organizational facts, and topic depth, see the summary
 index at https://rigginsstrategicsolutions.com/llms.txt.
@@ -5171,8 +5171,225 @@ You must qualify for Medicaid, then apply for the Community Choices Waiver, choo
 
 # Blog Posts (newest first)
 
-The 51 posts below are the full body of every published article
+The 53 posts below are the full body of every published article
 on https://rigginsstrategicsolutions.com/blog, in reverse chronological order.
+
+---
+
+# Iredell County Senior Help Directory: Statesville and Mooresville Programs for Seniors and Families (2026)
+https://rigginsstrategicsolutions.com/blog/iredell-county-senior-help-directory
+Published: 2026-06-23
+
+**Excerpt:** Free, plain-English senior help in Iredell County, NC (Statesville and Mooresville): property tax relief, food, energy, Medicare, prescriptions, home repair, transportation, legal, caregiver support, and PACE. Local phone numbers, no sign-up.
+
+*By Ryan Riggins, Riggins Strategic Solutions. NC Real Estate License #361546, eXp Realty.*
+
+*Last updated June 23, 2026. Important: I am a licensed North Carolina real estate agent, but Riggins Strategic Solutions is an education and media company, not a real estate sales business. I am not here to list or sell your house. This is general education only, not financial, tax, medical, or legal advice. Programs and contacts change, so verify before you rely on them.*
+
+If you're caring for an aging parent in Statesville, Mooresville, or anywhere in Iredell County, there's more help out there than most families ever hear about. Here it is in plain English, grouped by what you'd actually go looking for. It's part of our growing [Senior Help Directory](/resources/senior-help-directory).
+
+**Three local front doors open most of these:**
+
+- **NC 211:** dial **2-1-1.** Free, 24/7. Routes you to rent, utility, food, and medical help.
+- **Iredell Council on Aging:** **704-873-5171.** The county's aging front door: meals, in-home aide, caregiver support, and adult day care.
+- **Iredell County DSS:** **704-873-5631.** Medicaid, food benefits, and energy assistance.
+
+## Property tax relief
+
+North Carolina's senior tax programs are administered by **Iredell County Tax Administration** (135 E. Water Street, Room 100, Statesville; **704-878-3000**, ask for tax relief). The application deadline is **June 1**, and after a county revaluation, watch your mail for relief deadlines.
+
+- **Homestead Exclusion:** greater of $25,000 or 50% off taxable value (including up to one acre of land). Income limit $38,800 for the 2026 tax year. Age 65+ or totally and permanently disabled as of January 1.
+- **Circuit Breaker:** caps tax at 4% of income (up to $38,800) or 5% (up to $58,200). CAUTION: it's a deferral, not forgiveness. The unpaid difference for the current and three prior years becomes a lien with interest, due when the home is sold or the owner passes. It requires a new application every year, and you cannot combine it with the Homestead or Disabled Veteran Exclusion. Understand it before you sign.
+- **Disabled Veteran Exclusion:** $45,000 off, no income limit, no age requirement. An unmarried surviving spouse may also qualify.
+
+All three use Form AV-9, available from the tax office (disabled applicants under 65 also need the AV-9 Certification of Disability). If you missed the June 1 deadline, call and ask: late applications can sometimes be accepted for good cause. For the full walk-through of how these statewide programs work (and the Circuit Breaker lien trap in particular), see our guide to [NC senior property tax relief](/blog/nc-senior-property-tax-relief-guilford-county).
+
+## Food
+
+- **Iredell Council on Aging (ICOA)** delivers home-delivered meals to homebound adults 60 and older who cannot leave home and have no one to prepare meals, and serves congregate meals Monday to Friday at group sites with activities. There is no set fee; a voluntary contribution based on income is welcome. **704-873-5171** (344 East Front Street, Statesville).
+- **Fifth Street Ministries** serves a free hot meal daily at 11 a.m. and 5:30 p.m. (open to anyone) and distributes food boxes on Wednesdays and Fridays, for all of Iredell County. **704-872-4045** (1421 Fifth Street, Statesville).
+- **Iredell Christian Ministries (ICM)** runs a food pantry and crisis center in Statesville. **704-924-6700.**
+- **Second Harvest Food Bank of Metrolina** supplies a network of partner pantries across a 14-county region that includes Iredell. **704-376-1785** or dial 211.
+- **SNAP (food stamps)** through Iredell County DSS is income-based, so working families qualify too. Apply at epass.nc.gov or **704-873-5631** (Statesville and Mooresville offices).
+
+## Heating, cooling, and utility bills
+
+- **LIEAP** (a one-time heating payment) and the year-round **Crisis Intervention Program (CIP)** for a heating or cooling emergency, through **Iredell County DSS** (549 Eastside Drive, Statesville; **704-873-5631**) or epass.nc.gov. The Mooresville DSS office also takes energy applications. Households with a member 60+ or a disabled member get priority to apply in December.
+- **Iredell Christian Ministries** (**704-924-6700**) and the **Salvation Army of Iredell County** (Statesville Corps, 1361 Caldwell Street) can help with past-due utilities and basic needs; let 211 connect you to whichever has funds.
+- **Duke Energy** offers customer assistance for past-due accounts; ask them directly or let 211 connect you.
+
+## Medicare, Medicaid, and prescriptions
+
+- **SHIIP** free, unbiased Medicare counseling from the NC Department of Insurance: **1-855-408-1212.** The Centralina Area Agency on Aging (**1-800-508-5777**) can also connect you with a local SHIIP counselor. Start here before any Medicare decision.
+- **Medicare Savings Programs** and **Extra Help / Low-Income Subsidy:** apply through Iredell County DSS or ask SHIIP.
+- **NC MedAssist Free Pharmacy** for uninsured NC residents under the income limit: **1-866-331-1348.**
+
+## Home repairs and safety
+
+- **I-CARE, Inc.** (the Community Action Agency for Iredell, Alexander, Catawba, and Lincoln counties) runs the Weatherization Assistance Program: free energy-efficiency work (insulation, air sealing, heating and cooling repair or replacement, and minor health-and-safety repairs) for income-eligible households. The elderly, people with disabilities, and families with children are served first; homeowners and renters can qualify. **704-872-8141** (1415 Shelton Avenue, Statesville) or dial 211.
+- **USDA Section 504** grants up to $10,000 for very-low-income homeowners 62+ in eligible rural areas, through USDA Rural Development.
+- **Iredell Council on Aging Family Caregiver Support Program** can fund some home modifications and adaptive equipment for eligible caregiving situations; ask at **704-873-5171.**
+
+## Rent, housing, and emergency cash
+
+- **Fifth Street Ministries** is the county's main homeless shelter and crisis ministry, with emergency shelter, meals, and case management for all of Iredell County. **704-872-4045** (1421 Fifth Street, Statesville).
+- **Iredell Christian Ministries (ICM)** provides crisis assistance toward rent or mortgage, utilities, and prescriptions for eligible Iredell residents. **704-924-6700.**
+- **The Salvation Army of Iredell County** (Statesville Corps, 1361 Caldwell Street) offers emergency assistance and basic-needs help; let 211 connect you.
+- **NC 211** is the fastest route to other temporary rent and utility help.
+- **Iredell County DSS** administers emergency and adult services. **704-873-5631.**
+
+## Transportation
+
+- **ICATS (Iredell County Area Transportation System)** provides demand-response, curb-to-curb rides countywide, including non-emergency medical transportation. Schedule ahead at **704-873-9393** (TDD/TTY 1-800-735-2962).
+- **The Iredell Council on Aging** coordinates rides for adults 60 and older to medical appointments, meal sites, and community resources; ask at **704-873-5171.**
+- Residents with full Medicaid and no other way to travel may qualify for free non-emergency medical transportation; ask DSS or ICATS.
+
+## Legal help
+
+- **NC Legal Aid Senior Legal Helpline:** free civil legal help for anyone 60+, no income limit (powers of attorney, wills, Medicaid and benefits, housing, scams). **1-877-579-7562**, Monday to Friday 9 to 11 a.m. and 1 to 3 p.m.
+- **Centralina Area Agency on Aging** (the regional aging agency for Iredell, Region F): free options counseling, benefits help, and the Long-Term Care Ombudsman for nursing-home and assisted-living complaints. Toll-free **1-800-508-5777** (9815 David Taylor Drive, Suite 100, Charlotte).
+- **Legal Aid of North Carolina** general intake for lower-income residents under 60: **1-866-219-5262.**
+
+## Caregiver support
+
+- **Iredell Council on Aging** runs the Family Caregiver Support Program: referrals, education, support, and funding for respite and supplemental services such as home modifications and adaptive equipment. It also offers In-Home Aide Services and Adult Day Care for daytime supervision and activities. Intake **704-873-5171** (344 East Front Street, Statesville).
+- **Centralina Area Agency on Aging** also administers the regional Family Caregiver Support Program. Toll-free **1-800-508-5777.**
+
+## Staying at home instead of a nursing home
+
+- **Carolina SeniorCare** is the local PACE program. PACE coordinates a senior's entire medical care, primary care, a day center, therapy, personal care, prescriptions, and transportation, so someone who would otherwise qualify for a nursing home can keep living at home. For adults 55+ at a nursing-home level of care who live in the service area (Davidson, Davie, Iredell, and Rowan counties); most participants pay nothing through Medicare and Medicaid. The main office is in Lexington at **336-746-3500**; ask about the current day site serving the Statesville area.
+
+## How to use this list
+
+Don't try to call all of it. Pick the one pressure point hurting most right now and start there, or call 211 and let them point you. An adult child can call and apply on a parent's behalf, just have proof of age, proof of income, and the paperwork handy.
+
+## Frequently Asked Questions
+
+### Where do I start finding senior help in Iredell County?
+Start with three front doors. NC 211 (dial 2-1-1) is the free 24/7 line that routes you to rent, utility, food, and medical help. The Iredell Council on Aging at 704-873-5171 is the county's aging front door for meals, in-home aide, caregiver support, and adult day care. Iredell County DSS at 704-873-5631 handles Medicaid, food benefits, and energy assistance.
+
+### What property tax relief is available to seniors in Iredell County?
+The statewide North Carolina programs apply through Iredell County Tax Administration at 704-878-3000: the Homestead Exclusion (2026 income limit $38,800), the Circuit Breaker (a deferral that caps tax at 4% or 5% of income up to a $58,200 limit and becomes a lien), and the Disabled Veteran Exclusion ($45,000 off, no income limit). The application deadline is June 1.
+
+### How do older adults in Iredell County get meals?
+The Iredell Council on Aging delivers home-delivered meals to homebound seniors 60 and older at 704-873-5171, and serves congregate meals at group sites. Fifth Street Ministries (704-872-4045) serves free hot meals daily and gives out food boxes on Wednesdays and Fridays, Second Harvest Food Bank of Metrolina (704-376-1785) fills in, and SNAP is available through Iredell County DSS at 704-873-5631.
+
+### My parent can't drive. What transportation does Iredell County offer?
+ICATS, the Iredell County Area Transportation System, provides demand-response, curb-to-curb rides countywide, including non-emergency medical transportation. Schedule ahead at 704-873-9393. The Iredell Council on Aging (704-873-5171) also coordinates rides for seniors 60 and older. Riders with full Medicaid may qualify for free medical transportation.
+
+*I'm Ryan Riggins. I spent years on the investor side of real estate, then switched to [educating families through senior transitions](/freeguide) so they don't get taken advantage of during the hardest season of their lives. This guide is free. If it helped, pass it on.*
+
+*Ryan Riggins | Riggins Strategic Solutions | NC Real Estate License #361546 | eXp Realty | rigginsstrategicsolutions.com*
+
+*Disclaimer: Ryan Riggins is a licensed North Carolina real estate agent (#361546, eXp Realty). Riggins Strategic Solutions is an education and media company, not a real estate sales business. This guide is not a solicitation to buy, sell, or list your home, and it is not financial, tax, medical, or legal advice. We are not financial advisors, tax advisors, attorneys, or medical providers. Programs, income limits, and contacts change and vary by individual situation. Confirm current details directly with each program or a licensed professional before making any decision.*
+
+---
+
+# Johnston County Senior Help Directory: Smithfield and Clayton Programs for Seniors and Families (2026)
+https://rigginsstrategicsolutions.com/blog/johnston-county-senior-help-directory
+Published: 2026-06-23
+
+**Excerpt:** Free, plain-English senior help in Johnston County, NC (Smithfield, Clayton, and the surrounding towns): property tax relief, food, energy, Medicare, prescriptions, home repair, transportation, legal, caregiver support, and PACE. Local phone numbers, no sign-up.
+
+*By Ryan Riggins, Riggins Strategic Solutions. NC Real Estate License #361546, eXp Realty.*
+
+*Last updated June 23, 2026. Important: I am a licensed North Carolina real estate agent, but Riggins Strategic Solutions is an education and media company, not a real estate sales business. I am not here to list or sell your house. This is general education only, not financial, tax, medical, or legal advice. Programs and contacts change, so verify before you rely on them.*
+
+If you're caring for an aging parent in Smithfield, Clayton, Selma, or anywhere in Johnston County, there's more help out there than most families ever hear about. Here it is in plain English, grouped by what you'd actually go looking for. It's part of our growing [Senior Help Directory](/resources/senior-help-directory).
+
+**Three local front doors open most of these:**
+
+- **NC 211:** dial **2-1-1.** Free, 24/7. Routes you to rent, utility, food, and medical help.
+- **Community & Senior Services of Johnston County (CSS):** **919-934-6066.** The county's aging front door (formerly the Council on Aging): meals, in-home aide, caregiver support, senior centers, and the JCATS transit system.
+- **Johnston County DSS:** **919-989-5300.** Medicaid, food benefits, and energy assistance.
+
+## Property tax relief
+
+North Carolina's senior tax programs are administered by **Johnston County Tax Administration** (207 E. Johnston Street, 2nd floor of the Courthouse, Smithfield; mailing P.O. Box 451, Smithfield 27577; **919-989-5130**). The application deadline is **June 1.** Johnston completed a revaluation recently, so watch your mail for relief deadlines and appeal windows.
+
+- **Homestead Exclusion:** greater of $25,000 or 50% off taxable value (including up to one acre of land). Income limit $38,800 for the 2026 tax year. Age 65+ or totally and permanently disabled as of January 1.
+- **Circuit Breaker:** caps tax at 4% of income (up to $38,800) or 5% (up to $58,200). CAUTION: it's a deferral, not forgiveness. The unpaid difference for the current and three prior years becomes a lien with interest, due when the home is sold or the owner passes. It requires a new application every year, and you cannot combine it with the Homestead or Disabled Veteran Exclusion. Understand it before you sign.
+- **Disabled Veteran Exclusion:** $45,000 off, no income limit, no age requirement. An unmarried surviving spouse may also qualify.
+
+All three use Form AV-9, available from the tax office (disabled applicants under 65 also need the AV-9 Certification of Disability). If you missed the June 1 deadline, call and ask: late applications can sometimes be accepted for good cause. For the full walk-through of how these statewide programs work (and the Circuit Breaker lien trap in particular), see our guide to [NC senior property tax relief](/blog/nc-senior-property-tax-relief-guilford-county).
+
+## Food
+
+- **Community & Senior Services of Johnston County (CSS)** runs Home Delivered Meals (Meals on Wheels) for homebound adults 60 and older who cannot prepare or obtain meals and have no one to help, plus congregate dining at senior centers. Delivery currently runs within a five-mile radius of meal sites in Benson, Clayton, Kenly, Micro, Princeton, Selma, and Smithfield, Monday to Friday. **919-934-6066** (1363 West Market Street, Smithfield).
+- **Smithfield Rescue Mission** serves free meals and gives out groceries and food boxes to the hungry and homeless in Johnston County. **919-934-9257** (523 Glenn Street, Smithfield).
+- **The Salvation Army of Johnston County** can provide food and other basic-needs help. **919-934-9102** (306 N. Brightleaf Boulevard, Smithfield).
+- **Food Bank of Central & Eastern North Carolina** supplies a large network of partner pantries and meal sites across Johnston County. Use its online Food Finder at foodbankcenc.org/food-finder or dial 211 to find the pantry nearest you.
+- **SNAP (food stamps)** through Johnston County DSS is income-based, so working families qualify too. Apply at epass.nc.gov or **919-989-5300.**
+
+## Heating, cooling, and utility bills
+
+- **LIEAP** (a one-time heating payment) and the year-round **Crisis Intervention Program (CIP)** for a heating or cooling emergency, through **Johnston County DSS** (714 North Street, Smithfield; **919-989-5300**) or epass.nc.gov. Households with a member 60+ or a disabled member can apply in December.
+- **The Salvation Army of Johnston County** (**919-934-9102**) and other local crisis ministries can help with past-due utilities; let 211 connect you to whichever has funds.
+- **Duke Energy** offers customer assistance for past-due accounts; ask them directly or let 211 connect you.
+
+## Medicare, Medicaid, and prescriptions
+
+- **SHIIP** free, unbiased Medicare counseling from the NC Department of Insurance: **1-855-408-1212.** Community & Senior Services of Johnston County (**919-934-6066**) can also connect you with a local SHIIP counselor. Start here before any Medicare decision.
+- **Medicare Savings Programs** and **Extra Help / Low-Income Subsidy:** apply through Johnston County DSS or ask SHIIP.
+- **NC MedAssist Free Pharmacy** for uninsured NC residents under the income limit: **1-866-331-1348.**
+
+## Home repairs and safety
+
+- **Johnston-Lee-Harnett Community Action (JLHCA)** runs the Weatherization Assistance Program for Johnston County: free energy-efficiency work (insulation, air sealing, weatherstripping, heating and cooling repair or replacement, water-heater insulation, and smoke and carbon-monoxide detectors) for income-eligible households. The elderly, people with disabilities, and families with children are served first; homeowners and renters can qualify. **919-934-2145** (1102 Massey Street, Smithfield) or dial 211.
+- **USDA Section 504** grants up to $10,000 for very-low-income homeowners 62+ in eligible rural areas, through USDA Rural Development.
+- **The CSS Family Caregiver Support Program** can help arrange some home modifications and adaptive equipment for eligible caregiving situations; ask at **919-934-6066.**
+
+## Rent, housing, and emergency cash
+
+- **The Salvation Army of Johnston County** is a main crisis resource for rent, utility, and other emergency help when funds are available. **919-934-9102** (306 N. Brightleaf Boulevard, Smithfield).
+- **Smithfield Rescue Mission** provides shelter, meals, and basic-needs help. **919-934-9257** (523 Glenn Street, Smithfield).
+- **NC 211** is the fastest route to other temporary rent and utility help.
+- **Johnston County DSS** administers emergency and adult services. **919-989-5300.**
+
+## Transportation
+
+- **JCATS (Johnston County Area Transit System)**, operated by Community & Senior Services, provides demand-response, curb-to-curb rides countywide, with most trips being non-emergency medical transportation (in-county and out-of-county). Any Johnston County resident can ride; schedule ahead at **919-202-5030** (1050 W. Noble Street, Selma). Public rides cost $6.00 in county; when a human-service agency schedules your trip, there is often no cost to you.
+- **CSS** also coordinates senior transportation for adults 60 and older to medical appointments, meal sites, and community resources; ask at **919-934-6066.**
+- Residents with full Medicaid and no other way to travel may qualify for free non-emergency medical transportation; ask DSS or JCATS.
+
+## Legal help
+
+- **NC Legal Aid Senior Legal Helpline:** free civil legal help for anyone 60+, no income limit (powers of attorney, wills, Medicaid and benefits, housing, scams). **1-877-579-7562**, Monday to Friday 9 to 11 a.m. and 1 to 3 p.m.
+- **Central Pines Area Agency on Aging** (the regional aging agency for Johnston, formerly Triangle J): free options counseling, benefits help, and the Long-Term Care Ombudsman for nursing-home and assisted-living complaints. **1-800-310-9777.**
+- **Legal Aid of North Carolina** general intake for lower-income residents under 60: **1-866-219-5262.**
+
+## Caregiver support
+
+- **Community & Senior Services of Johnston County** runs the Family Caregiver Support Program: referrals, education, training, and support to make a family caregiver's role more manageable, including help for those caring for people with dementia. It also offers In-Home Aide Services to help elderly and disabled adults stay in their own homes. Intake **919-934-6066** (1363 West Market Street, Smithfield).
+- **Central Pines Area Agency on Aging** also administers the regional Family Caregiver Support Program. **1-800-310-9777.**
+
+## Staying at home instead of a nursing home
+
+- **LIFE St. Joseph of the Pines (Trinity Health PACE)** lists Johnston County in its PACE service area (Johnston and Wayne counties, plus a portion of Harnett). PACE coordinates a senior's entire medical care, primary care, a day center, therapy, personal care, prescriptions, and transportation, so someone who would otherwise qualify for a nursing home can keep living at home, for adults 55+ at a nursing-home level of care. The program's center is in Fayetteville, which can be a distance from parts of Johnston County, so call the Eldercare Locator (**1-800-677-1116**) or 211 to confirm current availability and the nearest day center before enrolling. Main office **910-429-7200** (4900 Raeford Road, Fayetteville).
+
+## How to use this list
+
+Don't try to call all of it. Pick the one pressure point hurting most right now and start there, or call 211 and let them point you. An adult child can call and apply on a parent's behalf, just have proof of age, proof of income, and the paperwork handy.
+
+## Frequently Asked Questions
+
+### Where do I start finding senior help in Johnston County?
+Start with three front doors. NC 211 (dial 2-1-1) is the free 24/7 line that routes you to rent, utility, food, and medical help. Community & Senior Services of Johnston County at 919-934-6066 is the county's aging front door for meals, in-home aide, caregiver support, and senior centers. Johnston County DSS at 919-989-5300 handles Medicaid, food benefits, and energy assistance.
+
+### What property tax relief is available to seniors in Johnston County?
+The statewide North Carolina programs apply through Johnston County Tax Administration at 919-989-5130: the Homestead Exclusion (2026 income limit $38,800), the Circuit Breaker (a deferral that caps tax at 4% or 5% of income up to a $58,200 limit and becomes a lien), and the Disabled Veteran Exclusion ($45,000 off, no income limit). The application deadline is June 1, and the county recently completed a revaluation, so watch your mail for relief and appeal windows.
+
+### How do older adults in Johnston County get meals?
+Community & Senior Services of Johnston County runs Meals on Wheels for homebound seniors 60 and older at 919-934-6066, with congregate dining at senior centers in Benson, Clayton, Kenly, Micro, Princeton, Selma, and Smithfield. The Smithfield Rescue Mission (919-934-9257) gives out groceries and food boxes, the Food Bank of Central & Eastern NC Food Finder lists local pantries, and SNAP is available through Johnston County DSS at 919-989-5300.
+
+### My parent can't drive. What transportation does Johnston County offer?
+JCATS, the Johnston County Area Transit System run by Community & Senior Services, provides demand-response, curb-to-curb rides countywide, with most trips being non-emergency medical transportation. Any resident can ride; schedule ahead at 919-202-5030. Public rides cost $6 in county, and there is often no cost when a human-service agency schedules the trip. Riders with full Medicaid may qualify for free medical transportation.
+
+*I'm Ryan Riggins. I spent years on the investor side of real estate, then switched to [educating families through senior transitions](/freeguide) so they don't get taken advantage of during the hardest season of their lives. This guide is free. If it helped, pass it on.*
+
+*Ryan Riggins | Riggins Strategic Solutions | NC Real Estate License #361546 | eXp Realty | rigginsstrategicsolutions.com*
+
+*Disclaimer: Ryan Riggins is a licensed North Carolina real estate agent (#361546, eXp Realty). Riggins Strategic Solutions is an education and media company, not a real estate sales business. This guide is not a solicitation to buy, sell, or list your home, and it is not financial, tax, medical, or legal advice. We are not financial advisors, tax advisors, attorneys, or medical providers. Programs, income limits, and contacts change and vary by individual situation. Confirm current details directly with each program or a licensed professional before making any decision.*
 
 ---
 
