@@ -267,6 +267,15 @@ export const DIRECTORY_COUNTIES: DirectoryCounty[] = [
       "Smithfield, Clayton, and Johnston County programs for seniors and families: food, utilities, Medicare, home repair, transportation, legal, and caregiver support.",
   },
   {
+    slug: "chatham-county-senior-help-directory",
+    county: "Chatham County",
+    state: "NC",
+    metro: "Pittsboro",
+    region: "Triangle",
+    blurb:
+      "Pittsboro, Siler City, and Chatham County programs for seniors and families: food, utilities, Medicare, home repair, transportation, legal, and caregiver support.",
+  },
+  {
     slug: "mecklenburg-county-senior-help-directory",
     county: "Mecklenburg County",
     state: "NC",
