@@ -297,7 +297,7 @@ export default function SeniorSafePage() {
                 </p>
                 <p className="mt-4 text-ink/85 leading-relaxed">
                   Built for you, not your parent. Maggie knows the full
-                  19-module Blueprint. She recognizes resistant-parent personas.
+                  20-module Blueprint. She recognizes resistant-parent personas.
                   She walks you through wholesaler offers in real time. She
                   remembers your situation across conversations. Available 24/7
                   for the moment the wholesaler letter shows up or the 2 AM

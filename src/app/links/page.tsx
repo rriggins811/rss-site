@@ -87,7 +87,7 @@ const GROUPS: LinkGroup[] = [
     items: [
       {
         label: "The Senior Transition Blueprint ($47)",
-        description: "The full 19-module course with 60-plus done-for-you tools.",
+        description: "The full 20-module course with 70-plus done-for-you tools.",
         href: "/the-blueprint",
       },
       {

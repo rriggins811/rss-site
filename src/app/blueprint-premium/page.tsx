@@ -49,7 +49,7 @@ export const metadata: Metadata = {
 const whatYouGet: { title: string; body: string }[] = [
   {
     title: "Everything in Blueprint Core",
-    body: "The full 19-module system, 65+ tools, 5 exit strategies, and every checklist and script. You get the foundation first.",
+    body: "The full 20-module system, 70+ tools, 5 exit strategies, and every checklist and script. You get the foundation first.",
   },
   {
     title: "A personalized Senior Transition Plan",
@@ -118,7 +118,7 @@ const caseStudies: { title: string; situation: string; what: string; outcome: st
 const faqs: { q: string; a: string }[] = [
   {
     q: "How is this different from Blueprint Core?",
-    a: "Core is the full self-serve system. You work through 19 modules on your own time. Premium is Core plus a personalized plan written for your specific situation, a 60-minute 1-on-1 call with Ryan, and 90 days of email follow-up while you execute. If you want the system, buy Core. If you want the system plus someone in your corner while you run the play, buy Premium.",
+    a: "Core is the full self-serve system. You work through 20 modules on your own time. Premium is Core plus a personalized plan written for your specific situation, a 60-minute 1-on-1 call with Ryan, and 90 days of email follow-up while you execute. If you want the system, buy Core. If you want the system plus someone in your corner while you run the play, buy Premium.",
   },
   {
     q: "What if I need more than 90 days of support?",

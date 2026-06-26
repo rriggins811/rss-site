@@ -5,7 +5,7 @@ import { BlueprintMapClient } from "./BlueprintMapClient";
 export const metadata: Metadata = {
   title: "Blueprint Mind Map",
   description:
-    "Interactive mind map of the 19-module Senior Transition Blueprint with embedded lessons and tool downloads.",
+    "Interactive mind map of the 20-module Senior Transition Blueprint with embedded lessons and tool downloads.",
   alternates: { canonical: "/blueprint-map" },
   robots: {
     index: false,

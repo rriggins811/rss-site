@@ -1,5 +1,5 @@
 /**
- * Structured data for the 19-module Senior Transition Blueprint mind map.
+ * Structured data for the 20-module Senior Transition Blueprint mind map.
  *
  * One row per clickable mind-map node. Each row carries everything the
  * side drawer needs to render: the title, the phase label, the outcome
@@ -54,7 +54,7 @@ export const MODULES: Module[] = [
     phase: "🟫 Start Here",
     outcomes: [
       "Get the lay of the land",
-      "Understand the 19-module path",
+      "Understand the 20-module path",
       "Set the family up for protected decisions",
     ],
     tools: [

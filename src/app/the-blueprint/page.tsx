@@ -83,11 +83,11 @@ const tiers: Tier[] = [
     label: "Blueprint Core",
     price: "$47",
     priceSub: "One-time. 14-day money-back.",
-    title: "The full 19-module system.",
+    title: "The full 20-module system.",
     blurb: "The complete DIY roadmap at your own pace.",
     audience: "Families who want a self-serve plan without the hand-holding.",
     bullets: [
-      "19 modules, 65+ tools and checklists",
+      "20 modules, 70+ tools and checklists",
       "5 exit strategies, not just a traditional listing",
       "Scripts for the hard family conversations",
       "12 months of course access and updates",
@@ -141,7 +141,7 @@ const tiers: Tier[] = [
     bullets: [
       "Everything in SeniorSafe",
       "Maggie, your AI transition specialist, available 24/7",
-      "Full 19-module Blueprint methodology built into Maggie",
+      "Full 20-module Blueprint methodology built into Maggie",
       "Resistant-parent persona detection and predator protection",
     ],
     cta: { href: paymentLinks.seniorSafe, label: "Start free trial", external: true },
@@ -170,13 +170,13 @@ const problemStories: { stat: string; title: string; body: string }[] = [
 
 const included: { heading: string; value: string; body: string }[] = [
   {
-    heading: "19 modules",
-    value: "19",
+    heading: "20 modules",
+    value: "20",
     body: "Assessment, rightsizing, strategy, execution, move management, and the one-year follow-up. Not theory. Field-tested with real families.",
   },
   {
-    heading: "65+ tools",
-    value: "60+",
+    heading: "70+ tools",
+    value: "70+",
     body: "Checklists, scripts, worksheets, decision trees. The exact stuff Ryan uses on client calls. You get them too.",
   },
   {
@@ -193,7 +193,7 @@ const faqs: { q: string; a: string }[] = [
   },
   {
     q: "How is Premium+ different from regular SeniorSafe?",
-    a: "SeniorSafe at $14.99/mo gives you the daily app for the senior plus SeniorSafe AI as a general-purpose helper. Premium+ at $39.99/mo adds Maggie, an AI transition specialist built for the adult child managing the move. Maggie knows the full 19-module Blueprint, recognizes resistant parent personas, and walks you through wholesaler offers in real time. Choose Premium+ if YOU need the navigator, not just the daily check-in tool.",
+    a: "SeniorSafe at $14.99/mo gives you the daily app for the senior plus SeniorSafe AI as a general-purpose helper. Premium+ at $39.99/mo adds Maggie, an AI transition specialist built for the adult child managing the move. Maggie knows the full 20-module Blueprint, recognizes resistant parent personas, and walks you through wholesaler offers in real time. Choose Premium+ if YOU need the navigator, not just the daily check-in tool.",
   },
   {
     q: "Can I start with Core and upgrade to Premium later?",
@@ -236,7 +236,7 @@ export default function BlueprintPage() {
               className="mt-6 max-w-prose"
               topic="What's the Blueprint"
               question="What is the Senior Transition Blueprint?"
-              answer="The Senior Transition Blueprint is a 19-module online course with 60 plus tools that walks families through every stage of a senior transition. Built from eight years of working both sides of these conversations. Covers the questions to ask, the contracts to read carefully, and the conversations most families avoid until it is too late."
+              answer="The Senior Transition Blueprint is a 20-module online course with 70 plus tools that walks families through every stage of a senior transition. Built from eight years of working both sides of these conversations. Covers the questions to ask, the contracts to read carefully, and the conversations most families avoid until it is too late."
             />
             <p className="mt-6 font-serif text-xl text-burgundy-600 leading-snug max-w-prose">
               &ldquo;I&rsquo;m not a move manager and I&rsquo;m not a listing

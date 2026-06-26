@@ -38,7 +38,7 @@ const FREEGUIDE_FAQS: FAQItem[] = [
   {
     question: "How is the free Simple Blueprint different from Blueprint Core ($47)?",
     answer:
-      "The Simple Blueprint is the starter guide — first principles, 10 common mistakes, the four-stage transition framework. Blueprint Core is the full DIY course: 19 modules, 60+ interactive tools and worksheets, the whole playbook Ryan uses with paying clients. Most families start with the free guide and decide from there whether Core is the right next step.",
+      "The Simple Blueprint is the starter guide — first principles, 10 common mistakes, the four-stage transition framework. Blueprint Core is the full DIY course: 20 modules, 70+ interactive tools and worksheets, the whole playbook Ryan uses with paying clients. Most families start with the free guide and decide from there whether Core is the right next step.",
   },
 ];
 

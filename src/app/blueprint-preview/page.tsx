@@ -5,7 +5,7 @@ import { MapCheckoutButton } from "@/components/blueprint-map/MapCheckoutButton"
 export const metadata: Metadata = {
   title: "The Senior Transition Blueprint Map, $9.99",
   description:
-    "Watch the entire 19-module Senior Transition Blueprint explained, module by module, for $9.99. Video lessons, plain-English summaries, and starter tools.",
+    "Watch the entire 20-module Senior Transition Blueprint explained, module by module, for $9.99. Video lessons, plain-English summaries, and starter tools.",
   alternates: { canonical: "/blueprint-preview" },
   // Sales/ad landing page. Kept out of search so it does not compete with the
   // main Blueprint pages; it is reached from ads and direct links.
@@ -109,8 +109,8 @@ export default async function BlueprintMapSalesPage({
           style={{ borderColor: "rgba(28,58,82,0.12)", background: "#ffffff" }}
         >
           {[
-            ["19 video lessons", "A short, plain-English walkthrough of every module, start to finish."],
-            ["The full mind map", "Click any of the 19 modules and see exactly how the pieces connect."],
+            ["20 video lessons", "A short, plain-English walkthrough of every module, start to finish."],
+            ["The full mind map", "Click any of the 20 modules and see exactly how the pieces connect."],
             ["Plain-English summaries", "The key decision, the real numbers, and the common mistake, for each module."],
             ["Starter tools included", "The same essential checklists we hand out with the free guide, ready to use."],
           ].map(([title, body]) => (
@@ -129,7 +129,7 @@ export default async function BlueprintMapSalesPage({
         </div>
       </section>
 
-      {/* What's inside (the 19 modules) */}
+      {/* What's inside (the 20 modules) */}
       <section className="mx-auto max-w-3xl px-6 py-12">
         <h2
           className="m-0 mb-6 text-center text-2xl font-bold"

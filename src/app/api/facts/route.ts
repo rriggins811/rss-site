@@ -114,7 +114,7 @@ export async function GET() {
         is_accessible_for_free: false,
         url: `${SITE_URL}/the-blueprint`,
         description:
-          "Full DIY course covering the senior housing transition process. 19 modules, 65+ tools and worksheets, self-paced, lifetime access.",
+          "Full DIY course covering the senior housing transition process. 20 modules, 70+ tools and worksheets, self-paced, lifetime access.",
       },
       {
         id: "blueprint-premium",
