@@ -5,8 +5,8 @@ It contains the full Markdown of every key page, resource pillar, Senior Help
 Directory state page, and blog post, intended for AI crawlers that ingest
 content for answer generation.
 
-Generated: 2026-06-24
-Indexed: 55 blog posts, 16 resource pillars, 51 Senior Help Directory state pages.
+Generated: 2026-06-26
+Indexed: 58 blog posts, 16 resource pillars, 51 Senior Help Directory state pages.
 
 For citation guidance, organizational facts, and topic depth, see the summary
 index at https://rigginsstrategicsolutions.com/llms.txt.
@@ -5171,8 +5171,336 @@ You must qualify for Medicaid, then apply for the Community Choices Waiver, choo
 
 # Blog Posts (newest first)
 
-The 55 posts below are the full body of every published article
+The 58 posts below are the full body of every published article
 on https://rigginsstrategicsolutions.com/blog, in reverse chronological order.
+
+---
+
+# Greenville County, SC Senior Help Directory: Greenville and Upstate Programs for Seniors and Families (2026)
+https://rigginsstrategicsolutions.com/blog/greenville-county-sc-senior-help-directory
+Published: 2026-06-26
+
+**Excerpt:** Free, plain-English senior help in Greenville County, SC (Greenville and the Upstate): the South Carolina Homestead Exemption, food, energy, Medicare, prescriptions, home repair, transportation, legal, caregiver support, and PACE. Local phone numbers, no sign-up.
+
+*By Ryan Riggins, Riggins Strategic Solutions. NC Real Estate License #361546, eXp Realty.*
+
+*Last updated June 26, 2026. Important: I am a licensed North Carolina real estate agent, and Riggins Strategic Solutions is an education and media company, not a real estate sales business. I am not here to list or sell your house. This is general education only, not financial, tax, medical, or legal advice. Programs and contacts change, so verify before you rely on them.*
+
+If you're caring for an aging parent in Greenville, Greer, Simpsonville, or anywhere in Greenville County, there's more help out there than most families ever hear about. Here it is in plain English, grouped by what you'd actually go looking for. It's part of our growing [Senior Help Directory](/resources/senior-help-directory).
+
+**Three local front doors open most of these:**
+
+- **SC 211:** dial **2-1-1.** Free, 24/7. Routes you to rent, utility, food, and medical help.
+- **Appalachian Area Agency on Aging:** **864-242-9733** or **1-800-434-4036.** The regional aging agency (part of the Appalachian Council of Governments): Medicare counseling, family caregiver support, information and referral.
+- **Greenville County DSS:** **864-467-7700.** Medicaid, food benefits, and adult services.
+
+## Property tax relief
+
+South Carolina's senior property tax break is the statewide **Homestead Exemption**, run through your **County Auditor** (in Greenville County, homestead applications are handled by Real Property Services, Suite S-1000, County Square, 301 University Ridge; **864-467-7300**). Unlike North Carolina, there is **no June 1 deadline** — you can apply any time of year, but apply before the tax bills go out to get the break for that year.
+
+- **South Carolina Homestead Exemption:** exempts the first **$50,000** of the taxable market value of your legal residence from property tax. To qualify, as of December 31 before the tax year you must be (1) age 65 or older, OR totally and permanently disabled (as declared by a state or federal agency), OR legally blind (certified by a licensed ophthalmologist); (2) a legal resident of South Carolina for one calendar year; and (3) the holder of fee simple title or a life estate in your primary residence (a trust beneficiary can qualify). There is **no income limit.**
+- **What to bring:** for age, your birth certificate, SC driver's license, or SC ID; for disability, the agency documentation showing the original disability award date; for blindness, documentation from a licensed ophthalmologist.
+- You do **not** re-apply every year. You only re-file if the eligible owner dies or you move. A surviving spouse can keep the benefit if they take title within nine months, live in the home, and remain unmarried.
+- **Separate, and often bigger:** South Carolina taxes an owner-occupied legal residence at the lower **4 percent assessment ratio** (versus 6 percent) and removes school operating taxes. Ask Real Property Services whether your home is correctly coded as your legal residence at 4 percent, because that classification often saves more than the homestead exemption itself.
+
+A bill to expand senior property tax relief was moving through the South Carolina General Assembly in early 2026. As of this writing it is a pending proposal, not current law, so the $50,000 Homestead Exemption above is the program in force. Confirm the current year's rules with the Greenville County Auditor.
+
+## Food
+
+- **Meals on Wheels of Greenville** delivers a hot midday meal to homebound residents using a large volunteer network. New clients come in by referral (from a physician or a social-service agent). **864-233-6565.**
+- **The Appalachian Area Agency on Aging** also funds home-delivered and congregate (group) meals for adults 60 and older through its regional nutrition program. **864-242-9733** or **1-800-434-4036.**
+- **Harvest Hope Food Bank** operates an emergency pantry in Greenville (2818 White Horse Road; **864-281-3995**), giving a five-to-six-day supply of groceries, and supplies a network of partner pantries; dial 211 to find the closest one.
+- **SNAP (food stamps)** is income-based, so working families qualify too. Apply through Greenville County DSS (**864-467-7700**) or the South Carolina DSS benefits portal. SC Thrive can help you apply for free.
+
+## Heating, cooling, and utility bills
+
+- **LIHEAP (Low Income Home Energy Assistance Program)** in Greenville County is run by **SHARE (Sunbelt Human Advancement Resources)**, the local community action agency, at 254 South Pleasantburg Drive; **864-269-0700.** It helps households at or below 150 percent of the federal poverty level with heating and cooling bills (heating October 1 to April 30, cooling May 1 to September 30), while funds last. Homeowners and renters may apply.
+- For statewide energy-assistance questions, the **South Carolina Office of Economic Opportunity** is at **803-734-0662.**
+- **211** is the fastest way to find a local crisis fund or church ministry with money for a past-due utility bill, and your utility may offer its own customer assistance.
+
+## Medicare, Medicaid, and prescriptions
+
+- **I-CARE** is South Carolina's SHIP program (Insurance Counseling Assistance and Referrals for Elders): free, unbiased one-on-one help with Medicare, Advantage, Part D, Medigap, enrollment, appeals, and fraud. In Greenville, I-CARE is delivered through the **Appalachian Area Agency on Aging** (**864-242-9733** or **1-800-434-4036**). You can also reach the statewide South Carolina Department on Aging line at **1-800-868-9095.** Start here before any Medicare decision.
+- **Healthy Connections** is South Carolina's Medicaid (run by SCDHHS); it can help pay Medicare premiums and long-term care costs for those who qualify. Apply at apply.scdhhs.gov, by phone at **1-888-549-0820**, or through Greenville County DSS.
+- **Medicare Savings Programs** and **Extra Help / Low-Income Subsidy:** screened and applied for through I-CARE or Healthy Connections. South Carolina has no flat statewide drug-payment program, so use I-CARE for Extra Help and BenefitsCheckUp.org for medication patient-assistance programs.
+
+## Home repairs and safety
+
+- **Weatherization Assistance Program:** free energy-efficiency work (insulation, air sealing, weatherstripping, heating and cooling repair or safety fixes) for income-eligible households, with older adults, people with disabilities, and families with children served first. In Greenville County this is run through **SHARE** (254 South Pleasantburg Drive; **864-269-0700**). Application windows open and close, so call to confirm.
+- **USDA Section 504** grants up to $10,000 for very-low-income homeowners 62+ to remove health and safety hazards in eligible rural areas of Greenville County, through USDA Rural Development.
+- **211** can connect you to local home-repair and accessibility-modification help (ramps, grab bars) from area nonprofits and churches.
+
+## Rent, housing, and emergency cash
+
+- **SC 211** is the fastest route to temporary rent and utility help near you and will point you to whichever local ministry or fund has money right now.
+- **SHARE** (**864-269-0700**) runs basic-needs and self-sufficiency programs in addition to energy help.
+- **The Salvation Army** and **United Ministries** in Greenville provide emergency assistance and basic-needs help; 211 can route you to whichever has funds.
+- **Greenville County DSS** administers emergency assistance and adult services. **864-467-7700.**
+
+## Transportation
+
+- **Greenville Area Paratransit (GAP)** is Greenlink's ADA paratransit service for residents who, because of a disability, cannot use the fixed-route buses. It provides shared, origin-to-destination rides within the service area, weekdays roughly 8 a.m. to 5 p.m. For an application or eligibility, call **864-467-2759**; to schedule rides, call **864-467-5000.** Schedule as far ahead as you can (7 to 14 days), because demand is high.
+- **Greenlink** also runs fixed-route buses and trolleys around the Greenville urban area (ridegreenlink.com or 864-467-5000).
+- Residents with full Healthy Connections Medicaid and no other way to travel may qualify for free non-emergency medical transportation; ask Healthy Connections (**1-888-549-0820**) or Greenville County DSS.
+
+## Legal help
+
+- **South Carolina Legal Services** provides free civil legal help to income-eligible residents on elder-law issues (powers of attorney, wills, Medicaid and public benefits, housing, consumer problems, scams). The Greenville office is at 701 South Main Street; **864-679-3232**, or statewide intake **1-888-346-5592.**
+- **The Appalachian Area Agency on Aging** (**864-242-9733** or **1-800-434-4036**) offers free benefits counseling and legal-assistance referrals for older adults, and hosts the regional Long-Term Care Ombudsman for nursing-home and assisted-living complaints.
+- The **South Carolina Bar Lawyer Referral Service** can connect you to a private attorney; 211 can route you there.
+
+## Caregiver support
+
+- **The Appalachian Area Agency on Aging** runs the regional Family Caregiver Support Program for Greenville and the surrounding Upstate counties: one-on-one support, respite, counseling, training, limited short-term financial help, supplemental supplies, and help filling out forms. **864-242-9733** or **1-800-434-4036.**
+- The same agency's Information and Referral specialists link caregivers to local services, and the **Alzheimer's Association 24/7 Helpline** (**1-800-272-3900**) is there any hour for dementia caregiving questions.
+
+## Staying at home instead of a nursing home
+
+- **Prisma Health SeniorCare PACE-Upstate** is the Program of All-Inclusive Care for the Elderly serving **Greenville, Pickens, and Anderson** counties. PACE bundles a senior's entire care, primary care, an adult day health center, therapy, personal care, prescriptions, meals, and transportation, into one program so someone who would otherwise qualify for a nursing home can keep living at home. For adults 55+ certified by SCDHHS as meeting a nursing-home level of care who can live safely in the community with PACE support; a referral can come from a family member, physician, or case worker. Intake **864-522-1950.**
+
+## How to use this list
+
+Don't try to call all of it. Pick the one pressure point hurting most right now and start there, or call 211 and let them point you. An adult child can call and apply on a parent's behalf, just have proof of age, proof of residency, and the paperwork handy.
+
+## Frequently Asked Questions
+
+### Where do I start finding senior help in Greenville County, SC?
+Start with three front doors. SC 211 (dial 2-1-1) is the free 24/7 line that routes you to rent, utility, food, and medical help. The Appalachian Area Agency on Aging at 864-242-9733 is the regional aging agency for Medicare counseling and caregiver support. Greenville County DSS at 864-467-7700 handles Medicaid, food benefits, and adult services.
+
+### What property tax relief is available to seniors in Greenville County, SC?
+South Carolina's senior break is the statewide Homestead Exemption, applied through the County Auditor (Greenville routes applications through Real Property Services at 864-467-7300). It exempts the first $50,000 of your legal residence's fair market value for owners 65 or older, totally and permanently disabled, or legally blind, with no income limit. There is no June 1 deadline, but apply before tax bills go out. Separately, ask whether your home is coded at the lower 4 percent legal-residence assessment ratio, which often saves even more.
+
+### How do older adults in Greenville County get meals?
+Meals on Wheels of Greenville delivers a hot midday meal to homebound seniors by referral at 864-233-6565, and the Appalachian Area Agency on Aging (864-242-9733) funds home-delivered and group meals. Harvest Hope Food Bank runs an emergency pantry at 864-281-3995, and SNAP is available through Greenville County DSS at 864-467-7700.
+
+### What is PACE and is it available in Greenville County?
+Yes. Prisma Health SeniorCare PACE-Upstate serves Greenville, Pickens, and Anderson counties. PACE bundles a senior's entire care (primary care, an adult day center, therapy, prescriptions, meals, and transportation) into one program for adults 55 and older who meet a nursing-home level of care and can live safely at home with support. Intake is 864-522-1950.
+
+*I'm Ryan Riggins. I spent years on the investor side of real estate, then switched to [educating families through senior transitions](/freeguide) so they don't get taken advantage of during the hardest season of their lives. This guide is free. If it helped, pass it on.*
+
+*Ryan Riggins | Riggins Strategic Solutions | NC Real Estate License #361546 | eXp Realty | rigginsstrategicsolutions.com*
+
+*Disclaimer: Ryan Riggins is a licensed North Carolina real estate agent (#361546, eXp Realty). Riggins Strategic Solutions is an education and media company, not a real estate sales business. This guide is not a solicitation to buy, sell, or list your home, and it is not financial, tax, medical, or legal advice. We are not financial advisors, tax advisors, attorneys, or medical providers. Programs, income limits, and contacts change and vary by individual situation. Confirm current details directly with each program or a licensed professional before making any decision.*
+
+---
+
+# We Buy Houses Letters and Your Aging Parents: What the Cash Offer Really Costs
+https://rigginsstrategicsolutions.com/blog/we-buy-houses-aging-parents-cash-offer-cost
+Published: 2026-06-26
+
+**Excerpt:** Those we-buy-houses offers your parents keep getting are often from unlicensed wholesalers who net sellers about 60 percent of value. Here is how the play works and the one move that protects your family.
+
+For about 8 years, I was the person sending those letters.
+
+You know the ones. The handwritten-looking postcard that shows up in your mom's mailbox. We buy houses, any condition, fast cash, no repairs, close in seven days. I mailed thousands of them, aimed straight at paid-off homes owned by people in their seventies and eighties. I was on the buying side of houses, and I am being honest with you about it because most people on that side never will be.
+
+Here is the truth I learned doing it: the whole model only works when the seller knows less than the buyer. That is not a side effect. That is the engine. The faster a family feels, the more overwhelmed they are, the better the deal got for me. A daughter calling from three states away because dad just had a fall and the house has to go, that was the call we wanted.
+
+I walked away from that side because I got tired of profiting from the worst week of a family's life. Now I help families see the whole board before they sign anything. And right now, with one state cracking down and the letters still landing in mailboxes every day, this is worth two minutes of your time.
+
+Because the cash offer your parents are looking at is almost never what it seems.
+
+## What just changed, and what has not
+
+In early 2026, lawmakers in Ohio passed a law requiring real estate wholesalers to disclose their business model before they put a contract in front of a homeowner. The reporting on it, from Spectrum News 1, was direct about why: these practices disproportionately hit the elderly, and the people doing it often hide what they actually are.
+
+That word, wholesaler, is the one your parents need to understand. A wholesaler is not buying the house to live in it or even to fix it up. They get the homeowner to sign a purchase contract at a low price, then they sell that contract to a real buyer for more than they agreed to pay. The difference is their profit, and your parent never sees it.
+
+How much does that cost a family? An official with the North Carolina Attorney General's office has said that homeowners who sell to wholesalers often receive only about 60 percent of their home's fair market value. On a 300,000 dollar house, that gap is 120,000 dollars. That is not a discount for convenience. That is your parents' care money, their assisted living deposit, their cushion, gone.
+
+It gets worse on the licensing side. In most states, real estate agents are licensed and regulated. Wholesalers, in many states, are not. AARP has warned for years about the we-will-buy-your-home mailers and the high-pressure tactics behind them. A separate investigation into the HomeVestors franchise, the company behind the We Buy Ugly Houses brand, surfaced specific concerns about soliciting sales from elderly homeowners who were starting to show signs of dementia, with mass mailings promising quick cash and a painless sale.
+
+None of this is necessarily illegal. That is exactly why it is dangerous. It is legal, it is fast, and it is built to feel like a favor.
+
+## What it means for your family
+
+If your parents own their home, assume they are on these mailing lists. Paid-off homes owned by older adults are the prime target, because there is equity to take and, often, a family that is stretched too thin to slow down and check the math.
+
+### The cost is hidden inside the convenience
+
+Every selling point of the cash offer is real. No showings. No repairs. No agent. Quick close. The problem is that families hear those benefits and never put a dollar figure next to what they are giving up to get them. A traditional sale has costs too, agent commission, some prep, a few weeks of patience. But the gap between a fair-market sale and a 60-percent wholesale offer is almost always far bigger than the cost of doing it the normal way. You are trading tens of thousands of dollars for a few weeks of speed.
+
+### Pressure is the tell
+
+In my experience on the buying side, urgency was the tool. A real buyer paying a fair price can wait for you to think, to ask questions, to get a second opinion. The whole pitch falls apart if you slow down, so the pitch is designed to keep you from slowing down. If anyone is pushing your parents to sign today, to skip a lawyer, to not bother getting the home appraised, that pressure is the product. Treat it as a warning light, not a kindness.
+
+### Your parents may not tell you
+
+This is the quiet part. A lot of seniors do not mention the offer to their kids, either because they do not want to be a burden or because the offer made them feel like they were finally handling something. By the time the family finds out, the contract is sometimes already signed. Ask your parents directly, gently, whether they have gotten any of these letters or calls. You are not being nosy. You are being the second set of eyes the wholesaler is counting on them not having.
+
+## The steps that protect your parents
+
+You do not need to become a real estate expert. You need a short, boring checklist that you run before anyone signs anything.
+
+### 1. Get the real net number in writing
+
+Before you react to any offer, find out what the home would actually sell for on the open market and what your parents would net after normal selling costs. A free online net proceeds calculator gets you a working number in a few minutes. A licensed local agent will give you a comparative market analysis for nothing. Put that fair-market net next to the cash offer and look at the gap in plain dollars. That single comparison ends most of these deals on the spot.
+
+### 2. Slow the clock down on purpose
+
+Tell the buyer your family needs a week. A legitimate buyer will wait. If the offer evaporates the moment you ask for time, you just learned everything you needed to know. Speed that cannot survive a week was never on your side.
+
+### 3. Run the offer past a licensed professional
+
+Have a licensed real estate agent or a real estate attorney look at the contract before your parents sign. This is the step wholesalers most want you to skip, which is exactly why it matters. An attorney can spot assignment clauses, the language that lets the buyer flip your contract, and explain what your parents are really agreeing to.
+
+### 4. Know there is more than one door
+
+Families often think the choice is take the lowball cash offer or do nothing. There are usually several paths, a normal listing, a sale with repairs handled, and creative options for situations with little equity or a foreclosure clock running. Knowing the full menu is what keeps a family from grabbing the first thing that promises to make the stress stop.
+
+### 5. Put it all on paper before the crisis
+
+The reason families get caught is that the offer shows up during a crisis, when there is no time to think. If you map your parents' situation before the emergency, you make these decisions from a position of information instead of panic.
+
+## Frequently Asked Questions
+
+### Are we-buy-houses companies a scam?
+Not always, and not usually in the legal sense. Many are legitimate businesses, but the model often relies on speed and a seller who does not know the home's true value. The risk is not that it is illegal. The risk is that your parents leave a large amount of money on the table without realizing it. Always compare the offer to a fair-market net before signing.
+
+### How much less do you get selling to a wholesaler?
+It varies, but an official with the North Carolina Attorney General's office has said sellers who go this route often net only about 60 percent of fair market value. On a home worth 300,000 dollars, that can mean walking away with roughly 120,000 dollars less than a traditional sale would have produced.
+
+### What is a real estate wholesaler?
+A wholesaler signs a contract to buy a home at a low price, then sells that contract to another buyer for more than they agreed to pay. They pocket the difference and often never own the home at all. In many states, wholesalers are not licensed the way real estate agents are.
+
+### How do I protect my elderly parent from a lowball home offer?
+Get the real fair-market net in writing first, ask for a week to decide, and have a licensed agent or real estate attorney review the contract before signing. If the buyer pressures your parent to skip those steps, treat it as a red flag.
+
+### Is it better to sell my parents' house with an agent or for cash?
+It depends on the situation, but for most families the gap between a fair-market sale and a wholesale cash offer is far larger than the cost and time of a normal sale. Run both numbers side by side before deciding, and remember there are more than two options.
+
+## About Ryan Riggins
+
+Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafe app](https://seniorsafeapp.com).
+
+---
+
+**See what your parents would actually net.** Free Net Proceeds Calculator: rigginsstrategicsolutions.com/tools/net-proceeds-calculator
+
+**Not sure which path fits?** The free Strategic Exit Engine walks the five ways to sell a senior's home: rigginsstrategicsolutions.com/tools/strategic-exit-engine
+
+**Want a step-by-step guide?** The free Simple Blueprint walks through every stage of a senior transition: rigginsstrategicsolutions.com/freeguide
+
+**Ready for the full system?** Senior Transition Blueprint Core, 19 modules and 60+ tools: rigginsstrategicsolutions.com/the-blueprint
+
+**Talk it through.** Book a free 20-min call with Ryan: rigginsstrategicsolutions.com/work-with-ryan
+
+### Get the SeniorSafe App
+
+[Download on the App Store](https://apps.apple.com/us/app/seniorsafe-app/id6761343239)
+
+[Get it on Google Play](https://play.google.com/store/apps/details?id=com.rigginsstrategicsolutions.seniorsafe)
+
+Ryan Riggins is the founder of Riggins Strategic Solutions, a consumer protection company for families navigating senior transitions. He spent 8 years in construction project management and house flipping before switching sides. Two books on Amazon. Free resources at rigginsstrategicsolutions.com.
+
+---
+
+# York County, SC Senior Help Directory: Rock Hill and Local Programs for Seniors and Families (2026)
+https://rigginsstrategicsolutions.com/blog/york-county-sc-senior-help-directory
+Published: 2026-06-26
+
+**Excerpt:** Free, plain-English senior help in York County, SC (Rock Hill and the surrounding towns): the South Carolina Homestead Exemption, food, energy, Medicare, prescriptions, home repair, transportation, legal, and caregiver support. Local phone numbers, no sign-up.
+
+*By Ryan Riggins, Riggins Strategic Solutions. NC Real Estate License #361546, eXp Realty.*
+
+*Last updated June 26, 2026. Important: I am a licensed North Carolina real estate agent, and Riggins Strategic Solutions is an education and media company, not a real estate sales business. I am not here to list or sell your house. This is general education only, not financial, tax, medical, or legal advice. Programs and contacts change, so verify before you rely on them.*
+
+If you're caring for an aging parent in Rock Hill, Fort Mill, Clover, or anywhere in York County, there's more help out there than most families ever hear about. Here it is in plain English, grouped by what you'd actually go looking for. It's part of our growing [Senior Help Directory](/resources/senior-help-directory).
+
+**Three local front doors open most of these:**
+
+- **SC 211:** dial **2-1-1.** Free, 24/7. Routes you to rent, utility, food, and medical help.
+- **York County Council on Aging:** **803-328-0197.** The county's lead senior agency: Meals on Wheels, senior centers, homemaker help, and the York County Access ride service.
+- **Catawba Area Agency on Aging:** **803-329-9670** or **1-800-662-8330.** The regional aging agency: Medicare counseling, family caregiver support, and the ombudsman.
+
+## Property tax relief
+
+South Carolina's senior property tax break is the statewide **Homestead Exemption**, and in York County you apply for it at the **County Auditor's Office** (Rock Hill office at the York County Complex, 1070 Heckle Boulevard, Suite 1100; **803-909-7272**; York office **803-684-8501**). Unlike North Carolina, there is **no June 1 deadline** — you can apply any time, but apply before the tax bills go out to get the break for that year.
+
+- **South Carolina Homestead Exemption (S.C. Code 12-37-250):** exempts the first **$50,000** of fair market value of your primary residence from all property taxes. If your primary residence is valued at $50,000 or less, it is fully exempt. To qualify, as of December 31 before the tax year you must be age 65 or older, OR totally and permanently disabled, OR legally blind, and a legal resident of South Carolina. There is **no income limit.**
+- **Deed detail York County spells out:** if the deed is in your name and your spouse's name, you get the full $50,000 exemption as long as one of you qualifies. If the deed is in your name and someone other than a spouse, you get only the share of the exemption equal to your ownership interest shown on the deed.
+- **A separate, often bigger break:** the **Special Assessment as Legal Residence** (the 4 percent assessment ratio) is a different application handled by the **Tax Assessor's Office.** It taxes an owner-occupied home at the lower 4 percent ratio (versus 6 percent) and removes school operating taxes, and it often saves more than the homestead exemption. Ask the Assessor about the 4 percent classification and the Auditor about the senior Homestead Exemption — they are two different breaks and you can have both.
+
+A bill to expand senior property tax relief was moving through the South Carolina General Assembly in early 2026. As of this writing it is a pending proposal, not current law, so the $50,000 Homestead Exemption above is the program in force. Confirm the current year's rules with the York County Auditor.
+
+## Food
+
+- **York County Council on Aging** runs Meals on Wheels, delivering meals to homebound seniors who cannot prepare food for themselves, plus congregate (group) lunches at its senior centers around the county. To start home-delivered meals, call **803-328-0197, extension 302.**
+- **The Catawba Area Agency on Aging** funds senior nutrition (home-delivered and congregate meals) across the four-county Catawba region; **803-329-9670** or **1-800-662-8330.**
+- **Second Harvest Food Bank of Metrolina** serves York County and supplies a network of local pantries (its local affiliate, Second Harvest Partners, is a coalition of congregations across York and Lancaster counties). Use the agency finder at secondharvestmetrolina.org or dial 211.
+- **SNAP (food stamps)** is income-based, so working families qualify too. Apply through York County DSS (**803-909-7446**) or the South Carolina DSS benefits portal. SC Thrive can help you apply for free.
+
+## Heating, cooling, and utility bills
+
+- **LIHEAP (Low Income Home Energy Assistance Program)** in York County is run by **Carolina Community Actions, Inc.**, the local community action agency (York County office at 546 South Cherry Road, Suite S, Rock Hill). For LIHEAP and CSBG (bill-payment and energy-crisis help), call **803-366-5537**; for weatherization, call **803-324-9767.** Priority goes to vulnerable households, including those who are elderly, disabled, or have young children. Homeowners and renters may apply.
+- For statewide energy-assistance questions, the **South Carolina Office of Economic Opportunity** is at **803-734-0662.**
+- **211** is the fastest way to find a local crisis fund or church ministry with money for a past-due utility bill, and your utility may offer its own customer assistance.
+
+## Medicare, Medicaid, and prescriptions
+
+- **I-CARE** is South Carolina's SHIP program (Insurance Counseling Assistance and Referrals for Elders): free, unbiased one-on-one help with Medicare, Advantage, Part D, Medigap, enrollment, appeals, and fraud. In York County, I-CARE is delivered through the **Catawba Area Agency on Aging** (**803-329-9670** or **1-800-662-8330**). You can also reach the statewide South Carolina Department on Aging line at **1-800-868-9095.** Start here before any Medicare decision.
+- **Healthy Connections** is South Carolina's Medicaid (run by SCDHHS); it can help pay Medicare premiums and long-term care costs for those who qualify. Apply at apply.scdhhs.gov, by phone at **1-888-549-0820**, or through York County DSS.
+- **Medicare Savings Programs** and **Extra Help / Low-Income Subsidy:** screened and applied for through I-CARE or Healthy Connections. South Carolina has no flat statewide drug-payment program, so use I-CARE for Extra Help and BenefitsCheckUp.org for medication patient-assistance programs.
+
+## Home repairs and safety
+
+- **Weatherization Assistance Program:** free energy-efficiency work (insulation, air sealing, weatherstripping, heating and cooling repair or safety fixes) for income-eligible households, with older adults, people with disabilities, and families with young children served first. In York County this is run through **Carolina Community Actions, Inc.**; call the weatherization line at **803-324-9767.** Application windows open and close, so call to confirm.
+- **USDA Section 504** grants up to $10,000 for very-low-income homeowners 62+ to remove health and safety hazards in eligible rural areas of York County, through USDA Rural Development.
+- **York County Council on Aging** offers homemaker services that help an older adult keep the home safe and manageable; ask at **803-328-0197.** Dial 211 for local ramp-building and accessibility help.
+
+## Rent, housing, and emergency cash
+
+- **SC 211** is the fastest route to temporary rent and utility help near you and will point you to whichever local ministry or fund has money right now.
+- **Carolina Community Actions, Inc.** (**803-366-5537**) runs basic-needs and self-sufficiency programs in addition to energy help.
+- **Pilgrims' Inn, HOPE in Rock Hill, and the Salvation Army** provide emergency assistance and basic-needs help in York County; 211 can route you to whichever has funds.
+- **York County DSS** administers emergency assistance and adult services. **803-909-7446.**
+
+## Transportation
+
+- **York County Access** is the county's senior and medical ride service, operated by the York County Council on Aging as a cooperative effort between York County and the City of Rock Hill. It provides rides countywide to the doctor, pharmacy, grocery store, and to medical treatment such as dialysis and chemotherapy. To request and schedule a trip, call **803-327-6694, extension 2.**
+- **My Ride Rock Hill** runs fixed-route city buses in the Rock Hill area, and **My Ride Direct** is its ADA paratransit service for people whose disability keeps them off the fixed routes (fare-free for eligible riders, weekdays roughly 6 a.m. to 6 p.m., scheduled at least 48 hours ahead). Details at myriderockhill.com.
+- Residents with full Healthy Connections Medicaid and no other way to travel may qualify for free non-emergency medical transportation; ask Healthy Connections (**1-888-549-0820**) or York County DSS.
+
+## Legal help
+
+- **South Carolina Legal Services** provides free civil legal help to income-eligible residents on elder-law issues (powers of attorney, wills, Medicaid and public benefits, housing, consumer problems, scams). The Rock Hill office, which serves York, Chester, Fairfield, and Lancaster counties, is at 214 Johnston Street; **803-327-9001**, or statewide intake **1-888-346-5592.**
+- **The Catawba Area Agency on Aging** (**803-329-9670** or **1-800-662-8330**) offers free benefits counseling and legal-assistance referrals for older adults, and hosts the regional Long-Term Care Ombudsman for nursing-home and assisted-living complaints.
+- The **South Carolina Bar Lawyer Referral Service** can connect you to a private attorney; 211 can route you there.
+
+## Caregiver support
+
+- **The Catawba Area Agency on Aging** runs the regional Family Caregiver Support Program, called Catawba Caregiver Access, for York and the surrounding Catawba-region counties: one-on-one support, respite, counseling, training, supplemental supplies, and help navigating services. **803-329-9670** or **1-800-662-8330.**
+- **York County Council on Aging's** homemaker and in-home services give working family caregivers some relief; ask at **803-328-0197.** The **Alzheimer's Association 24/7 Helpline** (**1-800-272-3900**) is there any hour for dementia caregiving questions.
+
+## Staying at home instead of a nursing home
+
+- **York County does not currently have a local PACE site.** South Carolina's PACE programs operate in other counties (the nearest are in the Upstate, serving Greenville, Pickens, and Anderson), so PACE is not an option inside York County at this time.
+- The route to staying home in York County is South Carolina's Medicaid home and community based care. **Healthy Connections Community Long Term Care** can provide in-home personal care, adult day services, and other supports for people who would otherwise need a nursing home. Ask Healthy Connections (**1-888-549-0820**) or York County DSS about Community Long Term Care and the Medicaid waiver.
+- **The Catawba Area Agency on Aging** (**803-329-9670**) can help you weigh in-home options, and the **Eldercare Locator** (**1-800-677-1116**) can compare programs. The York County Council on Aging's Meals on Wheels, homemaker help, and York County Access rides also help an older adult stay in the home longer.
+
+## How to use this list
+
+Don't try to call all of it. Pick the one pressure point hurting most right now and start there, or call 211 and let them point you. An adult child can call and apply on a parent's behalf, just have proof of age, proof of residency, and the paperwork handy.
+
+## Frequently Asked Questions
+
+### Where do I start finding senior help in York County, SC?
+Start with three front doors. SC 211 (dial 2-1-1) is the free 24/7 line that routes you to rent, utility, food, and medical help. The York County Council on Aging at 803-328-0197 is the county's lead senior agency for meals, senior centers, and rides. The Catawba Area Agency on Aging at 803-329-9670 is the regional aging agency for Medicare counseling and caregiver support.
+
+### What property tax relief is available to seniors in York County, SC?
+South Carolina's senior break is the statewide Homestead Exemption, applied at the York County Auditor's Office (Rock Hill 803-909-7272). It exempts the first $50,000 of fair market value of your primary residence from all property taxes for owners 65 or older, totally and permanently disabled, or legally blind, with no income limit and no June 1 deadline. Separately, the Tax Assessor's Office handles the 4 percent legal-residence assessment ratio, a different break that often saves more. You can have both.
+
+### How do older adults in York County get meals?
+The York County Council on Aging runs Meals on Wheels for homebound seniors and congregate lunches at its senior centers; call 803-328-0197, extension 302. The Catawba Area Agency on Aging (803-329-9670) also funds senior meals, Second Harvest Food Bank of Metrolina supplies local pantries, and SNAP is available through York County DSS at 803-909-7446.
+
+### Is there PACE in York County, and how do we keep a parent at home?
+York County does not currently have a local PACE site. The route to staying home here is South Carolina's Medicaid home and community based care: Healthy Connections Community Long Term Care can provide in-home personal care, adult day services, and other supports for people who would otherwise need a nursing home. Ask Healthy Connections at 1-888-549-0820 or York County DSS, and the Catawba Area Agency on Aging (803-329-9670) can help you compare options.
+
+*I'm Ryan Riggins. I spent years on the investor side of real estate, then switched to [educating families through senior transitions](/freeguide) so they don't get taken advantage of during the hardest season of their lives. This guide is free. If it helped, pass it on.*
+
+*Ryan Riggins | Riggins Strategic Solutions | NC Real Estate License #361546 | eXp Realty | rigginsstrategicsolutions.com*
+
+*Disclaimer: Ryan Riggins is a licensed North Carolina real estate agent (#361546, eXp Realty). Riggins Strategic Solutions is an education and media company, not a real estate sales business. This guide is not a solicitation to buy, sell, or list your home, and it is not financial, tax, medical, or legal advice. We are not financial advisors, tax advisors, attorneys, or medical providers. Programs, income limits, and contacts change and vary by individual situation. Confirm current details directly with each program or a licensed professional before making any decision.*
 
 ---
 

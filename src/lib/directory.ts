@@ -284,6 +284,24 @@ export const DIRECTORY_COUNTIES: DirectoryCounty[] = [
     blurb:
       "Charlotte and Mecklenburg County programs for seniors and families, including free tax-relief application help: food, utilities, Medicare, transportation, legal, and caregiver support.",
   },
+  {
+    slug: "greenville-county-sc-senior-help-directory",
+    county: "Greenville County",
+    state: "SC",
+    metro: "Greenville",
+    region: "Upstate",
+    blurb:
+      "Greenville and Upstate South Carolina programs for seniors and families: the SC Homestead Exemption, food, utilities, Medicare, home repair, transportation, legal, caregiver support, and PACE.",
+  },
+  {
+    slug: "york-county-sc-senior-help-directory",
+    county: "York County",
+    state: "SC",
+    metro: "Rock Hill",
+    region: "Rock Hill",
+    blurb:
+      "Rock Hill and York County, SC programs for seniors and families: the SC Homestead Exemption, food, utilities, Medicare, home repair, transportation, legal, and caregiver support.",
+  },
 ];
 
 export type DirectoryState = {
