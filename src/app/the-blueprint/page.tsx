@@ -20,7 +20,7 @@ import { abs } from "@/lib/site";
 export const metadata: Metadata = {
   title: "The Blueprint | Senior Transition Tiers",
   description:
-    "Five ways to work with Ryan Riggins on a senior housing transition. Free Simple Blueprint, $47 Blueprint Core, $297 Blueprint Premium, $14.99/mo SeniorSafe, and $39.99/mo Premium+ with Maggie, your AI transition specialist.",
+    "Five ways to work with Ryan Riggins on a senior housing transition. Free Simple Blueprint, $47 Blueprint Core, $297 Senior Transition Roadmap, $14.99/mo SeniorSafe, and $39.99/mo Premium+ with Maggie, your AI transition specialist.",
   alternates: { canonical: "/the-blueprint" },
   openGraph: {
     type: "website",
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     siteName: "Riggins Strategic Solutions",
     title: "The Blueprint | Senior Transition Tiers",
     description:
-      "Five ways to work with Ryan Riggins on a senior housing transition. Free Simple Blueprint, $47 Blueprint Core, $297 Blueprint Premium, $14.99/mo SeniorSafe, and $39.99/mo Premium+ with Maggie.",
+      "Five ways to work with Ryan Riggins on a senior housing transition. Free Simple Blueprint, $47 Blueprint Core, $297 Senior Transition Roadmap, $14.99/mo SeniorSafe, and $39.99/mo Premium+ with Maggie.",
     images: [
       {
         url: "https://rigginsstrategicsolutions.com/og/the-blueprint.png",
@@ -98,7 +98,7 @@ const tiers: Tier[] = [
     alt: "Blueprint Core planning materials and checklists",
   },
   {
-    label: "Blueprint Premium",
+    label: "Senior Transition Roadmap",
     price: "$297",
     priceSub: "One-time. 14-day money-back before the call.",
     title: "Core plus Ryan in your corner.",
@@ -110,8 +110,8 @@ const tiers: Tier[] = [
       "60-minute 1-on-1 call with Ryan",
       "90 days of email support while you execute",
     ],
-    cta: { href: paymentLinks.blueprintPremium, label: "Get Blueprint Premium, $297", external: true },
-    learnMore: { href: "/blueprint-premium", label: "See how Premium works, with an example plan" },
+    cta: { href: paymentLinks.blueprintPremium, label: "Get Senior Transition Roadmap, $297", external: true },
+    learnMore: { href: "/blueprint-premium", label: "See how the Roadmap works, with an example plan" },
     image: "/photos/blueprint_premium_zoom_call_297.jpg",
     alt: "Ryan Riggins on a Zoom consultation with a family",
     accent: true,
@@ -190,16 +190,16 @@ const included: { heading: string; value: string; body: string }[] = [
 
 const faqs: { q: string; a: string }[] = [
   {
-    q: "How is Blueprint Premium different from Core?",
-    a: "Core is the full self-serve system. Premium is Core plus a personalized plan written for your specific situation, a 60-minute 1-on-1 call with Ryan, and 90 days of email follow-up while you execute. If you want someone in your corner, not just a playbook, Premium is the pick.",
+    q: "How is Senior Transition Roadmap different from Core?",
+    a: "Core is the full self-serve system. The Roadmap is Core plus a personalized plan written for your specific situation, a 60-minute 1-on-1 call with Ryan, and 90 days of email follow-up while you execute. If you want someone in your corner, not just a playbook, the Roadmap is the pick.",
   },
   {
     q: "How is Premium+ different from regular SeniorSafe?",
     a: "SeniorSafe at $14.99/mo gives you the daily app for the senior plus SeniorSafe AI as a general-purpose helper. Premium+ at $39.99/mo adds Maggie, an AI transition specialist built for the adult child managing the move. Maggie knows the full 20-module Blueprint, recognizes resistant parent personas, and walks you through wholesaler offers in real time. Choose Premium+ if YOU need the navigator, not just the daily check-in tool.",
   },
   {
-    q: "Can I start with Core and upgrade to Premium later?",
-    a: "Yes. When you buy Blueprint Core at $47, you get an email within minutes with a discount code that credits the $47 toward Blueprint Premium whenever you decide to upgrade. No double-paying.",
+    q: "Can I start with Core and upgrade to the Roadmap later?",
+    a: "Yes. When you buy Blueprint Core at $47, you get an email within minutes with a discount code that credits the $47 toward Senior Transition Roadmap whenever you decide to upgrade. No double-paying.",
   },
   {
     q: "What if I'm not in North Carolina?",
@@ -207,7 +207,7 @@ const faqs: { q: string; a: string }[] = [
   },
   {
     q: "Is there a money-back guarantee?",
-    a: "Yes. Blueprint Core has a 14-day money-back guarantee. Blueprint Premium has a 14-day money-back guarantee up until the consultation call happens. SeniorSafe and Premium+ are both 14-day free trials, cancel anytime, no charge.",
+    a: "Yes. Blueprint Core has a 14-day money-back guarantee. Senior Transition Roadmap has a 14-day money-back guarantee up until the consultation call happens. SeniorSafe and Premium+ are both 14-day free trials, cancel anytime, no charge.",
   },
 ];
 
@@ -399,9 +399,9 @@ export default function BlueprintPage() {
         <div className="mx-auto max-w-6xl px-6 py-20">
           <div className="max-w-2xl">
             <GoldRule />
-            <h2 className="mt-3">What&rsquo;s inside Core and Premium.</h2>
+            <h2 className="mt-3">What&rsquo;s inside Core and the Roadmap.</h2>
             <p className="mt-4 text-lg text-ink/80">
-              The paid tiers both start from the same foundation. Premium adds
+              The paid tiers both start from the same foundation. The Roadmap adds
               the personal layer on top.
             </p>
           </div>
@@ -427,7 +427,7 @@ export default function BlueprintPage() {
           <GoldRule className="mx-auto" />
           <h2 className="mt-3 text-cream">Risk is on me, not you.</h2>
           <p className="mt-6 text-lg text-cream/90 max-w-2xl mx-auto leading-relaxed">
-            Blueprint Core has a 14-day money-back guarantee. Blueprint Premium
+            Blueprint Core has a 14-day money-back guarantee. Senior Transition Roadmap
             has a 14-day money-back guarantee up until the consultation call
             happens. SeniorSafe and Premium+ are both 14-day free trials. If
             it&rsquo;s not the right fit, you walk. No hassle, no guilt trip.

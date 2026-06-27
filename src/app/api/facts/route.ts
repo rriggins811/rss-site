@@ -118,7 +118,7 @@ export async function GET() {
       },
       {
         id: "blueprint-premium",
-        name: "Blueprint Premium",
+        name: "Senior Transition Roadmap",
         type: "Senior Transition Advisory",
         price_usd: 297,
         billing: "one-time",

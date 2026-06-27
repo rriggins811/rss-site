@@ -65,7 +65,7 @@ const paths: {
   },
   {
     tag: "Guided",
-    title: "Blueprint Premium",
+    title: "Senior Transition Roadmap",
     price: "$297 one-time",
     blurb: "For families who want Ryan in their corner.",
     bullets: [
@@ -73,7 +73,7 @@ const paths: {
       "60-minute 1-on-1 call with Ryan",
       "90 days of email support while you execute",
     ],
-    cta: { href: "/blueprint-premium", label: "See what's in Premium" },
+    cta: { href: "/blueprint-premium", label: "See what's in the Roadmap" },
     image: "/photos/blueprint_premium_zoom_call_297.jpg",
     alt: "Ryan on a Zoom consultation call with a family",
     accent: true,

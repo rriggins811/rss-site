@@ -18,7 +18,7 @@ const FREEGUIDE_FAQS: FAQItem[] = [
   {
     question: "How much does it cost?",
     answer:
-      "It's free. Email signup, no credit card, no upsell during checkout. The Simple Blueprint is the entry-level resource — there are paid Blueprint Core ($47) and Blueprint Premium ($297) products for families who want more, but those are entirely optional.",
+      "It's free. Email signup, no credit card, no upsell during checkout. The Simple Blueprint is the entry-level resource — there are paid Blueprint Core ($47) and Senior Transition Roadmap ($297) products for families who want more, but those are entirely optional.",
   },
   {
     question: "What happens after I sign up?",

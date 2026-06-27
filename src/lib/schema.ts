@@ -544,7 +544,7 @@ export function blueprintCourseSchema() {
 }
 
 /**
- * Product schema for Blueprint Premium ($297 advisory). Mounted on
+ * Product schema for Senior Transition Roadmap ($297 advisory). Mounted on
  * /blueprint-premium.
  */
 export function blueprintPremiumProductSchema() {
@@ -552,9 +552,9 @@ export function blueprintPremiumProductSchema() {
   return {
     "@context": "https://schema.org",
     "@type": "Product",
-    name: "Blueprint Premium",
+    name: "Senior Transition Roadmap",
     description:
-      "Blueprint Premium is everything in Core plus a personalized Senior Transition Plan, a 60-minute 1-on-1 call with Ryan Riggins, and 90 days of email support. $297, one-time, outcome-focused.",
+      "Senior Transition Roadmap is everything in Core plus a personalized Senior Transition Plan, a 60-minute 1-on-1 call with Ryan Riggins, and 90 days of email support. $297, one-time, outcome-focused.",
     brand: { "@type": "Brand", name: ORGANIZATION.name },
     image: abs("/og/blueprint-premium.png"),
     url,

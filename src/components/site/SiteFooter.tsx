@@ -8,7 +8,7 @@ const footerNav: { heading: string; links: { href: string; label: string; extern
     links: [
       { href: "/blueprint-preview", label: "Blueprint Map ($9.99)" },
       { href: "/the-blueprint", label: "The Blueprint ($47)" },
-      { href: "/blueprint-premium", label: "Blueprint Premium" },
+      { href: "/blueprint-premium", label: "Senior Transition Roadmap" },
       { href: "/seniorsafe-app", label: "SeniorSafe App" },
       { href: "/work-with-ryan", label: "Book a call" },
     ],

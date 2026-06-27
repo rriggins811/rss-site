@@ -91,7 +91,7 @@ const GROUPS: LinkGroup[] = [
         href: "/the-blueprint",
       },
       {
-        label: "Blueprint Premium ($297)",
+        label: "Senior Transition Roadmap ($297)",
         description: "A personalized plan plus a 60-minute call with Ryan.",
         href: "/blueprint-premium",
       },

@@ -25,15 +25,15 @@ const PREMIUM_CHECKOUT = paymentLinks.blueprintPremium;
 const SUPPORT_EMAIL = "ryan@rigginsstrategicsolutions.com";
 
 export const metadata: Metadata = {
-  title: "Blueprint Premium | The Senior Transition Roadmap, $297",
+  title: "Senior Transition Roadmap | $297 Guided Advisory",
   description:
-    "Blueprint Premium is the whole senior transition mapped with you, start to finish: a personalized plan, a 60-minute call with Ryan, and 90 days of support. See an example plan and the intake. $297, one-time.",
+    "The Senior Transition Roadmap is the whole senior transition mapped with you, start to finish: a personalized plan, a 60-minute call with Ryan, and 90 days of support. See an example plan and the intake. $297, one-time.",
   alternates: { canonical: "/blueprint-premium" },
   openGraph: {
     type: "website",
     url: "https://rigginsstrategicsolutions.com/blueprint-premium",
     siteName: "Riggins Strategic Solutions",
-    title: "Blueprint Premium | The Senior Transition Roadmap",
+    title: "The Senior Transition Roadmap | $297 Guided Advisory",
     description:
       "The whole path of a senior transition, laid out before you. A personalized plan, a 60-minute call with Ryan, and 90 days of support. $297, one-time.",
     images: [
@@ -41,13 +41,13 @@ export const metadata: Metadata = {
         url: "https://rigginsstrategicsolutions.com/og/blueprint-premium.png",
         width: 1200,
         height: 630,
-        alt: "Blueprint Premium, the Senior Transition Roadmap, $297",
+        alt: "The Senior Transition Roadmap, $297 guided advisory",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Blueprint Premium | The Senior Transition Roadmap",
+    title: "The Senior Transition Roadmap | $297 Guided Advisory",
     description:
       "Your whole transition mapped, an example plan, a 60-minute call with Ryan, and 90 days of support. $297, one-time.",
     images: ["https://rigginsstrategicsolutions.com/og/blueprint-premium.png"],
@@ -56,20 +56,20 @@ export const metadata: Metadata = {
 
 const FAQS: { q: string; a: string }[] = [
   {
-    q: "How is Premium different from Blueprint Core?",
-    a: "Core is the full self-serve system. You work through 20 modules on your own time. Premium is Core plus a personalized plan written for your specific situation, a 60-minute 1-on-1 call with Ryan, and 90 days of email follow-up while you execute. If you want the system, buy Core. If you want the system plus someone in your corner while you run the play, buy Premium.",
+    q: "How is the Roadmap different from Blueprint Core?",
+    a: "Core is the full self-serve system. You work through 20 modules on your own time. The Roadmap is Core plus a personalized plan written for your specific situation, a 60-minute 1-on-1 call with Ryan, and 90 days of email follow-up while you execute. If you want the system, buy Core. If you want the system plus someone in your corner while you run the play, buy the Roadmap.",
   },
   {
     q: "What if I need more than 90 days of support?",
     a: "After day 90, your email support wraps up. That is the deal. If things change and you need help later, we can book a paid follow-up strategy call. Most families do not need it. By day 90 they have the plan and the tools.",
   },
   {
-    q: "Can I upgrade from Core to Premium later?",
-    a: "Yes. When you buy Blueprint Core at $47, you get an email within minutes with a discount code that credits the full $47 toward Blueprint Premium whenever you decide to upgrade. No double-paying.",
+    q: "Can I upgrade from Core to the Roadmap later?",
+    a: "Yes. When you buy Blueprint Core at $47, you get an email within minutes with a discount code that credits the full $47 toward Senior Transition Roadmap whenever you decide to upgrade. No double-paying.",
   },
   {
-    q: "What if Premium is not the right fit after the first call?",
-    a: "The 14-day money-back guarantee runs up until the consultation call happens. If you decide after buying but before the call that Premium is not right, the refund is automatic. Once the call happens, the refund window closes because the personalized plan and advisory time have been delivered.",
+    q: "What if the Roadmap is not the right fit after the first call?",
+    a: "The 14-day money-back guarantee runs up until the consultation call happens. If you decide after buying but before the call that the Roadmap is not right, the refund is automatic. Once the call happens, the refund window closes because the personalized plan and advisory time have been delivered.",
   },
 ];
 
@@ -261,7 +261,7 @@ export default function BlueprintPremiumPage() {
   const breadcrumbs = breadcrumbListSchema([
     { name: "Home", path: "/" },
     { name: "The Blueprint", path: "/the-blueprint" },
-    { name: "Blueprint Premium", path: "/blueprint-premium" },
+    { name: "Senior Transition Roadmap", path: "/blueprint-premium" },
   ]);
 
   return (
@@ -275,7 +275,7 @@ export default function BlueprintPremiumPage() {
         <div className="mx-auto max-w-5xl px-6 py-16 lg:py-24">
           <div className="flex flex-wrap items-center gap-3">
             <span className="rounded-full bg-burgundy/10 px-3 py-1 text-xs font-semibold uppercase tracking-[0.14em] text-burgundy">
-              Blueprint Premium &middot; $297
+              Senior Transition Roadmap &middot; $297
             </span>
             <span className="text-xs font-semibold uppercase tracking-[0.16em] text-navy/60">
               A private guide for your family
@@ -311,9 +311,9 @@ export default function BlueprintPremiumPage() {
 
           <QuickAnswer
             className="mt-8 max-w-2xl"
-            topic="Premium tier"
-            question="What is Blueprint Premium?"
-            answer="Blueprint Premium is the full Senior Transition Blueprint course plus a personalized written plan, a 60 minute one on one call with Ryan Riggins, and 90 days of email support. It maps the whole transition with you, start to finish, and goes deepest on the home and the money. Two hundred ninety seven dollars, one time."
+            topic="the Roadmap tier"
+            question="What is Senior Transition Roadmap?"
+            answer="Senior Transition Roadmap is the full Senior Transition Blueprint course plus a personalized written plan, a 60 minute one on one call with Ryan Riggins, and 90 days of email support. It maps the whole transition with you, start to finish, and goes deepest on the home and the money. Two hundred ninety seven dollars, one time."
           />
 
           <div className="mt-8 flex flex-wrap items-center gap-x-5 gap-y-3">
@@ -323,7 +323,7 @@ export default function BlueprintPremiumPage() {
               rel="noopener noreferrer"
               className="rounded-md bg-navy px-7 py-3.5 font-semibold text-cream transition hover:bg-navy-800"
             >
-              Get Blueprint Premium, $297
+              Get Senior Transition Roadmap, $297
             </a>
             <a href="#example" className="text-sm font-semibold text-burgundy underline underline-offset-4">
               See an example plan first
@@ -518,7 +518,7 @@ export default function BlueprintPremiumPage() {
         <div className="mx-auto max-w-5xl px-6 py-16">
           <h2 className={`${display} text-3xl text-navy sm:text-4xl`}>See exactly what you get</h2>
           <p className="mt-3 max-w-3xl leading-relaxed text-ink/80">
-            No mystery. Here are the two documents at the heart of Premium: the written plan we build with you,
+            No mystery. Here are the two documents at the heart of the Roadmap: the written plan we build with you,
             and the intake that lets us know your family before we ever speak. Open either one and see the real
             thing, start to finish.
           </p>
@@ -598,7 +598,7 @@ export default function BlueprintPremiumPage() {
         <div className="mx-auto max-w-5xl px-6 py-16 lg:py-20">
           <h2 className={`${display} text-3xl sm:text-4xl`}>Walk your map with Ryan</h2>
           <p className="mt-4 max-w-3xl text-lg leading-relaxed text-cream/85">
-            Blueprint Premium is the guided version. You do not just get the course and the 70-plus tools. You
+            Senior Transition Roadmap is the guided version. You do not just get the course and the 70-plus tools. You
             get Ryan walking your whole map with you, from getting your bearings to crossing the finish line.
             Together we build your written Senior Transition Plan, go deep on the home and the money where the
             biggest dollars are won or lost, and line up the vetted team for the parts outside Ryan's lane.
@@ -606,11 +606,11 @@ export default function BlueprintPremiumPage() {
           </p>
 
           <div className="mt-10">
-            <p className="text-xs font-semibold uppercase tracking-[0.14em] text-gold">Everything Premium includes</p>
+            <p className="text-xs font-semibold uppercase tracking-[0.14em] text-gold">Everything the Roadmap includes</p>
             <div className="mt-4 grid gap-3 sm:grid-cols-2">
               {[
                 "All 20 Blueprint modules and 70-plus tools. Lifetime access.",
-                "A 21st module, unlocked with Premium, holding your intake docs to prep your call.",
+                "A 21st module, unlocked with the Roadmap, holding your intake docs to prep your call.",
                 "One 60-minute strategy call with Ryan that walks your whole map.",
                 "Your written Senior Transition Plan, your map filled in for your family.",
                 "90 days of priority email support.",
@@ -645,7 +645,7 @@ export default function BlueprintPremiumPage() {
               rel="noopener noreferrer"
               className="rounded-md bg-gold px-7 py-3.5 font-semibold text-navy transition hover:bg-gold-700 hover:text-cream"
             >
-              Get Blueprint Premium, $297
+              Get Senior Transition Roadmap, $297
             </a>
             <Link href="/the-blueprint" className="text-sm text-cream/80 underline underline-offset-4 hover:text-gold">
               Compare every way to work with Ryan
@@ -660,7 +660,7 @@ export default function BlueprintPremiumPage() {
 
           <p className="mt-6 max-w-2xl text-sm leading-relaxed text-cream/70">
             <span className="font-semibold text-gold">14-day money-back guarantee.</span> Refundable right up
-            until your call happens. If Premium is not the right fit for your family, you get every dollar back.
+            until your call happens. If the Roadmap is not the right fit for your family, you get every dollar back.
           </p>
         </div>
       </section>

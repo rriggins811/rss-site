@@ -246,7 +246,7 @@ export const GUIDE_PREVIEWS: Record<string, GuidePreview> = {
       "A transition does not end on move-in day. Schedule the check-ins now: 30, 60, 90, 180, and 365 days. The families who follow up catch problems early.",
       "Be honest about where you are: Confident (execute the plan), Specific Questions (a quick call clears it), or Need Hands-On Guidance (you need a partner, not a course).",
       "Free help stays free: the strategy call, the SeniorSafe app for daily check-ins and AI guidance, and the daily content.",
-      "Go deeper when DIY hits its edge: Blueprint Premium adds a personalized plan and a 60-minute call with Ryan; full advisory walks alongside you for 3 to 6 months.",
+      "Go deeper when DIY hits its edge: Senior Transition Roadmap adds a personalized plan and a 60-minute call with Ryan; full advisory walks alongside you for 3 to 6 months.",
     ],
     footnote: "The natural step up from the DIY Blueprint to working with Ryan directly.",
   },
