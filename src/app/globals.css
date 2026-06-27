@@ -77,6 +77,13 @@
   --color-cream: #FAF8F4;
   --color-sand: #F9F6F1;
   --color-ink: #2D2A24;
+
+  /* Senior Transition Roadmap page — bare tokens to match the blueprint-site /roadmap design */
+  --color-navy: #1B2A4E;
+  --color-navy-800: #142039;
+  --color-gold: #C9A961;
+  --color-burgundy: #6B1F2E;
+  --color-cream-200: #EFE9DA;
 }
 
 :root {

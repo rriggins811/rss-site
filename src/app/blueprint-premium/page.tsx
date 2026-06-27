@@ -1,14 +1,10 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
-import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
-import { GoldRule } from "@/components/site/GoldRule";
-import { EmailFallback } from "@/components/site/EmailFallback";
+import Image from "next/image";
+import { Fraunces } from "next/font/google";
+import { paymentLinks } from "@/lib/payment-links";
 import { JsonLd } from "@/components/site/JsonLd";
 import { QuickAnswer } from "@/components/aeo/QuickAnswer";
-import { paymentLinks } from "@/lib/payment-links";
 import {
   breadcrumbListSchema,
   faqPageSchema,
@@ -16,123 +12,250 @@ import {
 } from "@/lib/schema";
 import { abs } from "@/lib/site";
 
+// Warm display serif for the headlines, mirroring the premium care-roadmap feel.
+const serif = Fraunces({
+  subsets: ["latin"],
+  weight: ["400", "600", "700"],
+  style: ["normal", "italic"],
+  display: "swap",
+});
+const display = serif.className;
+
+const PREMIUM_CHECKOUT = paymentLinks.blueprintPremium;
+const SUPPORT_EMAIL = "ryan@rigginsstrategicsolutions.com";
+
 export const metadata: Metadata = {
-  title: "Blueprint Premium | $297 Guided Advisory",
+  title: "Blueprint Premium | The Senior Transition Roadmap, $297",
   description:
-    "Blueprint Premium is everything in Core plus a personalized Senior Transition Plan, a 60-minute 1-on-1 call with Ryan Riggins, and 90 days of email support. $297, one-time, outcome-focused.",
+    "Blueprint Premium is the whole senior transition mapped with you, start to finish: a personalized plan, a 60-minute call with Ryan, and 90 days of support. See an example plan and the intake. $297, one-time.",
   alternates: { canonical: "/blueprint-premium" },
   openGraph: {
     type: "website",
     url: "https://rigginsstrategicsolutions.com/blueprint-premium",
     siteName: "Riggins Strategic Solutions",
-    title: "Blueprint Premium | $297 Guided Advisory",
+    title: "Blueprint Premium | The Senior Transition Roadmap",
     description:
-      "Everything in Core plus a personalized Senior Transition Plan, a 60-minute 1-on-1 call with Ryan, and 90 days of email support. $297, one-time, outcome-focused.",
+      "The whole path of a senior transition, laid out before you. A personalized plan, a 60-minute call with Ryan, and 90 days of support. $297, one-time.",
     images: [
       {
         url: "https://rigginsstrategicsolutions.com/og/blueprint-premium.png",
         width: 1200,
         height: 630,
-        alt: "Blueprint Premium — $297 guided advisory, 60-minute call with Ryan, 90 days of email support",
+        alt: "Blueprint Premium, the Senior Transition Roadmap, $297",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Blueprint Premium | $297 Guided Advisory",
+    title: "Blueprint Premium | The Senior Transition Roadmap",
     description:
-      "Personalized Senior Transition Plan, a 60-minute call with Ryan, and 90 days of email support. $297, one-time.",
+      "Your whole transition mapped, an example plan, a 60-minute call with Ryan, and 90 days of support. $297, one-time.",
     images: ["https://rigginsstrategicsolutions.com/og/blueprint-premium.png"],
   },
 };
 
-const whatYouGet: { title: string; body: string }[] = [
+const FAQS: { q: string; a: string }[] = [
   {
-    title: "Everything in Blueprint Core",
-    body: "The full 20-module system, 70+ tools, 5 exit strategies, and every checklist and script. You get the foundation first.",
-  },
-  {
-    title: "A personalized Senior Transition Plan",
-    body: "Ryan writes a plan specific to your family, your timeline, the property, and the dynamics at play. Not a template. A document built for you.",
-  },
-  {
-    title: "A 60-minute 1-on-1 call with Ryan",
-    body: "You walk through the plan together. Ryan answers the specific questions nobody else will answer straight. You leave with a list of next moves, not more confusion.",
-  },
-  {
-    title: "90 days of email support",
-    body: "After the call, you have 90 days to email Ryan as new questions come up. Contractor quote looks off? Sibling pushing back? Facility demanding a deposit? Reply and get a straight answer.",
-  },
-];
-
-const whoForSignals: string[] = [
-  "You're in active transition — a move is happening in the next 0 to 12 months.",
-  "There's real equity on the line. $300K+ property, or complex assets you don't want to mishandle.",
-  "The situation is messy. Multiple siblings, health decline, out-of-state family, or all three.",
-  "You've already been pitched something that didn't feel right, and you want a second opinion from someone without a commission at stake.",
-  "You want a plan you can actually execute, not another 47-tab PDF you'll never open.",
-];
-
-const whoNotFor: string[] = [
-  "You're 5+ years out and just starting to think about it. Start with Simple Blueprint or Blueprint Core.",
-  "You want someone to do the whole thing for you, start to finish. Premium is guided advisory, not full-service coordination.",
-  "You're looking for a free chat. Book the free 20-minute call, or grab the free Simple Blueprint first.",
-];
-
-const differentFromConsulting: { title: string; body: string }[] = [
-  {
-    title: "Fixed price, not billable hours",
-    body: "$297 is the whole number. No hourly clock, no surprise invoice. If the call runs 70 minutes because your situation warrants it, that's on Ryan.",
-  },
-  {
-    title: "No upsells baked in",
-    body: "Typical senior-transition consulting runs $2,500 to $5,000 and prices by the hour. Premium is the opposite: one flat price, and most families never need another thing from Ryan after they execute the plan. That's the outcome he's shooting for.",
-  },
-  {
-    title: "Outcome-focused, not meeting-focused",
-    body: "The deliverable is a plan you can execute, plus 90 days of backup while you do. Not a schedule of recurring consulting calls. The goal is to make Ryan unnecessary, fast.",
-  },
-];
-
-const caseStudies: { title: string; situation: string; what: string; outcome: string }[] = [
-  {
-    title: "The 2 AM fall.",
-    situation: "Adult daughter in Ohio, mom in Georgia. Fall, hospitalization, three-week discharge clock. Panic-mode cash investor already circling with a 60-cents-on-the-dollar offer.",
-    what: "Premium call mapped the real timeline, which was closer to 8 weeks than 3. Ryan walked her through the 5 exit strategies and flagged the specific Georgia-market tactic that doubled the net price without waiting for a traditional listing.",
-    outcome: "House sold for $82,000 more than the panic offer. Mom moved on schedule. Daughter spent $297 and took home 275x that in equity.",
-  },
-  {
-    title: "Three siblings, three opinions.",
-    situation: "Three adult kids across three states, mom's health changing fast, and three different ideas about what to do. Group chat had become a battlefield. Nobody was moving.",
-    what: "Ryan built a decision framework the family could run together, with specific scripts for the harder conversations. The 60-minute call included all three siblings.",
-    outcome: "Family alignment inside two weeks. Mom moved into the community they'd all agreed on. One of the siblings later bought Blueprint Core for their own future planning.",
-  },
-  {
-    title: "The $30K kitchen that almost was.",
-    situation: "Family had a $30,000 kitchen remodel quote from a contractor who said the house 'wouldn't sell without it.' Renovations in the $25K to $40K range are common in this situation. They called Ryan before signing.",
-    what: "Ryan walked through the property virtually, identified which fixes would actually return value, which would not, and which the next buyer would rip out anyway. Built a $7,000 targeted punch list instead.",
-    outcome: "House sold at a higher net than the $30K-reno scenario would have produced. Family kept $23,000 that would have gone to the contractor.",
-  },
-];
-
-const faqs: { q: string; a: string }[] = [
-  {
-    q: "How is this different from Blueprint Core?",
+    q: "How is Premium different from Blueprint Core?",
     a: "Core is the full self-serve system. You work through 20 modules on your own time. Premium is Core plus a personalized plan written for your specific situation, a 60-minute 1-on-1 call with Ryan, and 90 days of email follow-up while you execute. If you want the system, buy Core. If you want the system plus someone in your corner while you run the play, buy Premium.",
   },
   {
     q: "What if I need more than 90 days of support?",
-    a: "After day 90, your email support wraps up. That's the deal. If things change and you need help later, we can book a paid follow-up strategy call. Most families don't need it. By day 90 they've got the plan and the tools.",
+    a: "After day 90, your email support wraps up. That is the deal. If things change and you need help later, we can book a paid follow-up strategy call. Most families do not need it. By day 90 they have the plan and the tools.",
   },
   {
     q: "Can I upgrade from Core to Premium later?",
     a: "Yes. When you buy Blueprint Core at $47, you get an email within minutes with a discount code that credits the full $47 toward Blueprint Premium whenever you decide to upgrade. No double-paying.",
   },
   {
-    q: "What if Premium isn't a fit after the first call?",
-    a: "The 14-day money-back guarantee runs up until the consultation call happens. If you decide after buying but before the call that Premium isn't right, refund is automatic. Once the call happens, the refund window closes because the personalized plan and advisory time have been delivered.",
+    q: "What if Premium is not the right fit after the first call?",
+    a: "The 14-day money-back guarantee runs up until the consultation call happens. If you decide after buying but before the call that Premium is not right, the refund is automatic. Once the call happens, the refund window closes because the personalized plan and advisory time have been delivered.",
   },
 ];
+
+// --- Data -------------------------------------------------------------------
+
+type Phase = {
+  num: string;
+  title: string;
+  range: string;
+  tagline: string;
+  anchor?: boolean;
+  blurb: string;
+  covers: { label: string; slug: string }[];
+  tools: string[];
+};
+
+const PHASES: Phase[] = [
+  {
+    num: "1",
+    title: "Get Your Bearings",
+    range: "Modules 00 to 04",
+    tagline: "Clarity first",
+    blurb:
+      "Before anything moves, we get your family on the same page and take an honest look at where you actually stand. Then we start clearing the house: the sorting, the paperwork, and the tough sentimental decisions that stop most families cold.",
+    covers: [
+      { label: "Foundations and Quick Start", slug: "module-00" },
+      { label: "Starting Point Assessment", slug: "module-01" },
+      { label: "Sorting and Decluttering", slug: "module-02" },
+      { label: "Paperwork System", slug: "module-03" },
+      { label: "Sentimental Items and Decisions", slug: "module-04" },
+    ],
+    tools: [
+      "Starting Point Assessment",
+      "Transition Stage Readiness",
+      "5-Pile Sorting System",
+      "3-Folder Paperwork System",
+    ],
+  },
+  {
+    num: "2",
+    title: "The Home and the Money",
+    range: "Modules 05 to 09",
+    tagline: "Where the dollars are won or lost",
+    anchor: true,
+    blurb:
+      "What the home is really worth, the repairs that actually pay you back versus the ones that just drain the account, every way to sell, and how to spot the cash buyers and wholesalers circling. Plus the legal and financial footing, so the home decision lines up with the rest of the plan instead of blowing it up. This is the lane Ryan carries personally.",
+    covers: [
+      { label: "Property Prep and Repairs", slug: "module-05" },
+      { label: "Legal and Financial Foundation", slug: "module-06" },
+      { label: "Touring and Comparing Facilities", slug: "module-07" },
+      { label: "Asset and Estate Inventory", slug: "module-08" },
+      { label: "Sale Decision Path", slug: "module-09" },
+    ],
+    tools: [
+      "Smart Prep Budget",
+      "Repair Priority",
+      "Transition Cost Estimator",
+      "Net Proceeds Calculator",
+      "Cash Offer Evaluation",
+      "Decision Pyramid",
+    ],
+  },
+  {
+    num: "3",
+    title: "Make the Move",
+    range: "Modules 10 to 12",
+    tagline: "The hand-off nobody warns you about",
+    blurb:
+      "The logistics nobody warns you about. The move timeline, closing day, and the first 72 hours after, which is when most things go sideways if no one is watching.",
+    covers: [
+      { label: "Move Logistics", slug: "module-10" },
+      { label: "Closing Day", slug: "module-11" },
+      { label: "First 72 Hours After Move", slug: "module-12" },
+    ],
+    tools: [
+      "Move Timeline",
+      "Closing Day Checklist",
+      "First 72 Hours Playbook",
+      "Daily Check-In",
+    ],
+  },
+  {
+    num: "4",
+    title: "The Long Game",
+    range: "Modules 13 to 18",
+    tagline: "Your team steps in",
+    blurb:
+      "Keeping the family standing and the plan funded for the long haul. Family dynamics, aging in place versus moving, long-term care, government benefits, estate planning, and watching for caregiver burnout. This is where your team plugs in. For care, legal, financial, and the rest, we work with your trusted professionals, or hand pick vetted, credentialed ones in your area and licensed in your state.",
+    covers: [
+      { label: "Family Dynamics", slug: "module-13" },
+      { label: "Aging in Place vs Move", slug: "module-14" },
+      { label: "Long-Term Care Planning", slug: "module-15" },
+      { label: "Government Benefits", slug: "module-16" },
+      { label: "Estate Planning", slug: "module-17" },
+      { label: "Caregiver Self-Care", slug: "module-18" },
+    ],
+    tools: [
+      "Family Meeting Agenda",
+      "Aging Cost Calculator",
+      "LTC Decision",
+      "Medicaid Spend-Down",
+      "Trust Selection",
+      "Burnout Assessment",
+    ],
+  },
+  {
+    num: "5",
+    title: "Cross the Finish Line",
+    range: "Module 19",
+    tagline: "Wrap it up and breathe",
+    blurb:
+      "Wrap it up, take a breath, and look at what is next. A check-back to make sure the plan held, and a soft landing into SeniorSafe for the day to day once the transition is done.",
+    covers: [{ label: "Completion", slug: "module-19" }],
+    tools: ["Completion Assessment"],
+  },
+];
+
+const FEELINGS = [
+  ["The all-at-once", "The house, the money, the paperwork, and the care all land in the same hard week."],
+  ["The guilt", "Wondering whether you are doing enough, or doing right by your parent."],
+  ["Fear of the wrong call", "Big decisions with real money on them, and no map to follow."],
+  ["Family friction", "Siblings and spouses who do not all see it the same way."],
+  ["Caregiver exhaustion", "Running on empty while trying to hold everyone else up."],
+  ["Decision paralysis", "Every path feels uncertain, so the easy, costly choice wins."],
+] as const;
+
+type TeamRole = { role: string };
+
+const TEAM: TeamRole[] = [
+  { role: "Care" },
+  { role: "Elder-Law Attorney" },
+  { role: "Financial Advisor" },
+  { role: "CPA / Tax" },
+  { role: "Placement Specialist" },
+  { role: "Home Health" },
+  { role: "Reverse Mortgage / HECM" },
+  { role: "Vetted Local Real Estate Agent" },
+];
+
+const VETTED_LINE =
+  "We work with your trusted professional, or hand pick a vetted, credentialed one in your area and licensed in your state.";
+
+const CASES = [
+  {
+    family: "The Smith Family",
+    stat: "About $96,000 more",
+    statSub: "than the cash offer would have handed them",
+    situation:
+      "I will be straight with you. I was the cash buyer on this one. Mrs. Smith was 90 with early dementia, already living two hours away with her son and his wife. Her 1970s ranch sat mostly empty except for a nephew living there rent free, while a home equity line quietly bled the family about $1,100 a month at 13 percent. They just wanted it gone, so I bought it cheap. Here is how I would walk that same family through it today, and what it would have put back in their pocket.",
+    phases: [
+      "First we get the family on the same page and look at the whole picture honestly. Mrs. Smith was safe with her son, but the house was the problem nobody wanted to touch: a nephew living there rent free, the equity line bleeding every month, and the place full to the ceiling. The first job is not the house, it is clarity. Stop the bleeding, get the house sold the right way, and free up money for Mrs. Smith's care as the dementia gets worse.",
+      "Here is where the real money lived, and where most families get taken. The cash offer on that house was $105,000. Pay off the $32,000 still owed on the equity line and the family walks with about $73,000. Fast and clean, and it leaves a fortune on the table. The better path is simple: about $8,000 of the right work, pull the ruined carpet, refinish the hardwoods underneath, fresh paint, reglaze the dated tubs. Nothing fancy, just the work that pays back. In that market the house sells around $225,000. After the equity line, the repairs, and roughly 7 percent in selling costs, the family nets about $169,000. That is close to $96,000 more than the cash offer, for about eight grand and a few weeks of work.",
+      "Mrs. Smith had already moved in with her son, so the move here was the house, not the person. We clear it out with respect, which on this one meant two full loads of her keepsakes driven the two hours to the son's home so nothing that mattered got lost. Then the light rehab, about four weeks, then list. Start to finish, roughly 90 days to a closing.",
+      "This is where the team comes in, and where the house money turns into a real plan. We bring in a vetted care specialist to build Mrs. Smith a life care plan: review her Medicaid and financial options, plan for a spend-down if it ever comes to that, and stretch her money as far as it will go as the dementia progresses. Just as important, they coach the son and his wife on the caregiving itself, and respite so they do not burn out. For the rest, we work with the family's own professionals or hand pick vetted ones in their area: a financial advisor, a CPA, an elder-law attorney, and a memory care option if it is ever needed.",
+      "The house sells for what it is actually worth. The family clears close to $96,000 more than the cash offer would have handed them. Mrs. Smith stays cared for, with a real plan and real money behind it, and her son and his wife have a team instead of a weight on their shoulders.",
+    ],
+    outcome:
+      "Cash offer: about $73,000, gone in a week. The guided path: about $169,000 and a funded plan for Mrs. Smith's care. Same house, nearly $96,000 more.",
+  },
+  {
+    family: "The Jones Family",
+    stat: "From $4,000 out to about $100,000",
+    statSub: "the same inherited land, handled right",
+    situation:
+      "Another one where I was on the other side of the table. Ms. Jones, in her sixties, inherited a house on three acres in a quiet, desirable spot just off the main road. She never asked for it, and she was still making a mortgage payment she could not afford. She wanted out so badly that at closing she brought a check just to make the deal work, and walked away with nothing. She had her own agent, and I was the cash buyer, so I never got to tell her what I am about to tell you.",
+    phases: [
+      "She was drowning. An inherited property, a mortgage she did not sign up for, and no clear picture of what she actually had. The first job is to slow it down and look at the whole thing honestly, because the worst decisions in this business get made by people who just want the pain to stop. And what she had was not a tired old house. It was land, a lot more of it than anyone was treating it as.",
+      "The house was a distraction. The value was in the dirt. First, sell the one lot that was already split off and ready, for about $40,000, to get cash in her hands and stop the bleeding. Use part of that to fund the real work: clear the brush off the three acres behind, bring in county surveyors to split it into three large lots, build a simple gravel road back with an easement, and bulldoze the tired house for about $10,000. When the dust settles, that is three back lots at about $65,000 each, plus two more around $40,000 each. Take out the mortgage and the costs, and she nets somewhere around $100,000. She paid $4,000 to walk away from land that, handled right, would have put roughly a hundred grand in her pocket.",
+      "The order matters as much as the plan. We sell that one ready lot up front so she gets relief in weeks, not months, and so the project funds itself instead of costing her more she does not have. Then the survey and county approvals, the clearing, the road, and the lots come to market in the right sequence. I quarterback the moving parts and the closings so she is not chasing surveyors and builders on her own.",
+      "She is a senior herself, and a six-figure swing changes her whole next chapter, so we plan it instead of letting it slip away. We bring in a vetted care specialist to help her think through her own aging and care plan, and we work with her own professionals or hand pick the rest of her team: a financial advisor and a CPA so a windfall like this does not turn into a tax surprise, and an estate attorney to set up her own affairs now that she finally has something to protect.",
+      "She goes from writing a check just to escape, to roughly $100,000 in the bank and a real plan for the years ahead, with people in her corner. The land never changed. The only thing that changed was having someone on her side who knew what it was worth.",
+    ],
+    outcome:
+      "She paid $4,000 to walk away with nothing. The same land, handled right, was worth about $100,000 to her, plus a plan for her own next chapter.",
+  },
+] as const;
+
+const PHASE_TITLES = [
+  "Get Your Bearings",
+  "The Home and the Money",
+  "Make the Move",
+  "The Long Game",
+  "Cross the Finish Line",
+];
+
+// --- Page -------------------------------------------------------------------
 
 export default function BlueprintPremiumPage() {
   const breadcrumbs = breadcrumbListSchema([
@@ -142,299 +265,416 @@ export default function BlueprintPremiumPage() {
   ]);
 
   return (
-    <main>
-      <JsonLd data={faqPageSchema(faqs, abs("/blueprint-premium"))} />
+    <main className="w-full bg-cream text-ink">
+      <JsonLd data={faqPageSchema(FAQS, abs("/blueprint-premium"))} />
       <JsonLd data={breadcrumbs} />
       <JsonLd data={blueprintPremiumProductSchema()} />
 
       {/* HERO */}
-      <section className="bg-cream">
-        <div className="mx-auto max-w-6xl px-6 py-20 lg:py-24 grid gap-12 lg:grid-cols-2 items-center">
-          <div>
-            <Badge variant="secondary" className="bg-burgundy-100 text-burgundy-700 border-0">
+      <section className="border-b border-cream-200 bg-cream">
+        <div className="mx-auto max-w-5xl px-6 py-16 lg:py-24">
+          <div className="flex flex-wrap items-center gap-3">
+            <span className="rounded-full bg-burgundy/10 px-3 py-1 text-xs font-semibold uppercase tracking-[0.14em] text-burgundy">
               Blueprint Premium &middot; $297
-            </Badge>
-            <h1 className="mt-6 leading-[1.05]">
-              When you want someone in your corner, not just a roadmap.
-            </h1>
-            <QuickAnswer
-              className="mt-6 max-w-prose"
-              topic="Premium tier"
-              question="What is Blueprint Premium?"
-              answer="Blueprint Premium is the full Senior Transition Blueprint course plus a 60 minute personalized planning call with Ryan and 90 days of email support. For families who want a custom roadmap and someone in their corner during the hardest decisions. Two hundred ninety seven dollars one time."
-            />
-            <p className="mt-6 font-serif text-xl text-burgundy-600 leading-snug max-w-prose">
-              &ldquo;I&rsquo;m not a move manager and I&rsquo;m not a listing
-              agent. I&rsquo;m the advisor who helps families avoid the $50K
-              mistakes.&rdquo;
-            </p>
-            <p className="mt-6 max-w-prose text-lg text-ink/80">
-              Blueprint Core gives you the full system to run on your own.
-              Premium gives you the system plus a plan written for your
-              family, an hour on the phone with Ryan, and 90 days of email
-              support while you execute.
-            </p>
-            <div className="mt-8 flex flex-wrap gap-3">
-              <Button asChild size="lg">
-                <a
-                  href={paymentLinks.blueprintPremium}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Get Blueprint Premium, $297
-                </a>
-              </Button>
-              <Button asChild size="lg" variant="outline">
-                <Link href="/work-with-ryan">Not sure? Book a free call first</Link>
-              </Button>
-            </div>
-            <EmailFallback className="mt-4" />
-            <p className="mt-4 text-sm text-ink/60">
-              14-day money-back up until the consultation call happens.
-            </p>
+            </span>
+            <span className="text-xs font-semibold uppercase tracking-[0.16em] text-navy/60">
+              A private guide for your family
+            </span>
           </div>
-          <div className="relative aspect-[4/5] lg:aspect-[5/6] rounded-lg overflow-hidden shadow-xl shadow-navy-900/10">
-            <Image
-              src="/photos/blueprint_premium_zoom_call_297.jpg"
-              alt="Ryan Riggins on a Zoom consultation call with a family"
-              fill
-              sizes="(min-width: 1024px) 50vw, 100vw"
-              className="object-cover"
-              priority
-            />
-          </div>
-        </div>
-      </section>
-
-      {/* WHAT YOU GET */}
-      <section className="bg-white border-y border-border">
-        <div className="mx-auto max-w-6xl px-6 py-20">
-          <div className="max-w-2xl">
-            <GoldRule />
-            <h2 className="mt-3">What you get for $297.</h2>
-            <p className="mt-4 text-lg text-ink/80">
-              Four things, in this order. The Core system first, then the
-              personal layer on top so you&rsquo;re not running it alone.
-            </p>
-          </div>
-
-          <div className="mt-12 grid gap-6 md:grid-cols-2">
-            {whatYouGet.map((item, i) => (
-              <Card key={item.title} className="bg-cream">
-                <CardContent className="pt-6">
-                  <div className="font-serif text-4xl font-extrabold text-gold-500 leading-none">
-                    {String(i + 1).padStart(2, "0")}
-                  </div>
-                  <h3 className="mt-4 font-serif text-xl text-navy-700">
-                    {item.title}
-                  </h3>
-                  <p className="mt-3 text-ink/80 leading-relaxed">{item.body}</p>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* WHO IT'S FOR */}
-      <section className="bg-sand border-b border-border">
-        <div className="mx-auto max-w-6xl px-6 py-20">
-          <div className="max-w-2xl">
-            <GoldRule />
-            <h2 className="mt-3">Who Premium is for.</h2>
-          </div>
-
-          <div className="mt-12 grid gap-10 md:grid-cols-2">
-            <div>
-              <h3 className="font-serif text-xl text-navy-700">
-                You&rsquo;re in the right place if...
-              </h3>
-              <ul className="mt-5 space-y-3">
-                {whoForSignals.map((s) => (
-                  <li key={s} className="flex gap-3 text-ink/85">
-                    <span aria-hidden className="text-burgundy-600 mt-[2px]">
-                      ✓
-                    </span>
-                    <span>{s}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-            <div>
-              <h3 className="font-serif text-xl text-navy-700">
-                Probably not the right fit if...
-              </h3>
-              <ul className="mt-5 space-y-3">
-                {whoNotFor.map((s) => (
-                  <li key={s} className="flex gap-3 text-ink/70">
-                    <span aria-hidden className="text-ink/40 mt-[2px]">
-                      &ndash;
-                    </span>
-                    <span>{s}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* WHY DIFFERENT FROM CONSULTING */}
-      <section className="bg-burgundy-700 text-cream">
-        <div className="mx-auto max-w-6xl px-6 py-20">
-          <div className="max-w-3xl">
-            <GoldRule />
-            <h2 className="mt-3 text-cream">
-              Why this isn&rsquo;t consulting.
-            </h2>
-            <p className="mt-4 text-lg text-cream/90 leading-relaxed">
-              Consulting bills by the hour, keeps you on the clock, and always
-              tries to sell you the next tier. Premium is built to do the
-              opposite.
-            </p>
-          </div>
-
-          <div className="mt-12 grid gap-8 md:grid-cols-3">
-            {differentFromConsulting.map((d) => (
-              <div key={d.title}>
-                <h3 className="font-serif text-xl text-gold-300">{d.title}</h3>
-                <p className="mt-3 text-cream/85 leading-relaxed">{d.body}</p>
+          <h1 className={`${display} mt-7 text-4xl leading-[1.08] text-navy sm:text-5xl lg:text-6xl`}>
+            <span className="italic text-gold-700">The Whole Path,</span>
+            <br />
+            Laid Out Before You
+          </h1>
+          <p className="mt-6 max-w-2xl text-lg leading-relaxed text-ink/80">
+            When a parent needs to move, it hits all at once. The house, the money, the paperwork, the
+            care, the family, and a hundred decisions you have never had to make before, usually in the
+            middle of a hard week. Most families face it one painful step at a time. This is the map we
+            walk together, start to finish, so you can see the whole thing before you decide anything.
+          </p>
+          <div className="mt-10 grid gap-4 sm:grid-cols-3">
+            {[
+              ["One clear plan", "The whole transition on one page, in order."],
+              ["Ryan as quarterback", "Deepest where the dollars are: the home and the money."],
+              ["A vetted team", "The right specialist for every part outside Ryan's lane."],
+            ].map(([h, s]) => (
+              <div key={h} className="rounded-lg border-l-4 border-gold bg-white/70 px-5 py-4">
+                <p className="font-semibold text-navy">{h}</p>
+                <p className="mt-1 text-sm text-ink/70">{s}</p>
               </div>
             ))}
           </div>
+          <p className="mt-8 max-w-2xl text-sm leading-relaxed text-ink/70">
+            Built on years on the buying side of real estate, across dozens of properties, by a licensed North
+            Carolina broker who now works for your family instead of against it.
+          </p>
+
+          <QuickAnswer
+            className="mt-8 max-w-2xl"
+            topic="Premium tier"
+            question="What is Blueprint Premium?"
+            answer="Blueprint Premium is the full Senior Transition Blueprint course plus a personalized written plan, a 60 minute one on one call with Ryan Riggins, and 90 days of email support. It maps the whole transition with you, start to finish, and goes deepest on the home and the money. Two hundred ninety seven dollars, one time."
+          />
+
+          <div className="mt-8 flex flex-wrap items-center gap-x-5 gap-y-3">
+            <a
+              href={PREMIUM_CHECKOUT}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-md bg-navy px-7 py-3.5 font-semibold text-cream transition hover:bg-navy-800"
+            >
+              Get Blueprint Premium, $297
+            </a>
+            <a href="#example" className="text-sm font-semibold text-burgundy underline underline-offset-4">
+              See an example plan first
+            </a>
+          </div>
         </div>
       </section>
 
-      {/* WHY THIS EXISTS (RYAN'S STORY) */}
-      <section className="bg-white border-y border-border">
-        <div className="mx-auto max-w-6xl px-6 py-20 grid gap-12 lg:grid-cols-5 items-center">
-          <div className="lg:col-span-2 relative aspect-square rounded-lg overflow-hidden bg-cream">
-            <Image
-              src="/photos/flipper_now_protector_brand_narrative.png"
-              alt="Graphic: Ryan's story, flipper turned advisor"
-              fill
-              sizes="(min-width: 1024px) 40vw, 100vw"
-              className="object-contain p-6"
-            />
+      {/* FEELINGS LAYER */}
+      <section className="bg-white">
+        <div className="mx-auto max-w-5xl px-6 py-16">
+          <h2 className={`${display} text-2xl text-navy sm:text-3xl`}>What families carry</h2>
+          <p className="mt-2 text-ink/70">If you recognize yourself here, you are not behind, and you are not alone.</p>
+          <div className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+            {FEELINGS.map(([h, s]) => (
+              <div key={h} className="rounded-lg border border-cream-200 bg-cream/60 p-5">
+                <p className="font-semibold text-navy">{h}</p>
+                <p className="mt-1.5 text-sm leading-relaxed text-ink/70">{s}</p>
+              </div>
+            ))}
           </div>
-          <div className="lg:col-span-3">
-            <GoldRule />
-            <h2 className="mt-3">Why Premium exists.</h2>
-            <div className="mt-6 space-y-5 text-lg text-ink/85 leading-relaxed">
-              <p>
-                For 8 years, I flipped houses. More than half of what I bought
-                came from seniors or the adult kids sorting out a parent&rsquo;s
-                estate. I watched families make rushed calls under crisis
-                pressure and lose $50,000 or $100,000 of equity because nobody
-                laid out the options in plain English.
-              </p>
-              <p>
-                I switched sides. Blueprint Core gives families the full system
-                so they can run it themselves. But some situations are too
-                messy or too high-stakes for self-serve. The house has too
-                much equity on the line. The siblings aren&rsquo;t aligned. The
-                clock is ticking.
-              </p>
-              <p className="font-serif text-xl text-burgundy-600">
-                Premium is for those situations. A fixed-price way to get me
-                on the phone, looking at your specific situation, without
-                signing up for a $5,000 consulting package.
-              </p>
-            </div>
+          <div className="mt-8 rounded-lg border-l-4 border-burgundy bg-burgundy/5 px-6 py-4">
+            <p className="text-ink/90">
+              This is exactly the weight the roadmap is built to carry. We bring order, calm, and a clear
+              next step to all of it.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* ROADMAP AT A GLANCE */}
+      <section className="bg-navy text-cream">
+        <div className="mx-auto max-w-5xl px-6 py-16 lg:py-20">
+          <h2 className={`${display} text-3xl sm:text-4xl`}>Your roadmap at a glance</h2>
+          <p className="mt-2 text-cream/70">Five connected phases, guided, organized, and built around your family.</p>
+          <ol className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-5 lg:gap-5">
+            {PHASES.map((p) => (
+              <li key={p.num} className="relative flex flex-col items-start">
+                <div className={`${display} flex h-12 w-12 items-center justify-center rounded-full bg-gold text-xl font-bold text-navy`}>
+                  {p.num}
+                </div>
+                <p className="mt-4 font-semibold leading-snug text-cream">{p.title}</p>
+                <p className="mt-1 text-sm italic text-gold">{p.tagline}</p>
+              </li>
+            ))}
+          </ol>
+        </div>
+      </section>
+
+      {/* PER-PHASE DETAIL */}
+      <section className="bg-cream">
+        <div className="mx-auto max-w-5xl px-6 py-16">
+          <div className="space-y-8">
+            {PHASES.map((p) => (
+              <article
+                key={p.num}
+                className={
+                  "relative overflow-hidden rounded-xl border bg-white p-7 lg:p-9 " +
+                  (p.anchor ? "border-gold shadow-sm" : "border-cream-200")
+                }
+              >
+                <span className={`${display} pointer-events-none absolute right-5 top-2 select-none text-7xl font-bold text-cream-200`}>
+                  {p.num.padStart(2, "0")}
+                </span>
+                <div className="relative">
+                  <div className="flex flex-wrap items-center gap-x-3 gap-y-1">
+                    <span className="text-xs font-semibold uppercase tracking-[0.14em] text-gold-700">
+                      Phase {p.num} of 5 · {p.range}
+                    </span>
+                    {p.anchor ? (
+                      <span className="rounded-full bg-burgundy/10 px-2.5 py-0.5 text-xs font-semibold text-burgundy">
+                        Ryan goes deepest here
+                      </span>
+                    ) : null}
+                  </div>
+                  <h3 className={`${display} mt-2 text-2xl text-navy sm:text-3xl`}>{p.title}</h3>
+                  <p className="mt-1 text-sm italic text-ink/60">{p.tagline}</p>
+                  <p className="mt-4 max-w-3xl leading-relaxed text-ink/80">{p.blurb}</p>
+
+                  <div className="mt-6 grid gap-6 md:grid-cols-2">
+                    <div>
+                      <p className="text-xs font-semibold uppercase tracking-wider text-navy/60">What this covers</p>
+                      <ul className="mt-2 space-y-1.5">
+                        {p.covers.map((m) => (
+                          <li key={m.slug} className="flex gap-2 text-sm text-navy/90">
+                            <span aria-hidden className="text-gold-700">&middot;</span>
+                            <span>{m.label}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                    <div>
+                      <p className="text-xs font-semibold uppercase tracking-wider text-navy/60">Key tools</p>
+                      <div className="mt-2 flex flex-wrap gap-2">
+                        {p.tools.map((t) => (
+                          <span key={t} className="rounded-full bg-cream px-3 py-1 text-xs text-ink/75">
+                            {t}
+                          </span>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* TEAM HUB */}
+      <section className="bg-white">
+        <div className="mx-auto max-w-5xl px-6 py-16">
+          <h2 className={`${display} text-3xl text-navy sm:text-4xl`}>Your senior transition team</h2>
+          <p className="mt-2 max-w-2xl text-ink/70">
+            One quarterback who knows the whole field, and the right specialist for every part outside his lane.
+          </p>
+
+          <div className="mt-10 rounded-xl border-2 border-navy bg-navy px-7 py-8 text-center text-cream">
+            <p className="text-xs font-semibold uppercase tracking-[0.16em] text-gold">Your quarterback</p>
+            <p className={`${display} mt-2 text-2xl`}>Ryan Riggins · Riggins Strategic Solutions</p>
+            <p className="mx-auto mt-2 max-w-2xl text-cream/80">
+              Ryan runs the whole transition with you, start to finish, and goes deepest on the home and the
+              money, where the biggest dollars are won or lost. Years on the buying side of real estate, across
+              dozens of properties, mean he reads the house and the numbers the way the cash buyers do, and puts
+              that to work for your family instead of against it. Around him, the family and each specialist role.
+            </p>
+          </div>
+
+          <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+            {TEAM.map((t) => (
+              <div key={t.role} className="flex h-full flex-col rounded-lg border border-cream-200 bg-cream/50 p-5">
+                <p className="text-xs font-semibold uppercase tracking-wider text-gold-700">{t.role}</p>
+                <p className="mt-2 text-sm leading-relaxed text-ink/70">{VETTED_LINE}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
 
       {/* CASE STUDIES */}
-      <section className="bg-sand border-b border-border">
-        <div className="mx-auto max-w-6xl px-6 py-20">
-          <div className="max-w-2xl">
-            <GoldRule />
-            <h2 className="mt-3">What Premium actually looks like.</h2>
-            <p className="mt-4 text-lg text-ink/80">
-              Three composite stories, drawn from real Premium engagements.
-              Names changed, details blended, outcomes accurate.
-            </p>
-          </div>
+      <section className="bg-cream">
+        <div className="mx-auto max-w-5xl px-6 py-16">
+          <h2 className={`${display} text-3xl text-navy sm:text-4xl`}>A real family, start to finish</h2>
+          <p className="mt-3 max-w-3xl leading-relaxed text-ink/80">
+            Two real deals from my years on the buying side of real estate. I was the cash buyer on both, so I
+            never got to tell these families what I am about to show you. Names, addresses, and exact figures
+            are changed. The money left on the table, and the path I walk families through now, are real.
+          </p>
 
-          <div className="mt-12 grid gap-6 lg:grid-cols-3">
-            {caseStudies.map((c) => (
-              <Card key={c.title} className="bg-white flex flex-col">
-                <CardContent className="pt-6 flex-1 flex flex-col">
-                  <h3 className="font-serif text-xl text-navy-700">{c.title}</h3>
-                  <div className="mt-4 space-y-4 text-sm text-ink/85 leading-relaxed flex-1">
-                    <div>
-                      <div className="text-xs font-semibold uppercase tracking-wider text-burgundy-600 mb-1">
-                        The situation
-                      </div>
-                      <p>{c.situation}</p>
-                    </div>
-                    <div>
-                      <div className="text-xs font-semibold uppercase tracking-wider text-burgundy-600 mb-1">
-                        What we did
-                      </div>
-                      <p>{c.what}</p>
-                    </div>
-                    <div>
-                      <div className="text-xs font-semibold uppercase tracking-wider text-gold-700 mb-1">
-                        The outcome
-                      </div>
-                      <p className="font-semibold text-navy-700">{c.outcome}</p>
-                    </div>
+          <div className="mt-10 space-y-10">
+            {CASES.map((c) => (
+              <article key={c.family} className="overflow-hidden rounded-xl border border-cream-200 bg-white">
+                <div className="grid gap-6 border-b border-cream-200 bg-navy/[0.03] p-7 sm:grid-cols-[1fr_auto] sm:items-center">
+                  <div>
+                    <h3 className={`${display} text-2xl text-navy`}>{c.family}</h3>
+                    <p className="mt-2 max-w-2xl text-sm leading-relaxed text-ink/75">{c.situation}</p>
                   </div>
-                </CardContent>
-              </Card>
+                  <div className="rounded-lg bg-navy px-6 py-4 text-center text-cream sm:min-w-44">
+                    <p className={`${display} text-2xl text-gold`}>{c.stat}</p>
+                    <p className="mt-1 text-xs text-cream/70">{c.statSub}</p>
+                  </div>
+                </div>
+                <div className="p-7">
+                  <ol className="space-y-5">
+                    {c.phases.map((body, i) => (
+                      <li key={i} className="grid gap-3 sm:grid-cols-[auto_1fr] sm:gap-5">
+                        <div className="flex items-center gap-2 sm:flex-col sm:items-start">
+                          <span className={`${display} flex h-8 w-8 items-center justify-center rounded-full bg-cream text-sm font-bold text-navy`}>
+                            {i + 1}
+                          </span>
+                          <span className="text-xs font-semibold uppercase tracking-wider text-gold-700 sm:mt-1">
+                            {PHASE_TITLES[i]}
+                          </span>
+                        </div>
+                        <p className="leading-relaxed text-ink/80">{body}</p>
+                      </li>
+                    ))}
+                  </ol>
+                  <div className="mt-6 rounded-lg border-l-4 border-gold bg-cream/60 px-6 py-4">
+                    <p className="text-xs font-semibold uppercase tracking-wider text-gold-700">The bottom line</p>
+                    <p className="mt-1 font-medium text-navy">{c.outcome}</p>
+                  </div>
+                </div>
+              </article>
             ))}
           </div>
         </div>
       </section>
 
+      {/* A LOOK INSIDE - the real deliverables */}
+      <section id="example" className="scroll-mt-20 bg-white">
+        <div className="mx-auto max-w-5xl px-6 py-16">
+          <h2 className={`${display} text-3xl text-navy sm:text-4xl`}>See exactly what you get</h2>
+          <p className="mt-3 max-w-3xl leading-relaxed text-ink/80">
+            No mystery. Here are the two documents at the heart of Premium: the written plan we build with you,
+            and the intake that lets us know your family before we ever speak. Open either one and see the real
+            thing, start to finish.
+          </p>
+
+          <div className="mt-10 grid gap-8 md:grid-cols-2">
+            {[
+              {
+                href: "/examples/senior-transition-plan-sample.pdf",
+                img: "/examples/senior-transition-plan-preview.png",
+                label: "Your written deliverable",
+                title: "Your Senior Transition Plan",
+                blurb:
+                  "Your family's situation mapped across all five phases, with the home and the money worked out in real numbers. This is a full example, start to finish.",
+                cta: "Open the example plan",
+              },
+              {
+                href: "/examples/premium-intake-form-sample.pdf",
+                img: "/examples/premium-intake-form-preview.png",
+                label: "Before we ever speak",
+                title: "The Pre-Consultation Intake",
+                blurb:
+                  "Before your call, we get to know your family in real detail, so the 60 minutes are all strategy. Here is exactly what we ask, and how thorough we are about it.",
+                cta: "See the intake form",
+              },
+            ].map((d) => (
+              <a
+                key={d.href}
+                href={d.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group flex flex-col overflow-hidden rounded-xl border border-cream-200 bg-cream/40 transition hover:border-gold hover:shadow-md"
+              >
+                <div className="overflow-hidden border-b border-cream-200 bg-white">
+                  <Image
+                    src={d.img}
+                    alt={`${d.title} preview`}
+                    width={1020}
+                    height={1320}
+                    className="h-56 w-full object-cover object-top transition duration-300 group-hover:scale-[1.02]"
+                  />
+                </div>
+                <div className="flex flex-1 flex-col p-6">
+                  <p className="text-xs font-semibold uppercase tracking-wider text-gold-700">{d.label}</p>
+                  <h3 className={`${display} mt-1 text-xl text-navy`}>{d.title}</h3>
+                  <p className="mt-2 flex-1 text-sm leading-relaxed text-ink/75">{d.blurb}</p>
+                  <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-burgundy group-hover:gap-2">
+                    {d.cta}
+                    <span aria-hidden>&rarr;</span>
+                  </span>
+                </div>
+              </a>
+            ))}
+          </div>
+          <p className="mt-5 text-xs text-ink/50">
+            Both are real examples. Your plan is built for your family&apos;s specific situation.
+          </p>
+        </div>
+      </section>
+
       {/* FAQ */}
-      <section className="bg-white border-b border-border">
-        <div className="mx-auto max-w-4xl px-6 py-20">
-          <GoldRule />
-          <h2 className="mt-3">Common questions.</h2>
-          <div className="mt-10 space-y-8">
-            {faqs.map((f) => (
+      <section className="bg-cream">
+        <div className="mx-auto max-w-3xl px-6 py-16">
+          <h2 className={`${display} text-3xl text-navy sm:text-4xl`}>Common questions</h2>
+          <div className="mt-8 space-y-7">
+            {FAQS.map((f) => (
               <div key={f.q}>
-                <h3 className="font-serif text-xl text-navy-700">{f.q}</h3>
-                <p className="mt-3 text-ink/80 leading-relaxed">{f.a}</p>
+                <h3 className="font-semibold text-navy">{f.q}</h3>
+                <p className="mt-2 leading-relaxed text-ink/80">{f.a}</p>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* FINAL CTA */}
-      <section className="bg-navy-600 text-cream">
-        <div className="mx-auto max-w-4xl px-6 py-20 text-center">
-          <GoldRule className="mx-auto" />
-          <h2 className="mt-3 text-cream">Ready when you are.</h2>
-          <p className="mt-6 text-lg text-cream/85 max-w-2xl mx-auto">
-            $297, one-time. 14-day money-back before the call. Personalized
-            plan, 60 minutes with Ryan, 90 days of email support. If
-            you&rsquo;d rather talk first, book the free 20-minute call.
+      {/* PREMIUM OFFER + CONSULT + CTA */}
+      <section className="bg-navy text-cream">
+        <div className="mx-auto max-w-5xl px-6 py-16 lg:py-20">
+          <h2 className={`${display} text-3xl sm:text-4xl`}>Walk your map with Ryan</h2>
+          <p className="mt-4 max-w-3xl text-lg leading-relaxed text-cream/85">
+            Blueprint Premium is the guided version. You do not just get the course and the 70-plus tools. You
+            get Ryan walking your whole map with you, from getting your bearings to crossing the finish line.
+            Together we build your written Senior Transition Plan, go deep on the home and the money where the
+            biggest dollars are won or lost, and line up the vetted team for the parts outside Ryan's lane.
+            Ninety days of email support so you are never stuck wondering what comes next.
           </p>
-          <div className="mt-8 flex flex-wrap gap-3 justify-center">
-            <Button asChild size="lg" className="bg-gold-500 text-navy-900 hover:bg-gold-300">
-              <a
-                href={paymentLinks.blueprintPremium}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Get Blueprint Premium, $297
-              </a>
-            </Button>
-            <Button
-              asChild
-              size="lg"
-              variant="outline"
-              className="bg-transparent border-cream text-cream hover:bg-cream hover:text-navy-600"
-            >
-              <Link href="/work-with-ryan">Book a free 20-min call</Link>
-            </Button>
+
+          <div className="mt-10">
+            <p className="text-xs font-semibold uppercase tracking-[0.14em] text-gold">Everything Premium includes</p>
+            <div className="mt-4 grid gap-3 sm:grid-cols-2">
+              {[
+                "All 20 Blueprint modules and 70-plus tools. Lifetime access.",
+                "A 21st module, unlocked with Premium, holding your intake docs to prep your call.",
+                "One 60-minute strategy call with Ryan that walks your whole map.",
+                "Your written Senior Transition Plan, your map filled in for your family.",
+                "90 days of priority email support.",
+                "A vetted team lined up for every part outside Ryan's lane.",
+              ].map((item) => (
+                <div key={item} className="flex gap-3 rounded-lg border border-cream/15 bg-white/[0.04] px-4 py-3">
+                  <span className="mt-0.5 text-gold">&#10003;</span>
+                  <span className="text-sm leading-relaxed text-cream/85">{item}</span>
+                </div>
+              ))}
+            </div>
           </div>
-          <EmailFallback variant="dark" align="center" className="mt-6" />
+
+          <div className="mt-8 rounded-xl border border-cream/15 bg-white/[0.04] p-7">
+            <p className="text-xs font-semibold uppercase tracking-[0.14em] text-gold">The 60-minute call walks your whole map</p>
+            <ol className="mt-4 space-y-2 text-cream/85">
+              <li>1. Where your family stands and what you need most. <span className="text-cream/55">(Phase 1)</span></li>
+              <li>2. The home and the money, the heaviest lift, your real options and what protects the most. <span className="text-cream/55">(Phase 2)</span></li>
+              <li>3. The move and the long game, what is coming and who handles each piece. <span className="text-cream/55">(Phases 3 and 4)</span></li>
+              <li>4. Your team and your first 90 days. <span className="text-cream/55">(Phases 4 and 5)</span></li>
+            </ol>
+            <p className="mt-4 text-cream/85">
+              You leave with a written <strong className="font-semibold text-cream">Senior Transition Plan</strong>, your personal version of this
+              map, filled in for your family's situation.
+            </p>
+          </div>
+
+          <div className="mt-10 flex flex-col items-start gap-4 sm:flex-row sm:items-center">
+            <a
+              href={PREMIUM_CHECKOUT}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-md bg-gold px-7 py-3.5 font-semibold text-navy transition hover:bg-gold-700 hover:text-cream"
+            >
+              Get Blueprint Premium, $297
+            </a>
+            <Link href="/the-blueprint" className="text-sm text-cream/80 underline underline-offset-4 hover:text-gold">
+              Compare every way to work with Ryan
+            </Link>
+            <a
+              href="https://blueprint.rigginsstrategicsolutions.com/login"
+              className="text-sm text-cream/55 underline underline-offset-4 hover:text-gold"
+            >
+              Already purchased? Log in
+            </a>
+          </div>
+
+          <p className="mt-6 max-w-2xl text-sm leading-relaxed text-cream/70">
+            <span className="font-semibold text-gold">14-day money-back guarantee.</span> Refundable right up
+            until your call happens. If Premium is not the right fit for your family, you get every dollar back.
+          </p>
+        </div>
+      </section>
+
+      {/* DISCLAIMER */}
+      <section className="bg-cream">
+        <div className="mx-auto max-w-5xl px-6 py-10">
+          <p className="text-xs leading-relaxed text-ink/55">
+            This is education and real estate guidance, not legal, tax, or financial advice. Ryan Riggins is a
+            licensed North Carolina real estate broker (#361546, eXp Realty) and works as a fiduciary to the
+            families he serves. We coordinate with your attorney, tax professional, and financial advisor. We do
+            not replace them. Questions? Email{" "}
+            <a href={`mailto:${SUPPORT_EMAIL}`} className="underline">{SUPPORT_EMAIL}</a>.
+          </p>
         </div>
       </section>
     </main>
