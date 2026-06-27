@@ -59,6 +59,7 @@ type Tier = {
   image: string;
   alt: string;
   accent?: boolean;
+  learnMore?: { href: string; label: string };
 };
 
 const tiers: Tier[] = [
@@ -110,6 +111,7 @@ const tiers: Tier[] = [
       "90 days of email support while you execute",
     ],
     cta: { href: paymentLinks.blueprintPremium, label: "Get Blueprint Premium, $297", external: true },
+    learnMore: { href: "/blueprint-premium", label: "See how Premium works, with an example plan" },
     image: "/photos/blueprint_premium_zoom_call_297.jpg",
     alt: "Ryan Riggins on a Zoom consultation with a family",
     accent: true,
@@ -377,6 +379,14 @@ export default function BlueprintPage() {
                       <Link href={t.cta.href}>{t.cta.label}</Link>
                     )}
                   </Button>
+                  {t.learnMore ? (
+                    <Link
+                      href={t.learnMore.href}
+                      className="mt-3 block text-center text-sm font-medium text-burgundy-600 underline underline-offset-4 hover:text-burgundy-700"
+                    >
+                      {t.learnMore.label} &rarr;
+                    </Link>
+                  ) : null}
                 </CardContent>
               </Card>
             ))}
