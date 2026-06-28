@@ -20,7 +20,7 @@ import { abs } from "@/lib/site";
 export const metadata: Metadata = {
   title: "The Blueprint | Senior Transition Tiers",
   description:
-    "Five ways to work with Ryan Riggins on a senior housing transition. Free Simple Blueprint, $47 Blueprint Core, $297 Senior Transition Roadmap, $14.99/mo SeniorSafe, and $39.99/mo Premium+ with Maggie, your AI transition specialist.",
+    "Five ways to work with Ryan Riggins on a senior housing transition. The free Simple Blueprint, $47 Blueprint Core, the $297 Senior Transition Roadmap, the SeniorSafe app from $14.99/mo, and Get Me in Your Corner, a vetted real estate agent referral at no added cost.",
   alternates: { canonical: "/the-blueprint" },
   openGraph: {
     type: "website",
@@ -28,13 +28,13 @@ export const metadata: Metadata = {
     siteName: "Riggins Strategic Solutions",
     title: "The Blueprint | Senior Transition Tiers",
     description:
-      "Five ways to work with Ryan Riggins on a senior housing transition. Free Simple Blueprint, $47 Blueprint Core, $297 Senior Transition Roadmap, $14.99/mo SeniorSafe, and $39.99/mo Premium+ with Maggie.",
+      "Five ways to work with Ryan Riggins on a senior housing transition. The free Simple Blueprint, $47 Blueprint Core, the $297 Senior Transition Roadmap, the SeniorSafe app, and Get Me in Your Corner, a vetted agent referral at no added cost.",
     images: [
       {
         url: "https://rigginsstrategicsolutions.com/og/the-blueprint.png",
         width: 1200,
         height: 630,
-        alt: "Riggins Strategic Solutions — Senior Transition Blueprint and SeniorSafe app",
+        alt: "Riggins Strategic Solutions, Senior Transition Blueprint and SeniorSafe app",
       },
     ],
   },
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "The Blueprint | Senior Transition Tiers",
     description:
-      "Five ways to work with Ryan Riggins on a senior housing transition. Free guide, $47 course, $297 advisory, SeniorSafe app, Premium+ with Maggie.",
+      "Five ways to work with Ryan Riggins on a senior housing transition. Free guide, $47 course, $297 advisory, the SeniorSafe app, and a vetted agent referral at no added cost.",
     images: ["https://rigginsstrategicsolutions.com/og/the-blueprint.png"],
   },
 };
@@ -120,36 +120,36 @@ const tiers: Tier[] = [
   {
     label: "SeniorSafe",
     price: "$14.99/mo",
-    priceSub: "14-day free trial. Cancel anytime.",
+    priceSub: "or $39.99/mo with Maggie",
     title: "The app for the daily part.",
-    blurb: "Daily check-ins, medication tracking, family messaging, SeniorSafe AI.",
-    audience: "Families coordinating daily care across siblings and caregivers.",
+    blurb: "Daily check-ins, medication tracking, family messaging, and SeniorSafe AI. Add Maggie for the full transition specialist.",
+    audience: "Families coordinating daily care, with an upgrade for those in an active move.",
     bullets: [
-      "Daily wellness check-ins with real-time family updates",
-      "Medication and appointment tracking in one place",
-      "Private family messaging that beats group texts",
-      "SeniorSafe AI as your parent's daily buddy",
+      "SeniorSafe, $14.99/mo: daily check-ins, medication tracking, document vault, family messaging.",
+      "With Maggie, $39.99/mo: everything above, plus the AI built to help you manage the whole transition.",
+      "Maggie knows the full 20-module Blueprint and flags wholesaler offers in real time.",
+      "14-day free trial on either tier. Cancel anytime.",
     ],
     cta: { href: paymentLinks.seniorSafe, label: "Start free trial", external: true },
     image: "/photos/stock_video_call_setup.jpg",
-    alt: "Video call setup representing family coordination via SeniorSafe",
+    alt: "Family coordinating senior care with the SeniorSafe app",
   },
   {
-    label: "Premium+",
-    price: "$39.99/mo",
-    priceSub: "14-day free trial. Cancel anytime.",
-    title: "SeniorSafe with Maggie, your AI transition specialist.",
-    blurb: "Everything in SeniorSafe, plus Maggie for the adult child running the move.",
-    audience: "Families navigating an active transition who need a navigator on call.",
+    label: "Don't Pick an Agent Alone",
+    price: "No added cost",
+    priceSub: "paid from the commission, not by you",
+    title: "Get Me in Your Corner.",
+    blurb: "Wherever you are, I find and vet the right agent for your situation and stay in it with you the whole way.",
+    audience: "Families selling a parent's home who want a vetted agent and a second eye on the deal.",
     bullets: [
-      "Everything in SeniorSafe",
-      "Maggie, your AI transition specialist, available 24/7",
-      "Full 20-module Blueprint methodology built into Maggie",
-      "Resistant-parent persona detection and predator protection",
+      "The right local agent, hand picked and vetted for you.",
+      "A second eye on every offer, contract, and repair call.",
+      "No added cost beyond the commission you would pay anyway.",
+      "A real estate referral through eXp Realty, not an RSS product.",
     ],
-    cta: { href: paymentLinks.seniorSafe, label: "Start free trial", external: true },
-    image: "/photos/stock_video_call_setup.jpg",
-    alt: "Adult child reviewing transition options with Maggie, the AI transition specialist",
+    cta: { href: "/in-your-corner", label: "See How It Works" },
+    image: "/photos/property_walkthrough_ryan.jpg",
+    alt: "Ryan Riggins walking a property as an advocate on the home sale",
   },
 ];
 
