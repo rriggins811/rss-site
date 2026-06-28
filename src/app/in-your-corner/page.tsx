@@ -176,7 +176,7 @@ export default function InYourCornerPage() {
         <div className="mx-auto max-w-5xl px-6 py-16">
           <h2 className={`${display} text-2xl text-navy sm:text-3xl`}>What families are up against</h2>
           <p className="mt-2 max-w-2xl text-ink/70">
-            The moment a senior&apos;s home goes on the market, the wrong people show up first.
+            The moment a senior&apos;s home sale becomes necessary, the wrong people show up first.
           </p>
           <div className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {[
