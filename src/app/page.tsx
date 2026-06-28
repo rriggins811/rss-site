@@ -59,7 +59,7 @@ const paths: {
       "Walk through it at your own pace",
       "The exact playbook Ryan uses with clients",
     ],
-    cta: { href: "/the-blueprint", label: "See what's inside" },
+    cta: { href: "/blueprint-core", label: "See what's inside" },
     image: "/photos/blueprint_core_materials_47.jpg",
     alt: "Blueprint Core planning materials and checklists",
   },

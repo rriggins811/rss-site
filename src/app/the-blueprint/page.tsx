@@ -94,6 +94,7 @@ const tiers: Tier[] = [
       "12 months of course access and updates",
     ],
     cta: { href: paymentLinks.blueprintCore, label: "Get Blueprint Core, $47", external: true },
+    learnMore: { href: "/blueprint-core", label: "See what's inside Blueprint Core" },
     image: "/photos/blueprint_core_materials_47.jpg",
     alt: "Blueprint Core planning materials and checklists",
   },
