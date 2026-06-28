@@ -195,8 +195,8 @@ const faqs: { q: string; a: string }[] = [
     a: "Core is the full self-serve system. The Roadmap is Core plus a personalized plan written for your specific situation, a 60-minute 1-on-1 call with Ryan, and 90 days of email follow-up while you execute. If you want someone in your corner, not just a playbook, the Roadmap is the pick.",
   },
   {
-    q: "How is Premium+ different from regular SeniorSafe?",
-    a: "SeniorSafe at $14.99/mo gives you the daily app for the senior plus SeniorSafe AI as a general-purpose helper. Premium+ at $39.99/mo adds Maggie, an AI transition specialist built for the adult child managing the move. Maggie knows the full 20-module Blueprint, recognizes resistant parent personas, and walks you through wholesaler offers in real time. Choose Premium+ if YOU need the navigator, not just the daily check-in tool.",
+    q: "How is SeniorSafe with Maggie different from regular SeniorSafe?",
+    a: "SeniorSafe at $14.99/mo gives you the daily app for the senior plus SeniorSafe AI as a general-purpose helper. Adding Maggie at $39.99/mo brings in an AI transition specialist built for the adult child managing the move. Maggie knows the full 20-module Blueprint, recognizes resistant parent personas, and walks you through wholesaler offers in real time. Choose SeniorSafe with Maggie if YOU need the specialist, not just the daily check-in tool.",
   },
   {
     q: "Can I start with Core and upgrade to the Roadmap later?",
@@ -208,7 +208,7 @@ const faqs: { q: string; a: string }[] = [
   },
   {
     q: "Is there a money-back guarantee?",
-    a: "Yes. Blueprint Core has a 14-day money-back guarantee. Senior Transition Roadmap has a 14-day money-back guarantee up until the consultation call happens. SeniorSafe and Premium+ are both 14-day free trials, cancel anytime, no charge.",
+    a: "Yes. Blueprint Core has a 14-day money-back guarantee. Senior Transition Roadmap has a 14-day money-back guarantee up until the consultation call happens. SeniorSafe, with or without Maggie, is a 14-day free trial, cancel anytime, no charge.",
   },
 ];
 
@@ -430,7 +430,7 @@ export default function BlueprintPage() {
           <p className="mt-6 text-lg text-cream/90 max-w-2xl mx-auto leading-relaxed">
             Blueprint Core has a 14-day money-back guarantee. Senior Transition Roadmap
             has a 14-day money-back guarantee up until the consultation call
-            happens. SeniorSafe and Premium+ are both 14-day free trials. If
+            happens. SeniorSafe, with or without Maggie, is a 14-day free trial. If
             it&rsquo;s not the right fit, you walk. No hassle, no guilt trip.
           </p>
         </div>
