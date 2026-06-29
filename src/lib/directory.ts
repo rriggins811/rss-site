@@ -302,6 +302,60 @@ export const DIRECTORY_COUNTIES: DirectoryCounty[] = [
     blurb:
       "Rock Hill and York County, SC programs for seniors and families: the SC Homestead Exemption, food, utilities, Medicare, home repair, transportation, legal, and caregiver support.",
   },
+  {
+    slug: "richland-county-sc-senior-help-directory",
+    county: "Richland County",
+    state: "SC",
+    metro: "Columbia",
+    region: "Midlands",
+    blurb:
+      "Columbia and Midlands South Carolina programs for seniors and families: the SC Homestead Exemption, food, utilities, Medicare, home repair, transportation, legal, caregiver support, and PACE.",
+  },
+  {
+    slug: "charleston-county-sc-senior-help-directory",
+    county: "Charleston County",
+    state: "SC",
+    metro: "Charleston",
+    region: "Lowcountry",
+    blurb:
+      "Charleston and Lowcountry South Carolina programs for seniors and families: the SC Homestead Exemption, food, utilities, Medicare, home repair, transportation, legal, caregiver support, and PACE.",
+  },
+  {
+    slug: "horry-county-sc-senior-help-directory",
+    county: "Horry County",
+    state: "SC",
+    metro: "Myrtle Beach",
+    region: "Grand Strand",
+    blurb:
+      "Myrtle Beach, Conway, and the Grand Strand, SC programs for seniors and families: the SC Homestead Exemption, food, utilities, Medicare, home repair, transportation, legal, caregiver support, and PACE.",
+  },
+  {
+    slug: "spartanburg-county-sc-senior-help-directory",
+    county: "Spartanburg County",
+    state: "SC",
+    metro: "Spartanburg",
+    region: "Upstate",
+    blurb:
+      "Spartanburg and Upstate South Carolina programs for seniors and families: the SC Homestead Exemption, food, utilities, Medicare, home repair, transportation, legal, caregiver support, and PACE.",
+  },
+  {
+    slug: "beaufort-county-sc-senior-help-directory",
+    county: "Beaufort County",
+    state: "SC",
+    metro: "Hilton Head",
+    region: "Lowcountry",
+    blurb:
+      "Hilton Head, Bluffton, and Beaufort, SC programs for seniors and families: the SC Homestead Exemption, food, utilities, Medicare, home repair, transportation, legal, caregiver support, and PACE.",
+  },
+  {
+    slug: "fulton-county-ga-senior-help-directory",
+    county: "Fulton County",
+    state: "GA",
+    metro: "Atlanta",
+    region: "Atlanta",
+    blurb:
+      "Atlanta and metro Georgia programs for seniors and families: the county's large senior homestead exemptions, food, utilities, Medicare, home repair, transportation, legal, caregiver support, and PACE.",
+  },
 ];
 
 export type DirectoryState = {
