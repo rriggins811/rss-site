@@ -36,21 +36,13 @@ export const metadata: Metadata = {
     title: "Blueprint Core | The Self-Serve Senior Transition System",
     description:
       "The whole path of a senior transition, in your hands. 20 modules, 70-plus tools, 5 exit strategies. Walk it at your own pace. $47, one-time.",
-    images: [
-      {
-        url: "https://rigginsstrategicsolutions.com/og/the-blueprint.png",
-        width: 1200,
-        height: 630,
-        alt: "Blueprint Core, the self-serve senior transition system, $47",
-      },
-    ],
+    // OG image is generated per-route by ./opengraph-image.tsx, so no static image here.
   },
   twitter: {
     card: "summary_large_image",
     title: "Blueprint Core | The Self-Serve Senior Transition System",
     description:
       "The whole transition mapped, 20 modules, 70-plus tools. Walk it yourself at your own pace. $47, one-time.",
-    images: ["https://rigginsstrategicsolutions.com/og/the-blueprint.png"],
   },
 };
 

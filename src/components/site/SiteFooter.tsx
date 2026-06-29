@@ -7,8 +7,9 @@ const footerNav: { heading: string; links: { href: string; label: string; extern
     heading: "Work with Ryan",
     links: [
       { href: "/blueprint-preview", label: "Blueprint Map ($9.99)" },
-      { href: "/the-blueprint", label: "The Blueprint ($47)" },
+      { href: "/blueprint-core", label: "Blueprint Core ($47)" },
       { href: "/blueprint-premium", label: "Senior Transition Roadmap" },
+      { href: "/in-your-corner", label: "Get Me in Your Corner" },
       { href: "/seniorsafe-app", label: "SeniorSafe App" },
       { href: "/work-with-ryan", label: "Book a call" },
     ],

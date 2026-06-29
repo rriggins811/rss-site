@@ -36,21 +36,13 @@ export const metadata: Metadata = {
     title: "The Senior Transition Roadmap | $297 Guided Advisory",
     description:
       "The whole path of a senior transition, laid out before you. A personalized plan, a 60-minute call with Ryan, and 90 days of support. $297, one-time.",
-    images: [
-      {
-        url: "https://rigginsstrategicsolutions.com/og/blueprint-premium.png",
-        width: 1200,
-        height: 630,
-        alt: "The Senior Transition Roadmap, $297 guided advisory",
-      },
-    ],
+    // OG image is generated per-route by ./opengraph-image.tsx, so no static image here.
   },
   twitter: {
     card: "summary_large_image",
     title: "The Senior Transition Roadmap | $297 Guided Advisory",
     description:
       "Your whole transition mapped, an example plan, a 60-minute call with Ryan, and 90 days of support. $297, one-time.",
-    images: ["https://rigginsstrategicsolutions.com/og/blueprint-premium.png"],
   },
 };
 

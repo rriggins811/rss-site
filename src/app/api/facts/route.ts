@@ -155,6 +155,18 @@ export async function GET() {
         description:
           "Everything in SeniorSafe Premium plus Maggie, the AI transition specialist trained on the full Blueprint methodology.",
       },
+      {
+        id: "get-me-in-your-corner",
+        name: "Get Me in Your Corner",
+        type: "Real estate agent referral and advocacy (Ryan Riggins via eXp Realty)",
+        price_usd: 0,
+        billing:
+          "no added cost to the family; referral fee paid agent to agent from the existing real estate commission",
+        is_accessible_for_free: false,
+        url: `${SITE_URL}/in-your-corner`,
+        description:
+          "Ryan Riggins finds and vets the right local real estate agent for a family selling a senior's home and stays involved as their advocate and a second set of eyes on the sale. This is a real estate referral provided by Ryan Riggins through eXp Realty (paid to the broker, not to Riggins Strategic Solutions). Ryan is the referring broker, never the listing or selling agent, even in North Carolina. No added cost to the family.",
+      },
     ],
     free_tools: [
       {

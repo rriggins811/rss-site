@@ -29,21 +29,13 @@ export const metadata: Metadata = {
     title: "Get Me in Your Corner | A Vetted Agent and an Advocate on the Sale",
     description:
       "Don't pick an agent alone. Ryan finds and vets the right local agent for your situation and stays in it with you the whole way. No added cost to you.",
-    images: [
-      {
-        url: "https://rigginsstrategicsolutions.com/og/homepage.png",
-        width: 1200,
-        height: 630,
-        alt: "Get Me in Your Corner, a vetted agent and an advocate on the home sale",
-      },
-    ],
+    // OG image is generated per-route by ./opengraph-image.tsx, so no static image here.
   },
   twitter: {
     card: "summary_large_image",
     title: "Get Me in Your Corner | A Vetted Agent and an Advocate",
     description:
       "Ryan finds and vets the right local agent for your situation and stays in your corner on the sale. No added cost to you.",
-    images: ["https://rigginsstrategicsolutions.com/og/homepage.png"],
   },
 };
 
@@ -97,6 +89,30 @@ const FAQS: { q: string; a: string }[] = [
   },
 ];
 
+const SERVICE_SCHEMA = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  name: "Get Me in Your Corner: Senior Home Sale Agent Referral and Advocacy",
+  serviceType: "Real estate agent referral and advocacy",
+  description:
+    "Ryan Riggins, a licensed North Carolina real estate broker with eXp Realty, finds and vets the right local real estate agent for a family selling a senior's home and stays involved as their advocate and a second set of eyes on the sale. He is the referring broker, never the listing or selling agent. The referral is paid agent to agent out of the existing commission, at no added cost to the family.",
+  provider: {
+    "@type": "RealEstateAgent",
+    name: "Ryan Riggins",
+    url: "https://rigginsstrategicsolutions.com/in-your-corner",
+    memberOf: { "@type": "Organization", name: "eXp Realty" },
+    areaServed: { "@type": "Country", name: "United States" },
+  },
+  areaServed: { "@type": "Country", name: "United States" },
+  offers: {
+    "@type": "Offer",
+    price: "0",
+    priceCurrency: "USD",
+    description:
+      "No added cost to the family. The referral fee is paid agent to agent out of the existing real estate commission.",
+  },
+};
+
 export default function InYourCornerPage() {
   const breadcrumbs = breadcrumbListSchema([
     { name: "Home", path: "/" },
@@ -108,6 +124,7 @@ export default function InYourCornerPage() {
     <main className="w-full bg-cream text-ink">
       <JsonLd data={faqPageSchema(FAQS, abs("/in-your-corner"))} />
       <JsonLd data={breadcrumbs} />
+      <JsonLd data={SERVICE_SCHEMA} />
 
       {/* HERO */}
       <section className="border-b border-cream-200 bg-cream">

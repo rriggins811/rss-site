@@ -29,6 +29,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/the-blueprint", changeFrequency: "monthly", priority: 0.9 },
     { path: "/blueprint-core", changeFrequency: "monthly", priority: 0.9 },
     { path: "/blueprint-premium", changeFrequency: "monthly", priority: 0.9 },
+    { path: "/in-your-corner", changeFrequency: "monthly", priority: 0.8 },
     { path: "/seniorsafe-app", changeFrequency: "monthly", priority: 0.9 },
     { path: "/freeguide", changeFrequency: "monthly", priority: 0.9 },
     { path: "/money-safety-sheet", changeFrequency: "monthly", priority: 0.8 },
