@@ -25,6 +25,7 @@ import { abs } from "@/lib/site";
 import { RelatedReading } from "@/components/site/RelatedReading";
 import { QuickAnswer } from "@/components/aeo/QuickAnswer";
 import { remarkAutolinkCta } from "@/lib/remark-autolink-cta";
+import { remarkAutolinkInternal } from "@/lib/remark-autolink-internal";
 
 type RouteParams = { slug: string };
 
@@ -73,7 +74,14 @@ export default async function BlogPostPage({
 
   const { content } = await compileMDX({
     source: post.content,
-    options: { mdxOptions: { remarkPlugins: [remarkAutolinkCta] } },
+    options: {
+      mdxOptions: {
+        remarkPlugins: [
+          remarkAutolinkCta,
+          [remarkAutolinkInternal, { selfPath: `/blog/${slug}` }],
+        ],
+      },
+    },
   });
 
   const related = getRelatedPosts(slug, 3);
