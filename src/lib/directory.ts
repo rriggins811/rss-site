@@ -356,6 +356,24 @@ export const DIRECTORY_COUNTIES: DirectoryCounty[] = [
     blurb:
       "Atlanta and metro Georgia programs for seniors and families: the county's large senior homestead exemptions, food, utilities, Medicare, home repair, transportation, legal, caregiver support, and PACE.",
   },
+  {
+    slug: "dekalb-county-ga-senior-help-directory",
+    county: "DeKalb County",
+    state: "GA",
+    metro: "Atlanta",
+    region: "Atlanta",
+    blurb:
+      "Decatur and Atlanta, GA programs for seniors and families: the county's deep senior exemptions (H3 through H9), food, utilities, Medicare, home repair, transportation, legal, caregiver support, and PACE status.",
+  },
+  {
+    slug: "chatham-county-ga-senior-help-directory",
+    county: "Chatham County",
+    state: "GA",
+    metro: "Savannah",
+    region: "Coastal Georgia",
+    blurb:
+      "Savannah, GA programs for seniors and families: the Stephens-Day value freeze, the new voter-approved school-tax exemption, food, utilities, Medicare, home repair, transportation, legal, caregiver support, and PACE status.",
+  },
 ];
 
 export type DirectoryState = {
