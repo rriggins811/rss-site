@@ -518,8 +518,8 @@ export default function BlueprintPremiumPage() {
           <div className="mt-10 grid gap-8 md:grid-cols-2">
             {[
               {
-                href: "/examples/senior-transition-plan-sample.pdf",
-                img: "/examples/senior-transition-plan-preview.png",
+                href: "/examples/senior-transition-plan-sample-2026.pdf",
+                img: "/examples/senior-transition-plan-preview-2026.png",
                 label: "Your written deliverable",
                 title: "Your Senior Transition Plan",
                 blurb:
@@ -527,8 +527,8 @@ export default function BlueprintPremiumPage() {
                 cta: "Open the example plan",
               },
               {
-                href: "/examples/premium-intake-form-sample.pdf",
-                img: "/examples/premium-intake-form-preview.png",
+                href: "/examples/premium-intake-form-sample-2026.pdf",
+                img: "/examples/premium-intake-form-preview-2026.png",
                 label: "Before we ever speak",
                 title: "The Pre-Consultation Intake",
                 blurb:
