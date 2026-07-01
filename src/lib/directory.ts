@@ -374,6 +374,24 @@ export const DIRECTORY_COUNTIES: DirectoryCounty[] = [
     blurb:
       "Savannah, GA programs for seniors and families: the Stephens-Day value freeze, the new voter-approved school-tax exemption, food, utilities, Medicare, home repair, transportation, legal, caregiver support, and PACE status.",
   },
+  {
+    slug: "richmond-county-ga-senior-help-directory",
+    county: "Richmond County",
+    state: "GA",
+    metro: "Augusta",
+    region: "CSRA",
+    blurb:
+      "Augusta, GA programs for seniors and families: the county's senior homestead exemptions including a full school-tax break at 65, food, utilities, Medicare, home repair, transportation, legal, caregiver support, and PACE status.",
+  },
+  {
+    slug: "muscogee-county-ga-senior-help-directory",
+    county: "Muscogee County",
+    state: "GA",
+    metro: "Columbus",
+    region: "West Georgia",
+    blurb:
+      "Columbus, GA programs for seniors and families: the county's senior homestead exemptions including a local senior school-tax break, food, utilities, Medicare, home repair, transportation, legal, caregiver support, and PACE status.",
+  },
 ];
 
 export type DirectoryState = {
