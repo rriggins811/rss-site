@@ -392,6 +392,24 @@ export const DIRECTORY_COUNTIES: DirectoryCounty[] = [
     blurb:
       "Columbus, GA programs for seniors and families: the county's senior homestead exemptions including a local senior school-tax break, food, utilities, Medicare, home repair, transportation, legal, caregiver support, and PACE status.",
   },
+  {
+    slug: "davidson-county-tn-senior-help-directory",
+    county: "Davidson County",
+    state: "TN",
+    metro: "Nashville",
+    region: "Middle Tennessee",
+    blurb:
+      "Nashville, TN programs for seniors and families: property tax relief and freeze through the Metro Trustee, food, utilities, Medicare, home repair, transportation, legal, caregiver support, and TennCare CHOICES.",
+  },
+  {
+    slug: "williamson-county-tn-senior-help-directory",
+    county: "Williamson County",
+    state: "TN",
+    metro: "Franklin",
+    region: "Middle Tennessee",
+    blurb:
+      "Franklin, TN programs for seniors and families: the county's three property tax programs through the Trustee, food, utilities, Medicare, home repair, transportation, legal, caregiver support, and TennCare CHOICES.",
+  },
 ];
 
 export type DirectoryState = {
