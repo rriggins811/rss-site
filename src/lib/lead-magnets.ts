@@ -226,8 +226,8 @@ export const LEAD_MAGNETS: LeadMagnet[] = [
     title: "The Simple Blueprint",
     subtitle: "Where to start when a parent needs more help",
     description:
-      "A 14-page, plain-English starter map for the whole senior transition: what to handle first and what can wait, the conversations to have before a crisis forces them, and where the money usually hides and leaks. The calm starting point when it all lands at once.",
-    pageCount: 14,
+      "An 11-page, plain-English starter map for the whole senior transition: what to handle first and what can wait, the conversations to have before a crisis forces them, and where the money usually hides and leaks. The calm starting point when it all lands at once.",
+    pageCount: 11,
     // The Simple Blueprint PDF lives at /files/ (the original free-guide
     // path), not /downloads/ with the other magnets. The registry keeps
     // the canonical path so every surface links the same file.

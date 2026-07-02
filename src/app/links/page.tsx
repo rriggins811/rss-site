@@ -46,7 +46,7 @@ const GROUPS: LinkGroup[] = [
     items: [
       {
         label: "Free Simple Blueprint Guide",
-        description: "The 14-page starter guide for families just getting going.",
+        description: "The 11-page starter guide for families just getting going.",
         href: "/freeguide",
       },
       {
