@@ -410,6 +410,24 @@ export const DIRECTORY_COUNTIES: DirectoryCounty[] = [
     blurb:
       "Franklin, TN programs for seniors and families: the county's three property tax programs through the Trustee, food, utilities, Medicare, home repair, transportation, legal, caregiver support, and TennCare CHOICES.",
   },
+  {
+    slug: "shelby-county-tn-senior-help-directory",
+    county: "Shelby County",
+    state: "TN",
+    metro: "Memphis",
+    region: "West Tennessee",
+    blurb:
+      "Memphis, TN programs for seniors and families: property tax relief and freeze through the County Trustee plus the separate City of Memphis program, MIFA Meals on Wheels, food, utilities, Medicare, home repair, transportation, legal, caregiver support, and TennCare CHOICES.",
+  },
+  {
+    slug: "knox-county-tn-senior-help-directory",
+    county: "Knox County",
+    state: "TN",
+    metro: "Knoxville",
+    region: "East Tennessee",
+    blurb:
+      "Knoxville, TN programs for seniors and families: property tax relief and the senior tax freeze through the County Trustee, Mobile Meals, food, utilities, Medicare, home repair, transportation, legal, caregiver support, and TennCare CHOICES.",
+  },
 ];
 
 export type DirectoryState = {
