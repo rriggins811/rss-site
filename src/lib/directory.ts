@@ -428,6 +428,60 @@ export const DIRECTORY_COUNTIES: DirectoryCounty[] = [
     blurb:
       "Knoxville, TN programs for seniors and families: property tax relief and the senior tax freeze through the County Trustee, Mobile Meals, food, utilities, Medicare, home repair, transportation, legal, caregiver support, and TennCare CHOICES.",
   },
+  {
+    slug: "hamilton-county-tn-senior-help-directory",
+    county: "Hamilton County",
+    state: "TN",
+    metro: "Chattanooga",
+    region: "Southeast Tennessee",
+    blurb:
+      "Chattanooga, TN programs for seniors and families: property tax relief through the County Trustee and the City of Chattanooga's separate relief and freeze, meals, utilities, Medicare, home repair, transportation, legal, caregiver support, TennCare CHOICES, and Tennessee's only PACE program.",
+  },
+  {
+    slug: "fairfax-county-va-senior-help-directory",
+    county: "Fairfax County",
+    state: "VA",
+    metro: "Northern Virginia",
+    region: "Northern Virginia",
+    blurb:
+      "Fairfax County, VA programs for seniors and families: sliding-scale real estate tax relief through the Department of Tax Administration, meals, energy help, Medicare, home repair, Fastran and MetroAccess, legal, caregiver support, and PACE.",
+  },
+  {
+    slug: "prince-william-county-va-senior-help-directory",
+    county: "Prince William County",
+    state: "VA",
+    metro: "Manassas / Woodbridge",
+    region: "Northern Virginia",
+    blurb:
+      "Prince William County, VA programs for seniors and families: real estate tax relief through the Real Estate Assessments Office plus the separate Manassas and Manassas Park city programs, meals, energy help, Medicare, home repair, OmniRide Access, legal, and caregiver support.",
+  },
+  {
+    slug: "city-of-virginia-beach-va-senior-help-directory",
+    county: "City of Virginia Beach",
+    state: "VA",
+    metro: "Virginia Beach",
+    region: "Hampton Roads",
+    blurb:
+      "City of Virginia Beach, VA programs for seniors and families: the city's real estate tax exemption and freeze through the Commissioner of the Revenue, meals, energy help, Medicare, home repair, paratransit, legal, caregiver support, and Sentara PACE.",
+  },
+  {
+    slug: "henrico-county-va-senior-help-directory",
+    county: "Henrico County",
+    state: "VA",
+    metro: "Richmond",
+    region: "Central Virginia",
+    blurb:
+      "Henrico County, VA programs for seniors and families: the county's REAP tax exemption and RECAP tax cap through the Finance Revenue Division plus the separate City of Richmond program, FeedMore meals, energy help, Medicare, home repair, GRTC CARE, legal, caregiver support, and PACE.",
+  },
+  {
+    slug: "roanoke-city-and-county-va-senior-help-directory",
+    county: "Roanoke (City and County)",
+    state: "VA",
+    metro: "Roanoke",
+    region: "Roanoke Valley",
+    blurb:
+      "Roanoke, VA programs for seniors and families: both governments' separate senior tax freezes through their own Commissioners of the Revenue, meals, energy help, Medicare, home repair, CORTRAN and STAR paratransit, legal, caregiver support, and PACE.",
+  },
 ];
 
 export type DirectoryState = {
