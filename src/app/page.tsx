@@ -67,7 +67,7 @@ const paths: {
     tag: "Guided",
     title: "Senior Transition Roadmap",
     price: "$297 one-time",
-    blurb: "For families who want Ryan in their corner.",
+    blurb: "For families who want a written plan and Ryan on a call.",
     bullets: [
       "Everything in Core, plus a personalized plan",
       "60-minute 1-on-1 call with Ryan",
@@ -79,33 +79,35 @@ const paths: {
     accent: true,
   },
   {
+    tag: "Advocacy",
+    title: "Get Me in Your Corner",
+    price: "No added cost",
+    blurb:
+      "Selling the house? I find and vet the right agent, then stay on the sale as your advocate. Paid from the commission, not by you.",
+    bullets: [
+      "The right local agent, hand picked and vetted",
+      "A second eye on every offer, contract, and repair call",
+      "A referral through eXp Realty, not an RSS product",
+    ],
+    cta: { href: "/in-your-corner", label: "See how it works" },
+    image: "/photos/property_walkthrough_ryan.jpg",
+    alt: "Ryan Riggins walking a property as an advocate on the home sale",
+  },
+  {
     tag: "App",
-    title: "SeniorSafe",
-    price: "$14.99/mo · 14-day free trial",
-    blurb: "For families coordinating daily care across siblings.",
+    title: "SeniorSafe App",
+    price: "$14.99 or $39.99 per month",
+    blurb:
+      "The family app for the daily part of senior care. Check-ins, meds, documents, and Maggie, the AI specialist for adult children.",
     bullets: [
       "Daily check-ins and medication tracking",
-      "SeniorSafe AI as your parent's daily buddy",
       "Document vault and private family messaging",
+      "Add Maggie, your AI transition specialist, at $39.99/mo",
+      "14-day free trial on either tier",
     ],
     cta: { href: "/seniorsafe-app", label: "Start free trial" },
     image: "/photos/stock_video_call_setup.jpg",
     alt: "Video call setup representing family coordination via SeniorSafe",
-  },
-  {
-    tag: "Premium+",
-    title: "SeniorSafe + Maggie",
-    price: "$39.99/mo · 14-day free trial",
-    blurb: "For families navigating an active transition.",
-    bullets: [
-      "Everything in SeniorSafe",
-      "Maggie, your AI transition specialist",
-      "24/7 access to the full Blueprint methodology",
-      "Persona detection and predator protection",
-    ],
-    cta: { href: "https://app.seniorsafeapp.com", label: "Start free trial", external: true },
-    image: "/photos/stock_video_call_setup.jpg",
-    alt: "Adult child reviewing transition plan with SeniorSafe Premium+ on a laptop",
   },
 ];
 
@@ -193,7 +195,10 @@ export default function HomePage() {
             <Badge variant="secondary" className="bg-burgundy-100 text-burgundy-700 border-0">
               Senior Transition Advisor · Greensboro, NC · Serving families nationwide
             </Badge>
-            <h1 className="mt-6 leading-[1.05]">
+            <p className="mt-5 text-xs font-semibold uppercase tracking-[0.16em] text-navy-700/70">
+              Ryan Riggins | Senior Transition Advisor and Advocate
+            </p>
+            <h1 className="mt-4 leading-[1.05]">
               Your parents&rsquo; home has{" "}
               <span className="text-burgundy-600">$200K+ in equity.</span> Don&rsquo;t
               let a bad move cost you $50,000 of it.
@@ -262,8 +267,8 @@ export default function HomePage() {
             <GoldRule />
             <h2 className="mt-3">Four ways to work with Ryan.</h2>
             <p className="mt-4 text-lg text-ink/80">
-              Self-serve, guided, daily-care app, or the full transition copilot.
-              Pick the one that matches where your family is right now.
+              Self-serve, guided, an advocate on the home sale, or the daily-care
+              app. Pick the one that matches where your family is right now.
             </p>
           </div>
 

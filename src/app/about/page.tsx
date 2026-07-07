@@ -117,7 +117,7 @@ export default function AboutPage() {
               About Ryan
             </Badge>
             <h1 className="mt-6 leading-tight">
-              I&rsquo;m Ryan Riggins. Senior Transition Advisor.
+              I&rsquo;m Ryan Riggins. Senior Transition Advisor and Advocate.
             </h1>
             <QuickAnswer
               className="mt-6 max-w-prose"

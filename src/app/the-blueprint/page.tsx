@@ -233,7 +233,8 @@ export default function BlueprintPage() {
               The Blueprint
             </Badge>
             <h1 className="mt-6 leading-[1.05]">
-              Five ways to protect your family&rsquo;s equity, dignity, and sanity.
+              The Senior Transition Blueprint: five tiers, one goal. Protect your
+              family&rsquo;s equity, dignity, and sanity.
             </h1>
             <QuickAnswer
               className="mt-6 max-w-prose"
@@ -251,6 +252,10 @@ export default function BlueprintPage() {
               starter guide, full DIY system, guided advisory, the daily
               coordination app, or SeniorSafe with Maggie as your AI transition
               specialist. Same underlying playbook across every tier.
+            </p>
+            <p className="mt-4 max-w-prose text-sm font-semibold text-navy-700">
+              Built by Ryan Riggins, Senior Transition Advisor and the former
+              flipper who switched sides.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <Button asChild size="lg">

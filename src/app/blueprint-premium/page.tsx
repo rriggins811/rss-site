@@ -278,7 +278,11 @@ export default function BlueprintPremiumPage() {
             <br />
             Laid Out Before You
           </h1>
-          <p className="mt-6 max-w-2xl text-lg leading-relaxed text-ink/80">
+          <p className="mt-6 max-w-2xl font-semibold leading-relaxed text-navy">
+            The Senior Transition Roadmap: the full 20-module course, a written plan built for your
+            family, a 60 minute call with Ryan, and 90 days of support. $297, one time.
+          </p>
+          <p className="mt-4 max-w-2xl text-lg leading-relaxed text-ink/80">
             When a parent needs to move, it hits all at once. The house, the money, the paperwork, the
             care, the family, and a hundred decisions you have never had to make before, usually in the
             middle of a hard week. Most families face it one painful step at a time. This is the map we
@@ -569,6 +573,26 @@ export default function BlueprintPremiumPage() {
             real form we send you. Your plan is built for your family&apos;s specific situation. Education and real
             estate guidance, not legal, tax, or financial advice.
           </p>
+        </div>
+      </section>
+
+      {/* HOME SALE CROSS-SELL - In Your Corner */}
+      <section className="bg-white">
+        <div className="mx-auto max-w-5xl px-6 pb-16">
+          <div className="rounded-xl border-2 border-gold bg-cream/50 p-7 lg:p-9">
+            <h2 className={`${display} text-2xl text-navy sm:text-3xl`}>Selling the house too?</h2>
+            <p className="mt-3 max-w-3xl leading-relaxed text-ink/80">
+              If the plan includes selling the home, I can also find and vet your agent and stay on
+              the sale as your advocate. No added cost, paid from the commission, not by you.
+            </p>
+            <Link
+              href="/in-your-corner"
+              className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-burgundy underline underline-offset-4 hover:text-burgundy-700"
+            >
+              See how it works
+              <span aria-hidden>&rarr;</span>
+            </Link>
+          </div>
         </div>
       </section>
 

@@ -36,6 +36,7 @@ type NavItem =
 const navItems: NavItem[] = [
   { type: "link", href: "/about", label: "About" },
   { type: "link", href: "/the-blueprint", label: "Blueprint" },
+  { type: "link", href: "/in-your-corner", label: "In Your Corner" },
   { type: "link", href: "/seniorsafe-app", label: "SeniorSafe" },
   {
     type: "dropdown",

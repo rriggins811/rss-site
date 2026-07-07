@@ -141,9 +141,10 @@ export default function ToolsHubPage() {
         <div className="mx-auto max-w-4xl px-6 py-16 text-center">
           <h1 className="leading-[1.1]">Free tools for families in transition.</h1>
           <p className="mt-6 text-lg text-ink/80 leading-relaxed max-w-2xl mx-auto">
-            Nine calculators, planners, and assessments built for the families
-            we work with every day. No email gate. No pitch. Use them, share
-            them, and book a call if you want help interpreting the results.
+            Nine calculators, planners, and assessments built by Senior
+            Transition Advisor Ryan Riggins for the families he works with
+            every day. No email gate. No pitch. Use them, share them, and book
+            a call if you want help interpreting the results.
           </p>
         </div>
       </section>
@@ -164,6 +165,22 @@ export default function ToolsHubPage() {
           </div>
         </section>
       ))}
+
+      {/* IN YOUR CORNER — one line bridging the calculators to the
+          agent-referral service. */}
+      <section className="bg-white">
+        <div className="mx-auto max-w-3xl px-6 py-10 text-center">
+          <p className="text-ink/80 leading-relaxed">
+            If the numbers say it is time to sell, do not call a random agent.{" "}
+            <Link
+              href="/in-your-corner"
+              className="font-semibold text-burgundy-600 hover:text-burgundy-700 underline underline-offset-2"
+            >
+              I will put a vetted one in your corner at no added cost.
+            </Link>
+          </p>
+        </div>
+      </section>
 
       {/* CTA */}
       <section className="bg-sand">

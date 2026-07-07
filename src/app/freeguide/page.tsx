@@ -133,6 +133,11 @@ export default function FreeGuidePage() {
 
           <div className="lg:pt-6">
             <StarterGuideForm />
+            <p className="mt-4 text-sm text-ink/70 leading-relaxed">
+              From Ryan Riggins, Senior Transition Advisor. I help families
+              make this move without getting taken advantage of. This guide is
+              where every family should start.
+            </p>
           </div>
         </div>
       </section>
@@ -212,6 +217,16 @@ export default function FreeGuidePage() {
               book a free 20-minute call.
             </a>{" "}
             No pitch, no pressure.
+          </p>
+          <p className="mt-4 text-lg text-ink/85 leading-relaxed">
+            Selling the house too?{" "}
+            <a
+              href="/in-your-corner"
+              className="text-burgundy-600 hover:text-burgundy-700 underline underline-offset-2"
+            >
+              I can put a vetted agent in your corner
+            </a>{" "}
+            at no added cost.
           </p>
         </div>
       </section>

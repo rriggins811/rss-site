@@ -115,9 +115,9 @@ export default function GuidesPage() {
             Free Guides for Families Navigating Senior Transitions
           </h1>
           <p className="mt-6 text-lg text-ink/80 max-w-2xl">
-            Practical, no-fluff guides built from 8+ years of construction,
-            real estate, and family-side experience. Use them. Share them.
-            They&apos;re free.
+            Written by Ryan Riggins, Senior Transition Advisor. Practical,
+            no-fluff guides built from 8+ years on the other side of these
+            deals. Use them. Share them. They are free.
           </p>
           <p className="mt-4 text-base text-ink/70 max-w-2xl">
             Built for the adult child managing a parent&apos;s next move —
@@ -183,6 +183,34 @@ export default function GuidesPage() {
         </section>
       )}
 
+      {/* GUIDES ARE THE MAP — banner bridging the free guides to the two
+          human next steps: the free call and the agent-referral service. */}
+      <section className="bg-navy-700">
+        <div className="mx-auto max-w-4xl px-6 py-14 text-center">
+          <h2 className="text-3xl md:text-4xl font-semibold text-white">
+            Guides are the map.
+          </h2>
+          <p className="mt-4 text-base text-white/80 max-w-2xl mx-auto">
+            If you want someone walking it with you, book a free 20 minute
+            call. And if the path ends with selling the house, I can put a
+            vetted agent in your corner at no added cost.
+          </p>
+          <div className="mt-8 flex flex-wrap justify-center gap-3">
+            <Button asChild size="lg">
+              <Link href="/work-with-ryan">Book a free 20-minute call</Link>
+            </Button>
+            <Button
+              asChild
+              size="lg"
+              variant="outline"
+              className="border-white/40 bg-transparent text-white hover:bg-white/10 hover:text-white"
+            >
+              <Link href="/in-your-corner">Get me in your corner</Link>
+            </Button>
+          </div>
+        </div>
+      </section>
+
       {/* COMING SOON — remaining placeholders. As LEAD_MAGNETS grows,
           remove the matching thematic placeholder from this list above. */}
       {PLACEHOLDER_GUIDES.length > 0 && (
@@ -215,7 +243,7 @@ export default function GuidesPage() {
                     </CardHeader>
                     <CardContent className="mt-auto">
                       <Button asChild variant="outline" className="w-full">
-                        <Link href="/freeguide">Notify Me</Link>
+                        <Link href="/freeguide">Get on the list</Link>
                       </Button>
                     </CardContent>
                   </Card>

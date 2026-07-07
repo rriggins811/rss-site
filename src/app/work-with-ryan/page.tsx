@@ -51,7 +51,7 @@ export default function WorkWithRyanPage() {
             className="mt-6 max-w-prose mx-auto text-left"
             topic="Working with Ryan"
             question="How do I work directly with Ryan Riggins?"
-            answer="Book a free 20 minute call to talk through your family situation with Ryan. He listens, asks the questions you have not been asked yet, and tells you straight whether the Blueprint, Premium, the SeniorSafe app, or just a different conversation is the right next step. No pitch. No pressure."
+            answer="Ryan Riggins is a Senior Transition Advisor. He spent 8 years buying houses from families like yours, then switched sides. Twenty minutes, straight answers, no pitch. He listens, asks the questions you have not been asked yet, and tells you straight whether Blueprint Core, the Senior Transition Roadmap, the SeniorSafe app, or just a different conversation is the right next step."
           />
           <p className="mt-6 text-lg text-ink/80 leading-relaxed max-w-prose mx-auto">
             We&rsquo;ll walk through where you are, what&rsquo;s urgent, and
@@ -74,6 +74,10 @@ export default function WorkWithRyanPage() {
               allow="payment *; fullscreen *"
             />
           </div>
+
+          <p className="mt-4 text-center text-sm text-ink/60">
+            Fiduciary duty to the family, not a pitch.
+          </p>
 
           <div className="mt-6 flex justify-center">
             <EmailFallback align="center" />

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
 import { GoldRule } from "@/components/site/GoldRule";
 import { JsonLd } from "@/components/site/JsonLd";
 import {
@@ -57,6 +58,10 @@ const HUB_FAQS: { q: string; a: string }[] = [
   {
     q: "My state or county is not listed yet. What should I do?",
     a: "We add states and counties a little at a time. Until yours is up, start with 211 or the Eldercare Locator at 1-800-677-1116, which route to local aging services in any US county.",
+  },
+  {
+    q: "What if we also need to sell the house?",
+    a: "That is the other half of what I do. I never list homes myself. I find and vet a local agent for your family and stay on the sale as your advocate, at no added cost to you, paid from the commission you would already pay. See rigginsstrategicsolutions.com/in-your-corner.",
   },
 ];
 
@@ -121,6 +126,10 @@ export default function SeniorHelpDirectoryHubPage() {
             help for food, energy bills, Medicare, home repairs,
             transportation, legal trouble, and caregiver support. It is free,
             there is no sign-up, and we add states and counties over time.
+          </p>
+          <p className="mt-4 text-sm text-ink/70 leading-relaxed">
+            Maintained by Ryan Riggins, Senior Transition Advisor. I built
+            this because families kept finding out about help a year too late.
           </p>
 
           {/* Featured callout: Scam Protection hub */}
@@ -229,6 +238,25 @@ export default function SeniorHelpDirectoryHubPage() {
               </li>
             ))}
           </ul>
+        </div>
+      </section>
+
+      {/* OVERWHELMED CTA — human next step between the state list and
+          the FAQs. */}
+      <section className="bg-cream border-t border-border">
+        <div className="mx-auto max-w-4xl px-6 py-14">
+          <div className="rounded-lg border border-burgundy-200 bg-white p-8 text-center">
+            <h2 className="font-serif text-2xl md:text-3xl text-navy-700">
+              Overwhelmed by the list?
+            </h2>
+            <p className="mt-3 text-ink/80 leading-relaxed max-w-2xl mx-auto">
+              Book a free 20 minute call and I will help you figure out which
+              programs your parent actually qualifies for.
+            </p>
+            <Button asChild size="lg" className="mt-6">
+              <Link href="/work-with-ryan">Book a free 20-minute call</Link>
+            </Button>
+          </div>
         </div>
       </section>
 

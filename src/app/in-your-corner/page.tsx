@@ -137,7 +137,10 @@ export default function InYourCornerPage() {
               Work with Ryan on the home
             </span>
           </div>
-          <h1 className={`${display} mt-7 text-4xl leading-[1.08] text-navy sm:text-5xl lg:text-6xl`}>
+          <p className="mt-5 text-xs font-semibold uppercase tracking-[0.16em] text-navy/60">
+            Ryan Riggins | Senior Transition Advisor and Advocate. I never list the home myself.
+          </p>
+          <h1 className={`${display} mt-4 text-4xl leading-[1.08] text-navy sm:text-5xl lg:text-6xl`}>
             <span className="italic text-gold-700">Get Me</span>
             <br />
             in Your Corner
@@ -148,6 +151,9 @@ export default function InYourCornerPage() {
             moment, can cost you fifty thousand dollars or more. You should not have to figure out who to
             trust on your own. I find and vet the right agent for your exact situation, wherever you are,
             and stay in it with you the whole way.
+          </p>
+          <p className="mt-5 inline-flex items-center rounded-full border border-gold bg-gold/10 px-4 py-1.5 text-sm font-semibold text-navy">
+            Paid from the commission you would pay anyway. Nothing extra from you.
           </p>
           <div className="mt-10 grid gap-4 sm:grid-cols-3">
             {[

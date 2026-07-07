@@ -50,6 +50,18 @@ const GROUPS: LinkGroup[] = [
         href: "/freeguide",
       },
       {
+        label: "Book a Free 20-Minute Call",
+        description: "Talk through your situation. No pitch, no pressure.",
+        href: "/work-with-ryan",
+      },
+      {
+        label:
+          "Selling a parent's house? Get a vetted agent in your corner (no added cost)",
+        description:
+          "I never list homes myself. I find and vet the agent, then stay on the sale as your advocate.",
+        href: "/in-your-corner",
+      },
+      {
         label: "Net Proceeds Calculator",
         description: "See what you will actually walk away with from a home sale.",
         href: "/tools/net-proceeds-calculator",
@@ -86,9 +98,9 @@ const GROUPS: LinkGroup[] = [
     heading: "Go deeper",
     items: [
       {
-        label: "The Senior Transition Blueprint ($47)",
+        label: "Blueprint Core ($47)",
         description: "The full 20-module course with 70-plus done-for-you tools.",
-        href: "/the-blueprint",
+        href: "/blueprint-core",
       },
       {
         label: "Senior Transition Roadmap ($297)",
@@ -104,16 +116,6 @@ const GROUPS: LinkGroup[] = [
         label: "The Other Side of the Conversation (book)",
         description: "The companion read for the parent's point of view.",
         href: "https://www.amazon.com/dp/B0GRR5FLDD",
-      },
-    ],
-  },
-  {
-    heading: "Work with Ryan",
-    items: [
-      {
-        label: "Book a Free 20-Minute Call",
-        description: "Talk through your situation. No pitch, no pressure.",
-        href: "/work-with-ryan",
       },
     ],
   },

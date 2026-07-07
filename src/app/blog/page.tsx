@@ -196,6 +196,28 @@ export default async function BlogIndexPage({
               </Link>
             ))}
           </div>
+
+          {/* MOVE-COMING CARD — small pointer for readers who are here
+              because a transition is on the horizon. */}
+          <div className="mt-10 rounded-lg border border-burgundy-200 bg-white p-6 text-center">
+            <p className="text-ink/80 leading-relaxed">
+              Reading because a move is coming? Start with the{" "}
+              <Link
+                href="/freeguide"
+                className="font-semibold text-burgundy-600 hover:text-burgundy-700 underline underline-offset-2"
+              >
+                free Simple Blueprint
+              </Link>{" "}
+              or{" "}
+              <Link
+                href="/work-with-ryan"
+                className="font-semibold text-burgundy-600 hover:text-burgundy-700 underline underline-offset-2"
+              >
+                book a free 20 minute call
+              </Link>
+              .
+            </p>
+          </div>
         </div>
       </section>
 
