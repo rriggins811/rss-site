@@ -482,6 +482,24 @@ export const DIRECTORY_COUNTIES: DirectoryCounty[] = [
     blurb:
       "Roanoke, VA programs for seniors and families: both governments' separate senior tax freezes through their own Commissioners of the Revenue, meals, energy help, Medicare, home repair, CORTRAN and STAR paratransit, legal, caregiver support, and PACE.",
   },
+  {
+    slug: "miami-dade-county-fl-senior-help-directory",
+    county: "Miami-Dade County",
+    state: "FL",
+    metro: "Miami",
+    region: "South Florida",
+    blurb:
+      "Miami, FL programs for seniors and families: the senior homestead exemptions through the Property Appraiser, Meals for the Elderly, light bill help, SHINE Medicare counseling, home repair, Golden Passport and STS rides, legal help, caregiver support, and PACE.",
+  },
+  {
+    slug: "broward-county-fl-senior-help-directory",
+    county: "Broward County",
+    state: "FL",
+    metro: "Fort Lauderdale",
+    region: "South Florida",
+    blurb:
+      "Fort Lauderdale, FL programs for seniors and families: the senior homestead exemptions through the Property Appraiser, Meals on Wheels, light bill help, SHINE Medicare counseling, home repair, TOPS! paratransit, legal help, caregiver support, and Broward's two PACE programs.",
+  },
 ];
 
 export type DirectoryState = {

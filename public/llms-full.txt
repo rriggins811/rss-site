@@ -5,8 +5,8 @@ It contains the full Markdown of every key page, resource pillar, Senior Help
 Directory state page, and blog post, intended for AI crawlers that ingest
 content for answer generation.
 
-Generated: 2026-07-07
-Indexed: 82 blog posts, 16 resource pillars, 51 Senior Help Directory state pages.
+Generated: 2026-07-08
+Indexed: 85 blog posts, 16 resource pillars, 51 Senior Help Directory state pages.
 
 For citation guidance, organizational facts, and topic depth, see the summary
 index at https://rigginsstrategicsolutions.com/llms.txt.
@@ -5171,8 +5171,345 @@ You must qualify for Medicaid, then apply for the Community Choices Waiver, choo
 
 # Blog Posts (newest first)
 
-The 82 posts below are the full body of every published article
+The 85 posts below are the full body of every published article
 on https://rigginsstrategicsolutions.com/blog, in reverse chronological order.
+
+---
+
+# Broward County, FL Senior Help Directory: Fort Lauderdale Programs for Seniors and Families (2026)
+https://rigginsstrategicsolutions.com/blog/broward-county-fl-senior-help-directory
+Published: 2026-07-08
+
+**Excerpt:** Free, plain-English senior help in Broward County, FL (Fort Lauderdale): the senior homestead exemptions through the Property Appraiser, Meals on Wheels, light bill help, SHINE Medicare counseling, home repair, TOPS! paratransit, legal help, caregiver support, and Broward's two PACE programs.
+
+*Free, plain-English help for seniors and families in Broward County, FL. Education, not advice. Verify before you rely on it.*
+
+## Start here (works anywhere)
+- 211 (dial 2-1-1), Eldercare Locator 1-800-677-1116, BenefitsCheckUp.org, Medicare 1-800-633-4227, Social Security 1-800-772-1213, VA 1-800-827-1000, Alzheimer's 24/7 Helpline 1-800-272-3900, National Elder Fraud Hotline 1-833-372-8311, Crisis Lifeline 988
+
+**Three local front doors:** 211 Broward (dial 2-1-1, First Call for Help, 24/7) | ADRC Broward Elder Helpline at 954-745-9779 (TTY 954-745-5689) or 1-800-96-ELDER (1-800-963-5337), the Area Agency on Aging / Aging and Disability Resource Center for Broward | Broward County Family Success Administration Division at 954-357-5025 for energy and emergency help
+
+## Property tax relief (apply with the Broward County Property Appraiser, Marty Kiar, 954-357-6830, bcpa.net)
+Florida seniors apply for property tax relief through the county Property Appraiser (in Broward, the BCPA). The general homestead filing deadline is March 1; because March 1, 2026 falls on a Sunday, the BCPA posted the 2026 timely-filing deadline as March 2, 2026. Broward County has adopted the local-option senior exemptions below, but the exact extra savings can vary by which city (or unincorporated area) the home sits in, so confirm with the BCPA.
+
+**Standard Homestead Exemption (statewide, any qualifying primary residence):** up to $50,000 off the assessed value of a permanent primary residence, plus the **Save Our Homes** cap that limits how much the assessed value can rise each year to 3 percent or the change in the CPI, whichever is lower. This is the base benefit before any senior exemption, and it renews automatically once approved.
+
+**Low-Income Senior Exemption (age 65 and older):** an additional exemption on top of the standard homestead for owners who meet all of these:
+- The property already receives the Homestead Exemption.
+- At least one owner is 65 or older as of January 1.
+- The total combined household adjusted gross income was at or below **$38,686** for the prior year (2025), the figure set annually by the Florida Department of Revenue and adjusted every January for cost of living. This limit changes every year.
+Apply with Form DR-501 plus the Household Income Sworn Statement, Form DR-501SC. County-wide it takes $25,000 off the county portion of the bill, and cities that adopted it add up to $50,000 off their city portion. It never touches the School Board portion.
+
+**Long-Term Residency Senior Exemption (25 or more years in the home):** for low-income seniors who have lived in the same home a long time, this can eliminate the city portion of the tax bill in Broward cities that adopted it (ask the BCPA whether your city did). It does not remove the school taxes. In addition to the Low-Income Senior rules above, it requires:
+- Having lived in the home for at least 25 years.
+- A home just (market) value under $250,000 in the first year the owner applied and qualified.
+- The same $38,686 household income limit.
+Apply with Form DR-501 and Form DR-501SC.
+
+**Statewide disabled-veteran and disability benefits:** Florida also gives a full property tax exemption on the homestead of a veteran with a total and permanent service-connected disability (and to some surviving spouses), a $5,000 exemption for a veteran with a 10 percent or greater disability, and exemptions for owners who are totally and permanently disabled or legally blind. Ask the BCPA which ones fit.
+
+**The one move:** call the BCPA at 954-357-6830 (or apply online at bcpa.net) before the March deadline to confirm this year's income limit, ask whether your city adopted the senior exemption and how much it saves, and have them check you for the Low-Income Senior Exemption and the Long-Term Residency Senior Exemption at the same time.
+
+## Food
+- The **Area Agency on Aging of Broward County** provides year-round **Home Delivered Meals** through contracted providers for residents 60 and older (and a caregiver living with a senior). To qualify, call the **ADRC Helpline at 954-745-9779**. The ADRC also runs an **Emergency Meal Program**, a temporary program for homebound residents or those at or below 150 percent of the federal poverty level, with choices like puree, kosher, gluten-free, Cuban, and American meals.
+- **Meals on Wheels South Florida** (954-731-8770, mowsoflo.org) is a nonprofit that delivers meals, does friendly visits and safety checks, and helps with grocery shopping for homebound Broward seniors.
+- **SNAP** (food stamps) is based on income, not age. Apply any time through Florida's ACCESS system at myaccess.myflfamilies.com or 1-866-762-2237. The ADRC can help older adults apply.
+- **Feeding South Florida** is the regional food bank (headquartered in Broward, Pembroke Park); find the nearest pantry through its online pantry locator, by dialing 211, or through the ADRC Helpline.
+
+## Energy and utility help
+- **LIHEAP (Low-Income Home Energy Assistance Program)** in Broward is run by the county's **Family Success Administration Division**. Income-qualified households under the county's posted guidelines (for example, $32,155 for a one-person household) can receive yearly electric-bill assistance, with the amount depending on income and household size; applications go through the state's floridaliheap.com portal (mail-in applications are no longer accepted). Broward moved to an online-only application (mail-in is no longer accepted). Call the LIHEAP call center at **954-357-5025** (Monday to Friday, 8:30 a.m. to 5 p.m.) for current opening and closing dates and to apply, or visit broward.org/FamilySuccess.
+- **FPL** offers bill-assistance programs and its Care to Share emergency fund for income-qualified customers (fpl.com/help).
+- For a past-due bill, dial 211 to find a church ministry, the Salvation Army, or another local fund with emergency utility money.
+
+## Medicare, Medicaid, prescriptions
+- Florida's SHIP (free Medicare counseling) is **SHINE (Serving Health Insurance Needs of Elders)**, delivered locally by ADRC Broward. SHINE volunteers give free, unbiased, confidential one-on-one help with Medicare, Medicare Advantage, Part D drug plans, Medigap, enrollment, appeals, long-term-care insurance, and fraud. Call ADRC Broward at 954-745-9779 or the statewide Elder Helpline 1-800-963-5337. Start here before any Medicare decision.
+- **Medicaid** in Florida (including long-term-care coverage and the programs that help pay Medicare costs) is applied for through the Department of Children and Families ACCESS system: myaccess.myflfamilies.com or 1-866-762-2237.
+- **Medicare Savings Programs** (help paying Part A and B premiums) and **Extra Help / the Low-Income Subsidy** (lower Part D drug costs) are screened through SHINE (954-745-9779), Social Security (1-800-772-1213), and ACCESS. Florida does not run a general statewide senior drug program, so ask SHINE about Extra Help and use BenefitsCheckUp.org to find manufacturer and nonprofit patient-assistance programs for specific drugs.
+
+## Home repair and safety
+- **ADRC Broward Minor Home Repairs:** the Home Repair program provides carpentry, plumbing, electrical, and other minor repairs needed to preserve health and safety for clients 60 or older in owner-occupied homes, with priority to low-income older adults. Call the ADRC Helpline at **954-745-9779** to ask about home-assistance programs.
+- **Weatherization** for income-qualified Broward homeowners and tenants (insulation, air-sealing, and energy-efficiency measures at no cost) is delivered through agencies such as **Centro Campesino**. The **Minority Builders Coalition** also does no-cost home repairs for Broward seniors. Ask the ADRC Helpline (954-745-9779) or dial 211 for the current provider and intake.
+- **Broward County Housing and Urban Planning Division** runs owner-occupied home-repair and rehabilitation programs (broward.org/Housing).
+- If the home is in a rural, unincorporated area, the **USDA Section 504 Home Repair** program offers low-interest repair loans, and grants for owners 62 and older who cannot repay a loan, to fix health and safety hazards.
+
+## Rent, housing, emergency cash
+- **211 Broward** (dial 2-1-1, First Call for Help) is the fastest route to emergency help with rent and utilities and will point you to the nonprofit, community agency, or church ministry with money available now, 24 hours a day.
+- **Broward County Family Success Administration Division** (954-357-5025) runs community programs and emergency assistance, and the **Salvation Army** and other Broward charities run emergency rent and utility help.
+- For Medicaid, SNAP, and cash assistance (TANF), apply through Florida ACCESS at myaccess.myflfamilies.com or 1-866-762-2237.
+
+## Transportation
+- **TOPS! (Transportation Options)** is Broward County Transit's ADA paratransit: shared-ride service for people whose physical, cognitive, emotional, or visual disability functionally prevents them from using the regular fixed-route bus. Riders go through an eligibility determination. One companion may ride along, picked up and dropped at the same address and time. For an application or information, call **954-357-8400** (fax 954-357-6794).
+- **Reduced fares and bus passes:** seniors, youth, students, and riders with disabilities may qualify for reduced fixed-route fare, and low-income residents may qualify for the **Transportation Disadvantaged (TD) Bus Pass Program**. Ask BCT Customer Service, or the ADRC Broward Helpline (954-745-9779), which also lists senior transportation options.
+- Dial 211 to find volunteer driver networks and rides to meal sites, medical appointments, and adult day programs.
+
+## Legal help
+- **Florida's Senior Legal Helpline** gives free legal advice and brief services by phone to Florida residents age 60 and older on civil matters (powers of attorney, wills, Medicaid and public benefits, housing, consumer problems, and scams). Call **1-888-895-7873**.
+- **Coast to Coast Legal Aid of South Florida** (954-736-2400) runs a **Senior Citizen Law Project** giving free civil legal help to Broward County residents 60 and older. **Legal Aid Service of Broward County** (browardlegalaid.org, intake 954-765-8950) is a separate organization offering free civil legal help to income-qualified residents. Coast to Coast's **Mobile Justice Squad** is a mobile law office that goes to homebound and transportation-challenged seniors at home or at their local senior center. Call **954-736-2400** (Monday to Friday) and tell the intake specialist you are homebound to ask about the Mobile Justice Squad.
+- The **Legal Aid Service of Broward County** provides free civil legal help to qualifying lower-income residents on other matters; dial 211 or ask the ADRC Helpline (954-745-9779) for the right office.
+
+## Caregiver support
+- ADRC Broward runs a **Family Caregiver Support Program** for people caring for an adult 60 or older (or a person with dementia): information, one-on-one support, caregiver education, and respite (a paid break for the caregiver). Reach it through the ADRC Helpline at 954-745-9779.
+- The **Alzheimer's Association 24/7 Helpline** (1-800-272-3900) is there any hour for dementia caregiving questions, and 211 can point you to local support groups.
+
+## Staying at home instead of a nursing home
+- Florida Medicaid pays for in-home care (personal care, adult day care, respite, and other supports) through its Statewide Medicaid Managed Care Long-Term Care program for older adults who meet a nursing-home level of care but can live safely at home. Broward also runs the state **Community Care for the Elderly** program through the county's Elderly and Veterans Services Division (954-357-6622), with the ADRC Helpline as the screening front door. Ask ADRC Broward (954-745-9779) or the Elder Helpline (1-800-963-5337) to start a screening, and apply for Medicaid through ACCESS (myaccess.myflfamilies.com or 1-866-762-2237). There is often a wait list, so start early.
+- **PACE (the Program of All-Inclusive Care for the Elderly)** wraps all medical care, therapy, an adult day center, home care, and prescriptions into one program for people 55 and older who meet a nursing-home level of care but can live at home with help. Broward has two PACE options that split the county: **Florida PACE Centers** (an affiliate of Miami Jewish Health; enrollment 786-933-7223; Miramar site at 2814 Corporate Way) serves south Broward, including Hollywood, Hallandale, Miramar, and Pembroke Pines, and **Broward PACE** (a collaboration between Broward Health and Florida PACE Centers by Miami Jewish Health; enrollment 954-787-0191; 1700 NW 49th Street, Fort Lauderdale) serves central and northern Broward north of Stirling Road. Enrollment usually requires Medicaid eligibility and is by ZIP-code service area; ask either program, the ADRC (954-745-9779), or Florida Medicaid.
+- Home-delivered meals, in-home help, and paratransit rides also help an older adult stay in the home longer.
+
+## Frequently asked questions
+**Mom is 70 in Fort Lauderdale on a fixed income. Can she lower her property taxes?** Likely yes. On top of the standard homestead exemption (up to $50,000 off plus the Save Our Homes cap), Broward adopted the additional Low-Income Senior Exemption for owners 65 and older whose combined household income was at or below $38,686 last year. If she has lived in the home 25 years or more and its value was under $250,000 the first year she qualified, the Long-Term Residency Senior Exemption can eliminate the city portion of her bill in cities that adopted it. Call the BCPA at 954-357-6830 before the March deadline and have them check her for both.
+
+**Dad is homebound in Broward and can't cook. How do we get him meals?** Call the ADRC Broward Helpline at 954-745-9779 about Home Delivered Meals for residents 60 and older, or its Emergency Meal Program if he needs food right away. Meals on Wheels South Florida (954-731-8770) also delivers. For a pantry, dial 211 or search the Feeding South Florida locator.
+
+**My parent can't drive and needs rides to the doctor. What is available?** If a disability keeps your parent from riding the regular BCT bus, apply for TOPS! paratransit by calling 954-357-8400. Seniors may also qualify for reduced fixed-route fare or the Transportation Disadvantaged Bus Pass Program, and the ADRC (954-745-9779) can help with senior transportation. Dial 211 for volunteer driver help.
+
+**How does mom get help paying her electric bill in Broward?** Through LIHEAP, run by the county's Family Success Administration Division. Call 954-357-5025 for current application dates and apply online (Broward no longer takes mail-in applications). FPL also has bill-assistance programs, and 211 can find other emergency utility funds.
+
+## Sources
+- Broward County Property Appraiser (Marty Kiar), Low-Income Senior's Additional Homestead Exemption: 65+ as of Jan 1, has Homestead, combined household AGI at or below $38,686 for 2025 (set annually by Florida DOR, adjusted each January), Long-Term Residency add-on (25+ years, just value under $250,000 first qualifying year), Forms DR-501 and DR-501SC, 2026 filing deadline posted as March 2: https://bcpa.net/senior_instructions.asp . Verified July 7, 2026.
+- Florida Dept. of Revenue, Property Tax Benefits for Persons 65 or Older (PT-110) and Form DR-501SC: https://floridarevenue.com/property/Documents/pt110.pdf and https://floridarevenue.com/property/Documents/dr501sc.pdf . Verified July 7, 2026.
+- Area Agency on Aging of Broward County / ADRC Broward (Areawide Council on Aging), Elder Helpline 954-745-9779 (TTY 954-745-5689), 1-800-96-ELDER, SHINE Medicare counseling: https://www.adrcbroward.org/ and https://www.adrcbroward.org/medicare-counseling-shine/ . Verified July 7, 2026.
+- ADRC Broward Home Delivered Meals and Emergency Meal Program (60+, call 954-745-9779): https://www.adrcbroward.org/meals-food-assistance/ . Meals on Wheels South Florida 954-731-8770: https://www.mowsoflo.org/ . Verified July 7, 2026.
+- Broward County Family Success Administration Division LIHEAP (online-only, about $150-$900/year, call center 954-357-5025): https://www.broward.org/FamilySuccess/Pages/LowIncomeHomeEnergyProgram.aspx . Verified July 7, 2026.
+- Broward County Transit TOPS! ADA paratransit (eligibility/application 954-357-8400) and reduced-fare / TD Bus Pass programs: https://www.broward.org/BCT/Pages/Accessibility-Services.aspx . Verified July 7, 2026.
+- Coast to Coast Legal Aid of South Florida, Senior Citizen Law Project and Mobile Justice Squad (60+, Broward, 954-736-2400): https://www.coasttocoastlegalaid.org/what-we-do/senior-law/ . Florida Senior Legal Helpline 1-888-895-7873: https://bals.org/senior-legal-helpline . Verified July 7, 2026.
+- ADRC Broward Minor Home Repairs and Home Assistance (60+, 954-745-9779): https://www.adrcbroward.org/home-assistance/ and https://www.adrcbroward.org/minor-home-repairs . Verified July 7, 2026.
+- Florida PACE Centers, Miramar site (2814 Corporate Way, Miramar FL 33025), 55+, nursing-home level of care, Medicaid, ZIP-based service area: https://www.floridapacecenters.org/who-can-enroll/ . Broward PACE (Broward Health + Florida PACE Centers collaboration, enrollment 954-787-0191): https://www.browardpaceprogram.org/ . Verified July 7, 2026.
+- Florida ACCESS / Medicaid (myaccess.myflfamilies.com, 1-866-762-2237): https://www.myflfamilies.com/ . Verified July 7, 2026.
+
+---
+*Verified July 7, 2026. Program names, phone numbers, income limits, and deadlines change. Confirm directly with each program before you rely on it.*
+
+*Ryan Riggins, NC Real Estate License #361546, eXp Realty. Riggins Strategic Solutions is an education and media company, not a real estate sales business. Not financial, tax, medical, or legal advice. Programs and contacts change, confirm directly before relying on them.*
+
+---
+
+# New Medicaid Work Requirements in 2026: What Families With an Aging Parent Actually Need to Do
+https://rigginsstrategicsolutions.com/blog/medicaid-work-requirements-2026-families-aging-parents
+Published: 2026-07-08
+
+**Excerpt:** New Medicaid work requirements are rolling out in 2026, and the headlines are scaring families who do not need to be scared. Most people caring for an aging parent are exempt. The real risk is paperwork. Here is exactly what to check.
+
+If your parent is on Medicaid, the headlines this summer probably put a knot in your stomach. New work requirements. Coverage cuts. Millions losing benefits. Take a breath, because most of the fear aimed at families like yours is pointed at the wrong thing.
+
+I spent eight years buying and flipping houses before I switched sides and started helping families through senior transitions. That work taught me something that applies far outside real estate: the thing that wrecks a deal is almost never the big scary headline. It is the small deadline nobody was watching. A carrying cost you forgot to budget. A form that sat in a pile. The quiet stuff.
+
+That is exactly how the new Medicaid rules are going to hurt people. Not because your 80-year-old mother suddenly has to go get a job. She does not. But because in the middle of all this noise, a renewal notice is going to slip through the cracks in a lot of homes, and coverage is going to lapse for people who actually qualified the whole time. So let me walk you through what changed, who it really touches, and the short list of things a family should do this month.
+
+## What actually changed in 2026
+
+The change comes out of the big federal budget law passed in 2025, often called the One Big Beautiful Bill Act. Buried in it is a new national requirement: certain adults on Medicaid have to log at least 80 hours a month of work, job training, community service, or school to keep their coverage.
+
+This is the first time the federal government has required work rules for Medicaid nationwide. In June 2026, the Centers for Medicare and Medicaid Services, which is the federal agency that runs both programs, released detailed guidance telling states how to put the rules in place. States have to have their systems running by January 1, 2027, and some are moving early. Nebraska started its version in the spring of 2026.
+
+Here is the number that matters, and it is not a small one. The Congressional Budget Office, which is Congress's own nonpartisan scorekeeper, estimates the law will leave about 10 million more people uninsured by 2034, and the work requirement is the single biggest driver, with roughly 5.2 million adults expected to lose Medicaid coverage because of it. Read that carefully. A big share of those people will lose coverage not because they broke a rule, but because of the paperwork the rule creates. That distinction is the whole ballgame for families.
+
+Sources for those figures: the Kaiser Family Foundation's analysis of the 2025 budget law and the CMS implementation guidance issued in June 2026.
+
+## Who is actually exempt (probably your parent)
+
+Now the part that should lower your blood pressure. The people most of us are caring for are, in most cases, exempt from the work requirement entirely.
+
+Under the law, the work rule applies to the Medicaid expansion population, which is mostly lower-income adults under 65. It carves out a long list of people who do not have to meet it. The exemptions that matter most for families reading this:
+
+Anyone age 65 and older is exempt. If your mom or dad is a senior on Medicaid, the work rule is not aimed at them.
+
+Anyone who is dually eligible, meaning they have both Medicare and Medicaid, is exempt. A huge number of older adults fall in this group, because Medicare handles their main health coverage while Medicaid helps with things like long-term care, and that combination sits outside the work rule.
+
+Many family caregivers are exempt too. The law protects parents and caregivers responsible for a child age 13 and under, and caregivers of a person with a disability. So if you are the adult daughter who left her job to care for a disabled family member, the rule generally is not built to knock you off.
+
+There are more mandatory exemptions on top of those, including pregnant women, people with a serious medical condition, and tribal members. State rules vary, and the exact way each state verifies an exemption is still being finalized, so this is one place you want to confirm the specifics for your own state rather than assume.
+
+The takeaway: if you are caring for an aging parent, the odds are strong that the work requirement does not apply to them at all.
+
+## So why am I still telling you to pay attention
+
+Because being exempt and staying covered are two different things.
+
+Here is the trap. Even people who are fully exempt often have to prove it. States are building new systems to check work hours and verify exemptions, and those systems mean more notices, more forms, more short deadlines landing in mailboxes. When a state sends a renewal or a verification request and it does not come back on time, coverage can be terminated even when the person qualified all along. That is not a theory. It is the main reason the budget office expects millions to fall off. Red tape does what the rule itself cannot.
+
+I have seen the same pattern in real estate a hundred times, just with different paperwork. The family that plans a year out has room to breathe and catch mistakes. The family that gets the Friday phone call is reacting, rushing, and missing things. Medicaid coverage works the same way. The families that treat renewals like a standing appointment keep their coverage. The families that treat the mail as background noise are the ones who get a termination letter for a box they never checked.
+
+Take North Carolina as one example, since that is home for me. North Carolina expanded Medicaid in late 2023, which brought a large group of new adults onto the rolls. Those are exactly the people a work requirement touches, and exactly the people who now have to navigate a new verification process. Whether your state expanded early or late, the lesson is the same: know your parent's category and never let a renewal date sneak up on you.
+
+## Five things to do this month
+
+You do not need to become a benefits expert. You need to do a few boring things well. Here is the short list.
+
+### 1. Find out your parent's exact Medicaid category
+
+Call the county Medicaid office or check the paperwork and confirm which program your parent is in. Are they 65 or older? Are they dually eligible with Medicare? Are they in the expansion group? The answer tells you whether the work rule even applies. Do not guess. One phone call settles it.
+
+### 2. Build a one-page renewals tracker
+
+Put every benefit, every account, and every renewal date on a single sheet, and assign one person in the family to watch it. Medicaid renewal date, Medicare enrollment windows, any recertification notices. This one habit prevents more damage than any clever strategy, because the enemy here is a missed deadline, not a bad decision.
+
+### 3. Update the contact information on file
+
+A shocking number of coverage losses trace back to notices mailed to an old address or a phone number nobody answers. Make sure the state has a current mailing address, phone, and email for your parent, and consider adding yourself as an authorized contact so you get copies.
+
+### 4. Open the mail, every time
+
+Treat anything from the state Medicaid agency as time-sensitive. If a verification or renewal request shows up, handle it the week it arrives, not the week it is due. If your parent struggles with mail, set up a simple routine where you check it together.
+
+### 5. Get a professional in your corner before you need one
+
+If your family is dealing with long-term care, a Medicaid spend-down, or a complicated exemption, talk to a licensed elder law attorney or a Medicaid planner in your state. This is genuinely complicated law that changes by state and by year, and an hour with the right professional is cheap insurance against a five-figure mistake.
+
+## The bottom line
+
+The scary version of this story is that a wave of seniors is about to be forced to work for their health coverage. That is not the real story. The real story is quieter and, honestly, more fixable. Most families caring for an aging parent are exempt. The danger is a missed form in a season of extra forms.
+
+You cannot control the law. You can control whether a renewal notice gets opened and answered on time. In my experience, that single habit is the difference between a family that keeps its coverage and a family that spends three frantic months trying to get it back.
+
+## Frequently Asked Questions
+
+### Do seniors on Medicaid have to meet the new work requirements?
+In almost all cases, no. Anyone age 65 and older is exempt from the federal Medicaid work requirement, and anyone who has both Medicare and Medicaid is also exempt. The rule is aimed at the under-65 expansion population, not the seniors most families are caring for.
+
+### Are family caregivers exempt from Medicaid work requirements?
+Many are. The law exempts parents and caregivers responsible for a child age 13 and under, and caregivers of a person with a disability. Exact verification rules vary by state, so confirm your situation with your state Medicaid office.
+
+### When do the Medicaid work requirements take effect?
+The federal law requires states to have work requirements running by January 1, 2027. CMS released implementation guidance in June 2026, and some states, such as Nebraska, started earlier in 2026. Timing and details differ by state.
+
+### Why would someone who is exempt still lose coverage?
+Because being exempt often has to be proven. New verification systems mean more notices and short deadlines. If a renewal or verification request is missed, coverage can be terminated even for someone who qualified. Missed paperwork, not the rule itself, is the biggest driver of expected coverage losses.
+
+### What is the difference between Medicare and Medicaid here?
+Medicare is the federal health insurance most people get at 65 and it is not subject to these work rules. Medicaid is the state and federal program for lower-income people, and it helps many seniors pay for long-term care. The new work requirement applies only to certain Medicaid enrollees, not to Medicare.
+
+## About Ryan Riggins
+
+Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafe app](https://seniorsafeapp.com).
+
+---
+
+**Not sure where your family stands? Start here.** The free Simple Blueprint walks through every stage of a senior transition, including a paperwork and renewals checklist: rigginsstrategicsolutions.com/freeguide
+
+**Ready for the full system?** Senior Transition Blueprint Core, 20 modules and 69 tools: rigginsstrategicsolutions.com/the-blueprint
+
+**Need a personalized plan?** The Senior Transition Roadmap ($297) adds a 60-min call and 90 days of email support: rigginsstrategicsolutions.com/blueprint-premium
+
+**Coordinate your family in one place.** SeniorSafe app (web, iPhone, Android): app.seniorsafeapp.com
+
+**Related reading:** Home Equity Investments and Seniors, the "Not a Loan" pitch families should read twice: rigginsstrategicsolutions.com/blog/home-equity-investments-seniors-not-a-loan
+
+### Get the SeniorSafe App
+
+[Download on the App Store](https://apps.apple.com/us/app/seniorsafe-app/id6761343239)
+
+[Get it on Google Play](https://play.google.com/store/apps/details?id=com.rigginsstrategicsolutions.seniorsafe)
+
+Ryan Riggins is the founder of Riggins Strategic Solutions, a consumer protection company for families navigating senior transitions. He spent 8 years in construction project management and house flipping before switching sides. Two books on Amazon. Free resources at rigginsstrategicsolutions.com.
+
+---
+
+# Miami-Dade County, FL Senior Help Directory: Miami Programs for Seniors and Families (2026)
+https://rigginsstrategicsolutions.com/blog/miami-dade-county-fl-senior-help-directory
+Published: 2026-07-08
+
+**Excerpt:** Free, plain-English senior help in Miami-Dade County, FL: the senior homestead exemptions through the Property Appraiser, Meals for the Elderly, light bill help, SHINE Medicare counseling, home repair, Golden Passport and STS rides, legal help, caregiver support, and PACE.
+
+*Free, plain-English help for seniors and families in Miami-Dade County, FL. Education, not advice. Verify before you rely on it.*
+
+## Start here (works anywhere)
+- 211 (dial 2-1-1), Eldercare Locator 1-800-677-1116, BenefitsCheckUp.org, Medicare 1-800-633-4227, Social Security 1-800-772-1213, VA 1-800-827-1000, Alzheimer's 24/7 Helpline 1-800-272-3900, National Elder Fraud Hotline 1-833-372-8311, Crisis Lifeline 988
+
+**Three local front doors:** 211 Miami (dial 2-1-1, run by Jewish Community Services of South Florida, covers Miami-Dade and Monroe, 24/7 in English, Spanish, and Creole) | Alliance for Aging Elder Helpline at 305-670-4357 or 1-800-96-ELDER (1-800-963-5337), the Aging and Disability Resource Center (ADRC) for Miami-Dade and Monroe | Miami-Dade Community Action and Human Services Department (CAHSD) at 786-469-4600, the county's front door for energy, food, and emergency help
+
+## Property tax relief (apply with the Property Appraiser of Miami-Dade County, Tomas Regalado, 305-375-4712)
+Florida seniors apply for property tax relief through the county Property Appraiser. The general homestead filing deadline is March 1. Miami-Dade County has adopted the local-option senior exemptions described below, but note that these senior benefits are a local option, so the extra savings depend on which city (or unincorporated area) the home sits in. The Property Appraiser publishes a chart of which local governments adopted the senior exemption and the estimated benefit.
+
+**Standard Homestead Exemption (statewide, any qualifying primary residence):** up to $50,000 off the assessed value of a permanent primary residence, plus the **Save Our Homes** cap that limits how much the assessed value can rise each year to 3 percent or the change in the CPI, whichever is lower. This is the base benefit before any senior exemption. Apply once through the Property Appraiser; it renews automatically.
+
+**Senior Exemption (age 65 and older, limited income):** an additional exemption on top of the standard homestead for owners who meet all of these:
+- The property already qualifies for a Homestead Exemption.
+- At least one owner is 65 or older as of January 1.
+- The total household adjusted gross income for everyone who lives on the property was at or below **$38,686** in the prior year (2025), the figure set annually by the Florida Department of Revenue. This limit changes every year.
+This exemption reduces the county and city ad valorem taxes, not the School Board portion. Apply with Form DR-501 (select "Age 65 and Older with Limited Income") plus the Household Income Sworn Statement, Form DR-501SC. Once approved, the Senior Exemption renews automatically each year, and the office mails a renewal receipt.
+
+**Long-Term Resident Senior Exemption (25 or more years in the home):** for low-income seniors who have lived in the same home a long time, this can wipe out the entire county and city ad valorem portion of the tax bill. In addition to the Senior Exemption rules above, it requires:
+- Having lived in the home for at least 25 years.
+- A home market value under $250,000 (this test applies only to the first year you claim it).
+- The same $38,686 household income limit.
+Apply with Form DR-501 (select "Age 65 and Older with Permanent Residency for 25 Years or More") plus Form DR-501SC.
+
+**Statewide disabled-veteran and disability benefits:** Florida also gives a full property tax exemption on the homestead of a veteran with a total and permanent service-connected disability (and to some surviving spouses), a $5,000 exemption for a veteran with a 10 percent or greater disability, and exemptions for owners who are totally and permanently disabled or legally blind. Ask the Property Appraiser which ones fit.
+
+**The one move:** call the Property Appraiser at 305-375-4712 (or apply online at miamidadepa.gov) before March 1 to confirm this year's income limit, ask whether your specific city adopted the senior exemption and how much it saves, and have them check you for the Senior Exemption and the Long-Term Resident Senior Exemption at the same time.
+
+## Food
+- Miami-Dade County runs a **Meals for the Elderly** program (federal Older Americans Act nutrition program) through the Community Action and Human Services Department. Homebound residents 60 and older can receive seven free frozen meals each week delivered on weekdays, along with items like fresh fruit and milk. Seniors who are not homebound can eat at one of the county's congregate meal sites (about 19 locations countywide). Call **786-469-4707** to check eligibility, or ask the Alliance for Aging Elder Helpline (305-670-4357) to start a screening.
+- **Meals on Wheels South Florida** (mowsoflo.org) is a Broward-based nonprofit; its free homebound-senior meals serve Broward County, and only its paid Complete Cuisine delivery reaches parts of north Miami-Dade, so start with the county program above. **Jewish Community Services of South Florida** runs a Kosher Home-Delivered Meals program and a Kosher Food Bank for homebound seniors; reach JCS Access at 305-576-6550.
+- **SNAP** (food stamps) is based on income, not age. Apply any time through Florida's ACCESS system at myaccess.myflfamilies.com or 1-866-762-2237. The Alliance for Aging can help older adults apply.
+- **Feeding South Florida** is the regional food bank; find the nearest pantry through its online pantry locator, by dialing 211, or through the Alliance for Aging Elder Helpline.
+
+## Energy and utility help
+- **LIHEAP (Low-Income Home Energy Assistance Program)** in Miami-Dade is run by the Community Action and Human Services Department (CAHSD). Regular Energy Assistance applies a credit to your utility account (roughly up to $1,350 per year, once a year). Crisis Energy Assistance helps households facing disconnection or holding a final notice (up to $2,000 within a 12-month period, available twice a year in the winter and summer seasons). You can apply online, but if your power is already off or about to be cut, go in person to a **Community Resource Center**. Call CAHSD at **786-469-4600** or visit miamidade.gov/socialservices.
+- Florida's statewide LIHEAP information line is 1-833-273-9455 (floridaliheap.com), and 211 Miami can point you to the closest intake site.
+- For a past-due bill, dial 211 to find a church ministry, the Salvation Army, or another local fund with emergency utility money.
+
+## Medicare, Medicaid, prescriptions
+- Florida's SHIP (free Medicare counseling) is **SHINE (Serving Health Insurance Needs of Elders)**, delivered locally by the Alliance for Aging. SHINE volunteers give free, unbiased, confidential one-on-one help with Medicare, Medicare Advantage, Part D drug plans, Medigap, enrollment, appeals, and fraud. Call the Alliance for Aging at 305-670-4357 (SHINE ext. 11256) or the statewide Elder Helpline 1-800-963-5337. Start here before any Medicare decision.
+- **Medicaid** in Florida (including long-term-care coverage and the programs that help pay Medicare costs) is applied for through the Department of Children and Families ACCESS system: myaccess.myflfamilies.com or 1-866-762-2237.
+- **Medicare Savings Programs** (help paying Part A and B premiums) and **Extra Help / the Low-Income Subsidy** (lower Part D drug costs) are screened through SHINE (305-670-6500 ext 11256), Social Security (1-800-772-1213), and ACCESS. Florida does not run a general statewide senior drug program, so ask SHINE about Extra Help and use BenefitsCheckUp.org to find manufacturer and nonprofit patient-assistance programs for specific drugs.
+
+## Home repair and safety
+- **CAHSD Home Weatherization Assistance** helps income-qualified Miami-Dade homeowners make the home more energy efficient and safer: attic insulation, weather-stripping, energy-efficient bulbs, water-heater measures, and repair or replacement of exterior doors, windows, refrigerators, water heaters, and cooling and heating systems. Call **786-469-4730** or visit miamidade.gov/socialservices.
+- **Rebuilding Together Miami-Dade** and local **Habitat for Humanity** affiliates do free or low-cost safety repairs, grab bars, and wheelchair ramps for qualifying older homeowners. Dial 211 or ask the Alliance for Aging Elder Helpline (305-670-4357) for a current referral.
+- If the home is in a rural, unincorporated part of the county, the **USDA Section 504 Home Repair** program offers low-interest repair loans, and grants for owners 62 and older who cannot repay a loan, to fix health and safety hazards. Ask USDA Rural Development in Florida or dial 211.
+
+## Rent, housing, emergency cash
+- **211 Miami** (dial 2-1-1) is the fastest route to emergency help with rent and utilities and will point you to the nonprofit, community action center, or church ministry with money available now. It has a database of over 4,000 local programs and offers 24/7 crisis and emotional support in English, Spanish, and Creole.
+- **CAHSD** (786-469-4600) runs the county's community resource centers and emergency assistance programs, and the **Salvation Army** and other Miami-Dade charities run emergency rent and utility help.
+- For Medicaid, SNAP, and cash assistance (TANF), apply through Florida ACCESS at myaccess.myflfamilies.com or 1-866-762-2237.
+- Miami-Dade also has a Homeless Trust outreach line; dial 211 to be connected if housing loss is imminent.
+
+## Transportation
+- **STS (Special Transportation Service)** is Miami-Dade's ADA paratransit: shared-ride, door-to-door service for residents whose disability keeps them from riding Metrobus, Metrorail, or Metromover on their own. A Florida-licensed physician must complete and sign the STS application, and the fare is about $3.50 per trip. Service runs 24 hours a day, 7 days a week. Ask about eligibility and the application through Miami-Dade Transportation and Public Works (miamidade.gov/transit) or dial 311.
+- **Golden Passport:** Miami-Dade residents who are 65 and older (and permanent county residents) ride Metrobus, Metrorail, and Metromover **free** with a Golden Passport EASY Card. Apply in person at the Golden Passport office in the Stephen P. Clark Center or at any 311 Service Center. (Residents on Social Security may also qualify regardless of age; ask at 311.)
+- Dial 211 or call the Alliance for Aging Elder Helpline (305-670-4357) to find volunteer driver networks and rides to meal sites, medical appointments, and adult day programs.
+
+## Legal help
+- **Florida's Senior Legal Helpline** gives free legal advice and brief services by phone to Florida residents age 60 and older on civil matters (powers of attorney, wills, Medicaid and public benefits, housing, consumer problems, and scams). Call **1-888-895-7873**. The Alliance for Aging (305-670-4357) also arranges free legal and benefits counseling through its aging-network programs.
+- **Legal Services of Greater Miami** provides free civil legal help to qualifying lower-income residents of Miami-Dade and Monroe on housing, public benefits, consumer, and elder-law issues. Call **305-576-0080**. There is no charge.
+- **Dade Legal Aid (Put Something Back)** and the Dade County Bar pro bono program are additional free civil legal resources; dial 211 or ask the Alliance for Aging for the right office.
+
+## Caregiver support
+- The Alliance for Aging runs the **Family Caregiver Support Program** for people caring for an adult 60 or older (or a person with dementia): information, one-on-one support, caregiver education, and respite (a paid break for the caregiver). Reach it through the Elder Helpline at 305-670-4357.
+- The **Alzheimer's Association 24/7 Helpline** (1-800-272-3900) is there any hour for dementia caregiving questions, and 211 can point you to local support groups.
+
+## Staying at home instead of a nursing home
+- Florida Medicaid pays for in-home care (personal care, adult day care, respite, and other supports) through its Statewide Medicaid Managed Care Long-Term Care program for older adults who meet a nursing-home level of care but can live safely at home. Ask the Alliance for Aging (305-670-4357) or the Elder Helpline (1-800-963-5337) to start a screening, and apply for Medicaid through ACCESS (myaccess.myflfamilies.com or 1-866-762-2237). There is often a wait list, so start early.
+- **PACE (the Program of All-Inclusive Care for the Elderly)** wraps all medical care, therapy, an adult day center, home care, and prescriptions into one program for people 55 and older who meet a nursing-home level of care but can live at home with help. In Miami-Dade, **Florida PACE Centers**, an affiliate of Miami Jewish Health, is the long-established provider (a Miami center is at 5200 NE 2nd Avenue, Miami, FL 33137). Enrollment usually requires Medicaid eligibility and is by ZIP-code service area. Ask about enrollment and eligibility at floridapacecenters.org, through the Alliance for Aging (305-670-4357), or through Florida Medicaid. Ask about enrollment at 786-933-7223 (TTY 800-955-8771); Florida PACE Centers runs sites in Miami (5200 NE 2nd Avenue) and Hialeah, with coverage by zip code.
+- Home-delivered meals, in-home help, and paratransit rides also help an older adult stay in the home longer.
+
+## Frequently asked questions
+**Mom is 68 in Miami on a fixed income. Can she lower her property taxes?** Likely yes. On top of the standard homestead exemption (up to $50,000 off plus the Save Our Homes cap), Miami-Dade adopted the additional Senior Exemption for owners 65 and older whose total household income was at or below $38,686 last year. If she has lived in the home 25 years or more and it is worth under $250,000, the Long-Term Resident Senior Exemption can eliminate the entire county and city portion of her bill. Call the Property Appraiser at 305-375-4712 before March 1 and have them check her for both, and confirm whether her city adopted the exemption.
+
+**Dad is homebound in Miami-Dade and can't cook. How do we get him meals?** Call the county's Meals for the Elderly line at 786-469-4707 about seven free frozen meals a week delivered to homebound residents 60 and older, or ask the Alliance for Aging Elder Helpline (305-670-4357) to start a screening. If he needs food sooner, dial 211 or search the Feeding South Florida pantry locator.
+
+**My parent is 66 and can't drive. What transportation is free?** If your parent is 65 or older and a permanent county resident, the Golden Passport lets them ride Metrobus, Metrorail, and Metromover free; apply at a 311 Service Center. If a disability keeps them off regular buses, apply for STS paratransit (a Florida-licensed physician signs the form) through Miami-Dade Transportation and Public Works or 311.
+
+**How does mom get help paying her light bill in Miami?** Through LIHEAP, run by the county's Community Action and Human Services Department. Call the LIHEAP application line at 786-469-4640 (department main 786-469-4600) or apply online; if the power is already off or about to be cut, go in person to a Community Resource Center. Dial 211 for other emergency utility funds.
+
+## Sources
+- Property Appraiser of Miami-Dade County (Tomas Regalado), Senior Citizen Exemptions: Homestead required, at least one owner 65+ as of Jan 1, total household AGI at or below $38,686 for 2025 (set annually by Florida DOR), Senior Exemption and Long-Term Resident Senior Exemption (25+ years, market value under $250,000 first year), Forms DR-501 and DR-501SC, senior benefits are a local option by city: https://www.miamidadepa.gov/pa/exemption/senior.page . Verified July 7, 2026.
+- Florida Dept. of Revenue, Property Tax Benefits for Persons 65 or Older (PT-110) and Form DR-501SC: https://floridarevenue.com/property/Documents/pt110.pdf and https://floridarevenue.com/property/Documents/dr501sc.pdf . Verified July 7, 2026.
+- Alliance for Aging, Inc., ADRC / Elder Helpline for Miami-Dade and Monroe (305-670-4357, 1-800-96-ELDER / 1-800-963-5337) and SHINE Medicare counseling (ext 11256): https://allianceforaging.org/consumers/get-help-information/adrc . Verified July 7, 2026.
+- Miami-Dade County Meals for the Elderly (60+, homebound seven frozen meals/week, 19 congregate sites, 786-469-4707): https://www.miamidade.gov/global/service.page?Mduid_service=ser1542231822683771 . Verified July 7, 2026.
+- Miami-Dade Community Action and Human Services Department (CAHSD), LIHEAP (786-469-4600, Regular up to $1,350 per year, Crisis up to $2,000 per 12 months) and Home Weatherization (786-469-4730): https://www.miamidade.gov/global/socialservices/home.page . Verified July 7, 2026.
+- Legal Services of Greater Miami (free civil legal help, low-income Miami-Dade and Monroe, 305-576-0080): https://www.legalservicesmiami.org/ . Florida Senior Legal Helpline (60+, 1-888-895-7873) via floridalawhelp.org. Verified July 7, 2026.
+- Miami-Dade Transit STS (ADA paratransit, physician-signed application, about $3.50/trip, 24/7) and Golden Passport (65+ permanent residents ride free): https://www.miamidade.gov/transit/special-transportation.asp and https://www.miamidade.gov/global/service.page?Mduid_service=ser1519934358967260 . Verified July 7, 2026.
+- Florida PACE Centers (affiliate of Miami Jewish Health), 55+, nursing-home level of care, Medicaid, enrollment 786-933-7223; Miami center 5200 NE 2nd Ave and Hialeah center 60 E 3rd St: https://www.floridapacecenters.org/ . Verified July 7, 2026.
+- 211 Miami (Jewish Community Services of South Florida, Miami-Dade and Monroe, 24/7, 4,000+ programs): https://211miami.org/about-us/ . JCS Access food support 305-576-6550: https://jcsfl.org/our-services/food-support/ . Verified July 7, 2026.
+- Florida ACCESS / Medicaid (myaccess.myflfamilies.com, 1-866-762-2237): https://www.myflfamilies.com/ . Verified July 7, 2026.
+
+---
+*Verified July 7, 2026. Program names, phone numbers, income limits, and deadlines change. Confirm directly with each program before you rely on it.*
+
+*Ryan Riggins, NC Real Estate License #361546, eXp Realty. Riggins Strategic Solutions is an education and media company, not a real estate sales business. Not financial, tax, medical, or legal advice. Programs and contacts change, confirm directly before relying on them.*
 
 ---
 
