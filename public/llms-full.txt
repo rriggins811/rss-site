@@ -5,8 +5,8 @@ It contains the full Markdown of every key page, resource pillar, Senior Help
 Directory state page, and blog post, intended for AI crawlers that ingest
 content for answer generation.
 
-Generated: 2026-07-15
-Indexed: 88 blog posts, 16 resource pillars, 51 Senior Help Directory state pages.
+Generated: 2026-07-17
+Indexed: 89 blog posts, 16 resource pillars, 51 Senior Help Directory state pages.
 
 For citation guidance, organizational facts, and topic depth, see the summary
 index at https://rigginsstrategicsolutions.com/llms.txt.
@@ -5171,8 +5171,174 @@ You must qualify for Medicaid, then apply for the Community Choices Waiver, choo
 
 # Blog Posts (newest first)
 
-The 88 posts below are the full body of every published article
+The 89 posts below are the full body of every published article
 on https://rigginsstrategicsolutions.com/blog, in reverse chronological order.
+
+---
+
+# Missouri Just Put a 44-Day Clock on the Deal That Empties a Paid-Off House
+https://rigginsstrategicsolutions.com/blog/missouri-sb-973-sale-leaseback-wholesaler-disclosure
+Published: 2026-07-17
+
+**Excerpt:** Missouri Governor Mike Kehoe signed SB 973 on July 13, 2026. Starting August 28, wholesalers must disclose 14 days before a contract, and sale leaseback deals cannot transfer title for 30 days. Here is why the timeline is the whole protection, and what to do in a state that does not have one.
+
+When I was on the buying side, the letter always said ten days.
+
+That was not a schedule. That was the product. I want to be really clear about this, because I think people assume the urgency in those letters is about logistics, about a contractor's calendar or an investor's 1031 timeline. It is not. Every single day a homeowner has to think is a day the price goes up and my spread goes down. A woman with a weekend signs. A woman with two weeks calls her daughter, and her daughter calls a realtor, and now there are three offers on the table and I am out.
+
+Time was the only thing that ever beat me. Not regulation, not disclosure forms, not some consumer protection pamphlet. Just time.
+
+So when I read that Missouri had signed a bill that does nothing except force people to slow down, I sat up. Because whoever wrote it understands the business better than most of the people writing about it.
+
+## What Missouri actually did
+
+Governor Mike Kehoe signed Senate Bill 973 into law on July 13, 2026, as part of a batch of remaining legislation from the Second Regular Session of the 103rd General Assembly. The bill was sponsored by Senator Curtis Trent with Representative Chris Brown handling it in the House. It takes effect August 28, 2026.
+
+Two pieces of it matter to families, and the one getting less attention is the one that scares me more.
+
+### Piece one: the wholesaler disclosure
+
+Under a new Section 407.3600, a wholesaler dealing in residential real property has to hand the property owner a written disclosure at least fourteen calendar days before entering into a contract that transfers an interest in the property. Both the wholesaler and the owner have to sign and date it before any contract happens.
+
+The disclosure has to say the quiet parts out loud. That the buyer is acting as a wholesaler. That the contract may be assigned to somebody else for a profit. That the wholesaler may never actually take title to the property at all. And that the agreed price may be below market value.
+
+If the wholesaler skips it, the owner can cancel the contract any time before the close of escrow, without penalty, and the escrow agent has to disburse any earnest money back to the owner within thirty days of the cancellation. The protections cannot be waived or modified by agreement. Any part of an agreement that tries to waive them, signed or modified after the effective date, is null and void.
+
+Violating it is an unlawful practice under the Missouri Merchandising Practices Act. A homeowner who signed without getting the disclosure can bring a private action. The Attorney General can bring a civil action.
+
+### Piece two: the sale leaseback, which nobody is talking about
+
+The same bill creates the Missouri Residential Sale Leaseback Protection Act at Section 442.920. This is the part I would circle in red if I were showing this to a family.
+
+A sale leaseback, as the act defines it, is a transaction where a seller sells the home they live in and, as a condition of that sale or as part of a related transaction, enters into a lease to stay in the property or move back into it.
+
+Read that again in the voice of somebody sitting at your mother's kitchen table. *You do not have to move. Just sell us the house and rent it back. You will never have to leave.*
+
+That is the pitch. And it is aimed with real precision at exactly one kind of person: somebody sitting on a paid-off house who is terrified of leaving it. The fear of the move is the lever. The equity is the prize.
+
+Under the new act, a buyer has to give the seller a detailed disclosure at least fourteen calendar days before the sale leaseback agreement is executed. The disclosure gets signed by both parties at execution, and a copy goes to the seller within five days. And here is the real teeth: there can be no delivery, recording, or other transfer of title from seller to buyer until thirty days after the agreement is executed.
+
+Violations carry a civil penalty of up to $10,000 each. The Attorney General can enforce it. A harmed seller can sue. Like the wholesaler section, none of it can be waived by agreement.
+
+Fourteen days before, thirty days after. Forty-four days from first pitch to a deed that moves.
+
+## Why the calendar is the whole point
+
+Notice what Missouri did not do.
+
+They did not cap the price. A wholesaler in Missouri can still offer your mother sixty cents on the dollar, and that is still legal. They did not ban wholesaling, and honestly they should not have. They did not ban sale leasebacks either. Some sale leasebacks are legitimate transactions between sophisticated parties.
+
+They did not outlaw the deal. They outlawed the speed.
+
+That is a much smarter piece of legislation than a price cap would have been, and here is why. A price cap invites lawyers to argue about market value. A disclosure requirement without a waiting period gets papered over, because a person who is scared and rushed will sign a disclosure and a contract in the same sitting and could not tell you afterward what either one said. I watched people do it. They were not stupid. They were overwhelmed, and I was counting on it.
+
+But a mandatory fourteen-day gap between the disclosure and the contract is not something you can paper over. It is a hole in the middle of the deal where a phone call happens.
+
+And the phone call is what kills it. Not the disclosure. The daughter in Charlotte who says wait, what, let me look this up. The neighbor who says my cousin got one of those. The realtor who runs comps and says you are being offered a hundred and forty grand under. None of those people can save your family in a weekend. All of them can save your family in two weeks.
+
+## What this means for families
+
+Here is the hard part, and I am not going to dress it up.
+
+Unless you are in Missouri, this law does nothing for you.
+
+A handful of states have moved on wholesaler transparency in the last couple of years, and the pattern is roughly the same each time: disclose that you are a wholesaler, disclose that the contract can be assigned, give the seller some window to get out. But most of the country has nothing. North Carolina, where I live and hold a license, has no wholesaler disclosure statute and no sale leaseback waiting period.
+
+So the forty-four days is on you. Nobody is going to legislate it into your family's kitchen. You just have to take it.
+
+### The good news is nobody can stop you from taking it
+
+This is what I want families to actually walk away with. You do not need a law to give you the fourteen days. You need to understand that the person across the table needs you not to take them, and then take them anyway.
+
+If somebody needs your signature this week, that is your answer. That is the entire test. A buyer who is still there in two weeks was a real buyer. A buyer who evaporates when you say "I want my daughter to look at this first" was never offering you a deal. He was offering you a countdown.
+
+### The sale leaseback deserves its own warning
+
+I want to isolate this one because it wears a kinder mask than the rest.
+
+Everything else in the predatory playbook feels like a transaction. The sale leaseback feels like a favor. It shows up dressed as the solution to the exact thing your parents are most afraid of, which is being made to leave the house they raised you in. That is why it works and that is why Missouri singled it out.
+
+Run the math out loud, because the pitch never does. Your parents no longer own the house. They own a lease. Leases end. Rent goes up. The new owner can sell the building to somebody else, and that somebody else has no relationship with your mother and no sentimental interest in the arrangement. The equity that took forty years to build is gone in one signature, converted into a monthly bill on a house they used to own free and clear.
+
+There are situations where a sale leaseback is the right call. They are rare, and they involve a lawyer, and they never start with an unsolicited knock at the door.
+
+## Step-by-step, what to do if a letter shows up
+
+### Step 1: Do not respond on their timeline
+
+The first move is always to take the clock away from them, because the clock is the whole trick. You do not have to be rude. "I am interested, but nothing gets signed for two weeks in this family." That single sentence sorts real buyers from the rest, for free, in about nine seconds.
+
+### Step 2: Find out what the house is actually worth
+
+Not the tax assessment, which is usually wrong in both directions. An actual comparative market analysis from somebody with no stake in the outcome. You need a real number before you can evaluate any offer, because "is $210,000 a good offer?" is an unanswerable question until you know the house is worth $310,000.
+
+### Step 3: Ask who is actually buying
+
+Ask it plainly. Are you the buyer, or are you assigning this contract to somebody else? Will your name be on the deed at closing? A wholesaler in Missouri now has to answer that in writing fourteen days early. Everywhere else, you have to ask. The answer, and the way they react to being asked, tells you almost everything.
+
+### Step 4: Price the repairs before you accept the discount
+
+This is where my construction years actually earn their keep. The whole as-is pitch depends on you believing the repairs are catastrophic and unknowable. Usually they are neither. Get a real number on what the house needs, and then look at the offer again. A $40,000 discount for $9,000 of work is not a convenience. It is a $31,000 decision you made in the dark.
+
+And know which repairs even matter. In my flipping years, the deals that hurt were never the ones with a bad roof. They were the ones where I assumed a number instead of writing it down. Same lesson applies from your side of the table.
+
+### Step 5: Look at all the ways to sell, not the one you were shown
+
+Most families get shown exactly one path, and it is always the path the person showing it gets paid on. List with an agent. Sell as-is for cash. Owner financing. Lease option. Subject-to. Auction. Or do nothing yet, which is a legitimate strategy that almost nobody presents because nobody makes money on it.
+
+Which one is right depends on whether your family needs money fast, money maximized, or just to stop bleeding on carrying costs while the house sits empty. Those are three different problems with three different answers.
+
+## Frequently Asked Questions
+
+### What is a sale leaseback and why is it risky for seniors?
+
+A sale leaseback is when a homeowner sells their house and immediately signs a lease to keep living in it. It gets pitched to older homeowners as a way to access equity without moving. The risk is that your parents trade ownership for tenancy: the equity is gone, the lease can end, the rent can rise, and the new owner can sell the property to somebody with no relationship to your family.
+
+### When does Missouri SB 973 take effect?
+
+August 28, 2026. Governor Mike Kehoe signed it on July 13, 2026. The wholesaler disclosure requirement and the Missouri Residential Sale Leaseback Protection Act both start on that date.
+
+### Does the wholesaler disclosure law apply in my state?
+
+Only if you are in Missouri. Several states have passed their own wholesaler transparency rules over the last two years, and the details differ in every one. Most states, including North Carolina, still have no such requirement. Check your own state, and assume you have no protection until you confirm otherwise.
+
+### What happens if a Missouri wholesaler skips the disclosure?
+
+The homeowner can cancel the contract at any time before the close of escrow with no penalty, and the escrow agent must return any earnest money to the owner within thirty days of cancellation. The violation is also an unlawful practice under the Missouri Merchandising Practices Act, which opens the door to a private lawsuit and to enforcement by the Attorney General.
+
+### Is a cash offer on my parents' house always a scam?
+
+No, and framing it that way gets families hurt in a different direction. Cash buyers are legal and sometimes they are genuinely the right answer, especially when speed matters more than price. The problem is not that they are criminals. The problem is that they are not built to get your family the most, and they are counting on you not finding that out until after closing.
+
+### How long should we take before signing anything?
+
+Two weeks is a reasonable floor, and Missouri just made that number official for one category of deal. If a buyer will not still be there in fourteen days, you learned something valuable for free.
+
+---
+
+**Not sure what you would actually walk away with?** Run the Net Proceeds Calculator before you evaluate any offer: rigginsstrategicsolutions.com/tools/net-proceeds-calculator
+
+**Want a step-by-step guide?** The free Simple Blueprint walks through every stage of a senior transition: rigginsstrategicsolutions.com/freeguide
+
+**Ready for the full system?** Senior Transition Blueprint Core, 20 modules and 69 tools: rigginsstrategicsolutions.com/the-blueprint
+
+**Need a personalized plan?** The Senior Transition Roadmap ($297) adds a 60-min call and 90 days of email support: rigginsstrategicsolutions.com/blueprint-premium
+
+**Coordinate your family in one place.** SeniorSafe app (web, iPhone, Android): app.seniorsafeapp.com
+
+**Talk it through.** Book a free 20-min call with Ryan: rigginsstrategicsolutions.com/work-with-ryan
+
+### Get the SeniorSafe App
+
+[Download on the App Store](https://apps.apple.com/us/app/seniorsafe-app/id6761343239)
+
+[Get it on Google Play](https://play.google.com/store/apps/details?id=com.rigginsstrategicsolutions.seniorsafe)
+
+## About Ryan Riggins
+
+Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafe app](https://seniorsafeapp.com).
+
+Ryan Riggins is the founder of Riggins Strategic Solutions, a consumer protection company for families navigating senior transitions. He spent 8 years in construction project management and house flipping before switching sides. Two books on Amazon. Free resources at rigginsstrategicsolutions.com.
 
 ---
 
@@ -5368,7 +5534,7 @@ I want to be careful here, because this is where a lot of advice gets it wrong. 
 
 On July 1, 2026, Connecticut's new wholesaler law took effect. Under it, anyone wholesaling real estate in the state now has to register with the Department of Consumer Protection, hand the seller a written disclosure that they are a wholesaler before the contract is signed, and give the seller a three business day window to cancel. The registration itself is not free for the wholesaler, and the disclosure is the whole point: no more pretending to be a regular buyer who just happens to want the house.
 
-Connecticut is not alone. Ohio's Senate Bill 155, signed in late 2025, took effect on March 1, 2026: wholesalers there must disclose their business model in a separate written notice before entering a contract, and a seller who never got that notice can cancel any time before closing. Missouri's legislature passed Senate Bill 973, now awaiting the governor's action, which does not ban wholesaling but would force far more transparency into the process. The pattern across all three states is the same. Legislators looked at who was getting hurt, saw a lot of older and lower income homeowners, and decided the fix was sunlight.
+Connecticut is not alone. Ohio's Senate Bill 155, signed in late 2025, took effect on March 1, 2026: wholesalers there must disclose their business model in a separate written notice before entering a contract, and a seller who never got that notice can cancel any time before closing. Missouri's Senate Bill 973, signed July 13, 2026 and effective August 28, 2026, does not ban wholesaling but forces far more transparency into the process. The pattern across all three states is the same. Legislators looked at who was getting hurt, saw a lot of older and lower income homeowners, and decided the fix was sunlight.
 
 Here in North Carolina, the state Attorney General's office has a name for what happens when these deals go sideways. They call it equity stripping. Their point is blunt: homeowners in these transactions often walk away with only around 60 percent of what the home is actually worth. AARP has warned about the same thing for years, describing the flood of "we will buy your home" mailers and calls as a channel that targets seniors with below market offers.
 
@@ -5431,7 +5597,7 @@ Usually no, it is legal. The problem is not fraud, it is value. These buyers pro
 It varies, but North Carolina's Attorney General's office has described sellers often netting around 60 percent of fair market value in these deals. On a 300,000 dollar home that can mean a six figure gap, so always compare against a real net number from a normal sale.
 
 ### What do the new 2026 wholesaler laws actually do?
-Connecticut, effective July 1, 2026, now requires wholesalers to register with the state, disclose in writing that they are a wholesaler before you sign, and give sellers three business days to cancel. Ohio's disclosure law took effect March 1, 2026, and Missouri's legislature passed its own (Senate Bill 973, awaiting the governor's action). They do not ban wholesaling, they force it into the open.
+Connecticut, effective July 1, 2026, now requires wholesalers to register with the state, disclose in writing that they are a wholesaler before you sign, and give sellers three business days to cancel. Ohio's disclosure law took effect March 1, 2026, and Missouri's Senate Bill 973 (signed July 13, 2026) takes effect August 28, 2026. They do not ban wholesaling, they force it into the open.
 
 ### How do I protect an elderly parent from a bad home sale?
 Get a real net number before reacting to any offer, ask the buyer directly whether they are a wholesaler, never let anyone push a same day signature, and bring in a neutral advisor whose pay does not depend on the sale. Slowing the process down is the single most protective thing you can do.
@@ -5465,11 +5631,13 @@ Ryan Riggins is the founder of Riggins Strategic Solutions, a consumer protectio
 
 ---
 
-# One State Wants Cash Buyers to Warn Your Parents 14 Days Early. It Is Not Law Yet.
+# One State Wants Cash Buyers to Warn Your Parents 14 Days Early. It Is Law Now.
 https://rigginsstrategicsolutions.com/blog/missouri-sb-973-wholesaler-disclosure-sale-leaseback-warning
 Published: 2026-07-10
 
-**Excerpt:** A Missouri bill sitting on the governor's desk would force cash buyers to hand homeowners a signed warning fourteen days before any contract, and force sale leaseback companies to say out loud that you will no longer own your home. It is not law yet. Every word of it is already true.
+**Excerpt:** Missouri's SB 973 forces cash buyers to hand homeowners a signed warning fourteen days before any contract, and forces sale leaseback companies to say out loud that you will no longer own your home. Governor Kehoe signed it July 13, 2026. It takes effect August 28.
+
+**Update, July 17, 2026: Governor Kehoe signed SB 973 on July 13. It takes effect August 28, 2026. The article below is preserved as written on July 10, while the bill still sat on the governor's desk. For the full breakdown of the signed law, read [the follow-up](/blog/missouri-sb-973-sale-leaseback-wholesaler-disclosure).**
 
 I used to write the letters that show up in your mother's mailbox.
 
@@ -5589,7 +5757,7 @@ I spent eight years buying, fixing, and selling houses. I can tell you that the 
 
 ### Is real estate wholesaling illegal?
 
-In most states, no. Wholesaling generally means putting a property under contract and then assigning that contract to another buyer for a fee. It is legal in most places, though a growing number of states have added disclosure or licensing requirements in the last few years. Missouri SB 973 would add a disclosure requirement, not a ban, and as of July 10, 2026 it has not been signed.
+In most states, no. Wholesaling generally means putting a property under contract and then assigning that contract to another buyer for a fee. It is legal in most places, though a growing number of states have added disclosure or licensing requirements in the last few years. Missouri SB 973 adds a disclosure requirement, not a ban; it was signed July 13, 2026 and takes effect August 28, 2026.
 
 ### What is the difference between a wholesaler and a cash buyer?
 
