@@ -5,8 +5,8 @@ It contains the full Markdown of every key page, resource pillar, Senior Help
 Directory state page, and blog post, intended for AI crawlers that ingest
 content for answer generation.
 
-Generated: 2026-07-22
-Indexed: 91 blog posts, 16 resource pillars, 51 Senior Help Directory state pages.
+Generated: 2026-07-24
+Indexed: 92 blog posts, 16 resource pillars, 51 Senior Help Directory state pages.
 
 For citation guidance, organizational facts, and topic depth, see the summary
 index at https://rigginsstrategicsolutions.com/llms.txt.
@@ -5171,8 +5171,117 @@ You must qualify for Medicaid, then apply for the Community Choices Waiver, choo
 
 # Blog Posts (newest first)
 
-The 91 posts below are the full body of every published article
+The 92 posts below are the full body of every published article
 on https://rigginsstrategicsolutions.com/blog, in reverse chronological order.
+
+---
+
+# Deed Fraud Is Coming for Paid-Off Homes: How to Protect Your Parents' House in 2026
+https://rigginsstrategicsolutions.com/blog/deed-fraud-protect-paid-off-parents-house-2026
+Published: 2026-07-24
+
+**Excerpt:** Federal prosecutors just charged three men in an alleged 1.5 million dollar deed fraud ring that targeted paid-off homes owned by people living out of state. Here is how these schemes work and how to protect your parents' house.
+
+When I was a cash buyer, I had a type. I wanted a house that was paid off, owned by someone who lived far away, and sitting quiet with nobody paying close attention. I never forged a document. I never stole a deed. But I knew exactly which houses were the easiest to move, and it was always that one. Paid off, out of state, off everyone's radar.
+
+I bring that up because this week federal prosecutors described a group that took my old shopping list and turned it into a crime.
+
+I switched sides years ago. I spent eight years in construction and house flipping before I walked away from the buying side to help families avoid the mistakes I used to profit from. That background is exactly why deed fraud makes me want to grab people by the shoulders. I understand the mindset that picks the target. The paid-off house with nobody watching is not chosen at random. It is chosen on purpose, because the owner is the least likely to notice anything is wrong until it is far too late.
+
+If your parents own a home free and clear, or you have an inherited property, or there is a piece of land in the family that sits empty, this one is for you. The good news is that the protections are cheap, boring, and they work. The bad news is that almost nobody sets them up until after something goes wrong.
+
+## What just happened
+
+On July 23, 2026, the U.S. Attorney's Office for the District of Massachusetts announced charges against three men in an alleged deed fraud and money laundering scheme. According to the charging documents, one defendant defrauded property owners of roughly 1.5 million dollars, and all three are accused of laundering the proceeds.
+
+Here is how prosecutors say it worked. One defendant and his co-conspirators allegedly identified vacant and unencumbered real properties, meaning homes and land that were paid off with no mortgage, owned by people who lived out of state. The properties were spread across Massachusetts, Georgia, Indiana, and Tennessee. They allegedly set up email and internet phone accounts and obtained fake identifications, including driver's licenses and passports, all in the names of the real property owners.
+
+Then, using those fake identities, prosecutors say, they impersonated the true owners in order to trick real estate professionals into listing and negotiating the sale of the properties, and deeding the homes to buyers who had no idea anything was wrong. The buyers paid. The money moved through a chain of personal and corporate bank accounts to hide where it came from. The real owners, hundreds of miles away, had no clue their property was being sold out from under them.
+
+These are charges, not convictions, and every defendant is presumed innocent. But the mechanics are what matter for your family. This was not a hacker in a basement. It was paperwork, fake IDs, and a bet that the real owner would never look. Deed and title fraud has been climbing for a few years now, and law enforcement from the FBI to state attorneys general keeps flagging the same pattern: the target is the property nobody is watching.
+
+## What this means for families
+
+If you are helping an aging parent, or you are the adult child who will inherit the house someday, the takeaway is simple. Your family's most valuable asset may be sitting completely unguarded, and you would not find out for months.
+
+Think about who fits the target profile. A widowed parent who moved in with you and left the old house empty. A snowbird who spends half the year in Florida. An inherited property that is between owners while the estate settles. A parcel of family land that has not changed hands in decades. Every one of those is a paid-off, lightly watched asset, which is exactly what the alleged scheme in Massachusetts went looking for.
+
+Here is the part that surprises people. A paid-off house is in some ways more exposed than one with a mortgage, not less. When there is a lender in the picture, the bank is watching the title because it has money on the line. When the house is free and clear, nobody is watching but the owner. That is the whole reason the mortgage-free home is the prize.
+
+The other thing families get wrong is assuming the county will catch it. County recorders generally record deeds. They do not verify that the person signing is really the owner. If a forged deed comes in that looks correct on its face, it often gets recorded, and the fraud is not discovered until the real owner tries to sell, refinance, or pay a tax bill and learns their name is no longer on the property.
+
+None of this should make you panic. It should make you set up a couple of simple tripwires. The families who get burned are not careless people. They are busy people who never knew this was a risk. Once you know, the fix takes about an afternoon and then runs in the background for years.
+
+I also want to be honest about the emotional weight here, because I sit with it a lot. The house is rarely just money. It is the place the grandkids learned to swim, the kitchen where every holiday happened, the single biggest thing your parents built. Protecting the title is not paperwork for its own sake. It is protecting the one asset that funds the next chapter, whether that is in-home care, an assisted living move, or a legacy passed down clean.
+
+## How to protect your parents' house, step by step
+
+You do not need a lawyer on retainer or an expensive monitoring service to close most of the gap. Here is the order I walk families through.
+
+### Sign up for your county property fraud alert
+
+Most county register of deeds or recorder offices now offer a free property fraud alert. You register the property owner's name, and any time a document is recorded against that name, you get an email or a call. It does not stop a fraudulent filing, but it tells you within days instead of months, which is the entire game. Do this for your parents' home, any rental, and any inherited property. It is free in most counties, so there is no reason to skip it.
+
+### Lay eyes on any vacant or inherited property
+
+A shocking number of these schemes target homes and land that nobody physically visits. Put a recurring reminder on your calendar to drive by, or ask a trusted neighbor to keep an eye out. If a for sale sign you did not authorize ever shows up, or a stranger claims to be buying the place, you want to know that day. Watching the property is the cheapest protection there is.
+
+### Verify the title once a year
+
+Once a year, pull up the property record on your county's online portal, or request a copy of the current deed, and confirm your parent is still listed as the owner. This takes ten minutes and it is the single most direct way to catch a forged transfer. If a parent owns land in another state, this matters even more, because distance is exactly what the fraudsters count on.
+
+### Lock down identity and mail
+
+Deed fraud starts with a stolen identity. Freeze your parents' credit at the three bureaus, shift important mail to a locked box or online delivery, and shred anything with account numbers. The harder it is to impersonate your parent, the harder it is to forge a deed in their name.
+
+### Loop in the professionals before you sell
+
+If your family does decide to sell, use a reputable title company and a real closing process. A legitimate title search and closing is one of the strongest points where fraud gets caught. And if you are choosing how to sell, get one honest number on what the house would actually net before you respond to any unsolicited cash offer.
+
+## Frequently Asked Questions
+
+### What is deed fraud, or home title theft?
+Deed fraud, sometimes called home title theft, is when someone forges a property owner's signature and identity to transfer, sell, or borrow against a home they do not actually own. They record a fraudulent deed with the county, and the real owner often does not find out until they try to sell, refinance, or pay taxes.
+
+### Are paid-off homes more at risk than mortgaged ones?
+In many cases, yes. When a home has a mortgage, the lender monitors the title because it has money at stake. A paid-off home has no lender watching, so the only person likely to notice a fraudulent transfer is the owner, which is exactly why free-and-clear properties are prime targets.
+
+### Does a property fraud alert stop the fraud?
+No. A property fraud alert does not block a fraudulent filing. It notifies you quickly when any document is recorded against your name, so you can act in days rather than discovering the problem months later. Early notice is the point, and most county programs are free.
+
+### Do I need to pay for a title lock service?
+Not necessarily. Most of what paid title lock services do, you can do yourself for free through your county property fraud alert, an annual title check, and a credit freeze. Paid services can add convenience, but read exactly what they monitor before you pay a monthly fee.
+
+### My parent owns property in another state. What should I do?
+Out-of-state property is a common target because distance means nobody is watching. Register for that county's property fraud alert, check the online property record once a year, and ask a local contact to keep an eye on the property. Treat it with more caution, not less.
+
+## About Ryan Riggins
+
+Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafe app](https://seniorsafeapp.com).
+
+---
+
+**See the five real ways to sell.** Run the Strategic Exit Engine before you respond to any cash offer: rigginsstrategicsolutions.com/tools/strategic-exit-engine
+
+**Want a step-by-step guide?** The free Simple Blueprint walks through every stage of a senior transition: rigginsstrategicsolutions.com/freeguide
+
+**Ready for the full system?** Senior Transition Blueprint Core, 20 modules and 69 tools: rigginsstrategicsolutions.com/the-blueprint
+
+**Need a personalized plan?** The Senior Transition Roadmap ($297) adds a 60-min call and 90 days of email support: rigginsstrategicsolutions.com/blueprint-premium
+
+**Coordinate your family in one place.** SeniorSafe app (web, iPhone, Android): app.seniorsafeapp.com
+
+**Talk it through.** Book a free 20-min call with Ryan: rigginsstrategicsolutions.com/work-with-ryan
+
+### Get the SeniorSafe App
+
+[Download on the App Store](https://apps.apple.com/us/app/seniorsafe-app/id6761343239)
+
+[Get it on Google Play](https://play.google.com/store/apps/details?id=com.rigginsstrategicsolutions.seniorsafe)
+
+Ryan Riggins is the founder of Riggins Strategic Solutions, a consumer protection company for families navigating senior transitions. He spent 8 years in construction project management and house flipping before switching sides. Two books on Amazon. Free resources at rigginsstrategicsolutions.com.
+
+**Sources:** U.S. Attorney's Office, District of Massachusetts, "Three Men Charged in $1.5 Million Deed Fraud and Money Laundering Schemes," July 23, 2026 (justice.gov/usao-ma). FBI Boston, "Quit Claim Deed Fraud is on the Rise" (fbi.gov). FTC consumer alert, "Home title lock insurance? Not a lock at all," August 2024 (consumer.ftc.gov).
 
 ---
 
