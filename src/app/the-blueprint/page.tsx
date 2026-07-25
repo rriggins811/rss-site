@@ -64,23 +64,6 @@ type Tier = {
 
 const tiers: Tier[] = [
   {
-    label: "Simple Blueprint",
-    price: "Free",
-    priceSub: "Email signup",
-    title: "The free starter guide.",
-    blurb: "The 10 biggest mistakes families make, and how to avoid them.",
-    audience: "Everyone. Start here if you're just beginning to think about this.",
-    bullets: [
-      "10-mistake checklist from 8+ years of real families",
-      "Delivered straight to your inbox",
-      "No credit card, no sales call",
-      "Short enough to read on a lunch break",
-    ],
-    cta: { href: paymentLinks.simpleBlueprint, label: "Get the free guide" },
-    image: "/photos/simple_blueprint_guide.jpg",
-    alt: "Simple Blueprint starter guide on a desk",
-  },
-  {
     label: "Senior Transition Blueprint",
     price: "Free",
     priceSub: "All of it. Free account signup.",
@@ -309,12 +292,13 @@ export default function BlueprintPage() {
             <GoldRule />
             <h2 className="mt-3">Pick your path.</h2>
             <p className="mt-4 text-lg text-ink/80">
-              Five tiers, one playbook. Start small, scale up as the situation
-              demands, or go straight to guided advisory if the clock is ticking.
+              Four doors, one playbook. Start with the free Blueprint, apply
+              for the Roadmap when you want Ryan in it with you, and let the
+              app carry the daily part.
             </p>
           </div>
 
-          <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
+          <div className="mt-12 grid gap-6 md:grid-cols-2 xl:grid-cols-4">
             {tiers.map((t) => (
               <Card
                 key={t.label}
