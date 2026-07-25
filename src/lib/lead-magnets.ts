@@ -296,7 +296,7 @@ export function magnetAbsoluteUrl(magnet: LeadMagnet): string {
  * Canonical absolute URL for a guide's branded delivery page (the warm-
  * funnel /g/[slug]/ready page). This is what the Resend delivery email
  * links to instead of dumping the raw PDF URL — a branded page that
- * presents the guide AND the $9.99 Blueprint Map next step.
+ * presents the guide AND the free Blueprint Map next step.
  */
 export function guideDeliveryUrl(magnet: LeadMagnet): string {
   return `https://rigginsstrategicsolutions.com/g/${magnet.slug}/ready`;

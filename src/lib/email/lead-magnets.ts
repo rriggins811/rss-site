@@ -6,7 +6,7 @@ import {
 } from "@/lib/lead-magnets";
 import { ORGANIZATION } from "@/lib/site";
 
-// Soft next-step in the delivery email: the $9.99 Blueprint Map sales page.
+// Soft next-step in the delivery email: the free Blueprint Map page.
 // One mention, never a hard sell (brand voice).
 const MAP_SALES_URL = "https://rigginsstrategicsolutions.com/blueprint-preview";
 
@@ -103,7 +103,7 @@ export async function sendLeadMagnetEmail(args: {
 
   <div style="margin:32px 0;padding:20px 24px;background:#FAF8F3;border:1px solid #e7e2d6;border-radius:8px;">
     <p style="margin:0 0 8px;font-weight:600;color:#1C3A52;">When one piece isn't the whole picture</p>
-    <p style="margin:0 0 14px;font-size:14px;color:#444;">The Blueprint Map walks every step of a senior transition in order, on one screen, with a short video for each. It's the same video lessons and summaries from our $47 course, for $9.99. The calm shortcut when everything feels like too much.</p>
+    <p style="margin:0 0 14px;font-size:14px;color:#444;">The Blueprint Map walks every step of a senior transition in order, on one screen, with a short video for each. It's part of the full Senior Transition Blueprint, and the whole thing is free with a free account. The calm shortcut when everything feels like too much.</p>
     <a href="${MAP_SALES_URL}" style="font-weight:600;color:#1C3A52;text-decoration:underline;">See the Blueprint Map &rarr;</a>
   </div>
 
@@ -138,7 +138,7 @@ ${args.magnet.description}
 
 If anything in the guide raises a question about your family's specific situation, hit reply to this email. I read every one.
 
-When one piece isn't the whole picture: the Blueprint Map walks every step of a senior transition in order, on one screen, with a short video for each. It's the same video lessons and summaries from our $47 course, for $9.99. See it here: ${MAP_SALES_URL}
+When one piece isn't the whole picture: the Blueprint Map walks every step of a senior transition in order, on one screen, with a short video for each. It's part of the full Senior Transition Blueprint, and the whole thing is free with a free account. See it here: ${MAP_SALES_URL}
 
 Ryan Riggins
 Senior Transition Advisor

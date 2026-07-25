@@ -13,15 +13,17 @@ import { ModuleDrawer } from "@/components/blueprint-map/ModuleDrawer";
 import { trackPixelEvent, getFbc, getFbp } from "@/lib/meta/pixel";
 
 /**
- * Legacy shared key for $47 buyers (?key=blueprint2026). Kept working so the
- * existing buyer path never breaks. Convenience gate, not a security boundary.
+ * Legacy shared key for full-course buyers (?key=blueprint2026). Kept working
+ * so the existing buyer path never breaks. Convenience gate, not a security
+ * boundary.
  */
 const VALID_KEY = "blueprint2026";
 
-// Where the $9.99 map's locked-tool CTAs point: the ascension checkout that
-// upgrades a Map buyer to the full Blueprint Core for a discounted $30.
+// Free-pivot: the Blueprint is free now, so the locked-tool CTAs for legacy
+// map-tier visitors point at the free account signup instead of the old paid
+// upgrade checkout.
 const UPGRADE_URL =
-  "https://blueprint.rigginsstrategicsolutions.com/api/checkout/map-upgrade";
+  "https://blueprint.rigginsstrategicsolutions.com/signup";
 
 // The sales page cold visitors land on when they have no valid key or token.
 const SALES_PAGE = "/blueprint-preview";
@@ -31,9 +33,10 @@ const PALETTE = ["#1C3A52", "#6B2C3E", "#D4AF37", "#1C3A52", "#6B2C3E"];
 
 const transformer = new Transformer();
 
-// Fire Meta Purchase (pixel + CAPI, deduped on the stripe session id, value 9.99)
-// once a $9.99 map buyer lands on the success page and the instant-access unlock
-// succeeds. Same pixel as the free-guide Lead events.
+// Legacy attribution: fire Meta Purchase (pixel + CAPI, deduped on the stripe
+// session id) when a map buyer from the old paid checkout lands on the success
+// page and the instant-access unlock succeeds. The map is no longer sold, so
+// this only fires for stragglers returning from pre-pivot Stripe sessions.
 function fireMapPurchase(sessionId: string) {
   const eventId = `purchase_${sessionId}`;
   const customData = {
@@ -67,9 +70,11 @@ function fireMapPurchase(sessionId: string) {
 
 /**
  * Access modes:
- *  - "full" = $47 buyer (?key) or a token with tier "full": real tool downloads.
- *  - "map"  = $9.99 buyer (token tier "map"/"map_book"): overview videos +
- *             summaries, tools shown as locked teasers with an upgrade CTA.
+ *  - "full" = full-course access (?key or a token with tier "full"): real
+ *             tool downloads.
+ *  - "map"  = legacy map-tier buyer (token tier "map"/"map_book"): overview
+ *             videos + summaries, tools shown as locked teasers with a
+ *             free-signup CTA.
  *  - null   = still checking (token validation is async) → render nothing.
  */
 type Mode = "full" | "map" | null;
@@ -99,8 +104,8 @@ export function BlueprintMapClient() {
     [preview]
   );
 
-  // Gate: ?key (legacy $47) → full. ?token → validate server-side, tier drives
-  // mode. Neither → bounce to the sales page.
+  // Gate: ?key (legacy shared key) → full. ?token → validate server-side,
+  // tier drives mode. Neither → bounce to the sales page.
   useEffect(() => {
     let cancelled = false;
     const key = searchParams.get("key");

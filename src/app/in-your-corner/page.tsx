@@ -6,7 +6,7 @@ import { QuickAnswer } from "@/components/aeo/QuickAnswer";
 import { breadcrumbListSchema, faqPageSchema } from "@/lib/schema";
 import { abs } from "@/lib/site";
 
-// Warm display serif for the headlines, matching the Blueprint Core and Roadmap pages.
+// Warm display serif for the headlines, matching the Blueprint and Roadmap pages.
 const serif = Fraunces({
   subsets: ["latin"],
   weight: ["400", "600", "700"],
@@ -295,7 +295,7 @@ export default function InYourCornerPage() {
               <span className="font-semibold text-navy">One important note.</span> This real estate referral is
               a service of Ryan Riggins through eXp Realty. It is separate from the education and planning
               products of Riggins Strategic Solutions, the Blueprint, the Senior Transition Roadmap, and the
-              SeniorSafe app, which are paid to that company. Different hats, kept clean on purpose.
+              SeniorSafe app, which belong to that company. Different hats, kept clean on purpose.
             </p>
           </div>
         </div>
@@ -322,8 +322,8 @@ export default function InYourCornerPage() {
               <p className="text-xs font-semibold uppercase tracking-wider text-gold-700">Senior Transition Roadmap</p>
               <p className={`${display} mt-1 text-xl text-navy`}>The whole transition, mapped</p>
               <p className="mt-2 text-sm leading-relaxed text-ink/75">
-                Everything: a personalized written plan, the full course and tools, and a call with Ryan that
-                covers care, legal, financial, and the move, not just the house. $297, one time.
+                Everything: a written plan you build with Ryan, the full course and tools, and calls that
+                cover care, legal, financial, and the move, not just the house. Free, by application.
               </p>
               <Link href="/blueprint-premium" className="mt-3 inline-flex items-center gap-1 text-sm font-semibold text-burgundy underline underline-offset-4 hover:text-burgundy-700">
                 See the Senior Transition Roadmap

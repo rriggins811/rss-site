@@ -3,7 +3,7 @@
  * free "Simple Blueprint" starter guide (public/files/simple-blueprint.pdf).
  *
  * Why this is safe to show: these frameworks are ALREADY free (the starter
- * guide is the lead magnet). The paid $47 Blueprint's value is the in-depth
+ * guide is the lead magnet). The full Blueprint's value is the in-depth
  * content and the 69 downloadable tools, which stay locked. So this gives the
  * preview real substance to read and scroll past before reaching the locked
  * tools, without giving away anything that is paid-exclusive.

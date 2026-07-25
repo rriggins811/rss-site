@@ -20,9 +20,9 @@ export const runtime = "nodejs";
  *      nurture can target these leads distinctly),
  *   3. send the branded Resend guide-delivery email instantly,
  * and we do NOT create a Blueprint auth account. Accounts get created at
- * the $9.99 Map purchase (already wired in blueprint-site). The branded
- * /g/[slug]/ready page is the instant on-page delivery + Map offer, so the
- * user has the guide even if the email is delayed.
+ * the free Blueprint signup on blueprint-site. The branded
+ * /g/[slug]/ready page is the instant on-page delivery + free Map/Blueprint
+ * nudge, so the user has the guide even if the email is delayed.
  *
  * Email-only opt-in: first_name is optional. When absent, the email greets
  * "there" and the GHL contact carries email only.

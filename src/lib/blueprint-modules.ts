@@ -495,7 +495,7 @@ export function buildMindMapMarkdown(opts?: {
   sections.push(
     `## ✨ Want a navigator instead of a roadmap?\n` +
       `### [Maggie, Premium+ Tier](https://app.seniorsafeapp.com)\n` +
-      `### [Step up to Senior Transition Roadmap](https://blueprint.rigginsstrategicsolutions.com/pricing)`
+      `### [Apply for the Senior Transition Roadmap](https://blueprint.rigginsstrategicsolutions.com/roadmap)`
   );
   sections.push(
     `## 📚 The Books\n` +

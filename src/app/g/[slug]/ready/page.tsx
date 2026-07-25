@@ -7,7 +7,7 @@ import { LEAD_MAGNETS, getLeadMagnet } from "@/lib/lead-magnets";
  * Branded instant-delivery page for the warm funnel. The user lands here
  * the moment they opt in (and the Resend email links here too). Two jobs:
  *   1. deliver the guide instantly on our domain (not a raw file dump),
- *   2. present the $9.99 Blueprint Map as the ONE soft next step.
+ *   2. present the free Blueprint Map as the ONE soft next step.
  * Deliberately shows no other guides — one offer, one decision.
  *
  * noindex (paid-traffic page) and header hidden on /g/* via SiteHeaderGate.
@@ -74,7 +74,7 @@ export default async function GuideReadyPage({
           </a>
         </section>
 
-        {/* The ONE next step: the $9.99 Blueprint Map. Soft. */}
+        {/* The ONE next step: the free Blueprint Map. Soft. */}
         <section
           className="mt-8 rounded-xl border-2 p-6 md:p-8"
           style={{ borderColor: "#1C3A52", backgroundColor: "#1C3A52" }}
@@ -105,11 +105,12 @@ export default async function GuideReadyPage({
             through a stack of PDFs to figure out what comes next.
           </p>
           <p className="mt-4 text-base leading-relaxed text-white/90">
-            It is the same video lessons and summaries from the $47 course, for{" "}
+            It is part of the full Senior Transition Blueprint, and the whole
+            thing is{" "}
             <span className="font-semibold" style={{ color: "#D4AF37" }}>
-              $9.99
+              free
             </span>
-            .
+            . Sign up with your email, no payment, no card.
           </p>
           <a
             href="/blueprint-preview"

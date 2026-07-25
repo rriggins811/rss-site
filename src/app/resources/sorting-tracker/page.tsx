@@ -179,7 +179,7 @@ export default function SortingTrackerPage() {
           </p>
           <div className="mt-6 flex flex-wrap gap-3">
             <Button asChild>
-              <Link href="/the-blueprint">See the full Blueprint ($47)</Link>
+              <Link href="/the-blueprint">See the full Blueprint (free)</Link>
             </Button>
             <Button asChild variant="outline">
               <a href={FILE_PATH} download>

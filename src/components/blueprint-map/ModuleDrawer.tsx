@@ -4,8 +4,9 @@ import { useEffect, useRef } from "react";
 import { type Module, moduleVideoUrl } from "@/lib/blueprint-modules";
 import { getGuidePreview } from "@/lib/blueprint-guide-previews";
 
-// The starter tools unlocked at the $9.99 (preview) tier, matching the free
-// guide's giveaway. Everything else stays a locked teaser until the $47 Blueprint.
+// The starter tools unlocked in preview mode, matching the free guide's
+// giveaway. Everything else stays a locked teaser until the visitor creates a
+// free Blueprint account.
 const FREE_TOOL_HREFS = new Set<string>([
   "/blueprint-tools/Tool_00A_Quick_Start_7Day_Checklist.pdf",
   "/blueprint-tools/Tool_00B_Family_Sharing_Letter.pdf",
@@ -287,8 +288,8 @@ export function ModuleDrawer({ module, onClose, preview = false, upgradeUrl }: P
               </section>
             )}
 
-            {/* Tools in preview/$9.99 mode: the starter set is unlocked as real
-                downloads; the rest are locked teasers with the $47 upsell. */}
+            {/* Tools in preview mode: the starter set is unlocked as real
+                downloads; the rest are locked teasers with a free-signup CTA. */}
             {module.tools.length > 0 && preview && (() => {
               const freeTools = module.tools.filter((t) => FREE_TOOL_HREFS.has(t.href));
               const lockedTools = module.tools.filter((t) => !FREE_TOOL_HREFS.has(t.href));
@@ -372,7 +373,7 @@ export function ModuleDrawer({ module, onClose, preview = false, upgradeUrl }: P
                       className="mt-4 inline-flex w-full items-center justify-center rounded-lg px-5 py-3 text-sm font-semibold transition-opacity hover:opacity-90"
                       style={{ background: "#D4AF37", color: "#1C3A52" }}
                     >
-                      Unlock all 70+ tools, full Blueprint for $30 (normally $47)
+                      Unlock all 70+ tools with a free Blueprint account
                       <span aria-hidden className="ml-2">&rarr;</span>
                     </a>
                   )}

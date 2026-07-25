@@ -25,43 +25,47 @@ const PREMIUM_CHECKOUT = paymentLinks.blueprintPremium;
 const SUPPORT_EMAIL = "ryan@rigginsstrategicsolutions.com";
 
 export const metadata: Metadata = {
-  title: "Senior Transition Roadmap | $297 Guided Advisory",
+  title: "Senior Transition Roadmap | Free Guided Advisory, By Application",
   description:
-    "The Senior Transition Roadmap is the whole senior transition mapped with you, start to finish: a personalized plan, a 60-minute call with Ryan, and 90 days of support. See an example plan and the intake. $297, one-time.",
+    "The Senior Transition Roadmap is the whole senior transition mapped with you, start to finish: a detailed intake, calls with Ryan, a written plan built together, and 90 days of support. Free, by application.",
   alternates: { canonical: "/blueprint-premium" },
   openGraph: {
     type: "website",
     url: "https://rigginsstrategicsolutions.com/blueprint-premium",
     siteName: "Riggins Strategic Solutions",
-    title: "The Senior Transition Roadmap | $297 Guided Advisory",
+    title: "The Senior Transition Roadmap | Free, By Application",
     description:
-      "The whole path of a senior transition, laid out before you. A personalized plan, a 60-minute call with Ryan, and 90 days of support. $297, one-time.",
+      "The whole path of a senior transition, laid out before you. A written plan built with Ryan, an intake call, a follow-up call, and 90 days of support. Free, by application.",
     // OG image is generated per-route by ./opengraph-image.tsx, so no static image here.
   },
   twitter: {
     card: "summary_large_image",
-    title: "The Senior Transition Roadmap | $297 Guided Advisory",
+    title: "The Senior Transition Roadmap | Free, By Application",
     description:
-      "Your whole transition mapped, an example plan, a 60-minute call with Ryan, and 90 days of support. $297, one-time.",
+      "Your whole transition mapped with Ryan: an intake, a written plan built together, and 90 days of support. Free, by application.",
   },
 };
 
 const FAQS: { q: string; a: string }[] = [
   {
-    q: "How is the Roadmap different from Blueprint Core?",
-    a: "Core is the full self-serve system. You work through 20 modules on your own time. The Roadmap is Core plus a personalized plan written for your specific situation, a 60-minute 1-on-1 call with Ryan, and 90 days of email follow-up while you execute. If you want the system, buy Core. If you want the system plus someone in your corner while you run the play, buy the Roadmap.",
+    q: "How is the Roadmap different from the Senior Transition Blueprint?",
+    a: "The Blueprint is the full self-serve system. You work through 20 modules on your own time, free with a free account. The Roadmap is the guided version: a detailed intake form, an intake call with Ryan, a written plan the two of you build together, a follow-up call on how to move forward, and 90 days of email support while you execute. If you want the system, start with the Blueprint. If you want the system plus someone in your corner while you run the play, apply for the Roadmap.",
+  },
+  {
+    q: "Is the Roadmap really free? Why?",
+    a: "Yes, free. Ryan makes his living on real estate referrals, paid to him by the agent, never by the family. Families who plan the whole transition well tend to handle the house well too, and when that moment comes, we want you to talk to Ryan first. That is the business model, out in the open.",
+  },
+  {
+    q: "Why is there an application?",
+    a: "Because the Roadmap is real advisory time, not a download. The intake form asks for real detail about your family, the house, the money, and the care situation, and the plan gets built with Ryan on live calls. That only works when the fit is right, so Ryan reviews each application and takes the families he can genuinely help.",
   },
   {
     q: "What if I need more than 90 days of support?",
-    a: "After day 90, your email support wraps up. That is the deal. If things change and you need help later, we can book a paid follow-up strategy call. Most families do not need it. By day 90 they have the plan and the tools.",
+    a: "After day 90, your email support wraps up. If things change and you need help later, reach out. Most families do not need it. By day 90 they have the plan and the tools.",
   },
   {
-    q: "Can I upgrade from Core to the Roadmap later?",
-    a: "Yes. When you buy Blueprint Core at $47, you get an email within minutes with a discount code that credits the full $47 toward Senior Transition Roadmap whenever you decide to upgrade. No double-paying.",
-  },
-  {
-    q: "What if the Roadmap is not the right fit after the first call?",
-    a: "The 14-day money-back guarantee runs up until the consultation call happens. If you decide after buying but before the call that the Roadmap is not right, the refund is automatic. Once the call happens, the refund window closes because the personalized plan and advisory time have been delivered.",
+    q: "What happens after the plan is built?",
+    a: "The follow-up call is about how to move forward. Where the plan calls for other professionals, care, legal, financial, tax, Ryan brings in the ones that are needed, or works with the ones your family already has. If the plan includes selling the home, Ryan can find and vet the right agent and stay on the sale as your advocate, at no added cost.",
   },
 ];
 
@@ -267,7 +271,7 @@ export default function BlueprintPremiumPage() {
         <div className="mx-auto max-w-5xl px-6 py-16 lg:py-24">
           <div className="flex flex-wrap items-center gap-3">
             <span className="rounded-full bg-burgundy/10 px-3 py-1 text-xs font-semibold uppercase tracking-[0.14em] text-burgundy">
-              Senior Transition Roadmap &middot; $297
+              Senior Transition Roadmap &middot; Free, by application
             </span>
             <span className="text-xs font-semibold uppercase tracking-[0.16em] text-navy/60">
               A private guide for your family
@@ -279,8 +283,9 @@ export default function BlueprintPremiumPage() {
             Laid Out Before You
           </h1>
           <p className="mt-6 max-w-2xl font-semibold leading-relaxed text-navy">
-            The Senior Transition Roadmap: the full 20-module course, a written plan built for your
-            family, a 60 minute call with Ryan, and 90 days of support. $297, one time.
+            The Senior Transition Roadmap: the full 20-module course, a written plan you and Ryan
+            build together, an intake call, a follow-up call on how to move forward, and 90 days of
+            support. Free. It starts with an application.
           </p>
           <p className="mt-4 max-w-2xl text-lg leading-relaxed text-ink/80">
             When a parent needs to move, it hits all at once. The house, the money, the paperwork, the
@@ -309,7 +314,7 @@ export default function BlueprintPremiumPage() {
             className="mt-8 max-w-2xl"
             topic="the Roadmap tier"
             question="What is Senior Transition Roadmap?"
-            answer="Senior Transition Roadmap is the full Senior Transition Blueprint course plus a personalized written plan, a 60 minute one on one call with Ryan Riggins, and 90 days of email support. It maps the whole transition with you, start to finish, and goes deepest on the home and the money. Two hundred ninety seven dollars, one time."
+            answer="Senior Transition Roadmap is the full Senior Transition Blueprint course plus a written plan built with Ryan Riggins: a detailed intake, an intake call, the plan built together, a follow-up call on how to move forward, and 90 days of email support. It maps the whole transition with you, start to finish, and goes deepest on the home and the money. Free, by application."
           />
 
           <div className="mt-8 flex flex-wrap items-center gap-x-5 gap-y-3">
@@ -319,7 +324,7 @@ export default function BlueprintPremiumPage() {
               rel="noopener noreferrer"
               className="rounded-md bg-navy px-7 py-3.5 font-semibold text-cream transition hover:bg-navy-800"
             >
-              Get Senior Transition Roadmap, $297
+              Apply for the Roadmap
             </a>
             <a href="#example" className="text-sm font-semibold text-burgundy underline underline-offset-4">
               See an example plan first
@@ -619,7 +624,8 @@ export default function BlueprintPremiumPage() {
             Senior Transition Roadmap is the guided version. You do not just get the course and the 70-plus tools. You
             get Ryan walking your whole map with you, from getting your bearings to crossing the finish line.
             Together we build your written Senior Transition Plan, go deep on the home and the money where the
-            biggest dollars are won or lost, and line up the vetted team for the parts outside Ryan's lane.
+            biggest dollars are won or lost, and line up the professionals for the parts outside Ryan's lane,
+            the ones that are needed, or the ones your family already has.
             Ninety days of email support so you are never stuck wondering what comes next.
           </p>
 
@@ -629,10 +635,10 @@ export default function BlueprintPremiumPage() {
               {[
                 "All 20 Blueprint modules and 70-plus tools. Lifetime access.",
                 "A 21st module, unlocked with the Roadmap, holding your intake docs to prep your call.",
-                "One 60-minute strategy call with Ryan that walks your whole map.",
+                "An intake call with Ryan, then the plan built together, then a follow-up call on how to move forward.",
                 "Your written Senior Transition Plan, your map filled in for your family.",
                 "90 days of priority email support.",
-                "A vetted team lined up for every part outside Ryan's lane.",
+                "The right professionals for every part outside Ryan's lane, brought in as needed or working with the ones you already have.",
               ].map((item) => (
                 <div key={item} className="flex gap-3 rounded-lg border border-cream/15 bg-white/[0.04] px-4 py-3">
                   <span className="mt-0.5 text-gold">&#10003;</span>
@@ -643,12 +649,12 @@ export default function BlueprintPremiumPage() {
           </div>
 
           <div className="mt-8 rounded-xl border border-cream/15 bg-white/[0.04] p-7">
-            <p className="text-xs font-semibold uppercase tracking-[0.14em] text-gold">The 60-minute call walks your whole map</p>
+            <p className="text-xs font-semibold uppercase tracking-[0.14em] text-gold">How the Roadmap works</p>
             <ol className="mt-4 space-y-2 text-cream/85">
-              <li>1. Where your family stands and what you need most. <span className="text-cream/55">(Phase 1)</span></li>
-              <li>2. The home and the money, the heaviest lift, your real options and what protects the most. <span className="text-cream/55">(Phase 2)</span></li>
-              <li>3. The move and the long game, what is coming and who handles each piece. <span className="text-cream/55">(Phases 3 and 4)</span></li>
-              <li>4. Your team and your first 90 days. <span className="text-cream/55">(Phases 4 and 5)</span></li>
+              <li>1. Apply, and complete the intake. It asks for real detail about your family, the house, the money, and the care situation, so the work is about you from minute one.</li>
+              <li>2. The intake call with Ryan. Where your family stands, your real options, and what protects the most.</li>
+              <li>3. Ryan and your family build the written plan together, going deepest on the home and the money.</li>
+              <li>4. The follow-up call: how to move forward, who handles each piece, and your first 90 days.</li>
             </ol>
             <p className="mt-4 text-cream/85">
               You leave with a written <strong className="font-semibold text-cream">Senior Transition Plan</strong>, your personal version of this
@@ -663,7 +669,7 @@ export default function BlueprintPremiumPage() {
               rel="noopener noreferrer"
               className="rounded-md bg-gold px-7 py-3.5 font-semibold text-navy transition hover:bg-gold-700 hover:text-cream"
             >
-              Get Senior Transition Roadmap, $297
+              Apply for the Roadmap
             </a>
             <Link href="/the-blueprint" className="text-sm text-cream/80 underline underline-offset-4 hover:text-gold">
               Compare every way to work with Ryan
@@ -672,13 +678,14 @@ export default function BlueprintPremiumPage() {
               href="https://blueprint.rigginsstrategicsolutions.com/login"
               className="text-sm text-cream/55 underline underline-offset-4 hover:text-gold"
             >
-              Already purchased? Log in
+              Already have an account? Log in
             </a>
           </div>
 
           <p className="mt-6 max-w-2xl text-sm leading-relaxed text-cream/70">
-            <span className="font-semibold text-gold">14-day money-back guarantee.</span> Refundable right up
-            until your call happens. If the Roadmap is not the right fit for your family, you get every dollar back.
+            <span className="font-semibold text-gold">Free, by application.</span> The Roadmap costs your
+            family nothing. It asks for your time and real detail, because the plan is built together, not
+            downloaded. Ryan reviews every application and takes the families he can genuinely help.
           </p>
         </div>
       </section>

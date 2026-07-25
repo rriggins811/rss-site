@@ -457,30 +457,28 @@ export function mediaSchemaFromItem(item: MediaItem) {
 }
 
 /**
- * Product schema for Blueprint Core ($47 DIY course). Mounted on
- * /the-blueprint. Brand/seller derive from ORGANIZATION constants so a name
- * change in lib/site.ts propagates here automatically.
- *
- * `isAccessibleForFree: false` helps AI assistants route "free version of"
- * vs "paid version of" queries to the right entity. Pair tag with
- * /freeguide which is `true` (sitewide WebPage default).
+ * Product schema for the Senior Transition Blueprint (formerly Blueprint
+ * Core; free since the July 2026 free pivot, accessed via free account
+ * signup). Mounted on /the-blueprint. Brand/seller derive from ORGANIZATION
+ * constants so a name change in lib/site.ts propagates here automatically.
  */
 export function blueprintCoreProductSchema() {
   const url = abs("/the-blueprint");
   return {
     "@context": "https://schema.org",
     "@type": "Product",
-    name: "Blueprint Core",
+    name: "The Senior Transition Blueprint",
+    alternateName: "Blueprint Core",
     description:
-      "The Blueprint Core is a $47 DIY course covering the full senior housing transition process. 20 modules, 70+ tools and worksheets, self-paced.",
+      "The Senior Transition Blueprint is a free course covering the full senior housing transition process. 20 modules, 70+ tools and worksheets, self-paced, lifetime access with a free account.",
     brand: { "@type": "Brand", name: ORGANIZATION.name },
     image: abs("/og/the-blueprint.png"),
     url,
     category: "Online Course",
-    isAccessibleForFree: false,
+    isAccessibleForFree: true,
     offers: {
       "@type": "Offer",
-      price: "47",
+      price: "0",
       priceCurrency: "USD",
       availability: "https://schema.org/InStock",
       url,
@@ -527,8 +525,8 @@ export function blueprintCourseSchema() {
     ],
     offers: {
       "@type": "Offer",
-      category: "Paid",
-      price: "47",
+      category: "Free",
+      price: "0",
       priceCurrency: "USD",
       availability: "https://schema.org/InStock",
       url,
@@ -544,8 +542,8 @@ export function blueprintCourseSchema() {
 }
 
 /**
- * Product schema for Senior Transition Roadmap ($297 advisory). Mounted on
- * /blueprint-premium.
+ * Product schema for Senior Transition Roadmap (free guided advisory, by
+ * application, since the July 2026 free pivot). Mounted on /blueprint-premium.
  */
 export function blueprintPremiumProductSchema() {
   const url = abs("/blueprint-premium");
@@ -554,15 +552,15 @@ export function blueprintPremiumProductSchema() {
     "@type": "Product",
     name: "Senior Transition Roadmap",
     description:
-      "Senior Transition Roadmap is everything in Core plus a personalized Senior Transition Plan, a 60-minute 1-on-1 call with Ryan Riggins, and 90 days of email support. $297, one-time, outcome-focused.",
+      "Senior Transition Roadmap is everything in the Senior Transition Blueprint plus a written Senior Transition Plan built with Ryan Riggins: a detailed intake, an intake call, the plan built together, a follow-up call, and 90 days of email support. Free, by application.",
     brand: { "@type": "Brand", name: ORGANIZATION.name },
     image: abs("/og/blueprint-premium.png"),
     url,
     category: "Senior Transition Advisory",
-    isAccessibleForFree: false,
+    isAccessibleForFree: true,
     offers: {
       "@type": "Offer",
-      price: "297",
+      price: "0",
       priceCurrency: "USD",
       availability: "https://schema.org/InStock",
       url,

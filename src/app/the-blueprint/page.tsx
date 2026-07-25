@@ -20,7 +20,7 @@ import { abs } from "@/lib/site";
 export const metadata: Metadata = {
   title: "The Blueprint | Senior Transition Tiers",
   description:
-    "Five ways to work with Ryan Riggins on a senior housing transition. The free Simple Blueprint, $47 Blueprint Core, the $297 Senior Transition Roadmap, the SeniorSafe app from $14.99/mo, and Get Me in Your Corner, a vetted real estate agent referral at no added cost.",
+    "Five ways to work with Ryan Riggins on a senior housing transition. The free Simple Blueprint, the free Senior Transition Blueprint course, the Senior Transition Roadmap (free, by application), the SeniorSafe app from $14.99/mo, and Get Me in Your Corner, a vetted real estate agent referral at no added cost.",
   alternates: { canonical: "/the-blueprint" },
   openGraph: {
     type: "website",
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     siteName: "Riggins Strategic Solutions",
     title: "The Blueprint | Senior Transition Tiers",
     description:
-      "Five ways to work with Ryan Riggins on a senior housing transition. The free Simple Blueprint, $47 Blueprint Core, the $297 Senior Transition Roadmap, the SeniorSafe app, and Get Me in Your Corner, a vetted agent referral at no added cost.",
+      "Five ways to work with Ryan Riggins on a senior housing transition. The free Simple Blueprint, the free Senior Transition Blueprint course, the Senior Transition Roadmap (free, by application), the SeniorSafe app, and Get Me in Your Corner, a vetted agent referral at no added cost.",
     images: [
       {
         url: "https://rigginsstrategicsolutions.com/og/the-blueprint.png",
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "The Blueprint | Senior Transition Tiers",
     description:
-      "Five ways to work with Ryan Riggins on a senior housing transition. Free guide, $47 course, $297 advisory, the SeniorSafe app, and a vetted agent referral at no added cost.",
+      "Five ways to work with Ryan Riggins on a senior housing transition. Free guide, free course, a free guided Roadmap by application, the SeniorSafe app, and a vetted agent referral at no added cost.",
     images: ["https://rigginsstrategicsolutions.com/og/the-blueprint.png"],
   },
 };
@@ -81,9 +81,9 @@ const tiers: Tier[] = [
     alt: "Simple Blueprint starter guide on a desk",
   },
   {
-    label: "Blueprint Core",
-    price: "$47",
-    priceSub: "One-time. 14-day money-back.",
+    label: "Senior Transition Blueprint",
+    price: "Free",
+    priceSub: "All of it. Free account signup.",
     title: "The full 20-module system.",
     blurb: "The complete DIY roadmap at your own pace.",
     audience: "Families who want a self-serve plan without the hand-holding.",
@@ -91,27 +91,27 @@ const tiers: Tier[] = [
       "20 modules, 70+ tools and checklists",
       "5 exit strategies, not just a traditional listing",
       "Scripts for the hard family conversations",
-      "12 months of course access and updates",
+      "Lifetime access. Sign up with your email, no payment",
     ],
-    cta: { href: paymentLinks.blueprintCore, label: "Get Blueprint Core, $47", external: true },
-    learnMore: { href: "/blueprint-core", label: "See what's inside Blueprint Core" },
+    cta: { href: paymentLinks.blueprintCore, label: "Create your free account", external: true },
+    learnMore: { href: "/blueprint-core", label: "See what's inside the Blueprint" },
     image: "/photos/blueprint_core_materials_47.jpg",
-    alt: "Blueprint Core planning materials and checklists",
+    alt: "Senior Transition Blueprint planning materials and checklists",
   },
   {
     label: "Senior Transition Roadmap",
-    price: "$297",
-    priceSub: "One-time. 14-day money-back before the call.",
-    title: "Core plus Ryan in your corner.",
-    blurb: "Everything in Core, plus a personalized plan and a 60-minute call.",
+    price: "Free",
+    priceSub: "By application. Built together, not downloaded.",
+    title: "The Blueprint plus Ryan in your corner.",
+    blurb: "Everything in the Blueprint, plus a written plan you and Ryan build together.",
     audience: "Families in active transition who want a real person on their side.",
     bullets: [
-      "Everything in Blueprint Core",
-      "Personalized Senior Transition Plan written for your situation",
-      "60-minute 1-on-1 call with Ryan",
-      "90 days of email support while you execute",
+      "Everything in the Senior Transition Blueprint",
+      "A detailed intake form, then an intake call with Ryan",
+      "A written Senior Transition Plan built with your family",
+      "A follow-up call on how to move forward, plus 90 days of email support",
     ],
-    cta: { href: paymentLinks.blueprintPremium, label: "Get Senior Transition Roadmap, $297", external: true },
+    cta: { href: paymentLinks.blueprintPremium, label: "Apply for the Roadmap", external: true },
     learnMore: { href: "/blueprint-premium", label: "See how the Roadmap works, with an example plan" },
     image: "/photos/blueprint_premium_zoom_call_297.jpg",
     alt: "Ryan Riggins on a Zoom consultation with a family",
@@ -191,24 +191,24 @@ const included: { heading: string; value: string; body: string }[] = [
 
 const faqs: { q: string; a: string }[] = [
   {
-    q: "How is Senior Transition Roadmap different from Core?",
-    a: "Core is the full self-serve system. The Roadmap is Core plus a personalized plan written for your specific situation, a 60-minute 1-on-1 call with Ryan, and 90 days of email follow-up while you execute. If you want someone in your corner, not just a playbook, the Roadmap is the pick.",
+    q: "How is the Senior Transition Roadmap different from the Blueprint?",
+    a: "The Blueprint is the full self-serve system, free with a free account. The Roadmap is the guided version. It starts with an application and a detailed intake form, then an intake call with Ryan, then the two of you build a written plan for your family together, then a follow-up call on how to move forward. If you want someone in your corner, not just a playbook, the Roadmap is the pick.",
   },
   {
     q: "How is SeniorSafe with Maggie different from regular SeniorSafe?",
     a: "SeniorSafe at $14.99/mo gives you the daily app for the senior plus SeniorSafe AI as a general-purpose helper. Adding Maggie at $39.99/mo brings in an AI transition specialist built for the adult child managing the move. Maggie knows the full 20-module Blueprint, recognizes resistant parent personas, and walks you through wholesaler offers in real time. Choose SeniorSafe with Maggie if YOU need the specialist, not just the daily check-in tool.",
   },
   {
-    q: "Can I start with Core and upgrade to the Roadmap later?",
-    a: "Yes. When you buy Blueprint Core at $47, you get an email within minutes with a discount code that credits the $47 toward Senior Transition Roadmap whenever you decide to upgrade. No double-paying.",
+    q: "Why is the Blueprint free? What's the catch?",
+    a: "No catch. Ryan makes his living on real estate referrals, paid to him by the agent, never by the family. The education is free because families who understand the whole transition make better decisions, and when it is time to deal with the house, we want you to talk to Ryan first. You can use every module and every tool and never owe a dime.",
   },
   {
     q: "What if I'm not in North Carolina?",
     a: "The Blueprint and SeniorSafe are national. Any family in any state can use them. When a home actually needs to list or sell, Ryan coordinates through a national referral network of agents who specialize in working with seniors.",
   },
   {
-    q: "Is there a money-back guarantee?",
-    a: "Yes. Blueprint Core has a 14-day money-back guarantee. Senior Transition Roadmap has a 14-day money-back guarantee up until the consultation call happens. SeniorSafe, with or without Maggie, is a 14-day free trial, cancel anytime, no charge.",
+    q: "Does the Roadmap really cost nothing?",
+    a: "Yes. The Roadmap is free, by application. The honest trade is your time and detail, not your money: the intake form asks real questions about your family's situation, and the plan is built with Ryan on calls, not downloaded. Ryan takes the families he can genuinely help. SeniorSafe is separate: a 14-day free trial, then $14.99/mo or $39.99/mo with Maggie.",
   },
 ];
 
@@ -405,9 +405,9 @@ export default function BlueprintPage() {
         <div className="mx-auto max-w-6xl px-6 py-20">
           <div className="max-w-2xl">
             <GoldRule />
-            <h2 className="mt-3">What&rsquo;s inside Core and the Roadmap.</h2>
+            <h2 className="mt-3">What&rsquo;s inside the Blueprint and the Roadmap.</h2>
             <p className="mt-4 text-lg text-ink/80">
-              The paid tiers both start from the same foundation. The Roadmap adds
+              Both start from the same foundation. The Roadmap adds
               the personal layer on top.
             </p>
           </div>
@@ -431,11 +431,13 @@ export default function BlueprintPage() {
       <section className="bg-burgundy-700 text-cream">
         <div className="mx-auto max-w-4xl px-6 py-16 text-center">
           <GoldRule className="mx-auto" />
-          <h2 className="mt-3 text-cream">Risk is on me, not you.</h2>
+          <h2 className="mt-3 text-cream">The Blueprint is free. All of it.</h2>
           <p className="mt-6 text-lg text-cream/90 max-w-2xl mx-auto leading-relaxed">
-            Blueprint Core has a 14-day money-back guarantee. Senior Transition Roadmap
-            has a 14-day money-back guarantee up until the consultation call
-            happens. SeniorSafe, with or without Maggie, is a 14-day free trial. If
+            The Roadmap is free too. It starts with an application. Ryan makes
+            his living on real estate referrals, paid by the agent, never by the
+            family, so the education costs you nothing. The one thing we ask:
+            when it&rsquo;s time to deal with the house, talk to Ryan first.
+            SeniorSafe, with or without Maggie, is a 14-day free trial. If
             it&rsquo;s not the right fit, you walk. No hassle, no guilt trip.
           </p>
         </div>

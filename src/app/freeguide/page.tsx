@@ -18,7 +18,7 @@ const FREEGUIDE_FAQS: FAQItem[] = [
   {
     question: "How much does it cost?",
     answer:
-      "It's free. Email signup, no credit card, no upsell during checkout. The Simple Blueprint is the entry-level resource — there are paid Blueprint Core ($47) and Senior Transition Roadmap ($297) products for families who want more, but those are entirely optional.",
+      "It's free. Email signup, no credit card. So is the rest of the education: the full Senior Transition Blueprint course is free with a free account, and the guided Senior Transition Roadmap is free too, by application. Ryan makes his living on real estate referrals, paid by the agent, never by the family.",
   },
   {
     question: "What happens after I sign up?",
@@ -36,9 +36,9 @@ const FREEGUIDE_FAQS: FAQItem[] = [
       "No. The 14-day Premium+ trial activates automatically with your Simple Blueprint signup. When the trial ends you can pick a paid SeniorSafe plan ($14.99/mo Premium or $39.99/mo Premium+) or just stop using the app — no charges either way.",
   },
   {
-    question: "How is the free Simple Blueprint different from Blueprint Core ($47)?",
+    question: "How is the Simple Blueprint different from the full Senior Transition Blueprint?",
     answer:
-      "The Simple Blueprint is the starter guide — first principles, 10 common mistakes, the four-stage transition framework. Blueprint Core is the full DIY course: 20 modules, 70+ interactive tools and worksheets, the whole playbook Ryan uses with paying clients. Most families start with the free guide and decide from there whether Core is the right next step.",
+      "The Simple Blueprint is the starter guide: first principles, 10 common mistakes, the four-stage transition framework. The Senior Transition Blueprint is the full course: 20 modules, 70+ interactive tools and worksheets, the whole playbook Ryan uses with client families. Both are free. The full course just takes a free account, since it saves your progress and your tools.",
   },
 ];
 
@@ -200,12 +200,13 @@ export default function FreeGuidePage() {
           <h2 className="mt-3">After you read it.</h2>
           <p className="mt-6 text-lg text-ink/85 leading-relaxed">
             If the situation is more complex than the Simple Blueprint covers,
-            there are two paid resources built for exactly that.{" "}
+            the full Senior Transition Blueprint goes as deep as you need, and
+            it is free too.{" "}
             <a
-              href="https://blueprint.rigginsstrategicsolutions.com/pricing"
+              href="https://blueprint.rigginsstrategicsolutions.com/signup"
               className="text-burgundy-600 hover:text-burgundy-700 underline underline-offset-2"
             >
-              See The Blueprint.
+              Create your free account.
             </a>
           </p>
           <p className="mt-4 text-lg text-ink/85 leading-relaxed">

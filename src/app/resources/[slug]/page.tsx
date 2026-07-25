@@ -186,13 +186,13 @@ export default async function ResourceArticlePage({
                     While you&rsquo;re here: get the full Blueprint
                   </h3>
                   <p className="mt-3 text-ink/80 leading-relaxed">
-                    Blueprint Core is the 20-module system Ryan uses with
-                    client families. 70+ tools, scripts for the hard
-                    conversations, and the five exit strategies for the home.
-                    $47, one-time, 14-day money-back guarantee.
+                    The Senior Transition Blueprint is the 20-module system
+                    Ryan uses with client families. 70+ tools, scripts for the
+                    hard conversations, and the five exit strategies for the
+                    home. Free, all of it, with a free account.
                   </p>
                   <Button asChild className="mt-5">
-                    <a href="https://blueprint.rigginsstrategicsolutions.com/pricing">See Blueprint Core, $47</a>
+                    <a href="https://blueprint.rigginsstrategicsolutions.com/signup">Get the Blueprint free</a>
                   </Button>
                 </>
               ) : (
@@ -251,13 +251,13 @@ export default async function ResourceArticlePage({
                     While you&rsquo;re here: get the full Blueprint
                   </h3>
                   <p className="mt-3 text-ink/80 leading-relaxed">
-                    Blueprint Core is the 20-module system Ryan uses with
-                    client families. 70+ tools, scripts for the hard
-                    conversations, and the five exit strategies for the home.
-                    $47, one-time, 14-day money-back guarantee.
+                    The Senior Transition Blueprint is the 20-module system
+                    Ryan uses with client families. 70+ tools, scripts for the
+                    hard conversations, and the five exit strategies for the
+                    home. Free, all of it, with a free account.
                   </p>
                   <Button asChild className="mt-5">
-                    <a href="https://blueprint.rigginsstrategicsolutions.com/pricing">See Blueprint Core, $47</a>
+                    <a href="https://blueprint.rigginsstrategicsolutions.com/signup">Get the Blueprint free</a>
                   </Button>
                 </>
               ) : (

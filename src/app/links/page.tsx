@@ -98,13 +98,13 @@ const GROUPS: LinkGroup[] = [
     heading: "Go deeper",
     items: [
       {
-        label: "Blueprint Core ($47)",
-        description: "The full 20-module course with 70-plus done-for-you tools.",
+        label: "Senior Transition Blueprint (free)",
+        description: "The full 20-module course with 70-plus done-for-you tools. Free with a free account.",
         href: "/blueprint-core",
       },
       {
-        label: "Senior Transition Roadmap ($297)",
-        description: "A personalized plan plus a 60-minute call with Ryan.",
+        label: "Senior Transition Roadmap (free, by application)",
+        description: "A written plan you build with Ryan. Starts with an application.",
         href: "/blueprint-premium",
       },
       {

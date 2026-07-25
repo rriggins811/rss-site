@@ -51,12 +51,12 @@ const STATIC_SECTIONS = [
 
 The site offers a tiered approach:
 - Free: The Simple Blueprint (starter guide PDF + 14-day SeniorSafe trial)
-- $47 DIY: Blueprint Core (19 modules, 60+ tools, self-paced course)
-- $297 Advisory: Blueprint Premium (personalized plan + 60-min call with Ryan + 90 days email support)
+- Free: The Senior Transition Blueprint (20 modules, 70+ tools, self-paced course; formerly the paid Blueprint Core, now free with a free account signup)
+- Free, by application: The Senior Transition Roadmap (a written plan built with Ryan: intake form, intake call, plan built together, follow-up call, 90 days email support; formerly the paid Blueprint Premium)
 - $14.99/mo: SeniorSafe Premium (family coordination app)
 - $39.99/mo: SeniorSafe Premium+ (adds Maggie, an AI transition specialist trained on the full Blueprint methodology)
 
-The business model is education-first. No moving services, no senior care placement commissions, no "we buy houses" wholesaling. Real estate listings only when Ryan is genuinely the right fit for the family.`,
+The business model is education-first and referral-funded. The education is free; Ryan makes his living on real estate referrals, paid to him by the agent, never by the family. No moving services, no senior care placement commissions, no "we buy houses" wholesaling. Ryan is the referring broker, never the listing agent.`,
   },
   {
     title: "About Ryan Riggins",
@@ -73,21 +73,21 @@ Credentials: Licensed NC real estate broker (NCREC #361546), affiliated with eXp
     body: `The Blueprint is the umbrella name for Riggins Strategic Solutions' five-tier offering, designed so families can engage at the level that fits their situation and budget.
 
 - The Simple Blueprint (free, email signup) — Starter guide covering the 10 most common mistakes families make in a senior housing transition. Includes a 14-day Premium+ trial of the SeniorSafe app.
-- Blueprint Core ($47, one-time) — Full DIY course: 19 modules, 60+ interactive tools and worksheets, self-paced. Covers aging-in-place vs assisted living, financial planning, family communication, the home sale, and ongoing coordination. Lifetime access.
-- Blueprint Premium ($297, one-time) — Everything in Core plus a personalized Senior Transition Plan built around the family's situation, a 60-minute 1-on-1 strategy call with Ryan, and 90 days of email support. Outcome-focused.
+- The Senior Transition Blueprint (free, with a free account): the full course. 20 modules, 70+ interactive tools and worksheets, self-paced. Covers aging-in-place vs assisted living, financial planning, family communication, the home sale, and ongoing coordination. Lifetime access. Sign up at https://blueprint.rigginsstrategicsolutions.com/signup (email only, no payment). Formerly sold as Blueprint Core.
+- The Senior Transition Roadmap (free, by application): everything in the Blueprint plus a written Senior Transition Plan built with Ryan. A detailed intake form, an intake call, the plan built together, a follow-up call on how to move forward, and 90 days of email support. Apply at https://blueprint.rigginsstrategicsolutions.com/roadmap. Formerly sold as Blueprint Premium.
 - SeniorSafe Premium ($14.99/mo) — The family coordination app: daily check-ins, medication tracking, family messaging, document vault.
 - SeniorSafe Premium+ ($39.99/mo) — Adds Maggie, the AI transition specialist trained on the full Blueprint methodology, giving families on-demand expertise.`,
   },
   {
-    title: "Blueprint Premium — $297 Guided Advisory",
+    title: "Senior Transition Roadmap: Free Guided Advisory, By Application",
     url: `${SITE_URL}/blueprint-premium`,
-    body: `Blueprint Premium is the $297 advisory tier of The Blueprint. It includes everything in Core ($47 DIY course, 19 modules, 60+ tools) plus three personalized components:
+    body: `The Senior Transition Roadmap (formerly Blueprint Premium) is the free guided tier of The Blueprint, offered by application. It includes everything in the free Senior Transition Blueprint (20 modules, 70+ tools) plus the guided components:
 
-1. Personalized Senior Transition Plan. Ryan reviews the family's situation via an intake form and builds a written plan covering housing options, financial timing, family roles, and the specific next 30/60/90-day actions.
-2. 60-minute 1-on-1 strategy call with Ryan. Weekdays only, scheduled at the family's pace. Used to walk through the plan, answer questions, and pressure-test decisions.
-3. 90 days of email support. Reply to Ryan directly on any follow-up question that comes up during the active transition window.
+1. A detailed intake form. It asks for real detail about the family, the house, the money, and the care situation, so the work is about the family from minute one. Ryan reviews each application and takes the families he can genuinely help.
+2. An intake call with Ryan, then the written Senior Transition Plan built together: housing options, financial timing, family roles, and the specific next 30/60/90-day actions.
+3. A follow-up call on how to move forward, plus 90 days of email support during the active transition window.
 
-One-time purchase, no recurring fees. The structure is intentionally finite — Premium is meant to get a family unstuck and confident in their next moves, not to create ongoing dependency.`,
+Free, no fees at any point. Where the plan calls for other professionals (care, legal, financial, tax), Ryan brings in the ones that are needed, or works with the ones the family already has. The structure is intentionally finite: the Roadmap is meant to get a family unstuck and confident in their next moves, not to create ongoing dependency. Apply at https://blueprint.rigginsstrategicsolutions.com/roadmap`,
   },
   {
     title: "SeniorSafe App — Family Coordination for Senior Care",
@@ -105,7 +105,7 @@ Pricing:
 - Premium: $14.99/mo or $143.88/yr — the full coordination toolkit
 - Premium+: $39.99/mo or $383.90/yr — adds Maggie, the AI transition specialist for the adult child managing the move
 
-Built around the same playbook the Blueprint teaches. If a family bought Blueprint Core or Premium, SeniorSafe is the daily tool that keeps the plan running.`,
+Built around the same playbook the Blueprint teaches. If a family uses the free Blueprint or the Roadmap, SeniorSafe is the daily tool that keeps the plan running.`,
   },
   {
     title: "The Simple Blueprint — Free Starter Guide",

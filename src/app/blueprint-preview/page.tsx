@@ -3,9 +3,9 @@ import { MODULES } from "@/lib/blueprint-modules";
 import { MapCheckoutButton } from "@/components/blueprint-map/MapCheckoutButton";
 
 export const metadata: Metadata = {
-  title: "The Senior Transition Blueprint Map, $9.99",
+  title: "The Senior Transition Blueprint Map, Free",
   description:
-    "Watch the entire 20-module Senior Transition Blueprint explained, module by module, for $9.99. Video lessons, plain-English summaries, and starter tools.",
+    "Watch the entire 20-module Senior Transition Blueprint explained, module by module, free. Video lessons, plain-English summaries, and starter tools.",
   alternates: { canonical: "/blueprint-preview" },
   // Sales/ad landing page. Kept out of search so it does not compete with the
   // main Blueprint pages; it is reached from ads and direct links.
@@ -98,7 +98,7 @@ export default async function BlueprintMapSalesPage({
           <MapCheckoutButton />
         </div>
         <p className="mt-3 text-sm text-[#1C3A52]/60">
-          One-time $9.99. Instant access by email. No subscription.
+          Free. Sign up with your email, no payment, no card.
         </p>
       </section>
 
@@ -176,7 +176,7 @@ export default async function BlueprintMapSalesPage({
             className="m-0 text-2xl font-bold"
             style={{ fontFamily: "var(--font-lora), Georgia, serif", color: CREAM }}
           >
-            $9.99 to see the whole thing. $0 to keep guessing.
+            The whole thing is free. The only cost is guessing.
           </h2>
           <p className="mx-auto mt-4 max-w-md text-[#FAF8F3]/85">
             Watch the videos, read the summaries, and decide what your family
@@ -186,7 +186,7 @@ export default async function BlueprintMapSalesPage({
             <MapCheckoutButton />
           </div>
           <p className="mt-4 text-sm text-[#FAF8F3]/60">
-            Want the done-for-you toolkit too? It is one click away inside.
+            The done-for-you toolkit comes with it. All 70-plus tools, free.
           </p>
         </div>
         <p className="mt-8 text-xs text-[#1C3A52]/55">

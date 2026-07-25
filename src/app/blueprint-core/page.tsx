@@ -25,43 +25,43 @@ const CORE_CHECKOUT = paymentLinks.blueprintCore;
 const SUPPORT_EMAIL = "ryan@rigginsstrategicsolutions.com";
 
 export const metadata: Metadata = {
-  title: "Blueprint Core | The Self-Serve Senior Transition System, $47",
+  title: "The Senior Transition Blueprint | The Complete System, Free",
   description:
-    "Blueprint Core is the complete senior transition system you run yourself: the whole roadmap, 20 modules, and 70-plus tools, at your own pace. $47, one-time, lifetime access.",
+    "The Senior Transition Blueprint is the complete senior transition system you run yourself: the whole roadmap, 20 modules, and 70-plus tools, at your own pace. Free with a free account, lifetime access.",
   alternates: { canonical: "/blueprint-core" },
   openGraph: {
     type: "website",
     url: "https://rigginsstrategicsolutions.com/blueprint-core",
     siteName: "Riggins Strategic Solutions",
-    title: "Blueprint Core | The Self-Serve Senior Transition System",
+    title: "The Senior Transition Blueprint | The Complete System, Free",
     description:
-      "The whole path of a senior transition, in your hands. 20 modules, 70-plus tools, 5 exit strategies. Walk it at your own pace. $47, one-time.",
+      "The whole path of a senior transition, in your hands. 20 modules, 70-plus tools, 5 exit strategies. Walk it at your own pace. Free, with lifetime access.",
     // OG image is generated per-route by ./opengraph-image.tsx, so no static image here.
   },
   twitter: {
     card: "summary_large_image",
-    title: "Blueprint Core | The Self-Serve Senior Transition System",
+    title: "The Senior Transition Blueprint | The Complete System, Free",
     description:
-      "The whole transition mapped, 20 modules, 70-plus tools. Walk it yourself at your own pace. $47, one-time.",
+      "The whole transition mapped, 20 modules, 70-plus tools. Walk it yourself at your own pace. Free, with lifetime access.",
   },
 };
 
 const FAQS: { q: string; a: string }[] = [
   {
-    q: "How is Blueprint Core different from the Senior Transition Roadmap?",
-    a: "Core is the full self-serve system. You work through all 20 modules and 70-plus tools on your own time, at your own pace. The Senior Transition Roadmap is everything in Core plus a personalized written plan, a 60-minute call with Ryan, and 90 days of email support. If you want the system to run yourself, Core is it. If you want someone in your corner while you run the play, step up to the Roadmap.",
+    q: "How is the Blueprint different from the Senior Transition Roadmap?",
+    a: "The Blueprint is the full self-serve system. You work through all 20 modules and 70-plus tools on your own time, at your own pace. The Senior Transition Roadmap is the guided version: a detailed intake form, an intake call with Ryan, a written plan the two of you build together, and a follow-up call on how to move forward. If you want the system to run yourself, the Blueprint is it. If you want someone in your corner while you run the play, apply for the Roadmap.",
   },
   {
-    q: "Do I get lifetime access?",
-    a: "Yes. Blueprint Core is a one-time $47 purchase with lifetime access. Every module, every tool, and every update, yours to keep. Work through it on whatever timeline your family's situation calls for.",
+    q: "Is the Blueprint really free?",
+    a: "Yes. The Blueprint is free. All of it. Every module, every tool, every update, with lifetime access. You sign up with your email, no payment and no card. Ryan makes his living on real estate referrals, paid to him by the agent, never by the family, so the education costs you nothing.",
   },
   {
-    q: "Can I upgrade to the Roadmap later?",
-    a: "Yes. When you buy Blueprint Core at $47, you get an email within minutes with a discount code that credits the full $47 toward the Senior Transition Roadmap whenever you decide you want Ryan in the room. No double-paying.",
+    q: "Can I move to the Roadmap later?",
+    a: "Yes. The Roadmap is free too, and it starts with an application. Whenever you decide you want Ryan in the room, fill out the intake and book the call. The plan is built together on that call, not downloaded.",
   },
   {
-    q: "Is there a money-back guarantee?",
-    a: "Yes. Blueprint Core comes with a 14-day money-back guarantee. If it is not what you need, email us within 14 days for a full refund.",
+    q: "What's the catch?",
+    a: "There isn't one. The honest version: families who understand the whole transition make better decisions, and when it is time to deal with the house, we want you to talk to Ryan first. That referral, paid by the agent and never by you, is how this stays free.",
   },
 ];
 
@@ -194,7 +194,7 @@ export default function BlueprintCorePage() {
   const breadcrumbs = breadcrumbListSchema([
     { name: "Home", path: "/" },
     { name: "The Blueprint", path: "/the-blueprint" },
-    { name: "Blueprint Core", path: "/blueprint-core" },
+    { name: "Senior Transition Blueprint", path: "/blueprint-core" },
   ]);
 
   return (
@@ -209,7 +209,7 @@ export default function BlueprintCorePage() {
         <div className="mx-auto max-w-5xl px-6 py-16 lg:py-24">
           <div className="flex flex-wrap items-center gap-3">
             <span className="rounded-full bg-burgundy/10 px-3 py-1 text-xs font-semibold uppercase tracking-[0.14em] text-burgundy">
-              Blueprint Core &middot; $47
+              The Senior Transition Blueprint &middot; Free
             </span>
             <span className="text-xs font-semibold uppercase tracking-[0.16em] text-navy/60">
               The complete system, in your hands
@@ -223,8 +223,9 @@ export default function BlueprintCorePage() {
           <p className="mt-6 max-w-2xl text-lg leading-relaxed text-ink/80">
             When a parent needs to move, it hits all at once. The house, the money, the paperwork, the
             care, the family, and a hundred decisions you have never had to make before, usually in the
-            middle of a hard week. Blueprint Core lays the whole transition out in front of you, in order,
-            so you can walk it at your own pace and see every step before you decide anything.
+            middle of a hard week. The Senior Transition Blueprint lays the whole transition out in front of
+            you, in order, so you can walk it at your own pace and see every step before you decide anything.
+            And it is free. All of it.
           </p>
           <div className="mt-10 grid gap-4 sm:grid-cols-3">
             {[
@@ -246,9 +247,9 @@ export default function BlueprintCorePage() {
 
           <QuickAnswer
             className="mt-8 max-w-2xl"
-            topic="Blueprint Core tier"
-            question="What is Blueprint Core?"
-            answer="Blueprint Core is the complete Senior Transition Blueprint system you run yourself: all 20 modules and 70 plus tools that map the whole transition, from getting your bearings to crossing the finish line. Self-paced, with lifetime access. Forty seven dollars, one time. It is the same playbook Ryan uses with paying clients, without the one on one call."
+            topic="The Senior Transition Blueprint"
+            question="What is the Senior Transition Blueprint?"
+            answer="The Senior Transition Blueprint is the complete senior transition system you run yourself: all 20 modules and 70 plus tools that map the whole transition, from getting your bearings to crossing the finish line. Self-paced, with lifetime access. Free with a free account, no payment and no card. It is the same playbook Ryan uses with client families, without the one on one calls."
           />
 
           <div className="mt-8 flex flex-wrap items-center gap-x-5 gap-y-3">
@@ -258,7 +259,7 @@ export default function BlueprintCorePage() {
               rel="noopener noreferrer"
               className="rounded-md bg-navy px-7 py-3.5 font-semibold text-cream transition hover:bg-navy-800"
             >
-              Get Blueprint Core, $47
+              Create your free account
             </a>
             <a href="#phases" className="text-sm font-semibold text-burgundy underline underline-offset-4">
               See the five phases first
@@ -388,14 +389,14 @@ export default function BlueprintCorePage() {
         <div className="mx-auto max-w-5xl px-6 py-16 lg:py-20">
           <h2 className={`${display} text-3xl sm:text-4xl`}>The whole system, in your hands</h2>
           <p className="mt-4 max-w-3xl text-lg leading-relaxed text-cream/85">
-            Blueprint Core is the complete Senior Transition Blueprint, yours to run at your own pace. The full
+            The Senior Transition Blueprint is the complete system, yours to run at your own pace. The full
             five-phase map, all 20 modules, and every one of the 70-plus tools, scripts, and calculators. The
-            same playbook Ryan uses with paying clients, so you can make the big calls with confidence instead
-            of guessing under pressure.
+            same playbook Ryan uses with client families, so you can make the big calls with confidence instead
+            of guessing under pressure. Free, with a free account.
           </p>
 
           <div className="mt-10">
-            <p className="text-xs font-semibold uppercase tracking-[0.14em] text-gold">Everything in Blueprint Core</p>
+            <p className="text-xs font-semibold uppercase tracking-[0.14em] text-gold">Everything in the Blueprint</p>
             <div className="mt-4 grid gap-3 sm:grid-cols-2">
               {[
                 "All 20 modules, the full five-phase transition mapped end to end.",
@@ -403,7 +404,7 @@ export default function BlueprintCorePage() {
                 "The 5 exit strategies for the home, not just a traditional listing.",
                 "Scripts for the hard family conversations most people avoid.",
                 "Self-paced with lifetime access. No deadlines, yours to keep.",
-                "A 14-day money-back guarantee, no questions asked.",
+                "Free with your account. No payment, no card, no trial clock.",
               ].map((item) => (
                 <div key={item} className="flex gap-3 rounded-lg border border-cream/15 bg-white/[0.04] px-4 py-3">
                   <span className="mt-0.5 text-gold">&#10003;</span>
@@ -418,9 +419,9 @@ export default function BlueprintCorePage() {
             <p className="mt-3 text-cream/85">
               Some situations are too high-stakes for self-serve: too much equity on the line, the siblings not
               aligned, the clock ticking. The{" "}
-              <strong className="font-semibold text-cream">Senior Transition Roadmap</strong> is everything in Core
-              plus a personalized written plan, a 60-minute call with Ryan, and 90 days of support. And your $47
-              credits toward it if you upgrade.
+              <strong className="font-semibold text-cream">Senior Transition Roadmap</strong> is the guided
+              version: a detailed intake, calls with Ryan, and a written plan you build together. It is free
+              too, and it starts with an application.
             </p>
             <Link
               href="/blueprint-premium"
@@ -438,7 +439,7 @@ export default function BlueprintCorePage() {
               rel="noopener noreferrer"
               className="rounded-md bg-gold px-7 py-3.5 font-semibold text-navy transition hover:bg-gold-700 hover:text-cream"
             >
-              Get Blueprint Core, $47
+              Create your free account
             </a>
             <Link href="/the-blueprint" className="text-sm text-cream/80 underline underline-offset-4 hover:text-gold">
               Compare every way to work with Ryan
@@ -447,13 +448,14 @@ export default function BlueprintCorePage() {
               href="https://blueprint.rigginsstrategicsolutions.com/login"
               className="text-sm text-cream/55 underline underline-offset-4 hover:text-gold"
             >
-              Already purchased? Log in
+              Already have an account? Log in
             </a>
           </div>
 
           <p className="mt-6 max-w-2xl text-sm leading-relaxed text-cream/70">
-            <span className="font-semibold text-gold">14-day money-back guarantee.</span> If Blueprint Core is
-            not what your family needs, email us within 14 days and we refund every dollar.
+            <span className="font-semibold text-gold">Why free?</span> Ryan makes his living on real estate
+            referrals, paid by the agent, never by the family. The education costs you nothing. When it is
+            time to deal with the house, talk to Ryan first.
           </p>
         </div>
       </section>
