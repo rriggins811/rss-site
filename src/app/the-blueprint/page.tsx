@@ -76,7 +76,7 @@ const tiers: Tier[] = [
       "Scripts for the hard family conversations",
       "Lifetime access. Sign up with your email, no payment",
     ],
-    cta: { href: paymentLinks.blueprintCore, label: "Create your free account", external: true },
+    cta: { href: paymentLinks.blueprintCore, label: "Give me the Blueprint", external: true },
     learnMore: { href: "/blueprint-core", label: "See what's inside the Blueprint" },
     image: "/photos/blueprint_core_materials_47.jpg",
     alt: "Senior Transition Blueprint planning materials and checklists",
