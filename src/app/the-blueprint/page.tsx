@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "The Blueprint | Senior Transition Tiers",
     description:
-      "Five ways to work with Ryan Riggins on a senior housing transition. Free guide, free course, a free guided Roadmap by application, the SeniorSafe app, and a vetted agent referral at no added cost.",
+      "Five ways to work with Ryan Riggins on a senior housing transition. The Senior Transition Blueprint at no cost, a free guided Roadmap by application, the SeniorSafe app, and a vetted agent referral at no added cost.",
     images: ["https://rigginsstrategicsolutions.com/og/the-blueprint.png"],
   },
 };

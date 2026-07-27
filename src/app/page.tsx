@@ -207,7 +207,7 @@ export default function HomePage() {
               className="mt-6 max-w-prose"
               topic="About RSS"
               question="What is Riggins Strategic Solutions?"
-              answer="Riggins Strategic Solutions helps families get through senior transitions without getting taken advantage of. We are a media and education company built by a former house flipper turned consumer protection advisor. Free guides, an online course, a family coordination app, and direct access to Ryan when families want a real conversation."
+              answer="Riggins Strategic Solutions helps families get through senior transitions without getting taken advantage of. Ryan Riggins is a licensed NC broker and former house flipper who now works for the family instead of the transaction, and who never takes the listing. The Senior Transition Blueprint at no cost, a guided Roadmap by application, a family coordination app, and direct access to Ryan when families want a real conversation."
             />
             <p className="mt-6 max-w-prose text-lg text-ink/80">
               Plain-English guidance from a Senior Transition Advisor who spent 8
