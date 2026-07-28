@@ -433,6 +433,20 @@ export default function BlueprintPremiumPage() {
           </div>
         </div>
       </section>
+      {/* Quick path to the application, so a convinced reader never has to hunt */}
+      <section className="border-y border-cream-200 bg-white">
+        <div className="mx-auto flex max-w-5xl flex-col items-center gap-4 px-6 py-10 text-center sm:flex-row sm:justify-between sm:text-left">
+          <p className="text-lg text-ink/80">
+            Ready when you are. The application takes about four minutes.
+          </p>
+          <a
+            href={PREMIUM_CHECKOUT}
+            className="inline-flex shrink-0 items-center justify-center rounded-md border-2 border-navy px-6 py-3 text-base font-semibold text-navy transition hover:bg-navy hover:text-cream"
+          >
+            Apply for the Roadmap
+          </a>
+        </div>
+      </section>
 
       {/* TEAM HUB */}
       <section className="bg-white">
@@ -511,6 +525,20 @@ export default function BlueprintPremiumPage() {
               </article>
             ))}
           </div>
+        </div>
+      </section>
+      {/* Quick path to the application, so a convinced reader never has to hunt */}
+      <section className="border-y border-cream-200 bg-white">
+        <div className="mx-auto flex max-w-5xl flex-col items-center gap-4 px-6 py-10 text-center sm:flex-row sm:justify-between sm:text-left">
+          <p className="text-lg text-ink/80">
+            Ready when you are. The application takes about four minutes.
+          </p>
+          <a
+            href={PREMIUM_CHECKOUT}
+            className="inline-flex shrink-0 items-center justify-center rounded-md border-2 border-navy px-6 py-3 text-base font-semibold text-navy transition hover:bg-navy hover:text-cream"
+          >
+            Apply for the Roadmap
+          </a>
         </div>
       </section>
 

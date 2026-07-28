@@ -6,7 +6,7 @@
 export const paymentLinks = {
   simpleBlueprint: "/freeguide",
   blueprintCore: "https://blueprint.rigginsstrategicsolutions.com/signup",
-  blueprintPremium: "https://blueprint.rigginsstrategicsolutions.com/roadmap",
+  blueprintPremium: "https://blueprint.rigginsstrategicsolutions.com/roadmap/apply",
   blueprintLogin: "https://blueprint.rigginsstrategicsolutions.com/login",
   seniorSafe: "https://app.seniorsafeapp.com",
 } as const;
