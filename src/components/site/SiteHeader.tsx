@@ -36,16 +36,18 @@ type NavItem =
 const navItems: NavItem[] = [
   { type: "link", href: "/about", label: "About" },
   { type: "link", href: "/the-blueprint", label: "Blueprint" },
+  // Becomes a dropdown once /just-need-an-agent ships. Kept as a plain link
+  // until then so the main nav never points at a 404.
   { type: "link", href: "/in-your-corner", label: "In Your Corner" },
   { type: "link", href: "/seniorsafe-app", label: "SeniorSafe" },
   {
     type: "dropdown",
     label: "Free Resources",
-    matchPrefixes: ["/resources", "/tools", "/guides"],
+    matchPrefixes: ["/resources", "/tools", "/guides", "/blog"],
     children: [
       {
         href: "/resources",
-        label: "Articles",
+        label: "Guides",
         description: "Readable pillar guides",
       },
       {
@@ -63,11 +65,13 @@ const navItems: NavItem[] = [
         label: "Downloads",
         description: "Email-gated PDF guides",
       },
+      {
+        href: "/blog",
+        label: "Blog",
+        description: "New posts three times a week",
+      },
     ],
   },
-  { type: "link", href: "/speaking", label: "Speaking" },
-  { type: "link", href: "/media", label: "Media" },
-  { type: "link", href: "/blog", label: "Blog" },
   { type: "link", href: "/contact", label: "Contact" },
 ];
 

@@ -30,6 +30,7 @@ const footerNav: { heading: string; links: { href: string; label: string; extern
       { href: "/blog", label: "Blog" },
       { href: "/resources", label: "Resources" },
       { href: "/media", label: "Media & podcasts" },
+      { href: "/speaking", label: "Speaking" },
     ],
   },
 ];
