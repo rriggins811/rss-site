@@ -83,11 +83,12 @@ const paths: {
     title: "Get Me in Your Corner",
     price: "No added cost",
     blurb:
-      "Selling the house? I find and vet the right agent, then stay on the sale as your advocate. Paid from the commission, not by you.",
+      "No three listing presentations. No comparing prices you cannot check. No telling anyone no. You get one vetted agent with the reason attached, and me on the sale as your advocate. Paid from the commission, not by you.",
     bullets: [
+      "You never sit through the audition",
       "The right local agent, hand picked and vetted",
       "A second eye on every offer, contract, and repair call",
-      "A referral through eXp Realty, not an RSS product",
+      "If the answer is do not sell, you hear that too",
     ],
     cta: { href: "/in-your-corner", label: "See how it works" },
     image: "/photos/property_walkthrough_ryan.jpg",
@@ -223,7 +224,7 @@ export default function HomePage() {
                 <Link href="/work-with-ryan">Book your free 20-minute call</Link>
               </Button>
               <Button asChild size="lg" variant="outline">
-                <Link href="/freeguide">Get the Simple Blueprint — free</Link>
+                <Link href="/freeguide">Get the Simple Blueprint, free</Link>
               </Button>
             </div>
             <p className="mt-4 text-sm text-ink/60">
