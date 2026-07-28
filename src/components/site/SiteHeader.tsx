@@ -36,9 +36,23 @@ type NavItem =
 const navItems: NavItem[] = [
   { type: "link", href: "/about", label: "About" },
   { type: "link", href: "/the-blueprint", label: "Blueprint" },
-  // Becomes a dropdown once /just-need-an-agent ships. Kept as a plain link
-  // until then so the main nav never points at a 404.
-  { type: "link", href: "/in-your-corner", label: "In Your Corner" },
+  {
+    type: "dropdown",
+    label: "In Your Corner",
+    matchPrefixes: ["/in-your-corner", "/need-an-agent"],
+    children: [
+      {
+        href: "/need-an-agent",
+        label: "I just need an agent",
+        description: "Skip the listing presentations",
+      },
+      {
+        href: "/in-your-corner",
+        label: "Get Me in Your Corner",
+        description: "The whole home sale, with me beside you",
+      },
+    ],
+  },
   { type: "link", href: "/seniorsafe-app", label: "SeniorSafe" },
   {
     type: "dropdown",
