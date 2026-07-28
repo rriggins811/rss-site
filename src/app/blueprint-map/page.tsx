@@ -3,6 +3,16 @@ import { Suspense } from "react";
 import { BlueprintMapClient } from "./BlueprintMapClient";
 
 export const metadata: Metadata = {
+  openGraph: {
+    type: "website",
+    url: `https://rigginsstrategicsolutions.com/blueprint-map`,
+    siteName: "Riggins Strategic Solutions",
+    images: ["https://rigginsstrategicsolutions.com/og/blueprint-map.png"],
+  },
+  twitter: {
+    card: "summary_large_image",
+    images: ["https://rigginsstrategicsolutions.com/og/blueprint-map.png"],
+  },
   title: "Blueprint Mind Map",
   description:
     "Interactive mind map of the 20-module Senior Transition Blueprint with embedded lessons and tool downloads.",

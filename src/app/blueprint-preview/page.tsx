@@ -3,6 +3,16 @@ import { MODULES } from "@/lib/blueprint-modules";
 import { MapCheckoutButton } from "@/components/blueprint-map/MapCheckoutButton";
 
 export const metadata: Metadata = {
+  openGraph: {
+    type: "website",
+    url: `https://rigginsstrategicsolutions.com/blueprint-preview`,
+    siteName: "Riggins Strategic Solutions",
+    images: ["https://rigginsstrategicsolutions.com/og/blueprint-preview.png"],
+  },
+  twitter: {
+    card: "summary_large_image",
+    images: ["https://rigginsstrategicsolutions.com/og/blueprint-preview.png"],
+  },
   title: "The Senior Transition Blueprint Map, Free",
   description:
     "Watch the entire 20-module Senior Transition Blueprint explained, module by module, free. Video lessons, plain-English summaries, and starter tools.",

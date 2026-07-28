@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import { getServiceSupabase } from "@/lib/supabase-server";
 import { checkAndRecordRateLimit, getClientIp } from "@/lib/rate-limit";
-import { upsertGhlContactWithTags } from "@/lib/ghl-proxy";
+import { upsertGhlContactWithTags, callGhlProxy } from "@/lib/ghl-proxy";
 
 // "I just need an agent" request, from /need-an-agent.
 //
@@ -100,6 +100,41 @@ export async function POST(req: Request) {
     if (!res.ok) console.error("[agent-request] ghl upsert failed", res.status, res.error);
   } catch (err) {
     console.error("[agent-request] ghl threw", err);
+  }
+
+  // 3. Referral Pipeline card, so this lands on the same board as Roadmap
+  //    applications rather than existing only as a tagged contact.
+  //
+  //    Deliberately the SAME pipeline, not a new one: "Referral Pipeline"
+  //    already tracks families being referred to agents (Conversation -> Ask
+  //    made -> Agent matched -> Referral signed -> Closed, fee paid), which is
+  //    exactly this lifecycle. "Partner Pipeline" is the other direction,
+  //    professionals who send Ryan leads. The card NAME is what distinguishes
+  //    an agent request from a Roadmap application at a glance.
+  const REFERRAL_PIPELINE_ID = "sz73r9OshVDdLxy3bEVc";
+  const STAGE_CONVERSATION_ID = "0675a5ad-cd1b-45cb-b37c-ecaf3858530b";
+  const who = [firstName, lastName].filter(Boolean).join(" ") || email;
+  const cardName = urgent
+    ? `${who} — Agent request (OFFER ON TABLE)`
+    : `${who} — Agent request`;
+
+  try {
+    const opp = await callGhlProxy({
+      action: "post",
+      path: "/opportunities/",
+      body: {
+        pipelineId: REFERRAL_PIPELINE_ID,
+        pipelineStageId: STAGE_CONVERSATION_ID,
+        name: cardName,
+        status: "open",
+        email,
+        phone: phone || undefined,
+        contactId: undefined,
+      },
+    });
+    if (!opp.ok) console.error("[agent-request] opportunity create failed:", opp.error);
+  } catch (err) {
+    console.error("[agent-request] opportunity threw", err);
   }
 
   return NextResponse.json(
