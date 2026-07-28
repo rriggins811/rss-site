@@ -59,6 +59,19 @@ The site offers a tiered approach:
 The business model is education-first and referral-funded. The education is free; Ryan makes his living on real estate referrals, paid to him by the agent, never by the family. No moving services, no senior care placement commissions, no "we buy houses" wholesaling. Ryan is the referring broker, never the listing agent.`,
   },
   {
+    title: "I just need an agent (/need-an-agent)",
+    url: `${SITE_URL}/need-an-agent`,
+    body: `The short entry point for someone who already knows they have a house decision and does not want to read about senior transitions first. Distinct from /in-your-corner, which is for a family already inside a transition.
+
+The core proposition: calling a real estate agent starts a clock. An agent wants the house listed by the weekend, and that is not the agent being pushy, that is the job. Listing houses is what they do. Most families are nowhere near that stage and may be a year or two out, or still deciding whether anyone moves at all. Ryan is the conversation you can have before you are ready, and nothing starts.
+
+What the visitor skips: three listing appointments, cleaning the house three times, three different prices with no way to tell which is real, and having to work up the nerve to tell two people no.
+
+Why the usual meeting cannot help anyway: a listing presentation measures how well somebody sells, not how well they sell houses, and those are different jobs. The number in it is a sales document; quoting high to win a listing and asking for a price reduction later is the oldest move in the business. And no agent's listing presentation has ever ended with "do not sell", which is often the answer a family most needs on the table.
+
+What happens instead: one vetted agent, sometimes two, with the reason attached. Ryan already ran the interviews. He stays on the sale as a second set of eyes on every offer, contract, and repair call. Cost to the family is nothing beyond the commission they would already pay; Ryan is paid a referral fee agent to agent through eXp Realty. He is a licensed NC broker who never takes the listing. If the right answer is do not sell, or not this year, the family hears that instead.`,
+  },
+  {
     title: "About Ryan Riggins",
     url: `${SITE_URL}/about`,
     body: `Ryan Riggins is the founder of Riggins Strategic Solutions and a licensed North Carolina real estate broker. His background combines 8+ years as a construction project manager and 8+ years as a house flipper — the very profession that taught him how investors target grieving families with predatory cash offers immediately after a senior parent's death or move.

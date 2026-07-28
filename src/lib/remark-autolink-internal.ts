@@ -43,6 +43,11 @@ const RAW_RULES: { keywords: string[]; href: string }[] = [
   { keywords: ["Seniors Real Estate Specialist"], href: "/resources/seniors-real-estate-specialist-vs-investor" },
   { keywords: ["Senior Help Directory"], href: "/resources/senior-help-directory" },
   { keywords: ["Senior Transition Roadmap"], href: "/blueprint-premium" },
+  // The clock/relief positioning (Jul 28 2026). These phrases run through the
+  // blog constantly and had no internal route to the two pages that actually
+  // produce revenue.
+  { keywords: ["listing presentation", "listing presentations"], href: "/need-an-agent" },
+  { keywords: ["find and vet", "vetted agent", "the right agent"], href: "/in-your-corner" },
   { keywords: ["quitclaim deed"], href: "/blog/quitclaim-deed-fraud-protect-parents-home" },
   { keywords: ["deed fraud"], href: "/blog/protect-parents-paid-off-home-deed-fraud" },
   { keywords: ["reverse mortgage"], href: "/blog/reverse-mortgage-running-out-of-money-what-to-check" },
