@@ -58,6 +58,30 @@ export const metadata: Metadata = {
 export default function NeedAnAgentPage() {
   return (
     <>
+      <JsonLd
+        data={{
+          "@context": "https://schema.org",
+          "@type": "Service",
+          name: "Senior Home Sale Agent Referral and Advocacy",
+          serviceType: "Real estate agent referral and buyer-side advocacy",
+          url: abs("/need-an-agent"),
+          description:
+            "Ryan Riggins finds and vets the right local real estate agent for a family selling a home, and stays on the sale as a second set of eyes. No listing presentations to sit through. No added cost to the family: the referral fee is paid agent to agent through eXp Realty out of the existing commission. Ryan is a licensed North Carolina broker who never takes the listing.",
+          provider: {
+            "@type": "Person",
+            name: "Ryan Riggins",
+            jobTitle: "Senior Transition Advisor and Advocate",
+            worksFor: { "@type": "Organization", name: "Riggins Strategic Solutions" },
+          },
+          areaServed: { "@type": "Country", name: "United States" },
+          offers: {
+            "@type": "Offer",
+            price: "0",
+            priceCurrency: "USD",
+            description: "No added cost to the family. Paid agent to agent from the existing commission.",
+          },
+        }}
+      />
       <JsonLd data={faqPageSchema(FAQS, abs("/need-an-agent"))} />
       <JsonLd
         data={breadcrumbListSchema([
@@ -72,10 +96,12 @@ export default function NeedAnAgentPage() {
           <p className="text-sm font-semibold uppercase tracking-[0.14em] text-gold">
             No added cost
           </p>
-          <h1 className={`${display} mt-4 text-4xl leading-[1.1] sm:text-5xl`}>
-            I don&apos;t want to deal with agents.
+          <h1 className={`${display} mt-4 text-4xl leading-[1.1] text-cream sm:text-5xl`}>
+            I just need an agent.
             <br />
-            <span className="italic text-gold">And this cash offer isn&apos;t fair either.</span>
+            <span className="italic text-gold">
+              Not a sales pitch, and not this cash offer either.
+            </span>
           </h1>
           <p className="mt-7 text-lg leading-relaxed text-cream/85">
             If that is roughly where you are, you are in the right place, and you can stop reading
