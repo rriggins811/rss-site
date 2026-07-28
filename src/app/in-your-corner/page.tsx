@@ -72,6 +72,10 @@ const CORNER_WORK: string[] = [
 
 const FAQS: { q: string; a: string }[] = [
   {
+    q: "Do I have to interview agents?",
+    a: "No. That is most of the point. The usual path is three appointments, cleaning the house three times, three different prices with no way to tell which one is real, and then working up the nerve to tell two people who sat in your mother's living room that the answer is no. You skip all of it. You get one name, sometimes two, with the reason attached, and the interviews already happened because I ran them. The questions I use are in Module 09 of the Blueprint, free, so you can check my work on whoever I send you.",
+  },
+  {
     q: "What does this cost me?",
     a: "Nothing beyond the commission you would already pay on the sale. I am compensated by a referral fee that is paid agent to agent through eXp Realty, out of that existing commission. There is no separate invoice from me and no added cost to your family.",
   },
@@ -152,6 +156,10 @@ export default function InYourCornerPage() {
             trust on your own. I find and vet the right agent for your exact situation, wherever you are,
             and stay in it with you the whole way.
           </p>
+          <p className="mt-5 max-w-2xl text-lg leading-relaxed text-ink/80">
+            And you never sit through the audition. No three appointments, no comparing three prices you
+            have no way to check, and nobody you have to work up the nerve to tell no.
+          </p>
           <p className="mt-5 inline-flex items-center rounded-full border border-gold bg-gold/10 px-4 py-1.5 text-sm font-semibold text-navy">
             Paid from the commission you would pay anyway. Nothing extra from you.
           </p>
@@ -222,6 +230,65 @@ export default function InYourCornerPage() {
               corner making sure it is done right.
             </p>
           </div>
+        </div>
+      </section>
+
+      {/* THE DREAD NOBODY NAMES */}
+      <section className="bg-cream">
+        <div className="mx-auto max-w-5xl px-6 py-16">
+          <h2 className={`${display} text-3xl text-navy sm:text-4xl`}>
+            And then there is the part nobody warns you about
+          </h2>
+          <p className="mt-4 max-w-3xl text-lg leading-relaxed text-ink/80">
+            Everything above is someone behaving badly. This next part happens even when everyone behaves
+            perfectly, and it is the reason most families put off the phone call far longer than they should.
+          </p>
+          <p className="mt-5 max-w-3xl text-lg leading-relaxed text-ink/80">
+            Call an agent today and they want the house listed by the weekend. That is not them being pushy.
+            That is the job. Listing houses is what they do, and the clock starts the moment you pick up the
+            phone. Most families are nowhere near that stage. You might be two years out. You might still be
+            deciding whether she moves at all.
+          </p>
+
+          <div className="mt-10 grid gap-6 lg:grid-cols-2">
+            <div className="rounded-lg border border-cream-200 bg-white p-6">
+              <p className="font-semibold text-navy">What the usual path costs you</p>
+              <ul className="mt-3 space-y-2 text-ink/75">
+                <li>Three appointments, and cleaning the house three times.</li>
+                <li>Sitting at your own kitchen table while a stranger compliments the crown molding.</li>
+                <li>Three different prices, with no way to tell which one is real.</li>
+                <li>Working up the nerve to tell two people who were kind to your mother that the answer is no.</li>
+              </ul>
+            </div>
+            <div className="rounded-lg border border-cream-200 bg-white p-6">
+              <p className="font-semibold text-navy">Why the meeting cannot help you anyway</p>
+              <p className="mt-3 leading-relaxed text-ink/75">
+                A listing presentation tells you how well somebody sells. It tells you nothing about how well
+                they sell houses, and those are different jobs. The number in it is a sales document too. The
+                oldest move in this business is quoting high to win the listing, then asking for a price
+                reduction in week five.
+              </p>
+            </div>
+          </div>
+
+          <div className="mt-8 rounded-lg border-l-4 border-burgundy bg-burgundy/5 px-6 py-5">
+            <p className="text-lg leading-relaxed text-ink/90">
+              And there is one answer that meeting can never produce. Nobody sets up a laptop at your kitchen
+              table and concludes that the right move is to stay another two years, or sell as is, or wait
+              until the look back clears.{" "}
+              <strong className="text-navy">
+                No agent&apos;s listing presentation has ever ended with &ldquo;do not sell.&rdquo;
+              </strong>{" "}
+              That is often the answer a family most needs on the table.
+            </p>
+          </div>
+
+          <p className="mt-8 max-w-3xl text-lg leading-relaxed text-ink/80">
+            So talk to me before you are ready, and nothing starts. Nobody interviews the plumber, the
+            electrician, and the roofer. You hire one person who already knows which ones show up. When it
+            actually is time, you get one name with the reason attached. And if the right answer turns out to
+            be that your family should not sell at all, or not this year, you will hear that from me instead.
+          </p>
         </div>
       </section>
 
