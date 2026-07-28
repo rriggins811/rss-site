@@ -52,6 +52,14 @@ export const metadata: Metadata = {
     title: "I need an agent, not a sales pitch",
     description:
       "One vetted agent with the reason attached. No auditions, no three prices you cannot check, nobody you have to tell no.",
+    images: [abs("/og/need-an-agent.png")],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "I need an agent, not a sales pitch",
+    description:
+      "One vetted agent with the reason attached. No auditions, no three prices you cannot check, nobody you have to tell no.",
+    images: [abs("/og/need-an-agent.png")],
   },
 };
 
