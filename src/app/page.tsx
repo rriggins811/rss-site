@@ -266,7 +266,7 @@ export default function HomePage() {
         <div className="mx-auto max-w-6xl px-6 py-20">
           <div className="max-w-2xl">
             <GoldRule />
-            <h2 className="mt-3">Four ways to work with Ryan.</h2>
+            <h2 className="mt-3">Ways to work with Ryan.</h2>
             <p className="mt-4 text-lg text-ink/80">
               Self-serve, guided, an advocate on the home sale, or the daily-care
               app. Pick the one that matches where your family is right now.

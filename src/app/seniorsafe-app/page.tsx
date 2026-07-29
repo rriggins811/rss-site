@@ -373,13 +373,13 @@ export default function SeniorSafePage() {
             </p>
             <p>
               Plenty of families use one without the other. Some use both. The
-              Blueprint page lays out all five tiers side by side so you can
+              Blueprint page lays out every way to work together side by side so you can
               pick what fits.
             </p>
           </div>
           <div className="mt-8 flex flex-wrap gap-3">
             <Button asChild>
-              <a href="/the-blueprint">See all five tiers</a>
+              <a href="/the-blueprint">See all the ways to work together</a>
             </Button>
             <Button asChild variant="outline">
               <Link href="/work-with-ryan">Book a free call to talk it through</Link>

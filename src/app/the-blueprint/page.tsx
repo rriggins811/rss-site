@@ -20,7 +20,7 @@ import { abs } from "@/lib/site";
 export const metadata: Metadata = {
   title: "The Blueprint | Senior Transition Tiers",
   description:
-    "Five ways to work with Ryan Riggins on a senior housing transition. The free Simple Blueprint, the free Senior Transition Blueprint course, the Senior Transition Roadmap (free, by application), the SeniorSafe app from $14.99/mo, and Get Me in Your Corner, a vetted real estate agent referral at no added cost.",
+    "Every way to work with Ryan Riggins on a senior housing transition. The free Senior Transition Blueprint course, the Senior Transition Roadmap (free, by application), Get Me in Your Corner (a vetted real estate agent referral at no added cost), and the SeniorSafe app from $14.99/mo.",
   alternates: { canonical: "/the-blueprint" },
   openGraph: {
     type: "website",
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     siteName: "Riggins Strategic Solutions",
     title: "The Blueprint | Senior Transition Tiers",
     description:
-      "Five ways to work with Ryan Riggins on a senior housing transition. The free Simple Blueprint, the free Senior Transition Blueprint course, the Senior Transition Roadmap (free, by application), the SeniorSafe app, and Get Me in Your Corner, a vetted agent referral at no added cost.",
+      "Every way to work with Ryan Riggins on a senior housing transition. The free Senior Transition Blueprint course, the Senior Transition Roadmap (free, by application), Get Me in Your Corner (a vetted agent referral at no added cost), and the SeniorSafe app.",
     images: [
       {
         url: "https://rigginsstrategicsolutions.com/og/the-blueprint.png",
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "The Blueprint | Senior Transition Tiers",
     description:
-      "Five ways to work with Ryan Riggins on a senior housing transition. The Senior Transition Blueprint at no cost, a free guided Roadmap by application, the SeniorSafe app, and a vetted agent referral at no added cost.",
+      "Every way to work with Ryan Riggins on a senior housing transition. The Senior Transition Blueprint at no cost, a free guided Roadmap by application, a vetted agent referral at no added cost, and the SeniorSafe app for the daily part.",
     images: ["https://rigginsstrategicsolutions.com/og/the-blueprint.png"],
   },
 };
@@ -217,7 +217,7 @@ export default function BlueprintPage() {
               The Blueprint
             </Badge>
             <h1 className="mt-6 leading-[1.05]">
-              The Senior Transition Blueprint: five tiers, one goal. Protect your
+              The Senior Transition Blueprint: start anywhere, one goal. Protect your
               family&rsquo;s equity, dignity, and sanity.
             </h1>
             <QuickAnswer
