@@ -509,6 +509,15 @@ export const DIRECTORY_COUNTIES: DirectoryCounty[] = [
     blurb:
       "Tampa, FL programs for seniors and families: which cities adopted the senior homestead exemptions and how to apply through the Property Appraiser, county meals and Meals On Wheels of Tampa, LIHEAP and EHEAP, SHINE Medicare counseling, home repair, Sunshine Line and HARTPlus rides, legal help, caregiver support, and the county's two PACE programs.",
   },
+  {
+    slug: "pinellas-county-fl-senior-help-directory",
+    county: "Pinellas County",
+    state: "FL",
+    metro: "St. Petersburg & Clearwater",
+    region: "Tampa Bay",
+    blurb:
+      "St. Petersburg and Clearwater, FL programs for seniors and families: the senior homestead exemption that 23 of 24 cities adopted and what each is worth, Neighborly Meals on Wheels, LIHEAP and Duke Energy help, SHINE Medicare counseling, city-by-city home repair, PSTA Access and the TD bus pass, legal help, caregiver support, and the county's one operating PACE program.",
+  },
 ];
 
 export type DirectoryState = {
