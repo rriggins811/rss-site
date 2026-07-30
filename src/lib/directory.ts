@@ -500,6 +500,15 @@ export const DIRECTORY_COUNTIES: DirectoryCounty[] = [
     blurb:
       "Fort Lauderdale, FL programs for seniors and families: the senior homestead exemptions through the Property Appraiser, Meals on Wheels, light bill help, SHINE Medicare counseling, home repair, TOPS! paratransit, legal help, caregiver support, and Broward's two PACE programs.",
   },
+  {
+    slug: "hillsborough-county-fl-senior-help-directory",
+    county: "Hillsborough County",
+    state: "FL",
+    metro: "Tampa",
+    region: "Tampa Bay",
+    blurb:
+      "Tampa, FL programs for seniors and families: which cities adopted the senior homestead exemptions and how to apply through the Property Appraiser, county meals and Meals On Wheels of Tampa, LIHEAP and EHEAP, SHINE Medicare counseling, home repair, Sunshine Line and HARTPlus rides, legal help, caregiver support, and the county's two PACE programs.",
+  },
 ];
 
 export type DirectoryState = {
