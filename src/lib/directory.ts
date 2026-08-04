@@ -518,6 +518,15 @@ export const DIRECTORY_COUNTIES: DirectoryCounty[] = [
     blurb:
       "St. Petersburg and Clearwater, FL programs for seniors and families: the senior homestead exemption that 23 of 24 cities adopted and what each is worth, Neighborly Meals on Wheels, LIHEAP and Duke Energy help, SHINE Medicare counseling, city-by-city home repair, PSTA Access and the TD bus pass, legal help, caregiver support, and the county's one operating PACE program.",
   },
+  {
+    slug: "orange-county-fl-senior-help-directory",
+    county: "Orange County",
+    state: "FL",
+    metro: "Orlando",
+    region: "Central Florida",
+    blurb:
+      "Orlando, FL programs for seniors and families: the senior homestead exemption ten local governments adopted and the one city that did not, the 25-year Senior Plus exemption, free Seniors First Meals on Wheels, the county's Senior Climate Efficiency air conditioning program, LIHEAP and EHEAP, SHINE Medicare counseling, city and county home repair, ACCESS LYNX and the AdvantAge fare, legal help, caregiver support, and the county's one operating PACE program.",
+  },
 ];
 
 export type DirectoryState = {
