@@ -11,6 +11,12 @@
  *      array of objects that each do)
  *   3. Specific @type values that we ship include their required fields
  *      (e.g. Review.itemReviewed, HowTo.step, Product.offers, etc.)
+ *   4. Every blog post that renders a visible FAQ section also emits a
+ *      FAQPage block. That coupling used to depend on the author hand-
+ *      copying the Q&A into frontmatter, which nobody did, so 14 posts
+ *      shipped the section with no schema. FAQPage is now derived from the
+ *      rendered section (lib/blog-faq.ts) and this check fails the build if
+ *      that ever comes uncoupled again.
  *
  * Runs as `postbuild` so any regression in schema shape fails CI before
  * a bad build ships. Console-friendly diagnostics name the offending
@@ -102,6 +108,21 @@ function checkSchemaObject(file, obj, indexLabel) {
   }
 }
 
+const BLOG_DIR = path.join(NEXT_OUT, "blog");
+/** `<h2 ...>Frequently Asked Questions</h2>` as rendered from the MDX body. */
+const VISIBLE_FAQ_HEADING =
+  /<h2[^>]*>\s*(?:frequently asked questions|faqs?)\s*:?\s*<\/h2>/i;
+
+function checkBlogFaqCoupling(file, html, types) {
+  if (!file.startsWith(BLOG_DIR + path.sep)) return;
+  if (!VISIBLE_FAQ_HEADING.test(html)) return;
+  if (types.includes("FAQPage")) return;
+  addError(
+    file,
+    "renders a visible FAQ section but emits no FAQPage schema — check that the Q&A parses (lib/blog-faq.ts): each question a `### ` heading, answer directly under it, section above the `---` CTA rule"
+  );
+}
+
 function validateFile(file) {
   const html = fs.readFileSync(file, "utf8");
   // Extract every JSON-LD script tag. Regex is intentionally
@@ -113,6 +134,7 @@ function validateFile(file) {
     ),
   ];
 
+  const types = [];
   matches.forEach((m, i) => {
     totalSchemas++;
     const raw = m[1].trim();
@@ -127,13 +149,17 @@ function validateFile(file) {
       return;
     }
     if (Array.isArray(parsed)) {
-      parsed.forEach((obj, j) =>
-        checkSchemaObject(file, obj, `schema #${i + 1}[${j}]`)
-      );
+      parsed.forEach((obj, j) => {
+        if (obj && obj["@type"]) types.push(obj["@type"]);
+        checkSchemaObject(file, obj, `schema #${i + 1}[${j}]`);
+      });
     } else {
+      if (parsed && parsed["@type"]) types.push(parsed["@type"]);
       checkSchemaObject(file, parsed, `schema #${i + 1}`);
     }
   });
+
+  checkBlogFaqCoupling(file, html, types);
 }
 
 function walk(dir) {

@@ -2,6 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { execFileSync } from "node:child_process";
 import matter from "gray-matter";
+import { extractFaqsFromBody, type BlogFaq } from "./blog-faq";
 
 const BLOG_DIR = path.join(process.cwd(), "content", "blog");
 
@@ -82,14 +83,15 @@ export type BlogFrontmatter = {
   /** Optional total time for HowTo, ISO-8601 duration (e.g. "PT72H"). */
   totalTime?: string;
   /**
-   * Optional FAQ array. When present + non-empty, blog/[slug] emits a
-   * FAQPage JSON-LD alongside the primary Article/HowTo schema. Question
-   * + answer text MUST match the visible Q&A rendered in the post body
-   * verbatim (Google's "schema must match visible content" rule). For new
-   * posts authoring fresh FAQs, mirror them in the markdown body so
-   * visitors see the same Q&A the schema declares.
+   * Legacy/override FAQ array. New posts do NOT need this: the visible
+   * "## Frequently Asked Questions" section in the body is parsed at build
+   * time and drives FAQPage schema on its own (see lib/blog-faq.ts). Kept
+   * as a fallback for a post that wants FAQPage without a visible section —
+   * which Google's "schema must match visible content" rule disallows, so
+   * in practice it should stay unused. Read via `post.faqs`, which prefers
+   * the body-derived pairs.
    */
-  faqs?: { question: string; answer: string }[];
+  faqs?: BlogFaq[];
 };
 
 export type BlogPost = {
@@ -101,6 +103,13 @@ export type BlogPost = {
   datePublished: string;
   /** Resolved modified date (dateModified ?? datePublished ?? date). */
   dateModified: string;
+  /**
+   * Resolved FAQ pairs for FAQPage schema. Parsed from the visible FAQ
+   * section of the body so the JSON-LD always matches what renders; falls
+   * back to frontmatter `faqs` only when the body has no FAQ section.
+   * Empty when the post has neither.
+   */
+  faqs: BlogFaq[];
 };
 
 export function getAllPostSlugs(): string[] {
@@ -132,6 +141,9 @@ export function getPostBySlug(slug: string): BlogPost | null {
       ? gitModified
       : datePublished);
 
+  const bodyFaqs = extractFaqsFromBody(content);
+  const faqs = bodyFaqs.length > 0 ? bodyFaqs : (fm.faqs ?? []);
+
   return {
     frontmatter: fm,
     content,
@@ -139,6 +151,7 @@ export function getPostBySlug(slug: string): BlogPost | null {
     wordCount,
     datePublished,
     dateModified,
+    faqs,
   };
 }
 
