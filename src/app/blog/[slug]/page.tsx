@@ -108,20 +108,19 @@ export default async function BlogPostPage({
       )
     : articleSchemaFromPost(post);
 
-  // Optional secondary FAQPage schema. Emitted only when frontmatter
-  // declares `faqs` and the body actually renders matching Q&A markdown
-  // (Google's schema-must-match-visible rule). Faqs[] in frontmatter is
-  // the source of truth; renderers can mirror them visibly via markdown
-  // (current pattern for migrated posts) or a future <FAQSection> mount.
-  const hasFaqs =
-    Array.isArray(post.frontmatter.faqs) &&
-    post.frontmatter.faqs.length > 0;
-  const faqSchema = hasFaqs
-    ? faqPageSchema(
-        post.frontmatter.faqs!.map((f) => ({ q: f.question, a: f.answer })),
-        abs(`/blog/${slug}`)
-      )
-    : null;
+  // Secondary FAQPage schema, generated from the Q&A the post actually
+  // renders under "## Frequently Asked Questions" (see lib/blog-faq.ts).
+  // Parsing the visible section rather than a parallel frontmatter array is
+  // what keeps the JSON-LD identical to the on-page text, per Google's
+  // schema-must-match-visible rule — and it means every post with the
+  // required FAQ section gets the schema without the author doing anything.
+  const faqSchema =
+    post.faqs.length > 0
+      ? faqPageSchema(
+          post.faqs.map((f) => ({ q: f.question, a: f.answer })),
+          abs(`/blog/${slug}`)
+        )
+      : null;
 
   return (
     <main>
