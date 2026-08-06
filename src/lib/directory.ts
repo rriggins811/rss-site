@@ -527,6 +527,15 @@ export const DIRECTORY_COUNTIES: DirectoryCounty[] = [
     blurb:
       "Orlando, FL programs for seniors and families: the senior homestead exemption ten local governments adopted and the one city that did not, the 25-year Senior Plus exemption, free Seniors First Meals on Wheels, the county's Senior Climate Efficiency air conditioning program, LIHEAP and EHEAP, SHINE Medicare counseling, city and county home repair, ACCESS LYNX and the AdvantAge fare, legal help, caregiver support, and the county's one operating PACE program.",
   },
+  {
+    slug: "palm-beach-county-fl-senior-help-directory",
+    county: "Palm Beach County",
+    state: "FL",
+    metro: "West Palm Beach",
+    region: "South Florida",
+    blurb:
+      "West Palm Beach, FL programs for seniors and families: the senior homestead exemption that 20 of 39 towns adopted at four different dollar amounts and the big city that adopted none of it, the Super Senior exemption in Boynton Beach and Delray Beach, three Meals on Wheels doors by geography, the county's own EHEAP for people 60 and older, LIHEAP, SHINE Medicare counseling, home repair windows, the paratransit rules that changed in January 2026, the Elder Law Project with no income test, caregiver support, and the county's one operating PACE program.",
+  },
 ];
 
 export type DirectoryState = {
