@@ -2,15 +2,27 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
 import { GoldRule } from "@/components/site/GoldRule";
-import { AppPlatformBadges } from "@/components/site/AppPlatformBadges";
-import { WelcomeVideo } from "@/components/site/WelcomeVideo";
+import { BrandPlaceholder } from "@/components/site/BrandPlaceholder";
 import { FAQSection, type FAQItem } from "@/components/aeo/FAQSection";
-import { QuickAnswer } from "@/components/aeo/QuickAnswer";
 import { JsonLd } from "@/components/site/JsonLd";
 import { professionalServiceSchema } from "@/lib/schema";
+import { RYAN_REVIEWS } from "@/lib/reviews";
+
+/**
+ * Homepage, StoryBrand structure (rebuilt Aug 10 2026).
+ *
+ * The family is the hero, Ryan is the guide. The page runs in grunt-test
+ * order so a stranger knows within five seconds what is offered, how it makes
+ * their life better, and what to do next: header, stakes, guide, plan,
+ * agreement, success, repeat the call to action.
+ *
+ * One primary CTA, /work-with-ryan, repeated twice and nowhere contradicted.
+ * Everything secondary lives in the footer. The three blocks kept below the
+ * plan (directory, testimonials, FAQ) are held back deliberately: they carry
+ * real organic traffic and the FAQ block is the page's FAQPage schema, so
+ * they sit under the story rather than competing with it.
+ */
 
 export const metadata: Metadata = {
   openGraph: {
@@ -19,7 +31,7 @@ export const metadata: Metadata = {
     siteName: "Riggins Strategic Solutions",
     title: "Riggins Strategic Solutions | Senior Transition Advisor",
     description:
-      "Senior Transition Advisor Ryan Riggins helps families avoid the $50K mistakes of a senior housing transition. Not a move manager. Not a listing agent.",
+      "Handle your parent's move without losing their money, their home, or your peace. A free plan and a guide who has been on both sides of the table.",
     images: [
       {
         url: "https://rigginsstrategicsolutions.com/og/homepage.png",
@@ -33,83 +45,34 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Riggins Strategic Solutions | Senior Transition Advisor",
     description:
-      "Senior Transition Advisor Ryan Riggins helps families avoid the $50K mistakes of a senior housing transition.",
+      "Handle your parent's move without losing their money, their home, or your peace.",
     images: ["https://rigginsstrategicsolutions.com/og/homepage.png"],
   },
 };
 
-const paths: {
-  tag: string;
-  title: string;
-  price: string;
-  blurb: string;
-  bullets: string[];
-  cta: { href: string; label: string; external?: boolean };
-  image: string;
-  alt: string;
-  accent?: boolean;
-}[] = [
+const planSteps: { n: string; title: string; body: string }[] = [
   {
-    tag: "DIY",
-    title: "Senior Transition Blueprint",
-    price: "Free",
-    blurb: "The complete self-serve system. Free with a free account.",
-    bullets: [
-      "20 modules, 70+ tools and checklists",
-      "Walk through it at your own pace, lifetime access",
-      "The exact playbook Ryan uses with clients",
-    ],
-    cta: { href: "/blueprint-core", label: "See what's inside" },
-    image: "/photos/blueprint_core_materials_47.jpg",
-    alt: "Senior Transition Blueprint planning materials and checklists",
+    n: "1",
+    title: "Get the free Blueprint",
+    body: "See every option laid out, not just the one someone is trying to sell you.",
   },
   {
-    tag: "Guided",
-    title: "Senior Transition Roadmap",
-    price: "Free, by application",
-    blurb: "For families who want a written plan built with Ryan.",
-    bullets: [
-      "Everything in the Blueprint, plus a written plan you build with Ryan",
-      "An intake call, then a follow-up call on how to move forward",
-      "Starts with an application and a detailed intake form",
-    ],
-    cta: { href: "/blueprint-premium", label: "See what's in the Roadmap" },
-    image: "/photos/blueprint_premium_zoom_call_297.jpg",
-    alt: "Ryan on a Zoom consultation call with a family",
-    accent: true,
+    n: "2",
+    title: "When it is time to deal with the house, talk to Ryan first",
+    body: "One conversation, before you call anybody else. It costs you nothing and it changes what you know.",
   },
   {
-    tag: "Advocacy",
-    title: "Get Me in Your Corner",
-    price: "No added cost",
-    blurb:
-      "No three listing presentations. No comparing prices you cannot check. No telling anyone no. You get one vetted agent with the reason attached, and me on the sale as your advocate. Paid from the commission, not by you.",
-    bullets: [
-      "You never sit through the audition",
-      "The right local agent, hand picked and vetted",
-      "A second eye on every offer, contract, and repair call",
-      "If the answer is do not sell, you hear that too",
-    ],
-    cta: { href: "/in-your-corner", label: "See how it works" },
-    image: "/photos/property_walkthrough_ryan.jpg",
-    alt: "Ryan Riggins walking a property as an advocate on the home sale",
+    n: "3",
+    title: "Ryan puts you with a vetted local agent",
+    body: "Or tells you straight if the right move is to wait, or not to sell at all. You are never alone in that room.",
   },
-  {
-    tag: "App",
-    title: "SeniorSafe App",
-    price: "$14.99 or $39.99 per month",
-    blurb:
-      "The family app for the daily part of senior care. Check-ins, meds, documents, and Maggie, the AI specialist for adult children.",
-    bullets: [
-      "Daily check-ins and medication tracking",
-      "Document vault and private family messaging",
-      "Add Maggie, your AI transition specialist, at $39.99/mo",
-      "14-day free trial on either tier",
-    ],
-    cta: { href: "/seniorsafe-app", label: "Start free trial" },
-    image: "/photos/stock_video_call_setup.jpg",
-    alt: "Video call setup representing family coordination via SeniorSafe",
-  },
+];
+
+const agreement: string[] = [
+  "You never sit through the audition. No three appointments, no comparing three prices you cannot check, nobody you have to tell no.",
+  "You will never be pushed to sell. “Don’t sell yet” always stays on the table.",
+  "No added cost. The referral is paid from the commission you would already pay.",
+  "Ryan stays in your corner, a second set of eyes, start to finish.",
 ];
 
 const homeFaqs: FAQItem[] = [
@@ -146,10 +109,14 @@ const homeFaqs: FAQItem[] = [
       "This is the most common situation. The right approach depends on your parent's personality (we identify five 'parent personas' in the Blueprint). For most families, the answer isn't pushing harder but creating safety: small conversations over months, addressing their specific fears, and bringing in a neutral third party when emotions run high.",
   },
   {
+    // Corrected Aug 10 2026: this previously read "missing the Medicare
+    // lookback window". There is no Medicare look-back. The 60-month
+    // look-back is Medicaid, and it penalizes transfers for less than fair
+    // market value (gifting or deeding the home), not selling at market.
     question:
       "How do I avoid the $50K mistakes most families make in a senior transition?",
     answer:
-      "The five most expensive mistakes: selling to a wholesaler at 30-50% under market, choosing the wrong care level (paying for memory care when assisted living suffices), missing the Medicare lookback window, signing predatory CCRC contracts without legal review, and waiting too long so urgency forces bad decisions. Each one is preventable with the right framework.",
+      "The five most expensive mistakes: selling to a wholesaler at 30-50% under market, choosing the wrong care level (paying for memory care when assisted living suffices), transferring the home to a child in a way that triggers the Medicaid 60-month look-back penalty, signing predatory CCRC contracts without legal review, and waiting too long so urgency forces bad decisions. Each one is preventable with the right framework.",
   },
   {
     question: "Are senior referral services like A Place for Mom really free?",
@@ -169,264 +136,321 @@ const homeFaqs: FAQItem[] = [
   },
 ];
 
-const testimonials: { quote: string; author: string; location: string }[] = [
-  {
-    quote:
-      "Ryan walked us through what the house was actually worth, what to fix, and what to leave alone. We listed without pouring $30,000 into renovations that wouldn't return anything.",
-    author: "Sarah M.",
-    location: "Greensboro, NC",
-  },
-  {
-    quote:
-      "When Mom fell, I had three weeks to figure out housing, finances, and selling the house. Ryan laid it all out in plain English. I stopped guessing.",
-    author: "David R.",
-    location: "Winston-Salem, NC",
-  },
-];
-
 export default function HomePage() {
   return (
     <main>
+      {/* Person schema for the guide is NOT emitted here: layout.tsx already
+          ships personSchema() sitewide under the same @id, so a second block
+          would be redundant rather than a stronger signal. */}
       <JsonLd data={professionalServiceSchema()} />
 
-      {/* HERO — value-prop copy + welcome video (AI avatar of Ryan) */}
+      {/* 1. HEADER (the 5-second test) */}
       <section className="bg-cream">
-        <div className="mx-auto max-w-6xl px-6 py-20 lg:py-28 grid gap-12 lg:grid-cols-2 items-start">
+        <div className="mx-auto max-w-6xl px-6 py-20 lg:py-28 grid gap-12 lg:grid-cols-2 lg:items-center">
           <div>
-            <Badge variant="secondary" className="bg-burgundy-100 text-burgundy-700 border-0">
-              Senior Transition Advisor · Greensboro, NC · Serving families nationwide
-            </Badge>
-            <p className="mt-5 text-xs font-semibold uppercase tracking-[0.16em] text-navy-700/70">
+            <p className="text-xs font-semibold uppercase tracking-[0.16em] text-navy-700/70">
               Ryan Riggins | Senior Transition Advisor and Advocate
             </p>
             <h1 className="mt-4 leading-[1.05]">
-              Your parents&rsquo; home has{" "}
-              <span className="text-burgundy-600">$200K+ in equity.</span> Don&rsquo;t
-              let a bad move cost you $50,000 of it.
+              Handle your parent&rsquo;s move without losing their money, their
+              home, or <span className="text-burgundy-600">your peace.</span>
             </h1>
-            <QuickAnswer
-              className="mt-6 max-w-prose"
-              topic="About RSS"
-              question="What is Riggins Strategic Solutions?"
-              answer="Riggins Strategic Solutions helps families get through senior transitions without getting taken advantage of. Ryan Riggins is a licensed NC broker and former house flipper who now works for the family instead of the transaction, and who never takes the listing. The Senior Transition Blueprint at no cost, a guided Roadmap by application, a family coordination app, and direct access to Ryan when families want a real conversation."
-            />
-            <p className="mt-6 max-w-prose text-lg text-ink/80">
-              Plain-English guidance from a Senior Transition Advisor who spent 8
-              years flipping houses, saw how families got taken advantage of, and
-              switched sides.
+            <p className="mt-6 max-w-prose text-lg leading-relaxed text-ink/80">
+              You did not ask to become an expert in any of this, and you should
+              not have to be one to protect your own parent. Get a free plan and
+              a guide who has been on both sides of the table, and who never
+              takes the listing.
             </p>
-            <p className="mt-3 max-w-prose italic text-ink/70">
-              Not a move manager. Not a listing agent. The advisor who helps
-              families avoid the $50K mistakes.
-            </p>
-            <div className="mt-8 flex flex-wrap gap-3">
+            <div className="mt-8 flex flex-wrap items-center gap-4">
               <Button asChild size="lg">
-                <Link href="/work-with-ryan">Book your free 20-minute call</Link>
+                <Link
+                  href="/work-with-ryan"
+                  data-track="book_call_click"
+                  data-track-params='{"location":"home-hero"}'
+                >
+                  Get Ryan in your corner
+                </Link>
               </Button>
-              <Button asChild size="lg" variant="outline">
-                <Link href="/freeguide">Get the Simple Blueprint, free</Link>
-              </Button>
+              <Link
+                href="/the-blueprint"
+                className="text-base font-semibold text-burgundy-600 underline-offset-4 hover:text-burgundy-700 hover:underline"
+              >
+                Start with the free Blueprint
+              </Link>
             </div>
             <p className="mt-4 text-sm text-ink/60">
-              No pressure. No upsells. Just real answers.
+              Free 20-minute call. No pressure, no upsells.
             </p>
           </div>
-          <div>
-            <WelcomeVideo />
-            <div className="mt-8 flex justify-center">
-              <AppPlatformBadges className="text-center" />
-            </div>
-            {/* Pure-utility nudge to the free directory. No sales, no pitch. */}
-            <Link
-              href="/resources/senior-help-directory"
-              className="group mt-10 block rounded-lg border border-border bg-white p-6 transition-colors hover:border-burgundy-400"
-            >
-              <p className="text-xs font-semibold uppercase tracking-wide text-burgundy-700">
-                Free · Nationwide · No sign-up
-              </p>
-              <h3 className="mt-2 font-serif text-xl text-navy-700">
-                Senior Help Directory
-              </h3>
-              <p className="mt-2 text-sm leading-relaxed text-ink/75">
-                Government and nonprofit help for seniors, organized by state,
-                with county programs added over time. Food, energy bills,
-                Medicare, home repair, transportation, legal, and caregiver
-                support. No sales, no pitch.
-              </p>
-              <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-burgundy-700 group-hover:text-burgundy-800">
-                Browse the directory <span aria-hidden>→</span>
-              </span>
-            </Link>
-          </div>
+          <BrandPlaceholder
+            className="aspect-[4/3] lg:aspect-square"
+            slot="Hero: type-forward brand treatment in burgundy, gold, and cream. Same look as the roadmap PDF. No photography."
+          />
         </div>
       </section>
 
-      {/* THREE PATHS */}
-      <section className="bg-white border-y border-border">
-        <div className="mx-auto max-w-6xl px-6 py-20">
-          <div className="max-w-2xl">
-            <GoldRule />
-            <h2 className="mt-3">Ways to work with Ryan.</h2>
-            <p className="mt-4 text-lg text-ink/80">
-              Self-serve, guided, an advocate on the home sale, or the daily-care
-              app. Pick the one that matches where your family is right now.
-            </p>
-          </div>
-
-          <div className="mt-12 grid gap-6 md:grid-cols-2 xl:grid-cols-4">
-            {paths.map((p) => (
-              <Card
-                key={p.title}
-                className={`flex flex-col overflow-hidden pt-0 ${
-                  p.accent ? "border-burgundy-600 border-2 shadow-lg shadow-burgundy-600/10" : ""
-                }`}
-              >
-                <div className="relative aspect-[4/3]">
-                  <Image src={p.image} alt={p.alt} fill sizes="(min-width: 1024px) 33vw, 100vw" className="object-cover" />
-                  {p.accent && (
-                    <Badge className="absolute top-3 right-3 bg-gold-500 text-navy-900 hover:bg-gold-500 border-0">
-                      Most families start here
-                    </Badge>
-                  )}
-                </div>
-                <CardHeader>
-                  <div className="text-xs font-semibold uppercase tracking-wider text-burgundy-600">
-                    {p.tag}
-                  </div>
-                  <CardTitle className="font-serif text-2xl">{p.title}</CardTitle>
-                  <CardDescription className="text-base text-ink/70">
-                    {p.blurb}
-                  </CardDescription>
-                  <div className="mt-1 text-navy-700 font-semibold">{p.price}</div>
-                </CardHeader>
-                <CardContent className="flex-1 flex flex-col">
-                  <ul className="space-y-2 text-sm text-ink/80 mb-6">
-                    {p.bullets.map((b) => (
-                      <li key={b} className="flex gap-2">
-                        <span aria-hidden className="text-burgundy-600 mt-[2px]">
-                          ✓
-                        </span>
-                        <span>{b}</span>
-                      </li>
-                    ))}
-                  </ul>
-                  <Button asChild variant={p.accent ? "default" : "outline"} className="mt-auto w-full">
-                    {p.cta.external ? (
-                      <a href={p.cta.href} target="_blank" rel="noopener noreferrer">
-                        {p.cta.label}
-                      </a>
-                    ) : (
-                      <Link href={p.cta.href}>{p.cta.label}</Link>
-                    )}
-                  </Button>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* SWITCHED SIDES */}
-      <section className="bg-burgundy-700 text-cream">
-        <div className="mx-auto max-w-6xl px-6 py-20 grid gap-12 lg:grid-cols-5 items-center">
-          <div className="lg:col-span-3">
-            <GoldRule />
-            <h2 className="mt-3 text-cream">
-              I used to be the guy buying your parents&rsquo; house for 60 cents on the
-              dollar.
-            </h2>
-            <div className="mt-6 space-y-4 text-cream/90 text-lg leading-relaxed">
-              <p>
-                For 8 years I flipped houses. More than half of what I bought came from
-                seniors in crisis, or from the adult kids trying to figure it out fast.
-              </p>
-              <p>
-                I watched families accept the first quick-cash offer because they were
-                overwhelmed. I watched $50,000 in equity walk out the door because
-                nobody laid out the options in plain English.
-              </p>
-              <p className="font-serif text-2xl text-gold-300">
-                I decided I couldn&rsquo;t be on that side of the table anymore.
-              </p>
-              <p>
-                I still use the insider knowledge from those 8 years. I just use it to
-                put families in the driver&rsquo;s seat instead of taking advantage of
-                them.
-              </p>
-            </div>
-            <Button asChild variant="outline" className="mt-8 bg-transparent border-cream text-cream hover:bg-cream hover:text-burgundy-700">
-              <Link href="/about">Read the full story</Link>
-            </Button>
-          </div>
-          <div className="lg:col-span-2 relative aspect-square rounded-lg overflow-hidden bg-cream/5">
-            <Image
-              src="/photos/flipper_now_protector_brand_narrative.png"
-              alt="Graphic illustrating Ryan's story: flipper turned protector"
-              fill
-              sizes="(min-width: 1024px) 40vw, 100vw"
-              className="object-contain p-6"
-            />
-          </div>
-        </div>
-      </section>
-
-      {/* TESTIMONIALS */}
-      <section className="bg-sand border-y border-border">
-        <div className="mx-auto max-w-6xl px-6 py-20">
-          <div className="max-w-2xl">
-            <GoldRule />
-            <h2 className="mt-3">Families who stopped guessing.</h2>
-          </div>
-          <div className="mt-12 grid gap-8 md:grid-cols-2">
-            {testimonials.map((t) => (
-              <figure key={t.author} className="border-l-2 border-gold-500 pl-6">
-                <blockquote className="font-serif text-xl leading-relaxed text-navy-700">
-                  &ldquo;{t.quote}&rdquo;
-                </blockquote>
-                <figcaption className="mt-4 text-sm text-ink/70">
-                  <span className="font-semibold text-ink">{t.author}</span>
-                  {" · "}
-                  {t.location}
-                </figcaption>
-              </figure>
-            ))}
-          </div>
-          <p className="mt-10 text-sm">
-            <a
-              href="https://www.google.com/search?q=Riggins+Strategic+Solutions+Greensboro+reviews"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-burgundy-600 font-semibold hover:text-burgundy-700"
-            >
-              Read more on Google &rarr;
-            </a>
+      {/* 2. THE STAKES */}
+      <section className="bg-navy-700 text-cream">
+        <div className="mx-auto max-w-4xl px-6 py-16">
+          <GoldRule />
+          <h2 className="mt-3 text-cream">
+            Going in blind is where families get taken.
+          </h2>
+          <p className="mt-6 text-lg leading-relaxed text-cream/85">
+            When a parent can&rsquo;t stay in their home, the people with a plan
+            are usually the ones circling it: the cash buyer, the &ldquo;we buy
+            houses&rdquo; wholesaler, and the listing agent whose only move is a
+            sign in the yard. Families who face it alone take the cash offer
+            that lands 30 to 50 percent under what the house is worth, sell at
+            the worst possible time, hand the house to a child in a way that
+            costs them Medicaid eligibility later, or end up split over money.
+            It is not your fault. You were handed the hardest decision of your
+            parent&rsquo;s life with no map and a clock running.
           </p>
         </div>
       </section>
 
-      {/* FAQ — homepage */}
+      {/* 3. THE GUIDE */}
+      <section className="bg-white">
+        <div className="mx-auto max-w-6xl px-6 py-20 grid gap-12 md:grid-cols-[auto_1fr] md:items-center">
+          <div className="relative mx-auto h-56 w-56 overflow-hidden rounded-full border-4 border-gold-500 md:h-64 md:w-64">
+            <Image
+              src="/photos/about_hero_ryan_portrait.jpg"
+              alt="Ryan Riggins, Senior Transition Advisor"
+              fill
+              sizes="(min-width: 768px) 256px, 224px"
+              className="object-cover"
+              priority
+            />
+          </div>
+          <div>
+            <GoldRule />
+            {/* The empathy line doubles as this section's heading so the guide
+                section isn't a headingless block in the document outline. */}
+            <h2 className="mt-3 font-serif text-2xl leading-snug text-navy-700 md:text-3xl">
+              I know the dread before you even pick up the phone. I have sat in
+              this exact seat.
+            </h2>
+            <p className="mt-6 max-w-prose text-lg leading-relaxed text-ink/80">
+              I spent eight years in construction project management and
+              flipping houses, running the same playbook these buyers use on
+              families like yours. Then I switched sides. Now I protect families
+              from the guy I used to be.
+            </p>
+            <p className="mt-4 max-w-prose text-lg leading-relaxed text-ink/80">
+              A North Carolina broker&rsquo;s license, two books, the SeniorSafe
+              app, and a free Blueprint that lays out every option.
+            </p>
+            <p className="mt-5 text-sm text-ink/60">
+              Ryan Riggins &middot; NC Real Estate License #361546 &middot; eXp
+              Realty
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* 4. THE PLAN */}
+      <section className="bg-sand border-y border-border">
+        <div className="mx-auto max-w-6xl px-6 py-20">
+          <div className="max-w-2xl">
+            <GoldRule />
+            <h2 className="mt-3">Three steps, in order.</h2>
+          </div>
+          <ol className="mt-12 grid gap-6 md:grid-cols-3">
+            {planSteps.map((s) => (
+              <li
+                key={s.n}
+                className="rounded-lg border border-border bg-white p-7"
+              >
+                <span
+                  aria-hidden
+                  className="flex h-11 w-11 items-center justify-center rounded-full bg-burgundy-600 font-serif text-xl text-cream"
+                >
+                  {s.n}
+                </span>
+                <h3 className="mt-5 font-serif text-xl leading-snug text-navy-700">
+                  {s.title}
+                </h3>
+                <p className="mt-3 leading-relaxed text-ink/75">{s.body}</p>
+              </li>
+            ))}
+          </ol>
+          {/* Entity split. RSS is the free education; the referral is Ryan
+              working as a licensed broker, paid agent to agent. Stated on the
+              page rather than buried in the referral terms. */}
+          <p className="mt-10 max-w-3xl text-sm leading-relaxed text-ink/65">
+            Riggins Strategic Solutions is the free education. The agent
+            referral is Ryan working as a licensed North Carolina broker with
+            eXp Realty, paid agent to agent out of the commission you would
+            already pay. He never takes the listing himself.
+          </p>
+        </div>
+      </section>
+
+      {/* 5. THE AGREEMENT */}
+      <section className="bg-white">
+        <div className="mx-auto max-w-4xl px-6 py-16">
+          <GoldRule />
+          <h2 className="mt-3">What you are agreeing to, and what you are not.</h2>
+          <ul className="mt-8 space-y-4">
+            {agreement.map((a) => (
+              <li key={a} className="flex gap-3 text-lg leading-relaxed text-ink/80">
+                <span aria-hidden className="mt-1 text-burgundy-600">
+                  &#10003;
+                </span>
+                <span>{a}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
+      {/* 6. SUCCESS */}
+      <section className="bg-cream border-y border-border">
+        <div className="mx-auto max-w-6xl px-6 py-20 grid gap-12 lg:grid-cols-2 lg:items-center">
+          <div>
+            <GoldRule />
+            <h2 className="mt-3">What it looks like when you get it right.</h2>
+            <p className="mt-6 text-lg leading-relaxed text-ink/80">
+              The transition handled, your parent&rsquo;s money and dignity
+              intact, and the family still whole. The right call made with a
+              guide in the room instead of a sales pitch. You go back to being
+              the son or daughter instead of the crisis manager.
+            </p>
+            <p className="mt-6 font-serif text-2xl text-burgundy-600">
+              &ldquo;I did right by them.&rdquo; Relief.
+            </p>
+          </div>
+          <BrandPlaceholder
+            className="aspect-[4/3]"
+            slot="Success: original brand-styled treatment in the RSS palette. No stock or generated family photos."
+          />
+        </div>
+      </section>
+
+      {/* 7. REPEAT THE CALL TO ACTION */}
+      <section className="bg-burgundy-700 text-cream">
+        <div className="mx-auto max-w-4xl px-6 py-20 text-center">
+          <GoldRule className="mx-auto" />
+          <h2 className="mt-3 text-cream">
+            One conversation, before you call anybody else.
+          </h2>
+          <Button
+            asChild
+            size="lg"
+            className="mt-8 bg-gold-500 text-navy-900 hover:bg-gold-300"
+          >
+            <Link
+              href="/work-with-ryan"
+              data-track="book_call_click"
+              data-track-params='{"location":"home-final-cta"}'
+            >
+              Get Ryan in your corner
+            </Link>
+          </Button>
+          <p className="mt-6 text-cream/85">
+            Not ready to talk yet?{" "}
+            <Link
+              href="/tools/family-readiness-score"
+              className="font-semibold text-gold-300 underline underline-offset-4 hover:text-gold-100"
+            >
+              Take the free Family Readiness Score
+            </Link>{" "}
+            and see where your family really stands.
+          </p>
+        </div>
+      </section>
+
+      {/* Kept below the story: free nationwide utility, no pitch. */}
+      <section className="bg-white">
+        <div className="mx-auto max-w-6xl px-6 py-16">
+          <Link
+            href="/resources/senior-help-directory"
+            className="group block rounded-lg border border-border p-7 transition-colors hover:border-burgundy-400"
+          >
+            <p className="text-xs font-semibold uppercase tracking-wide text-burgundy-700">
+              Free &middot; Nationwide &middot; No sign-up
+            </p>
+            <h2 className="mt-2 font-serif text-2xl text-navy-700">
+              Senior Help Directory
+            </h2>
+            <p className="mt-2 max-w-3xl leading-relaxed text-ink/75">
+              Government and nonprofit help for seniors by state and county.
+              Property tax relief, food, energy bills, Medicare counseling,
+              transportation, legal aid, and caregiver support. No sales, no
+              pitch.
+            </p>
+            <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-burgundy-700 group-hover:text-burgundy-800">
+              Browse the directory <span aria-hidden>&rarr;</span>
+            </span>
+          </Link>
+        </div>
+      </section>
+
+      {/* Kept below the story: authority evidence for the guide. Renders from
+          lib/reviews.ts, the same array the About page uses, so the quote here
+          can never drift from the Review JSON-LD About emits. Review schema is
+          deliberately NOT repeated here: it already exists on /about under the
+          same entity, and self-serving review markup about your own business
+          is not eligible for rich results anyway. */}
+      {RYAN_REVIEWS.length > 0 && (
+        <section className="bg-sand border-y border-border">
+          <div className="mx-auto max-w-4xl px-6 py-16">
+            <GoldRule />
+            <h2 className="mt-3">Families who stopped guessing.</h2>
+            <ul className="mt-10 space-y-8">
+              {RYAN_REVIEWS.map((r) => (
+                <li key={`${r.authorName}-${r.datePublished}`}>
+                  <figure className="border-l-2 border-gold-500 pl-6">
+                    <div
+                      aria-label={`${r.ratingValue} out of 5 stars`}
+                      className="flex gap-1"
+                    >
+                      {Array.from({ length: 5 }).map((_, i) => (
+                        <span
+                          key={i}
+                          aria-hidden
+                          className={
+                            i < r.ratingValue ? "text-gold-500" : "text-ink/15"
+                          }
+                        >
+                          &#9733;
+                        </span>
+                      ))}
+                    </div>
+                    <blockquote className="mt-3 font-serif text-xl leading-relaxed text-navy-700">
+                      &ldquo;{r.reviewBody}&rdquo;
+                    </blockquote>
+                    <figcaption className="mt-4 text-sm text-ink/70">
+                      <span className="font-semibold text-ink">
+                        {r.authorName}
+                      </span>
+                      {r.publisher ? ` · ${r.publisher} review` : null}
+                    </figcaption>
+                  </figure>
+                </li>
+              ))}
+            </ul>
+            <p className="mt-8 text-sm">
+              <a
+                href="https://www.google.com/search?q=Riggins+Strategic+Solutions+Greensboro+reviews"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-semibold text-burgundy-600 hover:text-burgundy-700"
+              >
+                Read more on Google &rarr;
+              </a>
+            </p>
+          </div>
+        </section>
+      )}
+
+      {/* Kept below the story: the page's FAQPage schema + AEO surface. */}
       <FAQSection
         items={homeFaqs}
         title="Common questions families ask."
         kicker="Common questions"
       />
-
-      {/* FINAL CTA */}
-      <section className="bg-navy-600 text-cream">
-        <div className="mx-auto max-w-4xl px-6 py-20 text-center">
-          <GoldRule className="mx-auto" />
-          <h2 className="mt-3 text-cream">
-            Don&rsquo;t guess. Get real answers in 20 minutes.
-          </h2>
-          <p className="mt-6 text-lg text-cream/85 max-w-2xl mx-auto">
-            Free call. No pressure. No upsells. You&rsquo;ll walk away knowing what to
-            do next, whether you ever work with me again or not.
-          </p>
-          <Button asChild size="lg" className="mt-8 bg-gold-500 text-navy-900 hover:bg-gold-300">
-            <Link href="/work-with-ryan">Book your free 20-minute call</Link>
-          </Button>
-        </div>
-      </section>
     </main>
   );
 }

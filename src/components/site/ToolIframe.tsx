@@ -30,11 +30,15 @@ export function ToolIframe({ slug, title, minHeight }: Props) {
       if (!iframe || stopped) return;
       const doc = iframe.contentDocument;
       if (!doc || !doc.body) return;
-      const h = Math.max(
-        doc.body.scrollHeight,
-        doc.documentElement.scrollHeight
-      );
-      if (h > 0) {
+      // Measure the BODY only. documentElement.scrollHeight stretches to fill
+      // whatever height the iframe already has, so folding it into a Math.max
+      // made this a one-way ratchet: the frame could grow but never shrink,
+      // and it could never drop below the initial minHeight. Every tool sat on
+      // ~1000px of dead space under its intro screen, and any view that got
+      // shorter (questions -> results) left a gap the size of the difference.
+      const h = Math.max(doc.body.scrollHeight, doc.body.offsetHeight);
+      // Sanity floor: a mid-reflow read of ~0 would collapse the frame.
+      if (h > 50) {
         setHeight((prev) => (Math.abs(prev - h) > 4 ? h : prev));
       }
     }

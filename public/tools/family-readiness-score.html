@@ -3,14 +3,19 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Home Transition Readiness Assessment | Riggins Strategic Solutions</title>
+<title>Family Readiness Score | Riggins Strategic Solutions</title>
 <style>html,body{margin:0;padding:0;background:transparent;font-family:system-ui,-apple-system,sans-serif;}</style>
 </head>
 <body>
 <!--
-  RIGGINS STRATEGIC SOLUTIONS — Home Transition Readiness Assessment v2
-  Paste this entire block into a Squarespace Code Block on /readiness-assessment
-  Version: 2.0 | Free tool - no email gate
+  RIGGINS STRATEGIC SOLUTIONS: Family Readiness Score v2
+  Served at /tools/family-readiness-score (renamed from readiness-assessment
+  on Aug 10 2026; the old path 301s in vercel.json).
+  Version: 2.1 | Free tool, results are never gated.
+  An OPTIONAL "email me my results" form sits under the score and posts to
+  /api/webhook/readiness-results (Supabase lead + GHL contact tagged by band).
+  Keep it optional: the tool page and the /tools registry both advertise
+  "no email required", and that has to stay true.
 -->
 <style>
   .rss-assess-container {
@@ -115,6 +120,37 @@
   .rss-a-result-message { font-family: 'Georgia', serif; font-size: 20px; color: #1B365D; margin: 20px 0 8px; line-height: 1.4; }
   .rss-a-result-desc { font-size: 16px; color: #4a5568; max-width: 520px; margin: 0 auto 32px; line-height: 1.7; }
 
+  /* Optional email capture */
+  .rss-a-email {
+    max-width: 540px; margin: 0 auto 28px; padding: 24px 20px; text-align: left;
+    border: 2px solid #e2e8f0; border-radius: 10px; background: #fffdf7;
+  }
+  .rss-a-email h3 {
+    font-family: 'Georgia', serif; font-size: 18px; color: #1B365D; margin: 0 0 6px; text-align: center;
+  }
+  .rss-a-email-sub { font-size: 14px; color: #6b7280; margin: 0 0 18px; line-height: 1.6; text-align: center; }
+  .rss-a-field { margin-bottom: 14px; }
+  .rss-a-field label { display: block; font-size: 14px; font-weight: 600; color: #1B365D; margin-bottom: 6px; }
+  .rss-a-field input {
+    width: 100%; box-sizing: border-box; padding: 11px 12px; font-size: 16px;
+    border: 2px solid #e2e8f0; border-radius: 8px; color: #1B365D; background: #ffffff;
+  }
+  .rss-a-field input:focus { outline: none; border-color: #D4A843; box-shadow: 0 0 0 3px rgba(212,168,67,0.25); }
+  .rss-a-field input[aria-invalid="true"] { border-color: #8C1D2F; }
+  /* Honeypot. Off-screen rather than display:none so bots still fill it. */
+  .rss-a-hp { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
+  .rss-a-email-btn {
+    width: 100%; padding: 13px 20px; font-size: 16px; font-weight: 700; cursor: pointer;
+    border: none; border-radius: 8px; background: #8C1D2F; color: #ffffff;
+    font-family: inherit; transition: background 0.2s ease;
+  }
+  .rss-a-email-btn:hover { background: #731825; }
+  .rss-a-email-btn:disabled { background: #9ca3af; cursor: default; }
+  .rss-a-email-btn:focus-visible { outline: 3px solid #D4A843; outline-offset: 2px; }
+  .rss-a-email-status { font-size: 14px; margin: 12px 0 0; line-height: 1.5; min-height: 1px; }
+  .rss-a-email-status.err { color: #8C1D2F; font-weight: 600; }
+  .rss-a-email-status.ok { color: #1B365D; font-weight: 600; }
+
   /* Next Steps */
   .rss-a-next-steps { text-align: left; max-width: 540px; margin: 0 auto 28px; }
   .rss-a-next-steps h3 {
@@ -188,16 +224,16 @@
   <!-- INTRO -->
   <div id="rssAIntro" class="rss-a-intro">
     <div class="rss-assess-header">
-      <h1>Home Transition Readiness Assessment</h1>
-      <p>How prepared is your family? Find out in 5 minutes — completely free.</p>
+      <h1>Family Readiness Score</h1>
+      <p>How prepared is your family? Find out in 5 minutes, completely free.</p>
     </div>
     <p>This assessment evaluates your readiness across five critical areas. You'll get an instant score with specific recommendations for where to focus next.</p>
     <div class="rss-a-pillar-list">
-      <div class="rss-a-pillar-item"><div class="rss-a-pillar-icon">1</div><div class="rss-a-pillar-item-text"><strong>Home & Property Readiness</strong> — condition, safety, clutter level</div></div>
-      <div class="rss-a-pillar-item"><div class="rss-a-pillar-icon">2</div><div class="rss-a-pillar-item-text"><strong>Financial & Legal Preparation</strong> — documents, budgets, benefits</div></div>
-      <div class="rss-a-pillar-item"><div class="rss-a-pillar-icon">3</div><div class="rss-a-pillar-item-text"><strong>Family Communication</strong> — alignment, roles, decision-making</div></div>
-      <div class="rss-a-pillar-item"><div class="rss-a-pillar-icon">4</div><div class="rss-a-pillar-item-text"><strong>Senior's Physical & Emotional Readiness</strong> — health, acceptance, safety</div></div>
-      <div class="rss-a-pillar-item" style="border-bottom:none;"><div class="rss-a-pillar-icon">5</div><div class="rss-a-pillar-item-text"><strong>Exit Strategy Clarity</strong> — selling options, timeline, agent awareness</div></div>
+      <div class="rss-a-pillar-item"><div class="rss-a-pillar-icon">1</div><div class="rss-a-pillar-item-text"><strong>Home & Property Readiness</strong>: condition, safety, clutter level</div></div>
+      <div class="rss-a-pillar-item"><div class="rss-a-pillar-icon">2</div><div class="rss-a-pillar-item-text"><strong>Financial & Legal Preparation</strong>: documents, budgets, benefits</div></div>
+      <div class="rss-a-pillar-item"><div class="rss-a-pillar-icon">3</div><div class="rss-a-pillar-item-text"><strong>Family Communication</strong>: alignment, roles, decision-making</div></div>
+      <div class="rss-a-pillar-item"><div class="rss-a-pillar-icon">4</div><div class="rss-a-pillar-item-text"><strong>Senior's Physical & Emotional Readiness</strong>: health, acceptance, safety</div></div>
+      <div class="rss-a-pillar-item" style="border-bottom:none;"><div class="rss-a-pillar-icon">5</div><div class="rss-a-pillar-item-text"><strong>Exit Strategy Clarity</strong>: selling options, timeline, agent awareness</div></div>
     </div>
     <button class="rss-a-btn rss-a-btn-gold" onclick="rssAssessApp.start()" style="padding:16px 48px; font-size:18px;">Start the Assessment →</button>
     <p style="font-size:13px; color:#9ca3af; margin-top:12px;">No email required. Instant results.</p>
@@ -236,27 +272,46 @@
       <div class="rss-a-pillars-grid" id="rssAPillarBars"></div>
       <div style="margin:20px 0;" id="rssAStrengths"></div>
 
-      <!-- ALL 4 Next Steps -->
+      <!-- OPTIONAL email capture. Results above are already fully visible;
+           this only sends a copy. Never gate the results on it. -->
+      <div class="rss-a-email" id="rssAEmailBlock">
+        <h3>Want this emailed to you?</h3>
+        <p class="rss-a-email-sub">Optional. Your score, the pillar breakdown, and what to do about your weakest area. No cost, and you can unsubscribe from the bottom of any email.</p>
+        <form id="rssAEmailForm" novalidate>
+          <div class="rss-a-field">
+            <label for="rssAFirstName">First name</label>
+            <input type="text" id="rssAFirstName" name="first_name" autocomplete="given-name" required>
+          </div>
+          <div class="rss-a-field">
+            <label for="rssAEmail">Email</label>
+            <input type="email" id="rssAEmail" name="email" autocomplete="email" required>
+          </div>
+          <div class="rss-a-hp" aria-hidden="true">
+            <label for="rssACompany">Company</label>
+            <input type="text" id="rssACompany" name="company" tabindex="-1" autocomplete="off">
+          </div>
+          <button type="submit" class="rss-a-email-btn" id="rssAEmailBtn">Email me my results</button>
+          <p class="rss-a-email-status" id="rssAEmailStatus" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+
+      <!-- Next steps -->
       <div class="rss-a-next-steps">
-        <h3>Ready to Take Action?</h3>
-        <a class="rss-a-step-card" href="https://www.rigginsstrategicsolutions.com/the-blueprint" target="_blank">
-          <div class="rss-a-step-title">📋 Get the Senior Transition Blueprint — $47</div>
-          <div class="rss-a-step-desc">19 modules. 90+ tools. Covers every pillar above in detail so you can fill the gaps yourself.</div>
+        <h3>Ready to take action?</h3>
+        <a class="rss-a-step-card" href="https://www.rigginsstrategicsolutions.com/work-with-ryan">
+          <div class="rss-a-step-title">Talk to Ryan first</div>
+          <div class="rss-a-step-desc">A free 20-minute call. Walk through your results together and figure out what to do next, whether you ever work with him again or not.</div>
           <div class="rss-a-step-arrow">→</div>
         </a>
-        <a class="rss-a-step-card" href="https://calendar.google.com/calendar/appointments/schedules/AcZssZ0y_kQQfkvnf6jQEBvA5X2Onolndq6VleuID3n9hDujDd4CjpOsaJzKqs_eXujvfVVayudxp2h5" target="_blank">
-          <div class="rss-a-step-title">📞 Book a Free Call with Ryan</div>
-          <div class="rss-a-step-desc">20 minutes. Walk through your results together and build a personalized action plan.</div>
+        <a class="rss-a-step-card" href="https://www.rigginsstrategicsolutions.com/the-blueprint">
+          <div class="rss-a-step-title">Get the Senior Transition Blueprint</div>
+          <div class="rss-a-step-desc">Free, 20 modules and 69 tools. Covers every pillar above in detail so you can close the gaps yourself.</div>
           <div class="rss-a-step-arrow">→</div>
         </a>
-        <a class="rss-a-step-card" href="https://www.rigginsstrategicsolutions.com/freeguide" target="_blank">
-          <div class="rss-a-step-title">📖 Download the Free Starter Guide</div>
-          <div class="rss-a-step-desc">Not ready to commit? Start here. Quick read, big clarity, zero cost.</div>
+        <a class="rss-a-step-card" href="https://www.rigginsstrategicsolutions.com/resources/senior-help-directory">
+          <div class="rss-a-step-title">Browse the Senior Help Directory</div>
+          <div class="rss-a-step-desc">Free government and nonprofit programs by state and county. Property tax relief, food, energy help, Medicare counseling, transportation, legal aid. No sign-up.</div>
           <div class="rss-a-step-arrow">→</div>
-        </a>
-        <a class="rss-a-text-card" href="sms:3365538933">
-          <div class="rss-a-step-title">💬 Just Text Ryan — (336) 553-8933</div>
-          <div class="rss-a-step-desc">Easiest path. Send a quick text and he'll get back to you personally.</div>
         </a>
       </div>
 
@@ -291,27 +346,27 @@
   var QUESTIONS = [
     { pillar: 'home', text: "What's the overall condition of the home?", subtitle: "Think about the roof, HVAC, plumbing, and structural elements.",
       options: [
-        { text: "Well-maintained — no major repairs needed", points: 7 },
-        { text: "Some deferred maintenance — needs moderate work ($5-15K range)", points: 4 },
-        { text: "Significant issues — major repairs needed or home is in poor shape", points: 1 }
+        { text: "Well-maintained, no major repairs needed", points: 7 },
+        { text: "Some deferred maintenance, needs moderate work ($5-15K range)", points: 4 },
+        { text: "Significant issues, major repairs needed or home is in poor shape", points: 1 }
       ]},
     { pillar: 'home', text: "How would you describe the clutter and belongings situation?", subtitle: "Decades of possessions can be one of the biggest obstacles.",
       options: [
-        { text: "Minimal clutter — most rooms are organized and accessible", points: 7 },
-        { text: "Moderate accumulation — would need several weekends to sort through", points: 4 },
+        { text: "Minimal clutter, most rooms are organized and accessible", points: 7 },
+        { text: "Moderate accumulation, would need several weekends to sort through", points: 4 },
         { text: "Significant hoarding or 30+ years of belongings filling most rooms", points: 1 }
       ]},
     { pillar: 'home', text: "Is the home currently safe for your loved one to live in?", subtitle: "Consider fall risks, accessibility, lighting, and stairs.",
       options: [
-        { text: "Yes — grab bars, good lighting, single-level or accessible", points: 6 },
+        { text: "Yes, grab bars, good lighting, single-level or accessible", points: 6 },
         { text: "Mostly safe, but some modifications would help", points: 3 },
-        { text: "Unsafe — stairs are a problem, no grab bars, fall risks everywhere", points: 1 }
+        { text: "Unsafe, stairs are a problem, no grab bars, fall risks everywhere", points: 1 }
       ]},
     { pillar: 'financial', text: "Are essential legal documents in place and current?", subtitle: "Power of Attorney, Healthcare Directive, Will or Trust.",
       options: [
-        { text: "Yes — all documents are current and accessible", points: 7 },
+        { text: "Yes, all documents are current and accessible", points: 7 },
         { text: "Some are in place, but may need updating or are incomplete", points: 4 },
-        { text: "No — we haven't set up POA, healthcare directives, or estate plans", points: 1 }
+        { text: "No, we haven't set up POA, healthcare directives, or estate plans", points: 1 }
       ]},
     { pillar: 'financial', text: "How clear is your understanding of transition costs?", subtitle: "Including home prep, moving, senior living, and care costs.",
       options: [
@@ -321,67 +376,99 @@
       ]},
     { pillar: 'financial', text: "Have you explored Medicare, Medicaid, VA benefits, or long-term care insurance?", subtitle: "These programs can significantly offset transition and care costs.",
       options: [
-        { text: "Yes — we understand what's available and have a benefits plan", points: 6 },
+        { text: "Yes, we understand what's available and have a benefits plan", points: 6 },
         { text: "We've looked into it but aren't sure what applies to our situation", points: 3 },
-        { text: "No — we haven't researched any benefits or coverage options", points: 1 }
+        { text: "No, we haven't researched any benefits or coverage options", points: 1 }
       ]},
     { pillar: 'family', text: "Is your family aligned on the transition plan?", subtitle: "Siblings, spouses, and the senior themselves.",
       options: [
-        { text: "Yes — everyone agrees on the timeline and approach", points: 7 },
+        { text: "Yes, everyone agrees on the timeline and approach", points: 7 },
         { text: "Mostly aligned, but some disagreements on specifics", points: 4 },
-        { text: "Major disagreements — family members are arguing or disengaged", points: 1 }
+        { text: "Major disagreements, family members are arguing or disengaged", points: 1 }
       ]},
     { pillar: 'family', text: "Is there a clear point person leading this transition?", subtitle: "Someone needs to coordinate decisions, logistics, and communication.",
       options: [
-        { text: "Yes — one person is leading and the family supports them", points: 7 },
-        { text: "Sort of — someone is doing the work but feels unsupported", points: 4 },
-        { text: "No — no one has stepped up, or multiple people are pulling in different directions", points: 1 }
+        { text: "Yes, one person is leading and the family supports them", points: 7 },
+        { text: "Sort of, someone is doing the work but feels unsupported", points: 4 },
+        { text: "No, no one has stepped up, or multiple people are pulling in different directions", points: 1 }
       ]},
     { pillar: 'family', text: "Have you held a family meeting to discuss the transition?", subtitle: "A structured conversation where everyone's voice is heard.",
       options: [
-        { text: "Yes — we've had productive family discussions with clear outcomes", points: 6 },
+        { text: "Yes, we've had productive family discussions with clear outcomes", points: 6 },
         { text: "We've talked informally, but not a structured meeting", points: 3 },
-        { text: "No — we've been avoiding the conversation or it turns into arguments", points: 1 }
+        { text: "No, we've been avoiding the conversation or it turns into arguments", points: 1 }
       ]},
     { pillar: 'senior', text: "How is your loved one managing daily activities?", subtitle: "Bathing, dressing, cooking, medication management, driving.",
       options: [
-        { text: "Fully independent — managing everything on their own", points: 7 },
-        { text: "Needs some help — struggling with a few daily tasks", points: 4 },
-        { text: "Significant decline — unable to manage most daily activities safely", points: 1 }
+        { text: "Fully independent, managing everything on their own", points: 7 },
+        { text: "Needs some help, struggling with a few daily tasks", points: 4 },
+        { text: "Significant decline, unable to manage most daily activities safely", points: 1 }
       ]},
     { pillar: 'senior', text: "Has your loved one accepted the idea of transitioning?", subtitle: "Emotional readiness is often the biggest hurdle.",
       options: [
-        { text: "Yes — they're open to the change and participating in planning", points: 7 },
-        { text: "Somewhat — they acknowledge the need but are reluctant", points: 4 },
-        { text: "Not at all — they refuse to discuss it or deny any need to move", points: 1 }
+        { text: "Yes, they're open to the change and participating in planning", points: 7 },
+        { text: "Somewhat, they acknowledge the need but are reluctant", points: 4 },
+        { text: "Not at all, they refuse to discuss it or deny any need to move", points: 1 }
       ]},
     { pillar: 'senior', text: "Are there active safety concerns?", subtitle: "Falls, wandering, forgetting to turn off the stove, medication errors.",
       options: [
-        { text: "No safety incidents — the current situation is stable", points: 6 },
+        { text: "No safety incidents, the current situation is stable", points: 6 },
         { text: "A few minor concerns we're monitoring", points: 3 },
-        { text: "Yes — there have been falls, near-misses, or dangerous situations", points: 1 }
+        { text: "Yes, there have been falls, near-misses, or dangerous situations", points: 1 }
       ]},
     { pillar: 'exit', text: "Do you understand the different options for selling the home?", subtitle: "Traditional listing, as-is sale, creative strategies, investor offers.",
       options: [
-        { text: "Yes — I know the pros and cons of multiple strategies", points: 7 },
+        { text: "Yes, I know the pros and cons of multiple strategies", points: 7 },
         { text: "I know about traditional listing, but not much else", points: 4 },
-        { text: "No — I assumed we'd just list with a realtor or take a cash offer", points: 1 }
+        { text: "No, I assumed we'd just list with a realtor or take a cash offer", points: 1 }
       ]},
     { pillar: 'exit', text: "Do you have a realistic timeline and price expectation for the home?", subtitle: "Overpricing or rushing are the two biggest mistakes families make.",
       options: [
-        { text: "Yes — we've researched comparable sales and know our timeline", points: 7 },
+        { text: "Yes, we've researched comparable sales and know our timeline", points: 7 },
         { text: "We have a rough idea but haven't done a formal analysis", points: 4 },
-        { text: "No idea — we're guessing at both price and timeline", points: 1 }
+        { text: "No idea, we're guessing at both price and timeline", points: 1 }
       ]},
-    { pillar: 'exit', text: "Have you vetted or selected a real estate professional?", subtitle: "Not all agents understand senior transitions — this matters.",
+    { pillar: 'exit', text: "Have you vetted or selected a real estate professional?", subtitle: "Not all agents understand senior transitions, this matters.",
       options: [
-        { text: "Yes — we have a senior-transition-experienced agent", points: 6 },
+        { text: "Yes, we have a senior-transition-experienced agent", points: 6 },
         { text: "We've talked to an agent but aren't sure they're the right fit", points: 3 },
-        { text: "No — we haven't started looking, or we've only heard from \"we buy houses\" investors", points: 1 }
+        { text: "No, we haven't started looking, or we've only heard from \"we buy houses\" investors", points: 1 }
       ]}
   ];
 
-  var SHARE_URL = 'https://www.rigginsstrategicsolutions.com/readiness-assessment';
+  // Was /readiness-assessment, which 404s. Every Facebook and LinkedIn share
+  // of this tool was pointing at a dead page. The real route is /tools/<slug>.
+  var SHARE_URL = 'https://www.rigginsstrategicsolutions.com/tools/family-readiness-score';
+
+  // Populated by showResults(), read by the optional email form.
+  var lastScore = null;
+  var lastPillars = null;
+
+  var ATTRIBUTION_KEYS = ['utm_source','utm_medium','utm_campaign','utm_content','utm_term','fbclid','gclid'];
+
+  /**
+   * UTM/click ids live on the PARENT page URL, not on this iframe's src.
+   * The iframe is same-origin (both served from rigginsstrategicsolutions.com)
+   * so window.parent.location is readable. Wrapped anyway: if the tool is ever
+   * embedded cross-origin this throws, and attribution is not worth an
+   * exception that kills the submit.
+   */
+  function collectAttribution() {
+    var out = {};
+    try {
+      var href = window.parent.location.href;
+      var params = new URL(href).searchParams;
+      ATTRIBUTION_KEYS.forEach(function(k){
+        var v = params.get(k);
+        if (v) out[k] = v;
+      });
+      out.landing_url = href;
+      if (window.parent.document.referrer) out.referrer = window.parent.document.referrer;
+    } catch (e) {
+      try { out.landing_url = window.location.href; } catch (e2) {}
+    }
+    return out;
+  }
   var currentQ = 0;
   var answers = {};
 
@@ -439,6 +526,11 @@
     QUESTIONS.forEach(function(q,i){if(answers[i]!==undefined) scores[q.pillar]+=answers[i].points;});
     var total = 0; Object.keys(scores).forEach(function(k){total+=scores[k];});
 
+    // Held for the optional email step. The server recomputes the band from
+    // the score, so these are reporting values only, never trusted input.
+    lastScore = total;
+    lastPillars = scores;
+
     document.getElementById('rssATotalScore').textContent = total;
     var circumference = 452.4;
     setTimeout(function(){document.getElementById('rssARingCircle').style.strokeDashoffset = circumference-(total/100)*circumference;},100);
@@ -447,7 +539,7 @@
     if (total>=80) { msg="You're well-prepared for this transition."; desc="Your family has done significant preparation. The remaining gaps can be addressed with targeted planning. Fine-tune your approach to avoid last-minute surprises."; }
     else if (total>=60) { msg="You're on the right track, but there are gaps to address."; desc="Good progress in some areas, but key gaps could cost time, money, or unnecessary stress. Focus on your weakest pillar first."; }
     else if (total>=40) { msg="You need significant planning before moving forward."; desc="Several critical areas need attention. Without a clear plan, families in your position often make expensive mistakes or face preventable crises."; }
-    else { msg="Critical gaps — your family needs support now."; desc="Your assessment reveals major preparation gaps. This isn't unusual — most families don't know what they don't know. But acting now can prevent a crisis."; }
+    else { msg="Critical gaps. Your family needs support now."; desc="Your assessment reveals major preparation gaps. This isn't unusual. Most families don't know what they don't know. But acting now can prevent a crisis."; }
     document.getElementById('rssAResultMsg').textContent = msg;
     document.getElementById('rssAResultDesc').textContent = desc;
 
@@ -492,6 +584,72 @@
       window.open('https://www.linkedin.com/sharing/share-offsite/?url='+url,'_blank','width=600,height=400');
     }
   };
+
+  // Optional "email me my results". Results are already on screen by the time
+  // this can be submitted, so a failure here never costs the family anything.
+  (function wireEmailForm(){
+    var form = document.getElementById('rssAEmailForm');
+    if (!form) return;
+    var btn = document.getElementById('rssAEmailBtn');
+    var status = document.getElementById('rssAEmailStatus');
+    var firstName = document.getElementById('rssAFirstName');
+    var email = document.getElementById('rssAEmail');
+
+    function setStatus(msg, kind) {
+      status.textContent = msg;
+      status.className = 'rss-a-email-status' + (kind ? ' ' + kind : '');
+    }
+
+    function markInvalid(field, invalid) {
+      if (invalid) field.setAttribute('aria-invalid','true');
+      else field.removeAttribute('aria-invalid');
+    }
+
+    form.addEventListener('submit', function(ev){
+      ev.preventDefault();
+
+      var nameVal = firstName.value.trim();
+      var emailVal = email.value.trim();
+      markInvalid(firstName, !nameVal);
+      markInvalid(email, !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(emailVal));
+
+      if (!nameVal) { setStatus('Enter your first name.', 'err'); firstName.focus(); return; }
+      if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(emailVal)) {
+        setStatus('Enter a valid email address.', 'err'); email.focus(); return;
+      }
+      if (lastScore === null) { setStatus('Finish the assessment first.', 'err'); return; }
+
+      btn.disabled = true;
+      setStatus('Sending...');
+
+      fetch('/api/webhook/readiness-results', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          first_name: nameVal,
+          email: emailVal,
+          company: document.getElementById('rssACompany').value,
+          score: lastScore,
+          pillars: lastPillars,
+          attribution: collectAttribution()
+        })
+      }).then(function(res){
+        return res.json().catch(function(){ return {}; }).then(function(data){
+          return { ok: res.ok, data: data };
+        });
+      }).then(function(r){
+        if (r.ok && r.data && r.data.ok) {
+          form.innerHTML = '<p class="rss-a-email-status ok" role="status">Sent. Check your inbox in the next few minutes.</p>';
+        } else {
+          btn.disabled = false;
+          setStatus((r.data && r.data.error) || 'Something went wrong. Try again in a moment.', 'err');
+        }
+      }).catch(function(){
+        btn.disabled = false;
+        setStatus('Could not reach the server. Check your connection and try again.', 'err');
+      });
+    });
+  })();
 
   if(restoreState()&&currentQ>0&&Object.keys(answers).length>0){
     document.getElementById('rssAIntro').classList.add('rss-a-hidden');
