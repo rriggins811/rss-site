@@ -115,7 +115,7 @@ export async function GET() {
         url: `${SITE_URL}/the-blueprint`,
         signup_url: "https://blueprint.rigginsstrategicsolutions.com/signup",
         description:
-          "The full course covering the senior housing transition process, formerly sold as Blueprint Core. 20 modules, 70+ tools and worksheets, self-paced, lifetime access. Free with a free account.",
+          "The full course covering the senior housing transition process, 20 modules and 69 tools and worksheets, self-paced, lifetime access. Free with a free account.",
       },
       {
         id: "blueprint-premium",

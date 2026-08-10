@@ -187,7 +187,7 @@ export default async function ResourceArticlePage({
                   </h3>
                   <p className="mt-3 text-ink/80 leading-relaxed">
                     The Senior Transition Blueprint is the 20-module system
-                    Ryan uses with client families. 70+ tools, scripts for the
+                    Ryan uses with client families. 69 tools, scripts for the
                     hard conversations, and the five exit strategies for the
                     home. Free, all of it, with a free account.
                   </p>
@@ -252,7 +252,7 @@ export default async function ResourceArticlePage({
                   </h3>
                   <p className="mt-3 text-ink/80 leading-relaxed">
                     The Senior Transition Blueprint is the 20-module system
-                    Ryan uses with client families. 70+ tools, scripts for the
+                    Ryan uses with client families. 69 tools, scripts for the
                     hard conversations, and the five exit strategies for the
                     home. Free, all of it, with a free account.
                   </p>

@@ -468,9 +468,8 @@ export function blueprintCoreProductSchema() {
     "@context": "https://schema.org",
     "@type": "Product",
     name: "The Senior Transition Blueprint",
-    alternateName: "Blueprint Core",
     description:
-      "The Senior Transition Blueprint is a free course covering the full senior housing transition process. 20 modules, 70+ tools and worksheets, self-paced, lifetime access with a free account.",
+      "The Senior Transition Blueprint is a free course covering the full senior housing transition process. 20 modules and 69 tools and worksheets, self-paced, lifetime access with a free account.",
     brand: { "@type": "Brand", name: ORGANIZATION.name },
     image: abs("/og/the-blueprint.png"),
     url,
@@ -505,7 +504,7 @@ export function blueprintCourseSchema() {
     "@id": `${url}#course`,
     name: "The Senior Transition Blueprint",
     description:
-      "A self-paced course that walks adult children through every stage of a parent's senior housing transition: aging in place vs assisted living, the home sale, financial and Medicare planning, family coordination, and avoiding predatory cash buyers. 20 modules with 70+ tools and worksheets.",
+      "A self-paced course that walks adult children through every stage of a parent's senior housing transition: aging in place vs assisted living, the home sale, financial and Medicare planning, family coordination, and avoiding predatory cash buyers. 20 modules and 69 tools and worksheets.",
     url,
     image: abs("/og/the-blueprint.png"),
     provider: { "@id": ORG_ID },

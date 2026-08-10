@@ -373,7 +373,7 @@ export function ModuleDrawer({ module, onClose, preview = false, upgradeUrl }: P
                       className="mt-4 inline-flex w-full items-center justify-center rounded-lg px-5 py-3 text-sm font-semibold transition-opacity hover:opacity-90"
                       style={{ background: "#D4AF37", color: "#1C3A52" }}
                     >
-                      Unlock all 70+ tools with a free Blueprint account
+                      Get all 69 tools with a free Blueprint account
                       <span aria-hidden className="ml-2">&rarr;</span>
                     </a>
                   )}

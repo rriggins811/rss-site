@@ -71,7 +71,7 @@ const tiers: Tier[] = [
     blurb: "The complete DIY roadmap at your own pace.",
     audience: "Families who want a self-serve plan without the hand-holding.",
     bullets: [
-      "20 modules, 70+ tools and checklists",
+      "20 modules and 69 tools and checklists",
       "5 exit strategies, not just a traditional listing",
       "Scripts for the hard family conversations",
       "Lifetime access. Sign up with your email, no payment",
@@ -162,7 +162,7 @@ const included: { heading: string; value: string; body: string }[] = [
     body: "Assessment, rightsizing, strategy, execution, move management, and the one-year follow-up. Not theory. Field-tested with real families.",
   },
   {
-    heading: "70+ tools",
+    heading: "69 tools",
     value: "70+",
     body: "Checklists, scripts, worksheets, decision trees. The exact stuff Ryan uses on client calls. You get them too.",
   },
