@@ -7,6 +7,7 @@ import {
   readinessBand,
   readinessTags,
 } from "@/lib/ghl-proxy";
+import { sendReadinessResultsEmail } from "@/lib/email/readiness-results";
 
 export const runtime = "nodejs";
 
@@ -19,11 +20,16 @@ export const runtime = "nodejs";
  * both the tool copy and the /tools registry advertise "no email required",
  * and that claim has to stay true.
  *
+ * On a successful capture this does two things: sends the results email via
+ * Resend, and upserts the GHL contact with a lead tag plus one band tag.
+ *
+ * The email is sent HERE rather than left to a GHL workflow. The form promises
+ * results the instant they submit, so this request has to keep that promise on
+ * its own. The GHL tags remain the hook for whatever nurture Ryan builds later.
+ *
  * Deliberately NOT wired to GHL_WEBHOOKS.starterGuide: that webhook fires the
  * Simple Blueprint nurture, which is the wrong sequence for this audience and
- * would double-enroll anyone who already has it. Instead the contact is
- * upserted with a lead tag plus one readiness band tag, and Ryan builds the
- * nurture in GHL against a tag-added trigger.
+ * would double-enroll anyone who already has it.
  *
  * Band is derived from the score HERE, never taken from the request body, so a
  * forged payload can't drop someone into the wrong sequence.
@@ -120,41 +126,61 @@ export async function POST(req: Request) {
   const pillars = sanitizePillars(body.pillars);
   const source = "tools/family-readiness-score";
 
-  // Same dedupe contract as the starter-guide route: the unique index on
-  // (lower(email), form_type, dedupe_hour) means a double-submit inside the
-  // same hour produces exactly one row and one GHL write.
+  // Plain insert, NOT upsert(onConflict). PostgREST resolves on_conflict
+  // against real column names, so passing the expression index target
+  // "lower(email),..." makes it look for a column literally named "lower"
+  // and the write fails with 42703. Instead we let the existing unique index
+  // leads_dedupe_email_formtype_hour_idx do its job and treat a unique
+  // violation (23505) as the duplicate signal. Emails are already lowercased
+  // by validateLead, so lower(email) and email agree for every row we write.
   const sb = getServiceSupabase();
   const { data: insertedRows, error: insertErr } = await sb
     .from("leads")
-    .upsert(
-      {
-        form_type: "tool-family-readiness-score",
-        email: lead.email,
-        first_name: lead.first_name,
-        last_name: null,
-        phone: null,
-        message: null,
-        source,
-        raw_payload: {
-          score,
-          band,
-          ip,
-          ...(pillars ? { pillars } : {}),
-          ...(attribution ? { attribution } : {}),
-        },
+    .insert({
+      form_type: "tool-family-readiness-score",
+      email: lead.email,
+      first_name: lead.first_name,
+      last_name: null,
+      phone: null,
+      message: null,
+      source,
+      raw_payload: {
+        score,
+        band,
+        ip,
+        ...(pillars ? { pillars } : {}),
+        ...(attribution ? { attribution } : {}),
       },
-      { onConflict: "lower(email),form_type,dedupe_hour", ignoreDuplicates: true }
-    )
+    })
     .select("id");
 
-  if (insertErr) {
-    console.error("[readiness-results] supabase upsert failed", insertErr);
-    // Keep going. A Supabase hiccup should not cost us the GHL contact.
+  // 23505 = unique_violation, i.e. this email already submitted this hour.
+  const isDuplicate = insertErr?.code === "23505";
+
+  if (insertErr && !isDuplicate) {
+    console.error("[readiness-results] supabase insert failed", insertErr);
+    // Keep going. A Supabase hiccup should not cost them the email.
+  }
+  if (!insertErr && (!insertedRows || insertedRows.length === 0)) {
+    console.warn("[readiness-results] insert returned no rows");
   }
 
-  const isDuplicate = !insertErr && (!insertedRows || insertedRows.length === 0);
-
   if (!isDuplicate) {
+    // Send the results ourselves rather than depending on a GHL workflow.
+    // The form promises "email me my results" the moment they submit, so the
+    // promise has to be kept by this request, not by automation that may not
+    // be built yet. Best-effort: a send failure is logged, never surfaced.
+    const sent = await sendReadinessResultsEmail({
+      to: lead.email,
+      firstName: lead.first_name,
+      score,
+      band,
+      pillars: pillars ?? null,
+    });
+    if (!sent.ok) {
+      console.error("[readiness-results] results email not sent:", sent.reason);
+    }
+
     const ghl = await upsertGhlContactWithTags(
       {
         email: lead.email,
