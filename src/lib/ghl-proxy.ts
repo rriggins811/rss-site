@@ -144,7 +144,45 @@ export const GHL_TAGS = {
   // Blueprint product tags (defined in SOP as "future" — OK to use now)
   PRODUCT_BLUEPRINT_CORE: "product-blueprint-core",
   PRODUCT_BLUEPRINT_PREMIUM: "product-blueprint-premium",
+
+  // Family Readiness Score email capture. Every opt-in gets the LEAD_ tag;
+  // exactly one band tag rides along with it, derived from the score
+  // SERVER-side in api/webhook/readiness-results (never from the client).
+  // Band cutoffs mirror the four result messages the tool already shows,
+  // so the tag always matches the words the family just read on screen.
+  LEAD_FAMILY_READINESS_SCORE: "lead-family-readiness-score",
+  READINESS_CRITICAL: "readiness-critical",
+  READINESS_LOW: "readiness-low",
+  READINESS_MODERATE: "readiness-moderate",
+  READINESS_HIGH: "readiness-high",
 } as const;
+
+/** Readiness band for a 0-100 assessment score. */
+export type ReadinessBand = "critical" | "low" | "moderate" | "high";
+
+/**
+ * Score to band. Cutoffs match the tool's on-screen result copy exactly:
+ *   80-100 "well-prepared", 60-79 "on the right track",
+ *   40-59  "needs significant planning", 0-39 "critical gaps".
+ */
+export function readinessBand(score: number): ReadinessBand {
+  if (score >= 80) return "high";
+  if (score >= 60) return "moderate";
+  if (score >= 40) return "low";
+  return "critical";
+}
+
+const READINESS_BAND_TAGS: Record<ReadinessBand, string> = {
+  critical: GHL_TAGS.READINESS_CRITICAL,
+  low: GHL_TAGS.READINESS_LOW,
+  moderate: GHL_TAGS.READINESS_MODERATE,
+  high: GHL_TAGS.READINESS_HIGH,
+};
+
+/** The full tag set for a readiness opt-in: the lead tag plus one band tag. */
+export function readinessTags(band: ReadinessBand): readonly string[] {
+  return [GHL_TAGS.LEAD_FAMILY_READINESS_SCORE, READINESS_BAND_TAGS[band]];
+}
 
 export type GhlContactInput = {
   email: string;

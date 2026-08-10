@@ -22,6 +22,21 @@ const nextConfig: NextConfig = {
         destination: "/resources/senior-scam-protection",
         permanent: true,
       },
+      // "Readiness Assessment" became "Family Readiness Score" on Aug 10 2026.
+      // Kept here rather than vercel.json so the redirect is part of the app
+      // and testable locally. The bare /readiness-assessment form never was a
+      // real route: it was the (broken) share URL baked into the tool, so this
+      // also recovers anyone arriving from an old Facebook or LinkedIn share.
+      {
+        source: "/tools/readiness-assessment",
+        destination: "/tools/family-readiness-score",
+        permanent: true,
+      },
+      {
+        source: "/readiness-assessment",
+        destination: "/tools/family-readiness-score",
+        permanent: true,
+      },
     ];
   },
   async headers() {

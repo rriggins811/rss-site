@@ -67,9 +67,9 @@ const GROUPS: LinkGroup[] = [
         href: "/tools/net-proceeds-calculator",
       },
       {
-        label: "Readiness Assessment",
+        label: "Family Readiness Score",
         description: "Find out where your family really is right now.",
-        href: "/tools/readiness-assessment",
+        href: "/tools/family-readiness-score",
       },
       {
         label: "Aging-in-Place vs Move Calculator",

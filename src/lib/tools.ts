@@ -192,12 +192,15 @@ export const TOOLS: Tool[] = [
 
   // Assessment
   {
-    slug: "readiness-assessment",
-    title: "Readiness Assessment",
+    // Renamed from "readiness-assessment" on Aug 10 2026. "Readiness
+    // Assessment" was too vague to mean anything in a nav; the score is what
+    // the tool actually hands you. Old path 301s via vercel.json.
+    slug: "family-readiness-score",
+    title: "Family Readiness Score | Where Your Family Actually Stands",
     shortDescription:
       "Where your family actually stands today",
     description:
-      "Ten questions across housing, finances, legal, medical, and family alignment. Honest score, no email gate, plain-English action steps.",
+      "Free 5-minute readiness score for families facing a parent's senior transition. Fifteen questions across the home, finances, legal documents, care needs, and family alignment. Instant score out of 100 with a pillar-by-pillar breakdown and plain-English next steps. No email required, and you can have the results emailed if you want them.",
     category: "assessment",
     minHeight: 1800,
   },

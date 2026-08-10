@@ -799,7 +799,7 @@
 
   <!-- HEADER -->
   <div class="cbt-header">
-    <div class="cbt-credential">Developed by Ryan Riggins: Senior Protection Coordinator and Licensed Real Estate Broker. I've guided dozens of families through the breaking point. My job is to protect the senior AND the caregiver.</div>
+    <div class="cbt-credential">Developed by Ryan Riggins: Senior Transition Advisor and Advocate and Licensed Real Estate Broker. I've guided dozens of families through the breaking point. My job is to protect the senior AND the caregiver.</div>
     <h1>Free Caregiver Burnout Quiz: <span>2-Minute Triage</span></h1>
     <p>This free caregiver burnout quiz takes 2 minutes. Ten questions across emotional, physical, financial, and time strain. Get your instant burnout score with personalized next steps. No email required.</p>
   </div>
@@ -869,15 +869,15 @@
     <!-- Ryan's Callout -->
     <div class="cbt-ryan">
       <div class="cbt-ryan-title">🔧 Ryan's Protective Insight</div>
-      <div class="cbt-ryan-text">"I've sat across the table from caregivers who looked fine on the outside but were dying on the inside. By the time they called me, they'd already made $30,000 in panic decisions — selling the house too cheap, skipping the estate plan, choosing the wrong facility. My job isn't just to protect the senior. It's to protect YOU, the caregiver, so you can make clear-headed decisions when it matters most."</div>
-      <div class="cbt-ryan-sig">— Ryan Riggins, Senior Protection Coordinator</div>
+      <div class="cbt-ryan-text">"I've sat across the table from caregivers who looked fine on the outside but were dying on the inside. By the time they called me, they'd already made $30,000 in panic decisions, selling the house too cheap, skipping the estate plan, choosing the wrong facility. My job isn't just to protect the senior. It's to protect YOU, the caregiver, so you can make clear-headed decisions when it matters most."</div>
+      <div class="cbt-ryan-sig">Ryan Riggins, Senior Transition Advisor and Advocate</div>
     </div>
 
     <!-- Dynamic CTA -->
     <div class="cbt-footer" id="cbtFooter"></div>
   </div>
 
-  <!-- FAQ — visible content for both readers and Google. Mirrors the
+  <!-- FAQ, visible content for both readers and Google. Mirrors the
        FAQPage JSON-LD at the top of the document. Always rendered (not
        gated on quiz completion) so it indexes regardless of quiz state. -->
   <section class="cbt-faq" aria-labelledby="cbt-faq-title">
@@ -958,7 +958,7 @@
       </a>
       <div class="cbt-sos-note">These lines are free, confidential, and available 24/7. On mobile, tap a number to call directly.</div>
     </div>
-    <button class="cbt-sos-close" onclick="cbtCloseSos()">I understand — show my full results</button>
+    <button class="cbt-sos-close" onclick="cbtCloseSos()">I understand, show my full results</button>
   </div>
 </div>
 
@@ -1068,7 +1068,7 @@ function cbtShowResults() {
     recs = [
       { icon: '✅', text: 'Continue your current self-care routine' },
       { icon: '👥', text: 'Stay connected with friends and family' },
-      { icon: '📊', text: 'Monitor your stress levels — retake this every 3 months' },
+      { icon: '📊', text: 'Monitor your stress levels. retake this every 3 months' },
       { icon: '📅', text: 'Schedule regular check-ins with your own doctor' },
       { icon: '💡', text: 'Build a backup plan now, while you\'re still strong' },
     ];
@@ -1080,35 +1080,35 @@ function cbtShowResults() {
       { icon: '🤝', text: 'Ask family members to take on specific tasks this week' },
       { icon: '🏥', text: 'Consider hiring part-time help (even 4-8 hours/week makes a difference)' },
       { icon: '👥', text: 'Join a caregiver support group (online or in-person)' },
-      { icon: '🩺', text: 'Schedule a check-up with your own doctor — tell them you\'re a caregiver' },
+      { icon: '🩺', text: 'Schedule a check-up with your own doctor. tell them you\'re a caregiver' },
       { icon: '📅', text: 'Schedule respite care at least once per month' },
       { icon: '💬', text: 'Talk to a therapist or counselor about your stress' },
       { icon: '📊', text: 'Retake this assessment monthly' },
     ];
   } else if (normalized <= 90) {
     tier = 'high'; bannerClass = 'high';
-    label = '🚨 High Risk — Danger Zone';
+    label = '🚨 High Risk: Danger Zone';
     verdict = 'Your health and well-being are at serious risk. You cannot continue at this pace. Get help immediately.';
     recs = [
-      { icon: '🆘', text: 'Get help immediately — you cannot continue at this pace' },
+      { icon: '🆘', text: 'Get help immediately. you cannot continue at this pace' },
       { icon: '🩺', text: 'Talk to your doctor THIS WEEK about your burnout symptoms' },
       { icon: '💬', text: 'Start professional counseling or therapy' },
       { icon: '🏠', text: 'Explore alternative care options: adult day care, in-home care, assisted living' },
       { icon: '🌴', text: 'Schedule respite care for at least 1 full week' },
-      { icon: '📋', text: 'Delegate tasks to other family members — make a list and assign them' },
+      { icon: '📋', text: 'Delegate tasks to other family members. make a list and assign them' },
       { icon: '⚖️', text: 'Consider whether you can continue as primary caregiver' },
       { icon: '📊', text: 'Retake this assessment weekly' },
     ];
   } else {
     tier = 'crisis'; bannerClass = 'crisis';
-    label = '🆘 CRISIS LEVEL — EMERGENCY';
+    label = '🆘 CRISIS LEVEL: EMERGENCY';
     verdict = 'You are at severe risk of physical and emotional collapse. You cannot continue at this pace. Immediate intervention is needed.';
     recs = [
-      { icon: '📞', text: 'Call your doctor TODAY — explain your situation and burnout symptoms' },
+      { icon: '📞', text: 'Call your doctor TODAY. explain your situation and burnout symptoms' },
       { icon: '🆘', text: 'Call a crisis hotline if you\'re having thoughts of harming yourself (988)' },
-      { icon: '🏥', text: 'Get emergency respite care — Area Agency on Aging: 1-800-677-1116' },
-      { icon: '👨‍👩‍👧‍👦', text: 'Call family members NOW — tell them you need immediate help' },
-      { icon: '🏠', text: 'Consider immediate alternative care — your loved one may need professional care' },
+      { icon: '🏥', text: 'Get emergency respite care. Area Agency on Aging: 1-800-677-1116' },
+      { icon: '👨‍👩‍👧‍👦', text: 'Call family members NOW. tell them you need immediate help' },
+      { icon: '🏠', text: 'Consider immediate alternative care. your loved one may need professional care' },
       { icon: '💡', text: 'You cannot continue as primary caregiver without major changes' },
       { icon: '❤️', text: 'Getting help is NOT giving up. It\'s ensuring your loved one gets the care they need.' },
     ];
@@ -1144,22 +1144,22 @@ function cbtShowResults() {
   const footer = document.getElementById('cbtFooter');
   if (normalized <= 60) {
     footer.innerHTML = `
-      <p>You're not in crisis yet — but the best time to build your protection plan is <strong>before</strong> things get worse.</p>
+      <p>You're not in crisis yet, but the best time to build your protection plan is <strong>before</strong> things get worse.</p>
       <div style="display:flex;flex-direction:column;gap:12px;max-width:480px;margin:0 auto;">
-        <a href="https://www.rigginsstrategicsolutions.com/the-blueprint" class="cbt-footer-btn cbt-btn-gold" style="display:block;text-align:center;">📋 Get the Senior Transition Blueprint — $47</a>
-        <a href="https://calendar.google.com/calendar/appointments/schedules/AcZssZ0y_kQQfkvnf6jQEBvA5X2Onolndq6VleuID3n9hDujDd4CjpOsaJzKqs_eXujvfVVayudxp2h5" class="cbt-footer-btn" style="display:block;text-align:center;background:rgba(255,255,255,0.1);border:2px solid rgba(255,255,255,0.3);color:#fff;box-shadow:none;border-radius:10px;">📞 Book a Free Call with Ryan</a>
-        <a href="https://www.rigginsstrategicsolutions.com/freeguide" style="display:block;text-align:center;color:rgba(255,255,255,0.6);font-size:14px;font-weight:600;text-decoration:none;padding:8px;">📖 Not ready? Download the Free Starter Guide</a>
-        <a href="sms:3365538933" style="display:block;text-align:center;padding:14px 24px;background:rgba(255,255,255,0.15);border:2px solid rgba(255,255,255,0.4);border-radius:10px;color:#fff;font-size:16px;font-weight:700;text-decoration:none;font-family:'Source Sans 3',sans-serif;">💬 Just Text Ryan — (336) 553-8933</a>
+        <a href="https://www.rigginsstrategicsolutions.com/the-blueprint" class="cbt-footer-btn cbt-btn-gold" style="display:block;text-align:center;">📋 Get the Senior Transition Blueprint (free)</a>
+        <a href="https://www.rigginsstrategicsolutions.com/work-with-ryan" class="cbt-footer-btn" style="display:block;text-align:center;background:rgba(255,255,255,0.1);border:2px solid rgba(255,255,255,0.3);color:#fff;box-shadow:none;border-radius:10px;">📞 Book a Free Call with Ryan</a>
+        <a href="https://www.rigginsstrategicsolutions.com/resources/senior-help-directory" style="display:block;text-align:center;color:rgba(255,255,255,0.6);font-size:14px;font-weight:600;text-decoration:none;padding:8px;">📖 Not ready? Browse the free Senior Help Directory</a>
+        <a href="sms:3365538933" style="display:block;text-align:center;padding:14px 24px;background:rgba(255,255,255,0.15);border:2px solid rgba(255,255,255,0.4);border-radius:10px;color:#fff;font-size:16px;font-weight:700;text-decoration:none;font-family:'Source Sans 3',sans-serif;">💬 Just Text Ryan: (336) 553-8933</a>
       </div>
     `;
   } else {
     footer.innerHTML = `
       <p>At this level of burnout, <strong>you need personalized guidance</strong>. Ryan can help you build a protection plan for both you and your loved one.</p>
       <div style="display:flex;flex-direction:column;gap:12px;max-width:480px;margin:0 auto;">
-        <a href="sms:3365538933" class="cbt-footer-btn cbt-btn-red" style="display:block;text-align:center;">💬 Text Ryan Right Now — (336) 553-8933</a>
-        <a href="https://calendar.google.com/calendar/appointments/schedules/AcZssZ0y_kQQfkvnf6jQEBvA5X2Onolndq6VleuID3n9hDujDd4CjpOsaJzKqs_eXujvfVVayudxp2h5" class="cbt-footer-btn cbt-btn-gold" style="display:block;text-align:center;">📞 Book a Free Call with Ryan</a>
-        <a href="https://www.rigginsstrategicsolutions.com/the-blueprint" style="display:block;text-align:center;padding:14px 24px;background:rgba(255,255,255,0.1);border:2px solid rgba(255,255,255,0.3);border-radius:10px;color:#fff;font-size:15px;font-weight:700;text-decoration:none;font-family:'Source Sans 3',sans-serif;">📋 Get the Blueprint — $47</a>
-        <a href="https://www.rigginsstrategicsolutions.com/freeguide" style="display:block;text-align:center;color:rgba(255,255,255,0.6);font-size:14px;font-weight:600;text-decoration:none;padding:8px;">📖 Download the Free Starter Guide</a>
+        <a href="sms:3365538933" class="cbt-footer-btn cbt-btn-red" style="display:block;text-align:center;">💬 Text Ryan Right Now: (336) 553-8933</a>
+        <a href="https://www.rigginsstrategicsolutions.com/work-with-ryan" class="cbt-footer-btn cbt-btn-gold" style="display:block;text-align:center;">📞 Book a Free Call with Ryan</a>
+        <a href="https://www.rigginsstrategicsolutions.com/the-blueprint" style="display:block;text-align:center;padding:14px 24px;background:rgba(255,255,255,0.1);border:2px solid rgba(255,255,255,0.3);border-radius:10px;color:#fff;font-size:15px;font-weight:700;text-decoration:none;font-family:'Source Sans 3',sans-serif;">📋 Get the Blueprint (free)</a>
+        <a href="https://www.rigginsstrategicsolutions.com/resources/senior-help-directory" style="display:block;text-align:center;color:rgba(255,255,255,0.6);font-size:14px;font-weight:600;text-decoration:none;padding:8px;">📖 Browse the free Senior Help Directory</a>
       </div>
     `;
   }

@@ -17,10 +17,12 @@ const footerNav: { heading: string; links: { href: string; label: string; extern
   {
     heading: "Free tools",
     links: [
-      { href: "/freeguide", label: "Simple Blueprint (free PDF)" },
+      { href: "/tools", label: "All free tools and calculators" },
+      { href: "/tools/family-readiness-score", label: "Family Readiness Score" },
       { href: "/tools/net-proceeds-calculator", label: "Net Proceeds Calculator" },
-      { href: "/tools/readiness-assessment", label: "Readiness Assessment" },
       { href: "/tools/aging-in-place-break-even", label: "Aging-in-Place Break-Even" },
+      { href: "/resources/senior-help-directory", label: "Senior Help Directory" },
+      { href: "/freeguide", label: "Simple Blueprint (free PDF)" },
     ],
   },
   {
@@ -29,8 +31,23 @@ const footerNav: { heading: string; links: { href: string; label: string; extern
       { href: "/about", label: "About Ryan" },
       { href: "/blog", label: "Blog" },
       { href: "/resources", label: "Resources" },
+      {
+        href: "/resources/cash-buyer-scams-elderly-homeowners",
+        label: "Wholesaler & cash-buyer protection",
+      },
       { href: "/media", label: "Media & podcasts" },
       { href: "/speaking", label: "Speaking" },
+      {
+        href: "https://www.amazon.com/dp/B0GQLB5536",
+        label: "Book: The Unheard Conversation",
+        external: true,
+      },
+      {
+        href: "https://www.amazon.com/dp/B0GRR5FLDD",
+        label: "Book: The Other Side of the Conversation",
+        external: true,
+      },
+      { href: "/contact", label: "Contact" },
     ],
   },
 ];
@@ -96,7 +113,24 @@ export function SiteFooter() {
           ))}
         </div>
 
-        <div className="mt-12 pt-6 border-t border-cream/15">
+        {/* One quiet line for the proactive and higher-net-worth families who
+            are planning ahead rather than reacting to a crisis. Deliberately
+            in the footer: the homepage hero belongs to the adult child in the
+            thick of it, and this must not dilute it. */}
+        <div className="mt-10 border-t border-cream/15 pt-6">
+          <p className="text-sm text-cream/80">
+            Planning ahead, before a crisis?{" "}
+            <Link
+              href="/work-with-ryan"
+              className="font-semibold text-gold-300 underline underline-offset-4 hover:text-gold-100"
+            >
+              Start the same conversation earlier
+            </Link>
+            .
+          </p>
+        </div>
+
+        <div className="mt-8 pt-6 border-t border-cream/15">
           <div className="flex justify-center md:justify-end">
             <SocialLinks className="text-cream/85" />
           </div>
