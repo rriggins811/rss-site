@@ -326,7 +326,7 @@ export const MODULES: Module[] = [
   {
     id: "module-15",
     number: "15",
-    title: "Long-Term Care Insurance Deep Dive",
+    title: "Long-Term Care Insurance In Depth",
     phase: "🟪 Settle In & Long-Term Wellbeing",
     outcomes: [
       "Decide whether LTC insurance fits your family",
