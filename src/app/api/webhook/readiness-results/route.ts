@@ -113,31 +113,6 @@ export async function POST(req: Request) {
   }
   const lead = validated.value;
 
-  // TEMPORARY (Aug 10 2026): forced-failure probe to prove the alerting path
-  // works in production. Deliberately NOT achieved by breaking a real write:
-  // this fires only on an exact sentinel first name no visitor would type, and
-  // returns before touching the database, so a real submission landing during
-  // the verification window is completely unaffected.
-  //
-  // Recorded under its own route name, not "readiness-results", so the 30
-  // minute alert throttle for the real route stays untouched. Remove once the
-  // alert has been seen.
-  if (lead.first_name === "__ALERTTEST__") {
-    await recordFailure({
-      route: "alert-selftest",
-      stage: "supabase-insert",
-      code: "TEST",
-      message:
-        "Forced probe verifying the alert path end to end. This is NOT a real failure and nothing was lost.",
-      email: lead.email,
-      payload: { probe: true, note: "safe to delete" },
-    });
-    return NextResponse.json(
-      { ok: true, message: "probe recorded" },
-      { status: 200 }
-    );
-  }
-
   const rawScore = typeof body.score === "number" ? body.score : Number.NaN;
   if (!Number.isFinite(rawScore) || rawScore < 0 || rawScore > 100) {
     return NextResponse.json(
