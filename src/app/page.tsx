@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { GoldRule } from "@/components/site/GoldRule";
-import { BrandPlaceholder } from "@/components/site/BrandPlaceholder";
+import { BrandPanel } from "@/components/site/BrandPanel";
 import { FAQSection, type FAQItem } from "@/components/aeo/FAQSection";
 import { JsonLd } from "@/components/site/JsonLd";
 import { professionalServiceSchema } from "@/lib/schema";
@@ -182,9 +182,12 @@ export default function HomePage() {
               Free 20-minute call. No pressure, no upsells.
             </p>
           </div>
-          <BrandPlaceholder
+          {/* The locked core proposition, set in the brand type system.
+              Deliberately not a restatement of the H1. */}
+          <BrandPanel
             className="aspect-[4/3] lg:aspect-square"
-            slot="Hero: type-forward brand treatment in burgundy, gold, and cream. Same look as the roadmap PDF. No photography."
+            heading="Calling an agent starts a clock."
+            sub="Ryan is the call that doesn’t."
           />
         </div>
       </section>
@@ -321,9 +324,10 @@ export default function HomePage() {
               &ldquo;I did right by them.&rdquo; Relief.
             </p>
           </div>
-          <BrandPlaceholder
+          <BrandPanel
             className="aspect-[4/3]"
-            slot="Success: original brand-styled treatment in the RSS palette. No stock or generated family photos."
+            kicker="What right looks like"
+            heading="Money intact. Dignity intact. Family intact."
           />
         </div>
       </section>
