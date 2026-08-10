@@ -8,6 +8,7 @@ import {
   readinessTags,
 } from "@/lib/ghl-proxy";
 import { sendReadinessResultsEmail } from "@/lib/email/readiness-results";
+import { recordFailure } from "@/lib/failure-log";
 
 export const runtime = "nodejs";
 
@@ -158,8 +159,15 @@ export async function POST(req: Request) {
   const isDuplicate = insertErr?.code === "23505";
 
   if (insertErr && !isDuplicate) {
-    console.error("[readiness-results] supabase insert failed", insertErr);
-    // Keep going. A Supabase hiccup should not cost them the email.
+    // Keep serving the visitor, but make sure this is impossible to miss.
+    await recordFailure({
+      route: "readiness-results",
+      stage: "supabase-insert",
+      code: insertErr.code,
+      message: insertErr.message,
+      email: lead.email,
+      payload: { first_name: lead.first_name, score, band, pillars },
+    });
   }
   if (!insertErr && (!insertedRows || insertedRows.length === 0)) {
     console.warn("[readiness-results] insert returned no rows");
@@ -178,7 +186,15 @@ export async function POST(req: Request) {
       pillars: pillars ?? null,
     });
     if (!sent.ok) {
-      console.error("[readiness-results] results email not sent:", sent.reason);
+      // The form told them the results were on the way. If the send failed,
+      // that promise is broken and somebody has to know.
+      await recordFailure({
+        route: "readiness-results",
+        stage: "email-send",
+        message: sent.reason,
+        email: lead.email,
+        payload: { first_name: lead.first_name, score, band, pillars },
+      });
     }
 
     const ghl = await upsertGhlContactWithTags(
@@ -190,7 +206,14 @@ export async function POST(req: Request) {
       readinessTags(band)
     );
     if (!ghl.ok) {
-      console.error("[readiness-results] GHL upsert failed", ghl.status, ghl.error);
+      await recordFailure({
+        route: "readiness-results",
+        stage: "ghl-upsert",
+        code: ghl.status,
+        message: ghl.error,
+        email: lead.email,
+        payload: { first_name: lead.first_name, tags: readinessTags(band) },
+      });
     }
   }
 

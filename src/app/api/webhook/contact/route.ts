@@ -3,6 +3,7 @@ import { validateLead } from "@/lib/lead-validation";
 import { getServiceSupabase } from "@/lib/supabase-server";
 import { checkAndRecordRateLimit, getClientIp } from "@/lib/rate-limit";
 import { GHL_WEBHOOKS, postToGhl } from "@/lib/ghl-webhooks";
+import { recordFailure } from "@/lib/failure-log";
 
 export const runtime = "nodejs";
 
@@ -74,14 +75,31 @@ export async function POST(req: Request) {
   });
 
   if (insertErr) {
-    console.error("[contact] supabase insert failed", insertErr);
+    await recordFailure({
+      route: "contact",
+      stage: "supabase-insert",
+      code: insertErr.code,
+      message: insertErr.message,
+      email: lead.email,
+      payload: {
+        first_name: lead.first_name,
+        last_name: lead.last_name,
+        phone: lead.phone,
+        message: lead.message,
+      },
+    });
   }
 
   const ghl = await postToGhl(GHL_WEBHOOKS.contact, ghlPayload);
   if (!ghl.ok) {
-    console.error(
-      `[contact] GHL POST failed status=${ghl.status} error=${ghl.error ?? ""}`
-    );
+    await recordFailure({
+      route: "contact",
+      stage: "ghl-webhook",
+      code: ghl.status,
+      message: ghl.error ?? "non-ok response",
+      email: lead.email,
+      payload: ghlPayload,
+    });
   }
 
   return SUCCESS;

@@ -4,6 +4,7 @@ import { checkAndRecordRateLimit, getClientIp } from "@/lib/rate-limit";
 import { upsertGhlContactWithTags } from "@/lib/ghl-proxy";
 import { getLeadMagnet, guideDeliveryUrl } from "@/lib/lead-magnets";
 import { sendLeadMagnetEmail } from "@/lib/email/lead-magnets";
+import { recordFailure } from "@/lib/failure-log";
 
 export const runtime = "nodejs";
 
@@ -168,7 +169,14 @@ export async function POST(req: Request) {
     .select("id");
 
   if (insertErr) {
-    console.error(`[guide-deliver:${magnet.slug}] supabase upsert failed`, insertErr);
+    await recordFailure({
+      route: `guide-deliver:${magnet.slug}`,
+      stage: "supabase-insert",
+      code: insertErr.code,
+      message: insertErr.message,
+      email,
+      payload: { firstName, phone, magnet: magnet.slug, source },
+    });
   }
 
   const readUrl = guideDeliveryUrl(magnet);
@@ -200,19 +208,41 @@ export async function POST(req: Request) {
     sendLeadMagnetEmail({ to: email, firstName, magnet }),
   ]);
 
+  const magnetFailurePayload = { firstName, phone, magnet: magnet.slug };
   if (ghlRes.status === "rejected") {
-    console.error(`[guide-deliver:${magnet.slug}] ghl upsert rejected=${String(ghlRes.reason)}`);
+    await recordFailure({
+      route: `guide-deliver:${magnet.slug}`,
+      stage: "ghl-upsert",
+      message: String(ghlRes.reason),
+      email,
+      payload: magnetFailurePayload,
+    });
   } else if (!ghlRes.value.ok) {
-    console.error(
-      `[guide-deliver:${magnet.slug}] ghl upsert failed status=${ghlRes.value.status} error=${ghlRes.value.error}`
-    );
+    await recordFailure({
+      route: `guide-deliver:${magnet.slug}`,
+      stage: "ghl-upsert",
+      code: ghlRes.value.status,
+      message: ghlRes.value.error,
+      email,
+      payload: magnetFailurePayload,
+    });
   }
   if (emailRes.status === "rejected") {
-    console.error(`[guide-deliver:${magnet.slug}] email rejected=${String(emailRes.reason)}`);
+    await recordFailure({
+      route: `guide-deliver:${magnet.slug}`,
+      stage: "email-send",
+      message: String(emailRes.reason),
+      email,
+      payload: magnetFailurePayload,
+    });
   } else if (!emailRes.value.ok) {
-    console.warn(
-      `[guide-deliver:${magnet.slug}] email not sent reason=${emailRes.value.reason}`
-    );
+    await recordFailure({
+      route: `guide-deliver:${magnet.slug}`,
+      stage: "email-send",
+      message: emailRes.value.reason,
+      email,
+      payload: magnetFailurePayload,
+    });
   }
 
   return NextResponse.json({ ok: true, magnet: magnet.slug, readUrl }, { status: 200 });

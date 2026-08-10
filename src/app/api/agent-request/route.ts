@@ -2,6 +2,7 @@ import { NextResponse } from "next/server";
 import { getServiceSupabase } from "@/lib/supabase-server";
 import { checkAndRecordRateLimit, getClientIp } from "@/lib/rate-limit";
 import { upsertGhlContactWithTags, callGhlProxy } from "@/lib/ghl-proxy";
+import { recordFailure } from "@/lib/failure-log";
 
 // "I just need an agent" request, from /need-an-agent.
 //
@@ -82,9 +83,24 @@ export async function POST(req: Request) {
         ip,
       },
     });
-    if (error) console.error("[agent-request] supabase insert failed", error);
+    if (error) {
+      await recordFailure({
+        route: "agent-request",
+        stage: "supabase-insert",
+        code: error.code,
+        message: error.message,
+        email,
+        payload: { firstName, lastName, phone, location, timeline, offer, urgent },
+      });
+    }
   } catch (err) {
-    console.error("[agent-request] supabase threw", err);
+    await recordFailure({
+      route: "agent-request",
+      stage: "supabase-insert",
+      message: err instanceof Error ? err.message : "threw",
+      email,
+      payload: { firstName, lastName, phone, location, timeline, offer, urgent },
+    });
   }
 
   // 2. Tag in GHL. `agent-request-urgent` is what makes an offer-on-the-table
@@ -97,9 +113,24 @@ export async function POST(req: Request) {
       { email, firstName, lastName, phone, source: "need-an-agent" },
       tags
     );
-    if (!res.ok) console.error("[agent-request] ghl upsert failed", res.status, res.error);
+    if (!res.ok) {
+      await recordFailure({
+        route: "agent-request",
+        stage: "ghl-upsert",
+        code: res.status,
+        message: res.error,
+        email,
+        payload: { firstName, lastName, phone, tags },
+      });
+    }
   } catch (err) {
-    console.error("[agent-request] ghl threw", err);
+    await recordFailure({
+      route: "agent-request",
+      stage: "ghl-upsert",
+      message: err instanceof Error ? err.message : "threw",
+      email,
+      payload: { firstName, lastName, phone, tags },
+    });
   }
 
   // 3. Referral Pipeline card, so this lands on the same board as Roadmap
@@ -132,9 +163,23 @@ export async function POST(req: Request) {
         contactId: undefined,
       },
     });
-    if (!opp.ok) console.error("[agent-request] opportunity create failed:", opp.error);
+    if (!opp.ok) {
+      await recordFailure({
+        route: "agent-request",
+        stage: "ghl-opportunity",
+        message: String(opp.error),
+        email,
+        payload: { cardName, urgent, pipelineId: REFERRAL_PIPELINE_ID },
+      });
+    }
   } catch (err) {
-    console.error("[agent-request] opportunity threw", err);
+    await recordFailure({
+      route: "agent-request",
+      stage: "ghl-opportunity",
+      message: err instanceof Error ? err.message : "threw",
+      email,
+      payload: { cardName, urgent, pipelineId: REFERRAL_PIPELINE_ID },
+    });
   }
 
   return NextResponse.json(

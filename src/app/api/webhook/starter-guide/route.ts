@@ -5,6 +5,7 @@ import { checkAndRecordRateLimit, getClientIp } from "@/lib/rate-limit";
 import { GHL_WEBHOOKS, postToGhl } from "@/lib/ghl-webhooks";
 import { upsertGhlContactWithTags, GHL_TAGS } from "@/lib/ghl-proxy";
 import { getLeadMagnet, magnetAbsoluteUrl } from "@/lib/lead-magnets";
+import { recordFailure } from "@/lib/failure-log";
 
 export const runtime = "nodejs";
 
@@ -210,10 +211,20 @@ export async function POST(req: Request) {
     )
     .select("id");
   if (insertErr) {
-    console.error(
-      `[${isLeadMagnetFlow ? "lead-magnet" : "starter-guide"}] supabase upsert failed`,
-      insertErr
-    );
+    await recordFailure({
+      route: isLeadMagnetFlow ? `lead-magnet:${magnet!.slug}` : "starter-guide",
+      stage: "supabase-insert",
+      code: insertErr.code,
+      message: insertErr.message,
+      email: lead.email,
+      payload: {
+        first_name: lead.first_name,
+        last_name: lead.last_name,
+        phone: lead.phone,
+        form_type: formType,
+        source,
+      },
+    });
   }
 
   // A same-hour duplicate returns zero rows. Skip the entire downstream
@@ -326,7 +337,13 @@ export async function POST(req: Request) {
       blueprintRes.status === "fulfilled"
         ? `status=${blueprintRes.value.status} error=${blueprintRes.value.error ?? ""}`
         : `rejected=${String(blueprintRes.reason)}`;
-    console.error(`[${logPrefix}] Blueprint POST failed ${detail}`);
+    await recordFailure({
+      route: logPrefix,
+      stage: "blueprint-signup",
+      message: detail,
+      email: lead.email,
+      payload: { first_name: lead.first_name, source },
+    });
   }
   if (
     ghlWebhookRes &&
@@ -337,16 +354,31 @@ export async function POST(req: Request) {
       ghlWebhookRes.status === "fulfilled"
         ? `status=${ghlWebhookRes.value.status} error=${ghlWebhookRes.value.error ?? ""}`
         : `rejected=${String(ghlWebhookRes.reason)}`;
-    console.error(`[${logPrefix}] GHL legacy webhook POST failed ${detail}`);
+    await recordFailure({
+      route: logPrefix,
+      stage: "ghl-webhook",
+      message: detail,
+      email: lead.email,
+      payload: { first_name: lead.first_name, source },
+    });
   }
   if (ghlProxyRes.status === "rejected") {
-    console.error(
-      `[${logPrefix}] ghl-proxy upsert+tag rejected=${String(ghlProxyRes.reason)}`
-    );
+    await recordFailure({
+      route: logPrefix,
+      stage: "ghl-upsert",
+      message: String(ghlProxyRes.reason),
+      email: lead.email,
+      payload: { first_name: lead.first_name, source },
+    });
   } else if (!ghlProxyRes.value.ok) {
-    console.error(
-      `[${logPrefix}] ghl-proxy upsert+tag failed status=${ghlProxyRes.value.status} error=${ghlProxyRes.value.error}`
-    );
+    await recordFailure({
+      route: logPrefix,
+      stage: "ghl-upsert",
+      code: ghlProxyRes.value.status,
+      message: ghlProxyRes.value.error,
+      email: lead.email,
+      payload: { first_name: lead.first_name, source },
+    });
   } else {
     // Success path — log contactId so we can correlate with GHL UI when
     // verifying. Drop this log line after Phase 5 verification.
