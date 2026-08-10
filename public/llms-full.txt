@@ -5,8 +5,8 @@ It contains the full Markdown of every key page, resource pillar, Senior Help
 Directory state page, and blog post, intended for AI crawlers that ingest
 content for answer generation.
 
-Generated: 2026-08-07
-Indexed: 101 blog posts, 16 resource pillars, 51 Senior Help Directory state pages.
+Generated: 2026-08-10
+Indexed: 102 blog posts, 16 resource pillars, 51 Senior Help Directory state pages.
 
 For citation guidance, organizational facts, and topic depth, see the summary
 index at https://rigginsstrategicsolutions.com/llms.txt.
@@ -5186,8 +5186,154 @@ You must qualify for Medicaid, then apply for the Community Choices Waiver, choo
 
 # Blog Posts (newest first)
 
-The 101 posts below are the full body of every published article
+The 102 posts below are the full body of every published article
 on https://rigginsstrategicsolutions.com/blog, in reverse chronological order.
+
+---
+
+# Medicare Home Health Is Not Home Care, and the Gap Decides Where Your Parent Lives
+https://rigginsstrategicsolutions.com/blog/medicare-home-health-not-home-care-2027-rule
+Published: 2026-08-10
+
+**Excerpt:** Medicare covers home health with no copay and no visit limit, and it still will not pay for the thing most families actually need. CMS just proposed its 2027 rule for this benefit, and the comment window closes August 31.
+
+There's one sentence that ends more aging-in-place plans than any doctor's visit does: Medicare covers home health, so we'll be fine.
+
+You've probably said some version of it, or heard a sibling say it on a group call, and nobody in the room had a reason to doubt it. It sounds right. Medicare does cover home health. It covers it well, with no copay, and with no cap on the number of visits. So the plan gets built on top of that sentence and everybody exhales a little.
+
+Then a nurse comes for three weeks after the hospital, does good work, signs off, and leaves. And you're standing in your mother's kitchen at nine at night realizing the thing she actually needs has no nurse attached to it. She needs somebody there. Somebody to catch her on the way to the bathroom at two in the morning, to make sure she ate, to notice she's wearing yesterday's clothes again. That isn't a nursing problem. Medicare won't pay a dollar toward it.
+
+I spent 8+ years buying houses from families who had already hit that wall, and the wall almost always arrived as a surprise. Not because anybody was careless. Because "home health" sounds exactly like "help at home," and it isn't.
+
+CMS just put out its 2027 payment rule for this benefit, and the public comment window closes at the end of this month. So this is a good moment to get the real boundaries in front of you, while you still have room to plan, instead of meeting them in a hallway with a discharge planner handing you a folder.
+
+## What CMS just proposed, and why the timing matters
+
+On July 1, 2026, the Centers for Medicare and Medicaid Services issued its proposed rule for the Home Health Prospective Payment System for calendar year 2027, CMS-1844-P. It published in the Federal Register on July 6. Per the Federal Register's own docket entry, comments must be received no later than 5 p.m. EDT on August 31, 2026.
+
+The headline reads like good news. CMS estimates Medicare payments to home health agencies in 2027 would rise in the aggregate by 2.4 percent, or $420 million, compared to 2026. That includes a proposed payment update of 2.1 percent, worth roughly $370 million.
+
+Underneath it sits a second number that matters more to your family. CMS is also proposing a temporary adjustment of negative 3.0 percent to the 2027 national standardized payment rate. That isn't a penalty for bad care. It's the agency continuing to recoup what it calculates it overpaid between 2020 and 2025, after the 2020 shift to 30-day payment periods and the Patient-Driven Groupings Model. In its own fact sheet, CMS notes it already applied reductions of 3.925 percent in 2023, 2.890 percent in 2024, and 1.975 percent in 2025, plus a permanent 1.023 percent and a temporary 3.0 percent in 2026. CMS is not proposing an additional permanent cut for 2027.
+
+Stack those years and you get the story behind something you may have already run into: agencies that say no. A rate that keeps getting trimmed is a rate that makes short, complicated, rural, or far-from-the-office cases uneconomic to accept. The same rule also proposes making all Medicare enrollment revocations retroactive and adding new grounds to revoke or deny enrollment, including when a provider's owners or managing employees have been suspended or revoked somewhere else. That's good fraud enforcement. It also means the list of agencies you get handed could be shorter next year than it is now.
+
+One more piece deserves your attention. CMS is explicitly asking for comment on how to expand access to community-based palliative care through the home health benefit. That's a door being held open, and families almost never walk through it.
+
+## What Medicare home health actually covers
+
+Here's the part to write down. According to Medicare.gov, covered home health includes part-time or intermittent skilled nursing care, physical therapy, occupational therapy, speech-language pathology services, medical social services, durable medical equipment, and medical supplies for use at home. It also includes part-time or intermittent home health aide care, but only if your parent is getting skilled nursing, physical therapy, speech-language pathology, or occupational therapy at the same time.
+
+Read that last clause twice. The aide is attached to the skilled care. When the skilled care ends, the aide ends.
+
+Medicare.gov is just as direct about what it won't pay for: 24-hour-a-day care at home, home meal delivery, homemaker services like shopping and cleaning that are unrelated to the care plan, and custodial or personal care that helps with daily living activities such as bathing, dressing, or using the bathroom, when that's the only care needed.
+
+That last exclusion is the whole ballgame. The thing that keeps most seniors out of assisted living is precisely the thing Medicare defines as not its job.
+
+There are two more gates. Your parent has to need part-time or intermittent skilled services, and has to be homebound, which Medicare.gov defines as meeting both of these conditions: leaving home isn't recommended because of their condition, or they have trouble leaving without help such as a cane, walker, wheelchair, special transportation, or another person; and they're normally unable to leave home, and leaving takes a lot of effort. Needing more than part-time or intermittent skilled care disqualifies them too, which catches people off guard, because more need sounds like it should mean more coverage.
+
+Two details work in your favor. Medicare.gov confirms your parent can still leave home for medical treatment and for short, infrequent non-medical trips such as religious services, and that attending adult day care doesn't cost them the benefit.
+
+When your parent does qualify, the money is genuinely good. Medicare.gov states you pay nothing for covered home health services, and that visits are unlimited. In most cases, part-time or intermittent means up to 8 hours a day combined between nursing and aide care, capped at 28 hours a week, and up to 35 hours a week for a short stretch if the provider decides it's necessary. Equipment is the one exception: after the Part B deductible, which is $283 in 2026, you pay 20 percent of the Medicare-approved amount for covered medical equipment.
+
+## The number that decides it
+
+So price the gap. Per the CareScout Cost of Care Survey released in March 2026, built on rates collected from providers nationwide between July and November 2025, the national median for a non-medical caregiver is $35 an hour. At 44 hours a week, CareScout puts that at $80,080 a year.
+
+Now set it beside the alternative. CareScout's national median for an assisted living community is $6,200 a month, or $74,400 a year.
+
+Sit with that for a second. Forty-four hours a week of help at home, which is nowhere close to around-the-clock, already costs more than the median assisted living bill. And adding a clinical need doesn't help: CareScout's median for private duty nursing in the home is $90 an hour, or $160 per visit.
+
+This is why so many families end up somewhere they swore they'd never choose. Not because anybody talked them into it, and not because they didn't love their parent enough to try. Because the arithmetic broke quietly, over a matter of months, and nobody had put it on paper early enough to plan around it.
+
+There's a cheaper middle that families skip almost every time. CareScout's median for adult day health care is $95 a day, about $24,700 a year at five days a week, and it's the one setting that got less expensive last year, down 5 percent while everything else went up. It buys supervision, meals, and company during the hours a working daughter can't be there, and per Medicare.gov it doesn't disqualify home health.
+
+### Where the house comes into it
+
+Eventually the money conversation turns into a house conversation, because the house is where the money is. Here's what's worth noticing before you make that call: phoning a real estate agent starts a clock. That isn't an agent being pushy, that's literally the job. A good one wants it listed by the weekend, priced, photographed, and moving.
+
+If your family is two years from that decision, the market offers you exactly one door, and it opens onto a process you're not ready for. You don't have to walk through it to get information. You don't have to interview three agents, compare three prices you have no way to check, or be the one who tells two of them no. You can have the conversation first and start the clock later, on your calendar instead of somebody else's.
+
+## What to do in the next two weeks
+
+### 1. Get the homebound question answered in writing
+
+Ask your parent's provider directly whether they currently meet Medicare's homebound definition and have a qualifying skilled need. Don't accept "probably." That answer determines whether anything else on this list is even available to you, and Medicare.gov requires a face-to-face assessment before a provider can certify home health at all.
+
+### 2. Ask what happens the week the skilled care ends
+
+This is the most useful question you can put to a discharge planner, and almost nobody asks it. Get a date. The aide help ends when the nursing or therapy ends, so you want that date on a calendar now rather than discovering it on a Tuesday.
+
+### 3. Ask who owns the agency you're being referred to
+
+Medicare.gov says your provider should give you a list of agencies serving your area, and must tell you if their organization has a financial interest in any agency on that list. Ask out loud. A referral can be both financially interested and genuinely the right choice, but you deserve to know which one you're looking at before you sign.
+
+### 4. Get the coverage notice before services start, not after
+
+The agency is supposed to tell you, verbally and in writing, if Medicare won't pay for something it provides, using a form Medicare.gov calls the Advance Beneficiary Notice. Ask for it up front. That single piece of paper is what prevents a surprise bill six weeks later.
+
+### 5. Price the gap on paper this month
+
+Take the hours your parent actually needs, not the hours you're hoping for, and multiply by your local rate. Then compare it against local assisted living and against adult day care. You're not making a decision today. You're refusing to make it later, under duress, in a conversation that starts with the word "unfortunately."
+
+### 6. Comment on the rule before August 31
+
+CMS has to read public comments, and comments from families are rare enough to stand out in a docket full of trade groups. If your family got turned away by agencies, lost aide help the week therapy ended, or would use palliative care at home if it were reachable, that's exactly what the docket is for. Comments on CMS-1844-P are due by 5 p.m. EDT on August 31, 2026.
+
+## Frequently Asked Questions
+
+### Does Medicare pay for a caregiver to help my parent bathe and dress?
+
+Only alongside skilled care. Medicare.gov covers part-time or intermittent home health aide help with bathing, grooming, walking, and feeding, but only if your parent is also receiving skilled nursing, physical therapy, occupational therapy, or speech-language pathology services at the same time. Medicare.gov states plainly that it doesn't pay for custodial or personal care with daily living activities when that's the only care needed, so when the nursing or therapy ends, the aide help ends with it.
+
+### How many hours a week of home health will Medicare cover?
+
+Per Medicare.gov, if your parent qualifies there's no limit on the number of visits, and part-time or intermittent generally means up to 8 hours a day combined between skilled nursing and home health aide services, with a maximum of 28 hours a week. A provider can order more for a short period, up to 35 hours a week, if they decide it's necessary. Needing more skilled care than that can actually disqualify your parent from the benefit rather than expand it.
+
+### What does Medicare home health cost out of pocket?
+
+Nothing for the covered services. Medicare.gov states you pay nothing for covered home health services. The exception is equipment: after you meet the Part B deductible, which is $283 in 2026, you pay 20 percent of the Medicare-approved amount for Medicare-covered durable medical equipment. Before care starts, the agency should tell you both verbally and in writing about anything Medicare won't cover, using an Advance Beneficiary Notice.
+
+### Is home care cheaper than assisted living?
+
+Usually not, once the hours get real. The CareScout Cost of Care Survey released in March 2026 puts the national median for a non-medical caregiver at $35 an hour, which CareScout calculates as $80,080 a year at 44 hours a week. The same survey puts median assisted living at $6,200 a month, or $74,400 a year. Home care wins at fewer hours and loses at more, so the honest comparison depends entirely on how many hours your parent actually needs.
+
+### Can I comment on the Medicare home health rule as a family member?
+
+Yes. The comment period on CMS-1844-P is open to anyone, not only providers, and the Federal Register notice states that comments must be received no later than 5 p.m. EDT on August 31, 2026. CMS specifically asked for input on how to expand access to community-based palliative care through the home health benefit, so a family describing what the coverage gap actually cost them is squarely on topic.
+
+## About Ryan Riggins
+
+Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafe app](https://seniorsafeapp.com).
+
+---
+
+**Want to run the numbers yourself?** The free Aging-in-Place Break-Even tool compares the real cost of care at home against a move: rigginsstrategicsolutions.com/tools/aging-in-place-break-even
+
+**Want a step-by-step guide?** The free Simple Blueprint walks through every stage of a senior transition: rigginsstrategicsolutions.com/freeguide
+
+**Ready for the full system?** The Senior Transition Blueprint is free, all 20 modules and 69 tools: rigginsstrategicsolutions.com/the-blueprint
+
+**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/blueprint-premium
+
+**Selling a parent's home?** Ryan finds and vets the right local agent for your situation and stays in your corner on the whole sale, at no added cost to your family: rigginsstrategicsolutions.com/in-your-corner
+
+**Coordinate the family in one place.** SeniorSafeApp keeps daily check-ins, medications, and documents where the whole family can see them: seniorsafeapp.com
+
+## Sources
+
+All sources checked August 10, 2026.
+
+CMS, "Calendar Year (CY) 2027 Home Health Prospective Payment System Proposed Rule Fact Sheet (CMS-1844-P)," cms.gov, dated July 1, 2026. The 2.4 percent aggregate increase and $420 million, the 2.1 percent payment update and $370 million, the proposed temporary adjustment of negative 3.0 percent to the CY 2027 national standardized rate, the continued recoupment for CYs 2020 through 2025, the prior reductions of 3.925 percent (2023), 2.890 percent (2024), and 1.975 percent (2025), the permanent negative 1.023 percent plus temporary 3.0 percent applied in CY 2026, the statement that no additional permanent adjustment is proposed for CY 2027, the retroactive revocation proposal, the expanded revocation grounds covering owners and managing employees, and the request for comment on community-based palliative care.
+
+Federal Register, "Calendar Year 2027 Home Health Prospective Payment System (HH PPS) Rate Update," document 2026-13602, RIN 0938-AV80, published July 6, 2026. The publication date and the comment deadline of 5 p.m. EDT on August 31, 2026, from the document's own DATES section.
+
+Medicare.gov, "Home health services." The covered service list, the requirement that home health aide care run concurrent with skilled nursing or therapy, the four exclusions (24-hour-a-day care at home, home meal delivery, unrelated homemaker services, and custodial or personal care when it is the only care needed), the two-part homebound definition, the disqualification for needing more than part-time or intermittent skilled care, the allowances for medical treatment, short infrequent absences, and adult day care, the face-to-face assessment requirement, the agency list and financial interest disclosure, the Advance Beneficiary Notice, zero cost for covered services, unlimited visits, the 8 hours a day and 28 hours a week guideline with up to 35 hours for a short time, and the 20 percent equipment coinsurance after the Part B deductible.
+
+Medicare.gov, "Medicare costs." The 2026 Part B deductible of $283.
+
+CareScout, "CareScout Releases 2025 Cost of Care Survey Results," via Genworth Financial investor relations, March 2, 2026, reporting rates collected from providers nationwide between July and November 2025. The $35 hourly and $80,080 annual (44 hours a week) non-medical caregiver medians, the $90 hourly and $160 per-visit private duty nursing medians, the $6,200 monthly and $74,400 annual assisted living medians, and the $95 daily and $24,700 annual adult day health care medians with its 5 percent decline.
+
+Education, not advice. Medicare cost-sharing amounts reset every January, the CY 2027 home health rule described here is a proposal and not final, and whether a specific parent qualifies for home health is a clinical determination made case by case. Confirm current details with the provider, with 1-800-MEDICARE, or with your free local State Health Insurance Assistance Program.
 
 ---
 
