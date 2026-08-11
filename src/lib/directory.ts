@@ -536,6 +536,15 @@ export const DIRECTORY_COUNTIES: DirectoryCounty[] = [
     blurb:
       "West Palm Beach, FL programs for seniors and families: the senior homestead exemption that 20 of 39 towns adopted at four different dollar amounts and the big city that adopted none of it, the Super Senior exemption in Boynton Beach and Delray Beach, three Meals on Wheels doors by geography, the county's own EHEAP for people 60 and older, LIHEAP, SHINE Medicare counseling, home repair windows, the paratransit rules that changed in January 2026, the Elder Law Project with no income test, caregiver support, and the county's one operating PACE program.",
   },
+  {
+    slug: "duval-county-fl-senior-help-directory",
+    county: "Duval County",
+    state: "FL",
+    metro: "Jacksonville",
+    region: "Northeast Florida",
+    blurb:
+      "Jacksonville, FL programs for seniors and families: the 25-year Long-Term Residency exemption that can erase the City of Jacksonville portion of the tax bill, free JTA bus rides at 65, EHEAP run by the city itself and LIHEAP through NFCAA, the Beaches Energy CARE program for the beach towns, senior centers serving breakfast and lunch at no charge, Aging True Meals on Wheels, which home repair programs are open and which are closed, legal aid with no income test at 60, the Mayo memory clinic, and the one PACE program whose service area is drawn by ZIP code.",
+  },
 ];
 
 export type DirectoryState = {
