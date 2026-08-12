@@ -33,6 +33,16 @@ const nextConfig: NextConfig = {
       // /the-blueprint wins on inbound links by a wide margin (120 references
       // against 8), so it is canonical and this retires the other. The name
       // "Blueprint Core" is retired anyway.
+      // "Blueprint Premium" is now "The Senior Transition Roadmap". The URL
+      // carried the retired product name, so the page moved to /the-roadmap.
+      // 40 published blog posts, the GHL emails, and any ad or partner link
+      // still point at the old path, so this redirect is load-bearing rather
+      // than cosmetic. Do not remove it.
+      {
+        source: "/blueprint-premium",
+        destination: "/the-roadmap",
+        permanent: true,
+      },
       {
         source: "/blueprint-core",
         destination: "/the-blueprint",

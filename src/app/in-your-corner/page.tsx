@@ -392,7 +392,7 @@ export default function InYourCornerPage() {
                 Everything: a written plan you build with Ryan, the full course and tools, and calls that
                 cover care, legal, financial, and the move, not just the house. Free, by application.
               </p>
-              <Link href="/blueprint-premium" className="mt-3 inline-flex items-center gap-1 text-sm font-semibold text-burgundy underline underline-offset-4 hover:text-burgundy-700">
+              <Link href="/the-roadmap" className="mt-3 inline-flex items-center gap-1 text-sm font-semibold text-burgundy underline underline-offset-4 hover:text-burgundy-700">
                 See the Senior Transition Roadmap
                 <span aria-hidden>&rarr;</span>
               </Link>

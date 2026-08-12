@@ -20,7 +20,7 @@ Riggins Strategic Solutions is a consumer protection media and education company
 
 The site offers a tiered approach:
 - Free: The Simple Blueprint (starter guide PDF + 14-day SeniorSafe trial)
-- Free: The Senior Transition Blueprint (20 modules, 70+ tools, self-paced course; formerly the paid Blueprint Core, now free with a free account signup)
+- Free: The Senior Transition Blueprint (20 modules and 69 tools, self-paced course; formerly the paid Blueprint Core, now free with a free account signup)
 - Free, by application: The Senior Transition Roadmap (a written plan built with Ryan: intake form, intake call, plan built together, follow-up call, 90 days email support; formerly the paid Blueprint Premium)
 - $14.99/mo: SeniorSafe Premium (family coordination app)
 - $39.99/mo: SeniorSafe Premium+ (adds Maggie, an AI transition specialist trained on the full Blueprint methodology)
@@ -69,9 +69,9 @@ The Blueprint is the umbrella name for Riggins Strategic Solutions' five-tier of
 ---
 
 # Senior Transition Roadmap: Free Guided Advisory, By Application
-https://rigginsstrategicsolutions.com/blueprint-premium
+https://rigginsstrategicsolutions.com/the-roadmap
 
-The Senior Transition Roadmap (formerly Blueprint Premium) is the free guided tier of The Blueprint, offered by application. It includes everything in the free Senior Transition Blueprint (20 modules, 70+ tools) plus the guided components:
+The Senior Transition Roadmap (formerly Blueprint Premium) is the free guided tier of The Blueprint, offered by application. It includes everything in the free Senior Transition Blueprint (20 modules and 69 tools) plus the guided components:
 
 1. A detailed intake form. It asks for real detail about the family, the house, the money, and the care situation, so the work is about the family from minute one. Ryan reviews each application and takes the families he can genuinely help.
 2. An intake call with Ryan, then the written Senior Transition Plan built together: housing options, financial timing, family roles, and the specific next 30/60/90-day actions.
@@ -5491,7 +5491,7 @@ Ryan Riggins is a senior transition advisor and former house flipper. After 8+ y
 
 **Ready for the full system?** The Senior Transition Blueprint is free, all 20 modules and 69 tools: rigginsstrategicsolutions.com/the-blueprint
 
-**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/blueprint-premium
+**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
 
 **Selling a parent's home?** Ryan finds and vets the right local agent for your situation and stays in your corner on the whole sale, at no added cost to your family: rigginsstrategicsolutions.com/in-your-corner
 
@@ -5635,7 +5635,7 @@ Ryan Riggins is a senior transition advisor and former house flipper. After 8+ y
 
 **Ready for the full system?** The Senior Transition Blueprint is free, all 20 modules and 69 tools: rigginsstrategicsolutions.com/the-blueprint
 
-**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/blueprint-premium
+**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
 
 **Selling a parent's home?** Ryan finds and vets the right local agent for your situation and stays in your corner on the whole sale, at no added cost to your family: rigginsstrategicsolutions.com/in-your-corner
 
@@ -5956,7 +5956,7 @@ Ryan Riggins is a senior transition advisor and former house flipper. After 8+ y
 
 **Ready for the full system?** The Senior Transition Blueprint is free, all 20 modules and 69 tools: rigginsstrategicsolutions.com/the-blueprint
 
-**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/blueprint-premium
+**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
 
 **Selling a parent's home?** Ryan finds and vets the right local agent for your situation and stays in your corner on the whole sale, at no added cost to your family: rigginsstrategicsolutions.com/in-your-corner
 
@@ -6261,7 +6261,7 @@ Ryan Riggins is a senior transition advisor and former house flipper. After 8+ y
 
 **Ready for the full system?** The Senior Transition Blueprint is free, all 20 modules and 69 tools: rigginsstrategicsolutions.com/the-blueprint
 
-**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/blueprint-premium
+**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
 
 **Selling a parent's home?** Ryan finds and vets the right local agent for your situation and stays in your corner on the whole sale, at no added cost to your family: rigginsstrategicsolutions.com/in-your-corner
 
@@ -6413,7 +6413,7 @@ Ryan Riggins is a senior transition advisor and former house flipper. After 8+ y
 
 **Ready for the full system?** The Senior Transition Blueprint is free, all 20 modules and 69 tools: rigginsstrategicsolutions.com/the-blueprint
 
-**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/blueprint-premium
+**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
 
 **Selling a parent's home?** Ryan finds and vets the right local agent for your situation and stays in your corner on the whole sale, at no added cost to your family: rigginsstrategicsolutions.com/in-your-corner
 
@@ -6856,7 +6856,7 @@ Ryan Riggins is a senior transition advisor and former house flipper. After 8+ y
 
 **Ready for the full system?** The Senior Transition Blueprint is free, all 20 modules and 69 tools: rigginsstrategicsolutions.com/the-blueprint
 
-**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/blueprint-premium
+**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
 
 **Selling a parent's home?** Ryan finds and vets the right local agent for your situation and stays in your corner on the whole sale, at no added cost to your family: rigginsstrategicsolutions.com/in-your-corner
 
@@ -6963,7 +6963,7 @@ Ryan Riggins is a senior transition advisor and former house flipper. After 8+ y
 
 **Ready for the full system?** The Senior Transition Blueprint is free, all 20 modules and 69 tools: rigginsstrategicsolutions.com/the-blueprint
 
-**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/blueprint-premium
+**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
 
 **Coordinate your family in one place.** SeniorSafe app (web, iPhone, Android): app.seniorsafeapp.com
 
@@ -7086,7 +7086,7 @@ Ryan Riggins is a senior transition advisor and former house flipper. After 8+ y
 
 **Ready for the full system?** The Senior Transition Blueprint is free, all 20 modules and 69 tools: rigginsstrategicsolutions.com/the-blueprint
 
-**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/blueprint-premium
+**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
 
 **Related reading:** The government just asked whether reverse mortgage paperwork works, and the comment window is open: rigginsstrategicsolutions.com/blog/cfpb-reverse-mortgage-disclosure-comment-window-2026
 
@@ -7232,7 +7232,7 @@ Ryan Riggins is a senior transition advisor and former house flipper. After 8+ y
 
 **Ready for the full system?** The Senior Transition Blueprint is free, all 20 modules and 69 tools: rigginsstrategicsolutions.com/the-blueprint
 
-**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/blueprint-premium
+**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
 
 **Coordinate your family in one place.** SeniorSafe app (web, iPhone, Android): app.seniorsafeapp.com
 
@@ -7394,7 +7394,7 @@ Two weeks is a reasonable floor, and Missouri just made that number official for
 
 **Ready for the full system?** The Senior Transition Blueprint is free, all 20 modules and 69 tools: rigginsstrategicsolutions.com/the-blueprint
 
-**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/blueprint-premium
+**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
 
 **Coordinate your family in one place.** SeniorSafe app (web, iPhone, Android): app.seniorsafeapp.com
 
@@ -7574,7 +7574,7 @@ Ryan Riggins is a senior transition advisor and former house flipper. After 8+ y
 
 **Ready for the full system?** The Senior Transition Blueprint is free, all 20 modules and 69 tools: rigginsstrategicsolutions.com/the-blueprint
 
-**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/blueprint-premium
+**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
 
 **Coordinate your family in one place.** SeniorSafe app (web, iPhone, Android): app.seniorsafeapp.com
 
@@ -7859,7 +7859,7 @@ Ryan Riggins is a senior transition advisor and former house flipper. After 8+ y
 
 **Ready for the full system?** The Senior Transition Blueprint is free, all 20 modules and 69 tools: rigginsstrategicsolutions.com/the-blueprint
 
-**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/blueprint-premium
+**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
 
 **Coordinate your family in one place.** SeniorSafe app (web, iPhone, Android): app.seniorsafeapp.com
 
@@ -8092,7 +8092,7 @@ Ryan Riggins is a senior transition advisor and former house flipper. After 8+ y
 
 **Ready for the full system?** The Senior Transition Blueprint is free, all 20 modules and 69 tools: rigginsstrategicsolutions.com/the-blueprint
 
-**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/blueprint-premium
+**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
 
 **Coordinate your family in one place.** SeniorSafe app (web, iPhone, Android): app.seniorsafeapp.com
 
@@ -8739,7 +8739,7 @@ Ryan Riggins is a senior transition advisor and former house flipper. After 8+ y
 
 **Ready for the full system?** The Senior Transition Blueprint is free, all 20 modules and 69 tools: rigginsstrategicsolutions.com/the-blueprint
 
-**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/blueprint-premium
+**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
 
 **Coordinate your family in one place.** SeniorSafe app (web, iPhone, Android): app.seniorsafeapp.com
 
@@ -9807,7 +9807,7 @@ Ryan Riggins is a senior transition advisor and former house flipper. After 8+ y
 
 **Ready for the full system?** The Senior Transition Blueprint is free, all 20 modules and 69 tools: rigginsstrategicsolutions.com/the-blueprint
 
-**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/blueprint-premium
+**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
 
 **Coordinate your family in one place.** SeniorSafe app (web, iPhone, Android): app.seniorsafeapp.com
 
@@ -10353,7 +10353,7 @@ Ryan Riggins is a senior transition advisor and former house flipper. After 8+ y
 
 **Ready for the full system?** The Senior Transition Blueprint is free, all 20 modules and 69 tools: rigginsstrategicsolutions.com/the-blueprint
 
-**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/blueprint-premium
+**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
 
 **Coordinate your family in one place.** SeniorSafe app (web, iPhone, Android): app.seniorsafeapp.com
 
@@ -11309,7 +11309,7 @@ Ryan Riggins is a senior transition advisor and former house flipper. After 8+ y
 
 **Ready for the full system?** The Senior Transition Blueprint is free, all 20 modules and 69 tools: rigginsstrategicsolutions.com/the-blueprint
 
-**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/blueprint-premium
+**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
 
 **Coordinate your family in one place.** SeniorSafe app (web, iPhone, Android): app.seniorsafeapp.com
 
@@ -11751,7 +11751,7 @@ Ryan Riggins is a senior transition advisor and former house flipper. After 8+ y
 
 **Ready for the full system?** The Senior Transition Blueprint is free, all 20 modules and 69 tools: rigginsstrategicsolutions.com/the-blueprint
 
-**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/blueprint-premium
+**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
 
 **Coordinate your family in one place.** SeniorSafe app (web, iPhone, Android): app.seniorsafeapp.com
 
@@ -12501,7 +12501,7 @@ Ryan Riggins is a senior transition advisor and former house flipper. After 8+ y
 
 **Ready for the full system?** The Senior Transition Blueprint is free, all 20 modules and 69 tools: rigginsstrategicsolutions.com/the-blueprint
 
-**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/blueprint-premium
+**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
 
 **Coordinate your family in one place.** SeniorSafe app (web, iPhone, Android): app.seniorsafeapp.com
 
@@ -13041,7 +13041,7 @@ Ryan Riggins is a senior transition advisor and former house flipper. After 8+ y
 
 **Ready for the full system?** The Senior Transition Blueprint is free, all 20 modules and 69 tools: rigginsstrategicsolutions.com/the-blueprint
 
-**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/blueprint-premium
+**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
 
 ### Get the SeniorSafe App
 
@@ -13266,7 +13266,7 @@ Ryan Riggins is a senior transition advisor and former house flipper. After 8+ y
 
 **Ready for the full system?** The Senior Transition Blueprint is free, all 20 modules and 69 tools: rigginsstrategicsolutions.com/the-blueprint
 
-**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/blueprint-premium
+**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
 
 **Coordinate your family in one place.** SeniorSafe app (web, iPhone, Android): app.seniorsafeapp.com
 
@@ -13383,7 +13383,7 @@ Ryan Riggins is a senior transition advisor and former house flipper. After 8+ y
 
 **Ready for the full system?** The Senior Transition Blueprint is free, all 20 modules and 69 tools: rigginsstrategicsolutions.com/the-blueprint
 
-**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/blueprint-premium
+**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
 
 **Coordinate your family in one place.** SeniorSafe app (web, iPhone, Android): app.seniorsafeapp.com
 
@@ -13505,7 +13505,7 @@ A senior transition advisor coordinates the full process: running the proceeds m
 
 **Ready for the full system?** The Senior Transition Blueprint is free, all 20 modules and 69 tools: rigginsstrategicsolutions.com/the-blueprint
 
-**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/blueprint-premium
+**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
 
 **Coordinate your family in one place.** SeniorSafe app (web, iPhone, Android): app.seniorsafeapp.com
 
@@ -13631,7 +13631,7 @@ Ryan Riggins is a senior transition advisor and former house flipper. After 8+ y
 
 **Ready for the full system?** The Senior Transition Blueprint is free, all 20 modules and 69 tools: rigginsstrategicsolutions.com/the-blueprint
 
-**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/blueprint-premium
+**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
 
 **Coordinate your family in one place.** SeniorSafe app (web, iPhone, Android): app.seniorsafeapp.com
 
@@ -13751,7 +13751,7 @@ Ryan Riggins is a senior transition advisor and former house flipper. After 8+ y
 
 **Ready for the full system?** The Senior Transition Blueprint is free, all 20 modules and 69 tools: rigginsstrategicsolutions.com/the-blueprint
 
-**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/blueprint-premium
+**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
 
 **Coordinate your family in one place.** SeniorSafeApp (web, iPhone, Android): app.seniorsafeapp.com
 
@@ -14198,7 +14198,7 @@ Ryan Riggins is a senior transition advisor and former house flipper. After 8+ y
 
 **Ready for the full system?** The Senior Transition Blueprint is free, all 20 modules and 69 tools: rigginsstrategicsolutions.com/the-blueprint
 
-**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/blueprint-premium
+**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
 
 **Coordinate your family in one place.** SeniorSafe app (web, iPhone, Android): app.seniorsafeapp.com
 
@@ -14307,7 +14307,7 @@ Ryan Riggins is a senior transition advisor and former house flipper. After 8+ y
 
 **Ready for the full system?** The Senior Transition Blueprint is free, all 20 modules and 69 tools: rigginsstrategicsolutions.com/the-blueprint
 
-**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/blueprint-premium
+**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
 
 **Coordinate your family in one place.** SeniorSafe app (web, iPhone, Android): app.seniorsafeapp.com
 
@@ -14464,7 +14464,7 @@ Ryan Riggins is a senior transition advisor and former house flipper. After 8+ y
 
 **Ready for the full system?** The Senior Transition Blueprint is free, all 20 modules and 69 tools: rigginsstrategicsolutions.com/the-blueprint
 
-**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/blueprint-premium
+**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
 
 **Coordinate your family in one place.** SeniorSafe app (web, iPhone, Android): app.seniorsafeapp.com
 
@@ -14609,7 +14609,7 @@ When the conversation needs structure: the Senior Transition Roadmap is free, by
 
 **Ready for the full system?** The Senior Transition Blueprint is free, all 20 modules and 69 tools: rigginsstrategicsolutions.com/the-blueprint
 
-**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/blueprint-premium
+**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
 
 **Coordinate your family in one place.** SeniorSafe app (web, iPhone, Android): app.seniorsafeapp.com
 
@@ -14763,7 +14763,7 @@ Ryan Riggins is a senior transition advisor and former house flipper. After 8+ y
 
 **Ready for the full system?** The Senior Transition Blueprint is free, all 20 modules and 69 tools: rigginsstrategicsolutions.com/the-blueprint
 
-**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/blueprint-premium
+**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
 
 **Coordinate your family in one place.** SeniorSafe app (web, iPhone, Android): app.seniorsafeapp.com
 
@@ -14947,7 +14947,7 @@ The 60 days between now and the end of July is the right window to do the math. 
 
 **Ready for the full system?** The Senior Transition Blueprint is free, all 20 modules and 69 tools: rigginsstrategicsolutions.com/the-blueprint
 
-**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/blueprint-premium
+**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
 
 **Coordinate your family in one place.** SeniorSafe app (web, iPhone, Android): seniorsafeapp.com
 
@@ -15093,7 +15093,7 @@ No, but most senior sellers benefit from one. An experienced agent prices the ho
 
 **Ready for the full system?** The Senior Transition Blueprint is free, all 20 modules and 69 tools: rigginsstrategicsolutions.com/the-blueprint
 
-**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/blueprint-premium
+**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
 
 **Coordinate your family in one place.** SeniorSafe app (web, iPhone, Android): app.seniorsafeapp.com
 
@@ -15238,7 +15238,7 @@ Zillow's estimate is a sale-price guess. The Net Proceeds Calculator gives you t
 
 **Ready for the full system?** The Senior Transition Blueprint is free, all 20 modules and 69 tools: rigginsstrategicsolutions.com/the-blueprint
 
-**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/blueprint-premium
+**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
 
 **Coordinate your family in one place.** SeniorSafe app (web, iPhone, Android): app.seniorsafeapp.com
 
@@ -15366,7 +15366,7 @@ Three questions. First, is my parent classified as inpatient or observation stat
 
 **Ready for the full system?** The Senior Transition Blueprint is free, all 20 modules and 69 tools: rigginsstrategicsolutions.com/the-blueprint
 
-**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/blueprint-premium
+**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
 
 **Coordinate your family in one place.** SeniorSafe app (web, iPhone, Android): seniorsafeapp.com
 
@@ -15462,7 +15462,7 @@ World Elder Abuse Awareness Day is June 15. If you have not had the conversation
 
 **Ready for the full system?** The Senior Transition Blueprint is free, all 20 modules and 69 tools: rigginsstrategicsolutions.com/the-blueprint
 
-**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/blueprint-premium
+**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
 
 **Coordinate your family in one place.** SeniorSafe app (web, iPhone, Android): app.seniorsafeapp.com
 
@@ -15546,7 +15546,7 @@ Make the plan now.
 
 **Ready for the full system?** The Senior Transition Blueprint is free, all 20 modules and 69 tools: rigginsstrategicsolutions.com/the-blueprint
 
-**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/blueprint-premium
+**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
 
 **Coordinate your family in one place.** SeniorSafe app (web, iPhone, Android): app.seniorsafeapp.com
 
@@ -15628,7 +15628,7 @@ The reason it exists is the reason Massachusetts is having this conversation. Mo
 
 **Ready for the full system?** The Senior Transition Blueprint is free, all 20 modules and 69 tools: rigginsstrategicsolutions.com/the-blueprint
 
-**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/blueprint-premium
+**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
 
 **Coordinate your family in one place.** SeniorSafe app (web, iPhone, Android): app.seniorsafeapp.com
 
@@ -15706,7 +15706,7 @@ The Dawood case is one sentencing. The pattern is everywhere. The protection is 
 
 **Ready for the full system?** The Senior Transition Blueprint is free, all 20 modules and 69 tools: rigginsstrategicsolutions.com/the-blueprint
 
-**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/blueprint-premium
+**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
 
 **Coordinate your family in one place.** SeniorSafe app (web, iPhone, Android): app.seniorsafeapp.com
 
@@ -15784,7 +15784,7 @@ If you are inside this transition right now and you do not know where to start, 
 
 **Ready for the full system?** The Senior Transition Blueprint is free, all 20 modules and 69 tools: rigginsstrategicsolutions.com/the-blueprint
 
-**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/blueprint-premium
+**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
 
 **Coordinate your family in one place.** SeniorSafe app (web, iPhone, Android): app.seniorsafeapp.com
 
@@ -15872,7 +15872,7 @@ Yours could be next.
 
 - Want a step-by-step guide? The free Simple Blueprint walks through every stage of a senior transition: [rigginsstrategicsolutions.com/freeguide](/freeguide)
 - Ready for the full system? The Senior Transition Blueprint is free, all 20 modules and 69 tools: [rigginsstrategicsolutions.com/the-blueprint](/the-blueprint)
-- Need a personalized plan? The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: [rigginsstrategicsolutions.com/blueprint-premium](/blueprint-premium)
+- Need a personalized plan? The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: [rigginsstrategicsolutions.com/the-roadmap](/the-roadmap)
 - Coordinate your family in one place. SeniorSafe app (web, iPhone, Android): [app.seniorsafeapp.com](https://app.seniorsafeapp.com)
 - Talk it through. Book a free 20-min call with Ryan: [rigginsstrategicsolutions.com/work-with-ryan](/work-with-ryan)
 

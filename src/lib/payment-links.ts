@@ -1,5 +1,5 @@
-// CTA destinations used by /the-blueprint, /blueprint-core, and
-// /blueprint-premium tier cards. The Blueprint course site at
+// CTA destinations used by /the-blueprint and
+// /the-roadmap tier cards. The Blueprint course site at
 // blueprint.rigginsstrategicsolutions.com owns free account signup, the
 // Roadmap application flow, and login. RSS site only sends qualified
 // traffic there. Keys are internal names; do NOT rename them.

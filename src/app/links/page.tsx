@@ -105,7 +105,7 @@ const GROUPS: LinkGroup[] = [
       {
         label: "Senior Transition Roadmap (free, by application)",
         description: "A written plan you build with Ryan. Starts with an application.",
-        href: "/blueprint-premium",
+        href: "/the-roadmap",
       },
       {
         label: "The Unheard Conversation (book)",

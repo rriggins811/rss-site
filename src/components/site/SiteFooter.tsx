@@ -8,7 +8,7 @@ const footerNav: { heading: string; links: { href: string; label: string; extern
     links: [
       { href: "/blueprint-preview", label: "Blueprint Map (free)" },
       { href: "/the-blueprint", label: "Senior Transition Blueprint (free)" },
-      { href: "/blueprint-premium", label: "Senior Transition Roadmap (free, by application)" },
+      { href: "/the-roadmap", label: "Senior Transition Roadmap (free, by application)" },
       { href: "/in-your-corner", label: "Get Me in Your Corner (No added cost)" },
       { href: "/seniorsafe-app", label: "SeniorSafe App" },
       { href: "/work-with-ryan", label: "Book a call" },

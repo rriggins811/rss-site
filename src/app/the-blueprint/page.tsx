@@ -95,7 +95,7 @@ const tiers: Tier[] = [
       "A follow-up call on how to move forward, plus 90 days of email support",
     ],
     cta: { href: paymentLinks.blueprintPremium, label: "Apply for the Roadmap", external: true },
-    learnMore: { href: "/blueprint-premium", label: "See how the Roadmap works, with an example plan" },
+    learnMore: { href: "/the-roadmap", label: "See how the Roadmap works, with an example plan" },
     image: "/photos/blueprint_premium_zoom_call_297.jpg",
     alt: "Ryan Riggins on a Zoom consultation with a family",
     accent: true,

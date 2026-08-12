@@ -28,10 +28,10 @@ export const metadata: Metadata = {
   title: "Senior Transition Roadmap | Free Guided Advisory, By Application",
   description:
     "The Senior Transition Roadmap is the whole senior transition mapped with you, start to finish: a detailed intake, calls with Ryan, a written plan built together, and 90 days of support. Free, by application.",
-  alternates: { canonical: "/blueprint-premium" },
+  alternates: { canonical: "/the-roadmap" },
   openGraph: {
     type: "website",
-    url: "https://rigginsstrategicsolutions.com/blueprint-premium",
+    url: "https://rigginsstrategicsolutions.com/the-roadmap",
     siteName: "Riggins Strategic Solutions",
     title: "The Senior Transition Roadmap | Free, By Application",
     description:
@@ -257,12 +257,12 @@ export default function BlueprintPremiumPage() {
   const breadcrumbs = breadcrumbListSchema([
     { name: "Home", path: "/" },
     { name: "The Blueprint", path: "/the-blueprint" },
-    { name: "Senior Transition Roadmap", path: "/blueprint-premium" },
+    { name: "Senior Transition Roadmap", path: "/the-roadmap" },
   ]);
 
   return (
     <main className="w-full bg-cream text-ink">
-      <JsonLd data={faqPageSchema(FAQS, abs("/blueprint-premium"))} />
+      <JsonLd data={faqPageSchema(FAQS, abs("/the-roadmap"))} />
       <JsonLd data={breadcrumbs} />
       <JsonLd data={blueprintPremiumProductSchema()} />
 

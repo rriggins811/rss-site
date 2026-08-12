@@ -42,7 +42,7 @@ const RAW_RULES: { keywords: string[]; href: string }[] = [
   { keywords: ["Medicare Gap Analyzer"], href: "/tools/medicare-gap-analyzer" },
   { keywords: ["Seniors Real Estate Specialist"], href: "/resources/seniors-real-estate-specialist-vs-investor" },
   { keywords: ["Senior Help Directory"], href: "/resources/senior-help-directory" },
-  { keywords: ["Senior Transition Roadmap"], href: "/blueprint-premium" },
+  { keywords: ["Senior Transition Roadmap"], href: "/the-roadmap" },
   // The clock/relief positioning (Jul 28 2026). These phrases run through the
   // blog constantly and had no internal route to the two pages that actually
   // produce revenue.

@@ -51,7 +51,7 @@ const STATIC_SECTIONS = [
 
 The site offers a tiered approach:
 - Free: The Simple Blueprint (starter guide PDF + 14-day SeniorSafe trial)
-- Free: The Senior Transition Blueprint (20 modules, 70+ tools, self-paced course; formerly the paid Blueprint Core, now free with a free account signup)
+- Free: The Senior Transition Blueprint (20 modules and 69 tools, self-paced course; formerly the paid Blueprint Core, now free with a free account signup)
 - Free, by application: The Senior Transition Roadmap (a written plan built with Ryan: intake form, intake call, plan built together, follow-up call, 90 days email support; formerly the paid Blueprint Premium)
 - $14.99/mo: SeniorSafe Premium (family coordination app)
 - $39.99/mo: SeniorSafe Premium+ (adds Maggie, an AI transition specialist trained on the full Blueprint methodology)
@@ -93,8 +93,8 @@ Credentials: Licensed NC real estate broker (NCREC #361546), affiliated with eXp
   },
   {
     title: "Senior Transition Roadmap: Free Guided Advisory, By Application",
-    url: `${SITE_URL}/blueprint-premium`,
-    body: `The Senior Transition Roadmap (formerly Blueprint Premium) is the free guided tier of The Blueprint, offered by application. It includes everything in the free Senior Transition Blueprint (20 modules, 70+ tools) plus the guided components:
+    url: `${SITE_URL}/the-roadmap`,
+    body: `The Senior Transition Roadmap (formerly Blueprint Premium) is the free guided tier of The Blueprint, offered by application. It includes everything in the free Senior Transition Blueprint (20 modules and 69 tools) plus the guided components:
 
 1. A detailed intake form. It asks for real detail about the family, the house, the money, and the care situation, so the work is about the family from minute one. Ryan reviews each application and takes the families he can genuinely help.
 2. An intake call with Ryan, then the written Senior Transition Plan built together: housing options, financial timing, family roles, and the specific next 30/60/90-day actions.

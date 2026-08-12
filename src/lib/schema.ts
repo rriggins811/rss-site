@@ -542,10 +542,10 @@ export function blueprintCourseSchema() {
 
 /**
  * Product schema for Senior Transition Roadmap (free guided advisory, by
- * application, since the July 2026 free pivot). Mounted on /blueprint-premium.
+ * application, since the July 2026 free pivot). Mounted on /the-roadmap.
  */
 export function blueprintPremiumProductSchema() {
-  const url = abs("/blueprint-premium");
+  const url = abs("/the-roadmap");
   return {
     "@context": "https://schema.org",
     "@type": "Product",
