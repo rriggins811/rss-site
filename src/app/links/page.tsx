@@ -99,8 +99,8 @@ const GROUPS: LinkGroup[] = [
     items: [
       {
         label: "Senior Transition Blueprint (free)",
-        description: "The full 20-module course with 70-plus done-for-you tools. Free with a free account.",
-        href: "/blueprint-core",
+        description: "The full 20-module course with 69 done-for-you tools. Free with a free account.",
+        href: "/the-blueprint",
       },
       {
         label: "Senior Transition Roadmap (free, by application)",

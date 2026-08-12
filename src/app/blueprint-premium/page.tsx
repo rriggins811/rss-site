@@ -649,7 +649,7 @@ export default function BlueprintPremiumPage() {
         <div className="mx-auto max-w-5xl px-6 py-16 lg:py-20">
           <h2 className={`${display} text-3xl sm:text-4xl`}>Walk your map with Ryan</h2>
           <p className="mt-4 max-w-3xl text-lg leading-relaxed text-cream/85">
-            Senior Transition Roadmap is the guided version. You do not just get the course and the 70-plus tools. You
+            Senior Transition Roadmap is the guided version. You do not just get the course and the 69 tools. You
             get Ryan walking your whole map with you, from getting your bearings to crossing the finish line.
             Together we build your written Senior Transition Plan, go deep on the home and the money where the
             biggest dollars are won or lost, and line up the professionals for the parts outside Ryan's lane,
@@ -661,7 +661,7 @@ export default function BlueprintPremiumPage() {
             <p className="text-xs font-semibold uppercase tracking-[0.14em] text-gold">Everything the Roadmap includes</p>
             <div className="mt-4 grid gap-3 sm:grid-cols-2">
               {[
-                "All 20 Blueprint modules and 70-plus tools. Lifetime access.",
+                "All 20 Blueprint modules and 69 tools. Lifetime access.",
                 "A 21st module, unlocked with the Roadmap, holding your intake docs to prep your call.",
                 "An intake call with Ryan, then the plan built together, then a follow-up call on how to move forward.",
                 "Your written Senior Transition Plan, your map filled in for your family.",

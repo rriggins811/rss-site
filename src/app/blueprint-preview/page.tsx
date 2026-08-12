@@ -85,7 +85,7 @@ export default async function BlueprintMapSalesPage({
           See the entire system before you move your parent anywhere.
         </h1>
         <p className="mx-auto mt-5 max-w-2xl text-lg leading-relaxed text-[#1C3A52]/85">
-          A senior move has 19 moving parts. Miss one and it can quietly cost
+          A senior move has 20 moving parts. Miss one and it can quietly cost
           your family $20,000 or more. This is the whole map, walked through,
           module by module, by someone who spent eight years on the other side
           of these deals.
@@ -196,7 +196,7 @@ export default async function BlueprintMapSalesPage({
             <MapCheckoutButton />
           </div>
           <p className="mt-4 text-sm text-[#FAF8F3]/60">
-            The done-for-you toolkit comes with it. All 70-plus tools, free.
+            The done-for-you toolkit comes with it. All 69 tools, free.
           </p>
         </div>
         <p className="mt-8 text-xs text-[#1C3A52]/55">

@@ -27,7 +27,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/", changeFrequency: "monthly", priority: 1.0 },
     { path: "/about", changeFrequency: "monthly", priority: 0.8 },
     { path: "/the-blueprint", changeFrequency: "monthly", priority: 0.9 },
-    { path: "/blueprint-core", changeFrequency: "monthly", priority: 0.9 },
     { path: "/blueprint-premium", changeFrequency: "monthly", priority: 0.9 },
     { path: "/in-your-corner", changeFrequency: "monthly", priority: 0.8 },
     { path: "/need-an-agent", changeFrequency: "monthly", priority: 0.8 },

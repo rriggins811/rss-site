@@ -27,6 +27,17 @@ const nextConfig: NextConfig = {
       // and testable locally. The bare /readiness-assessment form never was a
       // real route: it was the (broken) share URL baked into the tool, so this
       // also recovers anyone arriving from an old Facebook or LinkedIn share.
+      // /blueprint-core and /the-blueprint were two pages for the same free
+      // product, both self-canonical and both in the sitemap, so Google saw
+      // duplicate content and the ranking signal split between them.
+      // /the-blueprint wins on inbound links by a wide margin (120 references
+      // against 8), so it is canonical and this retires the other. The name
+      // "Blueprint Core" is retired anyway.
+      {
+        source: "/blueprint-core",
+        destination: "/the-blueprint",
+        permanent: true,
+      },
       {
         source: "/tools/readiness-assessment",
         destination: "/tools/family-readiness-score",

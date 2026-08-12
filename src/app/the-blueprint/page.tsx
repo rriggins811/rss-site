@@ -77,7 +77,7 @@ const tiers: Tier[] = [
       "Lifetime access. Sign up with your email, no payment",
     ],
     cta: { href: paymentLinks.blueprintCore, label: "Give me the Blueprint", external: true },
-    learnMore: { href: "/blueprint-core", label: "See what's inside the Blueprint" },
+    learnMore: { href: "https://blueprint.rigginsstrategicsolutions.com/signup", label: "Get the free Blueprint" },
     image: "/photos/blueprint_core_materials_47.jpg",
     alt: "Senior Transition Blueprint planning materials and checklists",
   },
@@ -214,40 +214,39 @@ export default function BlueprintPage() {
         <div className="mx-auto max-w-6xl px-6 py-20 lg:py-24">
           <div className="max-w-3xl">
             <Badge variant="secondary" className="bg-burgundy-100 text-burgundy-700 border-0">
-              The Blueprint
+              Free &middot; 20 modules &middot; 69 tools &middot; Lifetime access
             </Badge>
             <h1 className="mt-6 leading-[1.05]">
-              The Senior Transition Blueprint: start anywhere, one goal. Protect your
-              family&rsquo;s equity, dignity, and sanity.
+              Know every option{" "}
+              <span className="text-burgundy-600">
+                before anyone tries to sell you one.
+              </span>
             </h1>
-            <QuickAnswer
-              className="mt-6 max-w-prose"
-              topic="What's the Blueprint"
-              question="What is the Senior Transition Blueprint?"
-              answer="The Senior Transition Blueprint is a 20-module online course with 70 plus tools that walks families through every stage of a senior transition. Built from eight years of working both sides of these conversations. Covers the questions to ask, the contracts to read carefully, and the conversations most families avoid until it is too late."
-            />
-            <p className="mt-6 font-serif text-xl text-burgundy-600 leading-snug max-w-prose">
-              &ldquo;I&rsquo;m not a move manager and I&rsquo;m not a listing
-              agent. I&rsquo;m the advisor who helps families avoid the $50K
-              mistakes.&rdquo;
+            <p className="mt-6 max-w-prose text-lg leading-relaxed text-ink/80">
+              The Senior Transition Blueprint is the whole system, free: the
+              house, the money, the legal documents, the care, and the family
+              conversations, in the order they actually come at you. Work
+              through it at your own pace and keep it for good.
             </p>
-            <p className="mt-6 max-w-prose text-lg text-ink/80">
-              Pick the one that matches where your family is right now. Free
-              starter guide, full DIY system, guided advisory, the daily
-              coordination app, or SeniorSafe with Maggie as your AI transition
-              specialist. Same underlying playbook across every tier.
+            <p className="mt-4 max-w-prose text-lg leading-relaxed text-ink/80">
+              It was built by someone who spent eight years buying homes from
+              families in exactly your position, so it covers the questions to
+              ask, the contracts to read twice, and the moves that quietly cost
+              families tens of thousands.
             </p>
-            <p className="mt-4 max-w-prose text-sm font-semibold text-navy-700">
-              Built by Ryan Riggins, Senior Transition Advisor and the former
-              flipper who switched sides.
-            </p>
-            <div className="mt-8 flex flex-wrap gap-3">
+            <div className="mt-8 flex flex-wrap items-center gap-4">
               <Button asChild size="lg">
-                <a href="#tiers">See the tiers</a>
+                <a
+                  href="https://blueprint.rigginsstrategicsolutions.com/signup"
+                  data-track="blueprint_signup_click"
+                  data-track-params='{"location":"the-blueprint-hero"}'
+                >
+                  Get the free Blueprint
+                </a>
               </Button>
-              <Button asChild size="lg" variant="outline">
-                <Link href="/work-with-ryan">Not sure which? Book a free call</Link>
-              </Button>
+              <span className="text-sm text-ink/60">
+                Free account, no card, nothing to cancel.
+              </span>
             </div>
             <EmailFallback className="mt-4 max-w-prose" />
           </div>
@@ -433,6 +432,15 @@ export default function BlueprintPage() {
         <div className="mx-auto max-w-4xl px-6 py-20">
           <GoldRule />
           <h2 className="mt-3">Common questions.</h2>
+          {/* Moved out of the hero during the StoryBrand pass. It carries
+              Speakable + Answer microdata that AI assistants lift, which is
+              worth keeping, but above the fold it competed with the offer. */}
+          <QuickAnswer
+            className="mt-6"
+            topic="What's the Blueprint"
+            question="What is the Senior Transition Blueprint?"
+            answer="The Senior Transition Blueprint is a free 20-module course with 69 tools that walks a family through every stage of a senior transition: the home, the money, the legal documents, the care, and the family conversations. Built from eight years of working both sides of these deals. Free with a free account, self-paced, with lifetime access."
+          />
           <div className="mt-10 space-y-8">
             {faqs.map((f) => (
               <div key={f.q}>
