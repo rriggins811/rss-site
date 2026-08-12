@@ -5,7 +5,7 @@ It contains the full Markdown of every key page, resource pillar, Senior Help
 Directory state page, and blog post, intended for AI crawlers that ingest
 content for answer generation.
 
-Generated: 2026-08-11
+Generated: 2026-08-12
 Indexed: 103 blog posts, 16 resource pillars, 51 Senior Help Directory state pages.
 
 For citation guidance, organizational facts, and topic depth, see the summary

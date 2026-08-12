@@ -185,11 +185,23 @@ export async function POST(req: Request) {
   // Twilio fan-out when a new row was actually created, so a retry/double-
   // submit produces exactly one row and one notification. A real re-signup
   // in a later hour still flows normally.
+  // Plain insert, NOT upsert(onConflict). PostgREST resolves on_conflict
+  // against real column names, so the expression-index target
+  // "lower(email),form_type,dedupe_hour" makes it look for a column literally
+  // named "lower" and the whole write fails with 42703. Verified against the
+  // live database on Aug 12 2026: this exact call returns
+  // 400 "column \"lower\" does not exist" today. It used to work, so a
+  // PostgREST change between Aug 9 and Aug 10 2026 broke it, and because the
+  // error was only logged the routes went on silently losing every row.
+  //
+  // The unique index leads_dedupe_email_formtype_hour_idx still enforces
+  // dedupe, so a same-hour duplicate surfaces as a 23505 unique violation and
+  // is treated as the duplicate signal. validateLead lowercases every email,
+  // so lower(email) and email agree for every row written here.
   const sb = getServiceSupabase();
   const { data: insertedRows, error: insertErr } = await sb
     .from("leads")
-    .upsert(
-      {
+    .insert({
         // form_type distinguishes "starter-guide" (Blueprint signup flow)
         // from "lead-magnet-<slug>" (PDF-only capture). Same leads table,
         // different downstream nurture sequences depending on form_type.
@@ -206,11 +218,11 @@ export async function POST(req: Request) {
           ...(attribution ? { attribution } : {}),
           ...(magnet ? { magnet: magnet.slug } : {}),
         },
-      },
-      { onConflict: "lower(email),form_type,dedupe_hour", ignoreDuplicates: true }
-    )
+    })
     .select("id");
-  if (insertErr) {
+  // A same-hour duplicate is normal traffic, not a failure. Alerting on it
+  // would page Ryan every time someone double-submits a form.
+  if (insertErr && insertErr.code !== "23505") {
     await recordFailure({
       route: isLeadMagnetFlow ? `lead-magnet:${magnet!.slug}` : "starter-guide",
       stage: "supabase-insert",
@@ -232,7 +244,10 @@ export async function POST(req: Request) {
   // SMS that fires inside Blueprint's notifyFreeSignup) so the duplicate is
   // silently absorbed: no second row, no second text. Still return success
   // so the user's form shows the normal confirmation.
-  const isDuplicate = !insertErr && (!insertedRows || insertedRows.length === 0);
+  // 23505 = unique_violation from leads_dedupe_email_formtype_hour_idx, i.e.
+  // this email already submitted this form inside the same hour. With a
+  // plain insert that arrives as an error rather than as zero rows.
+  const isDuplicate = insertErr?.code === "23505";
   if (isDuplicate) {
     console.info(
       `[${isLeadMagnetFlow ? `lead-magnet:${magnet!.slug}` : "starter-guide"}] duplicate within the hour for ${lead.email} — skipping fan-out`

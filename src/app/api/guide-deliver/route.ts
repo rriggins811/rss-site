@@ -144,10 +144,22 @@ export async function POST(req: Request) {
   // returns zero rows and we skip the fan-out (no double GHL tag, no double
   // email), still returning success so the page shows the normal state.
   const sb = getServiceSupabase();
+  // Plain insert, NOT upsert(onConflict). PostgREST resolves on_conflict
+  // against real column names, so the expression-index target
+  // "lower(email),form_type,dedupe_hour" makes it look for a column literally
+  // named "lower" and the whole write fails with 42703. Verified against the
+  // live database on Aug 12 2026: this exact call returns
+  // 400 "column \"lower\" does not exist" today. It used to work, so a
+  // PostgREST change between Aug 9 and Aug 10 2026 broke it, and because the
+  // error was only logged the routes went on silently losing every row.
+  //
+  // The unique index leads_dedupe_email_formtype_hour_idx still enforces
+  // dedupe, so a same-hour duplicate surfaces as a 23505 unique violation and
+  // is treated as the duplicate signal. validateLead lowercases every email,
+  // so lower(email) and email agree for every row written here.
   const { data: insertedRows, error: insertErr } = await sb
     .from("leads")
-    .upsert(
-      {
+    .insert({
         form_type: `lead-magnet-${magnet.slug}`,
         email,
         first_name: firstName,
@@ -163,12 +175,12 @@ export async function POST(req: Request) {
           ip,
           ...(attribution ? { attribution } : {}),
         },
-      },
-      { onConflict: "lower(email),form_type,dedupe_hour", ignoreDuplicates: true }
-    )
+    })
     .select("id");
 
-  if (insertErr) {
+  // A same-hour duplicate is normal traffic, not a failure. Alerting on it
+  // would page Ryan every time someone double-submits a form.
+  if (insertErr && insertErr.code !== "23505") {
     await recordFailure({
       route: `guide-deliver:${magnet.slug}`,
       stage: "supabase-insert",
@@ -180,7 +192,10 @@ export async function POST(req: Request) {
   }
 
   const readUrl = guideDeliveryUrl(magnet);
-  const isDuplicate = !insertErr && (!insertedRows || insertedRows.length === 0);
+  // 23505 = unique_violation from leads_dedupe_email_formtype_hour_idx, i.e.
+  // this email already submitted this form inside the same hour. With a
+  // plain insert that arrives as an error rather than as zero rows.
+  const isDuplicate = insertErr?.code === "23505";
   if (isDuplicate) {
     console.info(
       `[guide-deliver:${magnet.slug}] duplicate within the hour for ${email} — skipping fan-out`
