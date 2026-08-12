@@ -644,7 +644,7 @@ export function professionalServiceSchema() {
     "@id": `${SITE_URL}/#professionalservice`,
     name: ORGANIZATION.name,
     description:
-      "Senior transition advisory for families navigating elderly parent housing transitions. Education-first consumer protection company.",
+      "Senior transition advisory for families facing an elderly parent's housing transition. Education-first consumer protection company.",
     url: SITE_URL,
     telephone: ORGANIZATION.telephone,
     email: ORGANIZATION.email,

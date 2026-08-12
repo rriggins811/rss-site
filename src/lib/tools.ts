@@ -123,7 +123,7 @@ export const TOOLS: Tool[] = [
       {
         question: "Who built this Medicare gap analyzer?",
         answer:
-          "Ryan Riggins built this tool based on data from KFF, AARP, and CMS, plus 8+ years of helping families navigate senior housing transitions and Medicare coverage shortfalls. Ryan is a senior transition advisor and former house flipper who switched sides to help families avoid the $50K mistakes most don't see coming.",
+          "Ryan Riggins built this tool based on data from KFF, AARP, and CMS, plus 8+ years of helping families get through senior housing transitions and Medicare coverage shortfalls. Ryan is a senior transition advisor and former house flipper who switched sides to help families avoid the $50K mistakes most don't see coming.",
       },
     ],
   },
@@ -231,12 +231,12 @@ export const TOOLS: Tool[] = [
       {
         question: "Is this caregiver burnout quiz really free?",
         answer:
-          "Yes. No email required, no signup, no payment. The quiz takes 2 minutes and gives you an instant score with personalized next steps. It's part of a free toolkit Ryan Riggins built for families navigating senior care.",
+          "Yes. No email required, no signup, no payment. The quiz takes 2 minutes and gives you an instant score with personalized next steps. It's part of a free toolkit Ryan Riggins built for families facing senior care decisions.",
       },
       {
         question: "Who created this caregiver burnout quiz?",
         answer:
-          "Ryan Riggins built this quiz based on research from the Family Caregiver Alliance, the AARP Caregiver Burnout assessment tools, and 8+ years of working with families through senior housing transitions. Ryan is a senior transition advisor and former house flipper who walked away from buying homes from grieving families to help them navigate the process instead.",
+          "Ryan Riggins built this quiz based on research from the Family Caregiver Alliance, the AARP Caregiver Burnout assessment tools, and 8+ years of working with families through senior housing transitions. Ryan is a senior transition advisor and former house flipper who walked away from buying homes from grieving families to help them get through the process instead.",
       },
       {
         question: "What do I do after I get my score?",

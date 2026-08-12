@@ -35,11 +35,14 @@ export default function ContactPage() {
             <Badge variant="secondary" className="bg-burgundy-100 text-burgundy-700 border-0">
               Contact
             </Badge>
-            <h1 className="mt-6">Let&rsquo;s talk.</h1>
+            <h1 className="mt-6">
+              Tell Ryan the situation. Leave with straight answers.
+            </h1>
             <p className="mt-6 max-w-prose text-lg text-ink/80">
-              Easiest path is the free 20-minute call. No pressure, no upsells. You
-              bring the situation, I&rsquo;ll give you straight answers — whether or
-              not you ever work with me again.
+              The easiest path is the free 20-minute call. You bring what is
+              happening with your parent, and you get an honest read on what is
+              urgent, what can wait, and what it is likely to cost. No pressure
+              and no upsells, whether or not you ever work with Ryan again.
             </p>
             <Button asChild size="lg" className="mt-8">
               <Link href="/work-with-ryan">Book your free 20-minute call</Link>

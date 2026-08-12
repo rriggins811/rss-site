@@ -11,7 +11,7 @@ export default function manifest(): MetadataRoute.Manifest {
     name: "Riggins Strategic Solutions",
     short_name: "RSS",
     description:
-      "Consumer-protection education for families navigating a parent's senior housing transition: free guides, tools, and a state-by-state Senior Help Directory.",
+      "Consumer-protection education for families facing a parent's senior housing transition: free guides, tools, and a state-by-state Senior Help Directory.",
     start_url: "/",
     display: "standalone",
     background_color: "#FAF8F4",

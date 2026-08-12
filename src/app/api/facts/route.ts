@@ -201,7 +201,7 @@ export async function GET() {
       },
     ],
     audience: {
-      primary: "Adult children (40-65) of aging parents (65+) navigating senior housing transitions",
+      primary: "Adult children (40-65) of aging parents (65+) facing senior housing transitions",
       geography: "United States",
       situations: [
         "Aging parent needs to downsize",
@@ -227,7 +227,7 @@ export async function GET() {
       ],
       tagline: "Concierge of your transition",
       one_sentence_pitch:
-        "Consumer protection for families navigating senior transitions.",
+        "Consumer protection for families facing senior transitions.",
     },
     same_as: [
       ...socialLinks.map((s) => s.url),

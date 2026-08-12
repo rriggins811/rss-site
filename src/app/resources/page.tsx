@@ -7,17 +7,17 @@ import { breadcrumbListSchema, collectionPageSchema } from "@/lib/schema";
 import { RESOURCES } from "@/lib/resources";
 import { abs } from "@/lib/site";
 
-const TITLE = "Resources for families navigating a senior transition";
+const TITLE = "Resources for families facing a senior transition";
 
 export const metadata: Metadata = {
   title: TITLE,
   description:
-    "Plain-English guides for families navigating a senior housing transition. Selling a parent's home, talking to a stubborn parent, spotting cash-buyer scams, choosing between assisted living and memory care, and more.",
+    "Plain-English guides for families facing a senior housing transition. Selling a parent's home, talking to a stubborn parent, spotting cash-buyer scams, choosing between assisted living and memory care, and more.",
   alternates: { canonical: "/resources" },
   openGraph: {
     title: TITLE,
     description:
-      "Plain-English guides for families navigating a senior housing transition.",
+      "Plain-English guides for families facing a senior housing transition.",
     url: "/resources",
     type: "website",
   },
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: TITLE,
     description:
-      "Plain-English guides for families navigating a senior housing transition.",
+      "Plain-English guides for families facing a senior housing transition.",
   },
 };
 
@@ -42,7 +42,7 @@ export default function ResourcesIndexPage() {
   const collection = collectionPageSchema({
     name: TITLE,
     description:
-      "Plain-English guides for families navigating a senior housing transition. Selling a parent's home, talking to a stubborn parent, spotting cash-buyer scams, choosing between assisted living and memory care, and more.",
+      "Plain-English guides for families facing a senior housing transition. Selling a parent's home, talking to a stubborn parent, spotting cash-buyer scams, choosing between assisted living and memory care, and more.",
     pageUrl: abs("/resources"),
     items: RESOURCES.map((r) => ({
       name: r.title,
@@ -65,7 +65,7 @@ export default function ResourcesIndexPage() {
             Resources
           </Badge>
           <h1 className="mt-6 leading-[1.05]">
-            Plain-English guides for families navigating a senior transition.
+            Straight answers to the questions families actually ask.
           </h1>
           <p className="mt-6 text-lg text-ink/80 leading-relaxed">
             Practical answers to the questions families actually ask. Selling

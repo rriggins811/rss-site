@@ -14,7 +14,7 @@ import { seniorSafeMobileApplicationSchema } from "@/lib/schema";
 export const metadata: Metadata = {
   title: "SeniorSafe | The Family App for Senior Care",
   description:
-    "SeniorSafe is the daily coordination app for families navigating senior care. Daily check-ins, medication tracking, family messaging, document vault, and two AIs: SeniorSafe AI for the elder ($14.99/mo Premium), and Maggie, your AI transition specialist for the adult child ($39.99/mo Premium+). 14-day free trial.",
+    "SeniorSafe is the daily coordination app for families facing senior care decisions. Daily check-ins, medication tracking, family messaging, document vault, and two AIs: SeniorSafe AI for the elder ($14.99/mo Premium), and Maggie, your AI transition specialist for the adult child ($39.99/mo Premium+). 14-day free trial.",
   alternates: { canonical: "/seniorsafe-app" },
   openGraph: {
     type: "website",
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "SeniorSafe | The Family App for Senior Care",
     description:
-      "Your family. One place. One plan. The daily coordination app for families navigating senior care.",
+      "Your family. One place. One plan. The daily coordination app for families facing senior care decisions.",
     images: ["https://rigginsstrategicsolutions.com/og/seniorsafe-app.png"],
   },
 };
@@ -110,16 +110,15 @@ export default function SeniorSafePage() {
             <h1 className="mt-6 leading-[1.05]">
               SeniorSafe. The family app for the daily part of senior care.
             </h1>
-            <p className="mt-6 font-serif text-xl text-burgundy-600 leading-snug max-w-prose">
-              &ldquo;I&rsquo;m not a move manager and I&rsquo;m not a listing
-              agent. I&rsquo;m the advisor who helps families avoid the $50K
-              mistakes.&rdquo;
+            <p className="mt-6 max-w-prose text-lg leading-relaxed text-ink/80">
+              Everyone in the family can see how your parent is doing today
+              without four phone calls to find out. Daily check-ins,
+              medications, private family messaging, and every document in one
+              place instead of a drawer nobody can get to.
             </p>
-            <p className="mt-6 max-w-prose text-lg text-ink/80">
-              The Blueprint is the plan. SeniorSafe is the daily tool that
-              keeps the plan running: check-ins, medications, messaging, the
-              document vault, and an AI assistant for all the paperwork that
-              used to slip through the cracks.
+            <p className="mt-4 max-w-prose text-lg leading-relaxed text-ink/80">
+              The Blueprint is the plan. SeniorSafe is what keeps it running
+              after the move, on the ordinary days.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <Button asChild size="lg">

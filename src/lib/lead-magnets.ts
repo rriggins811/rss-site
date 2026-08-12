@@ -100,7 +100,7 @@ export const LEAD_MAGNETS: LeadMagnet[] = [
     title: "Cash Buyer Beware",
     subtitle: "What to know before Mom signs anything",
     description:
-      "A 15-page protection guide for families navigating senior home sales. The 5 questions to ask before signing, the math wholesalers don't want you to see, and what to do if Mom already signed.",
+      "A 15-page protection guide for families facing a senior home sale. The 5 questions to ask before signing, the math wholesalers don't want you to see, and what to do if Mom already signed.",
     pageCount: 15,
     pdfPath: "/downloads/cash-buyer-beware.pdf",
     publishedDate: "2026-05-18",

@@ -273,7 +273,7 @@ export const MODULES: Module[] = [
     title: "Settling Into the Next Chapter",
     phase: "🟪 Settle In & Long-Term Wellbeing",
     outcomes: [
-      "Navigate the critical first 72 hours",
+      "Handle the critical first 72 hours",
       "Spot warning signs early",
       "Build a daily routine that sticks",
     ],

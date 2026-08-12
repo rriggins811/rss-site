@@ -375,7 +375,7 @@ export function renderNewsletterHTML(
 
   <div class="header">
     <h1>RIGGINS STRATEGIC SOLUTIONS</h1>
-    <p>The newsletter for families navigating senior transitions</p>
+    <p>The newsletter for families facing senior transitions</p>
   </div>
 
   <div class="body greeting-block">

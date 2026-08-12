@@ -17,7 +17,7 @@ import { abs } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Free Senior Transition Guides",
   description:
-    "Free guides for adult children navigating their parents' senior transitions. Practical, no-fluff. Built from 8+ years of construction, real estate, and family-side experience.",
+    "Free guides for adult children handling a parent's senior transition. Practical, no-fluff. Built from 8+ years of construction, real estate, and family-side experience.",
   alternates: { canonical: "/guides" },
   openGraph: {
     type: "website",
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     siteName: "Riggins Strategic Solutions",
     title: "Free Senior Transition Guides | Riggins Strategic Solutions",
     description:
-      "Free guides for adult children navigating their parents' senior transitions. Practical, no-fluff. Use them. Share them. They're free.",
+      "Free guides for adult children handling a parent's senior transition. Practical, no-fluff. Use them. Share them. They're free.",
     // OG image is generated per-route by ./opengraph-image.tsx (topical card),
     // so we intentionally do not set a static image here.
   },
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Free Senior Transition Guides | Riggins Strategic Solutions",
     description:
-      "Free guides for adult children navigating their parents' senior transitions. Practical, no-fluff.",
+      "Free guides for adult children handling a parent's senior transition. Practical, no-fluff.",
   },
 };
 
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
 //   - "wholesaler and cash-buyer red flags" → Cash Buyer Beware (May 18)
 //   - "adult children weighing aging-in-place vs assisted living" →
 //     Aging in Place vs Assisted Living (May 18)
-//   - "families navigating a parent's sudden hospitalization" →
+//   - "families facing a parent's sudden hospitalization" →
 //     When Mom Falls at 2 AM Crisis Playbook (May 18)
 const PLACEHOLDER_GUIDES: { title: string; audience: string }[] = [
   { title: "Guide 4 — Coming Soon", audience: "families starting a parent's home sale" },
@@ -84,7 +84,7 @@ export default function GuidesPage() {
   const collection = collectionPageSchema({
     name: "Free Senior Transition Guides",
     description:
-      "Free downloadable guides and interactive tools for adult children navigating their parents' senior transitions.",
+      "Free downloadable guides and interactive tools for adult children handling a parent's senior transition.",
     pageUrl: abs("/guides"),
     items: [
       ...HUB_LEAD_MAGNETS.map((m) => ({
@@ -112,12 +112,13 @@ export default function GuidesPage() {
             Free Resources
           </Badge>
           <h1 className="mt-6 leading-[1.05]">
-            Free Guides for Families Navigating Senior Transitions
+            Short guides you can read tonight and hand to your family
+            tomorrow.
           </h1>
           <p className="mt-6 text-lg text-ink/80 max-w-2xl">
-            Written by Ryan Riggins, Senior Transition Advisor. Practical,
-            no-fluff guides built from 8+ years on the other side of these
-            deals. Use them. Share them. They are free.
+            Each one takes on a single hard part of a parent&rsquo;s move: the
+            cash-buyer letter, the 2 a.m. hospital call, the burnout nobody
+            warns you about. Free, no fluff, and yours to share.
           </p>
           <p className="mt-4 text-base text-ink/70 max-w-2xl">
             Built for the adult child managing a parent&apos;s next move —

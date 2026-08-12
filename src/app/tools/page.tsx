@@ -15,12 +15,12 @@ import { abs } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Free Tools for Senior Transitions",
   description:
-    "Nine free calculators, planning tools, and assessments for families navigating a senior housing transition. No email gate, no pitch.",
+    "Nine free calculators, planning tools, and assessments for families facing a senior housing transition. No email gate, no pitch.",
   alternates: { canonical: "/tools" },
   openGraph: {
     title: "Free Tools for Senior Transitions",
     description:
-      "Nine free calculators, planning tools, and assessments for families navigating a senior housing transition.",
+      "Nine free calculators, planning tools, and assessments for families facing a senior housing transition.",
     type: "website",
     url: "/tools",
   },
@@ -101,7 +101,7 @@ export default function ToolsHubPage() {
   const collection = collectionPageSchema({
     name: "Free Interactive Tools for Senior Transitions",
     description:
-      "Free calculators and triage tools for adult children navigating their parents' senior housing transitions. Net proceeds, caregiver burnout, Medicare gap, aging-in-place break-even, and more.",
+      "Free calculators and triage tools for adult children handling a parent's senior housing transition. Net proceeds, caregiver burnout, Medicare gap, aging-in-place break-even, and more.",
     pageUrl: abs("/tools"),
     items: TOOLS.slice(0, 30).map((t) => ({
       name: t.title,

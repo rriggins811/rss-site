@@ -278,26 +278,25 @@ export default function BlueprintPremiumPage() {
             </span>
           </div>
           <h1 className={`${display} mt-7 text-4xl leading-[1.08] text-navy sm:text-5xl lg:text-6xl`}>
-            <span className="italic text-gold-700">The Whole Path,</span>
+            <span className="italic text-gold-700">A written plan</span>
             <br />
-            Laid Out Before You
+            with your family&rsquo;s name on it.
           </h1>
-          <p className="mt-6 max-w-2xl font-semibold leading-relaxed text-navy">
-            The Senior Transition Roadmap: the full 20-module course, a written plan you and Ryan
-            build together, an intake call, a follow-up call on how to move forward, and 90 days of
-            support. Free. It starts with an application.
+          <p className="mt-6 max-w-2xl text-lg leading-relaxed text-ink/80">
+            Not another course to work through on your own. You and Ryan build
+            the plan together on a call, for your parent, your house, and your
+            family, so you can see the whole thing before you decide anything.
           </p>
-          <p className="mt-4 max-w-2xl text-lg leading-relaxed text-ink/80">
-            When a parent needs to move, it hits all at once. The house, the money, the paperwork, the
-            care, the family, and a hundred decisions you have never had to make before, usually in the
-            middle of a hard week. Most families face it one painful step at a time. This is the map we
-            walk together, start to finish, so you can see the whole thing before you decide anything.
+          <p className="mt-4 max-w-2xl font-semibold leading-relaxed text-navy">
+            Everything in the free Blueprint, plus an intake call, the written
+            plan built with Ryan, a follow-up call on how to move forward, and
+            90 days of support. Free. It starts with an application.
           </p>
           <div className="mt-10 grid gap-4 sm:grid-cols-3">
             {[
               ["One clear plan", "The whole transition on one page, in order."],
               ["Ryan as quarterback", "Deepest where the dollars are: the home and the money."],
-              ["A vetted team", "The right specialist for every part outside Ryan's lane."],
+              ["A vetted team", "The right specialist for every part outside Ryan&rsquo;s lane."],
             ].map(([h, s]) => (
               <div key={h} className="rounded-lg border-l-4 border-gold bg-white/70 px-5 py-4">
                 <p className="font-semibold text-navy">{h}</p>
@@ -652,7 +651,7 @@ export default function BlueprintPremiumPage() {
             Senior Transition Roadmap is the guided version. You do not just get the course and the 69 tools. You
             get Ryan walking your whole map with you, from getting your bearings to crossing the finish line.
             Together we build your written Senior Transition Plan, go deep on the home and the money where the
-            biggest dollars are won or lost, and line up the professionals for the parts outside Ryan's lane,
+            biggest dollars are won or lost, and line up the professionals for the parts outside Ryan&rsquo;s lane,
             the ones that are needed, or the ones your family already has.
             Ninety days of email support so you are never stuck wondering what comes next.
           </p>
@@ -666,7 +665,7 @@ export default function BlueprintPremiumPage() {
                 "An intake call with Ryan, then the plan built together, then a follow-up call on how to move forward.",
                 "Your written Senior Transition Plan, your map filled in for your family.",
                 "90 days of priority email support.",
-                "The right professionals for every part outside Ryan's lane, brought in as needed or working with the ones you already have.",
+                "The right professionals for every part outside Ryan&rsquo;s lane, brought in as needed or working with the ones you already have.",
               ].map((item) => (
                 <div key={item} className="flex gap-3 rounded-lg border border-cream/15 bg-white/[0.04] px-4 py-3">
                   <span className="mt-0.5 text-gold">&#10003;</span>
@@ -686,7 +685,7 @@ export default function BlueprintPremiumPage() {
             </ol>
             <p className="mt-4 text-cream/85">
               You leave with a written <strong className="font-semibold text-cream">Senior Transition Plan</strong>, your personal version of this
-              map, filled in for your family's situation.
+              map, filled in for your family&rsquo;s situation.
             </p>
           </div>
 

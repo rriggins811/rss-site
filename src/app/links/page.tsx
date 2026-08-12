@@ -189,7 +189,7 @@ export default function LinksPage() {
           </h1>
           <p className="mt-2 text-sm leading-relaxed text-white/75">
             Senior Transition Advisor. Free tools and honest guidance for
-            families navigating a parent&rsquo;s transition.
+            families facing a parent&rsquo;s transition.
           </p>
         </div>
 
