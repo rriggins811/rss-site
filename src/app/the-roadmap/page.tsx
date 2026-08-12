@@ -278,7 +278,7 @@ export default function BlueprintPremiumPage() {
             </span>
           </div>
           <h1 className={`${display} mt-7 text-4xl leading-[1.08] text-navy sm:text-5xl lg:text-6xl`}>
-            <span className="italic text-gold-700">A written plan</span>
+            <span className="italic text-gold-700">A written plan</span>{" "}
             <br />
             with your family&rsquo;s name on it.
           </h1>
