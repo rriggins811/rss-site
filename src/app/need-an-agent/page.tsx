@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { Fraunces } from "next/font/google";
+import { fraunces } from "@/lib/fonts";
 import { JsonLd } from "@/components/site/JsonLd";
 import { breadcrumbListSchema, faqPageSchema } from "@/lib/schema";
 import { abs } from "@/lib/site";
@@ -17,13 +17,8 @@ import AgentRequestForm from "@/components/forms/AgentRequestForm";
 // Visually inverted (navy hero, single column, no card grids) so clicking
 // between the two never feels like the same page twice.
 
-const serif = Fraunces({
-  subsets: ["latin"],
-  weight: ["400", "600", "700"],
-  style: ["normal", "italic"],
-  display: "swap",
-});
-const display = serif.className;
+// Declared once in @/lib/fonts; see the note there.
+const display = fraunces.className;
 
 const FAQS: { q: string; a: string }[] = [
   {
@@ -105,7 +100,7 @@ export default function NeedAnAgentPage() {
             No added cost
           </p>
           <h1 className={`${display} mt-4 text-4xl leading-[1.1] text-cream sm:text-5xl`}>
-            I just need an agent.
+            I just need an agent.{" "}
             <br />
             <span className="italic text-gold">
               Not a sales pitch, and not this cash offer either.

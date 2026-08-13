@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
-import { Fraunces } from "next/font/google";
+import { fraunces } from "@/lib/fonts";
 import { paymentLinks } from "@/lib/payment-links";
 import { JsonLd } from "@/components/site/JsonLd";
 import { QuickAnswer } from "@/components/aeo/QuickAnswer";
@@ -13,13 +13,8 @@ import {
 import { abs } from "@/lib/site";
 
 // Warm display serif for the headlines, mirroring the premium care-roadmap feel.
-const serif = Fraunces({
-  subsets: ["latin"],
-  weight: ["400", "600", "700"],
-  style: ["normal", "italic"],
-  display: "swap",
-});
-const display = serif.className;
+// Declared once in @/lib/fonts; see the note there.
+const display = fraunces.className;
 
 const PREMIUM_CHECKOUT = paymentLinks.blueprintPremium;
 const SUPPORT_EMAIL = "ryan@rigginsstrategicsolutions.com";
@@ -296,7 +291,7 @@ export default function BlueprintPremiumPage() {
             {[
               ["One clear plan", "The whole transition on one page, in order."],
               ["Ryan as quarterback", "Deepest where the dollars are: the home and the money."],
-              ["A vetted team", "The right specialist for every part outside Ryan&rsquo;s lane."],
+              ["A vetted team", "The right specialist for every part outside Ryan’s lane."],
             ].map(([h, s]) => (
               <div key={h} className="rounded-lg border-l-4 border-gold bg-white/70 px-5 py-4">
                 <p className="font-semibold text-navy">{h}</p>
@@ -665,7 +660,7 @@ export default function BlueprintPremiumPage() {
                 "An intake call with Ryan, then the plan built together, then a follow-up call on how to move forward.",
                 "Your written Senior Transition Plan, your map filled in for your family.",
                 "90 days of priority email support.",
-                "The right professionals for every part outside Ryan&rsquo;s lane, brought in as needed or working with the ones you already have.",
+                "The right professionals for every part outside Ryan’s lane, brought in as needed or working with the ones you already have.",
               ].map((item) => (
                 <div key={item} className="flex gap-3 rounded-lg border border-cream/15 bg-white/[0.04] px-4 py-3">
                   <span className="mt-0.5 text-gold">&#10003;</span>

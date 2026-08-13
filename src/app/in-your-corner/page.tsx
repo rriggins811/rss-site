@@ -1,19 +1,14 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { Fraunces } from "next/font/google";
+import { fraunces } from "@/lib/fonts";
 import { JsonLd } from "@/components/site/JsonLd";
 import { QuickAnswer } from "@/components/aeo/QuickAnswer";
 import { breadcrumbListSchema, faqPageSchema } from "@/lib/schema";
 import { abs } from "@/lib/site";
 
 // Warm display serif for the headlines, matching the Blueprint and Roadmap pages.
-const serif = Fraunces({
-  subsets: ["latin"],
-  weight: ["400", "600", "700"],
-  style: ["normal", "italic"],
-  display: "swap",
-});
-const display = serif.className;
+// Declared once in @/lib/fonts; see the note there.
+const display = fraunces.className;
 
 const SUPPORT_EMAIL = "ryan@rigginsstrategicsolutions.com";
 
@@ -145,7 +140,7 @@ export default function InYourCornerPage() {
             Ryan Riggins | Senior Transition Advisor and Advocate. I never list the home myself.
           </p>
           <h1 className={`${display} mt-4 text-4xl leading-[1.08] text-navy sm:text-5xl lg:text-6xl`}>
-            <span className="italic text-gold-700">Get Me</span>
+            <span className="italic text-gold-700">Get Me</span>{" "}
             <br />
             in Your Corner
           </h1>

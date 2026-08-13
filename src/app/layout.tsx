@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, Lora } from "next/font/google";
+import { fraunces } from "@/lib/fonts";
 import "./globals.css";
 import { SiteHeader } from "@/components/site/SiteHeader";
 import { SiteHeaderGate } from "@/components/site/SiteHeaderGate";
@@ -83,7 +84,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${inter.variable} ${lora.variable} h-full antialiased`}
+      className={`${inter.variable} ${lora.variable} ${fraunces.variable} h-full antialiased`}
     >
       <head>
         <JsonLd data={organizationSchema()} />
