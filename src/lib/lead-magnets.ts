@@ -97,10 +97,17 @@ export type LeadMagnet = {
 export const LEAD_MAGNETS: LeadMagnet[] = [
   {
     slug: "cash-buyer-beware",
-    title: "Cash Buyer Beware",
-    subtitle: "What to know before Mom signs anything",
+    // Rewritten Aug 13 2026 (Build 6) from the generic "Cash Buyer Beware"
+    // into the switched-sides confession. Same slug on purpose: the slug is
+    // the join key for the PDF path, the GHL tags, the /g ad landing page,
+    // the Resend template lookup and the Meta event_id, so renaming it would
+    // orphan every one of those. The old title was a commodity line any
+    // competitor could write. The origin story is the one thing none of them
+    // can copy, which is why it replaces rather than sits beside it.
+    title: "Confessions of a Former Cash Buyer",
+    subtitle: "I sent those letters for eight years. Here is the playbook.",
     description:
-      "A 15-page protection guide for families facing a senior home sale. The 5 questions to ask before signing, the math wholesalers don't want you to see, and what to do if Mom already signed.",
+      "For eight years Ryan bought houses from families in exactly this spot, and wrote the cash offers himself. This is the machine explained from the inside: what the friendly letter actually is, the two words that mean the buyer is not a buyer, the scripted price drop, and the four questions that stop all of it.",
     pageCount: 15,
     pdfPath: "/downloads/cash-buyer-beware.pdf",
     publishedDate: "2026-05-18",
@@ -118,15 +125,16 @@ export const LEAD_MAGNETS: LeadMagnet[] = [
       "cash-buyer-beware",
     ],
     landing: {
-      headline: "Before your parent signs with a cash buyer, read this.",
+      headline:
+        "For eight years, I was the guy sending your parents those “we buy houses” letters.",
       subhead:
-        "A plain-English look at what those 'we buy houses' offers really cost, and the questions that protect your family.",
-      pain: "The letters and the calls feel like a lifeline when you are overwhelmed and the house is one more thing to deal with. Some of those offers are fair. Some quietly cost a family tens of thousands of dollars. The hard part is telling them apart when you are already stretched thin.",
+        "I wrote the cash offers. I knew exactly how the conversation gets built to move somebody who is tired and scared. Then I switched sides.",
+      pain: "I sat at those kitchen tables and I was good at it. None of it was illegal, and most of it was not even dishonest exactly. It is a machine built to buy a house for less than it is worth from someone who does not have the time or the information to push back. Then I watched it happen to my own family, and I could not do it anymore.",
       bullets: [
-        "The 5 questions to ask before anyone signs anything",
-        "The simple math that shows what an offer really nets your family",
-        "What to do if your parent has already signed",
-        "How to tell the fair buyers from the predatory ones",
+        "Why the letter is built to feel personal and urgent, and what it actually is",
+        "The two words next to the buyer's name that mean they are not the buyer",
+        "The re-trade: the scripted price drop timed for when you are worn down",
+        "The four questions a real buyer answers and a wholesaler dodges",
       ],
     },
   },
@@ -255,6 +263,46 @@ export const LEAD_MAGNETS: LeadMagnet[] = [
       ],
     },
   },
+  {
+    // Build 6, Aug 13 2026. The money-and-preemptive magnet: it meets the
+    // reader while nothing is forcing the decision, which is the only time
+    // the good options are still open. Nothing else in the registry speaks
+    // to the planning-ahead reader; every other magnet assumes a crisis is
+    // already underway.
+    slug: "home-decision",
+    title: "The Home Decision Every Retirement Plan Forgets",
+    subtitle: "Your advisor planned the 401(k). Nobody planned the house.",
+    description:
+      "The house is usually the biggest asset a family owns and the one nobody made a plan for, because it falls in the crack between the financial advisor, the real estate agent and the senior-care world. This guide lays out the five real doors, the honest net on each, the two tax windows that quietly close, and the one question that points to the right door.",
+    pageCount: 12,
+    pdfPath: "/downloads/home-decision.pdf",
+    publishedDate: "2026-08-13",
+    // Same locked SOP tag convention as every other magnet: universal
+    // paid-traffic tag, the nurture-enrolment tag, the source tag, then the
+    // slug as the entry-door identifier. The Build 6 spec proposed a new
+    // `magnet-*` / `src-lead-magnet` vocabulary; deliberately not used, as
+    // it would fork the tag scheme in an account we just finished cleaning
+    // duplicate and orphan tags out of.
+    ghlTags: [
+      "meta-lead",
+      "freeguide",
+      "lead-source-rss-guides",
+      "home-decision",
+    ],
+    landing: {
+      headline:
+        "Your house is the biggest asset in your retirement. It is also the one nobody made a plan for.",
+      subhead:
+        "Your advisor has a plan for the 401(k), the pension and Social Security. Almost none of them have a plan for the house.",
+      pain: "Financial advisors do not touch real estate, real estate agents mostly know one move, and the senior-care world does not do money. So the biggest asset in the plan falls in the crack between three professionals and stays there, until a fall or a diagnosis or a stack of bills forces the decision fast, on a clock, by people who are exhausted. That is the most expensive way to make any decision, and it is the default.",
+      bullets: [
+        "The five doors for a family home, and the real net on each",
+        "The two tax windows that quietly close, and what waiting costs",
+        "Why “we will deal with the house when the time comes” is the most expensive plan there is",
+        "The one question that tells you whether to sell, hold or stay",
+      ],
+    },
+  },
   // Future magnets: append here. /guides hub will auto-render them in
   // source-of-truth order. No component edits required.
   //
@@ -262,6 +310,10 @@ export const LEAD_MAGNETS: LeadMagnet[] = [
   // Mom Won't See" (slug: wholesaler-red-flags), then "Sandwich Generation
   // Burnout" (slug: sandwich-generation-burnout). Both placeholders are
   // live in PLACEHOLDER_GUIDES at /guides/page.tsx slots 5 and 6.
+  //
+  // Note: wholesaler-red-flags now overlaps the rewritten cash-buyer-beware
+  // (the confession covers the red flags from the inside). Worth folding
+  // into it rather than shipping a third magnet in the same lane.
 ];
 
 /**
