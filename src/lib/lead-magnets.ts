@@ -107,8 +107,8 @@ export const LEAD_MAGNETS: LeadMagnet[] = [
     title: "Confessions of a Former Cash Buyer",
     subtitle: "I sent those letters for eight years. Here is the playbook.",
     description:
-      "For eight years Ryan bought houses from families in exactly this spot, and wrote the cash offers himself. This is the machine explained from the inside: what the friendly letter actually is, the two words that mean the buyer is not a buyer, the scripted price drop, and the four questions that stop all of it.",
-    pageCount: 15,
+      "For eight years Ryan bought houses from families in exactly this spot, and wrote the cash offers himself. This is the machine explained from the inside: what the friendly letter actually is, the two words that mean the buyer is not a buyer, the scripted price drop, and the four questions that stop all of it. Plus the real math on a $300,000 house, seven red flags, five other ways to sell, and what to check if a contract has already been signed.",
+    pageCount: 14,
     pdfPath: "/downloads/cash-buyer-beware.pdf",
     publishedDate: "2026-05-18",
     // Tag set per the May-18 spec update: /guides signups now route
@@ -274,7 +274,7 @@ export const LEAD_MAGNETS: LeadMagnet[] = [
     subtitle: "Your advisor planned the 401(k). Nobody planned the house.",
     description:
       "The house is usually the biggest asset a family owns and the one nobody made a plan for, because it falls in the crack between the financial advisor, the real estate agent and the senior-care world. This guide lays out the five real doors, the honest net on each, the two tax windows that quietly close, and the one question that points to the right door.",
-    pageCount: 12,
+    pageCount: 6,
     pdfPath: "/downloads/home-decision.pdf",
     publishedDate: "2026-08-13",
     // Same locked SOP tag convention as every other magnet: universal
