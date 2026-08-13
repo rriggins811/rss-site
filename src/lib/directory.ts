@@ -545,6 +545,15 @@ export const DIRECTORY_COUNTIES: DirectoryCounty[] = [
     blurb:
       "Jacksonville, FL programs for seniors and families: the 25-year Long-Term Residency exemption that can erase the City of Jacksonville portion of the tax bill, free JTA bus rides at 65, EHEAP run by the city itself and LIHEAP through NFCAA, the Beaches Energy CARE program for the beach towns, senior centers serving breakfast and lunch at no charge, Aging True Meals on Wheels, which home repair programs are open and which are closed, legal aid with no income test at 60, the Mayo memory clinic, and the one PACE program whose service area is drawn by ZIP code.",
   },
+  {
+    slug: "sarasota-county-fl-senior-help-directory",
+    county: "Sarasota County",
+    state: "FL",
+    metro: "Sarasota, Venice & North Port",
+    region: "Southwest Florida",
+    blurb:
+      "Sarasota, Venice and North Port, FL programs for seniors and families: the senior homestead exemption worth $50,000 inside three city limits, $25,000 in North Port and only $5,000 in unincorporated county, free Breeze bus rides at 80 and paratransit that accepts anyone 65 and older, the Meals on Wheels boundary that stops at Laurel Road, EHEAP through Senior Friendship Centers and the LIHEAP agency families call by mistake, the SHIP home repair window that reopens September 1, legal aid with no income test at 60, Sarasota Memorial's memory disorder clinic, and the PACE program that covers the county on paper with zero enrollees in it.",
+  },
 ];
 
 export type DirectoryState = {
