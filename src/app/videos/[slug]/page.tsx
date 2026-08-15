@@ -122,6 +122,34 @@ export default async function VideoDetailPage({
           ))}
         </div>
 
+        {fm.toolHref && fm.toolLabel ? (
+          <div className="mt-12 rounded-xl border border-ink/10 bg-cream/60 px-8 py-8">
+            <h2 className="text-xl">The free tool for this one</h2>
+            <p className="mt-3 text-ink/80">
+              This is the problem the video just described, worked out on paper.
+              No cost, no signup wall.
+            </p>
+            <Button asChild className="mt-6">
+              <Link href={fm.toolHref}>{fm.toolLabel}</Link>
+            </Button>
+          </div>
+        ) : null}
+
+        {fm.sources && fm.sources.length > 0 ? (
+          <div className="mt-12">
+            <h2 className="text-xl">Where these numbers come from</h2>
+            <p className="mt-3 text-ink/70">
+              Every figure in the script was checked against a named source
+              before it was recorded.
+            </p>
+            <ul className="mt-5 list-disc space-y-3 pl-5 text-ink/80">
+              {fm.sources.map((s, i) => (
+                <li key={i}>{s}</li>
+              ))}
+            </ul>
+          </div>
+        ) : null}
+
         <div className="mt-14 rounded-xl bg-navy px-8 py-10 text-center text-cream">
           <h2 className="text-2xl text-cream">
             Everything a family needs here is free.

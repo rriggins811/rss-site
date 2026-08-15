@@ -27,6 +27,18 @@ export type VideoFrontmatter = {
   duration?: string;
   pillar?: string;
   tags?: string[];
+  /**
+   * The verified citations that backed the script, carried over from the
+   * post's first comment. These do real work on the page: a bare 130-word
+   * transcript is thin, and named .gov sources plus outbound links are what
+   * make it a page worth indexing rather than filler.
+   */
+  sources?: string[];
+  /** The one free tool this video's problem resolves to. */
+  toolLabel?: string;
+  toolHref?: string;
+  /** The on-screen hook phrase, used as the page's opening line. */
+  hook?: string;
   datePublished?: string;
   dateModified?: string;
 };
