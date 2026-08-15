@@ -10,6 +10,7 @@ import { socialLinks, additionalSameAs } from "@/lib/social";
 import { AUTHOR, ORGANIZATION, SITE_NAME, SITE_URL, abs } from "@/lib/site";
 import type { BlogPost, HowToStep } from "@/lib/blog";
 import type { MediaItem } from "@/lib/media";
+import type { VideoItem } from "@/lib/videos";
 import {
   getClusterFor,
   memberToUrl,
@@ -454,6 +455,49 @@ export function mediaSchemaFromItem(item: MediaItem) {
     publisher: { "@id": ORG_ID },
     inLanguage: "en-US",
   };
+}
+
+/**
+ * VideoObject for a reel page. The transcript is the point: Google cannot read
+ * pixels, so the indexable asset is the text, and `transcript` plus the visible
+ * body copy is what actually earns the page its ranking.
+ *
+ * contentUrl is only emitted when we have a real mp4, and embedUrl only when the
+ * reel is live on YouTube. Emitting a placeholder for either is worse than
+ * omitting it, since a broken media URL can invalidate the whole VideoObject.
+ */
+export function videoSchemaFromItem(item: VideoItem) {
+  const fm = item.frontmatter;
+  const url = abs(`/videos/${fm.slug}`);
+  const thumbnail =
+    fm.poster ||
+    (fm.youtubeId
+      ? `https://img.youtube.com/vi/${fm.youtubeId}/maxresdefault.jpg`
+      : `${url}/opengraph-image`);
+
+  const schema: Record<string, unknown> = {
+    "@context": "https://schema.org",
+    "@type": "VideoObject",
+    mainEntityOfPage: { "@type": "WebPage", "@id": url },
+    name: fm.title,
+    description: fm.excerpt,
+    thumbnailUrl: thumbnail,
+    uploadDate: item.datePublished,
+    url,
+    transcript: item.content.replace(/\s+/g, " ").trim(),
+    creator: { "@id": PERSON_ID },
+    publisher: { "@id": ORG_ID },
+    inLanguage: "en-US",
+    isFamilyFriendly: true,
+  };
+
+  if (fm.duration) schema.duration = fm.duration;
+  if (fm.youtubeId) {
+    schema.embedUrl = `https://www.youtube.com/embed/${fm.youtubeId}`;
+  }
+  if (fm.videoUrl) schema.contentUrl = fm.videoUrl;
+
+  return schema;
 }
 
 /**

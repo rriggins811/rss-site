@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { getAllPosts } from "@/lib/blog";
 import { getAllMedia } from "@/lib/media";
+import { getPublishedVideos } from "@/lib/videos";
 import { TOOLS } from "@/lib/tools";
 import { RESOURCES } from "@/lib/resources";
 import { getResourceContent } from "@/lib/resource-content";
@@ -39,6 +40,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/partners", changeFrequency: "monthly", priority: 0.6 },
     { path: "/blog", changeFrequency: "weekly", priority: 0.8 },
     { path: "/media", changeFrequency: "monthly", priority: 0.7 },
+    { path: "/videos", changeFrequency: "weekly", priority: 0.7 },
     { path: "/tools", changeFrequency: "monthly", priority: 0.8 },
     { path: "/guides", changeFrequency: "monthly", priority: 0.8 },
     { path: "/resources", changeFrequency: "weekly", priority: 0.8 },
@@ -66,6 +68,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const mediaEntries: MetadataRoute.Sitemap = getAllMedia().map((m) => ({
     url: `${SITE_URL}/media/${m.frontmatter.slug}`,
     lastModified: new Date(m.dateModified),
+    changeFrequency: "monthly",
+    priority: 0.6,
+  }));
+
+  // Only published videos. getPublishedVideos filters out future-dated reels so
+  // next week's scheduled content never leaks into the sitemap early.
+  const videoEntries: MetadataRoute.Sitemap = getPublishedVideos().map((v) => ({
+    url: `${SITE_URL}/videos/${v.frontmatter.slug}`,
+    lastModified: new Date(v.dateModified),
     changeFrequency: "monthly",
     priority: 0.6,
   }));
@@ -107,6 +118,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...staticEntries,
     ...blogEntries,
     ...mediaEntries,
+    ...videoEntries,
     ...toolEntries,
     ...resourceEntries,
     ...directoryStateEntries,
