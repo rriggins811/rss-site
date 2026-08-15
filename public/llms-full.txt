@@ -5,8 +5,8 @@ It contains the full Markdown of every key page, resource pillar, Senior Help
 Directory state page, and blog post, intended for AI crawlers that ingest
 content for answer generation.
 
-Generated: 2026-08-13
-Indexed: 105 blog posts, 16 resource pillars, 51 Senior Help Directory state pages.
+Generated: 2026-08-15
+Indexed: 106 blog posts, 16 resource pillars, 51 Senior Help Directory state pages, 12 video transcripts.
 
 For citation guidance, organizational facts, and topic depth, see the summary
 index at https://rigginsstrategicsolutions.com/llms.txt.
@@ -5186,8 +5186,145 @@ You must qualify for Medicaid, then apply for the Community Choices Waiver, choo
 
 # Blog Posts (newest first)
 
-The 105 posts below are the full body of every published article
+The 106 posts below are the full body of every published article
 on https://rigginsstrategicsolutions.com/blog, in reverse chronological order.
+
+---
+
+# The Home Improvement Loan That Hides on Your Parents' Property Tax Bill
+https://rigginsstrategicsolutions.com/blog/home-improvement-loan-property-tax-bill-pace
+Published: 2026-08-14
+
+**Excerpt:** The lien that wrecks a home sale often isn't on the mortgage statement. It's buried in the property tax bill, put there by a contractor who knocked on the door. CFPB research found these loans raise a homeowner's tax bill by about $2,700 a year.
+
+The lien that wrecks a home sale usually isn't on the mortgage statement. It's sitting in the property tax bill, on a line nobody in your family has read closely in years.
+
+Here's the version of this I watch play out most often. Somebody knocked on your parents' door, or called, and offered a new roof, or windows, or an air conditioner, or solar panels. There was no money down. There was a mention of a government program, or a county program, or an energy program, and the words were true enough to be reassuring. Your father signed something on a tablet in the driveway. The work got done, and the work was probably fine. Nobody in your family thought about it again, because no bill ever arrived in the mail with a lender's name on it.
+
+For 8+ years I bought houses from families in transition, and I learned that the expensive surprises are almost never hiding where people look. They're hiding on the documents nobody reads because they seem routine.
+
+So let me hand you the thing worth knowing. That signature may have attached a loan to your parents' house that gets collected through the property tax bill, sits ahead of the mortgage in line, and has to be cleared before you can sell. Most families find out about it three weeks before closing, when there's already a buyer, a moving date, and a bed reserved at an assisted living community. That's the worst possible moment to learn what a number is, because by then you've lost the ability to walk away from anything.
+
+You can check for this in an afternoon, right now, while nothing is urgent. That's what the rest of this is for.
+
+## What the CFPB Found When It Studied These Loans
+
+The product has a name: PACE financing, short for Property Assessed Clean Energy. According to the Consumer Financial Protection Bureau, PACE loans are voluntary transactions secured by the borrower's home, but they're repaid through the borrower's property tax bill rather than through a separate monthly statement.
+
+In May 2023 the CFPB published a report called Property Assessed Clean Energy (PACE) Financing and Consumer Financial Outcomes. It's the most useful document on this subject, and it isn't an opinion piece. The Bureau matched loan data from PACE financing companies against de-identified credit records for more than 200,000 consumers who applied for PACE financing between July 2014 and June 2020. Then it compared people who took the loan against people who applied and were approved but didn't go through with it.
+
+The findings are worth reading slowly.
+
+On cost, the CFPB found PACE loans increase a homeowner's property tax bill by about $2,700 per year on average, which the Bureau calculated as an average increase of about 88 percent. That is not a rounding error on a fixed income. It nearly doubles the single largest recurring bill on a paid-off house.
+
+On price, the report found the average PACE loan carried an interest rate of about 7.6 percent, with fees averaging about $1,300 per loan, and estimated annual percentage rates that ran roughly a full point above the stated rate once those fees were counted. The Bureau found more than a third of these loans had APRs or fees high enough to meet the definition of a high-cost mortgage under Regulation Z.
+
+On consequences, the CFPB found that getting a PACE loan increased mortgage delinquency rates by 2.5 percentage points over the two years after origination, compared with those approved applicants who didn't proceed. For reference, the Bureau noted the average delinquency rate for these borrowers in the two years before the loan was 7.1 percent, which means the loan raised the risk of falling behind on the mortgage by roughly 35 percent.
+
+Two more details tell you what kind of sales process produced these loans. The CFPB found the effect on mortgage delinquency was larger for borrowers with lower credit scores, which matters because parts of the industry marketed PACE as a solution for people with imperfect credit. And a little more than 13 percent of borrowers received multiple PACE loans, with many originated at the same time or within a few months of each other.
+
+## Why It Lands on the Tax Bill Instead of a Statement
+
+This is the mechanism that makes the product so easy to miss, so it's worth understanding before you go looking.
+
+A normal home improvement loan generates a lender, a statement, and a phone call when you're late. PACE generates a line on the property tax bill. If your parents pay their taxes through a mortgage escrow account, which most people with a mortgage do, the servicer absorbs the increase and raises the monthly escrow payment. Your parents see the mortgage payment go up and often assume the county raised their taxes.
+
+If they own the house free and clear, the increase shows up once or twice a year on a bill that many older homeowners pay without itemizing, because it's arrived every year of their adult lives and it always goes up a little.
+
+The CFPB spelled out why this structure is riskier than it looks. Because PACE payments are collected with property taxes, failing to pay the PACE portion generally means failing to pay the tax bill as a whole. And as the Bureau noted, mortgage servicers will generally pay a delinquent property tax bill on the homeowner's behalf to protect the lender's security interest, then turn around and collect the shortage from the homeowner. That's the pathway from a home improvement you barely remember to a mortgage delinquency you didn't see coming.
+
+The CFPB also found more than 70 percent of PACE borrowers had a mortgage already when they took the loan, so this is not a product that mostly landed on people who owned nothing.
+
+## What Happens When You Go to Sell
+
+Here's where this stops being an annoyance and starts costing your family real money.
+
+Residential PACE assessments are generally structured to take priority over existing mortgage liens, the same way ordinary property taxes do. The mortgage market has a firm answer to that. Fannie Mae's Selling Guide, section B5-3.4-01, states that Fannie Mae "will not purchase mortgage loans secured by properties with an outstanding PACE loan unless the terms of the PACE loan program do not provide for lien priority over first mortgage liens." The guide explains the reason plainly: the standard Fannie Mae and Freddie Mac security instruments prohibit loans that have senior lien status to the mortgage.
+
+Read that from your buyer's side. If your parents' house carries a PACE assessment with priority, the loan your buyer is trying to get generally can't be sold into the conventional market while that assessment is still attached. In practice, that means the balance gets paid off at closing, out of your parents' proceeds, or the deal restructures around it.
+
+So the money is real and it comes out of the same pot that was going to fund care. A remaining balance on a roof financed at 7.6 percent is not a small line item on a settlement statement.
+
+And notice the timing, because the timing is the actual injury. Nothing about this surfaces until somebody runs title. Title gets run after you've listed, after you've accepted an offer, after your mother has told her friends she's moving, and after the community has your deposit. At that point your family isn't deciding anything. You're absorbing a number.
+
+That's the pattern worth naming. Calling an agent starts a clock. Once the sign is in the yard, every unpleasant discovery arrives with a deadline attached and a room full of people who need you to keep going. The families who do well are the ones who found the ugly paperwork months earlier, when the only cost of a surprise was a phone call.
+
+## How to Check Your Parents' House This Week
+
+None of this requires a lawyer or a hard conversation about the future. It's an afternoon of records.
+
+### 1. Read the actual property tax bill, line by line
+
+Not the amount due. The itemization. You're looking for a line that reads as a special assessment, a district assessment, an improvement assessment, or a line carrying a program name rather than a taxing authority. County bills separate ad valorem taxes, which are based on the home's value, from non-ad valorem assessments, which are flat charges attached to the parcel. A PACE obligation sits in that second group.
+
+### 2. Pull the parcel record from the county yourself
+
+Every county tax collector and property appraiser posts parcel records online, searchable by address or owner name. Pull your parents' parcel and read the current and prior year bills. Do this yourself rather than asking your parents to find the paperwork, because the paperwork is frequently gone and the question tends to land as an accusation.
+
+### 3. Search the county land records for a recorded assessment
+
+PACE obligations are typically recorded against the property. Search the register of deeds or county clerk's land records by owner name and look for any notice of assessment, lien, or agreement recorded in the years after a visible improvement to the house. A new roof or new windows with no recollection of writing a check is the thing that should send you to the records.
+
+### 4. Ask the question in a way that doesn't sound like an audit
+
+Don't ask your father whether he signed a loan. He'll say no, and he'll believe it, because it was presented as a program. Ask what year the roof was done, who did it, and how it was paid for. If the answer is any version of "they said it goes on the taxes" or "there was no payment," you have your answer.
+
+### 5. Get a written payoff figure before you talk to anybody about listing
+
+If you find an assessment, call the county tax collector and the program administrator and ask for the outstanding balance, the payoff amount, the remaining term, and the interest rate, in writing. Knowing that number early is what converts a closing-table emergency into one line in a plan.
+
+### 6. Know what the new federal rule does and doesn't do
+
+The CFPB issued a final rule, Residential Property Assessed Clean Energy Financing (Regulation Z), published in the Federal Register on January 10, 2025, at 90 FR 2434, and effective March 1, 2026. It applies Truth in Lending Act requirements and ability-to-repay standards to PACE transactions going forward. That's a meaningful change for anyone approached tomorrow. It does not retroactively undo an assessment already sitting on your parents' house, so the records check still matters.
+
+## Frequently Asked Questions
+
+### What is a PACE loan?
+
+PACE stands for Property Assessed Clean Energy. According to the Consumer Financial Protection Bureau, it's financing used to pay for home improvements that's secured by the borrower's home but repaid through the borrower's property tax bill rather than through a separate loan statement. It's typically sold at the point of the home improvement, through contractors, which is why many homeowners remember the project clearly and the financing not at all.
+
+### Does a PACE assessment have to be paid off when the house is sold?
+
+Usually yes, in practical terms. Fannie Mae's Selling Guide section B5-3.4-01 states that Fannie Mae will not purchase mortgage loans secured by properties with an outstanding PACE loan unless the PACE program's terms don't provide for lien priority over first mortgage liens. Since most residential PACE assessments do take priority, a buyer using conventional financing generally can't close while the assessment remains attached, so the balance is typically paid off at closing out of the seller's proceeds.
+
+### Which states have residential PACE programs?
+
+The CFPB's report identified California and Florida as the two states where residential PACE lending was active during its study period of July 2014 through June 2020. The Bureau also noted that residential PACE lending was active in Missouri during that period, though few loans were made by comparison, and that a small pilot program launched in Ohio in 2015. If your parents live in California or Florida, this deserves a check.
+
+### How much does a PACE loan actually cost?
+
+The CFPB found the average PACE loan carried an interest rate of about 7.6 percent with fees averaging about $1,300 per loan, and that estimated APRs ran about a full percentage point above the stated interest rate once fees were included. The Bureau found more than a third of the loans it studied had APRs or fees high enough to meet the definition of a high-cost mortgage under Regulation Z. On the tax bill, the CFPB calculated an average increase of about $2,700 per year, roughly 88 percent.
+
+### Will the new CFPB rule cancel a PACE loan my parent already has?
+
+No. The final rule was published January 10, 2025 and took effect March 1, 2026, applying Truth in Lending Act protections and ability-to-repay requirements to PACE transactions. Those protections govern how PACE financing is originated and disclosed going forward. An assessment recorded before then stays on the property, which is why checking the tax bill and the county land records is still the practical step for an existing obligation.
+
+## About Ryan Riggins
+
+Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafe app](https://seniorsafeapp.com).
+
+---
+
+**Want to know what the house actually nets?** The free Net Proceeds Calculator shows what's left after liens, payoffs, and costs come out: rigginsstrategicsolutions.com/tools/net-proceeds-calculator
+
+**Want a step-by-step guide?** The Senior Transition Blueprint is free, all 20 modules and 69 tools: rigginsstrategicsolutions.com/the-blueprint
+
+**Not sure where your family stands?** The free Family Readiness Score takes five minutes and shows the gaps across the home, the money, the legal documents, care, and family alignment: rigginsstrategicsolutions.com/tools/family-readiness-score
+
+**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
+
+**Selling a parent's home?** Ryan finds and vets the right local agent for your situation and stays in your corner on the whole sale, at no added cost to your family: rigginsstrategicsolutions.com/in-your-corner
+
+**Coordinate the family in one place.** SeniorSafeApp keeps daily check-ins, medications, and documents where the whole family can see them: seniorsafeapp.com
+
+## Sources
+
+All sources checked August 14, 2026.
+
+- Consumer Financial Protection Bureau, Property Assessed Clean Energy (PACE) Financing and Consumer Financial Outcomes, May 2023: repayment through the property tax bill, 2.5 percentage point increase in mortgage delinquency over two years against a 7.1 percent prior baseline, average property tax increase of about $2,700 per year and about 88 percent, average interest rate of about 7.6 percent, average fees of about $1,300 per loan, more than a third meeting the Regulation Z high-cost mortgage definition, more than 70 percent of borrowers holding a pre-existing mortgage, more than 13 percent receiving multiple PACE loans, and active lending in California and Florida with limited activity in Missouri and a 2015 Ohio pilot. https://www.consumerfinance.gov/data-research/research-reports/property-assessed-clean-energy-financing-and-consumer-financial-outcomes/
+- Consumer Financial Protection Bureau, Residential Property Assessed Clean Energy Financing (Regulation Z), final rule, published January 10, 2025, 90 FR 2434, effective March 1, 2026. https://www.federalregister.gov/documents/2025/01/10/2024-30628/residential-property-assessed-clean-energy-financing-regulation-z
+- Consumer Financial Protection Bureau, final rule page confirming the March 1, 2026 effective date. https://www.consumerfinance.gov/rules-policy/final-rules/residential-property-assessed-clean-energy-financing-regulation-z/
+- Fannie Mae Selling Guide, section B5-3.4-01, Property Assessed Clean Energy Loans, dated October 8, 2025: policy on purchasing mortgages secured by properties with an outstanding PACE loan and on lien priority. https://selling-guide.fanniemae.com/sel/b5-3.4-01/property-assessed-clean-energy-loans
 
 ---
 
@@ -17309,3 +17446,304 @@ Remember, the goal isn't just to sell a house or move boxes—it is to navigate 
 **Ready to start your plan?**[** Don't wait for the crisis to hit. Download our free Senior Transition Starter Guide**](https://go.rigginsstrategicsolutions.com/) today. It includes the "5 Biggest Mistakes" checklist and the tools you need to begin the conversation with confidence.
 
 [**[Download the Free Starter Guide Here**]](https://go.rigginsstrategicsolutions.com/)
+
+---
+
+# Video Transcripts (newest first)
+
+The 12 transcripts below are the full spoken text of every published
+video on https://rigginsstrategicsolutions.com/videos, with the sources each script was checked against.
+Ryan spent eight years on the cash-buyer side of senior home sales before
+switching, and these are the plainest statements of what he learned there.
+
+---
+
+# Stay Home or Move? The Break-Even Math Nobody Runs
+https://rigginsstrategicsolutions.com/videos/stay-home-or-move-the-break-even-math
+Published: 2026-08-14
+
+**Excerpt:** Most families decide on a feeling. It is not the grab bars, it is how many hours of help she needs in year three.
+
+**Full transcript:**
+
+Most families choose stay home or move on a feeling and never run the math. That's how the money gets away from you. A late July report found nearly two out of three families now see home care as a long-term answer, not a stopgap.
+
+Good instinct. But here's the part you don't want to skip. The cost isn't the grab bars and the ramp.
+
+Those are one time. The real question is how many hours of help your mom needs in year three, not year one. After about 10 hours a week, staying home usually wins.
+
+Past 30 hours a week, assisted living is often cheaper. All in. So run your real numbers before you make the emotional call.
+
+Measure the year three number first. Grab the free breakeven tool at RigginsStrategicSolutions. com.
+
+Link is below.
+
+**Sources:**
+- A Place for Mom, What Makes Home Care Work, July 21 2026 (aplaceformom.com).
+
+---
+
+# Five Experts, No Quarterback: The Senior Transition Trap
+https://rigginsstrategicsolutions.com/videos/five-experts-no-quarterback
+Published: 2026-08-13
+
+**Excerpt:** A lawyer, a financial person, a care manager and an agent. Every one sees a slice, and nobody is watching the whole board.
+
+**Full transcript:**
+
+Here's a trap nobody warns you about. When your parents' health turns, you end up with a lawyer, a financial guy, a care manager, and an agent, and everyone sees one slice. Nobody's watching the whole board, and that gap is where your family gets hurt.
+
+I spent years on the buying side of houses when I switched sides. So here's what changes for you. You get one person in the middle.
+
+When your family's spinning, you get organized. You see every option, and you know what order to do things in. Say mom needs care in 90 days, and the house has to pay for it.
+
+You'll see whether to sell fast, list, or go creative, and you get the right people at the table. No kickbacks. No hidden fees.
+
+Just better outcomes. Grab the free roadmap at rigganstrategicsolutions. com.
+
+Link is below.
+
+**Sources:**
+- No kickbacks and no hidden fees. If a family is referred to an agent, the referral fee comes from that agent's side, never from the family.
+
+---
+
+# The Storm-Chaser Contractor Scam, From a Guy Who Was in Construction
+https://rigginsstrategicsolutions.com/videos/the-storm-chaser-contractor-scam
+Published: 2026-08-12
+
+**Excerpt:** A real contractor is licensed, gives you time for a second quote, and never wants full payment up front.
+
+**Full transcript:**
+
+I spent eight years running construction jobs before I helped families sell homes. So when a truck with no name on the door pulls up to your parents' place after a storm, you should know exactly what it is. On July 31st, the crime bureau warned of storm chasers hitting neighborhoods after this summer's flooding.
+
+Out of state plates, cash up front, and a contractor signed your insurance check over to them. Contractor fraud is up 38% in two years. Here's what a real contractor does that a chaser never will.
+
+He's licensed in your state, he waits while you get a second quote, and he never wants full payment up front. If your folks are prepping a house, know the smart number before anyone swings a hammer. Measure twice, sign once.
+
+Free tool at RigginsStrategicSolutions. com. Link is below.
+
+**Sources:**
+- National Insurance Crime Bureau contractor fraud warning, July 31 2026 (nicb.org).
+
+---
+
+# The Medicare Letter Most Seniors Throw Away (Don't)
+https://rigginsstrategicsolutions.com/videos/the-medicare-letter-most-seniors-throw-away
+Published: 2026-08-11
+
+**Excerpt:** The Annual Notice of Change is how a plan changes your costs, your drugs and your doctors for next year. It arrives in September.
+
+**Full transcript:**
+
+This one is for you if you are the one on Medicare. In September, your plan mails you a booklet called the Annual Notice of Change. Most folks glance at the cover and toss it.
+
+Do not. That letter is how your plan changes your coverage for next year without a single phone call, new costs, dropped drugs, a doctor who is suddenly out of network. It is all in there, and it takes effect January 1st.
+
+Whether you read it or not, you have read every important letter that ever landed in your mailbox. Read this one too, and compare your options on the planfinder at medicare. gov or call 1-800-MEDICARE.
+
+Open enrollment runs October 15th to December 7th. You took care of your family for years. This is one more way to stay in the driver's seat.
+
+Grab the free roadmap at RIGGONSTRATEGICSOLUTIONS. COM. Link is below.
+
+**Sources:**
+- Medicare.gov, Annual Notice of Change.
+- Medicare Open Enrollment runs October 15 to December 7.
+
+---
+
+# A State Just Banned These Machines to Stop Elder Scams
+https://rigginsstrategicsolutions.com/videos/a-state-just-banned-these-machines
+Published: 2026-08-10
+
+**Excerpt:** If someone tells your mom to move cash into a Bitcoin machine, the machine is the scam. One state banned them outright.
+
+**Full transcript:**
+
+If your mom gets a call telling her to move cash into a Bitcoin machine to fix an emergency, that machine is the scam. Every time, the whole state just proved how bad it got. On August 1st, Minnesota banned crypto cash kiosks after older folks there lost close to a million dollars, and 86% of that hit people over 60.
+
+Here's the play they run on your parent. A warrant. A grandkid in jail.
+
+A frozen account. Panic first. Think later.
+
+Then, go to the store and feed the machine. No real agency takes payment in crypto. Ever.
+
+The fix your family can set today is one rule. Any urgent money move waits until a second person hears it first. That one rule kills most of these.
+
+Boring beats broke. Grab the free family roadmap at RigginsStrategicSolutions. com.
+
+Link is below.
+
+**Sources:**
+- Minnesota Department of Commerce and AARP Minnesota, crypto kiosk ban SF 3868, effective August 1 2026 (aarp.org).
+
+---
+
+# If Your Parent Had a Stroke Tomorrow, Could You Step In?
+https://rigginsstrategicsolutions.com/videos/if-your-parent-had-a-stroke-tomorrow-could-you-step-in
+Published: 2026-08-07
+
+**Excerpt:** No power of attorney on file means the bank says no, and the family ends up in court for guardianship. Four documents close the gap.
+
+**Full transcript:**
+
+Your dad has a stroke, you walk into his bank to handle things, and they tell you no. That's when most families find out there's no power of attorney on file. No POA means no authority, so you're headed to court for guardianship where the bills stack up.
+
+Four documents close that gap. A durable financial power of attorney, a healthcare power of attorney, an advance directive, and an up-to-date will. Most families have an old will from the 90s and none of the other three.
+
+Here's your homework this weekend. Ask your parents one question. If you couldn't handle your own money for 90 days, who signs?
+
+If they can't name the document, you just found the gap. Sign it while everyone's healthy and you keep control. Go to RigginStrategicSolutions.
+
+com slash work with Ryan and grab the link below.
+
+**Sources:**
+- The four documents: durable financial power of attorney, healthcare power of attorney, advance directive, and an up to date will or trust.
+- Rules vary by state. Confirm with a licensed elder law attorney.
+
+---
+
+# I Used to Write Those We Buy Houses Letters
+https://rigginsstrategicsolutions.com/videos/i-used-to-write-those-we-buy-houses-letters
+Published: 2026-08-06
+
+**Excerpt:** A wholesaler locks your mom's house at the lowest number they can get, then sells the contract for a markup she never sees.
+
+**Full transcript:**
+
+That we buy houses letter in your mom's mailbox? I used to be the guy writing them, eight years on the cash buying side, and a paid-off house owned by an older woman was the whole target. A wholesaler isn't the buyer.
+
+They lock your mom's house under contract at the lowest number they can talk her into, then sell that contract to another investor for a markup she never sees. She thinks she sold to a nice cash guy. She actually left tens of thousands on the table.
+
+I'm not against cash offers. Sometimes they're the right call. But before anyone signs, find out what the house would bring on the open market first.
+
+If it's your parents' home, that's the call that protects them. One number changes everything. No kickbacks, no hidden fee or markups.
+
+Just better outcomes. Go to rigganstrategicsolutions. com slash work with Ryan and grab the link below.
+
+**Sources:**
+- Ryan Riggins holds a NC broker license (#361546, eXp Realty) but is not here to help you buy or sell a house, only to coordinate the transition.
+- Most counties run a free property fraud alert program. Enrolling a parent costs nothing.
+
+---
+
+# The Part of Caregiving Nobody Warns You About
+https://rigginsstrategicsolutions.com/videos/the-part-of-caregiving-nobody-warns-you-about
+Published: 2026-08-05
+
+**Excerpt:** You priced a few hours of help a week and thought it was handled. Run the number for year three, not year one.
+
+**Full transcript:**
+
+You priced out a few hours of help a week for mom and figured you had it handled. Then year three showed up. Assisted living crossed $5,400 a month this year, and in-home care is climbing even faster.
+
+AARP says long-term care costs jumped close to 50% since 2019, while incomes barely moved. But the cost I worry about most isn't on any invoice. It's you.
+
+Keeping under six hours for weeks, snapping at people, forgetting your own appointments. That's not you failing. That's the load.
+
+So run the harder question early. How much help will mom need in year three, not year one? Take the respite hours your county offers.
+
+They're not selfish. They're the only way to keep going. Go to RigginStrategicSolutions.
+
+com slash Work With Ryan and grab the link below.
+
+**Sources:**
+- CareScout 2026 Cost of Care, assisted living median about $5,419 a month.
+- AARP Public Policy Institute, long term care costs up about 50 percent from 2019 to 2024.
+
+---
+
+# How to Stop a Scam Before the Money Is Gone
+https://rigginsstrategicsolutions.com/videos/how-to-stop-a-scam-before-the-money-is-gone
+Published: 2026-08-04
+
+**Excerpt:** A Georgia law lets banks pause a suspicious transfer for an older customer. The part that works almost anywhere is the trusted contact.
+
+**Full transcript:**
+
+If somebody calls you in a panic and says, why are the money right now? Here's the good news. Your bank can now hit the brakes for you.
+
+A new Georgia law lets a bank pause a suspicious payment for up to 15 business days when it looks like someone over 65 is being scanned. You don't live in Georgia? The best part works almost anywhere.
+
+Call your bank and your investment company and add a trusted contact to your account. That's the person they call when a transfer looks wrong. That's not somebody managing your money.
+
+It's you deciding ahead of time who gets the phone call. You built it. You keep it.
+
+You took care of your family for decades. This is how you make sure nobody takes it now. Go to RigginStrategicSolutions.
+
+com slash work with Ryan and grab the link below.
+
+**Sources:**
+- Georgia HB 945, effective July 1 2026 (Georgia General Assembly).
+- Trusted contact designations are available at most banks and brokerages nationwide.
+
+---
+
+# The VA Benefit Nobody Told You About (Your Dad Might Qualify)
+https://rigginsstrategicsolutions.com/videos/the-va-benefit-nobody-told-you-about
+Published: 2026-08-03
+
+**Excerpt:** A wartime veteran who needs daily care may qualify for VA Aid and Attendance, and unpaid medical bills can lower the income the VA counts.
+
+**Full transcript:**
+
+Your dad served in a war. He needs help bathing now, and the VA will send up to $2,874 a month toward his care in 2026. Most families never claim a dime.
+
+It's called aid and attendance. Here's what trips people up. They figure dad makes too much to qualify, but the VA subtracts his unpaid medical bills from the income accounts.
+
+The care bill itself is often what gets him under the line. Nobody at the facility is paid to walk you through that, so it sits there while a family drains savings that never had to move. I don't sell you anything to figure this out.
+
+I hope you see the whole money picture before a crisis picks for you. Boring math beats broke. Go to RigginsStrategicSolutions.
+
+com slash work with Ryan and grab the link below.
+
+**Sources:**
+- VA Aid and Attendance 2026 rate, up to about $2,874 a month for a wartime veteran needing daily care, with a 2026 net worth limit of $163,699 (va.gov).
+
+---
+
+# $73,000 or $169,000? The Choice Most Families Never Know They're Making
+https://rigginsstrategicsolutions.com/videos/73000-or-169000-the-choice-families-never-see
+Published: 2026-06-28
+
+**Excerpt:** A family sold Ryan their mother's house and walked away with about $73,000, relieved it was over. They never learned what the same house could have brought with a plan behind it.
+
+**Full transcript:**
+
+Your parents could hand a stranger almost $100,000 of their own money and feel grateful doing it. I know because I used to be that stranger. A family sold me their mom's house.
+
+They walked away with about $73,000. Relieved it was over. What they never knew is that with the right plan that same house could have put $169,000 in their pocket.
+
+$96,000 gone and they had no idea. That's the problem and here's how I fix it now. I get the house sold the right way.
+
+I handle the heavy lifting and the emotional weight and I bring in the right people. So your family keeps that money instead of losing it to a guy like the old me. See exactly how on my site or just ask me below.
+
+I'll see you in the next one.
+
+**Sources:**
+- The figures here are Ryan's own account of a house he personally bought while working the cash-buyer side, not a published study. The $169,000 is his estimate of what a prepared, properly marketed sale would have returned on that same property.
+
+---
+
+# A Cash Offer Is Not a Favor. It Is a Business Model.
+https://rigginsstrategicsolutions.com/videos/a-cash-offer-is-not-a-favor
+Published: 2026-06-22
+
+**Excerpt:** A paid-off house owned by an older person was easy money when Ryan was on the buying side. Speed was the whole game, because speed is what stops anyone checking the real number.
+
+**Full transcript:**
+
+When I was on the buying side, a paid-off house owned by an older person was easy money. I knew it before I knew the family's name. No mortgage means fast equity, and a tired or grieving owner takes a clean and fast number over the right number.
+
+Speed was the whole game, but faster I moved, the less time anyone had to check what the place was worth. States are finally catching up. Ohio and Pennsylvania both passed laws to slow these deals down.
+
+But you don't need a law to protect your folks. Never sign on the first visit. Get the real net number in writing.
+
+Have one trusted person read the contract first, preferably an attorney or at least a realtor. A cash offer is not a favor. It is a business model, and you are the margin.
+
+Run the real number at RigginsStrategicSolutions. com or grab the link below.
+
+**Sources:**
+- Ohio and Pennsylvania have both enacted wholesaler disclosure laws that slow these transactions down.
+- Before signing: never sign on the first visit, get the real net number in writing, and have an attorney or a broker read the contract first.
