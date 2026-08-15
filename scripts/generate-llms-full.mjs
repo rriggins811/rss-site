@@ -32,6 +32,7 @@ const ROOT = path.resolve(__dirname, "..");
 const BLOG_DIR = path.join(ROOT, "content", "blog");
 const RESOURCES_DIR = path.join(ROOT, "content", "resources");
 const DIRECTORY_DIR = path.join(ROOT, "content", "directory-states");
+const VIDEOS_DIR = path.join(ROOT, "content", "videos");
 const OUT_PATH = path.join(ROOT, "public", "llms-full.txt");
 const SITE_URL = "https://rigginsstrategicsolutions.com";
 
@@ -245,6 +246,47 @@ ${d.url}
 ${d.summary ? `**Summary:** ${d.summary}\n\n` : ""}${d.content}`;
 }
 
+/**
+ * Video transcripts. These are the most direct, plain-spoken explanations on
+ * the site, so they are worth exposing to answer engines. Future-dated reels
+ * are excluded to match getPublishedVideos() on the site itself, otherwise next
+ * week's scheduled content would leak here before it is public.
+ */
+function getVideos() {
+  if (!fs.existsSync(VIDEOS_DIR)) return [];
+  const today = new Date().toISOString().slice(0, 10);
+  return fs
+    .readdirSync(VIDEOS_DIR)
+    .filter((f) => f.endsWith(".mdx"))
+    .map((file) => {
+      const raw = fs.readFileSync(path.join(VIDEOS_DIR, file), "utf8");
+      const { data, content } = matter(raw);
+      return {
+        slug: data.slug ?? file.replace(/\.mdx$/, ""),
+        title: data.title ?? "",
+        date: (data.date ?? "").slice(0, 10),
+        excerpt: data.excerpt ?? "",
+        sources: Array.isArray(data.sources) ? data.sources : [],
+        content: content.trim(),
+      };
+    })
+    .filter((v) => v.date && v.date <= today)
+    .sort((a, b) => b.date.localeCompare(a.date));
+}
+
+function renderVideo(v) {
+  const src = v.sources.length
+    ? `\n\n**Sources:**\n${v.sources.map((s) => `- ${s}`).join("\n")}`
+    : "";
+  return `# ${v.title}
+${SITE_URL}/videos/${v.slug}
+Published: ${v.date}
+
+${v.excerpt ? `**Excerpt:** ${v.excerpt}\n\n` : ""}**Full transcript:**
+
+${v.content}${src}`;
+}
+
 function renderBlogPost(p) {
   const pubDate = p.datePublished.slice(0, 10);
   return `# ${p.title}
@@ -264,6 +306,7 @@ function main() {
     DIRECTORY_DIR,
     (slug) => `${SITE_URL}/resources/senior-help-directory/${slug}`
   );
+  const videos = getVideos();
 
   const header = `# Riggins Strategic Solutions — Full Content Index (llms-full.txt)
 
@@ -273,7 +316,7 @@ Directory state page, and blog post, intended for AI crawlers that ingest
 content for answer generation.
 
 Generated: ${new Date().toISOString().slice(0, 10)}
-Indexed: ${posts.length} blog posts, ${resources.length} resource pillars, ${states.length} Senior Help Directory state pages.
+Indexed: ${posts.length} blog posts, ${resources.length} resource pillars, ${states.length} Senior Help Directory state pages, ${videos.length} video transcripts.
 
 For citation guidance, organizational facts, and topic depth, see the summary
 index at https://rigginsstrategicsolutions.com/llms.txt.`;
@@ -302,6 +345,14 @@ The ${posts.length} posts below are the full body of every published article
 on https://rigginsstrategicsolutions.com/blog, in reverse chronological order.`;
   const blogBody = posts.map(renderBlogPost).join(SECTION_SEPARATOR);
 
+  const videoHeader = `# Video Transcripts (newest first)
+
+The ${videos.length} transcripts below are the full spoken text of every published
+video on ${SITE_URL}/videos, with the sources each script was checked against.
+Ryan spent eight years on the cash-buyer side of senior home sales before
+switching, and these are the plainest statements of what he learned there.`;
+  const videoBody = videos.map(renderVideo).join(SECTION_SEPARATOR);
+
   const full = [
     header,
     staticBody,
@@ -311,6 +362,8 @@ on https://rigginsstrategicsolutions.com/blog, in reverse chronological order.`;
     directoryBody,
     blogHeader,
     blogBody,
+    videoHeader,
+    videoBody,
   ].join(SECTION_SEPARATOR);
 
   fs.writeFileSync(OUT_PATH, full + "\n", "utf8");
