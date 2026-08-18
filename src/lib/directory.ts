@@ -554,6 +554,15 @@ export const DIRECTORY_COUNTIES: DirectoryCounty[] = [
     blurb:
       "Sarasota, Venice and North Port, FL programs for seniors and families: the senior homestead exemption worth $50,000 inside three city limits, $25,000 in North Port and only $5,000 in unincorporated county, free Breeze bus rides at 80 and paratransit that accepts anyone 65 and older, the Meals on Wheels boundary that stops at Laurel Road, EHEAP through Senior Friendship Centers and the LIHEAP agency families call by mistake, the SHIP home repair window that reopens September 1, legal aid with no income test at 60, Sarasota Memorial's memory disorder clinic, and the PACE program that covers the county on paper with zero enrollees in it.",
   },
+  {
+    slug: "lee-county-fl-senior-help-directory",
+    county: "Lee County",
+    state: "FL",
+    metro: "Fort Myers, Cape Coral & Lehigh Acres",
+    region: "Southwest Florida",
+    blurb:
+      "Fort Myers, Cape Coral and Lehigh Acres, FL programs for seniors and families: the 25-year senior exemption that can erase the county portion of a tax bill, three completely different home repair programs depending on which side of a city line the house sits on, the county rent program that stopped taking applications in June 2026, LeeTran fares at 75 cents with the TropiCard you have to show every time, EHEAP through the Fort Myers Friendship Center and LIHEAP that asks whether you have LCEC or FPL, a Cape Coral foreclosure program worth $10,000 that closes the day the lender files, the hurricane shelter that takes your dog, and one of Florida's largest PACE programs with three centers inside the county.",
+  },
 ];
 
 export type DirectoryState = {
