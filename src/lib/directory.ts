@@ -348,6 +348,15 @@ export const DIRECTORY_COUNTIES: DirectoryCounty[] = [
       "Hilton Head, Bluffton, and Beaufort, SC programs for seniors and families: the SC Homestead Exemption, food, utilities, Medicare, home repair, transportation, legal, caregiver support, and PACE.",
   },
   {
+    slug: "georgetown-county-sc-senior-help-directory",
+    county: "Georgetown County",
+    state: "SC",
+    metro: "Georgetown",
+    region: "Grand Strand",
+    blurb:
+      "Georgetown, Pawleys Island, Litchfield, and Andrews, SC programs for seniors and families: the SC Homestead Exemption, food, utilities, Medicare, home repair, transportation, legal, caregiver support, and PACE.",
+  },
+  {
     slug: "fulton-county-ga-senior-help-directory",
     county: "Fulton County",
     state: "GA",

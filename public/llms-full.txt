@@ -5,8 +5,8 @@ It contains the full Markdown of every key page, resource pillar, Senior Help
 Directory state page, and blog post, intended for AI crawlers that ingest
 content for answer generation.
 
-Generated: 2026-08-18
-Indexed: 108 blog posts, 16 resource pillars, 51 Senior Help Directory state pages, 14 video transcripts.
+Generated: 2026-08-19
+Indexed: 110 blog posts, 16 resource pillars, 51 Senior Help Directory state pages, 15 video transcripts.
 
 For citation guidance, organizational facts, and topic depth, see the summary
 index at https://rigginsstrategicsolutions.com/llms.txt.
@@ -5186,8 +5186,258 @@ You must qualify for Medicaid, then apply for the Community Choices Waiver, choo
 
 # Blog Posts (newest first)
 
-The 108 posts below are the full body of every published article
+The 110 posts below are the full body of every published article
 on https://rigginsstrategicsolutions.com/blog, in reverse chronological order.
+
+---
+
+# Two States Just Put a Cancel Button on 'We Buy Houses' Contracts. Here's How to Get One Anywhere.
+https://rigginsstrategicsolutions.com/blog/cancel-button-we-buy-houses-contracts-louisiana-missouri
+Published: 2026-08-19
+
+**Excerpt:** Louisiana's Act 807 took effect August 1 and gives a home seller at least five calendar days to cancel a wholesaling contract for any reason. Missouri's version starts August 28. Here is what those laws force into the open, and how to ask for the same thing in any state.
+
+The most expensive ten minutes in your mother's life may be the ten minutes between a stranger setting a contract on her kitchen table and your mother signing it.
+
+You probably know the setup already. A postcard came, or a letter with her name handwritten on the envelope, or a phone call from someone pleasant who said they buy houses in the neighborhood. Cash. No repairs. No agents, no commission, no strangers walking through the bedrooms. Close whenever she wants. She mentioned it to you in passing, the way she mentions the weather, and by the time you called back on Sunday she had already signed something and couldn't tell you what it was or where her copy went.
+
+For 8+ years I sat on the other side of that kitchen table. I bought houses from families in transition, and I understand exactly how that ten minutes gets built, because I used to build it. Then I walked away from the buying side.
+
+So let me hand you the useful part. This month, two states wrote into law the single protection that changes the math on that kitchen table, and you don't have to live in either one to use it. Louisiana's version took effect August 1. Missouri's starts August 28. Both of them do the same basic thing: they take the pressure out of the moment of signing and hand it back to the person who owns the house.
+
+If your parents live somewhere else, you can still walk into that conversation with the exact language these two legislatures just voted for, unanimously, and ask for it in writing. Nobody legitimate will refuse it. That refusal, or the agreement, is the whole test.
+
+## What Louisiana and Missouri Just Made Law
+
+Louisiana House Bill 468 became Act 807. According to the Louisiana Legislature's own bill record, the governor signed it on June 9, 2026, and it took effect August 1, 2026. It passed the House 96 to 0 and the Senate 34 to 0. Nobody voted against it.
+
+The Act enacts R.S. 37:1448.5, and it requires a wholesaler to prominently disclose three things in writing to the seller, before the seller signs anything. First, that the wholesaler intends to assign, transfer, convey, or sell their contract rights "for a higher price than what is offered to the seller." Second, that the seller should seek legal advice before signing. Third, that the seller has the right to cancel, for any reason and without penalty, for at least five calendar days after the contract is executed.
+
+The statute goes further than a disclosure. It writes the notice itself, word for word, and requires it to appear right next to the seller's signature line:
+
+> "NOTICE REQUIRED BY LOUISIANA LAW: You may cancel this contract at any time before 11:59 PM of [Insert Date]. [Insert Name of Wholesaler] CANNOT ask you to sign or have you sign any cash sale, conveyance or deed, or any other document until your right to cancel this contract has ended."
+
+The Louisiana Real Estate Commission is required to publish a mandatory cancellation notice form, and the wholesaler has to hand the seller that form, at no cost, with every contract. The Commission announced the form on July 28, 2026.
+
+Missouri got there by a different road. Senate Bill 973, sponsored by Senator Curtis Trent, was signed by the governor and takes effect August 28, 2026. Its new section 407.3600 requires a wholesaler to deliver a written disclosure to the record owner not less than fourteen calendar days before entering into the contract, on a separate page from the contract, in boldface type no smaller than twelve points. Both the owner and the wholesaler have to sign and date it before there can be a binding contract at all.
+
+Two different mechanisms, one shared idea. Speed was the product. These laws take the speed away.
+
+## Read the Sentence Missouri Requires Out Loud
+
+The Missouri disclosure isn't a legal formality. It's a confession, and the legislature wrote the words. Under section 407.3600, the form your parent has to sign says the wholesaler "is acting on the wholesaler's own behalf and does not represent the owner in this transaction," that the wholesaler "enters assignable contracts with owners and seeks to sell or assign the wholesaler's interest for a profit," that the interest may be assigned "to a third party without the owner's consent before closing," and that "the agreed purchase price between the owner and wholesaler may be below market value."
+
+Read that to your father over the phone and watch what happens. Every one of those sentences describes what was already true at that kitchen table. The only thing that changed is that somebody now has to say it out loud before the pen comes out.
+
+## The Deposit Is a Tell You Can Check in One Question
+
+Louisiana added something most families would never think to ask about. Under R.S. 37:1448.5(E), a wholesaling contract has to include a deposit of not less than one percent of the purchase price, held in escrow with a federally insured financial institution in the state, or in the seller's own account.
+
+On a $250,000 house, that's $2,500 of somebody else's real money, sitting somewhere your family can verify.
+
+That number matters far more than it looks. The business model your mother was pitched often depends on the buyer never having to fund anything. They sign, they market the contract, and if they can't find an end buyer, they walk. A one percent escrow deposit doesn't stop that, but it puts a price on walking, and it forces the person at the table to be a buyer instead of a broker of their own paperwork.
+
+So in any state, that's your one-sentence question: how much are you putting in escrow, with what bank, and when? Watch the answer, not the explanation.
+
+## The Part With Real Teeth Is What Happens If They Skip a Step
+
+Here's the provision that should make every family read the paperwork slowly. Under Louisiana's Act 807, failure to include any required disclosure renders the contract "immediately voidable and terminable at any time prior to transfer of title," at the seller's sole discretion. Not for five days. Any time before the deed changes hands. And on a termination like that, the seller keeps the deposit.
+
+Missouri does something similar in a different key. If the wholesaler skipped the fourteen-day disclosure, the owner may cancel any time before the close of escrow without penalty, and the escrow agent has to pay the wholesaler's earnest money to the owner within thirty days. Missouri also says the protections can't be waived by any agreement, oral or written, and that anything modifying them is null and void.
+
+Louisiana bars a wholesaler from acting or purporting to act as the seller's advisor or consultant, from claiming a license they don't hold, from placing any lien or encumbrance that clouds the title, and from deceptive trade practices under R.S. 51:1429. Violations are enforceable both by the Louisiana Attorney General's consumer protection section and by the Real Estate Commission, with civil penalties up to $5,000 per violation. In Missouri, a violation is an unlawful practice under the Missouri Merchandising Practices Act, the owner gets a private right of action, and the Attorney General can sue for damages, injunctive relief, and attorney fees.
+
+## If Your Parents Live in North Carolina, or Anywhere Else
+
+Most states have no wholesaling statute at all. That does not mean anything goes.
+
+In North Carolina, the Real Estate Commission addressed this directly in its December 2023 eBulletin, written by Len Elder and Janet Thoren. Their position: a license isn't required for a genuine buyer to assign contract rights. But a wholesaler may be engaged in unlicensed brokerage if they market to sellers that they'll buy for cash "when the wholesaler has no intention of personally purchasing the property," if they misrepresent their ownership interest, if they collect and handle earnest money on behalf of sellers, or if they negotiate contracts between a seller and a buyer. The Commission adds that there's no exemption in the statutes for a "cash buyer" or an "investor," and that unlicensed brokerage is a Class 1 misdemeanor in North Carolina.
+
+That's a real backstop. But it's an after-the-fact backstop, and it doesn't help your mother at 2:00 on a Tuesday afternoon with a pen in her hand. What helps her is the four things Louisiana and Missouri just made mandatory, asked for out loud before anyone signs.
+
+## What to Actually Do This Week
+
+### Step 1: Find out whether anything has been signed
+
+Call and ask plainly: has anyone come to the house, or sent a letter, about buying it? Has anything been signed? Where's the copy? Don't ask whether they made a mistake, because that turns it into a conversation about their judgment and it will shut down. Ask for the paper. If there's a signed contract and your parents are in Louisiana or Missouri, the timing rules above are the first thing to check.
+
+### Step 2: Ask for the four terms in writing, in any state
+
+Before anyone signs anything, send this by email so there's a record. Ask the buyer to confirm, in writing, that: they intend to close in their own name and are not assigning the contract, or if they are, they'll say so and say for how much; the seller may cancel for any reason within at least five calendar days of signing, without penalty; they'll place at least one percent of the purchase price in escrow with a named bank; and the seller may have an attorney review the contract before signing. Those four asks come straight out of two statutes that passed unanimously. A legitimate cash buyer will say yes to all four in a single reply.
+
+### Step 3: Get one number before you evaluate any offer
+
+You cannot judge a cash offer without knowing what a normal sale nets after costs. Not the list price, the net. Run that number first, then compare. A cash offer that's fifteen percent under market can still be the right answer for a family that needs certainty and speed. A cash offer that's forty percent under market never is. The only way to tell the difference is arithmetic done before the conversation, not during it.
+
+### Step 4: Put one person on the phone calls
+
+Give your parents a sentence they can use without being rude: "My son handles anything about the house, I'll pass your number along." Then make that true. This one change ends more of these situations than any legal protection does, because the entire approach depends on reaching the homeowner alone.
+
+### Step 5: Know what a real timeline looks like
+
+Almost no family in this situation actually has to sell this month. If a cash offer is only good today, that's information about the offer, not about your family's calendar. Your parents can take a week. They can take a season.
+
+## Frequently Asked Questions
+
+### What does a real estate wholesaler actually do?
+
+A wholesaler puts a home under contract at one price and then assigns or sells that contract to someone else at a higher price, usually without ever owning the home. Louisiana's Act 807 defines wholesaling as securing, negotiating, or facilitating a purchase or sale of residential real property with the purpose of transferring, assigning, or selling a contractual right to purchase or other equitable interest, directly or indirectly, for financial gain. The difference between the two prices is the wholesaler's fee, and in most states it has never had to be disclosed to the seller.
+
+### Is real estate wholesaling legal?
+
+Yes, in most places, subject to state rules. Louisiana and Missouri both chose to regulate the practice rather than ban it. In North Carolina, the Real Estate Commission's December 2023 eBulletin states that a license is not required for a bona fide buyer to assign their rights in a purchase contract, but that a wholesaler may be engaged in unlicensed brokerage if they market to sellers that they will buy for cash with no intention of purchasing, misrepresent their ownership interest, handle earnest money for sellers, or negotiate contracts between a seller and a buyer.
+
+### Can my parents cancel a contract they already signed with a cash buyer?
+
+It depends entirely on where the house is and what the contract says. Under Louisiana R.S. 37:1448.5, a seller may cancel a wholesaling contract for any reason and without penalty for at least five calendar days after execution, and if any required disclosure was missing, the contract is voidable at any time before title transfers. Missouri's section 407.3600, effective August 28, 2026, lets the owner cancel any time before close of escrow if the fourteen-day disclosure was not made. In states without such a statute, cancellation depends on the contract terms and on state contract law, so this is the moment to call a real estate attorney rather than the buyer.
+
+### What is the earnest money rule in the new Louisiana law?
+
+Under R.S. 37:1448.5(E), any contract involving wholesaling must include a deposit of not less than one percent of the purchase price, held in escrow with a federally insured financial institution in Louisiana or in the seller's own account. If the seller cancels during the five-day rescission period, the wholesaler gets the deposit back. If the seller terminates the contract on any other ground allowed by the section, such as a missing disclosure, the seller is entitled to the deposit.
+
+### Do these laws apply to contracts my parents signed before the effective date?
+
+No. Section 2 of Louisiana's Act 807 states the Act does not apply to wholesaling contracts completed before its effective date of August 1, 2026. Missouri's provisions take effect August 28, 2026. If a contract was signed before those dates, the protections in these statutes are not what governs it, which is another reason to get the actual document in front of an attorney rather than relying on a summary.
+
+## About Ryan Riggins
+
+Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafe app](https://seniorsafeapp.com).
+
+---
+
+**Want to know what the house actually nets?** The free Net Proceeds Calculator shows what's left after liens, payoffs, and costs come out, so you can compare a cash offer against reality: rigginsstrategicsolutions.com/tools/net-proceeds-calculator
+
+**Want a step-by-step guide?** The Senior Transition Blueprint is free, all 20 modules and 69 tools: rigginsstrategicsolutions.com/the-blueprint
+
+**Not sure where your family stands?** The free Family Readiness Score takes five minutes and shows the gaps across the home, the money, the legal documents, care, and family alignment: rigginsstrategicsolutions.com/tools/family-readiness-score
+
+**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
+
+**Selling a parent's home?** Ryan finds and vets the right local agent for your situation and stays in your corner on the whole sale, at no added cost to your family: rigginsstrategicsolutions.com/in-your-corner
+
+**Coordinate the family in one place.** SeniorSafeApp keeps daily check-ins, medications, and documents where the whole family can see them: seniorsafeapp.com
+
+## Sources
+
+All sources checked August 19, 2026.
+
+- Louisiana Legislature, HB 468 (2026 Regular Session), bill information page: signed by the governor June 9, 2026, became Act No. 807, effective date 08/01/2026, House final passage 96 yeas and 0 nays, Senate passage 34 yeas and 0 nays. https://www.legis.la.gov/legis/BillInfo.aspx?s=26RS&b=HB468&sbi=y
+- Louisiana Act 807, enrolled text (HB 468), enacting R.S. 37:1431(35) through (37) and R.S. 37:1448.5: definitions of wholesaling, the three required written disclosures, the at-least-five-calendar-day right to cancel, the exact statutory notice language, the Commission's mandatory cancellation notice form, prohibited acts, the voidable-until-title-transfer remedy, the one percent escrow deposit requirement, attorney general and commission enforcement, the $5,000 per violation civil penalty, and the non-retroactivity clause. https://www.legis.la.gov/legis/ViewDocument.aspx?d=1481245
+- Louisiana Real Estate Commission, New Wholesaling Residential Real Property Mandatory Cancellation Notice Now Available, posted July 28, 2026. https://lrec.gov/blog/new-wholesaling-residential-real-property-mandatory-cancellation-notice-now-available
+- Missouri Senate, SB 973 (2026), bill information page: sponsor Senator Curtis Trent, version CCS HCS SS SCS SB 973, current status Signed by Governor, effective date August 28, 2026, and the official summary of the wholesaler disclosure provisions in section 407.3600 and the Missouri Residential Sale Leaseback Protection Act in section 442.920. https://www.senate.mo.gov/BillTracking/Bills/BillInformation?year=2026&billid=321
+- Missouri SB 973, truly agreed and finally passed text, section 407.3600: the fourteen-calendar-day separate written disclosure in boldface type of not less than twelve points, the required disclosure language, the dual signature requirement, cancellation before close of escrow with earnest money disbursed to the record owner within thirty days, the anti-waiver provision, Missouri Merchandising Practices Act treatment, the private right of action, and attorney general enforcement. https://www.senate.mo.gov/26info/pdf-bill/tat/SB973.pdf
+- North Carolina Real Estate Commission, Brokers and Consumers Should Beware of Unlicensed Activity in North Carolina, December 2023 eBulletin by Len Elder, JD, DREI, and Janet Thoren, JD: contract assignment by a bona fide buyer, the six wholesaling behaviors that may constitute unlicensed brokerage, the absence of any cash buyer or investor exemption, and Class 1 misdemeanor status. https://bulletins.ncrec.gov/brokers-consumers-should-beware-of-unlicensed-activity-in-north-carolina/
+- North Carolina General Statutes, G.S. 93A-2(a), definition of a real estate broker. https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_93A/GS_93A-2.html
+
+---
+
+# Georgetown County, SC Senior Help Directory: Georgetown, Pawleys Island, and Andrews Programs for Seniors and Families (2026)
+https://rigginsstrategicsolutions.com/blog/georgetown-county-sc-senior-help-directory
+Published: 2026-08-19
+
+**Excerpt:** Free, plain-English senior help in Georgetown County, SC (Georgetown, Pawleys Island, Litchfield, Murrells Inlet, and Andrews): the South Carolina Homestead Exemption, food, energy, Medicare, prescriptions, home repair, transportation, legal, caregiver support, and PACE. Local phone numbers, no sign-up.
+
+*Free, plain-English help for seniors and families in Georgetown County, SC. Education, not advice. Verify before you rely on it.*
+
+## Start here (works anywhere)
+- 211 (dial 2-1-1), Eldercare Locator 1-800-677-1116, BenefitsCheckUp.org, Medicare 1-800-633-4227, Social Security 1-800-772-1213, VA 1-800-827-1000, Alzheimer's 24/7 Helpline 1-800-272-3900, National Elder Fraud Hotline 1-833-372-8311, Crisis Lifeline 988
+
+**Three local front doors:** 211 | Georgetown County Bureau of Aging Services (the county's own senior agency: six senior centers, home-delivered meals, in-home help, and transportation; 1610 Hawkins Street, Georgetown; 843-545-3196) | Waccamaw Area Agency on Aging (the regional aging agency for Georgetown, Horry, and Williamsburg, headquartered right here in Georgetown: Medicare counseling, family caregiver support, information and referral, ombudsman; 843-546-8502)
+
+**A note on how Georgetown County is different from Horry:** Georgetown County runs its own Bureau of Aging Services as a county department, and the regional Area Agency on Aging is headquartered in the city of Georgetown. So for most senior services you have a county office and a regional office within a few miles of each other. Start with the Bureau for meals, centers, and rides. Start with the AAA for Medicare and caregiver questions.
+
+## Property tax relief (Georgetown County Auditor, P.O. Box 421270, Georgetown, SC 29442; 843-545-3021)
+South Carolina's senior property tax break is the statewide Homestead Exemption, and in Georgetown County you apply for it at the County Auditor's Office. There is no NC-style June 1 deadline, you can apply at any time, but apply before the tax bills go out to get the break for that year.
+
+- South Carolina Homestead Exemption (S.C. Code Section 12-37-250): exempts the first $50,000 of fair market value of your primary residence from ALL property taxes. If your primary residence is valued at $50,000 or less, it is fully exempt. To qualify, as of December 31 before the tax year you must be age 65 or older, OR totally and permanently disabled (declared by a state or federal agency), OR legally blind (certified by a licensed ophthalmologist), and a legal resident of South Carolina. There is no income limit for this exemption.
+- How Georgetown splits the two offices: the **Auditor** (843-545-3021) takes the Homestead or disability exemption application. The **Assessor** (843-545-3017, 129 Screven Street, Georgetown) takes the separate Special Assessment as Legal Residence application. They are two different breaks and you can have both. Bring proof of age (a driver's license or birth certificate) or proof of disability or blindness.
+- The 4 percent legal-residence classification taxes an owner-occupied home at the lower 4 percent ratio instead of 6 percent and removes school operating taxes, and it often saves more than the homestead exemption itself. The Assessor accepts the application by mail, by fax, or in the dropbox at the historic courthouse entrance. Office hours are Monday to Friday, 8:30 a.m. to 5 p.m.
+- **This matters more in Georgetown County than almost anywhere else in the state.** Pawleys Island, Litchfield, and DeBordieu carry a lot of second homes and inherited beach property, and anything that is not the owner's occupied legal residence sits at 6 percent, not 4. If a parent's house passes to an adult child who does not live in it, the ratio changes and the tax bill goes up. Ask the Assessor before you assume the old rate carries over.
+- Note: a bill to expand senior property tax relief was moving through the South Carolina General Assembly in early 2026. As of this writing it is a pending proposal, not current law, so the $50,000 Homestead Exemption above is the program in force. Confirm the current year's rules with the Georgetown County Auditor.
+
+## Food
+- The Georgetown County Bureau of Aging Services delivers meals to homebound seniors 60 and older throughout the county and serves group meals at its six senior centers. Call 843-545-3185 for meals and center locations, or 843-545-3196 for the main office. The Bureau is at 1610 Hawkins Street, Georgetown, open Monday to Friday, 9 a.m. to 1:30 p.m.
+- Meals on Wheels of Horry & Georgetown County, Inc. is a separate nonprofit that delivers meals to homebound, elderly, and terminally ill residents in both counties, free to qualified applicants regardless of ability to pay; call 843-970-2330.
+- Helping Hands of Georgetown County runs a client-choice food pantry at 1813 Highmarket Street, Georgetown, open Monday through Thursday, 9 a.m. to noon; call 843-527-3424. They provide roughly three days of balanced food sized to the household, including milk, eggs, bread, cheese, produce, and meat.
+- The Waccamaw Area Agency on Aging funds and coordinates senior nutrition across Georgetown, Horry, and Williamsburg counties and can assess an older adult for meals and in-home help; call 843-546-8502.
+- SNAP (food stamps) is income-based, not age-based, so working families qualify too. Apply through Georgetown County DSS (330 Dozier Street, Georgetown; 843-546-5134) or online through the South Carolina DSS benefits portal. SC Thrive can help you fill out the application for free.
+
+## Energy and utility help
+- LIHEAP (Low Income Home Energy Assistance Program) in Georgetown County is run by the Waccamaw Economic Opportunity Council (WEOC), the community action agency serving Georgetown, Horry, and Williamsburg counties. LIHEAP helps with home heating and cooling costs and crisis (past-due or disconnection) situations, with priority for elderly, disabled, and young-child households. The LIHEAP office is at 1261 US 501, Suite D, Conway, SC 29526 (843-234-4130). Both homeowners and renters may apply, and application windows open and close, so call to confirm they are taking applications.
+- For statewide energy-assistance questions, the South Carolina Office of Economic Opportunity is at 803-734-0662, and the state energy-assistance portal is energy.sc.gov.
+- 211 is the fastest way to find a local crisis fund or church ministry with money for a past-due utility bill, and your utility (such as Santee Cooper or Santee Electric Cooperative) may offer its own customer assistance for past-due accounts.
+
+## Medicare, Medicaid, prescriptions
+- South Carolina's SHIP program is branded I-CARE (Insurance Counseling Assistance and Referrals for Elders). Free, unbiased one-on-one help with Medicare, Medicare Advantage, Part D drug plans, Medigap, enrollment, appeals, and fraud. In Georgetown County, I-CARE counseling is delivered through the Waccamaw Area Agency on Aging (843-546-8502), which is headquartered in Georgetown at 1230 Highmarket Street. You can also reach the statewide line at the South Carolina Department on Aging, 1-800-868-9095, or find a counselor at GetCareSC.com. Start here before any Medicare decision.
+- Medicaid in South Carolina is called Healthy Connections, run by SCDHHS. It can help pay Medicare premiums and long-term care costs for those who qualify. Apply online at apply.scdhhs.gov, by phone at 1-888-549-0820 (Monday to Friday, 8 a.m. to 6 p.m.), or through Georgetown County DSS.
+- Medicare Savings Programs (help paying Part A and B premiums) and Extra Help / the Low-Income Subsidy (lower Part D drug costs) are screened and applied for through I-CARE or Healthy Connections.
+- South Carolina has no flat statewide drug-payment program, so use I-CARE to apply for Extra Help and BenefitsCheckUp.org to find manufacturer and nonprofit patient assistance programs for specific medications.
+
+## Home repair and safety
+- Weatherization Assistance Program: free energy-efficiency work (insulation, air sealing, weatherstripping, and heating and cooling repair or safety fixes) at no cost to income-eligible households, with older adults, people with disabilities, and families with young children served first. In Georgetown County this is run through the Waccamaw Economic Opportunity Council weatherization office at 1261 US 501, Suite C-1, Conway (843-234-4140). Note that weatherization and LIHEAP are two different programs at two different phone numbers.
+- USDA Section 504 Home Repair: grants up to $10,000 for very-low-income homeowners 62 and older to remove health and safety hazards (loans are available too) in eligible rural areas of Georgetown County, including much of the area around Andrews and the rural western part of the county. Check eligibility with USDA Rural Development.
+- Dial 211 for local ramp-building and accessibility-modification help from area nonprofits, and ask the Georgetown County Bureau of Aging Services (843-545-3196) about in-home services, or the Waccamaw Area Agency on Aging (843-546-8502) about minor home modifications tied to its in-home programs.
+
+## Rent, housing, emergency cash
+- 211 is the fastest route to temporary rent and utility help near you and will point you to whichever local ministry or fund has money right now.
+- The Waccamaw Economic Opportunity Council runs basic-needs, family self-sufficiency, and energy programs across Georgetown County; LIHEAP 843-234-4130, weatherization 843-234-4140.
+- Helping Hands of Georgetown County (843-527-3424) provides emergency assistance alongside its food pantry.
+- Georgetown County DSS (843-546-5134, 330 Dozier Street, Georgetown) administers emergency assistance and adult services.
+
+## Transportation
+- The Georgetown County Bureau of Aging Services provides transportation for its senior center activities, shopping, field trips, and in-county medical needs. This is the first call for a senior who needs a ride and lives in the county; 843-545-3196.
+- Coast RTA Paratransit is the door-to-door, advance-reservation ride for people whose disability keeps them from using regular fixed-route buses. It covers areas of Horry and Georgetown counties within three-quarters of a mile of a Coast RTA fixed route, which in Georgetown County means the northern end near Murrells Inlet and Litchfield rather than the whole county. You must be pre-qualified and certified. To apply or schedule, call 843-488-0865, as far ahead as you can, and cancel at least two hours before pickup.
+- Residents with full Healthy Connections Medicaid and no other way to travel may qualify for free non-emergency medical transportation to covered appointments; ask Healthy Connections (1-888-549-0820) or Georgetown County DSS.
+
+## Legal help
+- South Carolina Legal Services provides free civil legal help to income-eligible residents on elder-law issues like powers of attorney, wills, Medicaid and public benefits, housing, consumer and finance problems, and scams. Georgetown County is served by the Conway office at 1201 B Creel Street, Wing A1, Conway, SC 29527, reachable directly at 843-381-8182 or 1-866-597-0100. The statewide intake line is 1-888-346-5592, answered by a lawyer or paralegal from 9 a.m. to 6 p.m. Monday through Thursday. Household income generally must be at or under 125 percent of the federal poverty level.
+- The Waccamaw Area Agency on Aging (843-546-8502) offers free benefits counseling and legal-assistance referrals for older adults, and hosts the regional Long-Term Care Ombudsman for nursing-home and assisted-living complaints.
+- The Georgetown County Veterans Affairs Office (537 Lafayette Circle, Georgetown; 843-545-3330) helps veterans and surviving spouses file for VA benefits, including Aid and Attendance, which can help pay for in-home care or assisted living.
+- The South Carolina Bar Lawyer Referral Service can connect you to a private attorney; 211 can route you there.
+
+## Caregiver support
+- The Waccamaw Area Agency on Aging runs the regional Family Caregiver Support Program for Georgetown, Horry, and Williamsburg counties: one-on-one support, respite, counseling, training, and help navigating services. Call 843-546-8502.
+- The Georgetown County Bureau of Aging Services offers homecare assistance with housekeeping and personal care, which gives a working family caregiver real relief; call 843-545-3196.
+- Tidelands Community Hospice, the locally based nonprofit hospice serving Georgetown, Horry, and Williamsburg counties for four decades, provides hospice and palliative care along with family and bereavement support.
+- The Alzheimer's Association 24/7 Helpline (1-800-272-3900) is there any hour for dementia caregiving questions.
+
+## Staying at home instead of a nursing home
+- Georgetown County does not currently have a local PACE (Program of All-Inclusive Care for the Elderly) center. PACE wraps all medical care, therapy, a day center, home care, and home-delivered meals into one program for people 55 and older who meet a nursing-home level of care but can live safely at home with help. South Carolina's PACE sites serve Anderson, Bamberg, Berkeley, Calhoun, Charleston, Dorchester, Greenville, Lexington, Orangeburg, Pickens, and Richland counties, none of them on the Waccamaw Neck. If you want to ask about the nearest option or any new site, call the Eldercare Locator (1-800-677-1116) or SCDHHS.
+- The main route to staying home in Georgetown County is South Carolina's Medicaid home and community based care. Healthy Connections Community Long Term Care can provide in-home personal care, adult day services, and other supports for people who would otherwise need a nursing home. Ask Healthy Connections (1-888-549-0820) or Georgetown County DSS about Community Long Term Care and the Medicaid waiver.
+- The Georgetown County Bureau of Aging Services homecare program and the Waccamaw Area Agency on Aging (843-546-8502) can help you weigh in-home options. Home-delivered meals, in-home help, and county senior transportation also help an older adult stay in the home longer.
+
+## Frequently asked questions
+**My mom is 70 in Pawleys Island and her property tax feels impossible. What is the one call to make?** Call the Georgetown County Auditor at 843-545-3021 and ask about the South Carolina Homestead Exemption. If she is 65 or older and the home is her primary residence, the first $50,000 of fair market value comes off all property taxes, with no income limit. There is no annual deadline, you can apply any time, but apply before bills go out. Then call the Assessor at 843-545-3017 and ask whether her home is coded at the 4 percent legal-residence ratio. On the Waccamaw Neck that second question is often the bigger one, because a home that is not an occupied legal residence sits at 6 percent.
+
+**Dad is homebound in Andrews and can't cook anymore. How do we get him meals?** Call the Georgetown County Bureau of Aging Services at 843-545-3185 and ask about home-delivered meals for homebound seniors 60 and older. Meals on Wheels of Horry & Georgetown County (843-970-2330) is a second option. If you need food sooner, Helping Hands of Georgetown County (843-527-3424) runs a pantry at 1813 Highmarket Street, Monday to Thursday mornings, or dial 211.
+
+**My parent can't drive and needs rides to the doctor. What does Georgetown County offer?** Start with the Georgetown County Bureau of Aging Services at 843-545-3196, which provides in-county transportation for medical needs, shopping, and its senior centers. Coast RTA Paratransit (843-488-0865) serves the parts of the county within three-quarters of a mile of a Coast RTA fixed route, which is mostly the northern end. If your parent has full Healthy Connections Medicaid, ask about free non-emergency medical transportation at 1-888-549-0820.
+
+**We want to keep Mom at home but her care is getting complex. What is the option here if there is no PACE?** Georgetown County has no PACE center, so the main path is South Carolina's Medicaid home and community based care. Ask Healthy Connections (1-888-549-0820) or Georgetown County DSS about Community Long Term Care, which can bring in personal care, adult day services, and other in-home supports for someone who would otherwise need a nursing home. The Georgetown County Bureau of Aging Services (843-545-3196) and the Waccamaw Area Agency on Aging (843-546-8502) can help you compare options.
+
+## Sources
+- Georgetown County Auditor, Homestead Exemption (P.O. Box 421270, Georgetown, SC 29442; 843-545-3021; Auditor takes the Homestead or disability exemption): https://www.gtcountysc.gov/271/Auditor and https://www.gtcountysc.gov/279/Tax-Relief-Exemptions
+- Georgetown County Assessor, Legal Residence (4 percent) special assessment (129 Screven Street, Georgetown, SC 29440; P.O. Drawer 421270, Georgetown, SC 29442; 843-545-3017; Mon-Fri 8:30-5): https://www.gtcountysc.gov/259/Assessor and https://www.gtcountysc.gov/270/Special-Assessments
+- South Carolina Department of Revenue, Exempt Property / Homestead and legal-residence assessment ratio: https://dor.sc.gov/property/exempt-property
+- Georgetown County Bureau of Aging Services (1610 Hawkins Street, Georgetown, SC 29440; 843-545-3196, meals and centers 843-545-3185; Mon-Fri 9-1:30; six senior centers, home-delivered meals for 60+, homecare, health promotion, in-county transportation): https://www.gtcountysc.gov/183/Bureau-of-Aging-Services
+- Waccamaw Area Agency on Aging / Waccamaw Regional Council of Governments (1230 Highmarket Street, Georgetown, SC 29440; 843-546-8502; serves Georgetown, Horry, Williamsburg; Medicare counseling, caregiver support, long-term care ombudsman): https://wrcog.org/aging_services/index.php
+- Meals on Wheels of Horry & Georgetown County, Inc. (843-970-2330; serves both counties): https://mowhc.org/
+- Helping Hands of Georgetown County, client-choice food pantry (1813 Highmarket Street, Georgetown, SC 29440; 843-527-3424; Mon-Thu 9 a.m. to noon): https://www.helpinghandsofgeorgetown.org/food-pantry/
+- Waccamaw Economic Opportunity Council, LIHEAP (1261 US 501, Suite D, Conway, SC 29526; 843-234-4130) and Weatherization (Suite C-1; 843-234-4140); serves Georgetown, Horry, Williamsburg: https://www.findhelp.org/provider/waccamaw-economic-opportunity-council-inc--conway-sc/4510033360453632
+- South Carolina Office of Economic Opportunity, LIHEAP (803-734-0662) and energy.sc.gov: https://oeo.sc.gov/managedsites/prd/oeo/liheap.html
+- Coast RTA Paratransit (apply and book 843-488-0865; serves areas of Horry and Georgetown counties within 3/4 mile of any Coast RTA fixed route; advance reservation required, cancel at least 2 hours ahead): https://coastrta.com/paratransit-service/program-details-and-application/
+- South Carolina Legal Services, Conway office serving Georgetown County (1201 B Creel Street, Wing A1, Conway, SC 29527; 843-381-8182 or 1-866-597-0100; statewide intake 1-888-346-5592, 9 a.m. to 6 p.m. Mon-Thu; 125 percent FPL): https://sclegal.org/locations/ and https://sclegal.org/contact-us/
+- Georgetown County Veterans Affairs Office (537 Lafayette Circle, Georgetown, SC 29440; 843-545-3330): https://palmettovets.org/find-a-cvao
+- Georgetown County DSS (330 Dozier Street, Georgetown, SC 29440; 843-546-5134): https://dss.sc.gov/contact-dss/pee-dee-region/georgetown/
+- SCDHHS Healthy Connections Medicaid and Community Long Term Care (apply.scdhhs.gov, 1-888-549-0820): https://www.scdhhs.gov/members/getting-started
+- SCDHHS PACE county availability (available in Anderson, Bamberg, Berkeley, Calhoun, Charleston, Dorchester, Greenville, Lexington, Orangeburg, Pickens, Richland; Georgetown NOT served): https://www.scdhhs.gov/partners/managed-care/program-all-inclusive-care-elderly-pace
+- Tidelands Community Hospice (nonprofit hospice serving Georgetown, Horry, Williamsburg): https://www.tidelandshospice.org/
+- South Carolina Department on Aging / SHIP-I-CARE statewide line 1-800-868-9095; GetCareSC.com: https://aging.sc.gov/programs-initiatives/medicare-and-medicare-fraud
+- Verified August 19, 2026.
+
+*Verified August 19, 2026. Program names, phone numbers, income limits, and deadlines change. Confirm directly with each program before you rely on it.*
+
+*Ryan Riggins, NC Real Estate License #361546, eXp Realty. Riggins Strategic Solutions is an education and media company, not a real estate sales business. Not financial, tax, medical, or legal advice. Programs and contacts change, confirm directly before relying on them.*
 
 ---
 
@@ -11218,19 +11468,19 @@ Published: 2026-06-28
 South Carolina's senior property tax break is the statewide Homestead Exemption, and in Horry County you apply for it at the County Auditor's Office. There is no NC-style June 1 deadline, you can apply at any time, but apply before the tax bills go out to get the break for that year.
 
 - South Carolina Homestead Exemption (S.C. Code Section 12-37-250): exempts the first $50,000 of fair market value of your primary residence from ALL property taxes. If your primary residence is valued at $50,000 or less, it is fully exempt. To qualify, as of December 31 before the tax year you must be age 65 or older, OR totally and permanently disabled (declared by a state or federal agency), OR legally blind (certified by a licensed ophthalmologist), and a legal resident of South Carolina. There is no income limit for this exemption.
-- How Horry says to apply: the Homestead Exemption is handled by the Auditor's Office. Bring proof of age (such as a driver's license or birth certificate) or proof of disability or blindness. Call the Auditor at 843-915-5050 to confirm what to bring and whether you can apply in person at the Government and Justice Center in Conway or at one of the satellite offices in Myrtle Beach, Little River, or Surfside.
+- How Horry says to apply: the Homestead Exemption is handled by the Auditor's Office. Bring proof of age (such as a driver's license or birth certificate) or proof of disability or blindness. You can apply in person at the Conway main office (1301 Second Avenue, Suite 1C41), Little River (107 Highway 57 North), Myrtle Beach (1201 21st Avenue North), or South Strand (9630 Scipio Lane, Suite K, Myrtle Beach). Offices are open Monday to Friday, 8 a.m. to 5 p.m. Call 843-915-5051 to confirm what to bring.
 - This is often confused with the Special Assessment as Legal Residence (the 4 percent assessment ratio), which is a separate application handled by the Assessor's Office (843-915-5040). The 4 percent legal-residence classification taxes an owner-occupied home at the lower 4 percent ratio (versus 6 percent) and removes school operating taxes, and it often saves more than the homestead exemption itself. Ask the Assessor whether your home is correctly coded at 4 percent, and ask the Auditor about the senior Homestead Exemption. They are two different breaks and you can have both.
 - Note: a bill to expand senior property tax relief was moving through the South Carolina General Assembly in early 2026. As of this writing it is a pending proposal, not current law, so the $50,000 Homestead Exemption above is the program in force. Confirm the current year's rules with the Horry County Auditor.
 
 ## Food
-- Horry County Council on Aging (HCCOA) delivers home-delivered meals to homebound seniors across the county on multiple routes and runs senior centers with congregate (group) meals. To start meals or find your nearest senior center, call 843-248-5523 or 1-800-922-6283.
-- Meals on Wheels of Horry County is a separate local nonprofit that delivers meals to homebound residents; call 843-340-5982 to ask about eligibility and your area.
+- Horry County Council on Aging (HCCOA) delivers home-delivered meals to homebound seniors across the county and runs ten senior centers with congregate (group) meals: Aynor, Bucksport, Carolina Forest, Conway, Enterprise Burgess, Grand Strand, Green Sea, Mt. Vernon-Loris, North Strand, and South Strand. To start meals or find your nearest senior center, call 843-248-5523 or 1-800-922-6283.
+- Meals on Wheels of Horry & Georgetown County, Inc. is a separate local nonprofit that delivers meals to homebound residents across both counties; call 843-970-2330 to ask about eligibility and your area.
 - The Waccamaw Area Agency on Aging funds and coordinates senior nutrition (home-delivered and congregate meals) across Georgetown, Horry, and Williamsburg counties and can assess an older adult for meals and in-home help; call 843-546-8502.
 - Harvest Hope Food Bank serves the Pee Dee region (including Horry) through a network of partner pantries and senior food programs from its Florence branch (843-661-0826). To find the pantry nearest you, use the Get Help tool at harvesthope.org/get-help or dial 211. Bring a photo ID.
 - SNAP (food stamps) is income-based, not age-based, so working families qualify too. Apply through Horry County DSS (843-366-1600) or online through the South Carolina DSS benefits portal. SC Thrive can help you fill out the application for free.
 
 ## Energy and utility help
-- LIHEAP (Low Income Home Energy Assistance Program) in Horry County is run by the Waccamaw Economic Opportunity Council (WEOC), the local community action agency serving Georgetown, Horry, and Williamsburg counties. LIHEAP helps with home heating and cooling costs and crisis (past-due or disconnection) situations, with priority for elderly, disabled, and young-child households. The Conway weatherization and energy office is at 1261 Highway 501 East, Suite C-1, Conway, SC 29526 (843-234-4140); there are also offices in Myrtle Beach (929 N. Kings Highway, 843-626-7270) and Aynor (621 S. Main Street, 843-358-1644). Both homeowners and renters may apply, and application windows open and close, so call to confirm they are taking applications.
+- LIHEAP (Low Income Home Energy Assistance Program) in Horry County is run by the Waccamaw Economic Opportunity Council (WEOC), the local community action agency serving Georgetown, Horry, and Williamsburg counties. LIHEAP helps with home heating and cooling costs and crisis (past-due or disconnection) situations, with priority for elderly, disabled, and young-child households. WEOC runs LIHEAP and weatherization from two separate suites at the same Conway address: LIHEAP (energy bill help) is at 1261 Highway 501, Suite D, Conway, SC 29526 (843-234-4130), and Weatherization is at Suite C-1 (843-234-4140). Call the LIHEAP number for a past-due or disconnection bill and the weatherization number for insulation and heating repair. Both homeowners and renters may apply, and application windows open and close, so call to confirm they are taking applications.
 - For statewide energy-assistance questions, the South Carolina Office of Economic Opportunity is at 803-734-0662, and the state energy-assistance portal is energy.sc.gov.
 - 211 is the fastest way to find a local crisis fund or church ministry with money for a past-due utility bill, and your utility (such as Santee Cooper, Duke Energy, or Horry Electric Cooperative) may offer its own customer assistance for past-due accounts.
 
@@ -11241,23 +11491,23 @@ South Carolina's senior property tax break is the statewide Homestead Exemption,
 - South Carolina has no flat statewide drug-payment program, so use I-CARE to apply for Extra Help and BenefitsCheckUp.org to find manufacturer and nonprofit patient assistance programs for specific medications.
 
 ## Home repair and safety
-- Weatherization Assistance Program: free energy-efficiency work (insulation, air sealing, weatherstripping, and heating and cooling repair or safety fixes) at no cost to income-eligible households, with older adults, people with disabilities, and families with young children served first. In Horry County this is run through the Waccamaw Economic Opportunity Council; call 843-234-4140 and ask about weatherization. Application windows open and close, so call to confirm they are taking applications.
+- Weatherization Assistance Program: free energy-efficiency work (insulation, air sealing, weatherstripping, and heating and cooling repair or safety fixes) at no cost to income-eligible households, with older adults, people with disabilities, and families with young children served first. In Horry County this is run through the Waccamaw Economic Opportunity Council; call the weatherization office at 843-234-4140. Application windows open and close, so call to confirm they are taking applications.
 - USDA Section 504 Home Repair: grants up to $10,000 for very-low-income homeowners 62 and older to remove health and safety hazards (loans are available too) in eligible rural areas of Horry County, such as the areas around Loris, Aynor, Green Sea, and Nichols. Check eligibility with USDA Rural Development.
 - Dial 211 for local ramp-building and accessibility-modification help from area nonprofits, and ask the Waccamaw Area Agency on Aging (843-546-8502) about minor home modifications tied to its in-home services.
 
 ## Rent, housing, emergency cash
 - 211 is the fastest route to temporary rent and utility help near you and will point you to whichever local ministry or fund has money right now.
-- The Waccamaw Economic Opportunity Council (843-234-4140) runs basic-needs, family self-sufficiency, and energy programs across Horry County.
+- The Waccamaw Economic Opportunity Council runs basic-needs, family self-sufficiency, and energy programs across Horry, Georgetown, and Williamsburg counties; LIHEAP 843-234-4130, weatherization 843-234-4140.
 - The Salvation Army of Horry County and local church ministries such as Churches Assisting People (CAP) in Conway provide emergency assistance in the Horry County area; 211 can route you to whichever has funds available.
 - Horry County DSS (843-366-1600) administers emergency assistance and adult services.
 
 ## Transportation
-- Coast RTA (Coastal Rapid Public Transit Authority) runs fixed-route buses across the Myrtle Beach and Conway area, and its Paratransit service is the door-to-door, advance-reservation ride for people whose disability keeps them from using the regular buses. Paratransit covers areas of Horry and Georgetown counties within three-quarters of a mile of a Coast RTA fixed route. You must be pre-qualified and certified. To apply or schedule a ride, call 843-488-0865; reservations are taken daily from 5 a.m. to 9 p.m. and must be made at least the day before your trip. The Coast RTA office is at 1418 3rd Avenue, Conway, SC 29526.
+- Coast RTA (Coastal Rapid Public Transit Authority) runs fixed-route buses across the Myrtle Beach and Conway area, and its Paratransit service is the door-to-door, advance-reservation ride for people whose disability keeps them from using the regular buses. Paratransit covers areas of Horry and Georgetown counties within three-quarters of a mile of a Coast RTA fixed route. You must be pre-qualified and certified. To apply or schedule a ride, call 843-488-0865. Reservations must be made in advance, so call as early as you can, and call at least two hours ahead if you need to cancel. The Coast RTA office is at 1418 3rd Avenue, Conway, SC 29526.
 - The Horry County Council on Aging (843-248-5523) provides senior transportation to its centers, to meals, and to some appointments; ask which trips are covered in your area.
 - Residents with full Healthy Connections Medicaid and no other way to travel may qualify for free non-emergency medical transportation to covered appointments; ask Healthy Connections (1-888-549-0820) or Horry County DSS.
 
 ## Legal help
-- South Carolina Legal Services provides free civil legal help to income-eligible residents on elder-law issues like powers of attorney, wills, Medicaid and public benefits, housing, consumer and finance problems, and scams. The Conway office serves Georgetown, Horry, Marion, and Williamsburg counties and is at 1201 B Creel Street, Wing A-1, Conway, SC 29527. The statewide telephone intake line is 1-888-346-5592.
+- South Carolina Legal Services provides free civil legal help to income-eligible residents on elder-law issues like powers of attorney, wills, Medicaid and public benefits, housing, consumer and finance problems, and scams. The Conway office serves Georgetown, Horry, Marion, and Williamsburg counties and is at 1201 B Creel Street, Wing A-1, Conway, SC 29527. The statewide intake line is 1-888-346-5592, answered by a lawyer or paralegal from 9 a.m. to 6 p.m. Monday through Thursday. The Conway office can also be reached directly at 843-381-8182 or 1-866-597-0100. Household income generally must be at or under 125 percent of the federal poverty level.
 - The Waccamaw Area Agency on Aging (843-546-8502) offers free benefits counseling and legal-assistance referrals for older adults, and hosts the regional Long-Term Care Ombudsman for nursing-home and assisted-living complaints.
 - The South Carolina Bar Lawyer Referral Service can connect you to a private attorney; 211 can route you there.
 
@@ -11266,42 +11516,40 @@ South Carolina's senior property tax break is the statewide Homestead Exemption,
 - The Horry County Council on Aging's in-home and meal services give working family caregivers some relief; ask at 843-248-5523. The Alzheimer's Association 24/7 Helpline (1-800-272-3900) is there any hour for dementia caregiving questions.
 
 ## Staying at home instead of a nursing home
-- Horry County does not currently have a local PACE (Program of All-Inclusive Care for the Elderly) center. PACE wraps all medical care, therapy, a day center, home care, and home-delivered meals into one program for people 55 and older who meet a nursing-home level of care but can live safely at home with help, and South Carolina's PACE sites are concentrated in the Upstate, Midlands, and Lowcountry rather than the Grand Strand. If you want to ask about the nearest option or any new site, call the Eldercare Locator (1-800-677-1116) or SCDHHS.
+- Horry County does not currently have a local PACE (Program of All-Inclusive Care for the Elderly) center. PACE wraps all medical care, therapy, a day center, home care, and home-delivered meals into one program for people 55 and older who meet a nursing-home level of care but can live safely at home with help, and South Carolina's PACE sites serve Anderson, Bamberg, Berkeley, Calhoun, Charleston, Dorchester, Greenville, Lexington, Orangeburg, Pickens, and Richland counties, none of them on the Grand Strand. If you want to ask about the nearest option or any new site, call the Eldercare Locator (1-800-677-1116) or SCDHHS.
 - The main route to staying home in Horry County is South Carolina's Medicaid home and community based care. Healthy Connections Community Long Term Care can provide in-home personal care, adult day services, and other supports for people who would otherwise need a nursing home. Ask Healthy Connections (1-888-549-0820) or Horry County DSS about Community Long Term Care and the Medicaid waiver.
 - The Waccamaw Area Agency on Aging (843-546-8502) can help you weigh in-home options, and the Eldercare Locator (1-800-677-1116) can compare programs. Home-delivered meals, in-home help, and Coast RTA Paratransit rides also help an older adult stay in the home longer.
 
 ## Frequently asked questions
 **My mom is 70 in Myrtle Beach and her property tax feels impossible. What is the one call to make?** Call the Horry County Auditor at 843-915-5050 and ask about the South Carolina Homestead Exemption. If she is 65 or older and the home is her primary residence, the first $50,000 of fair market value comes off all property taxes, with no income limit. There is no annual deadline, you can apply any time, but apply before bills go out. Then ask the Assessor's Office (843-915-5040) whether her home is coded at the 4 percent legal-residence ratio, a separate break that often saves even more.
 
-**Dad is homebound in Conway and can't cook anymore. How do we get him meals?** Call the Horry County Council on Aging at 843-248-5523 and ask about home-delivered meals for homebound seniors, or Meals on Wheels of Horry County at 843-340-5982. The Waccamaw Area Agency on Aging (843-546-8502) also coordinates senior meals. If you need food sooner, find a local pantry through harvesthope.org/get-help or by dialing 211.
+**Dad is homebound in Conway and can't cook anymore. How do we get him meals?** Call the Horry County Council on Aging at 843-248-5523 and ask about home-delivered meals for homebound seniors, or Meals on Wheels of Horry & Georgetown County at 843-970-2330. The Waccamaw Area Agency on Aging (843-546-8502) also coordinates senior meals. If you need food sooner, find a local pantry through harvesthope.org/get-help or by dialing 211.
 
-**My parent can't drive and needs rides to the doctor. What does Horry County offer?** Coast RTA Paratransit gives door-to-door rides to certified riders within three-quarters of a mile of a Coast RTA bus route across parts of Horry and Georgetown counties; call 843-488-0865 to apply and to book (at least a day ahead). The Horry County Council on Aging (843-248-5523) also offers senior transportation. If your parent has full Healthy Connections Medicaid, ask about free non-emergency medical transportation at 1-888-549-0820.
+**My parent can't drive and needs rides to the doctor. What does Horry County offer?** Coast RTA Paratransit gives door-to-door rides to certified riders within three-quarters of a mile of a Coast RTA bus route across parts of Horry and Georgetown counties; call 843-488-0865 to apply and to book, as far ahead as you can. The Horry County Council on Aging (843-248-5523) also offers senior transportation. If your parent has full Healthy Connections Medicaid, ask about free non-emergency medical transportation at 1-888-549-0820.
 
 **We want to keep Mom at home but her care is getting complex. What is the option here if there is no PACE?** Horry County does not have a PACE center, so the main path is South Carolina's Medicaid home and community based care. Ask Healthy Connections (1-888-549-0820) or Horry County DSS about Community Long Term Care, which can bring in personal care, adult day services, and other in-home supports for someone who would otherwise need a nursing home. The Waccamaw Area Agency on Aging (843-546-8502) and the Eldercare Locator (1-800-677-1116) can help you compare options.
 
 ## Sources
-- Horry County Auditor, Homestead Exemption and Tax Payer Services (P.O. Box 1205, Conway, SC 29526; Homestead 843-915-5051; general Auditor 843-915-5050; age 65 / disabled / blind): https://www.horrycountysc.gov/departments/auditor/ and https://www.horrycountysc.gov/tax-payer-services/real-property-tax/
-- Horry County Assessor, Legal Residence (4 percent) special assessment (843-915-5040): https://www.horrycountysc.gov/departments/assessor/guide-to-assessment/
+- Horry County Auditor, Homestead Exemption (P.O. Box 1205, Conway, SC 29526; Homestead 843-915-5051; general Auditor 843-915-5050; offices Conway 1301 Second Ave Ste 1C41, Little River 107 Hwy 57 N, Myrtle Beach 1201 21st Ave N, South Strand 9630 Scipio Ln Ste K; Mon-Fri 8-5): https://www.horrycountysc.gov/departments/auditor/
+- Horry County Assessor, Legal Residence (4 percent) special assessment (1301 Second Avenue, Conway, SC 29526; 843-915-5040): https://www.horrycountysc.gov/departments/assessor/
 - South Carolina Department of Revenue, Exempt Property / Homestead and legal-residence assessment ratio: https://dor.sc.gov/property/exempt-property
-- Waccamaw Area Agency on Aging / Waccamaw Regional Council of Governments (1230 Highmarket Street, Georgetown, SC 29440; 843-546-8502; serves Georgetown, Horry, Williamsburg; SHIP/I-CARE, IR&A, caregiver support, ombudsman): https://wrcog.org/aging_services/index.php and https://www.getcaresc.com/provider/waccamaw-area-agency-aging
-- Horry County Council on Aging (PO Box 1693, Conway, SC 29528; 843-248-5523, 1-800-922-6283; home-delivered meals, senior centers, transportation): https://hccoa.org/ and https://hccoa.org/contact/
-- Meals on Wheels of Horry County (843-340-5982): https://mowhc.org/
+- Waccamaw Area Agency on Aging / Waccamaw Regional Council of Governments (1230 Highmarket Street, Georgetown, SC 29440; 843-546-8502; serves Georgetown, Horry, Williamsburg; Medicare counseling, caregiver support, long-term care ombudsman): https://wrcog.org/aging_services/index.php
+- Horry County Council on Aging (PO Box 1693, Conway, SC 29528; 843-248-5523; ten senior centers: Aynor, Bucksport, Carolina Forest, Conway, Enterprise Burgess, Grand Strand, Green Sea, Mt. Vernon-Loris, North Strand, South Strand; home-delivered meals and transportation): https://hccoa.org/
+- Meals on Wheels of Horry & Georgetown County, Inc. (843-970-2330; serves Horry and Georgetown): https://mowhc.org/
 - Harvest Hope Food Bank, Pee Dee branch serving Horry (2701 Alex Lee Boulevard, Florence, SC 29506; 843-661-0826; partner-pantry network; Get Help tool): https://www.harvesthope.org/get-help and https://www.harvesthope.org/about/locations
-- Waccamaw Economic Opportunity Council, LIHEAP and weatherization (Conway 1261 Highway 501 East, Suite C-1, 843-234-4140; Myrtle Beach 929 N. Kings Highway, 843-626-7270; Aynor 621 S. Main Street, 843-358-1644; serves Georgetown, Horry, Williamsburg): https://www.energyassistance.us/li/waccamaw-economic-opportunity-council-inc-csbg-and-liheap-programs
+- Waccamaw Economic Opportunity Council, LIHEAP (1261 US 501, Suite D, Conway, SC 29526; 843-234-4130) and Weatherization (Suite C-1; 843-234-4140); serves Horry, Georgetown, Williamsburg: https://www.findhelp.org/provider/waccamaw-economic-opportunity-council-inc--conway-sc/4510033360453632
 - South Carolina Office of Economic Opportunity, LIHEAP (803-734-0662) and energy.sc.gov: https://oeo.sc.gov/managedsites/prd/oeo/liheap.html
-- Coast RTA Paratransit (1418 3rd Avenue, Conway, SC 29526; apply and book 843-488-0865; reservations 5 a.m. to 9 p.m., day-before; within 3/4 mile of a fixed route in Horry and Georgetown): https://coastrta.com/paratransit-service/program-details-and-application/ and https://coastrta.com/contact-us/
-- South Carolina Legal Services, Conway office (1201 B Creel Street, Wing A-1, Conway, SC 29527; serves Georgetown, Horry, Marion, Williamsburg; statewide intake 1-888-346-5592): https://sclegal.org/locations/ and https://www.lawhelp.org/sc/organization/horry-county
+- Coast RTA Paratransit (apply and book 843-488-0865; serves areas of Horry and Georgetown counties within 3/4 mile of any Coast RTA fixed route; advance reservation required, cancel at least 2 hours ahead): https://coastrta.com/paratransit-service/program-details-and-application/
+- South Carolina Legal Services, Conway office (1201 B Creel Street, Wing A1, Conway, SC 29527; 843-381-8182 or 1-866-597-0100; statewide intake 1-888-346-5592, 9 a.m. to 6 p.m. Mon-Thu; 125 percent FPL): https://sclegal.org/locations/ and https://sclegal.org/contact-us/
 - Horry County DSS (1951 Industrial Park Road, Conway, SC 29526; 843-366-1600): https://dss.sc.gov/contact-dss/pee-dee-region/horry/
 - SCDHHS Healthy Connections Medicaid and Community Long Term Care (apply.scdhhs.gov, 1-888-549-0820): https://www.scdhhs.gov/members/getting-started
-- SCDHHS PACE county availability (Horry not listed): https://www.scdhhs.gov/partners/managed-care/program-all-inclusive-care-elderly-pace
+- SCDHHS PACE county availability (available in Anderson, Bamberg, Berkeley, Calhoun, Charleston, Dorchester, Greenville, Lexington, Orangeburg, Pickens, Richland; Horry and Georgetown NOT served): https://www.scdhhs.gov/partners/managed-care/program-all-inclusive-care-elderly-pace
 - South Carolina Department on Aging / SHIP-I-CARE statewide line 1-800-868-9095; GetCareSC.com: https://aging.sc.gov/programs-initiatives/medicare-and-medicare-fraud
-- Verified June 28, 2026.
+- Verified June 28, 2026. Re-verified against primary sources August 19, 2026.
 
-*Verified June 28, 2026. Program names, phone numbers, income limits, and deadlines change. Confirm directly with each program before you rely on it.*
+*Verified June 28, 2026. Re-verified August 19, 2026. Program names, phone numbers, income limits, and deadlines change. Confirm directly with each program before you rely on it.*
 
 *Ryan Riggins, NC Real Estate License #361546, eXp Realty. Riggins Strategic Solutions is an education and media company, not a real estate sales business. Not financial, tax, medical, or legal advice. Programs and contacts change, confirm directly before relying on them.*
-
-UNVERIFIED: (1) Horry County Auditor Homestead Exemption line 843-915-5051 and general Auditor line 843-915-5050 and P.O. Box 1205 Conway came from the official horrycountysc.gov Auditor and Real Property Tax pages plus a county real-property info PDF, not one single confirmed Auditor Homestead contact page this session; Code should confirm the current Homestead number, the correct apply locations (Conway Government and Justice Center plus any Myrtle Beach, Little River, Surfside satellite offices), and that the Auditor (not the Assessor) takes the Homestead application. (2) Horry County Assessor Legal Residence line 843-915-5040 is from the county real-property PDF; confirm. (3) Horry County Council on Aging 843-248-5523 / 1-800-922-6283 and PO Box 1693 Conway are from hccoa.org and directories; confirm the current number and that it runs home-delivered meals and senior transportation countywide. (4) Meals on Wheels of Horry County 843-340-5982 (mowhc.org) appears to be a separate org from HCCOA; confirm both still operate and which serves the family's area, or collapse to one if they are the same program. (5) Waccamaw Area Agency on Aging 843-546-8502 and 1230 Highmarket Street Georgetown are from wrcog.org and GetCareSC; confirm the current main aging line and that Horry I-CARE/SHIP is delivered through this AAA. (6) Waccamaw Economic Opportunity Council LIHEAP/weatherization offices and numbers (Conway 843-234-4140, Myrtle Beach 843-626-7270, Aynor 843-358-1644) are from energyassistance.us and findhelp; confirm current and that WEOC is the active LIHEAP intake agency for Horry, otherwise route through energy.sc.gov, the SC OEO line 803-734-0662, and 211. (7) Coast RTA Paratransit 843-488-0865 and the 1418 3rd Avenue Conway address and 3/4-mile service rule are from coastrta.com and findhelp; confirm the apply/booking number and the current service-area description. (8) Harvest Hope Pee Dee 843-661-0826 serves the region from Florence and does not run a Horry emergency pantry directly; keep food help routed to harvesthope.org/get-help and 211 plus the local councils, and confirm a named Horry/Conway pantry only if Code verifies one. (9) SC Legal Services Conway office 1201 B Creel Street Wing A-1 is from sclegal.org/locations and Yelp; use statewide intake 1-888-346-5592 as the primary number and confirm any direct Conway line before publishing one. (10) Horry County DSS 843-366-1600 / 1951 Industrial Park Road is from the official dss.sc.gov Horry page plus directories; confirm. (11) Horry County has no PACE site per the SCDHHS PACE county list captured this session; confirm that list is current before publishing the "no local PACE" statement. (12) The $50,000 Homestead figure and the 4 percent legal-residence relief are SC statewide law; confirm current-year and the status of the pending 2026 senior-relief expansion bill before publishing. (13) USDA Section 504 rural eligibility varies by address within Horry County; route through USDA Rural Development.
 
 ---
 
@@ -17810,10 +18058,33 @@ Remember, the goal isn't just to sell a house or move boxes—it is to navigate 
 
 # Video Transcripts (newest first)
 
-The 14 transcripts below are the full spoken text of every published
+The 15 transcripts below are the full spoken text of every published
 video on https://rigginsstrategicsolutions.com/videos, with the sources each script was checked against.
 Ryan spent eight years on the cash-buyer side of senior home sales before
 switching, and these are the plainest statements of what he learned there.
+
+---
+
+# The Deposit Is Due and the House Hasn't Sold
+https://rigginsstrategicsolutions.com/videos/the-deposit-is-due-and-the-house-hasnt-sold
+Published: 2026-08-19
+
+**Excerpt:** The move-in date is set and the house paying for it has not been cleaned out. Run the timeline backwards from the day the money has to be in the account.
+
+**Full transcript:**
+
+The move-in date is set. The deposit is due. And your parents' house has not been cleaned out, let alone sold.
+
+That gap is where families lose the most money, and almost never because anyone made a bad call. Four people each owned one piece and nobody owned the calendar.
+
+Run it backwards. Pick your funding date first, the day the money has to be in the account. Ninety days out you decide and sign. Sixty days out sorting starts, two bags a day. Forty-five days out you know what furniture fits. Thirty days out movers are booked.
+
+Wing it and you get six weeks of chaos and take the first offer that shows up. Run the timeline and you pick your buyer.
+
+Drop PROCEEDS in the comments and I will send the free net proceeds tool. Boring beats broke.
+
+**Sources:**
+- Timeline is Module 09 of the free Blueprint. On the community contract side, North Carolina's Continuing Care Retirement Communities Act requires the contract to state the policy if a resident cannot pay the periodic fees, G.S. 58-64A-175(b)(4) (ncleg.gov).
 
 ---
 
