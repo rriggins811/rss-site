@@ -6,7 +6,7 @@
     "dev": "next dev",
     "prebuild": "node scripts/generate-llms-full.mjs",
     "build": "next build",
-    "postbuild": "node scripts/validate-schemas.mjs",
+    "postbuild": "node scripts/validate-schemas.mjs && node scripts/lint-copy.mjs",
     "start": "next start",
     "lint": "eslint",
     "llms:gen": "node scripts/generate-llms-full.mjs",
