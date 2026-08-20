@@ -572,6 +572,15 @@ export const DIRECTORY_COUNTIES: DirectoryCounty[] = [
     blurb:
       "Fort Myers, Cape Coral and Lehigh Acres, FL programs for seniors and families: the 25-year senior exemption that can erase the county portion of a tax bill, three completely different home repair programs depending on which side of a city line the house sits on, the county rent program that stopped taking applications in June 2026, LeeTran fares at 75 cents with the TropiCard you have to show every time, EHEAP through the Fort Myers Friendship Center and LIHEAP that asks whether you have LCEC or FPL, a Cape Coral foreclosure program worth $10,000 that closes the day the lender files, the hurricane shelter that takes your dog, and one of Florida's largest PACE programs with three centers inside the county.",
   },
+  {
+    slug: "sumter-county-fl-senior-help-directory",
+    county: "Sumter County",
+    state: "FL",
+    metro: "The Villages, Wildwood & Bushnell",
+    region: "Central Florida",
+    blurb:
+      "The Villages, Wildwood and Bushnell, FL programs for seniors and families: the county senior tax exemption that is $15,000 rather than the $50,000 Florida allows and applies only to commission-levied taxes, the county line running through The Villages that changes which office and which memory clinic serves you, county bus fares of 25 cents at 60 with a reservation window that closes at 1 p.m., five SHINE Medicare counseling sites inside The Villages, EHEAP run from Gainesville because there is no local office, four electric utilities to sort out before you call about a bill, a $15,000 emergency repair loan that carries monthly payments, the Section 8 program that moved to Citrus County in 2011, a $2,500 dementia respite benefit Medicare Advantage members cannot use, and a PACE program authorized here with zero people enrolled in it.",
+  },
 ];
 
 export type DirectoryState = {
