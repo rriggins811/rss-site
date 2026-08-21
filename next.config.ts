@@ -58,6 +58,17 @@ const nextConfig: NextConfig = {
         destination: "/tools/family-readiness-score",
         permanent: true,
       },
+      // Branded review link used in review-request emails, the email
+      // signature, and printed QR codes. Points at the Google Business
+      // Profile review form; the g.page slug is machine-generated, so this
+      // is the only place that should ever hardcode it. Not permanent: if
+      // the profile is ever re-verified the slug changes and cached 308s
+      // would strand every printed QR code.
+      {
+        source: "/review",
+        destination: "https://g.page/r/CWgxv_D0pyEqEBM/review",
+        permanent: false,
+      },
     ];
   },
   async headers() {
