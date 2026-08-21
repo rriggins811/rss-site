@@ -41,6 +41,8 @@ export type FailureStage =
   | "ghl-upsert"
   | "ghl-webhook"
   | "ghl-opportunity"
+  | "notify-email"
+  | "lead-sms-schedule"
   | "email-send"
   | "blueprint-signup";
 
