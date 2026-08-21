@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import { getServiceSupabase } from "@/lib/supabase-server";
 import { checkAndRecordRateLimit, getClientIp } from "@/lib/rate-limit";
-import { upsertGhlContactWithTags, callGhlProxy } from "@/lib/ghl-proxy";
+import { upsertGhlContact, upsertGhlContactWithTags, callGhlProxy } from "@/lib/ghl-proxy";
 import { recordFailure } from "@/lib/failure-log";
 
 // "I just need an agent" request, from /need-an-agent.
@@ -184,6 +184,78 @@ export async function POST(req: Request) {
       email,
       payload: { cardName, urgent, pipelineId: REFERRAL_PIPELINE_ID },
     });
+  }
+
+  // 4. Rich notification email to Ryan. The existing GHL workflow already
+  //    texts his cell on the tags; this carries the detail the texts lack.
+  try {
+    const notif = await upsertGhlContact({
+      email: "ryan@rigginsstrategicsolutions.com",
+      firstName: "RSS",
+      lastName: "Notifications",
+      source: "internal-notifications",
+    });
+    if (notif.ok) {
+      const lines = [
+        `Name: ${who}`,
+        `Email: ${email}`,
+        `Phone: ${phone || "(none given)"}`,
+        `Location: ${location || "(blank)"}`,
+        `Timeline: ${timeline || "(blank)"}`,
+        `Offer status: ${offer || "(blank)"}${urgent ? "  <b>*** OFFER ON THE TABLE ***</b>" : ""}`,
+        `Notes: ${notes || "(none)"}`,
+      ];
+      await callGhlProxy({
+        action: "post",
+        path: "/conversations/messages",
+        body: {
+          type: "Email",
+          contactId: notif.contactId,
+          subject: urgent
+            ? `AGENT REQUEST (OFFER ON TABLE): ${who}`
+            : `Agent request: ${who}`,
+          html: `<p>New request from /need-an-agent.</p><p>${lines.join("<br/>")}</p><p>Card is on the Referral Pipeline (Conversation stage).${phone ? " They get an automatic text from your GHL number in 10 minutes; beat it with a call if you can." : ""}</p>`,
+        },
+        injectLocation: false,
+      });
+    }
+  } catch (err) {
+    await recordFailure({
+      route: "agent-request",
+      stage: "notify-email",
+      message: err instanceof Error ? err.message : "threw",
+      email,
+    });
+  }
+
+  // 5. The 10-minute text to the lead, scheduled through GHL so it sends
+  //    even if this server never hears from them again. Only when they gave
+  //    a phone number on a form whose promise is that Ryan will reach out.
+  if (contactId && phone) {
+    try {
+      const first = firstName || "there";
+      const leadText = urgent
+        ? `Hi ${first}, Ryan Riggins with Riggins Strategic Solutions. I got your note from my website and saw someone is pushing you on the house. Please don't sign anything yet. I'm looking at it now and will call you shortly. You can call or text me right here anytime.`
+        : `Hi ${first}, Ryan Riggins with Riggins Strategic Solutions. I got your note from my website about finding the right agent. I'm on it and will reach out within one business day. If anything changes in the meantime, call or text me right here.`;
+      await callGhlProxy({
+        action: "post",
+        path: "/conversations/messages",
+        body: {
+          type: "SMS",
+          contactId,
+          message: leadText,
+          scheduledTimestamp: Math.floor(Date.now() / 1000) + 10 * 60,
+        },
+        injectLocation: false,
+      });
+    } catch (err) {
+      await recordFailure({
+        route: "agent-request",
+        stage: "lead-sms-schedule",
+        message: err instanceof Error ? err.message : "threw",
+        email,
+      });
+    }
   }
 
   return NextResponse.json(
