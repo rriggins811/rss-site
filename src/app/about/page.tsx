@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     type: "website",
     url: "https://rigginsstrategicsolutions.com/about",
     siteName: "Riggins Strategic Solutions",
-    title: "About Ryan Riggins | Riggins Strategic Solutions",
+    title: "About Ryan Riggins",
     description:
       "Senior Transition Advisor helping families avoid the $50K mistakes of a senior housing transition. Not a move manager, not a listing agent. Greensboro, NC.",
     images: [

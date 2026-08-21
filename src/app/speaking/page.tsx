@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     type: "website",
     url: "https://rigginsstrategicsolutions.com/speaking",
     siteName: "Riggins Strategic Solutions",
-    title: "Speaking & Seminars | Riggins Strategic Solutions",
+    title: "Speaking & Seminars",
     description:
       "Ryan Riggins speaks to AAAs, senior living communities, elder law firms, and community groups about senior transitions, consumer protection, and family coordination.",
     images: [

@@ -36,7 +36,7 @@ const FAQS: { q: string; a: string }[] = [
 ];
 
 export const metadata: Metadata = {
-  title: "I Need an Agent, Not a Sales Pitch | Riggins Strategic Solutions",
+  title: "I Need an Agent, Not a Sales Pitch",
   description:
     "Skip the three listing presentations. Get one vetted agent with the reason attached, and someone in your corner on the sale. No added cost. And if the answer is do not sell yet, you hear that too.",
   alternates: { canonical: "/need-an-agent" },

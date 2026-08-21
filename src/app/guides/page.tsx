@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     type: "website",
     url: "https://rigginsstrategicsolutions.com/guides",
     siteName: "Riggins Strategic Solutions",
-    title: "Free Senior Transition Guides | Riggins Strategic Solutions",
+    title: "Free Senior Transition Guides",
     description:
       "Free guides for adult children handling a parent's senior transition. Practical, no-fluff. Use them. Share them. They're free.",
     // OG image is generated per-route by ./opengraph-image.tsx (topical card),

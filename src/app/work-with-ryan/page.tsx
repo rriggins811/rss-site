@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     type: "website",
     url: "https://rigginsstrategicsolutions.com/work-with-ryan",
     siteName: "Riggins Strategic Solutions",
-    title: "Book a call with Ryan | Riggins Strategic Solutions",
+    title: "Book a call with Ryan",
     description:
       "Get a guide in your corner before you deal with the house. One free 20-minute call. No cost, no pressure, no pitch.",
     images: [
