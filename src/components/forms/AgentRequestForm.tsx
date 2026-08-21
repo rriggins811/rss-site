@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { CONVERSION_LABELS, fireGoogleAdsConversion } from "@/components/site/GoogleAdsTag";
 
 type Status = "idle" | "sending" | "sent" | "error";
 
@@ -32,6 +33,7 @@ export default function AgentRequestForm() {
       }
       setMsg(data.message ?? "Got it.");
       setStatus("sent");
+      fireGoogleAdsConversion(CONVERSION_LABELS.agentRequest);
     } catch {
       setError("Something went wrong. Try again, or just call 336-553-8933.");
       setStatus("error");

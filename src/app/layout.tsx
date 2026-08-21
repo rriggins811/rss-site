@@ -9,6 +9,7 @@ import { JsonLd } from "@/components/site/JsonLd";
 import { Analytics } from "@/components/site/Analytics";
 import { AnalyticsClickTracker } from "@/components/site/AnalyticsClickTracker";
 import { MetaPixel } from "@/components/site/MetaPixel";
+import { GoogleAdsTag } from "@/components/site/GoogleAdsTag";
 import { organizationSchema, personSchema, websiteSchema } from "@/lib/schema";
 import { SITE_DESCRIPTION, SITE_NAME, SITE_URL } from "@/lib/site";
 
@@ -95,6 +96,7 @@ export default function RootLayout({
         <Analytics />
         <AnalyticsClickTracker />
         <MetaPixel />
+        <GoogleAdsTag />
         <SiteHeaderGate>
           <SiteHeader />
         </SiteHeaderGate>
