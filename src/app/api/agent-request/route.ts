@@ -108,6 +108,7 @@ export async function POST(req: Request) {
   const tags = ["in-your-corner-request", "stage-new-lead"];
   if (urgent) tags.push("agent-request-urgent");
 
+  let contactId: string | null = null;
   try {
     const res = await upsertGhlContactWithTags(
       { email, firstName, lastName, phone, source: "need-an-agent" },
@@ -122,6 +123,8 @@ export async function POST(req: Request) {
         email,
         payload: { firstName, lastName, phone, tags },
       });
+    } else {
+      contactId = res.contactId;
     }
   } catch (err) {
     await recordFailure({
@@ -150,6 +153,9 @@ export async function POST(req: Request) {
     : `${who} — Agent request`;
 
   try {
+    // The opportunity API requires a real contactId; without one GHL rejects
+    // the card and the request only ever existed as a tagged contact.
+    if (!contactId) throw new Error("no contactId from upsert; skipping pipeline card");
     const opp = await callGhlProxy({
       action: "post",
       path: "/opportunities/",
@@ -158,9 +164,7 @@ export async function POST(req: Request) {
         pipelineStageId: STAGE_CONVERSATION_ID,
         name: cardName,
         status: "open",
-        email,
-        phone: phone || undefined,
-        contactId: undefined,
+        contactId,
       },
     });
     if (!opp.ok) {
