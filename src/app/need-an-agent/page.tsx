@@ -119,6 +119,15 @@ export default function NeedAnAgentPage() {
           <p className="mt-4 text-lg leading-relaxed text-cream/85">
             So talk to me first, and nothing starts.
           </p>
+          <p className="mt-4 text-lg leading-relaxed text-cream/85">
+            And because you should never have to hunt for how a free thing pays its bills: if your
+            family does sell, the agent I match you with pays me a referral fee out of the
+            commission they were charging anyway. Nothing is added to what you pay.
+          </p>
+          <p className="mt-8 border-t border-cream/20 pt-5 text-sm text-cream/70">
+            Ryan Riggins, Senior Transition Advisor · Riggins Strategic Solutions, with eXp Realty ·
+            NC License #361546
+          </p>
         </div>
       </section>
 
@@ -163,6 +172,19 @@ export default function NeedAnAgentPage() {
           <p className="mt-3 text-ink/70">
             Takes about thirty seconds. If somebody is pushing you right now, say so and I will
             reach out today.
+          </p>
+          <p className="mt-3 text-sm text-ink/60">
+            One North Carolina formality, because I am a licensed broker and you deserve the
+            protections that come with that: the state&apos;s{" "}
+            <a
+              href="https://www.ncrec.gov/Brochures/WorkingWithAgents.aspx"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline underline-offset-2"
+            >
+              Working With Real Estate Agents disclosure
+            </a>{" "}
+            explains how agency works before we talk details.
           </p>
           <div className="mt-8">
             <AgentRequestForm />
