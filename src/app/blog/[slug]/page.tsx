@@ -24,6 +24,7 @@ import {
 import { abs } from "@/lib/site";
 import { RelatedReading } from "@/components/site/RelatedReading";
 import { QuickAnswer } from "@/components/aeo/QuickAnswer";
+import { PostVideo } from "@/components/site/PostVideo";
 import { remarkAutolinkCta } from "@/lib/remark-autolink-cta";
 import { remarkAutolinkInternal } from "@/lib/remark-autolink-internal";
 
@@ -150,6 +151,14 @@ export default async function BlogPostPage({
               className="mt-8"
               topic={post.frontmatter.category ?? "Senior transitions"}
               answer={post.frontmatter.quick_answer}
+              question={post.frontmatter.question}
+            />
+          ) : null}
+          {post.frontmatter.video ? (
+            <PostVideo
+              className="mt-8"
+              id={post.frontmatter.video}
+              caption={post.frontmatter.video_caption ?? post.frontmatter.title}
             />
           ) : null}
         </div>

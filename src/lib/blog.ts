@@ -66,6 +66,23 @@ export type BlogFrontmatter = {
    * absent, so it's opt-in and safe to leave off.
    */
   quick_answer?: string;
+  /**
+   * Optional literal search query, rendered as the headline inside the
+   * QuickAnswer box and wrapping it in Schema.org Question microdata. Use on
+   * posts written against one specific query ("can you sell a house in
+   * probate in nc"), so a stressed searcher sees their own words answered
+   * before any prose. Renders the plain answer box when absent.
+   */
+  question?: string;
+  /**
+   * Optional YouTube video ID for a short talk that answers the page's
+   * question, rendered between the QuickAnswer and the body. Someone in the
+   * middle of a crisis will watch four minutes before they will read three
+   * thousand words. Renders nothing when absent, so pages ship before films.
+   */
+  video?: string;
+  /** Optional caption under the video. Defaults to the post title. */
+  video_caption?: string;
   source?: string;
   category?: string;
   tags?: string[];
