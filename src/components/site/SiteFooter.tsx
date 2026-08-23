@@ -29,6 +29,7 @@ const footerNav: { heading: string; links: { href: string; label: string; extern
     heading: "Learn",
     links: [
       { href: "/about", label: "About Ryan" },
+      { href: "/faq", label: "Common questions" },
       { href: "/blog", label: "Blog" },
       { href: "/resources", label: "Resources" },
       {
