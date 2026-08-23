@@ -79,7 +79,7 @@ const homeFaqs: FAQItem[] = [
   {
     question: "How do I help my aging parent decide whether to sell their house?",
     answer:
-      "Start by listening, not selling. Most parents resist because they fear losing autonomy or burdening you, not because they don't see the math. Have an honest conversation about their daily reality, document maintenance costs and time, then bring in a Senior Real Estate Specialist (SRES) who works for the family, not the sale. Senior Transition Blueprint walks you through this conversation step by step.",
+      "Start by listening, not selling. Most parents resist because they fear losing autonomy or burdening you, not because they don't see the math. Have an honest conversation about their daily reality, document the maintenance costs and the time, then bring in an agent who has actually closed senior and estate sales, and ask how many. A designation like SRES is a starting point for that conversation, not proof of it. The Senior Transition Blueprint walks you through the conversation step by step.",
   },
   {
     question: "Do I need power of attorney to sell my parent's home?",
@@ -90,7 +90,7 @@ const homeFaqs: FAQItem[] = [
     question:
       "What's the difference between a Senior Real Estate Specialist and a regular agent?",
     answer:
-      "A Senior Real Estate Specialist (SRES) has specific training in working with adults 50+, including understanding Medicare timing, downsizing logistics, and the emotional weight of selling a long-time family home. Regular agents are trained to close deals fast. SRES agents are trained to protect the family.",
+      "SRES stands for Seniors Real Estate Specialist, a designation an agent earns through coursework offered through the National Association of Realtors. It signals interest in working with older adults and their families, and that is worth something. What it does not tell you is how many senior or estate sales that agent has actually closed. Treat the letters as a starting point, then ask the question that decides it: how many of these have you done, and what happened when one went sideways?",
   },
   {
     question:
