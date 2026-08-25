@@ -581,6 +581,15 @@ export const DIRECTORY_COUNTIES: DirectoryCounty[] = [
     blurb:
       "The Villages, Wildwood and Bushnell, FL programs for seniors and families: the county senior tax exemption that is $15,000 rather than the $50,000 Florida allows and applies only to commission-levied taxes, the county line running through The Villages that changes which office and which memory clinic serves you, county bus fares of 25 cents at 60 with a reservation window that closes at 1 p.m., five SHINE Medicare counseling sites inside The Villages, EHEAP run from Gainesville because there is no local office, four electric utilities to sort out before you call about a bill, a $15,000 emergency repair loan that carries monthly payments, the Section 8 program that moved to Citrus County in 2011, a $2,500 dementia respite benefit Medicare Advantage members cannot use, and a PACE program authorized here with zero people enrolled in it.",
   },
+  {
+    slug: "collier-county-fl-senior-help-directory",
+    county: "Collier County",
+    state: "FL",
+    metro: "Naples, Marco Island & Immokalee",
+    region: "Southwest Florida",
+    blurb:
+      "Naples, Marco Island and Immokalee, FL programs for seniors and families: the county that adopted both optional senior property tax exemptions when most of Florida adopted one or none, a senior filing deadline of June 1 rather than the usual March 1, the 25-year long-term residency exemption that can erase the county share of a tax bill, tax deferral through the Tax Collector that becomes a first lien, a Meals on Wheels route that takes no government money and sets its own rules, LIHEAP run by an agency with no office in this county, two county pages that disagree about whether EHEAP still has local intake, interest-free deferred repair loans up to $50,000 with no monthly payment, bus fares halved at 65 with an in-person ID check you must repeat every year, a real PACE program with 89 people enrolled against 120 funded slots, and a state veterans nursing home dedicated on a former golf course that will not open until 2029.",
+  },
 ];
 
 export type DirectoryState = {
