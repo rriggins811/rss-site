@@ -590,6 +590,15 @@ export const DIRECTORY_COUNTIES: DirectoryCounty[] = [
     blurb:
       "Naples, Marco Island and Immokalee, FL programs for seniors and families: the county that adopted both optional senior property tax exemptions when most of Florida adopted one or none, a senior filing deadline of June 1 rather than the usual March 1, the 25-year long-term residency exemption that can erase the county share of a tax bill, tax deferral through the Tax Collector that becomes a first lien, a Meals on Wheels route that takes no government money and sets its own rules, LIHEAP run by an agency with no office in this county, two county pages that disagree about whether EHEAP still has local intake, interest-free deferred repair loans up to $50,000 with no monthly payment, bus fares halved at 65 with an in-person ID check you must repeat every year, a real PACE program with 89 people enrolled against 120 funded slots, and a state veterans nursing home dedicated on a former golf course that will not open until 2029.",
   },
+  {
+    slug: "jefferson-county-al-senior-help-directory",
+    county: "Jefferson County",
+    state: "AL",
+    metro: "Birmingham, Bessemer & Hoover",
+    region: "Birmingham Metro",
+    blurb:
+      "Birmingham, Bessemer and Hoover, AL programs for seniors and families: a county tax office split into Birmingham and Bessemer divisions that decides which courthouse holds your parcel, a Special Senior exemption under Act 2021-300 that freezes assessed value and asks nothing about income, an Over-65 renewal you must repeat every year or the freeze goes with it, an Area Agency on Aging run by a United Way and chartered for Older Americans Act programs only, a Medicaid waiver administered instead by a regional planning commission, LIHEAP run from Rainsville with staffed offices in Birmingham and Bessemer, 27 senior centers with weekday meals, a flat $4 ClasTran fare alongside a bus discount that starts at 62 rather than 65, county home repair grants that exclude Birmingham and Bessemer addresses, a food-stamp short form that is 65 and older despite what most sites say, free Project Lifesaver bracelets through the Sheriff's Department, a statewide respite program with applications closed until October, and no PACE program within 250 miles.",
+  },
 ];
 
 export type DirectoryState = {
