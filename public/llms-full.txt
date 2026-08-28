@@ -5,8 +5,8 @@ It contains the full Markdown of every key page, resource pillar, Senior Help
 Directory state page, and blog post, intended for AI crawlers that ingest
 content for answer generation.
 
-Generated: 2026-08-27
-Indexed: 122 blog posts, 16 resource pillars, 51 Senior Help Directory state pages, 17 video transcripts.
+Generated: 2026-08-28
+Indexed: 123 blog posts, 16 resource pillars, 51 Senior Help Directory state pages, 17 video transcripts.
 
 For citation guidance, organizational facts, and topic depth, see the summary
 index at https://rigginsstrategicsolutions.com/llms.txt.
@@ -5186,8 +5186,139 @@ You must qualify for Medicaid, then apply for the Community Choices Waiver, choo
 
 # Blog Posts (newest first)
 
-The 122 posts below are the full body of every published article
+The 123 posts below are the full body of every published article
 on https://rigginsstrategicsolutions.com/blog, in reverse chronological order.
+
+---
+
+# Medicare Is Adding a New Icon to Nursing Home Listings Next Month. Here's What It Actually Certifies.
+https://rigginsstrategicsolutions.com/blog/medicare-care-compare-high-performing-icon-september-2026
+Published: 2026-08-28
+
+**Excerpt:** A new high performing icon lands on Medicare's Nursing Home Care Compare listings starting September 30. It marks roughly one in eight homes, and what it certifies is that the state may now inspect that building in about half the time. Here is how to read it.
+
+Next month a new icon shows up on Medicare's nursing home listings, and here's the part that should slow you down before you trust it: what that icon certifies is that the state may now inspect the building in roughly half the time, with a smaller team.
+
+That is not a scandal. There's a real argument behind it, and I'll walk you through it. But you are going to be sitting in front of that website at some point, probably at night, probably after a hospital called, and you are going to see a little badge next to one home and not the others. What you decide in that moment matters more than almost anything else you'll decide that week. So you should know exactly what the badge means and, more usefully, what the government had to measure in order to hand it out.
+
+For 8+ years I bought houses from families in exactly this situation. The care decision came first, the house conversation came about nine days later, and I was the one showing up for the house. I saw how these choices actually get made, which is fast, exhausted, and on a phone screen. Then I walked away from the buying side.
+
+So let me give you the part almost nobody is going to hand you. In publishing this program, Medicare also published the specific list of things it considers disqualifying in a nursing home. Eleven of them. That list is a better vetting checklist than anything you'll find on a brochure, and every single item on it is something you can look up yourself, for free, before you ever walk in the door.
+
+## What CMS Actually Announced
+
+On July 16, 2026, the Centers for Medicare and Medicaid Services released memo QSO-26-14-NH to state survey agency directors. It does three things.
+
+First, it launches the Risk Based Survey, or RBS, nationwide beginning September 8, 2026. The RBS is a shortened version of the standard recertification inspection. According to the memo, these surveys are "conducted in roughly half the time with fewer total surveyors" than the traditional Long-Term Care Survey Process, and they review a smaller sample of residents.
+
+Second, it limits who gets the shorter inspection. CMS estimates approximately 12% of nursing homes nationwide will qualify. The memo's own state table puts it at 1,560 qualifying facilities out of 14,682 nationally, using data as of June 2026.
+
+Third, it creates the icon. CMS states it will place a high performing facility icon on each qualifying nursing home's profile page on Nursing Home Care Compare, and that the list of qualifying homes goes public on Care Compare and CMS's Provider Data Catalog beginning September 30, 2026. The icon stays until the home no longer qualifies.
+
+CMS is candid about why. The memo states the federal budget for nursing home surveys "has not been increased since 2015," while state agencies have seen "over a 20% increase" in their obligation to conduct complaint surveys. The result, in CMS's own words, is that states have been prevented from investigating complaints where residents are at risk of harm, and there's now a backlog of certified nursing homes that never got their legally required standard survey. CMS tested the RBS starting in 2023 in 22 states and over 100 facilities, and reported findings comparable to the full survey.
+
+Two protections stay in place. Federal rules at 42 CFR 488.308 still require a standard survey of every nursing home at least once every 15 months. And a state agency can override the shortened survey and run the full one at any qualifying home based on health and safety concerns, such as a complaint.
+
+## What the Icon Tells You, and What It Does Not
+
+Read the icon as a summary of a home's past record, not as a promise about its present one. The home earned it by clearing a set of historical thresholds. Going forward, that same home may get a shorter look from the inspectors than the place next door.
+
+That is the tension you're holding. The icon is real information: a home cannot get it while carrying a harm citation, and it cannot get it with weak staffing. But it is backward looking by design, and it does not come with a guarantee about the shift your mother will actually live through.
+
+CMS itself says as much about the underlying five star system. Its own guidance warns that no rating system can address all of the important considerations in choosing a home, names specialty care like dementia programming as an example of what the stars miss, and tells families to use the website alongside a visit and their state ombudsman.
+
+## The Eleven Item Checklist Medicare Just Handed You
+
+Here's the more valuable half of this document. To qualify for the shorter survey, a home must not have any of the following, per Appendix A of the memo: an overall rating below five stars, a staffing rating below three stars, any citation for actual harm, immediate jeopardy, or substandard quality of care in the last survey cycle, more than 18 months without a standard survey, any staffing waiver in effect, a failed Payroll Based Journal staffing data audit, a failed Minimum Data Set resident assessment audit, a health inspection score above the 50th percentile in its state, two or more residents 65 and older coded with a schizophrenia diagnosis after being admitted without one, a change in ownership since the last standard survey, or status as a Special Focus Facility candidate.
+
+Read that list again as a set of questions to ask. It is the federal government telling you, in plain terms, which things it treats as red flags.
+
+A few of them deserve a note. Staffing carries its own star rating separate from the overall one, and CMS says a low staffing rating is the single most common reason homes fail to qualify beyond the five star requirement. A change of ownership matters enough that CMS disqualifies a home over it, because a new owner means the inspection record you're reading belongs to the previous operator. And that schizophrenia item is not an oddity: CMS has been auditing schizophrenia coding in nursing home data since a 2023 memo and adjusting star ratings where the coding proved inaccurate.
+
+## The Numbers Where You Live
+
+The memo's state table is the part that will change how you shop, and it is worth sitting with.
+
+In North Carolina, 37 of 420 nursing homes qualify, or 8.81%. In South Carolina, 13 of 187 qualify, or 6.95%. Nationally it's 1,560 of 14,682.
+
+Now look at why the rest did not. In South Carolina, 36 homes, 19.25% of the state's total, carried an immediate jeopardy citation in their last survey cycle. In North Carolina, 184 homes, 43.81%, had a staffing rating below three stars, and 55 homes had a citation for actual harm. Nationally, 2,723 homes, 19.61%, had an actual harm citation and 1,674, 11.54%, had immediate jeopardy.
+
+And one number that has nothing to do with quality and everything to do with what you can actually see: nationally, 1,410 homes, 8.98%, had gone more than 18 months without a standard survey. In Virginia that figure is 172 homes, 59.52% of the state. In Alabama it's 198 of 224, 88.39%, which is part of why not a single Alabama nursing home qualified. In those states, the inspection record you're reading tonight may simply be old.
+
+## What To Do Before You Tour a Single Building
+
+### Look the home up on Care Compare first, not last
+
+Go to medicare.gov and search Nursing Home Care Compare by your parent's zip code. Do this before you schedule tours, because the tour is designed to move you and the data is not. From September 30, the high performing icon will be visible there too.
+
+### Read the staffing rating on its own
+
+The overall stars blend three things: health inspections, staffing, and quality measures. Pull staffing out and look at it by itself. It's the criterion that knocks the most homes out of this program, and it's the one your parent experiences at two in the morning when they need help to the bathroom.
+
+### Ask for the date of the last standard survey, out loud
+
+Ask the admissions director directly: when was your last standard recertification survey, and were there any citations at actual harm or immediate jeopardy? Federal rules entitle you to see the results. A home that fumbles this question has told you something.
+
+### Ask whether the building changed hands
+
+Ownership changes are disqualifying under this program for a reason. If the home sold since its last survey, the record you're reading describes a different operator's building.
+
+### Call the ombudsman, then visit at an odd hour
+
+Every state runs a Long Term Care Ombudsman program under the Older Americans Act, and per the Administration for Community Living it operates in all 50 states, DC, Puerto Rico and Guam. It's free, it works on behalf of residents, and its people have been inside these buildings. Then go see the place yourself on a weekend evening, which is when staffing is thinnest.
+
+## Frequently Asked Questions
+
+### What does the new high performing icon on Medicare's Care Compare mean?
+
+Per CMS memo QSO-26-14-NH, the icon marks a nursing home that qualifies for the Risk Based Survey, a shortened recertification inspection conducted in roughly half the time with fewer surveyors. To qualify, a home must have a five star overall rating, a staffing rating of at least three stars, no citations for actual harm, immediate jeopardy or substandard quality of care in its last survey cycle, and it must clear seven other criteria. CMS says the icon appears on Care Compare beginning September 30, 2026.
+
+### Does the shorter inspection mean nursing homes get inspected less often?
+
+Not less often, less intensively. CMS states that all facilities will continue to be surveyed at least every 15 months, which is the requirement at 42 CFR 488.308. What changes for qualifying homes is the depth of that standard survey: less onsite time, a smaller team, and a smaller sample of residents reviewed. State agencies may still run the full Long Term Care Survey Process at any qualifying home based on health and safety concerns such as a complaint.
+
+### How many nursing homes qualify for the high performing icon?
+
+CMS estimates approximately 12% nationwide. The memo's June 2026 data shows 1,560 qualifying facilities out of 14,682, with wide state variation: 37 of 420 homes in North Carolina, 13 of 187 in South Carolina, and zero of 224 in Alabama. CMS notes the list is preliminary and gets refreshed at the end of each calendar quarter.
+
+### Does Medicare pay for a long-term nursing home stay?
+
+No. Medicare.gov states plainly that Medicare doesn't pay for long-term care, also called custodial care, and that you pay all costs for it. What Medicare Part A covers is short-term skilled nursing facility care after a qualifying inpatient hospital stay of at least three days. In 2026, per Medicare.gov, days 1 through 20 cost $0 a day after the $1,736 Part A deductible, days 21 through 100 cost $217 a day, and from day 101 you pay everything. Coverage is capped at 100 days per benefit period.
+
+### Should I rule out a nursing home that doesn't have the icon?
+
+No, and treating it that way would eliminate roughly seven of every eight homes in the country, including many good ones. Use the eleven qualifying criteria as your question list instead of using the badge as your filter. A home with strong staffing, no harm citations, and a recent inspection is worth a visit whether or not a change of ownership or a health inspection percentile kept the icon off its page.
+
+## About Ryan Riggins
+
+Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafe app](https://seniorsafeapp.com).
+
+---
+
+**Weighing a facility against staying home?** The free Aging in Place vs Assisted Living calculator gives you the honest break-even in about four minutes: rigginsstrategicsolutions.com/tools/aging-in-place-break-even
+
+**Want a step-by-step guide?** The Senior Transition Blueprint is free, all 20 modules and 69 tools: rigginsstrategicsolutions.com/the-blueprint
+
+**Not sure where your family stands?** The free Family Readiness Score takes five minutes and shows the gaps across the home, the money, the legal documents, care, and family alignment: rigginsstrategicsolutions.com/tools/family-readiness-score
+
+**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
+
+**Selling a parent's home?** Ryan finds and vets the right local agent for your situation and stays in your corner on the whole sale, at no added cost to your family: rigginsstrategicsolutions.com/in-your-corner
+
+**Coordinate the family in one place.** SeniorSafeApp keeps daily check-ins, medications, and documents where the whole family can see them: seniorsafeapp.com
+
+## Sources
+
+All sources checked August 28, 2026.
+
+- Centers for Medicare and Medicaid Services, memo QSO-26-14-NH, "Nursing Home Risk Based Survey National Implementation," posted July 16, 2026: the September 8, 2026 nationwide launch, the high performing facility icon, the September 30, 2026 public posting on Care Compare and the Provider Data Catalog, the approximately 12% qualification estimate, the roughly half the time and fewer surveyors description, the 2023 pilot across 22 states and over 100 facilities, the flat survey budget since 2015 and over 20% increase in complaint survey obligation, the at least every 15 months requirement, the state agency override, Appendix A qualifying criteria, Appendix C disqualifying criteria, and the Appendix D state table used for every count and percentage in this post. https://www.cms.gov/medicare/health-safety-standards/quality-safety-oversight-general-information/policy-memos/policy-memos-states-cms-locations/nursing-home-risk-based-survey-national-implementation
+- Centers for Medicare and Medicaid Services press release, "CMS Modernizes Nursing Home Oversight with New Risk-Based Survey Approach Designed to Highlight High Performance, Encourage Improvement," July 16, 2026: the icon on Care Compare and the statement that all facilities continue to be surveyed at least every 15 months. https://www.cms.gov/newsroom/press-releases/cms-modernizes-nursing-home-oversight-new-risk-based-survey-approach-designed-highlight-high
+- Centers for Medicare and Medicaid Services, Five-Star Quality Rating System: the separate ratings for health inspections, staffing and quality measures, the caution that no rating system addresses all important considerations, the recommendation to use the site alongside a visit and the State Ombudsman program, and memo QSO-23-05-NH on auditing schizophrenia coding in Minimum Data Set data and adjusting ratings. https://www.cms.gov/medicare/health-safety-standards/certification-compliance/five-star-quality-rating-system
+- 42 CFR 488.308, Survey frequency: the standard survey requirement of at least once every 15 months, as cited in QSO-26-14-NH.
+- Medicare.gov, Skilled nursing facility care: the three day qualifying inpatient hospital stay, days 1 through 20 at $0 after the $1,736 deductible, days 21 through 100 at $217 a day, all costs from day 101, and the 100 day limit per benefit period. https://www.medicare.gov/coverage/skilled-nursing-facility-snf-care
+- Medicare.gov, Long-term care: the statement that Medicare doesn't pay for long-term care and that you pay all costs. https://www.medicare.gov/coverage/long-term-care
+- Centers for Medicare and Medicaid Services, 2026 Medicare Parts A and B Premiums and Deductibles fact sheet, released November 14, 2025: the $1,736 Part A inpatient hospital deductible and the $217 skilled nursing facility daily coinsurance for days 21 through 100 in 2026. https://www.cms.gov/newsroom/fact-sheets/2026-medicare-parts-b-premiums-deductibles
+- Administration for Community Living, Long-Term Care Ombudsman Program: authorization under Older Americans Act Title VII Chapter 2, operation in all states, the District of Columbia, Puerto Rico and Guam, and the mandate to identify, investigate and resolve complaints on behalf of residents. https://acl.gov/programs/Protecting-Rights-and-Preventing-Abuse/long-term-care-ombudsman-program
 
 ---
 
