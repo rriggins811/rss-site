@@ -857,11 +857,25 @@ function runAnalysis() {
     alMonthly.push(alInflated);
     alRunning += alInflated;
     alCum.push(alRunning);
+  }
 
-    // Detect crossover
-    if (breakEvenMonth === -1 && homeRunning > alRunning) {
-      breakEvenMonth = m;
+  // ═══════ DETECT BREAK-EVEN ═══════
+  // A one-time capital cost (home modifications) lands entirely in month 1, so
+  // the cumulative home line can start above assisted living and then fall back
+  // below as the lower monthly run rate amortizes it. That initial gap is not a
+  // break-even. The break-even is the point after which staying home stays more
+  // expensive for the rest of the window -- so find the LAST month where the
+  // cumulative lines cross, not the first.
+  for (let m = 60; m >= 1; m--) {
+    if (homeCum[m - 1] <= alCum[m - 1]) {
+      // Home is still at or below AL here, so the durable crossing is the next
+      // month. If that is past month 60, there is no crossing in the window.
+      breakEvenMonth = (m + 1) <= 60 ? (m + 1) : -1;
+      break;
     }
+    // Never dipped to or below AL anywhere in the window: home costs more from
+    // month 1 onward and never catches up.
+    if (m === 1) breakEvenMonth = 1;
   }
 
   // ═══════ RENDER VERDICT ═══════
