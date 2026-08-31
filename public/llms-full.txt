@@ -5,8 +5,8 @@ It contains the full Markdown of every key page, resource pillar, Senior Help
 Directory state page, and blog post, intended for AI crawlers that ingest
 content for answer generation.
 
-Generated: 2026-08-28
-Indexed: 123 blog posts, 16 resource pillars, 51 Senior Help Directory state pages, 17 video transcripts.
+Generated: 2026-08-31
+Indexed: 124 blog posts, 16 resource pillars, 51 Senior Help Directory state pages, 17 video transcripts.
 
 For citation guidance, organizational facts, and topic depth, see the summary
 index at https://rigginsstrategicsolutions.com/llms.txt.
@@ -5186,8 +5186,165 @@ You must qualify for Medicaid, then apply for the Community Choices Waiver, choo
 
 # Blog Posts (newest first)
 
-The 123 posts below are the full body of every published article
+The 124 posts below are the full body of every published article
 on https://rigginsstrategicsolutions.com/blog, in reverse chronological order.
+
+---
+
+# Twelve Weeks, Unpaid, and Your Mother-in-Law Doesn't Count
+https://rigginsstrategicsolutions.com/blog/fmla-caregiver-leave-gaps-social-security
+Published: 2026-08-31
+
+**Excerpt:** Most families planning for an aging parent check the medical side and the money side. Almost nobody checks whether the job will hold still. The federal leave law is unpaid, it has three eligibility tests, and it leaves out the person you might actually be caring for.
+
+I spent eight years buying houses from families who had run out of room to maneuver, and I can tell you the exact week most of them ran out. It usually wasn't the diagnosis. It was later, and quieter: the week somebody's job stopped bending.
+
+That's the part families don't plan for. You'll research assisted living. You'll ask about home care costs. Somebody will pull up a nursing home rating on their phone. What nobody does is ask the least emotional question in the pile: when this gets heavier, whose paycheck absorbs it, and for how long?
+
+The answer people assume is the family leave law. You've heard of it. You may have used it when a baby was born. So a comfortable belief sits in the back of a lot of minds: if things get bad, there's a law, and it will catch you.
+
+It will catch some of you. It's narrower than you think, it doesn't pay, and there's a decent chance it excludes the exact person you're caring for. Meanwhile the years you spend out of the workforce follow you into your own retirement, through a rule buried in a regulation about how benefits get computed.
+
+That's not a reason to panic. It's a reason to look it up now, while looking things up is still something you have the energy for.
+
+## The Numbers Nobody Puts in the Brochure
+
+The Bureau of Labor Statistics tracks this through the American Time Use Survey. In its most recent release on unpaid eldercare, covering 2023 and 2024, BLS reported that 38.2 million people provided unpaid care to someone 65 or older, 14 percent of everyone in the country age 15 and up. Almost half of them, 47 percent, were caring for a parent.
+
+Two findings in that release matter more than the headline.
+
+The first is about the sandwich. BLS counted 7.6 million eldercare providers who were also parents with children under 18 at home. Of those, 55 percent were caring for their own parent, and 86 percent were employed, 72 percent full time. The group carrying the heaviest load is overwhelmingly the group with a job to protect.
+
+The second is about time, and it quietly explains burnout. On days they provided care, employed caregivers spent 2.8 hours doing it. People who weren't employed spent 4.8 hours. That gap doesn't mean employed caregivers need less. It means the care that doesn't fit into 2.8 hours goes into evenings, weekends, lunch breaks, and sleep.
+
+One more figure reframes how long to plan for: half of providers had been at it two years or less, but 14 percent for a decade or more. This is not usually a twelve-week problem, and twelve weeks is precisely what the law offers.
+
+## What the Family Leave Law Actually Covers
+
+The Family and Medical Leave Act is real, and it's genuinely useful. It's also three tests and one definition, and families get surprised by all four.
+
+Start with what it gives you. Under the Department of Labor's regulations at 29 CFR 825.100, FMLA lets eligible employees of a covered employer take job-protected, unpaid leave for up to 12 workweeks in any 12 months. Job-protected is the valuable part. Unpaid is the part that gets glossed over.
+
+You can use paid time off you've already banked, but read how that works first. Under 29 CFR 825.207, FMLA leave is generally unpaid, and while you may choose to substitute accrued paid leave, your employer may also require it. The two run at the same time. So the vacation you were saving is not a reserve you get to spend after the twelve weeks. It gets consumed inside them.
+
+Then there's eligibility, and this is where a lot of people find out they were never covered. Under 29 CFR 825.110, an eligible employee has to clear all three of these: employed by that employer for at least 12 months, worked at least 1,250 hours of service in the 12 months right before the leave starts, and employed at a worksite where the employer has 50 or more employees within 75 miles.
+
+Sit with the second one. Twelve hundred fifty hours across a year is roughly 24 hours a week. If your parent's decline already pushed you to part-time last spring, the reduced schedule you took in order to keep caregiving can be the thing that disqualifies you when you finally need a real block of leave. And the third test puts a lot of people at small businesses, or at small satellite offices, outside the law entirely.
+
+## The Definition That Blindsides People
+
+Here's the one that stops families cold.
+
+FMLA caregiving leave covers a short, specific list. Under 29 CFR 825.112, employers must grant leave to care for the employee's spouse, son, daughter, or parent with a serious health condition. That's the list.
+
+And "parent" is defined at 29 CFR 825.122. It means a biological, adoptive, step or foster father or mother, or anyone who stood in loco parentis to you when you were a child. Then the regulation says it plainly: "This term does not include parents 'in law.'"
+
+Read that again if you need to. If you're the daughter-in-law managing your husband's mother's medications, her rides, her appointments, and her calls at 2 a.m., the federal family leave law does not cover you for that. Neither does it cover a grandparent or a sibling. Those relationships aren't on the list at 825.112.
+
+Two honest caveats. Employers can be more generous than the law, and many are, so your handbook may cover more than the regulation does. Some states have their own leave laws with broader definitions and, in a growing number, actual wage replacement. Neither is automatic. Both are worth going to find out.
+
+## The Retirement Hit Nobody Mentions
+
+The second cost shows up thirty years later, on your own benefit statement.
+
+Social Security's rules for computing a retirement benefit are in 20 CFR 404.211. The Social Security Administration counts your "elapsed years," running from age 22 to the year before you turn 62, then subtracts five. For someone working a normal span, that arithmetic lands on 35 benefit computation years, which is where the familiar "highest 35 years" comes from.
+
+Now the sentence that matters for caregivers. The regulation states that for benefit computation years, SSA uses the years with the highest earnings after indexing, and that those years "must include years of no earnings if you do not have sufficient years with earnings."
+
+That's the mechanism. If you step out of the workforce and don't otherwise have 35 years of earnings, the caregiving years don't get skipped. They enter the average as zeros and pull it down, which pulls your benefit down for life.
+
+Worth knowing: the rules do contain narrow dropout provisions, including a limited child care dropout that applies in disability computations for years spent with a child under three. There's no equivalent for years spent caring for an aging parent.
+
+## Where the House Decision Comes In
+
+When the leave runs out, or was never available, the family starts looking for money. The biggest asset in the room is almost always the house.
+
+That's the moment the decision gets made badly. Not because anybody's foolish, but because a family deciding in week three of an unpaid leave is deciding on a clock somebody else set. That's exactly the family a cash buyer wants to find, and I used to be the guy who found them. The offer isn't usually a scam. It's just priced for your hurry.
+
+Calling a real estate agent doesn't fix that either, because calling an agent starts its own clock. That's not the agent being pushy, that's the job. They want it listed by the weekend, because listing houses is what they do.
+
+So have the conversation early, before a deadline is attached to it. Not to sell. To know what the house is worth, what it would net, and what the options look like if the day comes. Then you're choosing instead of reacting.
+
+## What to Do, in This Order
+
+### Step 1: Find out this week whether you're actually eligible
+
+Don't ask "does my company have FMLA." Ask HR the three questions from 29 CFR 825.110: have I been here 12 months, did I work 1,250 hours in the last 12, and does this worksite have 50 employees within 75 miles? Get it in writing before you need it. If you're already part-time, ask specifically about the hours test.
+
+### Step 2: Ask about intermittent leave before you ask for a block
+
+Under 29 CFR 825.202, FMLA leave can be taken intermittently or on a reduced leave schedule: separate blocks of time, or fewer hours per week, rather than one continuous stretch. For a parent with a chronic condition, a standing Tuesday and Thursday can be worth more than twelve weeks spent all at once, and it stretches the entitlement across far more of the illness.
+
+### Step 3: Read your own handbook, then check your state
+
+Your employer's policy may be broader than the federal floor, and that's where a daughter-in-law sometimes finds coverage the regulation denies her. Then check whether your state runs a paid family and medical leave program. Several do, they pay a percentage of wages, and their family definitions are often wider than the federal one.
+
+### Step 4: Ask whether your parent's Medicaid coverage can pay a family caregiver
+
+This one surprises people. Medicaid.gov describes self-directed services, where the participant holds what CMS calls "employer authority," the ability to recruit, hire, train and supervise the people who furnish their services. Under the 1915(j) option, Medicaid.gov states that at the state's option, enrollees can hire legally liable relatives such as parents or spouses. Whether that reaches you depends on your state and your parent's eligibility, so take the question to your state Medicaid agency or your Area Agency on Aging, which you can find through the federal Eldercare Locator at eldercare.acl.gov.
+
+### Step 5: Pull your own Social Security earnings record
+
+Before you reduce your hours, look at how many years of earnings you already have on file. If you're well short of 35, you now know what a year out costs you, and you can weigh it with a number instead of a feeling. If you're past 35 solid years, the math is far gentler, and that's worth knowing too.
+
+### Step 6: Have the house conversation while it's still hypothetical
+
+Get the real numbers now: condition, value, what a sale would net. Not to list it. To take the biggest unknown off the table so it can't be used against you later.
+
+## Frequently Asked Questions
+
+### Does FMLA cover caring for a mother-in-law or father-in-law?
+
+No. Under 29 CFR 825.122, the FMLA definition of parent covers a biological, adoptive, step or foster father or mother, or someone who stood in loco parentis to you as a child, and the regulation states that the term does not include parents in law. Your employer's policy or your state's leave law may be broader, so check both.
+
+### Is FMLA leave paid?
+
+No. 29 CFR 825.100 describes FMLA leave as job-protected and unpaid. You may substitute accrued paid leave such as vacation or sick time, but under 29 CFR 825.207 your employer can also require it, and that paid leave runs at the same time as the FMLA leave rather than extending it.
+
+### Who is eligible for FMLA leave?
+
+Under 29 CFR 825.110, you must meet all three: employed by that employer at least 12 months, at least 1,250 hours of service in the 12 months immediately before the leave, and working at a site where the employer has 50 or more employees within 75 miles. Part-time schedules can fail the 1,250 hour test, which is roughly 24 hours a week.
+
+### Do years spent caregiving reduce my Social Security benefit?
+
+They can. Under 20 CFR 404.211, Social Security computes your benefit from your highest earning years after indexing, generally 35 for retirement, and those years must include years of no earnings if you do not have enough years with earnings. If you leave the workforce without 35 earning years banked, the caregiving years enter the calculation as zeros.
+
+### Can a family member get paid to provide care?
+
+Sometimes, through Medicaid. Medicaid.gov describes self-directed services in which the participant has employer authority to hire and supervise their own caregivers, and under the 1915(j) option it states that at a state's option enrollees can hire legally liable relatives such as parents or spouses. It varies by state and by your parent's eligibility, so ask your state Medicaid agency.
+
+## About Ryan Riggins
+
+Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafe app](https://seniorsafeapp.com).
+
+---
+
+**Feeling it already?** The free Caregiver Burnout Triage takes two minutes and tells you honestly where you are: rigginsstrategicsolutions.com/tools/caregiver-burnout-triage
+
+**Want a step-by-step guide?** The Senior Transition Blueprint is free, all 20 modules and 69 tools: rigginsstrategicsolutions.com/the-blueprint
+
+**Not sure where your family stands?** The free Family Readiness Score takes five minutes and shows the gaps across the home, the money, the legal documents, care, and family alignment: rigginsstrategicsolutions.com/tools/family-readiness-score
+
+**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
+
+**Selling a parent's home?** Ryan finds and vets the right local agent for your situation and stays in your corner on the whole sale, at no added cost to your family: rigginsstrategicsolutions.com/in-your-corner
+
+**Coordinate the family in one place.** SeniorSafeApp keeps daily check-ins, medications, and documents where the whole family can see them: seniorsafeapp.com
+
+## Sources
+
+Checked August 31, 2026.
+
+- U.S. Bureau of Labor Statistics, "Unpaid Eldercare in the United States, 2023-2024," news release USDL-25-1462, September 25, 2025. Source for every eldercare figure in this post. https://www.bls.gov/news.release/archives/elcare_09252025.htm
+- 29 CFR 825.100. Job-protected, unpaid leave, up to 12 workweeks in any 12 months.
+- 29 CFR 825.110. The 12 month, 1,250 hour, and 50 employees within 75 miles tests.
+- 29 CFR 825.112. Leave to care for a spouse, son, daughter, or parent with a serious health condition.
+- 29 CFR 825.122. The definition of parent, and the exclusion of parents in law.
+- 29 CFR 825.202. Intermittent leave and reduced leave schedules.
+- 29 CFR 825.207. FMLA leave is generally unpaid, and employers may require substitution of accrued paid leave.
+- 20 CFR 404.211. Elapsed years minus five, and benefit computation years having to include years of no earnings.
+- Medicaid.gov, "Self-Directed Services" and "Self-Directed Personal Assistant Services 1915(j)." Employer authority, and the state option to let enrollees hire legally liable relatives.
+- Eldercare Locator, eldercare.acl.gov, HHS Administration for Community Living.
 
 ---
 
