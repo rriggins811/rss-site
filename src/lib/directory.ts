@@ -599,6 +599,15 @@ export const DIRECTORY_COUNTIES: DirectoryCounty[] = [
     blurb:
       "Birmingham, Bessemer and Hoover, AL programs for seniors and families: a county tax office split into Birmingham and Bessemer divisions that decides which courthouse holds your parcel, a Special Senior exemption under Act 2021-300 that freezes assessed value and asks nothing about income, an Over-65 renewal you must repeat every year or the freeze goes with it, an Area Agency on Aging run by a United Way and chartered for Older Americans Act programs only, a Medicaid waiver administered instead by a regional planning commission, LIHEAP run from Rainsville with staffed offices in Birmingham and Bessemer, 27 senior centers with weekday meals, a flat $4 ClasTran fare alongside a bus discount that starts at 62 rather than 65, county home repair grants that exclude Birmingham and Bessemer addresses, a food-stamp short form that is 65 and older despite what most sites say, free Project Lifesaver bracelets through the Sheriff's Department, a statewide respite program with applications closed until October, and no PACE program within 250 miles.",
   },
+  {
+    slug: "shelby-county-al-senior-help-directory",
+    county: "Shelby County",
+    state: "AL",
+    metro: "Alabaster, Pelham & Columbiana",
+    region: "Birmingham Metro",
+    blurb:
+      "Alabaster, Pelham and Columbiana, AL programs for seniors and families: a Property Tax Commissioner rather than a Revenue Commissioner or Tax Assessor, an over-65 exemption that can zero the bill entirely but that the county says must be refiled annually, a statewide 7 percent cap on assessed-value increases that runs through 2027, an Area Agency on Aging headquartered inside the county in Alabaster that runs the Medicaid waiver as well as Meals on Wheels, ten senior centers owned by the cities with the meals provided by M4A, LIHEAP administered from Clanton with walk-ins taken only between 1 and 2 p.m., weatherization administered from Montgomery at a 200 percent income ceiling, a rural paratransit rule that drops the age test entirely, Project Lifesaver bracelets the Sheriff pays for outright, three Jefferson County cities that levy taxes across the county line, no PACE program in this half of the state, and senior agencies in Indiana and Tennessee that will outrank the real one in your search results.",
+  },
 ];
 
 export type DirectoryState = {
