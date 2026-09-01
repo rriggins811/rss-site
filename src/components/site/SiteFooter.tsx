@@ -80,8 +80,8 @@ export function SiteFooter() {
               Serving families nationwide.
             </p>
             <p className="mt-2 text-xs text-cream/70 leading-relaxed">
-              Licensed NC broker (#361546, eXp Realty). Fiduciary duty to the
-              family, not a pitch.
+              Licensed NC broker (#361546, eXp Realty). I never take the
+              listing and I never buy the house.
             </p>
             <p className="mt-3 text-sm">
               <a href="tel:+13365538933" className="hover:text-gold-300">
