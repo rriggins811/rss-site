@@ -156,8 +156,8 @@ export default async function MediaDetailPage({
                 </Link>
               </div>
               <p className="mt-2 text-ink/80 leading-relaxed">
-                Licensed NC broker (#361546, eXp Realty). Fiduciary duty to
-                the family, not a pitch. Creator of The Blueprint and
+                Licensed NC broker (#361546, eXp Realty). He never takes the
+                listing and never buys the house. Creator of The Blueprint and
                 SeniorSafe.
               </p>
               <div className="mt-4 flex flex-wrap gap-3 items-center">

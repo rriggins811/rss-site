@@ -717,8 +717,8 @@ export default function BlueprintPremiumPage() {
         <div className="mx-auto max-w-5xl px-6 py-10">
           <p className="text-xs leading-relaxed text-ink/55">
             This is education and real estate guidance, not legal, tax, or financial advice. Ryan Riggins is a
-            licensed North Carolina real estate broker (#361546, eXp Realty) and works as a fiduciary to the
-            families he serves. We coordinate with your attorney, tax professional, and financial advisor. We do
+            licensed North Carolina real estate broker (#361546, eXp Realty) who never takes the listing and never
+            buys the house. We coordinate with your attorney, tax professional, and financial advisor. We do
             not replace them. Questions? Email{" "}
             <a href={`mailto:${SUPPORT_EMAIL}`} className="underline">{SUPPORT_EMAIL}</a>.
           </p>

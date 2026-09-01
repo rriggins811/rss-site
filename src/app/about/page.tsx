@@ -69,8 +69,8 @@ const credentials: { title: string; body: string }[] = [
     body: "Years managing vendors, timelines, and budgets across renovations, restaurants, and insurance claims.",
   },
   {
-    title: "Licensed for fiduciary duty",
-    body: "Licensed NC broker (#361546, eXp Realty). Full fiduciary duty to the family, not a pitch.",
+    title: "Licensed, and on one side only",
+    body: "Licensed NC broker (#361546, eXp Realty). I never take the listing and I never buy the house.",
   },
   {
     title: "Systems thinker",

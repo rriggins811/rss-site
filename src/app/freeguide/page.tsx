@@ -126,8 +126,8 @@ export default function FreeGuidePage() {
 
             <p className="mt-8 text-sm text-ink/70 leading-relaxed">
               Written by Ryan Riggins, Senior Transition Advisor. Licensed NC
-              broker (#361546, eXp Realty). Fiduciary duty to the family, not a
-              pitch.
+              broker (#361546, eXp Realty). He never takes the listing and never
+              buys the house.
             </p>
           </div>
 

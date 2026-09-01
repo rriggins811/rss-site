@@ -323,7 +323,7 @@ export default function WorkWithRyanPage() {
           </div>
 
           <p className="mt-4 text-center text-sm text-ink/60">
-            Fiduciary duty to the family, not a pitch.
+            I never take the listing and I never buy the house.
           </p>
 
           <div className="mt-6 flex justify-center">
