@@ -19,8 +19,22 @@ export const runtime = "nodejs";
 const OFFER_VALUES = ["none", "letters", "pushing", "signed"] as const;
 const TIMELINE_VALUES = ["now", "3-6", "6-12", "exploring"] as const;
 
+// Live Referral Pipeline (verified 2026-09-02). New form cards land in
+// Conversation; Ryan moves to Ask made when he actually asks about an agent.
+const GHL_LOCATION_ID = "qvSvBqNwvDLyqkKoZXl2";
+const REFERRAL_PIPELINE_ID = "sz73r9OshVDdLxy3bEVc";
+const STAGE_CONVERSATION_ID = "0675a5ad-cd1b-45cb-b37c-ecaf3858530b";
+
 function str(v: unknown, max = 200): string {
   return typeof v === "string" ? v.trim().slice(0, max) : "";
+}
+
+/** ASCII-only card title. Em dashes broke voice rules and showed up in the
+ *  2026-08-21 failing payloads; keep GHL names plain. */
+function opportunityName(who: string, urgent: boolean): string {
+  return urgent
+    ? `${who} - Agent request (OFFER ON TABLE)`
+    : `${who} - Agent request`;
 }
 
 export async function POST(req: Request) {
@@ -136,44 +150,49 @@ export async function POST(req: Request) {
     });
   }
 
-  // 3. Referral Pipeline card, so this lands on the same board as Roadmap
-  //    applications rather than existing only as a tagged contact.
-  //
-  //    Deliberately the SAME pipeline, not a new one: "Referral Pipeline"
-  //    already tracks families being referred to agents (Conversation -> Ask
-  //    made -> Agent matched -> Referral signed -> Closed, fee paid), which is
-  //    exactly this lifecycle. "Partner Pipeline" is the other direction,
-  //    professionals who send Ryan leads. The card NAME is what distinguishes
-  //    an agent request from a Roadmap application at a glance.
-  const REFERRAL_PIPELINE_ID = "sz73r9OshVDdLxy3bEVc";
-  const STAGE_CONVERSATION_ID = "0675a5ad-cd1b-45cb-b37c-ecaf3858530b";
+  // 3. Referral Pipeline card. Same board as other family referral work.
+  //    Partner Pipeline is the other direction (pros sending Ryan leads).
   const who = [firstName, lastName].filter(Boolean).join(" ") || email;
-  const cardName = urgent
-    ? `${who} — Agent request (OFFER ON TABLE)`
-    : `${who} — Agent request`;
+  const cardName = opportunityName(who, urgent);
 
   try {
     // The opportunity API requires a real contactId; without one GHL rejects
     // the card and the request only ever existed as a tagged contact.
     if (!contactId) throw new Error("no contactId from upsert; skipping pipeline card");
+
+    const oppBody = {
+      locationId: GHL_LOCATION_ID,
+      pipelineId: REFERRAL_PIPELINE_ID,
+      pipelineStageId: STAGE_CONVERSATION_ID,
+      name: cardName,
+      status: "open" as const,
+      contactId,
+      monetaryValue: 0,
+    };
+
     const opp = await callGhlProxy({
       action: "post",
+      // Trailing slash matches LeadConnector create-opportunity docs.
       path: "/opportunities/",
-      body: {
-        pipelineId: REFERRAL_PIPELINE_ID,
-        pipelineStageId: STAGE_CONVERSATION_ID,
-        name: cardName,
-        status: "open",
-        contactId,
-      },
+      body: oppBody,
     });
     if (!opp.ok) {
       await recordFailure({
         route: "agent-request",
         stage: "ghl-opportunity",
+        code: String(opp.status),
         message: String(opp.error),
         email,
-        payload: { cardName, urgent, pipelineId: REFERRAL_PIPELINE_ID },
+        payload: {
+          cardName,
+          urgent,
+          contactId,
+          pipelineId: REFERRAL_PIPELINE_ID,
+          pipelineStageId: STAGE_CONVERSATION_ID,
+          locationId: GHL_LOCATION_ID,
+          // Surface GHL's validation body; Aug 21 alerts only had "ghl http 400".
+          ghlBody: "body" in opp ? opp.body : undefined,
+        },
       });
     }
   } catch (err) {
@@ -182,7 +201,13 @@ export async function POST(req: Request) {
       stage: "ghl-opportunity",
       message: err instanceof Error ? err.message : "threw",
       email,
-      payload: { cardName, urgent, pipelineId: REFERRAL_PIPELINE_ID },
+      payload: {
+        cardName,
+        urgent,
+        contactId,
+        pipelineId: REFERRAL_PIPELINE_ID,
+        pipelineStageId: STAGE_CONVERSATION_ID,
+      },
     });
   }
 
