@@ -45,6 +45,51 @@ export type Tool = {
 export const TOOLS: Tool[] = [
   // Financial
   {
+    // Added 2026-09-02. Built as the landing page for the runway ad: a family
+    // arriving from "how long will mom's money last in assisted living" gets
+    // their real number in about four minutes, then the Roadmap CTA.
+    slug: "care-runway-calculator",
+    title: "Free Care Runway Calculator | How Long Will the Money Last",
+    shortDescription:
+      "How many months of private pay you actually have left",
+    description:
+      "Free care runway calculator for families paying privately for assisted living or memory care. Work out how many months the money actually lasts once the annual rate increases are in the math, and how much more monthly income it would take to reach the number of months you need. No email required.",
+    category: "financial",
+    minHeight: 2100,
+    faqs: [
+      {
+        question: "How do I calculate how long my parent's money will last in assisted living?",
+        answer:
+          "Add up everything that arrives monthly (Social Security, pension, any annuity already being paid, rental income, an existing VA benefit), then add up everything the community bills monthly (base rate, care fees, medication management, anything else). Subtract to get the monthly gap, then divide liquid assets by that gap. That gives you months. The catch is that most communities raise rates annually, so the real number is shorter than that division suggests. This calculator runs it both ways.",
+      },
+      {
+        question: "Why is my care fee separate from the monthly rate?",
+        answer:
+          "Most assisted living and memory care communities set a base rate for the apartment and then bill a separate level-of-care charge based on how much help your parent needs. That care charge rises as needs rise, and it is the fee most likely to grow. If your agreement sets a monthly rate and says care fees are determined by a separate document, you do not yet have the number you need. Ask for the care fee schedule in writing before you sign anything.",
+      },
+      {
+        question: "What is a five-year private pay requirement?",
+        answer:
+          "Some communities expect a resident to be able to pay privately for a set stretch, often around five years or sixty months, before any transition to Medicaid. If your runway is shorter than what a community expects, that is worth knowing before you sign rather than after. This calculator shows the shortfall in months and what additional monthly income would close it.",
+      },
+      {
+        question: "What can we do if the money runs out before our parent does?",
+        answer:
+          "There are six common ways families close a monthly care gap: spending down and transitioning to Medicaid, claiming an existing long-term care policy, VA benefits if there is wartime service, a formalized family contribution, using the house through a sale or rent, and converting a lump sum into guaranteed lifetime care payments. Most families only ever hear about one of the six, because whoever they happened to ask only offers one. Ask anyone explaining an option how they are paid if you say yes.",
+      },
+      {
+        question: "Should we sell the house to pay for care?",
+        answer:
+          "Sometimes, and often not yet. The house is only one of six ways to close a care gap, and selling under deadline pressure is the most expensive version of it. Work out the runway first. If the pressure to sell is really pressure to fund care, there may be other answers that take the deadline off the house entirely. Any decision touching Medicaid should go to an elder law attorney before anything is signed or retitled.",
+      },
+      {
+        question: "Who built this care runway calculator, and does it cost anything?",
+        answer:
+          "Ryan Riggins built it. He is a licensed North Carolina broker and senior transition advisor who spent eight years on the investor side making cash offers to families before switching sides. The calculator is free, requires no email, and there is nothing to buy. He never takes the listing and never buys the house.",
+      },
+    ],
+  },
+  {
     slug: "net-proceeds-calculator",
     // Title + description tuned 2026-05-13 for "net proceeds calculator" /
     // "how much will I get from selling my house" GSC queries.

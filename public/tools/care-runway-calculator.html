@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Free Care Runway Calculator | How Long Will the Money Last | Riggins Strategic Solutions</title>
+<meta name="description" content="Free care runway calculator. Work out how many months of private pay your family actually has left in assisted living or memory care, with the annual rate increases included. No email required.">
+<link rel="canonical" href="https://www.rigginsstrategicsolutions.com/tools/care-runway-calculator">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800;900&family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --navy:#1a3052; --navy-deep:#0f1f35; --navy-light:#2a4a72;
+    --gold:#c9a84c; --gold-light:#e8d48b; --gold-dark:#a88a30;
+    --g50:#f7f6f3; --g100:#f0eee9; --g200:#dbd8d0; --g400:#a09b90; --g600:#6b665c; --g800:#333028;
+    --green:#2d8a4e; --green-bg:#e8f5ec; --red:#c0392b; --red-bg:#fdecea;
+    --orange:#d4820a; --orange-bg:#fef5e7; --blue:#2a6cb8;
+    --radius:14px; --radius-sm:10px;
+    font-family:'Source Sans 3',-apple-system,BlinkMacSystemFont,sans-serif;
+    color:var(--g800); line-height:1.5; -webkit-font-smoothing:antialiased;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;padding:0;background:transparent;}
+  .crc{max-width:760px;margin:0 auto;}
+
+  .crc-header{background:linear-gradient(165deg,var(--navy) 0%,var(--navy-deep) 100%);
+    border-radius:var(--radius) var(--radius) 0 0;padding:34px 28px 30px;text-align:center;}
+  .crc-header h1{font-family:'Playfair Display',Georgia,serif;font-weight:900;
+    font-size:clamp(26px,5vw,38px);color:#fff;line-height:1.15;margin:0 0 10px;}
+  .crc-header h1 span{color:var(--gold);}
+  .crc-header p{color:rgba(255,255,255,.82);font-size:15px;margin:0;max-width:34em;
+    margin-left:auto;margin-right:auto;}
+
+  .crc-body{background:#fff;padding:30px 28px;border-bottom:1px solid var(--g200);}
+  .crc-stitle{font-family:'Playfair Display',Georgia,serif;font-weight:800;font-size:20px;
+    color:var(--navy);margin:0 0 4px;}
+  .crc-ssub{font-size:14px;color:var(--g600);margin:0 0 20px;line-height:1.5;}
+
+  .crc-grid{display:grid;grid-template-columns:1fr 1fr;gap:26px;}
+  @media(max-width:640px){.crc-grid{grid-template-columns:1fr;}}
+
+  .crc-field{margin-bottom:14px;}
+  .crc-field label{display:block;font-size:12px;font-weight:700;color:var(--g600);
+    text-transform:uppercase;letter-spacing:.7px;line-height:1.4;margin-bottom:5px;}
+  .crc-field label small{display:block;font-weight:500;font-size:11px;color:var(--g400);
+    text-transform:none;letter-spacing:0;margin-top:2px;}
+  .crc-wrap{display:flex;align-items:center;background:var(--g50);border:2px solid var(--g200);
+    border-radius:var(--radius-sm);padding:0 14px;}
+  .crc-wrap:focus-within{border-color:var(--navy);background:#fff;}
+  .crc-pre{font-size:16px;font-weight:700;color:var(--g400);margin-right:4px;}
+  .crc-suf{font-size:13px;font-weight:600;color:var(--g400);margin-left:4px;}
+  .crc-wrap input{width:100%;border:none;background:transparent;
+    font-family:'Source Sans 3',sans-serif;font-size:18px;font-weight:700;color:var(--navy);
+    padding:11px 0;outline:none;font-variant-numeric:tabular-nums;}
+
+  .crc-sub{display:flex;justify-content:space-between;align-items:baseline;
+    background:var(--g100);border-radius:var(--radius-sm);padding:12px 14px;margin-top:6px;
+    font-weight:800;color:var(--navy);font-variant-numeric:tabular-nums;}
+  .crc-sub span:first-child{font-size:13px;text-transform:uppercase;letter-spacing:.6px;color:var(--g600);}
+  .crc-sub span:last-child{font-size:19px;}
+
+  .crc-knobs{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:26px;
+    padding-top:24px;border-top:1px solid var(--g200);}
+  @media(max-width:640px){.crc-knobs{grid-template-columns:1fr;}}
+
+  .crc-alert{margin:22px 0 0;padding:16px 18px;border-radius:var(--radius-sm);
+    background:var(--red-bg);border:2px solid var(--red);font-size:14.5px;line-height:1.55;}
+  .crc-alert strong{color:var(--red);}
+
+  .crc-results{background:var(--g50);padding:30px 28px;border-bottom:1px solid var(--g200);}
+  .crc-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;}
+  @media(max-width:640px){.crc-stats{grid-template-columns:1fr;}}
+  .crc-stat{background:#fff;border:2px solid var(--g200);border-radius:var(--radius-sm);padding:18px;}
+  .crc-stat .k{font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.7px;
+    color:var(--g600);line-height:1.3;}
+  .crc-stat .v{font-family:'Playfair Display',Georgia,serif;font-weight:800;font-size:30px;
+    color:var(--navy);margin-top:6px;font-variant-numeric:tabular-nums;line-height:1.1;}
+  .crc-stat.muted .v{color:var(--g400);}
+  .crc-stat.hero{background:var(--navy);border-color:var(--navy);}
+  .crc-stat.hero .k{color:var(--gold-light);}
+  .crc-stat.hero .v{color:#fff;}
+
+  .crc-verdict{margin-top:20px;padding:18px 20px;border-radius:var(--radius-sm);
+    font-size:15px;line-height:1.6;}
+  .crc-verdict.warn{background:var(--orange-bg);border:2px solid var(--orange);}
+  .crc-verdict.ok{background:var(--green-bg);border:2px solid var(--green);}
+  .crc-verdict strong{font-weight:800;}
+
+  .crc-cta{background:linear-gradient(165deg,var(--navy) 0%,var(--navy-deep) 100%);
+    border-radius:0 0 var(--radius) var(--radius);padding:34px 28px;text-align:center;}
+  .crc-cta h2{font-family:'Playfair Display',Georgia,serif;font-weight:800;font-size:24px;
+    color:#fff;margin:0 0 10px;}
+  .crc-cta p{color:rgba(255,255,255,.85);font-size:15px;line-height:1.6;margin:0 auto 22px;max-width:36em;}
+  .crc-btn{display:block;text-align:center;background:var(--gold);color:var(--navy-deep);
+    font-weight:800;font-size:16px;padding:15px 24px;border-radius:var(--radius-sm);
+    text-decoration:none;margin-bottom:10px;}
+  .crc-btn2{display:block;text-align:center;color:rgba(255,255,255,.9);font-weight:600;
+    font-size:14px;padding:13px 24px;background:rgba(255,255,255,.12);
+    border:2px solid rgba(255,255,255,.25);border-radius:var(--radius-sm);text-decoration:none;}
+  .crc-fine{color:rgba(255,255,255,.55);font-size:12px;margin:16px auto 0;max-width:38em;line-height:1.55;}
+</style>
+</head>
+<body>
+<div class="crc">
+
+  <div class="crc-header">
+    <h1>How long does the money <span>actually</span> last?</h1>
+    <p>The community costs more per month than what comes in. This works out how many months of private pay your family really has, with the yearly rate increases included.</p>
+  </div>
+
+  <div class="crc-body">
+    <div class="crc-grid">
+      <div>
+        <div class="crc-stitle">What comes in each month</div>
+        <div class="crc-ssub">Use the deposit amounts, not the gross figures.</div>
+
+        <div class="crc-field"><label for="f_ss">Social Security</label>
+          <div class="crc-wrap"><span class="crc-pre">$</span><input type="number" id="f_ss" value="2100" inputmode="decimal"></div></div>
+        <div class="crc-field"><label for="f_pen">Pension</label>
+          <div class="crc-wrap"><span class="crc-pre">$</span><input type="number" id="f_pen" value="0" inputmode="decimal"></div></div>
+        <div class="crc-field"><label for="f_ann">Annuity already being paid</label>
+          <div class="crc-wrap"><span class="crc-pre">$</span><input type="number" id="f_ann" value="0" inputmode="decimal"></div></div>
+        <div class="crc-field"><label for="f_rent">Rental income, after expenses</label>
+          <div class="crc-wrap"><span class="crc-pre">$</span><input type="number" id="f_rent" value="0" inputmode="decimal"></div></div>
+        <div class="crc-field"><label for="f_va">VA benefit already being received</label>
+          <div class="crc-wrap"><span class="crc-pre">$</span><input type="number" id="f_va" value="0" inputmode="decimal"></div></div>
+
+        <div class="crc-sub"><span>Total income</span><span id="o_income">$2,100</span></div>
+      </div>
+
+      <div>
+        <div class="crc-stitle">What care costs each month</div>
+        <div class="crc-ssub">Take these from the actual fee schedule, not from what you were told on a tour.</div>
+
+        <div class="crc-field"><label for="f_base">Base rate or monthly rent</label>
+          <div class="crc-wrap"><span class="crc-pre">$</span><input type="number" id="f_base" value="4900" inputmode="decimal"></div></div>
+        <div class="crc-field"><label for="f_care">Care fees <small>The level-of-care charge, billed separately at most communities</small></label>
+          <div class="crc-wrap"><span class="crc-pre">$</span><input type="number" id="f_care" value="0" inputmode="decimal"></div></div>
+        <div class="crc-field"><label for="f_med">Medication management</label>
+          <div class="crc-wrap"><span class="crc-pre">$</span><input type="number" id="f_med" value="0" inputmode="decimal"></div></div>
+        <div class="crc-field"><label for="f_oth">Anything else billed monthly</label>
+          <div class="crc-wrap"><span class="crc-pre">$</span><input type="number" id="f_oth" value="0" inputmode="decimal"></div></div>
+
+        <div class="crc-sub"><span>Total care cost</span><span id="o_care">$4,900</span></div>
+      </div>
+    </div>
+
+    <div class="crc-knobs">
+      <div class="crc-field"><label for="f_liq">Liquid assets <small>Spendable now with no penalty. Not the house.</small></label>
+        <div class="crc-wrap"><span class="crc-pre">$</span><input type="number" id="f_liq" value="130000" inputmode="decimal"></div></div>
+      <div class="crc-field"><label for="f_pct">Annual increase <small>Ask what theirs has been</small></label>
+        <div class="crc-wrap"><input type="number" id="f_pct" value="5" inputmode="decimal"><span class="crc-suf">%</span></div></div>
+      <div class="crc-field"><label for="f_tgt">Months you need to cover <small>Five years of private pay is 60</small></label>
+        <div class="crc-wrap"><input type="number" id="f_tgt" value="60" inputmode="decimal"><span class="crc-suf">mo</span></div></div>
+    </div>
+
+    <div id="o_zerowarn" class="crc-alert" style="display:none">
+      <strong>Your care fees are set to zero, and they almost certainly are not.</strong>
+      Most communities set a base rate and then bill a separate level-of-care charge that rises as your
+      parent needs more help. If the agreement you were given sets a monthly rate and says care fees are
+      determined by a separate document, you do not have your number yet. Ask for the care fee schedule
+      in writing before you rely on anything below.
+    </div>
+  </div>
+
+  <div class="crc-results">
+    <div class="crc-stitle" style="margin-bottom:16px;">Your runway</div>
+    <div class="crc-stats">
+      <div class="crc-stat"><div class="k">Monthly gap</div><div class="v" id="o_gap">$2,800</div></div>
+      <div class="crc-stat muted"><div class="k">Napkin math, no increases</div><div class="v" id="o_flat">3y 10m</div></div>
+      <div class="crc-stat hero"><div class="k" id="o_reallabel">With 5% yearly increases</div><div class="v" id="o_real">3y 5m</div></div>
+    </div>
+    <div id="o_verdict" class="crc-verdict warn"></div>
+  </div>
+
+  <div class="crc-cta">
+    <h2>Now you know the number. What do you do about it?</h2>
+    <p>There are six ways families close a gap like this, and most families only ever hear about one, because whoever they happened to ask only sells one. Selling the house is only one of the six, and sometimes it is the wrong one.</p>
+    <a class="crc-btn" href="https://www.rigginsstrategicsolutions.com/the-roadmap">Get a free plan for your family</a>
+    <a class="crc-btn2" href="https://www.rigginsstrategicsolutions.com/the-blueprint">Or read the free Blueprint first</a>
+    <p class="crc-fine">Ryan Riggins is a licensed North Carolina real estate broker (#361546, eXp Realty) who never takes the listing and never buys the house. This calculator is educational and is not legal, tax, or financial advice. Confirm your situation with the right licensed professional before you act.</p>
+  </div>
+
+</div>
+
+<script>
+(function(){
+  var ids=['f_ss','f_pen','f_ann','f_rent','f_va','f_base','f_care','f_med','f_oth','f_liq','f_pct','f_tgt'];
+  function n(id){var el=document.getElementById(id);var v=el?Number(el.value):0;return isFinite(v)?v:0;}
+  function usd(v){return v.toLocaleString('en-US',{style:'currency',currency:'USD',maximumFractionDigits:0});}
+  function label(m){
+    if(!isFinite(m))return'No end date';
+    if(m>=600)return'50+ years';
+    var y=Math.floor(m/12),r=m%12;
+    if(y===0)return m+(m===1?' month':' months');
+    if(r===0)return y+(y===1?' year':' years');
+    return y+'y '+r+'m';
+  }
+  function runway(liquid,income,care,pct,cap){
+    cap=cap||600;
+    if(care<=income)return Infinity;
+    var bal=liquid,c=care,m=0;
+    while(m<cap){var gap=c-income;if(gap<=0)return Infinity;if(bal<gap)break;bal-=gap;m+=1;if(m%12===0)c=c*(1+pct/100);}
+    return m;
+  }
+  function extra(liquid,income,care,pct,target){
+    if(runway(liquid,income,care,pct)>=target)return 0;
+    var lo=0,hi=Math.max(care-income,1);
+    for(var i=0;i<40;i++){var mid=(lo+hi)/2;if(runway(liquid,income+mid,care,pct)>=target)hi=mid;else lo=mid;}
+    return Math.ceil(hi);
+  }
+  function recalc(){
+    var income=n('f_ss')+n('f_pen')+n('f_ann')+n('f_rent')+n('f_va');
+    var care=n('f_base')+n('f_care')+n('f_med')+n('f_oth');
+    var liquid=n('f_liq'),pct=n('f_pct'),target=Math.max(1,Math.round(n('f_tgt')));
+    var gap=care-income;
+    document.getElementById('o_income').textContent=usd(income);
+    document.getElementById('o_care').textContent=usd(care);
+    document.getElementById('o_gap').textContent=gap>0?usd(gap):'Covered';
+    document.getElementById('o_flat').textContent=gap>0?label(Math.floor(liquid/gap)):'No end date';
+    var real=runway(liquid,income,care,pct);
+    document.getElementById('o_real').textContent=label(real);
+    document.getElementById('o_reallabel').textContent='With '+pct+'% yearly increases';
+    document.getElementById('o_zerowarn').style.display=(n('f_care')===0)?'block':'none';
+    var v=document.getElementById('o_verdict');
+    if(gap<=0){
+      v.className='crc-verdict ok';
+      v.innerHTML='Income covers the cost of care, so savings are not being drawn down. Run this again any time the care level changes, because that is usually what moves a family from covered to not.';
+    } else {
+      var short=isFinite(real)?Math.max(0,target-real):0;
+      if(short>0){
+        var need=extra(liquid,income,care,pct,target);
+        v.className='crc-verdict warn';
+        v.innerHTML='The second number is the honest one. The first assumes the bill never rises, and it always does.<br><br>Against the '+target+' months you entered, you are short by <strong>'+short+' '+(short===1?'month':'months')+'</strong>. Closing that takes about <strong>'+usd(need)+' a month</strong> in additional income, every month, for the whole stretch. That is the number to carry into every conversation about how to pay for this.';
+      } else {
+        v.className='crc-verdict ok';
+        v.innerHTML='<strong>That covers the '+target+' months you entered.</strong> Worth running again if the care level rises, because the gap grows faster than most families expect.';
+      }
+    }
+    if(window.parent&&window.parent!==window){
+      try{window.parent.postMessage({type:'resize',height:document.body.scrollHeight},'*');}catch(e){}
+    }
+  }
+  ids.forEach(function(id){var el=document.getElementById(id);if(el){el.addEventListener('input',recalc);}});
+  recalc();
+  window.addEventListener('load',recalc);
+})();
+</script>
+</body>
+</html>
