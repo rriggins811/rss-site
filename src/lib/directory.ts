@@ -608,6 +608,15 @@ export const DIRECTORY_COUNTIES: DirectoryCounty[] = [
     blurb:
       "Alabaster, Pelham and Columbiana, AL programs for seniors and families: a Property Tax Commissioner rather than a Revenue Commissioner or Tax Assessor, an over-65 exemption that can zero the bill entirely but that the county says must be refiled annually, a statewide 7 percent cap on assessed-value increases that runs through 2027, an Area Agency on Aging headquartered inside the county in Alabaster that runs the Medicaid waiver as well as Meals on Wheels, ten senior centers owned by the cities with the meals provided by M4A, LIHEAP administered from Clanton with walk-ins taken only between 1 and 2 p.m., weatherization administered from Montgomery at a 200 percent income ceiling, a rural paratransit rule that drops the age test entirely, Project Lifesaver bracelets the Sheriff pays for outright, three Jefferson County cities that levy taxes across the county line, no PACE program in this half of the state, and senior agencies in Indiana and Tennessee that will outrank the real one in your search results.",
   },
+  {
+    slug: "madison-county-al-senior-help-directory",
+    county: "Madison County",
+    state: "AL",
+    metro: "Huntsville, Madison & New Hope",
+    region: "Huntsville Metro",
+    blurb:
+      "Huntsville, Madison and New Hope, AL programs for seniors and families: a Tax Assessor rather than a Revenue Commissioner or Property Tax Commissioner, an over-65 exemption claimed by December 31 for the following year's taxes, a driver's license rule that makes new arrivals produce a Huntsville Utilities set date letter, a statewide 7 percent cap on assessed-value increases running through 2027, an Area Agency on Aging inside the county that administers the Medicaid waiver and employs a full-time attorney for people over 60, one community action agency running both LIHEAP and weatherization from eight neighborhood sites, a county senior wellness campus with a heated pool that takes members at 40 for $180 a year, Meals on Wheels that stops at the Huntsville city limits with eight nutrition centers covering the rest, a 50 cent senior bus fare and $2 paratransit inside the city against an $8 rural county fare with no age test outside it, a utility bill program that starts at 62 because Huntsville is not an Alabama Power town, city home repair grants that start at 62 and exclude every address outside Huntsville, two separate free Project Lifesaver programs depending on which side of the city line you live on, the statewide respite program headquartered here with applications closed until October, and no PACE program anywhere in north Alabama.",
+  },
 ];
 
 export type DirectoryState = {
