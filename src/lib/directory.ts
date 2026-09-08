@@ -617,6 +617,15 @@ export const DIRECTORY_COUNTIES: DirectoryCounty[] = [
     blurb:
       "Huntsville, Madison and New Hope, AL programs for seniors and families: a Tax Assessor rather than a Revenue Commissioner or Property Tax Commissioner, an over-65 exemption claimed by December 31 for the following year's taxes, a driver's license rule that makes new arrivals produce a Huntsville Utilities set date letter, a statewide 7 percent cap on assessed-value increases running through 2027, an Area Agency on Aging inside the county that administers the Medicaid waiver and employs a full-time attorney for people over 60, one community action agency running both LIHEAP and weatherization from eight neighborhood sites, a county senior wellness campus with a heated pool that takes members at 40 for $180 a year, Meals on Wheels that stops at the Huntsville city limits with eight nutrition centers covering the rest, a 50 cent senior bus fare and $2 paratransit inside the city against an $8 rural county fare with no age test outside it, a utility bill program that starts at 62 because Huntsville is not an Alabama Power town, city home repair grants that start at 62 and exclude every address outside Huntsville, two separate free Project Lifesaver programs depending on which side of the city line you live on, the statewide respite program headquartered here with applications closed until October, and no PACE program anywhere in north Alabama.",
   },
+  {
+    slug: "mobile-county-al-senior-help-directory",
+    county: "Mobile County",
+    state: "AL",
+    metro: "Mobile, Prichard & Bayou La Batre",
+    region: "Gulf Coast",
+    blurb:
+      "Mobile, Prichard and Bayou La Batre, AL programs for seniors and families: a Revenue Commissioner rather than a Tax Assessor or Property Tax Commissioner, an over-65 exemption that zeroes the bill entirely but that must be reclaimed every year on a form mailed in October while the basic homestead never renews, a tax office closed every Wednesday with satellite branches shut for most of the year, an affidavit carrying a penalty of twice the tax retroactive ten years, the only PACE program in Alabama outside Baldwin County, one community action agency running LIHEAP and weatherization under two different state region numbers with a dedicated energy call center, Alabama Power territory so Project SHARE applies at 60, fifteen senior nutrition centers spread from Citronelle to the water because meals reach the whole county but the bus does not, a 60 cent senior bus fare and a paratransit program that certifies on disability rather than age, free drafting and probate of wills for low-to-moderate income property owners through a city and legal aid partnership that matters enormously for family land, a free Project Lifesaver bracelet from the Sheriff, an adult day program that screens out wandering, and four county senior programs sharing one address on Government Street.",
+  },
 ];
 
 export type DirectoryState = {
