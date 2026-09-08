@@ -416,16 +416,16 @@ export const MODULES: Module[] = [
   {
     id: "module-19-premium",
     number: "19-premium",
-    title: "Your Personalized Strategy Session (Premium)",
+    title: "Roadmap Prep: Intake and Session Prep",
     phase: "🟥 Your Action Plan",
     outcomes: [
-      "Personalized transition plan written for your situation",
-      "60-minute 1-on-1 call with Ryan",
-      "90 days of email support",
+      "Prep work for your free 60-minute Roadmap call with Ryan",
+      "Pre-consultation intake form Ryan reads before you talk",
+      "Session prep worksheet: your top 3 questions and documents",
     ],
     tools: [
-      t("Tool_19A_Premium_Session_Prep.pdf", "Premium Session Prep"),
-      t("Tool_19B_Premium_Intake_Form.pdf", "Premium Intake Form"),
+      t("Tool_19A_Premium_Session_Prep.pdf", "Session Prep Worksheet"),
+      t("Tool_19B_Premium_Intake_Form.pdf", "Pre-Consultation Intake Form"),
     ],
     youtubeId: null,
     ghlLessonUrl: null,
