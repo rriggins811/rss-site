@@ -68,7 +68,7 @@ const businessFaqs: FAQItem[] = [
   {
     question: "How is the Roadmap different from the Blueprint?",
     answer:
-      "The Blueprint is the whole library: 20 modules and 69 tools you can work through at your own pace. The Roadmap is what happens when a family does not have time to read a library. You apply, we build a written plan for your specific situation, and I stay with you for 90 days. Both are free. The Blueprint is self-serve. The Roadmap is me in it with you.",
+      "The Blueprint is the whole library: 20 modules and 69 tools you can work through at your own pace. The Roadmap is what happens when a family does not have time to read a library. You apply, we build a written plan for your specific situation, and I stay with you while you execute. Both are free. The Blueprint is self-serve. The Roadmap is me in it with you.",
   },
   {
     question: "Who are you, and why should we trust you?",

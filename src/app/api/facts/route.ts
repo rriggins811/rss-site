@@ -127,7 +127,7 @@ export async function GET() {
         url: `${SITE_URL}/the-roadmap`,
         apply_url: "https://blueprint.rigginsstrategicsolutions.com/roadmap",
         description:
-          "Everything in the Blueprint plus a written Senior Transition Plan built with Ryan Riggins: a detailed intake form, an intake call, the plan built together, a follow-up call on how to move forward, and 90 days of email support. Free, by application; Ryan takes the families he can genuinely help.",
+          "Everything in the Blueprint plus a written Senior Transition Plan built with Ryan Riggins: a detailed intake form, an intake call, the plan built together, a follow-up call on how to move forward, and email support while you execute. Free, by application; Ryan takes the families he can genuinely help.",
       },
       {
         id: "seniorsafe-premium",

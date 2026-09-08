@@ -92,7 +92,7 @@ const tiers: Tier[] = [
       "Everything in the Senior Transition Blueprint",
       "A detailed intake form, then an intake call with Ryan",
       "A written Senior Transition Plan built with your family",
-      "A follow-up call on how to move forward, plus 90 days of email support",
+      "A follow-up call on how to move forward, plus email support while you execute",
     ],
     cta: { href: paymentLinks.blueprintPremium, label: "Apply for the Roadmap", external: true },
     learnMore: { href: "/the-roadmap", label: "See how the Roadmap works, with an example plan" },

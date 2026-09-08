@@ -22,7 +22,7 @@ const SUPPORT_EMAIL = "ryan@rigginsstrategicsolutions.com";
 export const metadata: Metadata = {
   title: "Senior Transition Roadmap | Free Guided Advisory, By Application",
   description:
-    "The Senior Transition Roadmap is the whole senior transition mapped with you, start to finish: a detailed intake, calls with Ryan, a written plan built together, and 90 days of support. Free, by application.",
+    "The Senior Transition Roadmap is the whole senior transition mapped with you, start to finish: a detailed intake, calls with Ryan, a written plan built together, and email support while you execute. Free, by application.",
   alternates: { canonical: "/the-roadmap" },
   openGraph: {
     type: "website",
@@ -30,21 +30,21 @@ export const metadata: Metadata = {
     siteName: "Riggins Strategic Solutions",
     title: "The Senior Transition Roadmap | Free, By Application",
     description:
-      "The whole path of a senior transition, laid out before you. A written plan built with Ryan, an intake call, a follow-up call, and 90 days of support. Free, by application.",
+      "The whole path of a senior transition, laid out before you. A written plan built with Ryan, an intake call, a follow-up call, and email support while you execute. Free, by application.",
     // OG image is generated per-route by ./opengraph-image.tsx, so no static image here.
   },
   twitter: {
     card: "summary_large_image",
     title: "The Senior Transition Roadmap | Free, By Application",
     description:
-      "Your whole transition mapped with Ryan: an intake, a written plan built together, and 90 days of support. Free, by application.",
+      "Your whole transition mapped with Ryan: an intake, a written plan built together, and email support while you execute. Free, by application.",
   },
 };
 
 const FAQS: { q: string; a: string }[] = [
   {
     q: "How is the Roadmap different from the Senior Transition Blueprint?",
-    a: "The Blueprint is the full self-serve system. You work through 20 modules on your own time, free with a free account. The Roadmap is the guided version: a detailed intake form, an intake call with Ryan, a written plan the two of you build together, a follow-up call on how to move forward, and 90 days of email support while you execute. If you want the system, start with the Blueprint. If you want the system plus someone in your corner while you run the play, apply for the Roadmap.",
+    a: "The Blueprint is the full self-serve system. You work through 20 modules on your own time, free with a free account. The Roadmap is the guided version: a detailed intake form, an intake call with Ryan, a written plan the two of you build together, a follow-up call on how to move forward, and email support while you execute. If you want the system, start with the Blueprint. If you want the system plus someone in your corner while you run the play, apply for the Roadmap.",
   },
   {
     q: "Is the Roadmap really free? Why?",
@@ -53,10 +53,6 @@ const FAQS: { q: string; a: string }[] = [
   {
     q: "Why is there an application?",
     a: "Because the Roadmap is real advisory time, not a download. The intake form asks for real detail about your family, the house, the money, and the care situation, and the plan gets built with Ryan on live calls. That only works when the fit is right, so Ryan reviews each application and takes the families he can genuinely help.",
-  },
-  {
-    q: "What if I need more than 90 days of support?",
-    a: "After day 90, your email support wraps up. If things change and you need help later, reach out. Most families do not need it. By day 90 they have the plan and the tools.",
   },
   {
     q: "What happens after the plan is built?",
@@ -285,7 +281,7 @@ export default function BlueprintPremiumPage() {
           <p className="mt-4 max-w-2xl font-semibold leading-relaxed text-navy">
             Everything in the free Blueprint, plus an intake call, the written
             plan built with Ryan, a follow-up call on how to move forward, and
-            90 days of support. Free. It starts with an application.
+            email support while you execute. Free. It starts with an application.
           </p>
           <div className="mt-10 grid gap-4 sm:grid-cols-3">
             {[
@@ -308,7 +304,7 @@ export default function BlueprintPremiumPage() {
             className="mt-8 max-w-2xl"
             topic="the Roadmap tier"
             question="What is Senior Transition Roadmap?"
-            answer="Senior Transition Roadmap is the full Senior Transition Blueprint course plus a written plan built with Ryan Riggins: a detailed intake, an intake call, the plan built together, a follow-up call on how to move forward, and 90 days of email support. It maps the whole transition with you, start to finish, and goes deepest on the home and the money. Free, by application."
+            answer="Senior Transition Roadmap is the full Senior Transition Blueprint course plus a written plan built with Ryan Riggins: a detailed intake, an intake call, the plan built together, a follow-up call on how to move forward, and email support while you execute. It maps the whole transition with you, start to finish, and goes deepest on the home and the money. Free, by application."
           />
 
           <div className="mt-8 flex flex-wrap items-center gap-x-5 gap-y-3">
@@ -648,7 +644,7 @@ export default function BlueprintPremiumPage() {
             Together we build your written Senior Transition Plan, go deep on the home and the money where the
             biggest dollars are won or lost, and line up the professionals for the parts outside Ryan&rsquo;s lane,
             the ones that are needed, or the ones your family already has.
-            Ninety days of email support so you are never stuck wondering what comes next.
+            Email support so you are never stuck wondering what comes next.
           </p>
 
           <div className="mt-10">
@@ -659,7 +655,7 @@ export default function BlueprintPremiumPage() {
                 "A 21st module, unlocked with the Roadmap, holding your intake docs to prep your call.",
                 "An intake call with Ryan, then the plan built together, then a follow-up call on how to move forward.",
                 "Your written Senior Transition Plan, your map filled in for your family.",
-                "90 days of priority email support.",
+                "Email support while you execute.",
                 "The right professionals for every part outside Ryan’s lane, brought in as needed or working with the ones you already have.",
               ].map((item) => (
                 <div key={item} className="flex gap-3 rounded-lg border border-cream/15 bg-white/[0.04] px-4 py-3">
@@ -676,7 +672,7 @@ export default function BlueprintPremiumPage() {
               <li>1. Apply, and complete the intake. It asks for real detail about your family, the house, the money, and the care situation, so the work is about you from minute one.</li>
               <li>2. The intake call with Ryan. Where your family stands, your real options, and what protects the most.</li>
               <li>3. Ryan and your family build the written plan together, going deepest on the home and the money.</li>
-              <li>4. The follow-up call: how to move forward, who handles each piece, and your first 90 days.</li>
+              <li>4. The follow-up call: how to move forward, who handles each piece, and your next steps.</li>
             </ol>
             <p className="mt-4 text-cream/85">
               You leave with a written <strong className="font-semibold text-cream">Senior Transition Plan</strong>, your personal version of this

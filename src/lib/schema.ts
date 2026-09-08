@@ -595,7 +595,7 @@ export function blueprintPremiumProductSchema() {
     "@type": "Product",
     name: "Senior Transition Roadmap",
     description:
-      "Senior Transition Roadmap is everything in the Senior Transition Blueprint plus a written Senior Transition Plan built with Ryan Riggins: a detailed intake, an intake call, the plan built together, a follow-up call, and 90 days of email support. Free, by application.",
+      "Senior Transition Roadmap is everything in the Senior Transition Blueprint plus a written Senior Transition Plan built with Ryan Riggins: a detailed intake, an intake call, the plan built together, a follow-up call, and email support while you execute. Free, by application.",
     brand: { "@type": "Brand", name: ORGANIZATION.name },
     image: abs("/og/blueprint-premium.png"),
     url,
