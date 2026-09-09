@@ -615,10 +615,10 @@ export function blueprintPremiumProductSchema() {
 
 /**
  * MobileApplication schema for the SeniorSafe app. Mounted on /seniorsafe-app.
- * Two subscription tiers exposed as Offer[] so Google can surface both prices
- * in rich results. Intentionally omits aggregateRating until legitimate app
- * store reviews exist (faking ratings violates Google's structured data
- * policies).
+ * The free plan plus the paid plan's monthly and yearly prices are exposed as
+ * Offer[] so Google can surface them in rich results. Intentionally omits
+ * aggregateRating until legitimate app store reviews exist (faking ratings
+ * violates Google's structured data policies).
  */
 export function seniorSafeMobileApplicationSchema() {
   return {
@@ -627,7 +627,7 @@ export function seniorSafeMobileApplicationSchema() {
     name: "SeniorSafe",
     alternateName: "SeniorSafe App",
     description:
-      "SeniorSafe is the family coordination app for senior care. Daily check-ins, medication tracking, family messaging, document vault, and two AI assistants: SeniorSafe AI for the elder, Maggie for the adult child managing the transition.",
+      "SeniorSafe is the free family app for senior care: the daily I'm Okay check-in, a text to one family member when it is missed, medication reminders, and Maggie, one assistant for the senior and the family. One paid plan, $14.99 a month or $140 a year for the whole family, adds texts to everyone, unlimited family members, missed-dose alerts, family messages, the document vault, and appointments.",
     operatingSystem: "iOS, Android, Web",
     applicationCategory: "HealthApplication",
     applicationSubCategory: "Family Coordination",
@@ -635,13 +635,22 @@ export function seniorSafeMobileApplicationSchema() {
     downloadUrl:
       "https://apps.apple.com/us/app/seniorsafe-app/id6761343239",
     image: "https://seniorsafeapp.com/og/homepage.png",
-    // Paid app with a 14-day free trial. The trial doesn't make the app
-    // "free" for schema purposes — the Offers below are the truth.
-    isAccessibleForFree: false,
+    // Free forever, no card at signup, no trial. The core app never requires
+    // payment, so isAccessibleForFree is true. One paid plan; its monthly
+    // and yearly prices are the second and third Offers below.
+    isAccessibleForFree: true,
     offers: [
       {
         "@type": "Offer",
-        name: "SeniorSafe Premium",
+        name: "SeniorSafe Free",
+        price: "0",
+        priceCurrency: "USD",
+        category: "Free plan",
+        availability: "https://schema.org/InStock",
+      },
+      {
+        "@type": "Offer",
+        name: "SeniorSafe Paid Plan (monthly)",
         price: "14.99",
         priceCurrency: "USD",
         category: "Subscription",
@@ -656,16 +665,16 @@ export function seniorSafeMobileApplicationSchema() {
       },
       {
         "@type": "Offer",
-        name: "SeniorSafe Premium+",
-        price: "39.99",
+        name: "SeniorSafe Paid Plan (yearly)",
+        price: "140",
         priceCurrency: "USD",
         category: "Subscription",
         priceSpecification: {
           "@type": "UnitPriceSpecification",
-          price: "39.99",
+          price: "140",
           priceCurrency: "USD",
-          billingDuration: "P1M",
-          unitText: "MONTH",
+          billingDuration: "P1Y",
+          unitText: "YEAR",
         },
         availability: "https://schema.org/InStock",
       },

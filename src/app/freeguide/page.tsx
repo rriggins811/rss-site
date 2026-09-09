@@ -23,17 +23,17 @@ const FREEGUIDE_FAQS: FAQItem[] = [
   {
     question: "What happens after I sign up?",
     answer:
-      "You get an email with the activation link to your free Blueprint account. One click sets up your account, gives you the interactive Module 00, three free tools (Starting Point Assessment, Net Proceeds Calculator, 7-Day Quick Start tracker), and a 14-day Premium+ trial of the SeniorSafe family coordination app — no card required, the trial is automatic.",
+      "You get an email with the activation link to your free Blueprint account. One click sets up your account, gives you the interactive Module 00, three free tools (Starting Point Assessment, Net Proceeds Calculator, 7-Day Quick Start tracker), and a free SeniorSafe account. No card required. SeniorSafe is free forever, so there is nothing to trial.",
   },
   {
     question: "Who is the Simple Blueprint for?",
     answer:
-      "Adult children (typically 40-65) whose aging parent is starting to need help with housing decisions. It also fits people who live out of state from a parent, the sibling who handles things, and anyone about to call a realtor about a parent's home — read this first.",
+      "Adult children (typically 40-65) whose aging parent is starting to need help with housing decisions. It also fits people who live out of state from a parent, the sibling who handles things, and anyone about to call a realtor about a parent's home. Read this first.",
   },
   {
-    question: "Do I have to enter a credit card for the SeniorSafe trial?",
+    question: "Do I have to enter a credit card for SeniorSafe?",
     answer:
-      "No. The 14-day Premium+ trial activates automatically with your Simple Blueprint signup. When the trial ends you can pick a paid SeniorSafe plan ($14.99/mo Premium or $39.99/mo Premium+) or just stop using the app — no charges either way.",
+      "No. SeniorSafe is free forever, and your Simple Blueprint signup sets up the free account automatically. There is no trial and no clock. If your family wants texts to everyone, family messages, the document vault, and Maggie every day, one paid plan is $14.99 a month or $140 a year, and you choose it inside the app. No charges unless you do.",
   },
   {
     question: "How is the Simple Blueprint different from the full Senior Transition Blueprint?",
@@ -59,7 +59,7 @@ export const metadata: Metadata = {
         url: "https://rigginsstrategicsolutions.com/og/freeguide.png",
         width: 1200,
         height: 630,
-        alt: "Riggins Strategic Solutions — Senior Transition Blueprint and SeniorSafe app",
+        alt: "Riggins Strategic Solutions: Senior Transition Blueprint and SeniorSafe app",
       },
     ],
   },

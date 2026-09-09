@@ -14,7 +14,7 @@ import { seniorSafeMobileApplicationSchema } from "@/lib/schema";
 export const metadata: Metadata = {
   title: "SeniorSafe | The Family App for Senior Care",
   description:
-    "SeniorSafe is the daily coordination app for families facing senior care decisions. Daily check-ins, medication tracking, family messaging, document vault, and two AIs: SeniorSafe AI for the elder ($14.99/mo Premium), and Maggie, your AI transition specialist for the adult child ($39.99/mo Premium+). 14-day free trial.",
+    "SeniorSafe is free, forever: the daily I'm Okay check-in, a text to one family member when it is missed, medication reminders, and Maggie, one assistant for the senior and the family. One paid plan, $14.99 a month or $140 a year, for the whole family.",
   alternates: { canonical: "/seniorsafe-app" },
   openGraph: {
     type: "website",
@@ -22,13 +22,13 @@ export const metadata: Metadata = {
     siteName: "Riggins Strategic Solutions",
     title: "SeniorSafe | The Family App for Senior Care",
     description:
-      "Your family. One place. One plan. Daily check-ins, medication tracking, family messaging, document vault, and two AIs — SeniorSafe AI for the elder and Maggie for the adult child. 14-day free trial.",
+      "Your family. One place. One plan. Free forever: the daily I'm Okay check-in, a text when it is missed, medication reminders, and Maggie, one assistant for the senior and the family. One paid plan, $14.99 a month or $140 a year.",
     images: [
       {
         url: "https://rigginsstrategicsolutions.com/og/seniorsafe-app.png",
         width: 1200,
         height: 630,
-        alt: "SeniorSafe — your family, one place, one plan",
+        alt: "SeniorSafe: your family, one place, one plan",
       },
     ],
   },
@@ -41,58 +41,93 @@ export const metadata: Metadata = {
   },
 };
 
-const painPoints: { feature: string; title: string; pain: string; fix: string }[] = [
+const painPoints: {
+  feature: string;
+  title: string;
+  pain: string;
+  fix: string;
+  paid?: boolean;
+}[] = [
   {
     feature: "Daily check-in",
-    title: "The daily \u201Cdid she answer?\u201D check.",
-    pain: "Phone call goes to voicemail. Text unanswered. Every minute of silence, your mind goes to the worst place. By the time they text back \u201Csorry, was in the shower,\u201D you\u2019ve already pictured a 911 call.",
-    fix: "One tap daily check-in. Mom hits \u201CI\u2019m okay\u201D in the morning and the whole family sees the green light at the same time. No more pit-in-your-stomach mornings.",
+    title: "The daily “did she answer?” check.",
+    pain: "Phone call goes to voicemail. Text unanswered. Every minute of silence, your mind goes to the worst place. By the time they text back “sorry, was in the shower,” you’ve already pictured a 911 call.",
+    fix: "One tap daily check-in. Mom hits “I’m okay” in the morning and the family sees the green light at the same time. If the tap never comes, one family member gets a text, free. On the paid plan, everyone does. No more pit-in-your-stomach mornings.",
   },
   {
-    feature: "Family channel",
+    feature: "Family messages",
+    paid: true,
     title: "Group texts that fall apart.",
     pain: "Someone misses a message. Someone else hits reply-all with a rant. The one sibling who lives closest ends up as the unpaid switchboard operator, and nothing stays organized.",
-    fix: "A private family channel built just for mom or dad\u2019s care. Everyone sees the same updates, the same history, the same list of what\u2019s next. The caregiver sibling finally stops being the middleman.",
+    fix: "A private family channel built just for mom or dad’s care. Everyone sees the same updates, the same history, the same list of what’s next. The caregiver sibling finally stops being the middleman.",
   },
   {
-    feature: "Med log",
+    feature: "Medication reminders",
     title: "Medication confusion across caregivers.",
     pain: "Morning pill, evening pill, new prescription from the follow-up appointment, one caregiver on Tuesday and a different one Thursday. Nobody has a single source of truth for what was taken when.",
-    fix: "Shared medication list with a simple \u201Ctaken / not taken\u201D log. Tuesday\u2019s caregiver sees what Thursday\u2019s caregiver did. No more \u201Cdid she get her blood pressure pill?\u201D guessing game.",
+    fix: "One medication list with reminders on your parent’s phone, free. On the paid plan the family gets a missed-dose alert, so Tuesday’s caregiver knows what happened Thursday without a phone call. No more “did she get her blood pressure pill?” guessing game.",
   },
   {
     feature: "Document vault",
+    paid: true,
     title: "Paperwork scattered everywhere.",
-    pain: "POA in a filing cabinet. Insurance card photo on somebody\u2019s phone. Doctor\u2019s note on the fridge. When it\u2019s finally needed, it\u2019s always in the one place nobody can find.",
-    fix: "One secure document vault. POA, insurance cards, advance directive, doctor\u2019s notes, all in your pocket. When you\u2019re sitting in an ER at 11 PM, you\u2019re not tearing the house apart. You\u2019re showing the nurse your phone.",
+    pain: "POA in a filing cabinet. Insurance card photo on somebody’s phone. Doctor’s note on the fridge. When it’s finally needed, it’s always in the one place nobody can find.",
+    fix: "One secure document vault. POA, insurance cards, advance directive, doctor’s notes, all in your pocket. When you’re sitting in an ER at 11 PM, you’re not tearing the house apart. You’re showing the nurse your phone.",
   },
 ];
 
-const features: { title: string; body: string }[] = [
+const features: { title: string; body: string; plan: "free" | "paid" }[] = [
   {
-    title: "Daily wellness check-ins",
-    body: "A simple morning prompt for the senior, a real-time update for the family. Missed a check-in? The app tells the people who need to know, without a dozen frantic phone calls.",
+    plan: "free",
+    title: "The daily “I’m Okay” check-in",
+    body: "One tap on your parent’s phone each morning, a push notification to the family, and a history you can look back on. If the check-in is missed, or your parent presses I Need Help, one family member gets a text. The emergency card is there too.",
   },
   {
-    title: "Medication and appointment tracking",
-    body: "One place for the full medication list, dosages, times, and refill dates. Appointments synced so everyone knows who's driving to which follow-up.",
+    plan: "free",
+    title: "Medication reminders",
+    body: "The full medication list with reminders on your parent’s phone at the times each dose is due. Nothing to set up beyond the list itself.",
   },
   {
-    title: "Private family messaging",
-    body: "A real thread for the family, not the group-text chaos. Siblings, spouses, and caregivers stay on the same page without CC'ing the neighbor by accident.",
+    plan: "free",
+    title: "Maggie, one assistant for the whole family",
+    body: "Plain answers in large type for your parent. Planning help for you. Every family gets 10 messages free, and the paid plan opens Maggie up every day.",
   },
   {
+    plan: "paid",
+    title: "Family messages",
+    body: "A real thread for the family, not the group-text chaos. Siblings, spouses, and caregivers stay on the same page without CC’ing the neighbor by accident. Unlimited family members, joined by code.",
+  },
+  {
+    plan: "paid",
     title: "Document vault",
-    body: "POA, insurance cards, healthcare directives, doctor notes. Scan once, organized forever. Shareable with the family members who need access, private from the ones who don't.",
+    body: "POA, insurance cards, healthcare directives, doctor notes. Scan once, organized forever. Shareable with the family members who need access, private from the ones who don’t.",
   },
   {
-    title: "SeniorSafe AI for your parent",
-    body: "Your parent's daily buddy. A friendly tab they open every day to ask general life questions, decode Medicare notices in plain English, or get help drafting a note to the doctor. Built for the elder using the app, not for the adult child running the move.",
+    plan: "paid",
+    title: "Appointments and missed-dose alerts",
+    body: "Appointments the whole family can see, so everyone knows who is driving to which follow-up. And when a dose is missed, the family hears about it, not just the phone on the nightstand.",
   },
-  {
-    title: "Works with the Blueprint playbook",
-    body: "Every feature is built around the same system the Blueprint teaches. If you bought Core or Premium, SeniorSafe is the daily tool that keeps the plan running.",
-  },
+];
+
+const freePlan: string[] = [
+  "The daily “I’m Okay” check-in",
+  "A text to one family member when the check-in is missed or I Need Help is pressed",
+  "Push notifications",
+  "Check-in history",
+  "The emergency card",
+  "Medication reminders on your parent’s phone",
+  "Inviting your parent to the app",
+  "10 Maggie messages per family",
+];
+
+const paidPlan: string[] = [
+  "Texts to everyone in the family",
+  "Unlimited family members, joined by code",
+  "Missed-dose alerts",
+  "Family messages",
+  "The document vault",
+  "Appointments",
+  "Maggie every day",
 ];
 
 export default function SeniorSafePage() {
@@ -105,16 +140,17 @@ export default function SeniorSafePage() {
         <div className="mx-auto max-w-6xl px-6 py-20 lg:py-24 grid gap-12 lg:grid-cols-2 items-center">
           <div>
             <Badge variant="secondary" className="bg-burgundy-100 text-burgundy-700 border-0">
-              SeniorSafe &middot; $14.99/mo &middot; 14-day free trial
+              Free forever &middot; Paid plan $14.99 a month
             </Badge>
             <h1 className="mt-6 leading-[1.05]">
               SeniorSafe. The family app for the daily part of senior care.
             </h1>
             <p className="mt-6 max-w-prose text-lg leading-relaxed text-ink/80">
-              Everyone in the family can see how your parent is doing today
-              without four phone calls to find out. Daily check-ins,
-              medications, private family messaging, and every document in one
-              place instead of a drawer nobody can get to.
+              Your parent taps I&rsquo;m Okay once a day. If the tap does not
+              come, one family member gets a text. That is the whole idea, and
+              it is free for as long as you use it. Medication reminders,
+              check-in history, the emergency card, and your first 10 messages
+              with Maggie, the app&rsquo;s one assistant, are free too.
             </p>
             <p className="mt-4 max-w-prose text-lg leading-relaxed text-ink/80">
               The Blueprint is the plan. SeniorSafe is what keeps it running
@@ -127,7 +163,7 @@ export default function SeniorSafePage() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Start your free 14-day trial
+                  Get SeniorSafe free
                 </a>
               </Button>
               <Button asChild size="lg" variant="outline">
@@ -135,8 +171,9 @@ export default function SeniorSafePage() {
               </Button>
             </div>
             <p className="mt-4 text-sm text-ink/60">
-              $14.99/mo for SeniorSafe (Premium) or $39.99/mo for SeniorSafe +
-              Maggie (Premium+). Cancel anytime. No partial-month refunds.
+              No card at signup. No trial clock. One paid plan, $14.99 a month
+              or $140 a year for the whole family, when you want everyone
+              looped in. Cancel anytime. No partial-month refunds.
             </p>
             <AppPlatformBadges className="mt-8" />
             <p className="mt-4 text-sm text-ink/60">
@@ -182,8 +219,13 @@ export default function SeniorSafePage() {
                   <div className="font-serif text-4xl font-extrabold text-gold-500 leading-none">
                     {String(i + 1).padStart(2, "0")}
                   </div>
-                  <div className="mt-2 text-xs font-semibold uppercase tracking-wider text-burgundy-600">
-                    {p.feature}
+                  <div className="mt-2 flex flex-wrap items-center gap-2 text-xs font-semibold uppercase tracking-wider text-burgundy-600">
+                    <span>{p.feature}</span>
+                    {p.paid ? (
+                      <span className="rounded-full border border-burgundy-600/40 px-2 py-0.5 text-[10px]">
+                        Paid plan
+                      </span>
+                    ) : null}
                   </div>
                   <h3 className="mt-3 font-serif text-xl text-navy-700">
                     {p.title}
@@ -212,21 +254,29 @@ export default function SeniorSafePage() {
             <h2 className="mt-3">One app. The whole picture.</h2>
             <p className="mt-4 text-lg text-ink/80">
               Six things SeniorSafe does so the family doesn&rsquo;t have to
-              keep six separate systems in their head.
+              keep six separate systems in their head. Three are free forever.
+              Three come with the paid plan.
             </p>
           </div>
 
           <div className="mt-8 border-l-2 border-gold-500 pl-4 max-w-xl">
             <p className="italic font-serif text-lg text-burgundy-700">
-              Plus two AIs that know senior care. SeniorSafe AI for your parent.
-              Maggie, your transition specialist, for you.
+              Free forever means free forever. The paid plan is one price,
+              $14.99 a month or $140 a year, for the whole family.
             </p>
           </div>
 
           <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             {features.map((f) => (
               <div key={f.title} className="bg-white border border-border rounded-lg p-6">
-                <h3 className="font-serif text-xl text-navy-700">{f.title}</h3>
+                <div
+                  className={`text-xs font-semibold uppercase tracking-wider ${
+                    f.plan === "paid" ? "text-burgundy-600" : "text-navy-700"
+                  }`}
+                >
+                  {f.plan === "paid" ? "Paid plan" : "Free forever"}
+                </div>
+                <h3 className="mt-2 font-serif text-xl text-navy-700">{f.title}</h3>
                 <p className="mt-3 text-ink/80 leading-relaxed">{f.body}</p>
               </div>
             ))}
@@ -234,121 +284,129 @@ export default function SeniorSafePage() {
         </div>
       </section>
 
-      {/* TWO AIs, ONE APP */}
+      {/* MAGGIE */}
       <section className="bg-white border-y border-border">
         <div className="mx-auto max-w-6xl px-6 py-20">
           <div className="max-w-2xl">
             <GoldRule />
-            <h2 className="mt-3">Two AIs, one app.</h2>
+            <h2 className="mt-3">One assistant. Her name is Maggie.</h2>
             <p className="mt-4 text-lg text-ink/80">
-              SeniorSafe ships with two distinct AIs because the senior and the
-              adult child running the move need different help. One is the
-              friendly daily companion. The other is the navigator.
+              SeniorSafe has one assistant, and she works for both sides of
+              the family.
             </p>
           </div>
 
-          <div className="mt-12 grid gap-6 md:grid-cols-2">
-            <Card className="bg-cream border-border">
-              <CardContent className="pt-6">
-                <div className="text-xs font-semibold uppercase tracking-wider text-burgundy-600">
-                  $14.99/mo · Premium
-                </div>
-                <h3 className="mt-2 font-serif text-2xl text-navy-700">
-                  SeniorSafe AI
-                </h3>
-                <p className="mt-3 italic text-ink/70 text-sm">
-                  Your parent&rsquo;s daily buddy.
-                </p>
-                <p className="mt-4 text-ink/85 leading-relaxed">
-                  Built to help the senior with general life questions, decode
-                  Medicare notices, draft a quick email, or stay engaged through
-                  the day. The friendly tab they open every morning. Designed
-                  around the elder using the app, not the family running the
-                  move.
-                </p>
-                <Button asChild variant="outline" className="mt-6">
-                  <a
-                    href={paymentLinks.seniorSafe}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Start free 14-day trial
-                  </a>
-                </Button>
-              </CardContent>
-            </Card>
-
-            <Card className="bg-cream border-burgundy-600 border-2 shadow-lg shadow-burgundy-600/10">
-              <CardContent className="pt-6">
-                <div className="flex items-baseline justify-between gap-2">
-                  <div className="text-xs font-semibold uppercase tracking-wider text-burgundy-600">
-                    $39.99/mo · Premium+
-                  </div>
-                  <Badge className="bg-gold-500 text-navy-900 hover:bg-gold-500 border-0">
-                    New
-                  </Badge>
-                </div>
-                <h3 className="mt-2 font-serif text-2xl text-navy-700">
-                  Maggie, your AI transition specialist
-                </h3>
-                <p className="mt-3 italic text-ink/70 text-sm">
-                  Your navigator for the adult child managing the move.
-                </p>
-                <p className="mt-4 text-ink/85 leading-relaxed">
-                  Built for you, not your parent. Maggie knows the full
-                  20-module Blueprint. She recognizes resistant-parent personas.
-                  She walks you through wholesaler offers in real time. She
-                  remembers your situation across conversations. Available 24/7
-                  for the moment the wholesaler letter shows up or the 2 AM
-                  hospital call comes in.
-                </p>
-                <Button asChild className="mt-6">
-                  <a
-                    href={paymentLinks.seniorSafe}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Start free 14-day trial
-                  </a>
-                </Button>
-              </CardContent>
-            </Card>
+          <div className="mt-10 grid gap-6 md:grid-cols-2">
+            <div className="bg-cream border border-border rounded-lg p-6">
+              <div className="text-xs font-semibold uppercase tracking-wider text-burgundy-600">
+                For your parent
+              </div>
+              <p className="mt-3 text-ink/85 leading-relaxed">
+                Plain answers in large type. What a Medicare notice means. How
+                to word a note to the doctor. What day the appointment is.
+                Maggie answers the way a patient grandchild would.
+              </p>
+            </div>
+            <div className="bg-cream border border-border rounded-lg p-6">
+              <div className="text-xs font-semibold uppercase tracking-wider text-burgundy-600">
+                For you
+              </div>
+              <p className="mt-3 text-ink/85 leading-relaxed">
+                Planning help for the adult child running the move. Maggie
+                knows the full 20-module Blueprint, the hard conversations,
+                and what to do when the wholesaler letter shows up. Ask her at
+                2 AM if that is when the question comes.
+              </p>
+            </div>
           </div>
 
-          <p className="mt-10 max-w-3xl text-lg text-ink/80 leading-relaxed">
-            <strong className="text-navy-700">Choose Premium</strong> if your
-            parent uses the app daily and needs a friendly helper.{" "}
-            <strong className="text-navy-700">Choose Premium+</strong> if YOU
-            need the navigator, not just the daily check-in tool.
+          <p className="mt-8 max-w-3xl text-lg text-ink/80 leading-relaxed">
+            Every family gets 10 Maggie messages free. The paid plan opens her
+            up every day, for everyone in the family.
           </p>
-        </div>
-      </section>
-
-      {/* PRICING / TRIAL */}
-      <section className="bg-burgundy-700 text-cream">
-        <div className="mx-auto max-w-4xl px-6 py-20 text-center">
-          <GoldRule className="mx-auto" />
-          <h2 className="mt-3 text-cream">14 days free. Then pick your tier.</h2>
-          <p className="mt-6 text-lg text-cream/90 max-w-2xl mx-auto leading-relaxed">
-            Start the trial today. Use every feature for 14 days with no
-            charge. If it&rsquo;s not the right fit, cancel before day 14 and
-            owe nothing. After that, $14.99/mo for SeniorSafe (Premium) or
-            $39.99/mo for SeniorSafe + Maggie (Premium+). Cancel anytime. No
-            partial-month refunds.
-          </p>
-          <Button asChild size="lg" className="mt-8 bg-gold-500 text-navy-900 hover:bg-gold-300">
+          <Button asChild className="mt-6">
             <a
               href={paymentLinks.seniorSafe}
               target="_blank"
               rel="noopener noreferrer"
             >
-              Start your free 14-day trial
+              Get SeniorSafe free
             </a>
           </Button>
-          <p className="mt-4 text-sm text-cream/70">
-            The family pays directly. Ryan&rsquo;s incentive is to keep your
-            family happy, not to push you toward a transaction.
+        </div>
+      </section>
+
+      {/* PRICING */}
+      <section className="bg-burgundy-700 text-cream">
+        <div className="mx-auto max-w-5xl px-6 py-20">
+          <div className="text-center">
+            <GoldRule className="mx-auto" />
+            <h2 className="mt-3 text-cream">Free forever. One paid plan.</h2>
+            <p className="mt-6 text-lg text-cream/90 max-w-2xl mx-auto leading-relaxed">
+              No card at signup. No trial clock. The free app is the whole
+              daily check-in, and it stays free for as long as your family
+              uses it. The paid plan is for families who want everyone looped
+              in.
+            </p>
+          </div>
+
+          <div className="mt-12 grid gap-6 md:grid-cols-2">
+            <div className="rounded-lg border border-cream/30 bg-cream/5 p-6 md:p-8">
+              <div className="text-xs font-semibold uppercase tracking-wider text-gold-500">
+                Free, forever
+              </div>
+              <div className="mt-2 font-serif text-3xl text-cream">$0</div>
+              <ul className="mt-6 space-y-3 text-cream/90">
+                {freePlan.map((item) => (
+                  <li key={item} className="flex gap-3">
+                    <span className="mt-2 h-1.5 w-1.5 rounded-full bg-gold-500 flex-none" />
+                    <span>{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            <div className="rounded-lg border-2 border-gold-500 bg-cream/10 p-6 md:p-8">
+              <div className="text-xs font-semibold uppercase tracking-wider text-gold-500">
+                Paid plan, the whole family
+              </div>
+              <div className="mt-2 font-serif text-3xl text-cream">
+                $14.99 a month{" "}
+                <span className="text-lg text-cream/80">or $140 a year</span>
+              </div>
+              <p className="mt-3 text-sm text-cream/80">Everything in free, plus:</p>
+              <ul className="mt-4 space-y-3 text-cream/90">
+                {paidPlan.map((item) => (
+                  <li key={item} className="flex gap-3">
+                    <span className="mt-2 h-1.5 w-1.5 rounded-full bg-gold-500 flex-none" />
+                    <span>{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+
+          <p className="mt-8 max-w-2xl mx-auto text-center text-cream/85 leading-relaxed">
+            Paid features show a lock in the app. Tap the lock and you see the
+            price. Nothing is charged unless you choose the plan. Cancel
+            anytime. No partial-month refunds.
           </p>
+
+          <div className="mt-8 text-center">
+            <Button asChild size="lg" className="bg-gold-500 text-navy-900 hover:bg-gold-300">
+              <a
+                href={paymentLinks.seniorSafe}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Get SeniorSafe free
+              </a>
+            </Button>
+            <p className="mt-4 text-sm text-cream/70">
+              The family pays directly. Ryan&rsquo;s incentive is to keep your
+              family happy, not to push you toward a transaction.
+            </p>
+          </div>
         </div>
       </section>
 
@@ -365,10 +423,10 @@ export default function SeniorSafePage() {
               families don&rsquo;t need it again.
             </p>
             <p>
-              SeniorSafe is the ongoing layer. The daily coordination.
-              Medication tracking, check-ins, the document vault that gets
-              used every week for years. Built to run after the plan is in
-              motion.
+              SeniorSafe is the ongoing layer. The daily check-in and the
+              medication reminders, free, for years. And on the paid plan, the
+              family messages and the document vault that get used every
+              week. Built to run after the plan is in motion.
             </p>
             <p>
               Plenty of families use one without the other. Some use both. The
@@ -394,8 +452,8 @@ export default function SeniorSafePage() {
           <GoldRule className="mx-auto" />
           <h2 className="mt-3 text-cream">Stop holding it all in your head.</h2>
           <p className="mt-6 text-lg text-cream/85 max-w-2xl mx-auto">
-            14 days free. No credit card pressure. If it works for your
-            family, stay. If not, walk.
+            Free forever. No card, no clock. If it works for your family,
+            stay. If not, walk.
           </p>
           <Button asChild size="lg" className="mt-8 bg-gold-500 text-navy-900 hover:bg-gold-300">
             <a
@@ -403,7 +461,7 @@ export default function SeniorSafePage() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Start your free 14-day trial
+              Get SeniorSafe free
             </a>
           </Button>
         </div>

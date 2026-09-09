@@ -89,7 +89,7 @@ const GROUPS: LinkGroup[] = [
       {
         label: "SeniorSafe App",
         description:
-          "Daily check-ins, document vault, Maggie AI, and family coordination. Free trial.",
+          "Daily check-ins, medication reminders, and Maggie, one assistant for the family. Free forever, one paid plan for the whole family.",
         href: "https://seniorsafeapp.com",
       },
     ],

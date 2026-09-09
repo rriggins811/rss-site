@@ -244,8 +244,10 @@ export default function AboutPage() {
               <p>
                 I also built <strong>SeniorSafe</strong>, a family coordination app
                 for the ongoing part of senior care. Daily check-ins, medication
-                tracking, document vault, AI assistant, family messaging. $14.99 a
-                month after a 14-day free trial.
+                reminders, and Maggie, one assistant for the parent and for the
+                family. Free forever. One paid plan, $14.99 a month for the whole
+                family, adds the document vault, family messaging, and texts to
+                everyone.
               </p>
               <p>
                 And I wrote two books on having the hard conversations:{" "}

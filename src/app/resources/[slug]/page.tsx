@@ -202,10 +202,11 @@ export default async function ResourceArticlePage({
                   </h3>
                   <p className="mt-3 text-ink/80 leading-relaxed">
                     SeniorSafe is the family app for the daily part of senior
-                    care. Daily check-ins, document vault, family messaging,
-                    and two AIs working together: SeniorSafe AI for your
-                    parent, Maggie for the adult child running the move.
-                    14-day free trial.
+                    care. A daily I&rsquo;m Okay check-in, a text to one family
+                    member when it is missed, medication reminders, and Maggie,
+                    one assistant for your parent and for you. Free forever, no
+                    card. One paid plan, $14.99 a month or $140 a year, adds
+                    family messages, the document vault, and texts to everyone.
                   </p>
                   <Button asChild className="mt-5">
                     <a
@@ -213,7 +214,7 @@ export default async function ResourceArticlePage({
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      Start the SeniorSafe free trial
+                      Get SeniorSafe free
                     </a>
                   </Button>
                 </>
@@ -267,10 +268,11 @@ export default async function ResourceArticlePage({
                   </h3>
                   <p className="mt-3 text-ink/80 leading-relaxed">
                     SeniorSafe is the family app for the daily part of senior
-                    care. Daily check-ins, document vault, family messaging,
-                    and two AIs working together: SeniorSafe AI for your
-                    parent, Maggie for the adult child running the move.
-                    14-day free trial.
+                    care. A daily I&rsquo;m Okay check-in, a text to one family
+                    member when it is missed, medication reminders, and Maggie,
+                    one assistant for your parent and for you. Free forever, no
+                    card. One paid plan, $14.99 a month or $140 a year, adds
+                    family messages, the document vault, and texts to everyone.
                   </p>
                   <Button asChild className="mt-5">
                     <a
@@ -278,7 +280,7 @@ export default async function ResourceArticlePage({
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      Start the SeniorSafe free trial
+                      Get SeniorSafe free
                     </a>
                   </Button>
                 </>

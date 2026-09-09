@@ -102,7 +102,7 @@ export async function GET() {
         is_accessible_for_free: true,
         url: `${SITE_URL}/freeguide`,
         description:
-          "Free starter guide for families beginning a senior housing transition. Includes a 14-day Premium+ trial of the SeniorSafe app.",
+          "Free starter guide for families beginning a senior housing transition. Signup also sets up a free SeniorSafe account; the app is free forever.",
         audience: "Adult children (40-65) newly facing a senior parent's housing decision",
       },
       {
@@ -130,32 +130,41 @@ export async function GET() {
           "Everything in the Blueprint plus a written Senior Transition Plan built with Ryan Riggins: a detailed intake form, an intake call, the plan built together, a follow-up call on how to move forward, and email support while you execute. Free, by application; Ryan takes the families he can genuinely help.",
       },
       {
-        id: "seniorsafe-premium",
-        name: "SeniorSafe Premium",
+        id: "seniorsafe-free",
+        name: "SeniorSafe (free plan)",
+        type: "Family Coordination App",
+        price_usd: 0,
+        billing: "free forever; no card at signup, no trial",
+        is_accessible_for_free: true,
+        url: "https://seniorsafeapp.com",
+        web_app_url: "https://app.seniorsafeapp.com",
+        platforms: ["iOS", "Android", "Web"],
+        store_listing_name: "SeniorSafe App",
+        app_store_url:
+          "https://apps.apple.com/us/app/seniorsafe-app/id6761343239",
+        play_store_url:
+          "https://play.google.com/store/apps/details?id=com.rigginsstrategicsolutions.seniorsafe",
+        assistant: "Maggie, one assistant for both the senior and the family",
+        description:
+          "Free forever: the daily I'm Okay check-in, a text to one family member when the check-in is missed or I Need Help is pressed, push notifications, check-in history, the emergency card, medication reminders on the senior's phone, inviting the senior, and 10 Maggie messages per family.",
+      },
+      {
+        id: "seniorsafe-paid",
+        name: "SeniorSafe (paid plan)",
         type: "Family Coordination App (subscription)",
         price_usd: 14.99,
-        billing: "monthly",
+        price_usd_yearly: 140,
+        billing: "monthly ($14.99) or yearly ($140); one plan covers the whole family",
         is_accessible_for_free: false,
-        free_trial_days: 14,
         url: "https://seniorsafeapp.com",
+        web_app_url: "https://app.seniorsafeapp.com",
         platforms: ["iOS", "Android", "Web"],
         app_store_url:
           "https://apps.apple.com/us/app/seniorsafe-app/id6761343239",
+        play_store_url:
+          "https://play.google.com/store/apps/details?id=com.rigginsstrategicsolutions.seniorsafe",
         description:
-          "Family coordination app: daily check-ins, medication tracking, family messaging, document vault, SeniorSafe AI for the elder.",
-      },
-      {
-        id: "seniorsafe-premium-plus",
-        name: "SeniorSafe Premium+",
-        type: "Family Coordination App (subscription)",
-        price_usd: 39.99,
-        billing: "monthly",
-        is_accessible_for_free: false,
-        free_trial_days: 14,
-        url: "https://seniorsafeapp.com",
-        platforms: ["iOS", "Android", "Web"],
-        description:
-          "Everything in SeniorSafe Premium plus Maggie, the AI transition specialist trained on the full Blueprint methodology.",
+          "Everything in the free plan plus texts to everyone in the family, unlimited family members by code, missed-dose alerts, family messages, the document vault, appointments, and Maggie every day. Paid features show a lock in the app; tapping the lock shows the price.",
       },
       {
         id: "get-me-in-your-corner",

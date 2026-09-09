@@ -20,7 +20,7 @@ import { abs } from "@/lib/site";
 export const metadata: Metadata = {
   title: "The Blueprint | Senior Transition Tiers",
   description:
-    "Every way to work with Ryan Riggins on a senior housing transition. The free Senior Transition Blueprint course, the Senior Transition Roadmap (free, by application), Get Me in Your Corner (a vetted real estate agent referral at no added cost), and the SeniorSafe app from $14.99/mo.",
+    "Every way to work with Ryan Riggins on a senior housing transition. The free Senior Transition Blueprint course, the Senior Transition Roadmap (free, by application), Get Me in Your Corner (a vetted real estate agent referral at no added cost), and the free SeniorSafe app.",
   alternates: { canonical: "/the-blueprint" },
   openGraph: {
     type: "website",
@@ -102,18 +102,18 @@ const tiers: Tier[] = [
   },
   {
     label: "SeniorSafe",
-    price: "$14.99/mo",
-    priceSub: "or $39.99/mo with Maggie",
+    price: "Free",
+    priceSub: "Forever. One paid plan, $14.99/mo or $140/yr.",
     title: "The app for the daily part.",
-    blurb: "Daily check-ins, medication tracking, family messaging, and SeniorSafe AI. Add Maggie for the full transition specialist.",
-    audience: "Families coordinating daily care, with an upgrade for those in an active move.",
+    blurb: "A daily I'm Okay check-in, medication reminders, and Maggie, one assistant for your parent and for you. Free forever, with one paid plan for the whole family.",
+    audience: "Families coordinating daily care, from one adult child checking in to the whole family on one plan.",
     bullets: [
-      "SeniorSafe, $14.99/mo: daily check-ins, medication tracking, document vault, family messaging.",
-      "With Maggie, $39.99/mo: everything above, plus the AI built to help you manage the whole transition.",
+      "Free forever: the daily I'm Okay check-in, a text to one family member when it is missed or I Need Help is pressed, notifications, history, the emergency card, medication reminders on your parent's phone, and 10 Maggie messages per family.",
+      "One paid plan, $14.99/mo or $140/yr for the whole family: texts to everyone, unlimited family members by code, missed-dose alerts, family messages, the document vault, appointments, and Maggie every day.",
       "Maggie knows the full 20-module Blueprint and flags wholesaler offers in real time.",
-      "14-day free trial on either tier. Cancel anytime.",
+      "No card at signup. No trial clock. Cancel anytime.",
     ],
-    cta: { href: paymentLinks.seniorSafe, label: "Start free trial", external: true },
+    cta: { href: paymentLinks.seniorSafe, label: "Get SeniorSafe free", external: true },
     image: "/photos/stock_video_call_setup.jpg",
     alt: "Family coordinating senior care with the SeniorSafe app",
   },
@@ -179,8 +179,8 @@ const faqs: { q: string; a: string }[] = [
     a: "The Blueprint is the full self-serve system, free with a free account. The Roadmap is the guided version. It starts with an application and a detailed intake form, then an intake call with Ryan, then the two of you build a written plan for your family together, then a follow-up call on how to move forward. If you want someone in your corner, not just a playbook, the Roadmap is the pick.",
   },
   {
-    q: "How is SeniorSafe with Maggie different from regular SeniorSafe?",
-    a: "SeniorSafe at $14.99/mo gives you the daily app for the senior plus SeniorSafe AI as a general-purpose helper. Adding Maggie at $39.99/mo brings in an AI transition specialist built for the adult child managing the move. Maggie knows the full 20-module Blueprint, recognizes resistant parent personas, and walks you through wholesaler offers in real time. Choose SeniorSafe with Maggie if YOU need the specialist, not just the daily check-in tool.",
+    q: "What does SeniorSafe cost, and what does the paid plan add?",
+    a: "SeniorSafe is free, forever: the daily I'm Okay check-in, a text to one family member when it is missed or I Need Help is pressed, notifications, history, the emergency card, medication reminders on your parent's phone, and 10 messages with Maggie, the app's one assistant for your parent and for you. One paid plan, $14.99 a month or $140 a year for the whole family, adds texts to everyone, unlimited family members by code, missed-dose alerts, family messages, the document vault, appointments, and Maggie every day. Maggie knows the full 20-module Blueprint, recognizes resistant parent personas, and walks you through wholesaler offers in real time. No card at signup, no trial clock.",
   },
   {
     q: "Why is the Blueprint free? What's the catch?",
@@ -192,7 +192,7 @@ const faqs: { q: string; a: string }[] = [
   },
   {
     q: "Does the Roadmap really cost nothing?",
-    a: "Yes. The Roadmap is free, by application. The honest trade is your time and detail, not your money: the intake form asks real questions about your family's situation, and the plan is built with Ryan on calls, not downloaded. Ryan takes the families he can genuinely help. SeniorSafe is separate: a 14-day free trial, then $14.99/mo or $39.99/mo with Maggie.",
+    a: "Yes. The Roadmap is free, by application. The honest trade is your time and detail, not your money: the intake form asks real questions about your family's situation, and the plan is built with Ryan on calls, not downloaded. Ryan takes the families he can genuinely help. SeniorSafe is separate, and it is free too. One paid plan, $14.99/mo or $140/yr for the whole family, only if you want it.",
   },
 ];
 
@@ -421,8 +421,9 @@ export default function BlueprintPage() {
             his living on real estate referrals, paid by the agent, never by the
             family, so the education costs you nothing. The one thing we ask:
             when it&rsquo;s time to deal with the house, talk to Ryan first.
-            SeniorSafe, with or without Maggie, is a 14-day free trial. If
-            it&rsquo;s not the right fit, you walk. No hassle, no guilt trip.
+            SeniorSafe is free too. No card, no trial clock, and the one paid
+            plan is there only if your whole family wants in. If it&rsquo;s
+            not the right fit, you walk. No hassle, no guilt trip.
           </p>
         </div>
       </section>
