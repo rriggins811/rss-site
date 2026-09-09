@@ -3,6 +3,18 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   async redirects() {
     return [
+      // The free Roadmap application lives in the Blueprint app. The newsletter and
+      // social first comments use this short form (added 2026-09-09; it 404ed before).
+      {
+        source: "/roadmap/apply",
+        destination: "https://blueprint.rigginsstrategicsolutions.com/roadmap/apply",
+        permanent: true,
+      },
+      {
+        source: "/roadmap",
+        destination: "/the-roadmap",
+        permanent: true,
+      },
       // Senior Help Directory county pages live under /blog/, but the Cowork
       // handoff prompts (and intuition) often reach for the /resources/ form.
       // Permanently redirect any /resources/<x>-county-senior-help-directory to
