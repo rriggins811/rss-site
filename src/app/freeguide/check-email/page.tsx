@@ -54,7 +54,7 @@ export default async function CheckEmailPage({
                 a password on the next screen.
               </li>
               <li>
-                That same login also works for your free SeniorSafe account
+                That same login also works for your free SeniorSafeApp account
                 on your phone. No trial, no card. The app is free forever.
               </li>
             </ol>

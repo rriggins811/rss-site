@@ -89,7 +89,7 @@ export async function generateMetadata({
  *      Renders the placeholder H2 scaffolding so the URL never 404s
  *      between scaffold and full content. (Original behavior.)
  *
- * Both paths keep the same Blueprint/SeniorSafe alternating CTA + Related
+ * Both paths keep the same Blueprint/SeniorSafeApp alternating CTA + Related
  * resources block so navigation and conversion paths stay stable as
  * pillars ship.
  */
@@ -198,10 +198,10 @@ export default async function ResourceArticlePage({
               ) : (
                 <>
                   <h3 className="font-serif text-xl text-navy-700 m-0">
-                    While you&rsquo;re here: try SeniorSafe
+                    While you&rsquo;re here: try SeniorSafeApp
                   </h3>
                   <p className="mt-3 text-ink/80 leading-relaxed">
-                    SeniorSafe is the family app for the daily part of senior
+                    SeniorSafeApp is the family app for the daily part of senior
                     care. A daily I&rsquo;m Okay check-in, a text to one family
                     member when it is missed, medication reminders, and Maggie,
                     one assistant for your parent and for you. Free forever, no
@@ -214,7 +214,7 @@ export default async function ResourceArticlePage({
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      Get SeniorSafe free
+                      Get SeniorSafeApp free
                     </a>
                   </Button>
                 </>
@@ -264,10 +264,10 @@ export default async function ResourceArticlePage({
               ) : (
                 <>
                   <h3 className="font-serif text-xl text-navy-700 m-0">
-                    While you&rsquo;re here: try SeniorSafe
+                    While you&rsquo;re here: try SeniorSafeApp
                   </h3>
                   <p className="mt-3 text-ink/80 leading-relaxed">
-                    SeniorSafe is the family app for the daily part of senior
+                    SeniorSafeApp is the family app for the daily part of senior
                     care. A daily I&rsquo;m Okay check-in, a text to one family
                     member when it is missed, medication reminders, and Maggie,
                     one assistant for your parent and for you. Free forever, no
@@ -280,7 +280,7 @@ export default async function ResourceArticlePage({
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      Get SeniorSafe free
+                      Get SeniorSafeApp free
                     </a>
                   </Button>
                 </>

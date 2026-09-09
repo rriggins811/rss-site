@@ -53,7 +53,7 @@ const navItems: NavItem[] = [
       },
     ],
   },
-  { type: "link", href: "/seniorsafe-app", label: "SeniorSafe" },
+  { type: "link", href: "/seniorsafe-app", label: "SeniorSafeApp" },
   {
     type: "dropdown",
     label: "Free Resources",

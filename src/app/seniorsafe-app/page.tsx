@@ -12,15 +12,15 @@ import { paymentLinks } from "@/lib/payment-links";
 import { seniorSafeMobileApplicationSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "SeniorSafe | The Family App for Senior Care",
+  title: "SeniorSafeApp | The Family App for Senior Care",
   description:
-    "SeniorSafe is free, forever: the daily I'm Okay check-in, a text to one family member when it is missed, medication reminders, and Maggie, one assistant for the senior and the family. One paid plan, $14.99 a month or $140 a year, for the whole family.",
+    "SeniorSafeApp is free, forever: the daily I'm Okay check-in, a text to one family member when it is missed, medication reminders, and Maggie, one assistant for the senior and the family. One paid plan, $14.99 a month or $140 a year, for the whole family.",
   alternates: { canonical: "/seniorsafe-app" },
   openGraph: {
     type: "website",
     url: "https://rigginsstrategicsolutions.com/seniorsafe-app",
     siteName: "Riggins Strategic Solutions",
-    title: "SeniorSafe | The Family App for Senior Care",
+    title: "SeniorSafeApp | The Family App for Senior Care",
     description:
       "Your family. One place. One plan. Free forever: the daily I'm Okay check-in, a text when it is missed, medication reminders, and Maggie, one assistant for the senior and the family. One paid plan, $14.99 a month or $140 a year.",
     images: [
@@ -28,13 +28,13 @@ export const metadata: Metadata = {
         url: "https://rigginsstrategicsolutions.com/og/seniorsafe-app.png",
         width: 1200,
         height: 630,
-        alt: "SeniorSafe: your family, one place, one plan",
+        alt: "SeniorSafeApp: your family, one place, one plan",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "SeniorSafe | The Family App for Senior Care",
+    title: "SeniorSafeApp | The Family App for Senior Care",
     description:
       "Your family. One place. One plan. The daily coordination app for families facing senior care decisions.",
     images: ["https://rigginsstrategicsolutions.com/og/seniorsafe-app.png"],
@@ -143,7 +143,7 @@ export default function SeniorSafePage() {
               Free forever &middot; Paid plan $14.99 a month
             </Badge>
             <h1 className="mt-6 leading-[1.05]">
-              SeniorSafe. The family app for the daily part of senior care.
+              SeniorSafeApp. The family app for the daily part of senior care.
             </h1>
             <p className="mt-6 max-w-prose text-lg leading-relaxed text-ink/80">
               Your parent taps I&rsquo;m Okay once a day. If the tap does not
@@ -153,7 +153,7 @@ export default function SeniorSafePage() {
               with Maggie, the app&rsquo;s one assistant, are free too.
             </p>
             <p className="mt-4 max-w-prose text-lg leading-relaxed text-ink/80">
-              The Blueprint is the plan. SeniorSafe is what keeps it running
+              The Blueprint is the plan. SeniorSafeApp is what keeps it running
               after the move, on the ordinary days.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
@@ -163,7 +163,7 @@ export default function SeniorSafePage() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Get SeniorSafe free
+                  Get SeniorSafeApp free
                 </a>
               </Button>
               <Button asChild size="lg" variant="outline">
@@ -208,7 +208,7 @@ export default function SeniorSafePage() {
             <h2 className="mt-3">Coordination chaos lives in the daily details.</h2>
             <p className="mt-4 text-lg text-ink/80">
               Every family running senior care hits the same four walls.
-              SeniorSafe is built to get past all of them.
+              SeniorSafeApp is built to get past all of them.
             </p>
           </div>
 
@@ -234,7 +234,7 @@ export default function SeniorSafePage() {
                   <div className="mt-4 pt-4 border-t border-border">
                     <p className="text-sm text-ink/85 leading-relaxed">
                       <strong className="text-burgundy-700">
-                        SeniorSafe fixes it:
+                        SeniorSafeApp fixes it:
                       </strong>{" "}
                       {p.fix}
                     </p>
@@ -253,7 +253,7 @@ export default function SeniorSafePage() {
             <GoldRule />
             <h2 className="mt-3">One app. The whole picture.</h2>
             <p className="mt-4 text-lg text-ink/80">
-              Six things SeniorSafe does so the family doesn&rsquo;t have to
+              Six things SeniorSafeApp does so the family doesn&rsquo;t have to
               keep six separate systems in their head. Three are free forever.
               Three come with the paid plan.
             </p>
@@ -291,7 +291,7 @@ export default function SeniorSafePage() {
             <GoldRule />
             <h2 className="mt-3">One assistant. Her name is Maggie.</h2>
             <p className="mt-4 text-lg text-ink/80">
-              SeniorSafe has one assistant, and she works for both sides of
+              SeniorSafeApp has one assistant, and she works for both sides of
               the family.
             </p>
           </div>
@@ -330,7 +330,7 @@ export default function SeniorSafePage() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Get SeniorSafe free
+              Get SeniorSafeApp free
             </a>
           </Button>
         </div>
@@ -399,7 +399,7 @@ export default function SeniorSafePage() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Get SeniorSafe free
+                Get SeniorSafeApp free
               </a>
             </Button>
             <p className="mt-4 text-sm text-cream/70">
@@ -414,7 +414,7 @@ export default function SeniorSafePage() {
       <section className="bg-white">
         <div className="mx-auto max-w-4xl px-6 py-20">
           <GoldRule />
-          <h2 className="mt-3">How SeniorSafe fits with The Blueprint.</h2>
+          <h2 className="mt-3">How SeniorSafeApp fits with The Blueprint.</h2>
           <div className="mt-6 space-y-5 text-lg text-ink/85 leading-relaxed">
             <p>
               The Blueprint is the one-time plan: the framework, the
@@ -423,7 +423,7 @@ export default function SeniorSafePage() {
               families don&rsquo;t need it again.
             </p>
             <p>
-              SeniorSafe is the ongoing layer. The daily check-in and the
+              SeniorSafeApp is the ongoing layer. The daily check-in and the
               medication reminders, free, for years. And on the paid plan, the
               family messages and the document vault that get used every
               week. Built to run after the plan is in motion.
@@ -461,7 +461,7 @@ export default function SeniorSafePage() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Get SeniorSafe free
+              Get SeniorSafeApp free
             </a>
           </Button>
         </div>

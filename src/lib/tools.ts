@@ -251,7 +251,7 @@ export const TOOLS: Tool[] = [
     shortDescription:
       "Find out which RSS path fits your situation",
     description:
-      "Five questions. Routes you to the Blueprint, SeniorSafe, or a consult based on urgency and complexity. No email gate, no pitch.",
+      "Five questions. Routes you to the Blueprint, SeniorSafeApp, or a consult based on urgency and complexity. No email gate, no pitch.",
     category: "assessment",
     minHeight: 1600,
   },

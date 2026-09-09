@@ -28,7 +28,7 @@ export const additionalSameAs = {
     "https://www.linkedin.com/company/111342108",
     // Pinterest business: claimed + DNS-verified May 19, 2026
     "https://www.pinterest.com/rigginsstrategicsolutions",
-    // AlternativeTo: SeniorSafe listing accepted by moderators May 19, 2026
+    // AlternativeTo: SeniorSafeApp listing accepted by moderators May 19, 2026
     "https://alternativeto.net/software/seniorsafe/",
     // Brand handles confirmed June 2026 (entity-stacking Week 7 closeout):
     "https://bsky.app/profile/rigginsstrategic.bsky.social",

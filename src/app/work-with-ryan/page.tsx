@@ -40,7 +40,7 @@ export const metadata: Metadata = {
         url: "https://rigginsstrategicsolutions.com/og/work-with-ryan.png",
         width: 1200,
         height: 630,
-        alt: "Riggins Strategic Solutions, Senior Transition Blueprint and SeniorSafe app",
+        alt: "Riggins Strategic Solutions, Senior Transition Blueprint and SeniorSafeApp app",
       },
     ],
   },
@@ -288,7 +288,7 @@ export default function WorkWithRyanPage() {
               families from the guy I used to be.
             </p>
             <p className="mt-4 max-w-prose text-lg leading-relaxed text-ink/80">
-              A North Carolina broker&rsquo;s license, two books, the SeniorSafe
+              A North Carolina broker&rsquo;s license, two books, the SeniorSafeApp
               app, and a free Blueprint that lays out every option.
             </p>
           </div>

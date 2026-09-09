@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 
 /**
- * SeniorSafe is now live on iPhone, Android, and the web (Apr 29, 2026).
+ * SeniorSafeApp is now live on iPhone, Android, and the web (Apr 29, 2026).
  *
  * URLs are configurable so we can swap in the production App Store /
  * Play Store listings without touching markup.
@@ -76,7 +76,7 @@ export function AppPlatformBadges({
           href={APP_STORE_URL}
           target="_blank"
           rel="noopener noreferrer"
-          aria-label="Download SeniorSafe on the App Store"
+          aria-label="Download SeniorSafeApp on the App Store"
           className="inline-block transition-opacity hover:opacity-85"
         >
           <AppStoreBadge />
@@ -85,7 +85,7 @@ export function AppPlatformBadges({
           href={PLAY_STORE_URL}
           target="_blank"
           rel="noopener noreferrer"
-          aria-label="Get SeniorSafe on Google Play"
+          aria-label="Get SeniorSafeApp on Google Play"
           className="inline-block transition-opacity hover:opacity-85"
         >
           <PlayStoreBadge />
