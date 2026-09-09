@@ -117,7 +117,7 @@ export function organizationSchema() {
     },
     areaServed: ORGANIZATION.areaServed,
     // sameAs reinforces the identity graph: same brand on social profiles,
-    // the SeniorSafe marketing site (consumer brand for the app shipped by
+    // the SeniorSafeApp marketing site (consumer brand for the app shipped by
     // RSS LLC), and any additional org-only profiles from
     // social.ts:additionalSameAs (LinkedIn Company page, future Substack /
     // Medium publication URLs, etc.) that don't render as footer icons.
@@ -614,7 +614,7 @@ export function blueprintPremiumProductSchema() {
 }
 
 /**
- * MobileApplication schema for the SeniorSafe app. Mounted on /seniorsafe-app.
+ * MobileApplication schema for the SeniorSafeApp app. Mounted on /seniorsafe-app.
  * The free plan plus the paid plan's monthly and yearly prices are exposed as
  * Offer[] so Google can surface them in rich results. Intentionally omits
  * aggregateRating until legitimate app store reviews exist (faking ratings
@@ -624,10 +624,10 @@ export function seniorSafeMobileApplicationSchema() {
   return {
     "@context": "https://schema.org",
     "@type": "MobileApplication",
-    name: "SeniorSafe",
-    alternateName: "SeniorSafe App",
+    name: "SeniorSafeApp",
+    alternateName: "SeniorSafeApp",
     description:
-      "SeniorSafe is the free family app for senior care: the daily I'm Okay check-in, a text to one family member when it is missed, medication reminders, and Maggie, one assistant for the senior and the family. One paid plan, $14.99 a month or $140 a year for the whole family, adds texts to everyone, unlimited family members, missed-dose alerts, family messages, the document vault, and appointments.",
+      "SeniorSafeApp is the free family app for senior care: the daily I'm Okay check-in, a text to one family member when it is missed, medication reminders, and Maggie, one assistant for the senior and the family. One paid plan, $14.99 a month or $140 a year for the whole family, adds texts to everyone, unlimited family members, missed-dose alerts, family messages, the document vault, and appointments.",
     operatingSystem: "iOS, Android, Web",
     applicationCategory: "HealthApplication",
     applicationSubCategory: "Family Coordination",
@@ -642,7 +642,7 @@ export function seniorSafeMobileApplicationSchema() {
     offers: [
       {
         "@type": "Offer",
-        name: "SeniorSafe Free",
+        name: "SeniorSafeApp Free",
         price: "0",
         priceCurrency: "USD",
         category: "Free plan",
@@ -650,7 +650,7 @@ export function seniorSafeMobileApplicationSchema() {
       },
       {
         "@type": "Offer",
-        name: "SeniorSafe Paid Plan (monthly)",
+        name: "SeniorSafeApp Paid Plan (monthly)",
         price: "14.99",
         priceCurrency: "USD",
         category: "Subscription",
@@ -665,7 +665,7 @@ export function seniorSafeMobileApplicationSchema() {
       },
       {
         "@type": "Offer",
-        name: "SeniorSafe Paid Plan (yearly)",
+        name: "SeniorSafeApp Paid Plan (yearly)",
         price: "140",
         priceCurrency: "USD",
         category: "Subscription",

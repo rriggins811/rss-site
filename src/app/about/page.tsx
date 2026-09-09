@@ -242,7 +242,7 @@ export default function AboutPage() {
             <h2 className="mt-3">Beyond the advisory.</h2>
             <div className="mt-6 space-y-5 text-ink/85 text-lg leading-relaxed">
               <p>
-                I also built <strong>SeniorSafe</strong>, a family coordination app
+                I also built <strong>SeniorSafeApp</strong>, a family coordination app
                 for the ongoing part of senior care. Daily check-ins, medication
                 reminders, and Maggie, one assistant for the parent and for the
                 family. Free forever. One paid plan, $14.99 a month for the whole
@@ -261,7 +261,7 @@ export default function AboutPage() {
             </div>
             <div className="mt-8 flex flex-wrap gap-3">
               <Button asChild>
-                <Link href="/seniorsafe-app">See SeniorSafe</Link>
+                <Link href="/seniorsafe-app">See SeniorSafeApp</Link>
               </Button>
               <Button asChild variant="outline">
                 <Link href="/contact">Say hi</Link>

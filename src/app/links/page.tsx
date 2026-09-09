@@ -87,7 +87,7 @@ const GROUPS: LinkGroup[] = [
     heading: "The app",
     items: [
       {
-        label: "SeniorSafe App",
+        label: "SeniorSafeApp",
         description:
           "Daily check-ins, medication reminders, and Maggie, one assistant for the family. Free forever, one paid plan for the whole family.",
         href: "https://seniorsafeapp.com",

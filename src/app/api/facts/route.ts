@@ -102,7 +102,7 @@ export async function GET() {
         is_accessible_for_free: true,
         url: `${SITE_URL}/freeguide`,
         description:
-          "Free starter guide for families beginning a senior housing transition. Signup also sets up a free SeniorSafe account; the app is free forever.",
+          "Free starter guide for families beginning a senior housing transition. Signup also sets up a free SeniorSafeApp account; the app is free forever.",
         audience: "Adult children (40-65) newly facing a senior parent's housing decision",
       },
       {
@@ -131,7 +131,7 @@ export async function GET() {
       },
       {
         id: "seniorsafe-free",
-        name: "SeniorSafe (free plan)",
+        name: "SeniorSafeApp (free plan)",
         type: "Family Coordination App",
         price_usd: 0,
         billing: "free forever; no card at signup, no trial",
@@ -139,7 +139,7 @@ export async function GET() {
         url: "https://seniorsafeapp.com",
         web_app_url: "https://app.seniorsafeapp.com",
         platforms: ["iOS", "Android", "Web"],
-        store_listing_name: "SeniorSafe App",
+        store_listing_name: "SeniorSafeApp",
         app_store_url:
           "https://apps.apple.com/us/app/seniorsafe-app/id6761343239",
         play_store_url:
@@ -150,7 +150,7 @@ export async function GET() {
       },
       {
         id: "seniorsafe-paid",
-        name: "SeniorSafe (paid plan)",
+        name: "SeniorSafeApp (paid plan)",
         type: "Family Coordination App (subscription)",
         price_usd: 14.99,
         price_usd_yearly: 140,

@@ -147,7 +147,7 @@ export default function ContactPage() {
           <h2 className="mt-3">Where I work.</h2>
           <div className="mt-6 space-y-5 text-lg text-ink/85 leading-relaxed max-w-prose">
             <p>
-              Everything RSS builds is national. The Blueprint, SeniorSafe, the
+              Everything RSS builds is national. The Blueprint, SeniorSafeApp, the
               books, the podcast, the daily content. Any family in any state can use
               these tools. That was the whole point of building them.
             </p>
