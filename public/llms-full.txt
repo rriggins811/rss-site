@@ -5,8 +5,8 @@ It contains the full Markdown of every key page, resource pillar, Senior Help
 Directory state page, and blog post, intended for AI crawlers that ingest
 content for answer generation.
 
-Generated: 2026-09-08
-Indexed: 130 blog posts, 16 resource pillars, 51 Senior Help Directory state pages, 17 video transcripts.
+Generated: 2026-09-10
+Indexed: 132 blog posts, 16 resource pillars, 51 Senior Help Directory state pages, 17 video transcripts.
 
 For citation guidance, organizational facts, and topic depth, see the summary
 index at https://rigginsstrategicsolutions.com/llms.txt.
@@ -1301,9 +1301,9 @@ By dollars, the most damaging exploitation is often not a stranger overseas. It 
 
 For the full list of local and national help lines, see the [Senior Help Directory](/resources/senior-help-directory).
 
-## How SeniorSafe helps
+## How SeniorSafeApp helps
 
-Isolation is what every one of these scams needs to work, so the fix is staying connected. If a parent is ever unsure about a message, the simplest protection in the world is to have them take a screenshot and ask. SeniorSafe's built-in assistant, Maggie, is built for exactly this: she will tell them to slow down, do not click, do not call the number in the message, and check with family first. Honestly, any AI assistant will do the same if you teach a parent the habit of screenshotting anything that feels off and asking before they act. [See SeniorSafe](https://seniorsafeapp.com).
+Isolation is what every one of these scams needs to work, so the fix is staying connected. If a parent is ever unsure about a message, the simplest protection in the world is to have them take a screenshot and ask. SeniorSafeApp's built-in assistant, Maggie, is built for exactly this: she will tell them to slow down, do not click, do not call the number in the message, and check with family first. Honestly, any AI assistant will do the same if you teach a parent the habit of screenshotting anything that feels off and asking before they act. [See SeniorSafeApp](https://seniorsafeapp.com).
 
 *Source for the headline figure: the FBI Internet Crime Complaint Center (IC3) 2024 Elder Fraud Report, which recorded about 4.885 billion dollars in losses across 147,127 complaints from victims age 60 and older, an average loss of roughly 83,000 dollars, with losses up about 43 percent year over year. Confirmed by AARP reporting, June 2025.*
 
@@ -1326,7 +1326,7 @@ Call the Department of Justice National Elder Fraud Hotline at 1-833-372-8311, r
 
 ## About Ryan Riggins
 
-Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash buyer side to help families avoid the costly mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of Riggins Strategic Solutions and the SeniorSafe app. This page is education, not legal or financial advice.
+Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash buyer side to help families avoid the costly mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of Riggins Strategic Solutions and the SeniorSafeApp app. This page is education, not legal or financial advice.
 
 ---
 
@@ -5186,8 +5186,330 @@ You must qualify for Medicaid, then apply for the Community Choices Waiver, choo
 
 # Blog Posts (newest first)
 
-The 130 posts below are the full body of every published article
+The 132 posts below are the full body of every published article
 on https://rigginsstrategicsolutions.com/blog, in reverse chronological order.
+
+---
+
+# Montgomery County, AL Senior Help Directory: Montgomery, Pike Road and Hope Hull Programs for Seniors and Families (2026)
+https://rigginsstrategicsolutions.com/blog/montgomery-county-al-senior-help-directory
+Published: 2026-09-10
+
+**Excerpt:** Free, plain-English senior help in Montgomery County, AL: a Revenue Commissioner who runs one downtown office and two satellites after the east office closed in 2025, an over-65 exemption that can zero the bill but whose local renewal rule the county does not publish online, an Area Agency on Aging on Cotton Gin Road that answers for Medicare counseling, the Medicaid waiver, caregiver support and free legal help for anyone 60 and older, a Meals on Wheels program delivering to about 450 homebound seniors every weekday, a senior bus fare of one dollar that also applies to anyone holding a Medicare card, a paratransit service that stops three quarters of a mile from the nearest bus route, more than one electric utility so the hardship program depends on the name on the bill, a county repair program that closed in 2023 and still turns up in searches, and no PACE program anywhere in the River Region.
+
+*Free, plain-English help for seniors and families in Montgomery County, AL. Education, not advice. Verify before you rely on it.*
+
+## Start here (works anywhere)
+- 211 (dial 2-1-1), Eldercare Locator 1-800-677-1116, Medicare 1-800-633-4227, Social Security 1-800-772-1213, VA 1-800-827-1000, Alzheimer's 24/7 Helpline 1-800-272-3900, National Elder Fraud Hotline 1-833-372-8311, Crisis Lifeline 988
+
+**Three local front doors:** **Central Alabama Aging Consortium (CAAC), Area Agency on Aging**, **400 Cotton Gin Road, Montgomery, AL 36117**, main **334-240-4680**, toll free **1-800-264-4680**, screening line **334-240-4670**, or the statewide **1-800-AGELINE (1-800-243-5463)** | **Meals on Wheels Montgomery AL Metro Area (Montgomery Area Council on Aging)**, **115 East Jefferson Street, Montgomery, AL 36104**, **334-263-0532** | **2-1-1**, also **888-421-1266**, or **text your ZIP code to 898-211**, available 24/7.
+
+**Start with the office that holds most of this page: the Central Alabama Aging Consortium.** CAAC is the Area Agency on Aging for **Autauga, Elmore and Montgomery counties**, and in this county it is not just a referral line. It takes intake for the **Medicaid Elderly and Disabled Waiver**, runs **SHIP** Medicare counseling and the **Senior Medicare Patrol**, sponsors the senior centers where people gather for lunch, runs the **Alabama Cares** caregiver program, handles **SenioRx** prescription help, provides **Long-Term Care Ombudsman** advocacy, and offers **free legal assistance to people 60 and older**. It is open **Monday to Friday, 8:00 a.m. to 4:30 p.m.**, and the email is **caac.adrc@caac-al.org**. If you only make one call from this page, make it **334-240-4680**.
+
+**The second thing to understand is the line the bus draws.** Montgomery County is the capital city, the town of **Pike Road**, and a large rural stretch beyond them that includes communities like **Hope Hull**. The M's fixed routes and its paratransit service, **MAP**, are built for the city. MAP only operates **within a three quarter mile corridor of the fixed routes**. So a one dollar senior bus fare is a real answer in town and not an answer at all for a farmhouse off Federal Road. Meals, by contrast, reach well beyond the bus, through CAAC's senior centers and Meals on Wheels. Sort out which side of that line an address falls on before you build a plan around it.
+
+**The third pattern is about the tax office, and it is partly a warning about what we could not confirm.** Montgomery County's property tax office is a **Revenue Commissioner**, currently **Janet Buskey**, and the county runs it from a **Downtown Revenue Office** and **two satellites**. The **East Satellite on Atlanta Highway closed in September 2025**, so if a parent used to pay there, that office is gone. The exemption amounts come from state law and are laid out below. What the county does **not** publish online, as far as we could find, is its own rule on whether the over-65 exemption has to be **reclaimed every year**. Other Alabama counties answer that question differently, so we are routing it to the office rather than guessing.
+
+Three more numbers belong on the refrigerator. The **Alabama Adult Abuse Hotline at 1-800-458-7214** takes reports of suspected abuse, neglect or exploitation of an older or disabled adult. The **Long-Term Care Ombudsman**, reached through **CAAC at 334-240-4680** or the state office at **334-242-5753**, is who you call about a nursing home or assisted living facility rather than that facility's own management. And **2-1-1** will tell you which programs currently have money.
+
+## Property tax relief (apply with the Montgomery County Revenue Commissioner, 334-832-1250)
+**Get the office right first.** The Alabama Department of Revenue's official list of county property tax offices shows Montgomery County with a **Revenue Commissioner**, currently **Janet Buskey**, mailing address **P.O. Box 1667, Montgomery, AL 36102**. The county describes the job in one sentence worth knowing: the Revenue Commissioner **handles the mapping, appraising, assessing and collection of property taxes in Montgomery County**, and **is also responsible for granting exemptions from taxes**. One office, start to finish.
+
+**Where to go, now that there are three offices instead of four.** In September 2025 the County Commission announced that the **East Satellite Revenue Office at 5449 Atlanta Highway** would **close effective at noon on Thursday, September 25, 2025**. The offices that remain:
+
+- **Downtown Revenue Office**, **101 South Lawrence Street, Montgomery, AL 36104**, **334-832-1250**
+- **South Satellite Revenue Office**, **3425 McGehee Road, Montgomery, AL 36111**, **334-284-4533**
+- **West Satellite Revenue Office**, **3075 Mobile Highway, Montgomery, AL 36108**, **334-262-4546**
+
+**The Appraisal Department has moved.** The Appraisal Department, which is part of the Revenue Commissioner's office and handles real property, business personal property and mapping, posts that it has **moved to 125 Washington Ave., Montgomery, AL 36104**, with mail still going to **P.O. Box 1667**. The state's county office list still shows an appraisal line of **334-832-1303** and a **Board of Equalization** line of **334-832-1327**. The county's appraisal page notes that **2026 valuation notices were scheduled to be mailed on or about April 15, 2026**, that notices go to **all property owners**, and that **if you are exempt no action need to be taken** on the notice. It also offers an **online appeal**. The county's property records portal is at **montgomery.capturecama.com**.
+
+**What the exemptions are.** Alabama sets the homestead tiers statewide. In the Department of Revenue's own words:
+
+- **H-1.** Taxpayers **under age 65 and not disabled**: **$4,000 assessed value** state and **$2,000 assessed value** county.
+- **H-2.** Taxpayers **65 and older with an annual adjusted gross income of less than $12,000**, or **retired due to permanent and total disability regardless of age**: exempt from **all of the state portion** of the property taxes and **$5,000 of assessed value** on the county portion.
+- **H-3, age 65 and older.** Taxpayers **65 and older with net taxable income of $12,000 or less on the combined taxpayer and spouse federal return**: **exempt from all ad valorem taxes**.
+- **H-3, disabled.** A taxpayer who is **permanently and totally disabled** is **exempt from all ad valorem taxes**, and **there is no income limitation**.
+- **H-4.** Taxpayers **65 and older with income greater than $12,000** on their most recent Alabama return: exempt from **all of the state portion**, plus the regular **$2,000** county homestead exemption.
+
+The Department of Revenue adds a short answer to the question most families ask first. **If you are over 65, or permanently and totally disabled regardless of age, or blind regardless of age, you are exempt from the state portion of property tax.** County taxes may still be due, which is why the tier matters.
+
+**The number that decides it.** The gap between H-4 and H-3 is the gap between trimming a bill and erasing it, and the deciding figure is **net taxable income on the federal return**, not gross income and not the size of the Social Security deposit. Take the actual return to the office before deciding a parent does not qualify.
+
+**Who qualifies at all.** A homestead is **a single-family owner-occupied dwelling and the land thereto, not exceeding 160 acres**, and the owner must **own and occupy it as their primary residence on the first day of the tax year**. The state's instruction on applying is simple: **visit your local county office**.
+
+**What we are routing rather than stating.** We looked for Montgomery County's own exemption guidance, the kind of page that spells out required documents, local deadlines and whether the senior exemptions must be reclaimed each year. The county's Revenue Commissioner page now forwards to the property records portal, and we did not find such a page anywhere on the county site. That matters because **Alabama counties do not handle renewal the same way**: some require the age and income exemptions to be reclaimed annually, others publish no annual rule at all. So do not assume either way. Call **334-832-1250** and ask four questions in one call: which exemption code am I on now, what documents do you need to change it, is there a deadline, and do I have to reclaim it every year. People are often on H-1 when they qualify for H-3.
+
+**A statewide protection that helps whether or not you qualify on age.** Under **Act 2024-344**, Alabama limits the year-over-year increase in taxable assessed value for **Class II and Class III** real property, which includes owner-occupied residential property, to **seven percent**. The base year was **October 1, 2024**, for collections beginning **October 1, 2025**, and the limitation continues **through the fiscal year beginning October 1, 2027**. The cap comes off on a change of ownership, with exceptions for family transfers, transfers because of death and foreclosure redemptions, and also when the classification changes or significant improvements are added. The county's appraisal page links to the same 7 percent cap information.
+
+## Food
+**Meals on Wheels, and it is big here.** The **Montgomery Area Council on Aging**, which now does business as **Meals on Wheels Montgomery AL Metro Area**, has served seniors in Central Alabama **since 1972**. Its program is plain: **every Monday through Friday, volunteers deliver hot, nutritious lunchtime meals to 450 homebound seniors who are unable to prepare their own meals**, and its published eligibility is **homebound senior residents of Montgomery, AL, 60 years or older**. It also runs a **Frozen Meals Program**, a **Pet Food Program** that brings food for recipients' cats and dogs twice a month, and **Holiday Bags** of groceries and hygiene items every December. Call **334-263-0532**, email **mowmama@mowmama.org**, or use the **Refer A Client** form on its website. The office at **115 East Jefferson Street** is open **Monday to Thursday 8 a.m. to 4:30 p.m. and Friday 8 a.m. to noon**.
+
+**Senior centers through the Area Agency on Aging.** CAAC **sponsors senior centers located in various community facilities throughout the tri-county area where seniors gather for lunch and enjoy recreational, educational, physical, and social activities**, and **home delivered lunches are available to home-bound individuals age 60 and older who are unable to attend a senior center**. The Montgomery County sites CAAC lists are **Antioch, Big Roxanna, Dublin, Freewill, New Home, Pilgrim Rest, St. Paul and True Divine Community**, along with a **MACOA pickup** site. CAAC publishes the names but not the addresses, so call **334-240-4680** and ask which is closest. CAAC also offers **nutrition counseling** for people 60 and older identified as at risk for poor nutrition.
+
+**A city senior center with a hot lunch.** The City of Montgomery's **Crump Senior Center**, **1751 Cong. W. L. Dickinson Drive, Montgomery, AL 36109**, **334-625-4547**, is a fully accessible center with exercise classes, table games, tax assistance, a fitness area, a computer lab and a music room, and **members can enjoy a hot lunch for a small fee**. It is open **Monday to Friday, 8 a.m. to 5 p.m.** For an older adult who is more isolated than unwell, this is often the better first call.
+
+**The regional food bank.** The **Heart of Alabama Food Bank** is based at **521 Trade Center Street, Montgomery, AL 36108**, phone **334-263-3784**, and serves **35 counties**, **12 directly** and the rest through four affiliated food banks. Two programs are aimed at older adults. The **Commodity Supplemental Food Program** provides **nutritious USDA Foods** for **low-income seniors aged 60 and older**, and the **Senior Supplement Program** provides **monthly food boxes filled with 12 to 25 pounds of essential, nutritious foods**, with **fresh produce and high-protein foods**. The food bank does not publish the income limits on its program page, so ask when you call. For a pantry near a specific address, use its food map at **hafb.org/food-map** or dial **2-1-1**.
+
+**SNAP, and the short form seniors should ask for by name.** The **Montgomery County Department of Human Resources** is at **3030 Mobile Highway, Montgomery, AL 36108**, mailing address **P.O. Box 250250, Montgomery, AL 36125-0250**, main line **334-293-3100**, open **8:00 a.m. to 4:30 p.m.**, director **Kelly Pearson**. The state's food assistance information line is **334-242-0143 in the Montgomery area** and **800-382-0499** elsewhere. Ask about the **Alabama Elderly Simplified Application Project**. The current state form is for households where **everyone in the SNAP household is age 65 or older**, or where all members are 65 or older and **purchase and prepare food separately from the other people in the home**, and where **no SNAP household member receives earnings from work**. It says you **may file this application by completing at least your name, address, and signing the form**, and for help completing it the state lists **1-800-438-2958**. Many websites still describe this program at age 60, so ask for it by name, not by age.
+
+## Energy and utility help
+**LIHEAP goes through Montgomery Community Action.** ADECA assigns Montgomery County's **LIHEAP** to **Region 8**, **Montgomery Community Action Committee and CDC, Inc.**, **1066 Adams Avenue, Montgomery, AL 36104-4424**, with a **call center at 334-230-5259** and a **main office at 334-263-3474**. It serves **Montgomery County** alone. ADECA sets the income ceiling at **150 percent of the federal poverty level**, prioritizes households with **the elderly, persons with disabilities and young children**, and is blunt that **ADECA does not schedule appointments and does not accept or process applications**. The local agency is the only real door. One practical note: as of this writing, the agency's own website shows that it is **temporarily under construction** and directs anyone needing help to **call 334-263-3474**. So call rather than hunting for an online form.
+
+**Weatherization is a different agency, and it is the county.** For weatherization, ADECA lists **Region 10** as the **Montgomery County Commission**, **430 South Court Street, Montgomery, AL 36104**, with the program delivered through the **Central Alabama Regional Planning and Development Commission (CARPDC)**, contact **Donny Barber**, **334-262-4300**. CARPDC's Weatherization Assistance Program states that **households at or below 200 percent of the poverty income guidelines are considered eligible**, as are households receiving **Supplemental Security Income**, and that it **gives priority to the elderly, families with one or more members with a disability, families with children, or high-energy users**. Its application asks for **proof of property ownership, such as a copy of deed or property tax notification**. Call **1-866-780-4945** toll free or **334-262-4300** and ask for the Weatherization office, or mail an application to **CARPDC Weatherization Program, 430 South Court St., Montgomery, AL 36104**. LIHEAP pays this month's bill. Weatherization is what lowers next winter's.
+
+**Now look at the name on the electric bill, because not every home here is on the same utility.** If the bill says **Alabama Power**, **Project SHARE**, run in partnership with the Salvation Army, **helps low-income Alabamians who are 60+ or disabled pay winter energy bills**, and **in summer, those with medical emergencies may also qualify if funds are available**. Alabama Power directs applicants to **apply at your local Salvation Army office or call 205-328-2420**. In Montgomery, the Salvation Army's corps is at **3460 Carter Hill Road**, phone **334-265-0281**. But **Dixie Electric Cooperative**, a member-owned utility headquartered at **9100 Atlanta Highway, Montgomery, AL 36117**, serves **portions of eight Alabama counties including Montgomery**. Project SHARE is Alabama Power's program, so if the bill says Dixie Electric, call the co-op at **888-349-4332** and ask what help it offers. Its website references **energy audits** and **levelized billing**, which evens out seasonal spikes.
+
+**Two more Alabama Power routes.** For Alabama Power customers, the utility publishes an **Energy Assistant** tool that identifies programs through anonymous questions, **low income assistance programs** for people receiving **SSI or Medicaid**, and **special needs** options including **alternate payment dates** and **Braille and large-print bills**. The **Alabama Business Charitable Trust Fund**, set up by Alabama Power stockholders, supports energy assistance through community action agencies, which in this county means back to **334-230-5259**.
+
+## Medicare, Medicaid, prescriptions
+**Free Medicare counseling, and nobody is selling anything.** CAAC runs **SHIP**, the State Health Insurance Assistance Program, and the **Senior Medicare Patrol**. Its counselors **address Medicare, Medicaid, supplemental insurance, and long-term insurance questions**. Call **334-240-4680** and ask for the ADRC. CAAC puts one number on its SHIP page that every family in this county should read twice: **nearly 60 percent of seniors in Autauga, Elmore and Montgomery counties are missing out on the Medicare Savings Program**. CAAC describes eligibility as based on income limits, and the one way to find out whether a parent fits is to ask.
+
+**Medicaid, and a note about the office address.** Alabama Medicaid's statewide office table lists the **Montgomery District Office** at **200 Interstate Park Drive, Suite 207, Montgomery, AL 36109**, phone **866-621-6509**, serving **Autauga, Bullock, Butler, Chilton, Elmore, Lowndes and Montgomery** counties. The agency's own district map page, however, still describes the Montgomery office as located at the **Montgomery County Health Department, 3060 Mobile Highway, Montgomery, AL 36108**. Two official pages, two addresses. **Call 866-621-6509 before you go** and confirm where to bring paperwork.
+
+**The Elderly and Disabled Waiver.** CAAC describes the **Medicaid Elderly and Disabled Waiver** as a program funded by Alabama Medicaid designed to **help older adults and people with disabilities stay in their own homes or community settings instead of needing a nursing facility**. To qualify, a person must qualify for **full Medicaid benefits, meaning income and assets are within Medicaid limits**, and must have **a level of disability or physical need similar to what would normally qualify you for a nursing home**. Services can include **homemaker services, personal care assistance, companion services, respite care, case management, home-delivered meals, adult day health activities, assistive technology, home modifications, pest control, and personal emergency response systems**. Call **334-240-4680** and **ask for the Intake Department**. CAAC also handles the **ACT Waiver**, for people **who live in a nursing facility but want to transition home or to a community setting**.
+
+**Prescription help.** **SenioRx** is Alabama's prescription assistance program, and it has helped thousands of Alabamians receive **free or low-cost prescription medications from pharmaceutical companies**. You qualify at **age 55 or older** with **a chronic medical condition**, **no prescription drug insurance or limited prescription drug insurance**, and income within certain limits. Eligible clients **may receive a three-month supply of medication**, with **refills permitted as long as the participant remains eligible**. People with a disability qualify at **any age**, including those **in the 24-month Medicare waiting period**. CAAC runs it locally at **334-240-4680**, or call **1-800-AGELINE (1-800-243-5463)**.
+
+## Home repair and safety
+**First, the program you will find in searches that you cannot use.** The **Montgomery Thrive Critical Home Repair Program**, a Montgomery County Commission and City of Montgomery initiative funded through the American Rescue Plan Act and administered by CARPDC, offered free emergency repairs of up to **$25,000** per household, covering roofs, HVAC, plumbing, electrical and more. The county's own page now states that **the Montgomery Thrive Critical Home Repair Program is no longer accepting applications**, and CARPDC dates that to **November 9, 2023**. It still turns up in search results and older news stories. Do not build a plan around it. Questions about it go to **CARPDC at 334-262-4300**.
+
+**What actually works now.** For an owner-occupied home, **weatherization** through CARPDC at **1-866-780-4945** or **334-262-4300** is the most dependable repair-adjacent program, and it gives priority to the elderly and people with disabilities. For someone who qualifies for the **Medicaid Elderly and Disabled Waiver**, CAAC lists **home modifications**, **assistive technology** and **personal emergency response systems** among the services, which is how a grab bar, a ramp or a fall alert button can get paid for; ask at **334-240-4680**. And **2-1-1** knows which church and civic repair ministries currently have volunteers and funds.
+
+**Wandering protection through the Sheriff.** The **Montgomery County Sheriff's Office** runs **Project Lifesaver**, a search and rescue program for **at-risk individuals who are prone to wandering**, including people with **Alzheimer's, dementia, autism or other cognitive diseases**. The office states that through **multi-agency collaboration of monetary and personnel resources we plan to issue bracelets to any resident suffering from a memory-impaired illness**; each bracelet carries a personal PIN registered to the client, and once the Sheriff's Office is contacted, **we will notify the caregiver of their loved ones location**. **Sheriff Cunningham has a Deputy assigned to the program for registration.** The application is on the Sheriff's website, and the program line is **334-832-1369**. The page does not state a fee, so ask about cost when you call. Enroll before there is an incident, not after.
+
+## Rent, housing, emergency cash
+**Public housing and vouchers.** The **Montgomery Housing Authority** is at **525 South Lawrence Street, Montgomery, AL 36104**, phone **334-206-7200**, email **info@mhatoday.org**, open **8:00 a.m. to 4:30 p.m.** Applications are made through an **online portal** where you set up an individual account and can use it for multiple applications. The authority's own website does not publish current waiting list status, so call and ask specifically about **public housing for seniors** as well as about vouchers, since those lists open and close on different schedules. Treat anything you read elsewhere about which lists are open as a reason to call, not a fact.
+
+**A useful accident of geography.** The **Appraisal Department** and the **Montgomery/Bullock/Lowndes County Veterans Service Office** both list **125 Washington Avenue**, Montgomery County Courthouse Annex II. If a widow needs to sort out both a property question and a veterans claim, that is one trip.
+
+**Emergency help.** **Montgomery Community Action at 334-263-3474** is the local community action agency. The **Salvation Army Montgomery Corps** is at **3460 Carter Hill Road, 334-265-0281**. And **2-1-1**, or **888-421-1266**, is the fastest way to find out who has money this month for rent, utilities or food.
+
+## Transportation
+**The M, and the senior fare is a dollar.** Montgomery's bus system, **The M**, is owned by the City of Montgomery and operated under contract by Transdev. The regular fare is **$2.00**. The senior and disabled fare is **$1.00 with valid ID**, and that category **applies to those 65 years of age and older, those with a disability, and those with a Medicare card**. That last group is worth noticing: a person under 65 on Medicare because of a disability rides at the reduced fare too. **Transfers are free with purchase of any fare.** A **7-day pass** is **$10.00** for seniors and disabled riders against **$18.00**, and a **31-day pass** is **$25.00** against **$45.00**. The reduced-fare ID is free: **present evidence of age and/or disability at the Transit System office, 2318 W. Fairview Ave.**, and a photo ID is issued. Customer service is **334-625-4012**.
+
+**Door-to-door service, inside the corridor.** **Montgomery Area Paratransit**, known as **MAP**, is for people **age six and older** who cannot use the fixed route because of a **physical or cognitive disability**. It runs **the same hours as the fixed route buses** and **provides service within a 3/4 mile corridor of fixed routes**. The fare is **$4.00 one way**. To apply, send a **Registration Form** and a **Medical Information Form signed by a physician or social worker** to **MAP Eligibility Dept., 2318 West Fairview Ave., Montgomery, AL 36108**, or call **334-625-4691**. The transit system says a complete application will be processed **within 21 calendar days**, that certification for temporary disabilities is available, and that the longest certification is **three years**. Start before you need it.
+
+**Outside the corridor.** For addresses beyond three quarters of a mile from a route, which covers much of rural Montgomery County, MAP is not an option. Call **CAAC at 334-240-4680** and **2-1-1** and ask what transportation currently operates for your specific community and purpose, whether that is medical appointments, a senior center or groceries. If the person qualifies for the Medicaid Elderly and Disabled Waiver, ask how services can be arranged around the fact that the person cannot get to them.
+
+## Legal help
+**Start with the Area Agency on Aging, because it covers most of what an older adult needs.** CAAC states that **for those individuals ages 60+, legal assistance is available with non-criminal matters such as wills, powers of attorney, advance directives, entitlement programs, housing, debt collection, exploitation, consumer issues, and defense of guardianship**. That list is close to a complete checklist for a family getting ahead of a parent's decline. Call **334-240-4680**.
+
+**Legal Services Alabama, Montgomery office.** **2567 Fairlane Drive, Suite 200, Montgomery, AL 36116**, **local 334-832-4570**, **toll free 1-800-844-5342**, open **Monday to Thursday 8:30 a.m. to 5:00 p.m. and Friday 8:30 a.m. to 4:30 p.m.** It serves **Autauga, Bullock, Butler, Chambers, Chilton, Crenshaw, Elmore, Lee, Lowndes, Macon, Montgomery, Pike, Russell and Tallapoosa** counties, and the published income test is **at or below 125 percent of the federal poverty level**. The statewide intake line is **866-456-4995**, weekdays **8:30 a.m. to 4:30 p.m.**
+
+**Heirs property, which is a land problem as much as a legal one.** Legal Services Alabama states that **individuals affected by heirs property may qualify for free legal help**, and its heirs property work includes **estate and succession planning** and help documenting the **family tree**. Land that passes with no will becomes heirs' property, divided among more relatives each generation until any one of them can force a sale. A will drafted while a parent is still able to sign one prevents a problem that is very hard to fix afterward. Ask about heirs property by name at **866-456-4995**. We did not find a city-funded free will and probate program in Montgomery like the one some Alabama cities run, so the realistic free routes are CAAC for people 60 and older and Legal Services Alabama for households under its income limit.
+
+**The volunteer lawyers.** The **Montgomery County Bar Volunteer Lawyers Program** is **a not-for-profit pro bono program supported by the Montgomery County Bar Foundation**, through which **area lawyers provide free legal assistance to low-income citizens of Montgomery County in certain civil matters**. The income test is **at or below 125 percent of the federal poverty level**. Call **334-265-0222, extension 2**, or write **P.O. Box 644, Montgomery, AL 36101**.
+
+**When it is a safety question, not a legal one.** Suspected abuse, neglect or exploitation of an older or disabled adult goes to the **Alabama Adult Abuse Hotline at 1-800-458-7214**. Complaints about a nursing home, boarding home or assisted living facility go to the **Long-Term Care Ombudsman**, through CAAC, whose ombudsmen **advocate for residents of nursing homes, boarding homes, and assisted living facilities**, at **334-240-4680**, or the state ombudsman at **334-242-5753**. The state is explicit that **complainants do not have to give their name and all information is confidential**.
+
+## Caregiver support
+**Alabama Cares, through CAAC.** **Alabama Cares provides assistance to caregivers who are caring for elderly (60+) family members at home**, and its **services include respite, medical supplies, and education**. Ask for **respite** first, because it is the piece caregivers most need and ask for last. CAAC also runs a **homemaker** service, in which clients are **assisted with general household activities such as changing bed linens, cleaning and laundry**, with **donations encouraged**. Both start at **334-240-4680**.
+
+**Dementia, at any hour.** The **Alzheimer's Association 24/7 Helpline at 1-800-272-3900** is free, staffed **around the clock, 365 days a year**, with interpreters in more than 200 languages. CAAC also lists **Dementia Friendly Alabama** among its projects, so ask about it when you call. If a loved one wanders, enroll in **Project Lifesaver** through the Sheriff at **334-832-1369**.
+
+**For the caregiver who needs somewhere to go, or something to do.** The **Crump Senior Center** at **334-625-4547** offers exercise, games and a hot lunch for members for a small fee. Meals on Wheels Montgomery also runs **RSVP**, the **Retired and Senior Volunteer Program**, at **334-263-0532**, which gives an older adult who is still able a reason to get out of the house on a schedule.
+
+## PACE
+**There is no PACE program serving Montgomery County, and it is worth saying plainly so you stop looking.**
+
+PACE, the **Program of All-Inclusive Care for the Elderly**, bundles **primary care including doctor and nursing services, hospital care, medical specialty services, prescription drugs, dentistry, nursing home care, personal care, physical therapy, adult day care, nutritional counseling, laboratory and x-ray services, social services, and transportation** into one program for people who need nursing-home-level care but want to stay at home. Alabama Medicaid lists four criteria, and an applicant must meet **each** of them: **meet the nursing home level of care**, be **able to live safely in the community at the time of enrollment**, be **55 years of age and older**, and **live in a designated PACE service area, currently Mobile and Baldwin counties**. Those are on the Gulf Coast. Nothing in the River Region qualifies.
+
+**What to ask for instead.** The closest equivalent here is the **Medicaid Elderly and Disabled Waiver**, which assembles homemaker, personal care, respite, adult day, meals, home modifications and case management around a person at home. **CAAC takes the intake at 334-240-4680**; ask for the Intake Department. Then call the **Alabama Medicaid Montgomery District Office at 866-621-6509** about the eligibility paperwork. And ask CAAC the question that saves families weeks: what can start now, while the waiver application is pending.
+
+## Frequently asked questions
+**Dad is 79, has owned the same house near Carter Hill Road since the 1980s, and lives on Social Security and a small pension. What is he actually entitled to?** Possibly a zero property tax bill. Under Alabama's **H-3**, a taxpayer **65 and older with net taxable income of $12,000 or less on the combined federal return** is **exempt from all ad valorem taxes**. The deciding number is **taxable income on the return**, not gross income and not the Social Security deposit. Take the actual return to the **Downtown Revenue Office, 101 South Lawrence Street, 334-832-1250**, and ask which exemption code he is on now. If his income is over $12,000, **H-4** still exempts him from **all of the state portion** of the tax.
+
+**Mom used to pay her taxes at the office on Atlanta Highway. Where does she go now?** That office closed. The **East Satellite Revenue Office at 5449 Atlanta Highway** closed at **noon on September 25, 2025**. The remaining offices are **Downtown, 101 South Lawrence Street, 334-832-1250**; **South, 3425 McGehee Road, 334-284-4533**; and **West, 3075 Mobile Highway, 334-262-4546**. Call before you drive, and while you have someone on the phone, ask whether her senior exemption needs to be renewed and when.
+
+**We are being told Mom needs a nursing home, and we cannot afford it. Is there an alternative?** Ask about the **Medicaid Elderly and Disabled Waiver** through **CAAC at 334-240-4680**, Intake Department. It is for people whose needs are **similar to what would normally qualify you for a nursing home** but who want to stay at home, and it can cover **homemaker services, personal care, companion services, respite, home-delivered meals, adult day health, assistive technology, home modifications and emergency response systems**, with a case manager coordinating. She has to qualify for **full Medicaid**, so call the **Alabama Medicaid Montgomery District Office at 866-621-6509** as well. There is **no PACE program** in this county, so the waiver is the main alternative. If she is already in a facility and wants to come home, ask CAAC about the **ACT Waiver**.
+
+**Mom's power bill is past due and she is 81 on a fixed income. Who actually helps?** Three calls. First, **Montgomery Community Action's LIHEAP call center at 334-230-5259**, or the main office at **334-263-3474**; its website is under construction, so call. Second, check the name on the bill. If it is **Alabama Power**, she is over 60, so ask about **Project SHARE** through the Salvation Army at **334-265-0281** or Alabama Power's listed line **205-328-2420**. If it is **Dixie Electric Cooperative**, call the co-op at **888-349-4332**. Third, ask **CARPDC** about **weatherization** at **334-262-4300**, since that is the one that lowers the bill for good, and she will need proof that she owns the home.
+
+**My father lives out past Pike Road and stopped driving. How does he get to the doctor?** Probably not on the bus. **MAP**, the paratransit service, only runs **within a three quarter mile corridor of the fixed routes**, and much of the county sits outside that. Call **CAAC at 334-240-4680** and **2-1-1** and ask what transportation operates for his exact address and for medical trips specifically. For meals, he does not need to leave home: **Meals on Wheels Montgomery at 334-263-0532** and **CAAC's home delivered lunches** both serve homebound people 60 and older, subject to capacity and where he lives.
+
+**My husband has dementia and I have not slept properly in months. What is in Montgomery County?** Four calls. **334-240-4680** for **Alabama Cares**, and ask directly for **respite**. **334-832-1369** to enroll him in the Sheriff's **Project Lifesaver** program before there is an incident. **1-800-272-3900**, the Alzheimer's Association's free 24/7 helpline, at whatever hour you are actually awake. And if his needs are at the level of a nursing home, ask CAAC about the **Medicaid Elderly and Disabled Waiver**, which can include respite and personal care at home.
+
+**Mom is 74 and I think she qualifies for food stamps, but she will not sit through an interview.** Ask for the **Alabama Elderly Simplified Application Project** by name. The form is for households where **everyone in the SNAP household is age 65 or older** and **no SNAP household member receives earnings from work**, and it says you **may file this application by completing at least your name, address, and signing the form**. Take it to **Montgomery County DHR, 3030 Mobile Highway, 334-293-3100**, or call **1-800-438-2958** for help filling it out. While you are at it, ask the **Heart of Alabama Food Bank at 334-263-3784** about its **Commodity Supplemental Food Program** for low-income seniors 60 and older.
+
+**My parents have family land in the county and there is no will. Is there anything free?** Yes, two routes. If either parent is **60 or older**, CAAC's legal assistance covers **wills, powers of attorney and advance directives** at **334-240-4680**. Separately, **Legal Services Alabama** states that **individuals affected by heirs property may qualify for free legal help**; call the Montgomery office at **334-832-4570** or statewide intake at **866-456-4995**. Land that passes with no will becomes heirs' property, split among more relatives each generation until any one of them can force a sale of the whole. A will signed now prevents a problem that is very hard to undo later.
+
+**Is there anything for a Montgomery County veteran or a veteran's widow?** Yes. The **Montgomery/Bullock/Lowndes County Veterans Service Office** is at **Montgomery County Courthouse Annex II, 125 Washington Ave, Second Floor, Room 220**, phone **334-832-1392**. Call and ask what help it offers with filing a claim. The U.S. Department of Veterans Affairs also operates a **Montgomery Regional Benefit Office**, and the national **VA benefits hotline is 1-800-827-1000**, **Monday through Friday, 8:00 a.m. to 9:00 p.m. Eastern**. If a widow is living on very little and her husband served, ask by name about **survivor benefits and Aid and Attendance**.
+
+## Sources
+- **Alabama Department of Revenue, County Offices, Appraisal and Assessment Records**: the official statewide list of county property tax offices, which lists Montgomery County's office as **Revenue Commissioner**, official **Janet Buskey**, at the Montgomery County Courthouse, 100 S. Lawrence St., mailing P.O. Box 1667, Montgomery, AL 36102, phone 334-832-1250; the Appraisal Office phone 334-832-1303; and the Board of Equalization phone 334-832-1327: https://www.revenue.alabama.gov/property-tax/county-offices-appraisal-assessment-records/ . Verified September 10, 2026.
+- **Montgomery County Commission, news release, "Montgomery County Announces Closure of East Satellite Revenue Office" (posted 09/24/2025)**: source of the closure of the East Satellite Revenue Office at 5449 Atlanta Hwy, Montgomery, AL 36109, "effective at noon on Thursday, September 25, 2025"; the remaining offices, South Satellite Revenue Office, 3425 McGehee Road, Montgomery, AL 36111, Revenue (334) 284-4533, West Satellite Revenue Office, 3075 Mobile Highway, Montgomery, AL 36108, Revenue (334) 262-4546, and Downtown Revenue Office, 101 South Lawrence Street, Montgomery, AL 36104, Revenue (334) 832-1250; and the statement that "The Revenue Commissioner handles the mapping, appraising, assessing and collection of property taxes in Montgomery County. The Revenue Commissioner is also responsible for granting exemptions from taxes and collecting and disbursing taxes": https://www.mc-ala.org/Home/Components/News/News/238/ . Verified September 10, 2026.
+- **Montgomery County, Revenue Commissioner page and Citizen Access Portal**: the county's Revenue Commissioner page forwards to the property records portal at montgomery.capturecama.com, which lists "Janet Buskey, Revenue Commissioner, Montgomery County, 101 S. Lawrence St, Montgomery, AL 36104-1667, (334) 832-1250." No county-published page setting out local exemption documents, deadlines or renewal rules was found on the county site, which is why this page routes that question to the office: https://www.mc-ala.org/government/revenue-commissioner and https://montgomery.capturecama.com/ . Verified September 10, 2026.
+- **Montgomery County, Appraisal Department**: source of the department being part of the Revenue Commissioner's office with Real Property, Business Personal Property and Mapping sections; the notice "We have moved to a new location. Our new location is: 125 Washington Ave. Montgomery, AL 36104," mailing address P.O. Box 1667 Montgomery, AL 36102; the notice that "2026 Valuation notices are scheduled to be mailed out on or about April 15, 2026. Valuation notices are sent to all property owners, if you are exempt no action need to be taken"; the online appeal link; and the link to 7 percent cap information: https://www.mc-ala.org/departments/appraisal . Verified September 10, 2026.
+- **Alabama Department of Revenue, Homestead Exemptions**: source of the H-1, H-2, H-3 (age 65 and older, and disabled with "no income limitation") and H-4 definitions quoted on this page, the definition of a homestead as "a single-family owner-occupied dwelling and the land thereto, not exceeding 160 acres," the requirement to own and occupy it "as their primary residence on the first day of the tax year," and the instruction "Visit your local county office to apply for a homestead exemption": https://www.revenue.alabama.gov/property-tax/homestead-exemptions/ . Verified September 10, 2026.
+- **Alabama Department of Revenue, FAQ, "I am over 65. Do I have to pay property taxes?"**: source of "If you are over 65 years of age, or permanent and totally disabled (regardless of age), or blind (regardless of age), you are exempt from the state portion of property tax," with county taxes still possibly due: https://www.revenue.alabama.gov/faqs/i-am-over-65-do-i-have-to-pay-property-taxes/ . Verified September 10, 2026.
+- **Alabama Department of Revenue, 7% Cap Information, HB73 / Act 2024-344**: source of the limit on the increase in taxable assessed value of Class II and Class III real property "not to exceed seven percent," the base year "effective October 1, 2024, for tax collections beginning October 1, 2025," that "The limitations will continue through the fiscal year beginning October 1, 2027," and the events that remove the cap: https://www.revenue.alabama.gov/property-tax/7-cap-information-hb73-act-2024-344/ . Verified September 10, 2026.
+- **Central Alabama Aging Consortium (CAAC), Contact Us and home page**: source of the address "400 Cotton Gin Road, Montgomery, AL 36117," main (334) 240-4680, toll free (800) 264-4680, screening line (334) 240-4670, email caac.adrc@caac-al.org, hours Monday to Friday 8:00 a.m. to 4:30 p.m., the counties served (Autauga, Elmore and Montgomery), and the program list including SHIP/SMP, SenioRx and Dementia Friendly Alabama: https://centralalabamaaging.org/contact-us/ and https://centralalabamaaging.org/ . Verified September 10, 2026.
+- **CAAC, Community Based Services**: source of the nutrition description, "CAAC sponsors senior centers located in various community facilities throughout the tri-county area where seniors gather for lunch and enjoy recreational, educational, physical, and social activities. Home delivered lunches are available to home-bound individuals age 60 and older who are unable to attend a senior center"; nutrition counseling for people 60 and older at risk for poor nutrition; the SHIP counselor description; and the Montgomery County senior center names (Antioch, Big Roxanna, Dublin, Freewill, MACOA Pickup, New Home, Pilgrim Rest, St. Paul, True Divine Community), published without addresses: https://centralalabamaaging.org/community-based-services/ . Verified September 10, 2026.
+- **CAAC, SHIP/SMP**: source of the State Health Insurance Program and Senior Medicare Patrol listing, the statement "NEARLY 60 PERCENT OF SENIORS IN AUTAUGA, ELMORE AND MONTGOMERY COUNTIES ARE MISSING OUT ON THE MEDICARE SAVINGS PROGRAM," and the instruction to call (334) 240-4680 and ask for ADRC: https://centralalabamaaging.org/ship-smp/ . Verified September 10, 2026.
+- **CAAC, Medicaid Elderly and Disabled Waiver**: source of the description of the waiver as helping "older adults and people with disabilities stay in their own homes or community settings instead of needing a nursing facility," the financial rule of qualifying for "full Medicaid benefits," the medical rule "a level of disability or physical need similar to what would normally qualify you for a nursing home," the services list including homemaker, personal care, companion, respite, case management, home-delivered meals, adult day health, assistive technology, home modifications, pest control and personal emergency response systems, and the instruction to call 334-240-4680 and ask for the Intake Department: https://centralalabamaaging.org/medicaid-elderly-and-disabled-waiver/ . Verified September 10, 2026.
+- **CAAC, In-Home Services**: source of the ACT Waiver description, "Services to individuals with disabilities or long term illnesses, who live in a nursing facility but want to transition home or to a community setting"; the Alabama Cares description, "Provides assistance to caregivers who are caring for elderly (60+) family members at home. Services include respite, medical supplies, and education"; and the homemaker service with "Donations are encouraged": https://centralalabamaaging.org/in-home-services/ . Verified September 10, 2026.
+- **CAAC, Advocacy**: source of "Ombudsmen advocate for residents of nursing homes, boarding homes, and assisted living facilities," the elder abuse prevention description, and "For those individuals ages 60+, legal assistance is available with non-criminal matters such as wills, powers of attorney, advance directives, entitlement programs, housing, debt collection, exploitation, consumer issues, and defense of guardianship": https://centralalabamaaging.org/advocacy/ . Verified September 10, 2026.
+- **Meals on Wheels Montgomery AL Metro Area (Montgomery Area Council on Aging)**: source of the history "The Montgomery Area Council on Aging dba Meals on Wheels Montgomery AL Metro Area, has served seniors in Central Alabama for over 50 years. From our beginnings in 1972"; the program description "Every Monday through Friday, Meals on Wheels volunteers deliver hot, nutritious lunchtime meals to 450 homebound seniors who are unable to prepare their own meals"; the eligibility "homebound senior residents of Montgomery, AL 60 years or older"; the Frozen Meals Program, Pet Food Program, Holiday Bags and RSVP; the Refer A Client option; and the contact phone 334-263-0532, email mowmama@mowmama.org, address 115 East Jefferson Street, Montgomery, AL 36104, and hours Mon-Thu 8am-4:30pm, Fri 8am-12pm: https://mowmama.org/ , https://mowmama.org/programs and https://mowmama.org/about . Verified September 10, 2026.
+- **HandsOn River Region, 211**: source of "DIAL: 2-1-1 or 888-421-1266," "TEXT: text your ZIP code to 898-211," chat at 211connectsalabama.org, and 24/7 availability; River Region United Way's 211 Connects page describes call center specialists who evaluate the caller's needs and connect them with the appropriate organization: https://handsonriverregion.org/211 and https://www.rruw.org/211-connects . Verified September 10, 2026.
+- **City of Montgomery, Crump Senior Center**: source of the address 1751 Cong W L Dickinson Dr., Montgomery, AL 36109, phone (334) 625-4547, the amenities and program description, "Members can enjoy a hot lunch for a small fee," and hours Monday to Friday 8am to 5pm: https://www.funinmontgomery.com/Home/Components/FacilityDirectory/FacilityDirectory/292/3085 . Verified September 10, 2026.
+- **Heart of Alabama Food Bank**: source of the address 521 Trade Center St, Montgomery, AL 36108 and phone 334-263-3784; the service area "Serving Alabama In 35 Counties," 12 directly and 23 through four affiliated food banks; the Commodity Supplemental Food Program for "low-income seniors aged 60 and older" with "nutritious USDA Foods"; the Senior Supplement Program's "monthly food boxes filled with 12 to 25 pounds of essential, nutritious foods"; and the food map and 211 referral for finding a pantry: https://hafb.org/contact-us/ , https://hafb.org/ , https://hafb.org/programs/ and https://hafb.org/find-help/ . Verified September 10, 2026.
+- **Alabama Department of Human Resources, county office contacts and Food Assistance contacts**: source of the Montgomery County DHR entry, director Kelly Pearson, street address 3030 Mobile Hwy, Montgomery, AL 36108, mailing address P.O. Box 250250, Montgomery, AL 36125-0250, main (334) 293-3100, hours 8:00 am until 4:30 pm; and the Food Assistance Information Line, "Montgomery Area: (334) 242-0143, Outside Montgomery Area: (800) 382-0499": https://dhr.alabama.gov/county-office-contact/ and https://dhr.alabama.gov/food-assistance/food-assistance-division-contacts/ . Verified September 10, 2026.
+- **Alabama Department of Human Resources, SNAP Simplified Application for the Elderly (Form DHR-FSD-2198, Rev. 10-25)**: source of the rule that the form is for households where "Everyone in the SNAP household is age 65 or older; or All household members are age 65 or older and purchase and prepare food separately from the other people in the home; and No SNAP household member receives earnings from work," the statement "You may file this application by completing at least your name, address, and signing the form," and the help line 1-800-438-2958: https://dhr.alabama.gov/wp-content/uploads/2025/10/Form-DHR-FSD-2198-AESAP-Application-Rev.-10-25.pdf . Verified September 10, 2026.
+- **ADECA, Low-Income Home Energy Assistance Program, and the LIHEAP regions map**: source of the income ceiling "the applicant's household income must not exceed 150% of the federally established poverty level," the priority for the elderly, persons with disabilities and young children, the statement "ADECA does not schedule appointments and does not accept or process applications," and the Region 8 listing for "Montgomery Community Action Committee & CDC, Inc. (REGION 8), 1066 Adams Avenue, Montgomery, AL 36104-4424, Call center: 334-230-5259, Main office: 334-263-3474," serving Montgomery County: https://adeca.alabama.gov/liheap/ and https://adeca.alabama.gov/wp-content/uploads/LIHEAPRegionsMap.pdf . Verified September 10, 2026.
+- **Montgomery Community Action Committee, home page**: source of the notice "Our website is temporarily under construction as we work to improve your online experience. For immediate assistance or inquiries, please call 334-263-3474": https://mcacinc.org/ . Verified September 10, 2026.
+- **ADECA, Weatherization Assistance Program and agency list**: source of the mission "to reduce energy costs for low-income households, particularly for the elderly, people with disabilities and families with children," the 200 percent of poverty income limit, the statement that ADECA does not accept or process applications, and the Region 10 listing "Montgomery County Commission, The Honorable Elton Dean, Sr., Board Chairman, 430 South Court St., Montgomery, AL 36104," serving Montgomery, contact "Mr. Donny Barber (334) 262-4300, dbarber@carpdc.com": https://adeca.alabama.gov/weatherization/ and https://adeca.alabama.gov/wp-content/uploads/Weatherization-Agency-List.pdf . Verified September 10, 2026.
+- **Central Alabama Regional Planning and Development Commission, Weatherization Assistance Program**: source of the eligibility "Households at or below 200% of the poverty income guidelines are considered eligible" or receiving Supplemental Security Income, the priority to "the elderly, families with one or more members with a disability, families with children, or high-energy users," the proof of ownership requirement, and the application contacts, 430 South Court St., Montgomery, toll free 1-866-780-4945 or (334) 262-4300, with applications mailed to CARPDC Weatherization Program, 430 South Court St., Montgomery, AL 36104: https://carpdc.com/weatherization/weatherization-assistance-program/ . Verified September 10, 2026.
+- **Alabama Power, Payment Assistance Programs**: source of Project SHARE, which "helps low-income Alabamians who are 60+ or disabled pay winter energy bills. In summer, those with medical emergencies may also qualify if funds are available," the instruction to apply at your local Salvation Army office or call 205-328-2420, and the Energy Assistant tool, Special Needs Assistance, Low Income Assistance Programs for SSI and Medicaid recipients, and the Alabama Business Charitable Trust Fund: https://www.alabamapower.com/residential/billing-and-payment-options/payment-assistance-programs.html . Verified September 10, 2026.
+- **The Salvation Army, Montgomery AL Corps**: source of the address 3460 Carter Hill Rd and phone (334) 265-0281: https://www.salvationarmyusa.org/al/montgomery/highland-ave-corps/ . Verified September 10, 2026.
+- **Dixie Electric Cooperative, Service Area**: source of the cooperative serving "portions of eight Alabama counties including Barbour, Bullock, Lee, Lowndes, Macon, Montgomery, Pike and Tallapoosa," "over 21,000 member-owners," the office at 9100 Atlanta Highway, Montgomery, AL 36117, phone 888-349-4332, and the energy audit and levelized billing references: https://www.dixie.coop/service-area . Verified September 10, 2026.
+- **Alabama Medicaid Agency, office locations and Montgomery district map**: the statewide locations table lists the Montgomery District Office at "200 Interstate Park Drive, Suite 207, Montgomery, AL 36109," serving "Autauga, Bullock, Butler, Chilton, Elmore, Lowndes and Montgomery counties," phone (866) 621-6509; the district map page states that "The Alabama Medicaid Agency's Montgomery Office is located at the Montgomery County Health Department, 3060 Mobile Highway, Montgomery, AL 36108." Because the two official pages disagree, this page tells readers to call before going: https://medicaid.alabama.gov/content/10.0_Contact/10.1_Medicaid_Contacts/10.1.1_Medicaid_Locations.aspx and https://medicaid.alabama.gov/10.1.1_DO_Map_Montgomery.aspx . Verified September 10, 2026.
+- **Alabama Medicaid Agency, Program of All-Inclusive Care for the Elderly (PACE)**: source of the services list and the four enrollment criteria, "meet the nursing home level of care," "are able to live safely in the community at the time of enrollment," "be 55 years of age and older," and "live in a designated PACE service area, currently Mobile and Baldwin counties," and that participants may be Medicaid-only, Medicare-only, dually eligible or private pay: https://medicaid.alabama.gov/news_detail.aspx?ID=6237 and https://medicaid.alabama.gov/content/5.0_Managed_Care/5.2_Other_MC_Programs/5.2.3_PACE.aspx . Verified September 10, 2026.
+- **Alabama Department of Senior Services, SenioRx**: source of the description "SenioRx is a prescription medication assistance program that has helped thousands of Alabamians receive FREE or LOW-COST prescription medications from pharmaceutical companies," the eligibility of age 55 or older with a chronic medical condition, no or limited prescription drug insurance and income limits, the three-month supply with refills while eligible, the disability route at any age including the 24-month Medicare waiting period, and the contact 1-800-AGE-LINE (1-800-243-5463): https://alabamaageline.gov/seniorx/ . Verified September 10, 2026.
+- **Montgomery County, Montgomery Thrive Critical Home Repair Program, and CARPDC**: source of "The Montgomery Thrive Critical Home Repair Program is no longer accepting applications," the questions line (334) 262-4300, the ARPA funding and CARPDC administration, and the eligible repairs; CARPDC's page adds "as of November 9th, 2023, the CHR Program is no longer accepting applications" and "Cost of the repairs cannot exceed $25,000/per household": https://www.mc-ala.org/services/montgomery-thrive-critical-home-repair-program and https://carpdc.com/critical-home-repair-program/ . Verified September 10, 2026.
+- **Montgomery County Sheriff's Office, Project Lifesaver**: source of the program description targeting "at-risk" individuals prone to wandering due to "Alzheimer's, dementia, autism or other cognitive diseases," the statement "Through multi-agency collaboration of monetary and personnel resources we plan to issue bracelets to any resident suffering from a memory-impaired illness," the personal PIN and caregiver notification, "Sheriff Cunningham has a Deputy assigned to the program for registration," the online application, and the contact line (334) 832-1369. The page does not state a fee: https://www.montgomerysheriff.com/public-interest/project-life . Verified September 10, 2026.
+- **Montgomery Housing Authority**: source of the address 525 South Lawrence St, Montgomery, AL 36104, phone (334) 206-7200, email info@mhatoday.org, office hours 8:00am to 4:30pm, and the online applicant portal. The authority's site does not publish current waiting list status: https://mhatoday.org/contact/ and https://mhatoday.org/ . Verified September 10, 2026.
+- **Montgomery Transit, The M, Fares, Paratransit and About**: source of the fixed route fare $2.00, the Senior/Disabled fare $1.00 with valid ID, "(SC/D) apply to those 65 years of age and older, those with a disability, and those with a Medicare card," "Transfers: Free with purchase of any fare," the 7-day passes ($18.00 and $10.00) and 31-day passes ($45.00 and $25.00), the paratransit fare $4.00 one way, the free reduced-fare photo ID issued at the Transit System office, 2318 W. Fairview Ave.; the Montgomery Area Paratransit (MAP) eligibility for individuals age 6 and older who cannot use fixed-route service, service "within a 3/4 mile corridor of fixed routes," the same hours as the fixed route buses, the Registration Form and Medical Information Form, the MAP Eligibility Dept. address 2318 West Fairview Ave., Montgomery, AL 36108, phone (334) 625-4691, processing "within 21 calendar days," and the three-year maximum certification; and the customer service phone 334-625-4012 and the ownership and Transdev operation: https://themtransit.com/fares/ , https://themtransit.com/paratransit/ and https://themtransit.com/about/ . Verified September 10, 2026.
+- **Legal Services Alabama and AlabamaLegalHelp.org**: source of the Montgomery office address "2567 Fairlane Drive, Suite 200, Montgomery, AL 36116," the numbers "LOCAL: 334/832-4570 • TOLL FREE: 1-800-844-5342," that is 334-832-4570 and 1-800-844-5342, the hours, the 14 counties served, and the income test at or below 125 percent of the federal poverty level: https://www.alabamalegalhelp.org/organization/montgomery-office-legal-services-alabama . The statewide intake line 866-456-4995 with hours Monday to Friday 8:30am to 4:30pm, and the statement that "Individuals affected by heirs property may qualify for free legal help," are from https://legalservicesalabama.org/heirs-property/ . Verified September 10, 2026.
+- **Montgomery County Bar Volunteer Lawyers Program, via AlabamaLegalHelp.org**: source of the description "a not-for-profit pro bono program supported by the Montgomery County Bar Foundation. Through the MVLP, area lawyers provide free legal assistance to low-income citizens of Montgomery County in certain civil matters," the address P.O. Box 644, Montgomery, AL 36101, the phone 334-265-0222 ext 2, and the income test at or below 125 percent of the federal poverty level: https://www.alabamalegalhelp.org/organization/montgomery-county-bar-volunteer-lawyers-progr/elder-law/wills . Verified September 10, 2026.
+- **Alabama Department of Human Resources, Adult Protective Services, and the Alabama Department of Senior Services, Elder Abuse and Ombudsman**: source of the Adult Abuse Hotline 1-800-458-7214; the state ombudsman line 334-242-5753; the ombudsman duties to resolve residents' problems, protect residents' rights and investigate complaints; and "Complainants do not have to give their name and all information is confidential": https://dhr.alabama.gov/adult-protective-services/ , https://alabamaageline.gov/elder-abuse/ and https://alabamaageline.gov/ombudsman/ . Verified September 10, 2026.
+- **Montgomery County, Resources for Veterans**: source of the "Montgomery/Bullock/Lowndes County Veterans Service Office, Montgomery County Courthouse Annex II, 125 Washington Ave, Second Floor, Room 220, Montgomery, AL 36102, 334-832-1392," and the link to the U.S. Department of Veterans Affairs Montgomery Regional Benefit Office: https://www.mc-ala.org/services/living/veterans-information . Verified September 10, 2026.
+- National anchor lines used in the "Start here" section, all of which work from anywhere: **Eldercare Locator 1-800-677-1116**, a public service of the Administration for Community Living: https://eldercare.acl.gov/ . **Medicare 1-800-633-4227 (1-800-MEDICARE)**, TTY 1-877-486-2048, 24 hours a day, 7 days a week except some federal holidays: https://www.medicare.gov/talk-to-someone . **Social Security 1-800-772-1213**: https://www.usa.gov/agencies/social-security-administration . **VA benefits hotline 800-827-1000**, Monday through Friday, 8:00 a.m. to 9:00 p.m. ET: https://www.va.gov/resources/helpful-va-phone-numbers/ . **Alzheimer's Association Helpline 800.272.3900**, free, around the clock, 365 days a year: https://www.alz.org/help-support/resources/helpline . **National Elder Fraud Hotline 833-372-8311 (833-FRAUD-11)**, a U.S. Department of Justice, Office for Victims of Crime resource for reporting fraud against anyone age 60 or older: https://ovc.ojp.gov/program/stop-elder-fraud/providing-help-restoring-hope . **988 Suicide and Crisis Lifeline**, call, text or chat, 24/7/365: https://988lifeline.org/ . Verified September 10, 2026.
+
+---
+*Verified September 10, 2026. Program names, phone numbers, income limits, and deadlines change. Confirm directly with each program before you rely on it.*
+
+*Ryan Riggins, NC Real Estate License #361546, eXp Realty. Riggins Strategic Solutions is an education and media company, not a real estate sales business. Not financial, tax, medical, or legal advice. Programs and contacts change, confirm directly before relying on them.*
+
+---
+
+# Your Parent Is About to Pick a Medicare Plan for an Address They Are Leaving
+https://rigginsstrategicsolutions.com/blog/medicare-open-enrollment-when-a-move-is-coming
+Published: 2026-09-09
+
+**Excerpt:** Medicare Open Enrollment runs October 15 to December 7, and every guide tells your family to pick the best plan for where your parent lives. If a move is coming, that is the wrong question, and the rules already give you a better one.
+
+Here's the thing nobody tells you in September. Your parent's Medicare plan is about to send them a letter, every Medicare article on the internet is about to tell you to sit down and compare plans before December 7, and for a meaningful number of families that advice is going to produce a careful, well-researched decision about an address they will not be living at by spring.
+
+I spent eight years buying houses from families in transition. The calls I remember most were not the ones where somebody made a bad decision. They were the ones where somebody made a good decision at the wrong moment, and then felt locked into it. A family would tell me they had already handled the insurance, already picked the plan, already done the hard October homework, so the move had to wait until next fall. It did not have to wait. Nobody had told them that.
+
+So if your family is anywhere near a move right now, a move into assisted living, a move across town to be near you, a rehab stay that might not end at home, this is the piece worth ten minutes. Not because Open Enrollment does not matter. It does. Because the thing you are almost certainly not being told is that Medicare already has a door built for exactly your situation, and using it does not cost you the October window. You get both.
+
+You do not need to become an expert. You need to know three dates, one definition, and the one question to ask before you compare a single plan.
+
+## What the Rules Actually Say
+
+Start with the calendar, because two of these dates are the only ones most families ever hear.
+
+Per Medicare.gov, the Open Enrollment Period runs October 15 through December 7, and a change made in that window takes effect January 1 of the next year, as long as the plan gets the request by December 7. That window is written into the regulation too: 42 CFR 422.62(a)(2)(iii) sets the annual coordinated election period as October 15 through December 7 for every year beginning in 2011.
+
+Before that, the letter. Medicare.gov calls it the Plan Annual Notice of Change, and it says the plan sends it in September covering the changes in coverage and costs that take effect in January. The deadline behind it sits in 42 CFR 422.111(d)(2), which requires a plan changing its rules effective January 1 to notify every enrollee at least 15 days before the annual coordinated election period begins. Count back fifteen days from October 15 and you land on September 30. That letter is due in your parent's mailbox in the next three weeks.
+
+Then there's a third date almost nobody mentions. Medicare.gov describes a separate Medicare Advantage Open Enrollment Period running January 1 through March 31, for people already in a Medicare Advantage plan.
+
+And underneath all of it sit the Special Enrollment Periods, which are the part of this that actually fits a family in transition. Medicare.gov states that if your parent moves to a new address where new plan options are available, their chance to switch begins when they move and continues for two full months after. If they tell the plan before the move, that window opens the month before the move instead.
+
+There's a more generous version for a stay in an institution. Medicare.gov states that the chance to join, switch, or drop coverage lasts as long as your parent lives in the institution, plus two full months after the month they move out.
+
+## The Word That Decides Which Door You Get
+
+Here is where families get tripped up, and it is worth slowing down for, because the answer is counterintuitive.
+
+"Institution" in this context is a defined term, and assisted living is not on the list.
+
+The definition lives at 42 CFR 422.2. For purposes of the open enrollment period for institutionalized individuals, it means someone who continuously resides, or is expected to continuously reside, for 90 days or longer in a skilled nursing facility, a Medicaid nursing facility, an intermediate care facility for individuals with intellectual and developmental disabilities, a psychiatric hospital or unit, a rehabilitation hospital or unit, a long-term care hospital, or a swing-bed hospital.
+
+Assisted living communities, independent living, memory care that is licensed as assisted living, and your spare bedroom are not in that list. That is not a technicality you can talk your way past on the phone, and it is not a reason to panic either. It just means your family is using the other door, the one for a change of permanent residence, which is available whenever the new address brings new plan options with it. Regulation 42 CFR 422.62(b)(2) says so directly, extending the special election period to people who have new plan options available as a result of a change in permanent residence.
+
+The practical difference is duration. A skilled nursing stay long enough to count keeps the door open the whole time your parent is there, plus two months after. A move to assisted living gives you a defined window around the move.
+
+Both are real. Both are more flexible than the one week in October your family has been told is their only shot.
+
+## The Network Is the Part That Actually Bites
+
+Premiums are what families compare. Networks are what families feel.
+
+The version of this I see most often: a parent moves twenty-five miles to be closer to a daughter. The plan is the same plan, the premium did not change, nothing looks broken. Then the cardiologist is out of network at the new address, the preferred home health agency the community works with does not contract with that plan, and the skilled nursing facility three minutes away, the one that would matter enormously if there's a fall in February, is not in the network either.
+
+Nobody sent a letter about that, because nothing on the plan's side changed. Your parent moved.
+
+Worth knowing for the other direction, though: when the plan is the one making the change, it owes your family notice. Under 42 CFR 422.111(e), when a Medicare Advantage plan terminates a contracted provider, it must give written notice and make one attempt at telephone notice at least 45 calendar days before the termination date if that provider is a primary care or behavioral health provider, and written notice at least 30 calendar days ahead for other specialties. If a doctor your parent sees regularly drops off, that notice is owed, and it is a legitimate thing to ask about if it never showed up.
+
+## What This Means for Your Family in the Next Three Weeks
+
+The transformation here is small and specific. You stop guessing whether October is the moment, and you become the one who knows the sequence. Choose well for the address your parent lives at today, and keep the move's door in your back pocket. That is the whole strategy. The rest is execution.
+
+### Step 1: Find the letter before it gets thrown away
+
+It arrives in September, it is beige, and it looks exactly like the marketing the plan sends all year. Ask your parent to set aside anything from their plan for the next three weeks, or ask permission to check the mail with them once. Medicare.gov's instruction if it never comes is simple: contact the plan directly.
+
+### Step 2: Answer the move question before you compare anything
+
+Ask it out loud, in plain words. Is there a real chance the address changes in the next twelve months? A tour already scheduled, a waitlist deposit already paid, a rehab stay that might not end at home, a conversation the family keeps having. If the honest answer is yes, you're choosing a plan for the current address on purpose, as a bridge, and you're not going to agonize over it.
+
+### Step 3: Compare for where your parent lives right now
+
+Use the October 15 to December 7 window the way it's designed. Check what changed in the letter, check that the current doctors and current pharmacy are still in network for next year, and make the request by December 7 so coverage starts January 1.
+
+### Step 4: Tell the plan before the move, not after
+
+This is the step that pays. Medicare.gov says telling the plan ahead of a move opens the switching window the month before the move instead of the month of it. That extra month is the difference between choosing calmly and choosing from a hospital discharge planner's office. Put the new address in writing, keep a copy, and note the date you sent it.
+
+### Step 5: Write down the two-month clock
+
+Whichever door your family ends up using, it closes. Two full months after the move for a change of address, two full months after the month your parent leaves an institution for that one. Put the closing date on the calendar the day the move happens, not later.
+
+## Frequently Asked Questions
+
+### When does Medicare Open Enrollment start and end in 2026?
+
+Per Medicare.gov, the Open Enrollment Period runs October 15 through December 7. A change made in that window takes effect January 1 of the next year, and the plan has to receive the request by December 7. The same dates appear in the regulation at 42 CFR 422.62(a)(2)(iii).
+
+### When does the Annual Notice of Change arrive?
+
+Medicare.gov says the plan sends the Plan Annual Notice of Change in September, and it covers the changes in coverage and costs that take effect in January. The underlying rule at 42 CFR 422.111(d)(2) requires notice at least 15 days before the annual coordinated election period begins, which places the deadline at September 30. If it does not arrive, Medicare.gov says to contact the plan directly.
+
+### Can my parent change Medicare plans after moving to assisted living?
+
+Yes, if the new address brings new plan options with it. Medicare.gov states that when you move to a new address where new plan options are available, the chance to switch begins when you move and continues for two full months after, and that telling the plan before the move opens the window the month before instead. Assisted living does not qualify as an institution under 42 CFR 422.2, so this is the door that applies rather than the institutional one.
+
+### Does a nursing home stay give a longer window to switch plans?
+
+It can. Medicare.gov states that for someone living in an institution, the chance to join, switch, or drop coverage lasts as long as they live there plus two full months after the month they move out. The definition at 42 CFR 422.2 covers a stay of 90 days or longer in settings including a skilled nursing facility, a nursing facility, a rehabilitation hospital or unit, and a long-term care hospital.
+
+### What if a doctor leaves the plan's network mid-year?
+
+The plan owes notice. Under 42 CFR 422.111(e), a Medicare Advantage plan terminating a contracted primary care or behavioral health provider must give written notice and make one attempt at telephone notice at least 45 calendar days before the termination date, and must give written notice at least 30 calendar days ahead for other specialties.
+
+## About Ryan Riggins
+
+Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafeApp app](https://seniorsafeapp.com).
+
+---
+
+**Want to see the holes before they cost you?** The free Medicare Gap Analyzer walks through what Medicare does not cover in about three minutes, no email required: rigginsstrategicsolutions.com/tools/medicare-gap-analyzer
+
+**Want a step-by-step guide?** The Senior Transition Blueprint is free, all 20 modules and 69 tools: rigginsstrategicsolutions.com/the-blueprint
+
+**Not sure where your family stands?** The free Family Readiness Score takes five minutes and shows the gaps across the home, the money, the legal documents, care, and family alignment: rigginsstrategicsolutions.com/tools/family-readiness-score
+
+**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
+
+**Selling a parent's home?** Ryan finds and vets the right local agent for your situation and stays in your corner on the whole sale, at no added cost to your family: rigginsstrategicsolutions.com/in-your-corner
+
+**Coordinate the family in one place.** SeniorSafeApp keeps daily check-ins, medications, and documents where the whole family can see them: seniorsafeapp.com
+
+## Sources
+
+All sources checked September 9, 2026.
+
+- Medicare.gov, Joining a health or drug plan. Source for the Open Enrollment Period running October 15 through December 7 with coverage starting January 1 provided the plan gets the request by December 7, and for the Medicare Advantage Open Enrollment Period running January 1 through March 31. https://www.medicare.gov/basics/get-started-with-medicare/get-more-coverage/joining-a-plan
+- Medicare.gov, Special Enrollment Periods. Source for the change-of-address window beginning when you move and continuing for two full months after, for the window opening the month before the move if you tell the plan first, and for the institutional window lasting as long as you live in the institution plus two full months after the month you move out. https://www.medicare.gov/basics/get-started-with-medicare/get-more-coverage/joining-a-plan/special-enrollment-periods
+- Medicare.gov, Plan Annual Notice of Change (ANOC). Source for the plan sending the notice in September, for it covering changes in coverage and costs effective in January, and for Medicare's instruction to contact the plan if it does not arrive. https://www.medicare.gov/basics/forms-publications-mailings/mailings/costs-and-coverage/upcoming-plan-changes
+- 42 CFR 422.111(d)(2) and 422.111(e), retrieved as XML from GovInfo. Source for the requirement to notify all enrollees of changes effective January 1 at least 15 days before the annual coordinated election period begins, and for the provider termination notice requirements of 45 calendar days with one telephone attempt for primary care and behavioral health providers and 30 calendar days written notice for other specialties. https://www.govinfo.gov/content/pkg/CFR-2025-title42-vol3/xml/CFR-2025-title42-vol3-sec422-111.xml
+- 42 CFR 422.62(a)(2)(iii), 422.62(a)(4) and 422.62(b)(2), retrieved as XML from GovInfo. Source for the annual coordinated election period running October 15 through December 7, for institutionalized individuals not being limited in the number of elections or changes they may make, and for the special election period extending to individuals who have new plan options available as a result of a change in permanent residence. https://www.govinfo.gov/content/pkg/CFR-2025-title42-vol3/xml/CFR-2025-title42-vol3-sec422-62.xml
+- 42 CFR 422.2, retrieved as XML from GovInfo. Source for the definition of "institutionalized" as continuous residence, or expected continuous residence, of 90 days or longer in a skilled nursing facility, nursing facility, intermediate care facility for individuals with intellectual and developmental disabilities, psychiatric hospital or unit, rehabilitation hospital or unit, long-term care hospital, or swing-bed hospital. https://www.govinfo.gov/content/pkg/CFR-2025-title42-vol3/xml/CFR-2025-title42-vol3-sec422-2.xml
+
+The September 30 date stated in this post is arithmetic performed on the two cited regulations, counting back the 15-day notice margin in 42 CFR 422.111(d)(2) from the October 15 start of the annual coordinated election period in 42 CFR 422.62(a)(2)(iii). It is not a separate CMS statement.
 
 ---
 
@@ -5513,7 +5835,7 @@ Only as an Eligible Non-Borrowing Spouse. Under 24 CFR 206.55(c)(1), they must h
 
 ## About Ryan Riggins
 
-Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafe app](https://seniorsafeapp.com).
+Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafeApp app](https://seniorsafeapp.com).
 
 ---
 
@@ -5671,7 +5993,7 @@ They are generally enrolled in their current plan's 2027 version at its 2027 pre
 
 ## About Ryan Riggins
 
-Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafe app](https://seniorsafeapp.com).
+Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafeApp app](https://seniorsafeapp.com).
 
 ---
 
@@ -6064,7 +6386,7 @@ Not without permission, and getting it is straightforward. By law 1-800-MEDICARE
 
 ## About Ryan Riggins
 
-Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafe app](https://seniorsafeapp.com).
+Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafeApp app](https://seniorsafeapp.com).
 
 ---
 
@@ -6484,7 +6806,7 @@ Sometimes, through Medicaid. Medicaid.gov describes self-directed services in wh
 
 ## About Ryan Riggins
 
-Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafe app](https://seniorsafeapp.com).
+Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafeApp app](https://seniorsafeapp.com).
 
 ---
 
@@ -6617,7 +6939,7 @@ No, and treating it that way would eliminate roughly seven of every eight homes 
 
 ## About Ryan Riggins
 
-Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafe app](https://seniorsafeapp.com).
+Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafeApp app](https://seniorsafeapp.com).
 
 ---
 
@@ -7114,7 +7436,7 @@ No. Under 42 CFR 460.158, PACE enrollment is effective on the first day of the c
 
 ## About Ryan Riggins
 
-Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafe app](https://seniorsafeapp.com).
+Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafeApp app](https://seniorsafeapp.com).
 
 ---
 
@@ -7514,7 +7836,7 @@ CMS finalized a broad definition. A caregiver is an adult family member or other
 
 ## About Ryan Riggins
 
-Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafe app](https://seniorsafeapp.com).
+Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafeApp app](https://seniorsafeapp.com).
 
 ---
 
@@ -8567,7 +8889,7 @@ Yes. In the Contract Year 2027 final rule, CMS eliminated the 48-hour waiting pe
 
 ## About Ryan Riggins
 
-Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafe app](https://seniorsafeapp.com).
+Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafeApp app](https://seniorsafeapp.com).
 
 ---
 
@@ -8926,7 +9248,7 @@ No. Section 2 of Louisiana's Act 807 states the Act does not apply to wholesalin
 
 ## About Ryan Riggins
 
-Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafe app](https://seniorsafeapp.com).
+Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafeApp app](https://seniorsafeapp.com).
 
 ---
 
@@ -9393,7 +9715,7 @@ Carrying costs keep running, which is the real risk. Taxes, insurance, utilities
 
 ## About Ryan Riggins
 
-Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafe app](https://seniorsafeapp.com).
+Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafeApp app](https://seniorsafeapp.com).
 
 ---
 
@@ -9535,7 +9857,7 @@ No. The final rule was published January 10, 2025 and took effect March 1, 2026,
 
 ## About Ryan Riggins
 
-Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafe app](https://seniorsafeapp.com).
+Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafeApp app](https://seniorsafeapp.com).
 
 ---
 
@@ -9678,7 +10000,7 @@ Area Agencies on Aging are the local bodies that administer Older Americans Act 
 
 ## About Ryan Riggins
 
-Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafe app](https://seniorsafeapp.com).
+Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafeApp app](https://seniorsafeapp.com).
 
 ---
 
@@ -10188,7 +10510,7 @@ Yes. The comment period on CMS-1844-P is open to anyone, not only providers, and
 
 ## About Ryan Riggins
 
-Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafe app](https://seniorsafeapp.com).
+Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafeApp app](https://seniorsafeapp.com).
 
 ---
 
@@ -10332,7 +10654,7 @@ The addendum itself has to tell you about your right to immediate advocacy throu
 
 ## About Ryan Riggins
 
-Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafe app](https://seniorsafeapp.com).
+Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafeApp app](https://seniorsafeapp.com).
 
 ---
 
@@ -10653,7 +10975,7 @@ Talk to somebody whose job isn't listing the house. That's the entire reason my 
 
 ## About Ryan Riggins
 
-Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafe app](https://seniorsafeapp.com).
+Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafeApp app](https://seniorsafeapp.com).
 
 ---
 
@@ -10958,7 +11280,7 @@ Not soon. In the rule published July 31, 2026, CMS finalized shortening the data
 
 ## About Ryan Riggins
 
-Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafe app](https://seniorsafeapp.com).
+Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafeApp app](https://seniorsafeapp.com).
 
 ---
 
@@ -11110,7 +11432,7 @@ Per the CMS 2027 rate announcement, the standard deductible rises from $615 to $
 
 ## About Ryan Riggins
 
-Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafe app](https://seniorsafeapp.com).
+Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafeApp app](https://seniorsafeapp.com).
 
 ---
 
@@ -11553,7 +11875,7 @@ Nothing. CMS does not permit GUIDE providers to charge patients for GUIDE servic
 
 ## About Ryan Riggins
 
-Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafe app](https://seniorsafeapp.com).
+Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafeApp app](https://seniorsafeapp.com).
 
 ---
 
@@ -11660,7 +11982,7 @@ Out-of-state property is a common target because distance means nobody is watchi
 
 ## About Ryan Riggins
 
-Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafe app](https://seniorsafeapp.com).
+Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafeApp app](https://seniorsafeapp.com).
 
 ---
 
@@ -11672,11 +11994,11 @@ Ryan Riggins is a senior transition advisor and former house flipper. After 8+ y
 
 **Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
 
-**Coordinate your family in one place.** SeniorSafe app (web, iPhone, Android): app.seniorsafeapp.com
+**Coordinate your family in one place.** SeniorSafeApp app (web, iPhone, Android): app.seniorsafeapp.com
 
 **Talk it through.** Book a free 20-min call with Ryan: rigginsstrategicsolutions.com/work-with-ryan
 
-### Get the SeniorSafe App
+### Get the SeniorSafeApp
 
 [Download on the App Store](https://apps.apple.com/us/app/seniorsafe-app/id6761343239)
 
@@ -11781,7 +12103,7 @@ Not necessarily. Given the current litigation, it is worth having an attorney or
 
 ## About Ryan Riggins
 
-Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafe app](https://seniorsafeapp.com).
+Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafeApp app](https://seniorsafeapp.com).
 
 ---
 
@@ -11797,7 +12119,7 @@ Ryan Riggins is a senior transition advisor and former house flipper. After 8+ y
 
 **Related reading:** The government just asked whether reverse mortgage paperwork works, and the comment window is open: rigginsstrategicsolutions.com/blog/cfpb-reverse-mortgage-disclosure-comment-window-2026
 
-### Get the SeniorSafe App
+### Get the SeniorSafeApp
 
 [Download on the App Store](https://apps.apple.com/us/app/seniorsafe-app/id6761343239)
 
@@ -11929,7 +12251,7 @@ Yes, and it should be someone with no financial stake in your decision. HUD-appr
 
 ## About Ryan Riggins
 
-Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafe app](https://seniorsafeapp.com).
+Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafeApp app](https://seniorsafeapp.com).
 
 ---
 
@@ -11941,11 +12263,11 @@ Ryan Riggins is a senior transition advisor and former house flipper. After 8+ y
 
 **Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
 
-**Coordinate your family in one place.** SeniorSafe app (web, iPhone, Android): app.seniorsafeapp.com
+**Coordinate your family in one place.** SeniorSafeApp app (web, iPhone, Android): app.seniorsafeapp.com
 
 **Talk it through.** Book a free 20-min call with Ryan: rigginsstrategicsolutions.com/work-with-ryan
 
-### Get the SeniorSafe App
+### Get the SeniorSafeApp
 
 [Download on the App Store](https://apps.apple.com/us/app/seniorsafe-app/id6761343239)
 
@@ -12103,11 +12425,11 @@ Two weeks is a reasonable floor, and Missouri just made that number official for
 
 **Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
 
-**Coordinate your family in one place.** SeniorSafe app (web, iPhone, Android): app.seniorsafeapp.com
+**Coordinate your family in one place.** SeniorSafeApp app (web, iPhone, Android): app.seniorsafeapp.com
 
 **Talk it through.** Book a free 20-min call with Ryan: rigginsstrategicsolutions.com/work-with-ryan
 
-### Get the SeniorSafe App
+### Get the SeniorSafeApp
 
 [Download on the App Store](https://apps.apple.com/us/app/seniorsafe-app/id6761343239)
 
@@ -12115,7 +12437,7 @@ Two weeks is a reasonable floor, and Missouri just made that number official for
 
 ## About Ryan Riggins
 
-Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafe app](https://seniorsafeapp.com).
+Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafeApp app](https://seniorsafeapp.com).
 
 Ryan Riggins is the founder of Riggins Strategic Solutions, a consumer protection company for families in a senior transition. He spent 8 years in construction project management and house flipping before switching sides. Two books on Amazon. Free resources at rigginsstrategicsolutions.com.
 
@@ -12269,7 +12591,7 @@ Run your own numbers before anyone gives you theirs. Figure out the realistic ne
 
 ## About Ryan Riggins
 
-Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafe app](https://seniorsafeapp.com).
+Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafeApp app](https://seniorsafeapp.com).
 
 ---
 
@@ -12283,11 +12605,11 @@ Ryan Riggins is a senior transition advisor and former house flipper. After 8+ y
 
 **Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
 
-**Coordinate your family in one place.** SeniorSafe app (web, iPhone, Android): app.seniorsafeapp.com
+**Coordinate your family in one place.** SeniorSafeApp app (web, iPhone, Android): app.seniorsafeapp.com
 
 **Talk it through.** Book a free 20-min call with Ryan: rigginsstrategicsolutions.com/work-with-ryan
 
-### Get the SeniorSafe App
+### Get the SeniorSafeApp
 
 [Download on the App Store](https://apps.apple.com/us/app/seniorsafe-app/id6761343239)
 
@@ -12386,7 +12708,7 @@ Yes, sometimes. If a home needs major repairs the family cannot handle, or a fas
 
 ## About Ryan Riggins
 
-Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafe app](https://seniorsafeapp.com).
+Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafeApp app](https://seniorsafeapp.com).
 
 ---
 
@@ -12400,7 +12722,7 @@ Ryan Riggins is a senior transition advisor and former house flipper. After 8+ y
 
 **Talk it through.** Book a free 20-min call with Ryan: rigginsstrategicsolutions.com/work-with-ryan
 
-### Get the SeniorSafe App
+### Get the SeniorSafeApp
 
 [Download on the App Store](https://apps.apple.com/us/app/seniorsafe-app/id6761343239)
 
@@ -12556,7 +12878,7 @@ Not necessarily. Read the contract for an inspection period, a due diligence win
 
 ## About Ryan Riggins
 
-Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafe app](https://seniorsafeapp.com).
+Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafeApp app](https://seniorsafeapp.com).
 
 ---
 
@@ -12568,11 +12890,11 @@ Ryan Riggins is a senior transition advisor and former house flipper. After 8+ y
 
 **Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
 
-**Coordinate your family in one place.** SeniorSafe app (web, iPhone, Android): app.seniorsafeapp.com
+**Coordinate your family in one place.** SeniorSafeApp app (web, iPhone, Android): app.seniorsafeapp.com
 
 **Talk it through.** Book a free 20-min call with Ryan: rigginsstrategicsolutions.com/work-with-ryan
 
-### Get the SeniorSafe App
+### Get the SeniorSafeApp
 
 [Download on the App Store](https://apps.apple.com/us/app/seniorsafe-app/id6761343239)
 
@@ -12791,7 +13113,7 @@ Medicare is the federal health insurance most people get at 65 and it is not sub
 
 ## About Ryan Riggins
 
-Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafe app](https://seniorsafeapp.com).
+Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafeApp app](https://seniorsafeapp.com).
 
 ---
 
@@ -12801,11 +13123,11 @@ Ryan Riggins is a senior transition advisor and former house flipper. After 8+ y
 
 **Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
 
-**Coordinate your family in one place.** SeniorSafe app (web, iPhone, Android): app.seniorsafeapp.com
+**Coordinate your family in one place.** SeniorSafeApp app (web, iPhone, Android): app.seniorsafeapp.com
 
 **Related reading:** Home Equity Investments and Seniors, the "Not a Loan" pitch families should read twice: rigginsstrategicsolutions.com/blog/home-equity-investments-seniors-not-a-loan
 
-### Get the SeniorSafe App
+### Get the SeniorSafeApp
 
 [Download on the App Store](https://apps.apple.com/us/app/seniorsafe-app/id6761343239)
 
@@ -13436,7 +13758,7 @@ Do not sign the same day. Ask in writing what they will owe if the home rises in
 
 ## About Ryan Riggins
 
-Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafe app](https://seniorsafeapp.com).
+Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafeApp app](https://seniorsafeapp.com).
 
 ---
 
@@ -13448,11 +13770,11 @@ Ryan Riggins is a senior transition advisor and former house flipper. After 8+ y
 
 **Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
 
-**Coordinate your family in one place.** SeniorSafe app (web, iPhone, Android): app.seniorsafeapp.com
+**Coordinate your family in one place.** SeniorSafeApp app (web, iPhone, Android): app.seniorsafeapp.com
 
 **Talk it through.** Book a free 20-min call with Ryan: rigginsstrategicsolutions.com/work-with-ryan
 
-### Get the SeniorSafe App
+### Get the SeniorSafeApp
 
 [Download on the App Store](https://apps.apple.com/us/app/seniorsafe-app/id6761343239)
 
@@ -13758,7 +14080,7 @@ Ideally years before care is needed, because the best tools, from long-term care
 
 ## About Ryan Riggins
 
-Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafe app](https://seniorsafeapp.com).
+Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafeApp app](https://seniorsafeapp.com).
 
 ---
 
@@ -13772,7 +14094,7 @@ Ryan Riggins is a senior transition advisor and former house flipper. After 8+ y
 
 **Talk it through.** Book a free 20-min call with Ryan: rigginsstrategicsolutions.com/work-with-ryan
 
-### Get the SeniorSafe App
+### Get the SeniorSafeApp
 
 [Download on the App Store](https://apps.apple.com/us/app/seniorsafe-app/id6761343239)
 
@@ -14504,7 +14826,7 @@ Do not panic and do not assume it is over. First, check for a cancellation or co
 
 ## About Ryan Riggins
 
-Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafe app](https://seniorsafeapp.com).
+Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafeApp app](https://seniorsafeapp.com).
 
 ---
 
@@ -14516,11 +14838,11 @@ Ryan Riggins is a senior transition advisor and former house flipper. After 8+ y
 
 **Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
 
-**Coordinate your family in one place.** SeniorSafe app (web, iPhone, Android): app.seniorsafeapp.com
+**Coordinate your family in one place.** SeniorSafeApp app (web, iPhone, Android): app.seniorsafeapp.com
 
 **Talk it through.** Book a free 20-min call with Ryan: rigginsstrategicsolutions.com/work-with-ryan
 
-### Get the SeniorSafe App
+### Get the SeniorSafeApp
 
 [Download on the App Store](https://apps.apple.com/us/app/seniorsafe-app/id6761343239)
 
@@ -15050,7 +15372,7 @@ Act quickly. Contact the county Register of Deeds or recorder where the property
 
 ## About Ryan Riggins
 
-Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafe app](https://seniorsafeapp.com).
+Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafeApp app](https://seniorsafeapp.com).
 
 ---
 
@@ -15062,11 +15384,11 @@ Ryan Riggins is a senior transition advisor and former house flipper. After 8+ y
 
 **Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
 
-**Coordinate your family in one place.** SeniorSafe app (web, iPhone, Android): app.seniorsafeapp.com
+**Coordinate your family in one place.** SeniorSafeApp app (web, iPhone, Android): app.seniorsafeapp.com
 
 **Talk it through.** Book a free 20-min call with Ryan: rigginsstrategicsolutions.com/work-with-ryan
 
-### Get the SeniorSafe App
+### Get the SeniorSafeApp
 
 [Download on the App Store](https://apps.apple.com/us/app/seniorsafe-app/id6761343239)
 
@@ -15682,7 +16004,7 @@ It depends on the situation, but for most families the gap between a fair-market
 
 ## About Ryan Riggins
 
-Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafe app](https://seniorsafeapp.com).
+Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafeApp app](https://seniorsafeapp.com).
 
 ---
 
@@ -15696,7 +16018,7 @@ Ryan Riggins is a senior transition advisor and former house flipper. After 8+ y
 
 **Talk it through.** Book a free 20-min call with Ryan: rigginsstrategicsolutions.com/work-with-ryan
 
-### Get the SeniorSafe App
+### Get the SeniorSafeApp
 
 [Download on the App Store](https://apps.apple.com/us/app/seniorsafe-app/id6761343239)
 
@@ -16004,7 +16326,7 @@ Generally no. Medicare does not cover custodial long-term care, which is most of
 
 ## About Ryan Riggins
 
-Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafe app](https://seniorsafeapp.com).
+Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafeApp app](https://seniorsafeapp.com).
 
 ---
 
@@ -16016,11 +16338,11 @@ Ryan Riggins is a senior transition advisor and former house flipper. After 8+ y
 
 **Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
 
-**Coordinate your family in one place.** SeniorSafe app (web, iPhone, Android): app.seniorsafeapp.com
+**Coordinate your family in one place.** SeniorSafeApp app (web, iPhone, Android): app.seniorsafeapp.com
 
 **Talk it through.** Book a free 20-min call with Ryan: rigginsstrategicsolutions.com/work-with-ryan
 
-### Get the SeniorSafe App
+### Get the SeniorSafeApp
 
 [Download on the App Store](https://apps.apple.com/us/app/seniorsafe-app/id6761343239)
 
@@ -16446,7 +16768,7 @@ For the first time, Medicare negotiated lower prices on 10 high-cost brand-name 
 
 ## About Ryan Riggins
 
-Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafe app](https://seniorsafeapp.com).
+Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafeApp app](https://seniorsafeapp.com).
 
 ---
 
@@ -16458,11 +16780,11 @@ Ryan Riggins is a senior transition advisor and former house flipper. After 8+ y
 
 **Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
 
-**Coordinate your family in one place.** SeniorSafe app (web, iPhone, Android): app.seniorsafeapp.com
+**Coordinate your family in one place.** SeniorSafeApp app (web, iPhone, Android): app.seniorsafeapp.com
 
 **Talk it through.** Book a free 20-min call with Ryan: rigginsstrategicsolutions.com/work-with-ryan
 
-### Get the SeniorSafe App
+### Get the SeniorSafeApp
 
 [Download on the App Store](https://apps.apple.com/us/app/seniorsafe-app/id6761343239)
 
@@ -17196,7 +17518,7 @@ Contact your county register of deeds immediately, file a report with local law 
 
 ## About Ryan Riggins
 
-Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafe app](https://seniorsafeapp.com).
+Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafeApp app](https://seniorsafeapp.com).
 
 ---
 
@@ -17208,11 +17530,11 @@ Ryan Riggins is a senior transition advisor and former house flipper. After 8+ y
 
 **Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
 
-**Coordinate your family in one place.** SeniorSafe app (web, iPhone, Android): app.seniorsafeapp.com
+**Coordinate your family in one place.** SeniorSafeApp app (web, iPhone, Android): app.seniorsafeapp.com
 
 **Talk it through.** Book a free 20-min call with Ryan: rigginsstrategicsolutions.com/work-with-ryan
 
-### Get the SeniorSafe App
+### Get the SeniorSafeApp
 
 [Download on the App Store](https://apps.apple.com/us/app/seniorsafe-app/id6761343239)
 
@@ -17734,7 +18056,7 @@ Do not panic and do not pay a termination fee before getting advice. Contact a r
 
 ## About Ryan Riggins
 
-Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafe app](https://seniorsafeapp.com).
+Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafeApp app](https://seniorsafeapp.com).
 
 ---
 
@@ -17748,7 +18070,7 @@ Ryan Riggins is a senior transition advisor and former house flipper. After 8+ y
 
 **Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
 
-### Get the SeniorSafe App
+### Get the SeniorSafeApp
 
 [Download on the App Store](https://apps.apple.com/us/app/seniorsafe-app/id6761343239)
 
@@ -17961,7 +18283,7 @@ Report to the FTC at reportfraud.ftc.gov, call the DOJ National Elder Fraud Hotl
 
 ## About Ryan Riggins
 
-Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafe app](https://seniorsafeapp.com).
+Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafeApp app](https://seniorsafeapp.com).
 
 ---
 
@@ -17973,11 +18295,11 @@ Ryan Riggins is a senior transition advisor and former house flipper. After 8+ y
 
 **Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
 
-**Coordinate your family in one place.** SeniorSafe app (web, iPhone, Android): app.seniorsafeapp.com
+**Coordinate your family in one place.** SeniorSafeApp app (web, iPhone, Android): app.seniorsafeapp.com
 
 **Talk it through.** Book a free 20-min call with Ryan: rigginsstrategicsolutions.com/work-with-ryan
 
-### Get the SeniorSafe App
+### Get the SeniorSafeApp
 
 [Download on the App Store](https://apps.apple.com/us/app/seniorsafe-app/id6761343239)
 
@@ -18078,7 +18400,7 @@ Be careful. A "we buy houses" cash offer is usually a wholesale offer, which is 
 
 ## About Ryan Riggins
 
-Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafe app](https://seniorsafeapp.com).
+Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafeApp app](https://seniorsafeapp.com).
 
 ---
 
@@ -18090,11 +18412,11 @@ Ryan Riggins is a senior transition advisor and former house flipper. After 8+ y
 
 **Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
 
-**Coordinate your family in one place.** SeniorSafe app (web, iPhone, Android): app.seniorsafeapp.com
+**Coordinate your family in one place.** SeniorSafeApp app (web, iPhone, Android): app.seniorsafeapp.com
 
 **Talk it through.** Book a free 20-min call with Ryan: rigginsstrategicsolutions.com/work-with-ryan
 
-### Get the SeniorSafe App
+### Get the SeniorSafeApp
 
 [Download on the App Store](https://apps.apple.com/us/app/seniorsafe-app/id6761343239)
 
@@ -18212,11 +18534,11 @@ A senior transition advisor coordinates the full process: running the proceeds m
 
 **Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
 
-**Coordinate your family in one place.** SeniorSafe app (web, iPhone, Android): app.seniorsafeapp.com
+**Coordinate your family in one place.** SeniorSafeApp app (web, iPhone, Android): app.seniorsafeapp.com
 
 **Talk it through.** Book a free 20-min call with Ryan: rigginsstrategicsolutions.com/work-with-ryan
 
-### Get the SeniorSafe App
+### Get the SeniorSafeApp
 
 [Download on the App Store](https://apps.apple.com/us/app/seniorsafe-app/id6761343239)
 
@@ -18224,7 +18546,7 @@ A senior transition advisor coordinates the full process: running the proceeds m
 
 ## About Ryan Riggins
 
-Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafe app](https://seniorsafeapp.com).
+Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafeApp app](https://seniorsafeapp.com).
 
 Ryan Riggins is the founder of Riggins Strategic Solutions, a consumer protection company for families in a senior transition. He spent 8 years in construction project management and house flipping before switching sides. Two books on Amazon. Free resources at rigginsstrategicsolutions.com.
 
@@ -18326,7 +18648,7 @@ Start with a realistic sale price, then subtract the mortgage payoff, agent and 
 
 ## About Ryan Riggins
 
-Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafe app](https://seniorsafeapp.com).
+Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafeApp app](https://seniorsafeapp.com).
 
 ---
 
@@ -18338,11 +18660,11 @@ Ryan Riggins is a senior transition advisor and former house flipper. After 8+ y
 
 **Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
 
-**Coordinate your family in one place.** SeniorSafe app (web, iPhone, Android): app.seniorsafeapp.com
+**Coordinate your family in one place.** SeniorSafeApp app (web, iPhone, Android): app.seniorsafeapp.com
 
 **Talk it through.** Book a free 20-min call with Ryan: rigginsstrategicsolutions.com/work-with-ryan
 
-### Get the SeniorSafe App
+### Get the SeniorSafeApp
 
 [Download on the App Store](https://apps.apple.com/us/app/seniorsafe-app/id6761343239)
 
@@ -18893,7 +19215,7 @@ Sign up for your county recorder's property records alert service if one exists,
 
 ## About Ryan Riggins
 
-Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafe app](https://seniorsafeapp.com).
+Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafeApp app](https://seniorsafeapp.com).
 
 ---
 
@@ -18905,11 +19227,11 @@ Ryan Riggins is a senior transition advisor and former house flipper. After 8+ y
 
 **Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
 
-**Coordinate your family in one place.** SeniorSafe app (web, iPhone, Android): app.seniorsafeapp.com
+**Coordinate your family in one place.** SeniorSafeApp app (web, iPhone, Android): app.seniorsafeapp.com
 
 **Talk it through.** Book a free 20-min call with Ryan: rigginsstrategicsolutions.com/work-with-ryan
 
-### Get the SeniorSafe App
+### Get the SeniorSafeApp
 
 [Download on the App Store](https://apps.apple.com/us/app/seniorsafe-app/id6761343239)
 
@@ -19002,7 +19324,7 @@ Report it to your state Attorney General's office and your state contractor lice
 
 ## About Ryan Riggins
 
-Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafe app](https://seniorsafeapp.com).
+Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafeApp app](https://seniorsafeapp.com).
 
 ---
 
@@ -19014,11 +19336,11 @@ Ryan Riggins is a senior transition advisor and former house flipper. After 8+ y
 
 **Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
 
-**Coordinate your family in one place.** SeniorSafe app (web, iPhone, Android): app.seniorsafeapp.com
+**Coordinate your family in one place.** SeniorSafeApp app (web, iPhone, Android): app.seniorsafeapp.com
 
 **Talk it through.** Book a free 20-min call with Ryan: rigginsstrategicsolutions.com/work-with-ryan
 
-### Get the SeniorSafe App
+### Get the SeniorSafeApp
 
 [Download on the App Store](https://apps.apple.com/us/app/seniorsafe-app/id6761343239)
 
@@ -19159,7 +19481,7 @@ It depends on whether you inherited the home or whether you were a co-owner. If 
 
 ## About Ryan Riggins
 
-Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafe app](https://seniorsafeapp.com).
+Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafeApp app](https://seniorsafeapp.com).
 
 ---
 
@@ -19171,11 +19493,11 @@ Ryan Riggins is a senior transition advisor and former house flipper. After 8+ y
 
 **Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
 
-**Coordinate your family in one place.** SeniorSafe app (web, iPhone, Android): app.seniorsafeapp.com
+**Coordinate your family in one place.** SeniorSafeApp app (web, iPhone, Android): app.seniorsafeapp.com
 
 **Talk it through.** Book a free 20-min call with Ryan: rigginsstrategicsolutions.com/work-with-ryan
 
-### Get the SeniorSafe App
+### Get the SeniorSafeApp
 
 [Download on the App Store](https://apps.apple.com/us/app/seniorsafe-app/id6761343239)
 
@@ -19316,13 +19638,13 @@ When the conversation needs structure: the Senior Transition Roadmap is free, by
 
 **Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
 
-**Coordinate your family in one place.** SeniorSafe app (web, iPhone, Android): app.seniorsafeapp.com
+**Coordinate your family in one place.** SeniorSafeApp app (web, iPhone, Android): app.seniorsafeapp.com
 
 **Talk it through.** Book a free 20-min call with Ryan: rigginsstrategicsolutions.com/work-with-ryan
 
 **Run the math now.** Free Net Proceeds Calculator: rigginsstrategicsolutions.com/tools/net-proceeds-calculator
 
-### Get the SeniorSafe App
+### Get the SeniorSafeApp
 
 [Download on the App Store](https://apps.apple.com/us/app/seniorsafe-app/id6761343239)
 
@@ -19330,7 +19652,7 @@ When the conversation needs structure: the Senior Transition Roadmap is free, by
 
 ## About Ryan Riggins
 
-Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafe app](https://seniorsafeapp.com).
+Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafeApp app](https://seniorsafeapp.com).
 
 Ryan Riggins is the founder of Riggins Strategic Solutions, a consumer protection company for families in a senior transition. He spent 8 years in construction project management and house flipping before switching sides. Two books on Amazon. Free resources at rigginsstrategicsolutions.com.
 
@@ -19458,7 +19780,7 @@ Yes. A spouse, adult child, or appointed representative can file on behalf of a 
 
 ## About Ryan Riggins
 
-Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafe app](https://seniorsafeapp.com).
+Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafeApp app](https://seniorsafeapp.com).
 
 ---
 
@@ -19470,11 +19792,11 @@ Ryan Riggins is a senior transition advisor and former house flipper. After 8+ y
 
 **Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
 
-**Coordinate your family in one place.** SeniorSafe app (web, iPhone, Android): app.seniorsafeapp.com
+**Coordinate your family in one place.** SeniorSafeApp app (web, iPhone, Android): app.seniorsafeapp.com
 
 **Talk it through.** Book a free 20-min call with Ryan: rigginsstrategicsolutions.com/work-with-ryan
 
-### Get the SeniorSafe App
+### Get the SeniorSafeApp
 
 [Download on the App Store](https://apps.apple.com/us/app/seniorsafe-app/id6761343239)
 
@@ -19654,11 +19976,11 @@ The 60 days between now and the end of July is the right window to do the math. 
 
 **Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
 
-**Coordinate your family in one place.** SeniorSafe app (web, iPhone, Android): seniorsafeapp.com
+**Coordinate your family in one place.** SeniorSafeApp app (web, iPhone, Android): seniorsafeapp.com
 
 **Talk it through.** Book a free 20-min call with Ryan: rigginsstrategicsolutions.com/work-with-ryan
 
-### Get the SeniorSafe App
+### Get the SeniorSafeApp
 
 [Download on the App Store](https://apps.apple.com/us/app/seniorsafe-app/id6761343239)
 
@@ -19666,7 +19988,7 @@ The 60 days between now and the end of July is the right window to do the math. 
 
 ## About Ryan Riggins
 
-Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafe app](https://seniorsafeapp.com).
+Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafeApp app](https://seniorsafeapp.com).
 
 ---
 
@@ -19800,11 +20122,11 @@ No, but most senior sellers benefit from one. An experienced agent prices the ho
 
 **Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
 
-**Coordinate your family in one place.** SeniorSafe app (web, iPhone, Android): app.seniorsafeapp.com
+**Coordinate your family in one place.** SeniorSafeApp app (web, iPhone, Android): app.seniorsafeapp.com
 
 **Talk it through.** Book a free 20-min call with Ryan: rigginsstrategicsolutions.com/work-with-ryan
 
-### Get the SeniorSafe App
+### Get the SeniorSafeApp
 
 [Download on the App Store](https://apps.apple.com/us/app/seniorsafe-app/id6761343239)
 
@@ -19812,7 +20134,7 @@ No, but most senior sellers benefit from one. An experienced agent prices the ho
 
 ## About Ryan Riggins
 
-Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafe app](https://seniorsafeapp.com).
+Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafeApp app](https://seniorsafeapp.com).
 
 Ryan Riggins is the founder of Riggins Strategic Solutions, a consumer protection company for families in a senior transition. He spent 8 years in construction project management and house flipping before switching sides. Two books on Amazon. Free resources at rigginsstrategicsolutions.com.
 
@@ -19945,11 +20267,11 @@ Zillow's estimate is a sale-price guess. The Net Proceeds Calculator gives you t
 
 **Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
 
-**Coordinate your family in one place.** SeniorSafe app (web, iPhone, Android): app.seniorsafeapp.com
+**Coordinate your family in one place.** SeniorSafeApp app (web, iPhone, Android): app.seniorsafeapp.com
 
 **Talk it through.** Book a free 20-min call with Ryan: rigginsstrategicsolutions.com/work-with-ryan
 
-### Get the SeniorSafe App
+### Get the SeniorSafeApp
 
 [Download on the App Store](https://apps.apple.com/us/app/seniorsafe-app/id6761343239)
 
@@ -19957,7 +20279,7 @@ Zillow's estimate is a sale-price guess. The Net Proceeds Calculator gives you t
 
 ## About Ryan Riggins
 
-Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafe app](https://seniorsafeapp.com).
+Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafeApp app](https://seniorsafeapp.com).
 
 Ryan Riggins is the founder of Riggins Strategic Solutions, a consumer protection company for families in a senior transition. He spent 8 years in construction project management and house flipping before switching sides. Two books on Amazon. Free resources at rigginsstrategicsolutions.com.
 
@@ -20073,11 +20395,11 @@ Three questions. First, is my parent classified as inpatient or observation stat
 
 **Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
 
-**Coordinate your family in one place.** SeniorSafe app (web, iPhone, Android): seniorsafeapp.com
+**Coordinate your family in one place.** SeniorSafeApp app (web, iPhone, Android): seniorsafeapp.com
 
 **Talk it through.** Book a free 20-min call with Ryan: rigginsstrategicsolutions.com/work-with-ryan
 
-### Get the SeniorSafe App
+### Get the SeniorSafeApp
 
 [Download on the App Store](https://apps.apple.com/us/app/seniorsafe-app/id6761343239)
 
@@ -20085,7 +20407,7 @@ Three questions. First, is my parent classified as inpatient or observation stat
 
 ## About Ryan Riggins
 
-Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafe app](https://seniorsafeapp.com).
+Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [SeniorSafeApp app](https://seniorsafeapp.com).
 
 Ryan Riggins is the founder of Riggins Strategic Solutions, a consumer protection company for families in a senior transition. He spent 8 years in construction project management and house flipping before switching sides. Two books on Amazon. Free resources at rigginsstrategicsolutions.com.
 
@@ -20169,11 +20491,11 @@ World Elder Abuse Awareness Day is June 15. If you have not had the conversation
 
 **Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
 
-**Coordinate your family in one place.** SeniorSafe app (web, iPhone, Android): app.seniorsafeapp.com
+**Coordinate your family in one place.** SeniorSafeApp app (web, iPhone, Android): app.seniorsafeapp.com
 
 **Talk it through.** Book a free 20-min call with Ryan: rigginsstrategicsolutions.com/work-with-ryan
 
-### Get the SeniorSafe App
+### Get the SeniorSafeApp
 
 [Download on the App Store](https://apps.apple.com/us/app/seniorsafe-app/id6761343239)
 
@@ -20253,11 +20575,11 @@ Make the plan now.
 
 **Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
 
-**Coordinate your family in one place.** SeniorSafe app (web, iPhone, Android): app.seniorsafeapp.com
+**Coordinate your family in one place.** SeniorSafeApp app (web, iPhone, Android): app.seniorsafeapp.com
 
 **Talk it through.** Book a free 20-min call with Ryan: rigginsstrategicsolutions.com/work-with-ryan
 
-### Get the SeniorSafe App
+### Get the SeniorSafeApp
 
 [Download on the App Store](https://apps.apple.com/us/app/seniorsafe-app/id6761343239)
 
@@ -20319,9 +20641,9 @@ Ask what happens if your parent runs out of private-pay money. Some facilities a
 
 Ask all of these questions before any deposit changes hands. If a facility will not put the answers in writing, that is the answer.
 
-## What the Senior Transition Blueprint Core does with this
+## What the Senior Transition Blueprint does with this
 
-The Senior Transition Blueprint Core has the full 23-question vetting list for any assisted living facility, plus a side-by-side cost-decoder that translates each facility's pricing into apples-to-apples numbers across base rent, care tiers, and add-on services. It includes the contract red-flag checklist (move-out clauses, rate-change notice periods, level-of-care reassessment language) and a script for the financial conversation with the admissions director.
+The Senior Transition Blueprint has the full 23-question vetting list for any assisted living facility, plus a side-by-side cost-decoder that translates each facility's pricing into apples-to-apples numbers across base rent, care tiers, and add-on services. It includes the contract red-flag checklist (move-out clauses, rate-change notice periods, level-of-care reassessment language) and a script for the financial conversation with the admissions director.
 
 It is free. It is 20 modules and 69 tools. The contract literacy module is module twelve.
 
@@ -20335,11 +20657,11 @@ The reason it exists is the reason Massachusetts is having this conversation. Mo
 
 **Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
 
-**Coordinate your family in one place.** SeniorSafe app (web, iPhone, Android): app.seniorsafeapp.com
+**Coordinate your family in one place.** SeniorSafeApp app (web, iPhone, Android): app.seniorsafeapp.com
 
 **Talk it through.** Book a free 20-min call with Ryan: rigginsstrategicsolutions.com/work-with-ryan
 
-### Get the SeniorSafe App
+### Get the SeniorSafeApp
 
 [Download on the App Store](https://apps.apple.com/us/app/seniorsafe-app/id6761343239)
 
@@ -20413,11 +20735,11 @@ The Dawood case is one sentencing. The pattern is everywhere. The protection is 
 
 **Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
 
-**Coordinate your family in one place.** SeniorSafe app (web, iPhone, Android): app.seniorsafeapp.com
+**Coordinate your family in one place.** SeniorSafeApp app (web, iPhone, Android): app.seniorsafeapp.com
 
 **Talk it through.** Book a free 20-min call with Ryan: rigginsstrategicsolutions.com/work-with-ryan
 
-### Get the SeniorSafe App
+### Get the SeniorSafeApp
 
 [Download on the App Store](https://apps.apple.com/us/app/seniorsafe-app/id6761343239)
 
@@ -20491,11 +20813,11 @@ If you are inside this transition right now and you do not know where to start, 
 
 **Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
 
-**Coordinate your family in one place.** SeniorSafe app (web, iPhone, Android): app.seniorsafeapp.com
+**Coordinate your family in one place.** SeniorSafeApp app (web, iPhone, Android): app.seniorsafeapp.com
 
 **Talk it through.** Book a free 20-min call with Ryan: rigginsstrategicsolutions.com/work-with-ryan
 
-### Get the SeniorSafe App
+### Get the SeniorSafeApp
 
 [Download on the App Store](https://apps.apple.com/us/app/seniorsafe-app/id6761343239)
 
@@ -20578,10 +20900,10 @@ Yours could be next.
 - Want a step-by-step guide? The free Simple Blueprint walks through every stage of a senior transition: [rigginsstrategicsolutions.com/freeguide](/freeguide)
 - Ready for the full system? The Senior Transition Blueprint is free, all 20 modules and 69 tools: [rigginsstrategicsolutions.com/the-blueprint](/the-blueprint)
 - Need a personalized plan? The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: [rigginsstrategicsolutions.com/the-roadmap](/the-roadmap)
-- Coordinate your family in one place. SeniorSafe app (web, iPhone, Android): [app.seniorsafeapp.com](https://app.seniorsafeapp.com)
+- Coordinate your family in one place. SeniorSafeApp app (web, iPhone, Android): [app.seniorsafeapp.com](https://app.seniorsafeapp.com)
 - Talk it through. Book a free 20-min call with Ryan: [rigginsstrategicsolutions.com/work-with-ryan](/work-with-ryan)
 
-**Get the SeniorSafe App**
+**Get the SeniorSafeApp**
 
 [Download on the App Store](https://apps.apple.com/us/app/seniorsafe-app/id6761343239) · [Get it on Google Play](https://play.google.com/store/apps/details?id=com.rigginsstrategicsolutions.seniorsafe)
 
@@ -20767,7 +21089,7 @@ It means having a conversation at the kitchen table instead of the emergency roo
 
 If you're reading this and you're already in the thick of it, you're not failing. The system wasn't built to support you. But there are tools and resources that can help you get a handle on what's happening and what to do next.
 
-I built the Senior Transition Blueprint to give families a step-by-step plan for exactly this situation. It covers everything from legal documents to housing options to financial planning to family communication. And if you want daily support and coordination with your family, SeniorSafe puts everything in one place.
+I built the Senior Transition Blueprint to give families a step-by-step plan for exactly this situation. It covers everything from legal documents to housing options to financial planning to family communication. And if you want daily support and coordination with your family, SeniorSafeApp puts everything in one place.
 
 But even if you never buy a thing from me, start the conversation. Today is better than tomorrow. And tomorrow is better than the ER.
 
@@ -20957,7 +21279,7 @@ So I applied that same thinking to the family problem. What if there was one pla
 
 Not a medical device. Not a clinical tool. A family coordination app built for the adult daughter managing everything, the distant son who wants to stay involved, and the parent who just wants to know their family is paying attention.
 
-That's why I built SeniorSafe.
+That's why I built SeniorSafeApp.
 
 ## The Simplest Feature That Changes Everything
 
@@ -20965,17 +21287,17 @@ The core feature is the simplest one. Every morning, your parent taps one button
 
 That one feature replaces the "Hey Mom, just checking in" text that three siblings are all sending separately. Or worse, that nobody is sending because everybody assumes someone else did.
 
-Beyond that, SeniorSafe includes medication tracking, a document vault (so you're not scrolling through 500 texts to find the insurance card), family messaging, and an AI assistant that actually answers senior transition questions.
+Beyond that, SeniorSafeApp includes medication tracking, a document vault (so you're not scrolling through 500 texts to find the insurance card), family messaging, and an AI assistant that actually answers senior transition questions.
 
 ## Why This Is Different
 
 There are check-in apps out there. Life360 tracks location. Life Alert is an emergency button. Those solve real problems. But they don't solve the coordination problem.
 
-SeniorSafe is the only tool that combines daily check-ins, medication tracking, documents, family messaging, and an AI assistant in one place. Because your family doesn't need five apps. They need one.
+SeniorSafeApp is the only tool that combines daily check-ins, medication tracking, documents, family messaging, and an AI assistant in one place. Because your family doesn't need five apps. They need one.
 
 And here's the part that matters most to me. In most senior services, the family is the product. Referral services get paid by the facility. Move managers get paid by the realtor. Senior advisors get paid by the community.
 
-With SeniorSafe, the family pays directly. $14.99 a month. My incentive is to keep the family happy, not to push them toward a transaction. When your business model depends on the family winning, you build different tools.
+With SeniorSafeApp, the family pays directly. $14.99 a month. My incentive is to keep the family happy, not to push them toward a transaction. When your business model depends on the family winning, you build different tools.
 
 ## What You Can Do Right Now
 
@@ -20989,13 +21311,13 @@ If you're managing a parent's care, or you think that conversation is coming in 
 **Centralize your documents.** Insurance cards, medication lists, advance directives, power of attorney. Put them somewhere everyone can access. Not a text thread.
 3. 
 
-**Set up a daily check-in routine.** Whether you use SeniorSafe or just a phone call, make it consistent. Every day. Same time.
+**Set up a daily check-in routine.** Whether you use SeniorSafeApp or just a phone call, make it consistent. Every day. Same time.
 
 The Senior Transition Blueprint covers the full coordination framework across all 20 modules. And the free Starter Guide gives you the basics to get your family on the same page today.
 
 The family is the customer. Always.
 
-*Ryan Riggins is the founder of Riggins Strategic Solutions and the creator of SeniorSafe, the family coordination app for senior transitions.*
+*Ryan Riggins is the founder of Riggins Strategic Solutions and the creator of SeniorSafeApp, the family coordination app for senior transitions.*
 
 ---
 

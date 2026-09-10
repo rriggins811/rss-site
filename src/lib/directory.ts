@@ -626,6 +626,15 @@ export const DIRECTORY_COUNTIES: DirectoryCounty[] = [
     blurb:
       "Mobile, Prichard and Bayou La Batre, AL programs for seniors and families: a Revenue Commissioner rather than a Tax Assessor or Property Tax Commissioner, an over-65 exemption that zeroes the bill entirely but that must be reclaimed every year on a form mailed in October while the basic homestead never renews, a tax office closed every Wednesday with satellite branches shut for most of the year, an affidavit carrying a penalty of twice the tax retroactive ten years, the only PACE program in Alabama outside Baldwin County, one community action agency running LIHEAP and weatherization under two different state region numbers with a dedicated energy call center, Alabama Power territory so Project SHARE applies at 60, fifteen senior nutrition centers spread from Citronelle to the water because meals reach the whole county but the bus does not, a 60 cent senior bus fare and a paratransit program that certifies on disability rather than age, free drafting and probate of wills for low-to-moderate income property owners through a city and legal aid partnership that matters enormously for family land, a free Project Lifesaver bracelet from the Sheriff, an adult day program that screens out wandering, and four county senior programs sharing one address on Government Street.",
   },
+  {
+    slug: "montgomery-county-al-senior-help-directory",
+    county: "Montgomery County",
+    state: "AL",
+    metro: "Montgomery, Pike Road & Hope Hull",
+    region: "River Region",
+    blurb:
+      "Montgomery, Pike Road and Hope Hull, AL programs for seniors and families: a Revenue Commissioner who runs one downtown office and two satellites after the Atlanta Highway office closed in September 2025, an over-65 exemption that can zero the bill but whose local renewal rule the county does not publish online, a statewide 7 percent cap on assessed-value increases running through 2027, an Area Agency on Aging on Cotton Gin Road that takes Medicaid waiver intake and gives free legal help on wills and powers of attorney to anyone 60 and older, a Meals on Wheels program that delivers to about 450 homebound seniors every weekday, LIHEAP from a community action agency whose website is down so you call instead, weatherization run by the County Commission through the regional planning commission, more than one electric utility so Project SHARE depends on whether the bill says Alabama Power or Dixie Electric, a Medicaid district office that the state lists at two different addresses, a one dollar senior bus fare that also covers anyone with a Medicare card, paratransit that stops three quarters of a mile from the nearest route, a county home repair program closed since 2023 that still turns up in searches, and no PACE program anywhere in the River Region.",
+  },
 ];
 
 export type DirectoryState = {
