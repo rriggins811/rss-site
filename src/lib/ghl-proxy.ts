@@ -136,7 +136,7 @@ export const GHL_TAGS = {
   // Stage / lifecycle
   STAGE_NEW_LEAD: "stage-new-lead",
 
-  // SeniorSafeApp (preserved formats — workflow triggers depend on these)
+  // Hammock365 (preserved formats — workflow triggers depend on these)
   SENIORSAFE_FREE: "seniorsafe-free",
   SENIORSAFE_TRIAL_ACTIVE: "seniorsafe trial - active",
   SENIORSAFE_PAID: "seniorsafe-paid",

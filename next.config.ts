@@ -3,6 +3,9 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   async redirects() {
     return [
+      // 2026-09-11: the app is Hammock365; the product page moved with it.
+      { source: "/seniorsafe-app", destination: "/hammock365", permanent: true },
+      { source: "/seniorsafeapp", destination: "/hammock365", permanent: true },
       // The free Roadmap application lives in the Blueprint app. The newsletter and
       // social first comments use this short form (added 2026-09-09; it 404ed before).
       {

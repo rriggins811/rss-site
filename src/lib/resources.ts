@@ -258,7 +258,7 @@ export const RESOURCES: Resource[] = [
       "The rules that always work",
       "The scams aimed at seniors",
       "Where to report fraud and freeze the damage",
-      "How SeniorSafeApp helps",
+      "How Hammock365 helps",
     ],
   },
 ];

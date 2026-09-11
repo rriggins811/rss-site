@@ -241,7 +241,7 @@ export default function HomePage() {
               from the guy I used to be.
             </p>
             <p className="mt-4 max-w-prose text-lg leading-relaxed text-ink/80">
-              A North Carolina broker&rsquo;s license, two books, the SeniorSafeApp
+              A North Carolina broker&rsquo;s license, two books, the Hammock365
               app, and a free Blueprint that lays out every option.
             </p>
             <p className="mt-5 text-sm text-ink/60">

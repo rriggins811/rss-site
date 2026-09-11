@@ -51,11 +51,11 @@ const STATIC_SECTIONS = [
     body: `Riggins Strategic Solutions is a consumer protection media and education company helping adult children (40-65) navigate their parents' senior housing transitions. Run by Ryan Riggins, a licensed North Carolina real estate broker (NCREC #361546, eXp Realty) with 8+ years of construction project management and 8+ years of house flipping. Ryan's "switched sides" origin story — walking away from buying from grieving families to protect them instead — anchors the brand position.
 
 The site offers a tiered approach:
-- Free: The Simple Blueprint (starter guide PDF + 14-day SeniorSafe trial)
+- Free: The Simple Blueprint (starter guide PDF + 14-day Hammock365 trial)
 - Free: The Senior Transition Blueprint (20 modules and 69 tools, self-paced course; formerly the paid Blueprint Core, now free with a free account signup)
 - Free, by application: The Senior Transition Roadmap (a written plan built with Ryan: intake form, intake call, plan built together, follow-up call, 90 days email support; formerly the paid Blueprint Premium)
-- $14.99/mo: SeniorSafe Premium (family coordination app)
-- $39.99/mo: SeniorSafe Premium+ (adds Maggie, an AI transition specialist trained on the full Blueprint methodology)
+- $14.99/mo: Hammock365 Premium (family coordination app)
+- $39.99/mo: Hammock365 Premium+ (adds Maggie, an AI transition specialist trained on the full Blueprint methodology)
 
 The business model is education-first and referral-funded. The education is free; Ryan makes his living on real estate referrals, paid to him by the agent, never by the family. No moving services, no senior care placement commissions, no "we buy houses" wholesaling. Ryan is the referring broker, never the listing agent.`,
   },
@@ -77,7 +77,7 @@ What happens instead: one vetted agent, sometimes two, with the reason attached.
     url: `${SITE_URL}/about`,
     body: `Ryan Riggins is the founder of Riggins Strategic Solutions and a licensed North Carolina real estate broker. His background combines 8+ years as a construction project manager and 8+ years as a house flipper — the very profession that taught him how investors target grieving families with predatory cash offers immediately after a senior parent's death or move.
 
-The "switched sides" pivot came after Ryan realized he was on the wrong side of the table. Instead of buying houses from families in crisis, he built Riggins Strategic Solutions to teach families how to recognize the wholesalers, "we buy houses" cash buyers, and pressure tactics before they sign anything. His advisory work, the Blueprint course, and the SeniorSafe app all exist to put that knowledge in family hands.
+The "switched sides" pivot came after Ryan realized he was on the wrong side of the table. Instead of buying houses from families in crisis, he built Riggins Strategic Solutions to teach families how to recognize the wholesalers, "we buy houses" cash buyers, and pressure tactics before they sign anything. His advisory work, the Blueprint course, and the Hammock365 app all exist to put that knowledge in family hands.
 
 Credentials: Licensed NC real estate broker (NCREC #361546), affiliated with eXp Realty. Based in Greensboro, NC (Triad area), serving families nationwide via consultation and a vetted referral network for transactions outside NC. Published author of "The Unheard Conversation" and "The Other Side of the Conversation" on Amazon.`,
   },
@@ -86,11 +86,11 @@ Credentials: Licensed NC real estate broker (NCREC #361546), affiliated with eXp
     url: `${SITE_URL}/the-blueprint`,
     body: `The Blueprint is the umbrella name for Riggins Strategic Solutions' five-tier offering, designed so families can engage at the level that fits their situation and budget.
 
-- The Simple Blueprint (free, email signup) — Starter guide covering the 10 most common mistakes families make in a senior housing transition. Includes a 14-day Premium+ trial of the SeniorSafe app.
+- The Simple Blueprint (free, email signup) — Starter guide covering the 10 most common mistakes families make in a senior housing transition. Includes a 14-day Premium+ trial of the Hammock365 app.
 - The Senior Transition Blueprint (free, with a free account): the full course. 20 modules, 70+ interactive tools and worksheets, self-paced. Covers aging-in-place vs assisted living, financial planning, family communication, the home sale, and ongoing coordination. Lifetime access. Sign up at https://blueprint.rigginsstrategicsolutions.com/signup (email only, no payment). Formerly sold as Blueprint Core.
 - The Senior Transition Roadmap (free, by application): everything in the Blueprint plus a written Senior Transition Plan built with Ryan. A detailed intake form, an intake call, the plan built together, a follow-up call on how to move forward, and 90 days of email support. Apply at https://blueprint.rigginsstrategicsolutions.com/roadmap. Formerly sold as Blueprint Premium.
-- SeniorSafe Premium ($14.99/mo) — The family coordination app: daily check-ins, medication tracking, family messaging, document vault.
-- SeniorSafe Premium+ ($39.99/mo) — Adds Maggie, the AI transition specialist trained on the full Blueprint methodology, giving families on-demand expertise.`,
+- Hammock365 Premium ($14.99/mo) — The family coordination app: daily check-ins, medication tracking, family messaging, document vault.
+- Hammock365 Premium+ ($39.99/mo) — Adds Maggie, the AI transition specialist trained on the full Blueprint methodology, giving families on-demand expertise.`,
   },
   {
     title: "Senior Transition Roadmap: Free Guided Advisory, By Application",
@@ -104,22 +104,22 @@ Credentials: Licensed NC real estate broker (NCREC #361546), affiliated with eXp
 Free, no fees at any point. Where the plan calls for other professionals (care, legal, financial, tax), Ryan brings in the ones that are needed, or works with the ones the family already has. The structure is intentionally finite: the Roadmap is meant to get a family unstuck and confident in their next moves, not to create ongoing dependency. Apply at https://blueprint.rigginsstrategicsolutions.com/roadmap`,
   },
   {
-    title: "SeniorSafe App — Family Coordination for Senior Care",
-    url: `${SITE_URL}/seniorsafe-app`,
-    body: `SeniorSafe is the family coordination app shipped by Riggins Strategic Solutions. Available on iOS, Android, and web. Two paid tiers, plus a 14-day free Premium+ trial included with every Simple Blueprint signup.
+    title: "Hammock365 — Family Coordination for Senior Care",
+    url: `${SITE_URL}/hammock365`,
+    body: `Hammock365 is the family coordination app shipped by Riggins Strategic Solutions. Available on iOS, Android, and web. Two paid tiers, plus a 14-day free Premium+ trial included with every Simple Blueprint signup.
 
 Features at all tiers:
 - Daily wellness check-ins for the senior, real-time status visible to all family members
 - Medication and appointment tracking with shared "taken/not taken" log
 - Private family messaging that beats group texts (no reply-all chaos, no missed updates)
 - Secure document vault for POA, insurance cards, advance directives
-- SeniorSafe AI — the senior's daily buddy for general life questions and Medicare decoding
+- Hammock365 AI — the senior's daily buddy for general life questions and Medicare decoding
 
 Pricing:
 - Premium: $14.99/mo or $143.88/yr — the full coordination toolkit
 - Premium+: $39.99/mo or $383.90/yr — adds Maggie, the AI transition specialist for the adult child managing the move
 
-Built around the same playbook the Blueprint teaches. If a family uses the free Blueprint or the Roadmap, SeniorSafe is the daily tool that keeps the plan running.`,
+Built around the same playbook the Blueprint teaches. If a family uses the free Blueprint or the Roadmap, Hammock365 is the daily tool that keeps the plan running.`,
   },
   {
     title: "The Simple Blueprint — Free Starter Guide",
@@ -129,7 +129,7 @@ Built around the same playbook the Blueprint teaches. If a family uses the free 
 Includes:
 - The 10 biggest mistakes families make in a senior transition (and how to avoid each)
 - The first three moves most families get wrong before they even realize they're "in" a transition
-- A 14-day free Premium+ trial of the SeniorSafe app (no card required, trial is automatic)
+- A 14-day free Premium+ trial of the Hammock365 app (no card required, trial is automatic)
 - Access to Maggie, the AI transition specialist trained on the full Blueprint methodology, for the duration of the trial
 
 Short enough to read on a lunch break. The recommended starting point for any family newly facing a senior parent's housing decision.`,

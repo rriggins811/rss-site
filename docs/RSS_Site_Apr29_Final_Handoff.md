@@ -12,7 +12,7 @@ All on `origin/main`. Top of `git log --oneline -4`:
 
 | SHA | Title | What it delivered |
 |---|---|---|
-| `5b812dc` | Sprint 1 (Apr 29): Premium+ tier with Maggie + cross-platform badges | Home page Premium+ tier card, /the-blueprint 5-tier rebuild, /seniorsafe-app "Two AIs, one app" section, App Store + Google Play + Use-in-browser badges on home and /seniorsafe-app, /services 308 redirect to /the-blueprint |
+| `5b812dc` | Sprint 1 (Apr 29): Premium+ tier with Maggie + cross-platform badges | Home page Premium+ tier card, /the-blueprint 5-tier rebuild, /hammock365 "Two AIs, one app" section, App Store + Google Play + Use-in-browser badges on home and /hammock365, /services 308 redirect to /the-blueprint |
 | `767a2be` | Add /blueprint-map: token-gated interactive Markmap of the 19 modules | v1 mind map, `?key=blueprint2026` gate, noindex+nofollow, full-screen Markmap rendering of the entire 19-module Blueprint, no public discoverability (sitemap, robots, nav all clean) |
 | `ceaafe8` | Blueprint Map v2: side drawer with embedded video, outcomes, and PDF tool downloads | Side drawer with YouTube embed, "What you'll do" outcomes, downloadable tool cards, ESC/click-outside/X close, mobile-full-width responsive. 71 PDFs copied to `/public/blueprint-tools/`. Mind map nodes simplified to module titles only. Single source of truth: `src/lib/blueprint-modules.ts` |
 | `0228d1a` | Books branch: clickable Amazon links + new-tab for all external nodes | Amazon ASINs `B0GQLB5536` and `B0GRR5FLDD` wired into the Books branch with 🛒 prefix. Click delegation extended so external `http(s)://` links open via `window.open(_, _blank, noopener,noreferrer)`. Side fix: Maggie and Premium nodes also now open in new tab instead of navigating the map away |
@@ -22,8 +22,8 @@ All on `origin/main`. Top of `git log --oneline -4`:
 | URL | Status |
 |---|---|
 | `https://rigginsstrategicsolutions.com/` | Premium+ tier visible, Four ways to work with Ryan, App Store + Play badges in hero |
-| `https://rigginsstrategicsolutions.com/the-blueprint` | Five tiers, Premium+ between SeniorSafe and end of row, new FAQ Q&A about Premium+ vs SeniorSafe |
-| `https://rigginsstrategicsolutions.com/seniorsafe-app` | "Two AIs, one app" section, Maggie + SeniorSafe AI side-by-side comparison |
+| `https://rigginsstrategicsolutions.com/the-blueprint` | Five tiers, Premium+ between Hammock365 and end of row, new FAQ Q&A about Premium+ vs Hammock365 |
+| `https://rigginsstrategicsolutions.com/hammock365` | "Two AIs, one app" section, Maggie + Hammock365 AI side-by-side comparison |
 | `https://rigginsstrategicsolutions.com/services` | 308 → /the-blueprint |
 | `https://rigginsstrategicsolutions.com/blueprint-map?key=blueprint2026` | Full-screen Markmap, 21 module nodes, drawer opens on click, books open Amazon in new tab |
 | `https://rigginsstrategicsolutions.com/blueprint-map` (no key) | Client-side redirect to /the-blueprint |
@@ -58,7 +58,7 @@ const APP_STORE_URL = "https://apps.apple.com/app/seniorsafe/id0000000000";
 const PLAY_STORE_URL = "https://play.google.com/store/apps/details?id=com.seniorsafeapp";
 ```
 
-Web button is already correct: `https://app.seniorsafeapp.com`.
+Web button is already correct: `https://app.hammock365.com`.
 
 When Ryan provides the two real URLs, swap both constants, commit, push. ~30 second commit.
 
@@ -96,7 +96,7 @@ If only some URLs are ready, that's fine. Drawer hides the CTA per-module when U
 
 - No em dashes anywhere in customer-facing copy. Replace with periods, commas, colons, or restructure the sentence.
 - "Senior Transition Advisor" is the identity. License framed as accountability, never as a sales pitch.
-- Pricing is locked: Simple Blueprint free, Core $47, Premium $297, SeniorSafe $14.99/mo, Premium+ $39.99/mo (added today).
+- Pricing is locked: Simple Blueprint free, Core $47, Premium $297, Hammock365 $14.99/mo, Premium+ $39.99/mo (added today).
 - Plain English, elegant-yet-urgent tone. Accent colors used sparingly — Burgundy for emphasis, Gold for top-tier CTAs.
 
 ### Sprint 2 polish backlog (deferred from this morning's audit)
@@ -121,7 +121,7 @@ The /blueprint-map page intentionally returns `null` server-rendered until React
 ## What's solid
 
 - All 4 commits shipped, deploys green, integration healthy.
-- Premium+ tier discoverable from home, /the-blueprint, /seniorsafe-app.
+- Premium+ tier discoverable from home, /the-blueprint, /hammock365.
 - Mind Map V2 is a real customer experience: video, outcomes, tool downloads.
 - Books are clickable.
 - DNS, SSL, alias domains all stable from earlier work.

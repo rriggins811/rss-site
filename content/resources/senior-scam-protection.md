@@ -90,9 +90,9 @@ By dollars, the most damaging exploitation is often not a stranger overseas. It 
 
 For the full list of local and national help lines, see the [Senior Help Directory](/resources/senior-help-directory).
 
-## How SeniorSafeApp helps
+## How Hammock365 helps
 
-Isolation is what every one of these scams needs to work, so the fix is staying connected. If a parent is ever unsure about a message, the simplest protection in the world is to have them take a screenshot and ask. SeniorSafeApp's built-in assistant, Maggie, is built for exactly this: she will tell them to slow down, do not click, do not call the number in the message, and check with family first. Honestly, any AI assistant will do the same if you teach a parent the habit of screenshotting anything that feels off and asking before they act. [See SeniorSafeApp](https://seniorsafeapp.com).
+Isolation is what every one of these scams needs to work, so the fix is staying connected. If a parent is ever unsure about a message, the simplest protection in the world is to have them take a screenshot and ask. Hammock365's built-in assistant, Maggie, is built for exactly this: she will tell them to slow down, do not click, do not call the number in the message, and check with family first. Honestly, any AI assistant will do the same if you teach a parent the habit of screenshotting anything that feels off and asking before they act. [See Hammock365](https://hammock365.com).
 
 *Source for the headline figure: the FBI Internet Crime Complaint Center (IC3) 2024 Elder Fraud Report, which recorded about 4.885 billion dollars in losses across 147,127 complaints from victims age 60 and older, an average loss of roughly 83,000 dollars, with losses up about 43 percent year over year. Confirmed by AARP reporting, June 2025.*
 
@@ -115,4 +115,4 @@ Call the Department of Justice National Elder Fraud Hotline at 1-833-372-8311, r
 
 ## About Ryan Riggins
 
-Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash buyer side to help families avoid the costly mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of Riggins Strategic Solutions and the SeniorSafeApp app. This page is education, not legal or financial advice.
+Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash buyer side to help families avoid the costly mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of Riggins Strategic Solutions and the Hammock365 app. This page is education, not legal or financial advice.

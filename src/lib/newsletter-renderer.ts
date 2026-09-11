@@ -68,7 +68,7 @@ export type ParsedNewsletter = {
     ctaLabel: string;
     ctaUrl: string;
   };
-  /** Section 4 — SeniorSafeApp feature spotlight. */
+  /** Section 4 — Hammock365 feature spotlight. */
   feature: {
     /** Short tagline above the heading. */
     tagline: string;
@@ -413,7 +413,7 @@ ${moduleTakeawayHtml}
   <hr class="divider">
 
   <div class="section">
-    <p class="section-label">SeniorSafeApp Feature Spotlight</p>
+    <p class="section-label">Hammock365 Feature Spotlight</p>
     <h2>${escapeHtml(parsed.feature.title)}</h2>
     <div class="feature-card">
       <p class="feature-num">${escapeHtml(parsed.feature.tagline || "Why it matters")}</p>

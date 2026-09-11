@@ -26,7 +26,7 @@ export const metadata: Metadata = {
         url: "https://rigginsstrategicsolutions.com/og/speaking.png",
         width: 1200,
         height: 630,
-        alt: "Riggins Strategic Solutions — Senior Transition Blueprint and SeniorSafeApp app",
+        alt: "Riggins Strategic Solutions — Senior Transition Blueprint and Hammock365 app",
       },
     ],
   },
@@ -253,7 +253,7 @@ export default function SpeakingPage() {
             <p className="mt-3">
               Riggins Strategic Solutions is a consumer protection education
               company. Speaking engagements, seminars, the Senior Transition
-              Blueprint, and SeniorSafeApp are educational resources and are not
+              Blueprint, and Hammock365 are educational resources and are not
               substitutes for licensed legal, financial, or real estate
               professionals. Should clients or customers engage Ryan Riggins in
               his licensed real estate capacity, that is a separate legal

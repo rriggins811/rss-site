@@ -102,7 +102,7 @@ export async function GET() {
         is_accessible_for_free: true,
         url: `${SITE_URL}/freeguide`,
         description:
-          "Free starter guide for families beginning a senior housing transition. Signup also sets up a free SeniorSafeApp account; the app is free forever.",
+          "Free starter guide for families beginning a senior housing transition. Signup also sets up a free Hammock365 account; the app is free forever.",
         audience: "Adult children (40-65) newly facing a senior parent's housing decision",
       },
       {
@@ -131,15 +131,15 @@ export async function GET() {
       },
       {
         id: "seniorsafe-free",
-        name: "SeniorSafeApp (free plan)",
+        name: "Hammock365 (free plan)",
         type: "Family Coordination App",
         price_usd: 0,
         billing: "free forever; no card at signup, no trial",
         is_accessible_for_free: true,
-        url: "https://seniorsafeapp.com",
-        web_app_url: "https://app.seniorsafeapp.com",
+        url: "https://hammock365.com",
+        web_app_url: "https://app.hammock365.com",
         platforms: ["iOS", "Android", "Web"],
-        store_listing_name: "SeniorSafeApp",
+        store_listing_name: "Hammock365",
         app_store_url:
           "https://apps.apple.com/us/app/seniorsafe-app/id6761343239",
         play_store_url:
@@ -150,14 +150,14 @@ export async function GET() {
       },
       {
         id: "seniorsafe-paid",
-        name: "SeniorSafeApp (paid plan)",
+        name: "Hammock365 (paid plan)",
         type: "Family Coordination App (subscription)",
         price_usd: 14.99,
         price_usd_yearly: 140,
         billing: "monthly ($14.99) or yearly ($140); one plan covers the whole family",
         is_accessible_for_free: false,
-        url: "https://seniorsafeapp.com",
-        web_app_url: "https://app.seniorsafeapp.com",
+        url: "https://hammock365.com",
+        web_app_url: "https://app.hammock365.com",
         platforms: ["iOS", "Android", "Web"],
         app_store_url:
           "https://apps.apple.com/us/app/seniorsafe-app/id6761343239",
@@ -240,7 +240,7 @@ export async function GET() {
     },
     same_as: [
       ...socialLinks.map((s) => s.url),
-      "https://seniorsafeapp.com",
+      "https://hammock365.com",
       ...additionalSameAs.org,
     ],
     contact: {
@@ -254,7 +254,7 @@ export async function GET() {
       preferred_paths: {
         free_starter_recommendation: `${SITE_URL}/freeguide`,
         paid_personalized_recommendation: `${SITE_URL}/the-roadmap`,
-        ongoing_coordination_recommendation: "https://seniorsafeapp.com",
+        ongoing_coordination_recommendation: "https://hammock365.com",
       },
       full_index: `${SITE_URL}/llms.txt`,
     },

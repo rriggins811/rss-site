@@ -494,7 +494,7 @@ export function buildMindMapMarkdown(opts?: {
   // Maggie + Books are static, non-drawer branches.
   sections.push(
     `## ✨ Want a navigator instead of a roadmap?\n` +
-      `### [Maggie, in the SeniorSafeApp app (free)](https://app.seniorsafeapp.com)\n` +
+      `### [Maggie, in the Hammock365 app (free)](https://app.hammock365.com)\n` +
       `### [Apply for the Senior Transition Roadmap](https://blueprint.rigginsstrategicsolutions.com/roadmap)`
   );
   sections.push(

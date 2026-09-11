@@ -89,7 +89,7 @@ export async function generateMetadata({
  *      Renders the placeholder H2 scaffolding so the URL never 404s
  *      between scaffold and full content. (Original behavior.)
  *
- * Both paths keep the same Blueprint/SeniorSafeApp alternating CTA + Related
+ * Both paths keep the same Blueprint/Hammock365 alternating CTA + Related
  * resources block so navigation and conversion paths stay stable as
  * pillars ship.
  */
@@ -198,10 +198,10 @@ export default async function ResourceArticlePage({
               ) : (
                 <>
                   <h3 className="font-serif text-xl text-navy-700 m-0">
-                    While you&rsquo;re here: try SeniorSafeApp
+                    While you&rsquo;re here: try Hammock365
                   </h3>
                   <p className="mt-3 text-ink/80 leading-relaxed">
-                    SeniorSafeApp is the family app for the daily part of senior
+                    Hammock365 is the family app for the daily part of senior
                     care. A daily I&rsquo;m Okay check-in, a text to one family
                     member when it is missed, medication reminders, and Maggie,
                     one assistant for your parent and for you. Free forever, no
@@ -210,11 +210,11 @@ export default async function ResourceArticlePage({
                   </p>
                   <Button asChild className="mt-5">
                     <a
-                      href="https://app.seniorsafeapp.com"
+                      href="https://app.hammock365.com"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      Get SeniorSafeApp free
+                      Get Hammock365 free
                     </a>
                   </Button>
                 </>
@@ -264,10 +264,10 @@ export default async function ResourceArticlePage({
               ) : (
                 <>
                   <h3 className="font-serif text-xl text-navy-700 m-0">
-                    While you&rsquo;re here: try SeniorSafeApp
+                    While you&rsquo;re here: try Hammock365
                   </h3>
                   <p className="mt-3 text-ink/80 leading-relaxed">
-                    SeniorSafeApp is the family app for the daily part of senior
+                    Hammock365 is the family app for the daily part of senior
                     care. A daily I&rsquo;m Okay check-in, a text to one family
                     member when it is missed, medication reminders, and Maggie,
                     one assistant for your parent and for you. Free forever, no
@@ -276,11 +276,11 @@ export default async function ResourceArticlePage({
                   </p>
                   <Button asChild className="mt-5">
                     <a
-                      href="https://app.seniorsafeapp.com"
+                      href="https://app.hammock365.com"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      Get SeniorSafeApp free
+                      Get Hammock365 free
                     </a>
                   </Button>
                 </>

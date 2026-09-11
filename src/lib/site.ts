@@ -37,7 +37,7 @@ export const ORGANIZATION = {
 export const AUTHOR = {
   name: "Ryan Riggins",
   jobTitle: "Senior Transition Advisor",
-  bio: "Licensed NC broker (#361546, eXp Realty). Fiduciary duty to the family, not a pitch. Creator of The Blueprint and SeniorSafeApp.",
+  bio: "Licensed NC broker (#361546, eXp Realty). Fiduciary duty to the family, not a pitch. Creator of The Blueprint and Hammock365.",
   // Optimized headshot hosted on /brand/ (69KB vs 5.3MB original at
   // /photos/). Same-origin canonical URL used by Person schema (sitewide
   // via layout.tsx) + Web2 mini-site avatars + Amazon Author Central /

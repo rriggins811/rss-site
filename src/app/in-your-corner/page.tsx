@@ -357,7 +357,7 @@ export default function InYourCornerPage() {
               <span className="font-semibold text-navy">One important note.</span> This real estate referral is
               a service of Ryan Riggins through eXp Realty. It is separate from the education and planning
               products of Riggins Strategic Solutions, the Blueprint, the Senior Transition Roadmap, and the
-              SeniorSafeApp app, which belong to that company. Different hats, kept clean on purpose.
+              Hammock365 app, which belong to that company. Different hats, kept clean on purpose.
             </p>
           </div>
         </div>

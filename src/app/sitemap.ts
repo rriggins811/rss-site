@@ -32,7 +32,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/the-roadmap", changeFrequency: "monthly", priority: 0.9 },
     { path: "/in-your-corner", changeFrequency: "monthly", priority: 0.8 },
     { path: "/need-an-agent", changeFrequency: "monthly", priority: 0.8 },
-    { path: "/seniorsafe-app", changeFrequency: "monthly", priority: 0.9 },
+    { path: "/hammock365", changeFrequency: "monthly", priority: 0.9 },
     { path: "/freeguide", changeFrequency: "monthly", priority: 0.9 },
     { path: "/money-safety-sheet", changeFrequency: "monthly", priority: 0.8 },
     { path: "/work-with-ryan", changeFrequency: "monthly", priority: 0.8 },

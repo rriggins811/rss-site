@@ -117,7 +117,7 @@ export function organizationSchema() {
     },
     areaServed: ORGANIZATION.areaServed,
     // sameAs reinforces the identity graph: same brand on social profiles,
-    // the SeniorSafeApp marketing site (consumer brand for the app shipped by
+    // the Hammock365 marketing site (consumer brand for the app shipped by
     // RSS LLC), and any additional org-only profiles from
     // social.ts:additionalSameAs (LinkedIn Company page, future Substack /
     // Medium publication URLs, etc.) that don't render as footer icons.
@@ -126,7 +126,7 @@ export function organizationSchema() {
       // PERSON identity and stays on the Person schema; the Org keeps the COMPANY
       // LinkedIn (in additionalSameAs.org).
       ...socialLinks.filter((s) => s.name !== "LinkedIn").map((s) => s.url),
-      "https://seniorsafeapp.com",
+      "https://hammock365.com",
       ...additionalSameAs.org,
     ],
   };
@@ -614,7 +614,7 @@ export function blueprintPremiumProductSchema() {
 }
 
 /**
- * MobileApplication schema for the SeniorSafeApp app. Mounted on /seniorsafe-app.
+ * MobileApplication schema for the Hammock365 app. Mounted on /hammock365.
  * The free plan plus the paid plan's monthly and yearly prices are exposed as
  * Offer[] so Google can surface them in rich results. Intentionally omits
  * aggregateRating until legitimate app store reviews exist (faking ratings
@@ -624,17 +624,17 @@ export function seniorSafeMobileApplicationSchema() {
   return {
     "@context": "https://schema.org",
     "@type": "MobileApplication",
-    name: "SeniorSafeApp",
-    alternateName: "SeniorSafeApp",
+    name: "Hammock365",
+    alternateName: "Hammock365",
     description:
-      "SeniorSafeApp is the free family app for senior care: the daily I'm Okay check-in, a text to one family member when it is missed, medication reminders, and Maggie, one assistant for the senior and the family. One paid plan, $14.99 a month or $140 a year for the whole family, adds texts to everyone, unlimited family members, missed-dose alerts, family messages, the document vault, and appointments.",
+      "Hammock365 is the free family app for senior care: the daily I'm Okay check-in, a text to one family member when it is missed, medication reminders, and Maggie, one assistant for the senior and the family. One paid plan, $14.99 a month or $140 a year for the whole family, adds texts to everyone, unlimited family members, missed-dose alerts, family messages, the document vault, and appointments.",
     operatingSystem: "iOS, Android, Web",
     applicationCategory: "HealthApplication",
     applicationSubCategory: "Family Coordination",
-    url: "https://seniorsafeapp.com",
+    url: "https://hammock365.com",
     downloadUrl:
       "https://apps.apple.com/us/app/seniorsafe-app/id6761343239",
-    image: "https://seniorsafeapp.com/og/homepage.png",
+    image: "https://hammock365.com/og/homepage.png",
     // Free forever, no card at signup, no trial. The core app never requires
     // payment, so isAccessibleForFree is true. One paid plan; its monthly
     // and yearly prices are the second and third Offers below.
@@ -642,7 +642,7 @@ export function seniorSafeMobileApplicationSchema() {
     offers: [
       {
         "@type": "Offer",
-        name: "SeniorSafeApp Free",
+        name: "Hammock365 Free",
         price: "0",
         priceCurrency: "USD",
         category: "Free plan",
@@ -650,7 +650,7 @@ export function seniorSafeMobileApplicationSchema() {
       },
       {
         "@type": "Offer",
-        name: "SeniorSafeApp Paid Plan (monthly)",
+        name: "Hammock365 Paid Plan (monthly)",
         price: "14.99",
         priceCurrency: "USD",
         category: "Subscription",
@@ -665,7 +665,7 @@ export function seniorSafeMobileApplicationSchema() {
       },
       {
         "@type": "Offer",
-        name: "SeniorSafeApp Paid Plan (yearly)",
+        name: "Hammock365 Paid Plan (yearly)",
         price: "140",
         priceCurrency: "USD",
         category: "Subscription",

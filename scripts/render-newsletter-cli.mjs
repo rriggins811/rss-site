@@ -247,7 +247,7 @@ ${moduleTakeawayHtml}
   </div>
   <hr class="divider">
   <div class="section">
-    <p class="section-label">SeniorSafe Feature Spotlight</p>
+    <p class="section-label">Hammock365 Feature Spotlight</p>
     <h2>${escapeHtml(parsed.feature.title)}</h2>
     <div class="feature-card">
       <p class="feature-num">${escapeHtml(parsed.feature.tagline || "Why it matters")}</p>

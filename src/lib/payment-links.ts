@@ -8,5 +8,5 @@ export const paymentLinks = {
   blueprintCore: "https://blueprint.rigginsstrategicsolutions.com/signup",
   blueprintPremium: "https://blueprint.rigginsstrategicsolutions.com/roadmap/apply",
   blueprintLogin: "https://blueprint.rigginsstrategicsolutions.com/login",
-  seniorSafe: "https://app.seniorsafeapp.com",
+  seniorSafe: "https://app.hammock365.com",
 } as const;

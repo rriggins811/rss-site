@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 
 /**
- * SeniorSafeApp is now live on iPhone, Android, and the web (Apr 29, 2026).
+ * Hammock365 is now live on iPhone, Android, and the web (Apr 29, 2026).
  *
  * URLs are configurable so we can swap in the production App Store /
  * Play Store listings without touching markup.
@@ -16,7 +16,7 @@ const APP_STORE_URL =
 const PLAY_STORE_URL =
   "https://play.google.com/store/apps/details?id=com.rigginsstrategicsolutions.seniorsafe";
 
-const WEB_APP_URL = "https://app.seniorsafeapp.com";
+const WEB_APP_URL = "https://app.hammock365.com";
 
 type Variant = "light" | "dark";
 
@@ -76,7 +76,7 @@ export function AppPlatformBadges({
           href={APP_STORE_URL}
           target="_blank"
           rel="noopener noreferrer"
-          aria-label="Download SeniorSafeApp on the App Store"
+          aria-label="Download Hammock365 on the App Store"
           className="inline-block transition-opacity hover:opacity-85"
         >
           <AppStoreBadge />
@@ -85,7 +85,7 @@ export function AppPlatformBadges({
           href={PLAY_STORE_URL}
           target="_blank"
           rel="noopener noreferrer"
-          aria-label="Get SeniorSafeApp on Google Play"
+          aria-label="Get Hammock365 on Google Play"
           className="inline-block transition-opacity hover:opacity-85"
         >
           <PlayStoreBadge />

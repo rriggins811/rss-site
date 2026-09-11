@@ -7,7 +7,7 @@
  * tappable on mobile. This walks the mdast and wraps occurrences of our two
  * known domains in real links:
  *   - rigginsstrategicsolutions.com/<path>  ->  relative internal link "/<path>"
- *   - (app.)seniorsafeapp.com/<path>        ->  external link (new tab)
+ *   - (app.)hammock365.com/<path>        ->  external link (new tab)
  *
  * Scoped to our domains only, so it never touches arbitrary prose, and it skips
  * any text already inside a link so existing markdown links are never
@@ -25,14 +25,14 @@ type MdNode = {
 
 // Capture groups: 1 = host (incl. optional "app." subdomain), 2 = path.
 const CTA_URL =
-  /(?:https?:\/\/)?(?:www\.)?((?:app\.)?(?:rigginsstrategicsolutions\.com|seniorsafeapp\.com))(\/[^\s)]*)?/g;
+  /(?:https?:\/\/)?(?:www\.)?((?:app\.)?(?:rigginsstrategicsolutions\.com|seniorsafeapp\.com|hammock365\.com))(\/[^\s)]*)?/g;
 
 function hrefFor(host: string, path: string): { href: string; external: boolean } {
   if (host === "rigginsstrategicsolutions.com") {
     // Internal: relative path so it stays a same-site internal link.
     return { href: path || "/", external: false };
   }
-  // seniorsafeapp.com / app.seniorsafeapp.com -> external app site.
+  // hammock365.com / app.hammock365.com -> external app site.
   return { href: `https://${host}${path}`, external: true };
 }
 
