@@ -141,7 +141,7 @@ export async function GET() {
         platforms: ["iOS", "Android", "Web"],
         store_listing_name: "Hammock365",
         app_store_url:
-          "https://apps.apple.com/us/app/seniorsafe-app/id6761343239",
+          "https://apps.apple.com/us/app/hammock365/id6761343239",
         play_store_url:
           "https://play.google.com/store/apps/details?id=com.rigginsstrategicsolutions.seniorsafe",
         assistant: "Maggie, one assistant for both the senior and the family",
@@ -160,7 +160,7 @@ export async function GET() {
         web_app_url: "https://app.hammock365.com",
         platforms: ["iOS", "Android", "Web"],
         app_store_url:
-          "https://apps.apple.com/us/app/seniorsafe-app/id6761343239",
+          "https://apps.apple.com/us/app/hammock365/id6761343239",
         play_store_url:
           "https://play.google.com/store/apps/details?id=com.rigginsstrategicsolutions.seniorsafe",
         description:

@@ -11,7 +11,7 @@ import { useEffect, useState } from "react";
  */
 
 const APP_STORE_URL =
-  "https://apps.apple.com/us/app/seniorsafe-app/id6761343239";
+  "https://apps.apple.com/us/app/hammock365/id6761343239";
 
 const PLAY_STORE_URL =
   "https://play.google.com/store/apps/details?id=com.rigginsstrategicsolutions.seniorsafe";

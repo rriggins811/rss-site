@@ -633,7 +633,7 @@ export function seniorSafeMobileApplicationSchema() {
     applicationSubCategory: "Family Coordination",
     url: "https://hammock365.com",
     downloadUrl:
-      "https://apps.apple.com/us/app/seniorsafe-app/id6761343239",
+      "https://apps.apple.com/us/app/hammock365/id6761343239",
     image: "https://hammock365.com/og/homepage.png",
     // Free forever, no card at signup, no trial. The core app never requires
     // payment, so isAccessibleForFree is true. One paid plan; its monthly

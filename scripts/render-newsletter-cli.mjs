@@ -289,7 +289,7 @@ const text = [
   parsed.module.takeaway ? `One takeaway you can use today: ${stripInlineMd(parsed.module.takeaway)}` : "",
   `${parsed.module.ctaLabel}: ${parsed.module.ctaUrl}`,
   sep.trim(),
-  `SENIORSAFE FEATURE SPOTLIGHT`,
+  `HAMMOCK365 FEATURE SPOTLIGHT`,
   parsed.feature.title + (parsed.feature.tagline ? ` — ${parsed.feature.tagline}` : ""),
   parsed.feature.bodyParagraphs.map(stripInlineMd).join("\n\n"),
   `${parsed.feature.ctaLabel}: ${parsed.feature.ctaUrl}`,
