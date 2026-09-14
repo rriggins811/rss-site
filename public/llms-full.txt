@@ -5,8 +5,8 @@ It contains the full Markdown of every key page, resource pillar, Senior Help
 Directory state page, and blog post, intended for AI crawlers that ingest
 content for answer generation.
 
-Generated: 2026-09-11
-Indexed: 133 blog posts, 16 resource pillars, 51 Senior Help Directory state pages, 17 video transcripts.
+Generated: 2026-09-14
+Indexed: 134 blog posts, 16 resource pillars, 51 Senior Help Directory state pages, 17 video transcripts.
 
 For citation guidance, organizational facts, and topic depth, see the summary
 index at https://rigginsstrategicsolutions.com/llms.txt.
@@ -5186,8 +5186,151 @@ You must qualify for Medicaid, then apply for the Community Choices Waiver, choo
 
 # Blog Posts (newest first)
 
-The 133 posts below are the full body of every published article
+The 134 posts below are the full body of every published article
 on https://rigginsstrategicsolutions.com/blog, in reverse chronological order.
+
+---
+
+# We Make AI Videos of Me Every Week. That's Why Your Family Needs a Safe Word.
+https://rigginsstrategicsolutions.com/blog/ai-voice-clone-family-emergency-scam-safe-word
+Published: 2026-09-14
+
+**Excerpt:** A crying grandson on the phone, a wreck or an arrest, and a demand for money right now. With AI, that voice can sound exactly like him. The FBI already told families the fix: a secret word or phrase. Here's how to set one up with your parent this week.
+
+Here's a confession most business owners wouldn't put on their own blog: a lot of the videos of me on this page aren't really me. They're AI. We use a tool called HeyGen. It learned my face and my voice from a recording, and now it reads scripts I write. I'm telling you that plainly because you deserve to know, and because making those videos taught me the thing every family with an aging parent needs to hear right now.
+
+We make AI videos of me for this page. That's exactly how I know how real they look.
+
+Now picture your mom's phone ringing on a Tuesday night. It's her grandson's voice, and he's crying. He's been in a wreck, or he's been arrested, or he's somewhere he shouldn't be and he's scared. He needs money tonight, and please, please don't tell his mom. Then a calm stranger takes the phone, a lawyer or an officer, and explains exactly how to send it.
+
+Your mom isn't gullible. She's loving. And the voice on that phone doesn't have to sound like somebody pretending to be her grandson anymore. With the tools that exist today, it can sound like him.
+
+Yesterday was National Grandparents Day. Plenty of families marked it by posting a video of the grandkids, and there's nothing wrong with that. But a clip that makes your mom smile is also the raw material this scam runs on. The fix doesn't cost a dime, it takes about ten minutes, and the FBI has already told you what it is. Your family needs a safe word, and your parent needs to know exactly what to do with it.
+
+## What the FBI and FTC have actually put in writing
+
+There's a lot of scary noise about AI scams online, so let's stay with what federal agencies have published.
+
+The FBI's 2025 IC3 Annual Report, from its Internet Crime Complaint Center, carries a full section on artificial intelligence. IC3 received more than 22,000 complaints in 2025 that reported AI-related information, with adjusted losses over $893 million.
+
+That section describes the scam this post is about. The FBI groups grandparent scams, which it also calls distress scams, with confidence fraud, and it describes voice cloning technology being used to mimic the sound of a loved one in distress. Victims reported more than $5 million in losses to distress scams in 2025, and the FBI says the scam is evolving to mimic other family members and close friends in different kinds of emergencies.
+
+Now look at the people you're trying to protect. According to the same report, Americans 60 and older filed 201,266 complaints in 2025, up 37% from 2024, and reported $7.748 billion in losses, up 59%. The average reported loss was $38,500. Complaints the FBI tagged as AI-related, across every kind of scam and not just phone calls, came to 3,143 from people 60 and older, with $352,496,231 in losses.
+
+Closer to home, North Carolina logged 5,942 complaints from people 60 and older, the ninth most of any state, and $164,214,173 in reported losses.
+
+Keep one thing in mind with every one of those numbers: they only count the people who reported. Plenty of families never do, because they're embarrassed, or because the money's gone and filing a report feels pointless.
+
+The FBI's advice is on the record, too. In a December 3, 2024 public service announcement (I-120324-PSA), the FBI warned that criminals generate short audio clips containing a loved one's voice to impersonate a close relative in a crisis, asking for immediate financial help or demanding a ransom. Its first tip to the public: "Create a secret word or phrase with your family to verify their identity."
+
+The Federal Trade Commission warned families about the same scheme in a March 20, 2023 consumer alert. The FTC explained that a scammer needs only a short audio clip of your family member's voice, which could come from content posted online, and a voice-cloning program. Its advice: call the person who supposedly contacted you, using a phone number you know is theirs, and if you can't reach them, get in touch through another family member or their friends.
+
+## The voice is the new part. The playbook isn't.
+
+Grandparent scams aren't new. The FBI files them under confidence fraud, and among people 60 and older, that category drew 10,188 complaints and $584,032,745 in reported losses in 2025. That figure includes romance scams too, so don't read it as the grandparent scam alone. What's new is how convincing the voice can be.
+
+So your family's defense can't rest on "I'd know my own grandson's voice." Maybe you would have, a few years ago. The honest answer now is maybe not, and that's not a failing on anybody's part. It's the technology.
+
+Here's the good news. The voice is the only part that changed. The playbook underneath it runs the same way every time, and the playbook is what you can teach.
+
+## The three tells, whether it's a voice or a video
+
+Every one of these calls leans on the same three things:
+
+1. **Someone you love, in trouble, right now.** A wreck, an arrest, a hospital, a kidnapping. The emergency is built to shut off the part of your brain that asks questions.
+2. **Urgency and secrecy.** "I need it in the next hour." "Don't tell Mom." The secrecy isn't about embarrassment. It's there to stop your parent from making the one phone call that ends the scam.
+3. **Money that's hard to trace.** The FTC says it plainly: if the caller says to wire money, send cryptocurrency, or buy gift cards and give them the card numbers and PINs, those could be signs of a scam.
+
+Once your parent can name those three out loud, the voice stops mattering. A perfect copy of your son's voice asking for gift cards within the hour is still a request for gift cards within the hour.
+
+## Why urgency is the tell
+
+I spent more than eight years buying houses from families in transition before I walked away from that side of the table. That's not a scam, and most buyers aren't scammers. But it taught me what pressure does to a good decision. The worst decisions I watched families make almost always had one thing in common: somebody convinced them it had to happen today.
+
+Real emergencies almost always have two minutes to spare. A grandson who's really in trouble can wait while his grandmother calls his cell phone. A lawyer who's really handling a case can take a callback at the office number. Anybody who tells your parent there's no time to check has just told you everything you need to know about the call.
+
+That's the goal here. Not a parent who's afraid of the phone, but a parent who's calm on the phone, because she already knows her move. And not an adult child who lies awake worrying about the call that might come, but one who handled it on a Sunday afternoon and can stop carrying it.
+
+## The scam runs both directions
+
+Here's the part most families miss. The call doesn't only run toward your parent. The FBI's report says these scams are evolving to mimic other family members and close friends, and the FBI's warning covers anyone impersonating a close relative in a crisis. That includes a copy of your dad's voice calling you.
+
+If your dad has ever been in a church video posted online, or a birthday toast somebody shared, there may be a recording of his voice out there. The safe word protects the whole family, in both directions. You ask him for it, and he asks you.
+
+## What to do this week
+
+### 1. Pick the safe word together
+
+Sit down with your parent this week, in person or on a call you both started. Choose a word or short phrase that nobody could look up. That rules out pet names, birthdays, street names, the old high school, favorite teams, and anything that's ever been posted online. A short, odd phrase beats a single word. "Blue canoe at the lake" is better than the name of the family dog.
+
+### 2. Practice it once, out loud
+
+A safe word nobody remembers under stress won't help. So role-play it. You call your mom, pretend to be in trouble, and she asks for the word. It'll feel silly for about thirty seconds, and that's the point. The first time she asks for it shouldn't be the night it matters.
+
+### 3. Agree on the hang-up rule
+
+Make this the family rule: if anyone calls in a panic asking for money, you hang up and call back on the number you already have saved. Never the number that called you, and never a number the caller gives you. That's the FTC's advice, and it works even on the night someone forgets the safe word. If your parent can't reach the person, the FTC says to try another family member or their friends.
+
+### 4. Put the three tells where your parent will see them
+
+Write them on an index card by the phone or on the fridge: someone I love in trouble right now, don't tell anyone, send money a strange way. If all three show up in one call, hang up and call family.
+
+### 5. Shrink the raw material
+
+You don't have to take the family off the internet. The FBI's same announcement suggests limiting online content of your image or voice, making social media accounts private, and keeping followers to people you know. Look at who can actually see the grandkids' videos, and tighten it where you can.
+
+### 6. If a call already happened, report it
+
+If money already moved, call the bank or card company right away, then file a complaint with the FBI at ic3.gov. Every number in this post exists because somebody reported. Reporting isn't admitting you were foolish. It's how the next family gets warned. And tell the rest of your family, because embarrassment is exactly what these scams count on.
+
+## Frequently Asked Questions
+
+### What is an AI voice clone scam?
+
+It's a phone scam where a criminal uses artificial intelligence to copy the voice of someone you love and fake an emergency. The FBI warned in a December 2024 public service announcement that criminals generate short audio clips of a loved one's voice to impersonate a close relative in a crisis and ask for immediate money or a ransom. The FBI's 2025 IC3 Annual Report calls these distress scams and groups them with grandparent scams.
+
+### How do I set up a family safe word?
+
+Pick a word or short phrase together that nobody could research: no pet names, birthdays, street names, teams, or anything that's ever been posted online. The FBI recommends that families create a secret word or phrase to verify identity. Then practice it once out loud, so your parent actually remembers to ask for it during a frightening call.
+
+### How much money have older adults lost to AI scams?
+
+According to the FBI's 2025 IC3 Annual Report, people 60 and older filed 3,143 complaints tagged as AI-related in 2025, with $352,496,231 in reported losses. Across all scams, people 60 and older reported $7.748 billion in losses, with an average reported loss of $38,500. Those figures only count people who filed a report.
+
+### What should my parent do if a grandchild calls in a panic asking for money?
+
+Hang up and call the grandchild back on a number already known to be theirs, which is the Federal Trade Commission's advice. If the grandchild can't be reached, try another family member or friend. The FTC warns that requests to wire money, send cryptocurrency, or buy gift cards and share the numbers and PINs could be signs of a scam.
+
+### How much of a recording does a scammer need to clone a voice?
+
+The FTC says a scammer needs only a short audio clip of your family member's voice, which could come from content posted online, plus a voice-cloning program. That's why limiting who can see family videos and setting up a safe word both matter.
+
+## About Ryan Riggins
+
+Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [Hammock365 app](https://hammock365.com).
+
+---
+
+**Related reading:** What the Justice Department's elder fraud report says, and why the scam conversation with your parents should happen before the call lands: rigginsstrategicsolutions.com/blog/doj-2025-annual-report-elder-fraud-2-billion-2024
+
+**Want a step-by-step guide?** The Senior Transition Blueprint is free, all 20 modules and 69 tools: rigginsstrategicsolutions.com/the-blueprint
+
+**Not sure where your family stands?** The free Family Readiness Score takes five minutes and shows the gaps across the home, the money, the legal documents, care, and family alignment: rigginsstrategicsolutions.com/tools/family-readiness-score
+
+**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
+
+**Selling a parent's home?** Ryan finds and vets the right local agent for your situation and stays in your corner on the whole sale, at no added cost to your family: rigginsstrategicsolutions.com/in-your-corner
+
+**Coordinate the family in one place.** Hammock365 keeps daily check-ins, medications, and documents where the whole family can see them: hammock365.com
+
+## Sources
+
+All sources checked September 14, 2026.
+
+- Federal Bureau of Investigation, Internet Crime Complaint Center, 2025 IC3 Annual Report: the artificial intelligence section (22,364 complaints, $893,346,472 in adjusted losses, distress scams using voice cloning, more than $5 million in 2025 distress scam losses), the 60+ elder fraud section (201,266 complaints, $7.748 billion, $38,500 average loss, AI-related 3,143 complaints and $352,496,231, Confidence/Romance 10,188 complaints and $584,032,745), state statistics for 60+ (North Carolina 5,942 complaints and $164,214,173), and the Confidence/Romance definition that includes the Grandparent's Scheme. https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf
+- Federal Bureau of Investigation, Public Service Announcement I-120324-PSA, Criminals Use Generative Artificial Intelligence to Facilitate Financial Fraud, December 3, 2024: AI-generated audio of a loved one's voice, and the secret word or phrase recommendation. https://www.ic3.gov/PSA/2024/PSA241203
+- Federal Trade Commission, Consumer Alert, Scammers use AI to enhance their family emergency schemes, March 20, 2023: short audio clips, calling back on a known number, and wire, cryptocurrency, and gift card warning signs. https://consumer.ftc.gov/consumer-alerts/2023/03/scammers-use-ai-enhance-their-family-emergency-schemes
+- 36 U.S.C. 125, National Grandparents Day, the first Sunday in September after Labor Day. https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title36-section125&num=0&edition=prelim
 
 ---
 
@@ -19157,7 +19300,7 @@ Published: 2026-06-03
 
 *By Ryan Riggins, Riggins Strategic Solutions. NC Real Estate License #361546, eXp Realty.*
 
-*Last updated June 3, 2026. Important: I am a licensed North Carolina real estate agent (#361546, eXp Realty), but Riggins Strategic Solutions is an education and media company, not a real estate sales business. I am not here to list or sell your house. I am also not a financial advisor and not an attorney. This is general education only, not financial, tax, or legal advice. Verify everything with the Guilford County Tax Department or a licensed professional before you act.*
+*Last updated September 14, 2026, with the 2027 income limits from the NC Department of Revenue. Important: I am a licensed North Carolina real estate agent (#361546, eXp Realty), but Riggins Strategic Solutions is an education and media company, not a real estate sales business. I am not here to list or sell your house. I am also not a financial advisor and not an attorney. This is general education only, not financial, tax, or legal advice. Verify everything with the Guilford County Tax Department or a licensed professional before you act.*
 
 On June 2, a Greensboro homeowner stood up at a city council meeting and said out loud what a lot of folks around here are feeling: the tax bill, the utilities, the insurance, the solid waste fee, all of it climbing at once, and seniors on fixed incomes wondering how much longer they can afford the house they've lived in for thirty years.
 
@@ -19167,13 +19310,15 @@ So here's what nobody packaged up for them at that meeting. There are real progr
 
 **Quick note on city vs. county.** Your property tax bill includes both a Guilford County rate and a City of Greensboro rate, charged against the same home value. The big exclusions below (the Homestead Exclusion and the Disabled Veteran Exclusion) lower that taxable value, so they cut your whole bill, county and city both. The Circuit Breaker caps your total tax. The Greensboro reimbursement (program 4) is the only city-only one. You apply for the county-administered programs through the Guilford County Tax Department.
 
+**Where the dates stand.** The June 1, 2026 deadline for this year's bill has passed, so the figures below are for the next application window, the 2027 tax year, from the NC Department of Revenue's 2027 application form. (For the 2026 tax year the Homestead limit was $38,800.)
+
 ## 1. The Homestead Exclusion (the big one most people miss)
 
-This is the one to start with. If you're 65 or older, or totally and permanently disabled, and the home is your permanent residence, you can knock the **greater of $25,000 or 50% off the taxable value** of your home.
+This is the one to start with. If you're 65 or older, or totally and permanently disabled, and the home is your permanent residence, you can knock the **greater of $25,000 or 50% off the appraised value** of your home.
 
-- **Income limit (2026): $38,800.** That's your total income from all sources for 2025, and yes, Social Security counts.
+- **Income limit (2027 tax year): $39,900.** That's your total income from all sources for 2026, and yes, Social Security counts.
 - **One application.** Once you're approved it stays in place until you move or your income crosses the line. No repayment, no lien, no catch.
-- **Deadline: June 1** for that tax year.
+- **Deadline: June 1, 2027** for the 2027 tax year.
 - **Apply through the Guilford County Tax Department.**
 
 For most qualifying seniors, this is straight money off the bill every year, and a lot of people who qualify have simply never applied.
@@ -19182,9 +19327,9 @@ For most qualifying seniors, this is straight money off the bill every year, and
 
 The Circuit Breaker has a higher income limit, so it catches the married couples who make too much for the Homestead. It caps your property tax at a percentage of your income (4% up to the Homestead limit, 5% above it, up to the cutoff).
 
-- **Income limit (2026): $58,200.**
+- **Income limit (2027 tax year): $59,850**, which is 150% of the Homestead limit.
 
-Here's the part nobody explains at the council meeting. The Circuit Breaker is a **deferral, not an exclusion.** The difference between what you pay and what you actually owe doesn't disappear, it becomes a **lien on your house at 6% interest.** The last three years of deferred taxes come due when the home is sold or the owner passes away.
+Here's the part nobody explains at the council meeting. The Circuit Breaker is a **deferral, not an exclusion.** The taxes over your cap don't disappear. They **stay a lien on your house**, and under North Carolina law (G.S. 105-277.1F) interest accrues on them as if they had been paid on the dates they were originally due. When a disqualifying event happens (the owner dies, the property is transferred, or it stops being the owner's permanent residence), the last three years of deferred taxes come due, with interest.
 
 If a family is planning to sell that home in a few years to pay for assisted living, that deferred balance can eat several thousand dollars of equity right at closing, exactly when they need it most. (If a sale is anywhere on the horizon, our free [Net Proceeds Calculator](/tools/net-proceeds-calculator) shows what you would actually walk away with after a payoff like this.) That doesn't make the Circuit Breaker bad. It makes it a tool you use on purpose, with your eyes open, not a thing you sign up for because someone at the counter suggested it. If you know you'll be in the home for the long haul, or the family has planned for the payoff, it can be the smarter move than skipping medication to cover a tax bill. Just know what you're signing.
 
@@ -19216,7 +19361,7 @@ What *is* legitimate: managing voluntary retirement withdrawals to stay under a 
 
 ## The honest bottom line
 
-If a married couple's only income is two Social Security checks, they may already clear the $38,800 Homestead limit, and the Circuit Breaker (with its lien) becomes the only state option. That's a real gap, and it's why folks are speaking up at council meetings. The limits haven't kept pace with Social Security. There's pending legislation in Raleigh (House Bill 432) that would raise them, but it stalled in the Senate and is not law, so it doesn't help anyone's bill today.
+If a married couple's only income is two Social Security checks, they may already clear the $39,900 Homestead limit, and the Circuit Breaker (with its lien) becomes the only state option. That's a real gap, and it's why folks are speaking up at council meetings. The limits haven't kept pace with Social Security. House Bill 432, titled "Property Tax Relief Study," passed the NC House in 2025, but it has sat in the Senate Rules committee since April 28, 2025. It is not law, so it doesn't help anyone's bill today.
 
 What you *can* do today: check the Homestead first, look hard at the veteran exclusion, see if you qualify for Greensboro's reimbursement, and appeal your value if the reappraisal overshot. Don't leave money on the table because nobody handed you the list.
 
@@ -19228,11 +19373,11 @@ What you *can* do today: check the Homestead first, look hard at the veteran exc
 
 ## Frequently Asked Questions
 
-### What is the income limit for North Carolina's senior Homestead Exclusion in 2026?
-For 2026 the income limit is $38,800. That is your total income from all sources for 2025, and Social Security counts. If you qualify, the Homestead Exclusion removes the greater of $25,000 or 50% of your home's taxable value. The deadline to apply is June 1, through the Guilford County Tax Department.
+### What is the income limit for North Carolina's senior Homestead Exclusion in 2027?
+For the 2027 tax year the income limit is $39,900, per the NC Department of Revenue's 2027 application. That is your total income from all sources for 2026, and Social Security counts. If you qualify, the Homestead Exclusion removes the greater of $25,000 or 50% of your home's appraised value. The deadline to apply is June 1, 2027, through the Guilford County Tax Department.
 
 ### What is the NC Circuit Breaker property tax deferment, and what is the catch?
-The Circuit Breaker has a higher 2026 income limit of $58,200 and caps your property tax at 4% or 5% of income. The catch is that it is a deferral, not an exclusion. The difference you do not pay becomes a lien on your home at 6% interest, and the last three years of deferred taxes come due when the home is sold or the owner passes away.
+The Circuit Breaker has a higher 2027 income limit of $59,850 and caps your property tax at 4% or 5% of income. The catch is that it is a deferral, not an exclusion. The taxes over the cap stay a lien on your home, interest accrues on them as if they had been paid on their original due dates, and the last three years of deferred taxes come due, with interest, when the owner dies, the property is transferred, or it stops being the owner's permanent residence.
 
 ### Does the disabled veteran property tax exclusion have an income limit?
 No. The Disabled Veteran Exclusion takes $45,000 off your home's taxable value with no income limit and no age requirement. It applies to veterans with a 100% VA disability rating or who qualify under the service-connected rules, and surviving spouses can qualify too. People skip it because they wrongly assume there is an income test.
@@ -19244,7 +19389,7 @@ It is a City of Greensboro program that sends you a check for the difference bet
 No. Property tax relief is based on income, which North Carolina defines broadly to include Social Security, pensions, and retirement and trust distributions. Funneling that income into an LLC or trust does not remove it from the calculation because it still belongs to you, and the assessor is trained to catch it. The penalty is losing the exclusion plus back taxes.
 
 ### What is the deadline to apply for the NC senior Homestead Exclusion?
-June 1 of the tax year. You apply once through the Guilford County Tax Department, and once approved the exclusion stays in place until you move or your income rises above the limit. There is no repayment and no lien.
+June 1 of the tax year, so June 1, 2027 for the 2027 tax year. You apply once through the Guilford County Tax Department, and once approved the exclusion stays in place until you move or your income rises above the limit. There is no repayment and no lien.
 
 ### Can I appeal my 2026 Guilford County property reappraisal?
 Yes. You cannot change the tax rate, but you can challenge the assessed value. If the 2026 reappraisal pushed your value higher than comparable sales support, file an appeal with the county and, if needed, the Board of Equalization and Review. Watch the deadline on your reappraisal notice, because it is tight.
@@ -19269,6 +19414,8 @@ We put the full rundown, every program, who qualifies, and how to reach it, in a
 *Ryan Riggins | Riggins Strategic Solutions | NC Real Estate License #361546 | eXp Realty | rigginsstrategicsolutions.com*
 
 *Disclaimer: Ryan Riggins is a licensed North Carolina real estate agent (#361546, eXp Realty). Riggins Strategic Solutions is an education and media company, not a real estate sales business. This guide is not a solicitation to buy, sell, or list your home. We are not financial advisors, not tax advisors, and not attorneys, and nothing here is financial, tax, or legal advice. Programs, income limits, rates, and deadlines change and vary by individual situation. Confirm current details with the Guilford County Tax Department, the City of Greensboro, or a licensed tax or legal professional before making any decision.*
+
+*Sources for the September 14, 2026 update: NC Department of Revenue, 2027 Application for Property Tax Relief (AV-9), for the $39,900 and $59,850 limits, the June 1 deadline, and the deferral terms (ncdor.gov); G.S. 105-277.1B and G.S. 105-277.1F on ncleg.gov; House Bill 432 (2025-2026 session) status on ncleg.gov.*
 
 ---
 
