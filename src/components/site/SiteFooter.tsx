@@ -136,7 +136,7 @@ export function SiteFooter() {
             <SocialLinks className="text-cream/85" />
           </div>
           <div className="mt-4 flex flex-col gap-4 md:flex-row md:items-center md:justify-between text-xs text-cream/70">
-            <p>&copy; {year} Riggins Strategic Solutions. All rights reserved.</p>
+            <p>&copy; {year} Riggins Properties LLC d/b/a Riggins Strategic Solutions. All rights reserved.</p>
             <ul className="flex flex-wrap gap-4">
               {legalLinks.map((l) => (
                 <li key={l.href}>

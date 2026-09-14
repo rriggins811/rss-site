@@ -16,7 +16,20 @@ export const SITE_DESCRIPTION =
 
 export const ORGANIZATION = {
   name: SITE_NAME,
-  legalName: "Riggins Strategic Solutions, LLC",
+  // Riggins Strategic Solutions is a d/b/a of Riggins Properties LLC, not an
+  // LLC of its own. mailingAddress is the LLC's registered agent address, the
+  // one to publish wherever an address is needed (email footers, legal pages).
+  // `address` below stays the Greensboro base for local schema.
+  legalName: "Riggins Properties LLC",
+  legalLine: "Riggins Properties LLC d/b/a Riggins Strategic Solutions",
+  mailingAddress: {
+    streetAddress: "4030 Wake Forest Rd Ste 349",
+    addressLocality: "Raleigh",
+    addressRegion: "NC",
+    postalCode: "27609",
+    addressCountry: "US",
+  },
+  mailingAddressLine: "4030 Wake Forest Rd Ste 349, Raleigh, NC 27609",
   url: SITE_URL,
   // Optimized brand asset hosted on /brand/ (106KB vs 4.5MB original at
   // /logo/). Same-origin canonical URL referenced from Org/LocalBusiness/

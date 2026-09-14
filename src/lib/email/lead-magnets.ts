@@ -12,10 +12,8 @@ const MAP_SALES_URL = "https://rigginsstrategicsolutions.com/blueprint-preview";
 
 // Physical mailing address for the CAN-SPAM footer. A real postal address is
 // legally required on commercial email AND is a positive deliverability signal
-// (its absence reads as a spam marker). TODO(ryan): append your PO Box or
-// street for full compliance — a PO Box is recommended for a home-based
-// business, e.g. "Riggins Strategic Solutions, LLC, PO Box 1234, Greensboro, NC 27401".
-const MAILING_ADDRESS = "Riggins Strategic Solutions, LLC, Greensboro, NC";
+// (its absence reads as a spam marker).
+const MAILING_ADDRESS = `${ORGANIZATION.legalLine}, ${ORGANIZATION.mailingAddressLine}`;
 
 /**
  * Resend-backed lead-magnet email delivery.

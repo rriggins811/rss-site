@@ -436,7 +436,7 @@ ${featureBodyHtml}
   </div>
 
   <div class="footer">
-    <p>Riggins Strategic Solutions · Greensboro, NC</p>
+    <p>Riggins Properties LLC d/b/a Riggins Strategic Solutions<br>4030 Wake Forest Rd Ste 349, Raleigh, NC 27609</p>
     <p>You are receiving this because you signed up at rigginsstrategicsolutions.com.</p>
     <p>Issue ${String(opts.issueNumber).padStart(3, "0")} · <a href="${escapeHtmlAttr(unsubscribeHref)}">Unsubscribe</a></p>
   </div>
@@ -489,7 +489,8 @@ export function renderNewsletterText(
     "",
     `--`,
     `Ryan Riggins · NC Real Estate License #361546 · eXp Realty`,
-    `Riggins Strategic Solutions · Greensboro, NC`,
+    `Riggins Properties LLC d/b/a Riggins Strategic Solutions`,
+    `4030 Wake Forest Rd Ste 349, Raleigh, NC 27609`,
     `Issue ${String(opts.issueNumber).padStart(3, "0")}`,
     `Unsubscribe: ${opts.unsubscribeUrl ?? "{{RESEND_UNSUBSCRIBE_URL}}"}`,
   ]

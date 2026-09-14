@@ -11,7 +11,7 @@ import {
   CATEGORY_LABELS,
 } from "@/lib/tools";
 import { breadcrumbListSchema } from "@/lib/schema";
-import { abs, AUTHOR, ORGANIZATION, SITE_URL } from "@/lib/site";
+import { abs, AUTHOR, SITE_URL } from "@/lib/site";
 import { RelatedReading } from "@/components/site/RelatedReading";
 import { FAQSection } from "@/components/aeo/FAQSection";
 
@@ -136,7 +136,7 @@ export default async function ToolPage({
           <p className="mt-4 text-ink/80 leading-relaxed">
             Numbers on a page don't decide anything. A 20-minute call will. Walk
             through what you just saw with {AUTHOR.name}, {AUTHOR.jobTitle}.
-            No sales pressure. Ryan is licensed ({ORGANIZATION.legalName})
+            No sales pressure. Ryan is a licensed NC broker (#361546, eXp Realty)
             but does not work as a traditional listing agent.
           </p>
           <div className="mt-6 flex flex-wrap justify-center gap-3">

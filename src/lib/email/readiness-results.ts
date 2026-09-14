@@ -16,7 +16,7 @@ import type { ReadinessBand } from "@/lib/ghl-proxy";
  * must not gate the user's response on the send.
  */
 
-const MAILING_ADDRESS = "Riggins Strategic Solutions, LLC, Greensboro, NC";
+const MAILING_ADDRESS = `${ORGANIZATION.legalLine}, ${ORGANIZATION.mailingAddressLine}`;
 const BLUEPRINT_URL = "https://rigginsstrategicsolutions.com/the-blueprint";
 const CALL_URL = "https://rigginsstrategicsolutions.com/work-with-ryan";
 

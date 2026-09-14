@@ -118,7 +118,7 @@ export function organizationSchema() {
     areaServed: ORGANIZATION.areaServed,
     // sameAs reinforces the identity graph: same brand on social profiles,
     // the Hammock365 marketing site (consumer brand for the app shipped by
-    // RSS LLC), and any additional org-only profiles from
+    // Riggins Properties LLC d/b/a RSS), and any additional org-only profiles from
     // social.ts:additionalSameAs (LinkedIn Company page, future Substack /
     // Medium publication URLs, etc.) that don't render as footer icons.
     sameAs: [
