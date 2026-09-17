@@ -635,6 +635,15 @@ export const DIRECTORY_COUNTIES: DirectoryCounty[] = [
     blurb:
       "Montgomery, Pike Road and Hope Hull, AL programs for seniors and families: a Revenue Commissioner who runs one downtown office and two satellites after the Atlanta Highway office closed in September 2025, an over-65 exemption that can zero the bill but whose local renewal rule the county does not publish online, a statewide 7 percent cap on assessed-value increases running through 2027, an Area Agency on Aging on Cotton Gin Road that takes Medicaid waiver intake and gives free legal help on wills and powers of attorney to anyone 60 and older, a Meals on Wheels program that delivers to about 450 homebound seniors every weekday, LIHEAP from a community action agency whose website is down so you call instead, weatherization run by the County Commission through the regional planning commission, more than one electric utility so Project SHARE depends on whether the bill says Alabama Power or Dixie Electric, a Medicaid district office that the state lists at two different addresses, a one dollar senior bus fare that also covers anyone with a Medicare card, paratransit that stops three quarters of a mile from the nearest route, a county home repair program closed since 2023 that still turns up in searches, and no PACE program anywhere in the River Region.",
   },
+  {
+    slug: "buncombe-county-nc-senior-help-directory",
+    county: "Buncombe County",
+    state: "NC",
+    metro: "Asheville, Black Mountain & Weaverville",
+    region: "Western North Carolina",
+    blurb:
+      "Asheville, Black Mountain and Weaverville, NC programs for seniors and families: the Tax Assessment exemptions desk on College Street and the 2026 and 2027 income limits its own relief pages still show at the older 2024 figure, a reappraisal held until 2027 so this year's bills still use 2021 values, a homeowner grant that ended July 1 and a $500 General Assistance program that replaced it and now takes people who already get an exemption, a Council on Aging that is the county's Medicare counseling site and sends volunteer drivers at 60, free senior dining sites and Meals on Wheels for homebound seniors, energy help that depends on whether the bill says Duke Energy, Haywood EMC or French Broad EMC, a free monthly ART bus pass at 65 through Mountain Mobility and fare-free Trailblazer routes to Black Mountain, Enka and Weaverville, a Helene repair program that has closed even though a county page still says apply, a city home repair program opening this month inside Asheville's limits only, the state's Senior Law Project office downtown, a Sheriff's check-in line for seniors living alone during storms, and a PACE program in Asheville that covers most of the county's ZIP codes.",
+  },
 ];
 
 export type DirectoryState = {
