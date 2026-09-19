@@ -418,10 +418,11 @@ export default function SeniorSafePage() {
           <h2 className="mt-3">How Hammock365 fits with The Blueprint.</h2>
           <div className="mt-6 space-y-5 text-lg text-ink/85 leading-relaxed">
             <p>
-              The Blueprint is the one-time plan: the framework, the
-              checklists, the exit strategies, the scripts for the hard
-              conversations. You buy it once, you execute it once, and most
-              families don&rsquo;t need it again.
+              The Blueprint is the plan, and it&rsquo;s free with a free
+              account: the 20 modules, the checklists, the scripts for the
+              hard conversations, and the sell, rent or keep decision for the
+              house before anyone lists it. Most families work through it once,
+              around the move.
             </p>
             <p>
               Hammock365 is the ongoing layer. The daily check-in and the

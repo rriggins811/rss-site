@@ -130,10 +130,13 @@ export const TOOLS: Tool[] = [
   {
     slug: "strategic-exit-engine",
     title: "Strategic Exit Engine",
+    // Reframed 2026-09-19 (Content Review #12): the calculator itself still
+    // compares six ways to sell; the copy now says decide sell, rent or keep
+    // first and use it to check the math on an offer. Logic untouched.
     shortDescription:
-      "Compare the 5 ways to sell a house without a traditional listing",
+      "Check the math on any offer for a parent's house",
     description:
-      "Side-by-side comparison of cash offers, iBuyers, seller financing, family buyouts, and auctions so the family can see which path fits their situation.",
+      "See what each way of selling a parent's house would net, side by side: a listing, an as-is cash offer, owner financing, a lease-option, a 1031 exchange, or renting it out. Use it to check the math on any offer. Decide sell, rent or keep first, and if you sell, use one vetted local agent. Ryan never buys and never bids.",
     category: "financial",
     minHeight: 2400,
   },

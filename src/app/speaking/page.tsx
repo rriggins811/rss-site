@@ -62,7 +62,7 @@ const topics: Topic[] = [
   },
   {
     title: "How Seniors Lose Their Homes.",
-    body: "Wholesalers, cash buyers, deed fraud, and the 5 exit strategies families never hear about.",
+    body: "Wholesalers, cash buyers, deed fraud, and why the family should decide sell, rent or keep before anyone makes an offer.",
   },
   {
     title: "The Nursing Home Question.",

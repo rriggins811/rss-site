@@ -201,9 +201,9 @@ export default function AboutPage() {
                 I decided I couldn&rsquo;t be on that side of the table anymore.
               </p>
               <p>
-                Now I use everything I learned as an investor — how the pricing
-                games work, what contractors pad, which exit strategies actually
-                protect equity — to put families in the driver&rsquo;s seat.
+                Now I use everything I learned as an investor to put families
+                in the driver&rsquo;s seat: how the pricing games work, what
+                contractors pad, and which options actually protect equity.
               </p>
               <p className="text-cream font-semibold">Welcome to the helpful side.</p>
             </div>

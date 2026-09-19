@@ -190,8 +190,8 @@ export default async function ResourceArticlePage({
                   <p className="mt-3 text-ink/80 leading-relaxed">
                     The Senior Transition Blueprint is the 20-module system
                     Ryan uses with client families. 69 tools, scripts for the
-                    hard conversations, and the five exit strategies for the
-                    home. Free, all of it, with a free account.
+                    hard conversations, and the sell, rent or keep decision for
+                    the house. Free, all of it, with a free account.
                   </p>
                   <Button asChild className="mt-5">
                     <a href="https://blueprint.rigginsstrategicsolutions.com/signup">Get the Blueprint free</a>
@@ -256,8 +256,8 @@ export default async function ResourceArticlePage({
                   <p className="mt-3 text-ink/80 leading-relaxed">
                     The Senior Transition Blueprint is the 20-module system
                     Ryan uses with client families. 69 tools, scripts for the
-                    hard conversations, and the five exit strategies for the
-                    home. Free, all of it, with a free account.
+                    hard conversations, and the sell, rent or keep decision for
+                    the house. Free, all of it, with a free account.
                   </p>
                   <Button asChild className="mt-5">
                     <a href="https://blueprint.rigginsstrategicsolutions.com/signup">Get the Blueprint free</a>

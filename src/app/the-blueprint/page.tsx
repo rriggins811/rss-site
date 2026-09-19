@@ -72,7 +72,7 @@ const tiers: Tier[] = [
     audience: "Families who want a self-serve plan without the hand-holding.",
     bullets: [
       "20 modules and 69 tools and checklists",
-      "5 exit strategies, not just a traditional listing",
+      "Sell, rent or keep the house, decided before anyone lists it",
       "Scripts for the hard family conversations",
       "Lifetime access. Sign up with your email, no payment",
     ],
@@ -167,9 +167,9 @@ const included: { heading: string; value: string; body: string }[] = [
     body: "Checklists, scripts, worksheets, decision trees. The exact stuff Ryan uses on client calls. You get them too.",
   },
   {
-    heading: "5 exit strategies",
-    value: "5",
-    body: "Most agents know one play: list the house. Blueprint covers all five, including the three that usually save the family the most money.",
+    heading: "Sell, rent or keep",
+    value: "3",
+    body: "Most families call an agent first. The Blueprint starts with the decision: sell, rent or keep the house. If you sell, one vetted local agent. Ryan never buys and never bids.",
   },
 ];
 
