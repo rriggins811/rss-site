@@ -5,25 +5,52 @@ It contains the full Markdown of every key page, resource pillar, Senior Help
 Directory state page, and blog post, intended for AI crawlers that ingest
 content for answer generation.
 
-Generated: 2026-09-16
-Indexed: 135 blog posts, 16 resource pillars, 51 Senior Help Directory state pages, 17 video transcripts.
+Generated: 2026-09-19
+Indexed: 137 blog posts, 16 resource pillars, 51 Senior Help Directory state pages, 17 video transcripts.
 
 For citation guidance, organizational facts, and topic depth, see the summary
 index at https://rigginsstrategicsolutions.com/llms.txt.
 
 ---
 
+# What is a Senior Transition Advisor for the family home? (/what-is-a-senior-transition-advisor)
+https://rigginsstrategicsolutions.com/what-is-a-senior-transition-advisor
+
+A Senior Transition Advisor for the family home helps a family decide what happens to a parent's house before anyone lists it: the funding math against the community's fee sheet, who can legally sign, and sell, rent or keep. If selling, one vetted local agent. Not a mover, not a placement agent, never the listing agent.
+
+Ryan Riggins, NC broker #361546 with eXp Realty, holds this role and never takes the listing. The job has four parts: the funding math (the community's fee sheet next to the parent's income, savings and what the house would really net; a housing-cost comparison, not financial advice), who can legally sign (whether a power of attorney covers real estate, whose names are on the deed, what the attorney needs to confirm), sell, rent or keep (side by side, chosen on purpose), and, if selling, one vetted local agent.
+
+How it differs: a senior move manager runs the physical move and is paid by the family; a placement advisor helps choose a community and is usually paid by that community; an aging life care manager coordinates care and is paid by the family; an elder law attorney handles POA, guardianship, deeds and Medicaid; a listing agent sells the house for a commission. The Senior Transition Advisor for the family home decides the house question before anyone lists it.
+
+Cost to the family: nothing. If the family sells, the referred agent pays Ryan a referral fee at closing out of the existing commission, through eXp Realty. If the family rents, keeps or waits, Ryan is not paid.
+
+Where: the NC Triad (Greensboro, Winston-Salem, High Point, Burlington, Asheboro, Lexington, Thomasville, Kernersville), the NC Triangle (Raleigh, Durham, Cary, Chapel Hill), and the SC Grand Strand (Myrtle Beach, Conway, Georgetown). Elsewhere in the US by phone, with a vetted partner agent licensed where the house is.
+
+---
+
+# My mom is moving to assisted living. What do we do with her house? (/mom-moving-to-assisted-living-what-to-do-with-the-house)
+https://rigginsstrategicsolutions.com/mom-moving-to-assisted-living-what-to-do-with-the-house
+
+Don't list it yet. First find out who can legally sign for her, then run the funding math against the community's fee sheet, then decide whether to sell, rent or keep the house, and bring in an elder law attorney and a CPA for the Medicaid and tax questions. A Senior Transition Advisor for the family home is the person who walks a family through that order before anyone lists it.
+
+The steps: 1) who can legally sign (deed names, whether the power of attorney covers real estate, guardianship if there is no valid document); 2) the funding math (base monthly rate, care level charges, community fee and last year's increase, against income, savings and the house's real net; how many months the money lasts with and without the house); 3) sell, rent or keep; 4) Medicaid and tax questions to an elder law attorney and a CPA before anything is sold, rented or retitled (in NC, Legal Aid of North Carolina's Senior Law Project is free for anyone 60 or older at 1-877-579-7562); 5) if selling, one vetted local agent.
+
+Common traps: listing before the funding math, changing the deed to protect the house, the cash-buyer lowball, guessing about the Medicaid 60-month look-back (an attorney question), and leaving the empty house exposed to home title theft.
+
+Who to ask: an elder law attorney (signing authority, deeds, Medicaid), a CPA (tax), a placement advisor (choosing the community), and a Senior Transition Advisor for the family home (the house decision before anyone lists it).
+
+---
+
 # Homepage
 https://rigginsstrategicsolutions.com/
 
-Riggins Strategic Solutions is a consumer protection media and education company helping adult children (40-65) navigate their parents' senior housing transitions. Run by Ryan Riggins, a licensed North Carolina real estate broker (NCREC #361546, eXp Realty) with 8+ years of construction project management and 8+ years of house flipping. Ryan's "switched sides" origin story — walking away from buying from grieving families to protect them instead — anchors the brand position.
+Ryan Riggins is a Senior Transition Advisor for the family home: he helps a family decide what happens to a parent's house before anyone lists it. Riggins Strategic Solutions is a consumer protection media and education company helping adult children (40-65) navigate their parents' senior housing transitions. Run by Ryan Riggins, a licensed North Carolina real estate broker (NCREC #361546, eXp Realty) with 8+ years of construction project management and 8+ years of house flipping. Ryan's "switched sides" origin story, walking away from buying from grieving families to protect them instead, anchors the brand position.
 
 The site offers a tiered approach:
-- Free: The Simple Blueprint (starter guide PDF + 14-day Hammock365 trial)
+- Free: The Simple Blueprint (starter guide PDF)
 - Free: The Senior Transition Blueprint (20 modules and 69 tools, self-paced course; formerly the paid Blueprint Core, now free with a free account signup)
 - Free, by application: The Senior Transition Roadmap (a written plan built with Ryan: intake form, intake call, plan built together, follow-up call, 90 days email support; formerly the paid Blueprint Premium)
-- $14.99/mo: Hammock365 Premium (family coordination app)
-- $39.99/mo: Hammock365 Premium+ (adds Maggie, an AI transition specialist trained on the full Blueprint methodology)
+- Hammock365, the family app for senior care: free forever, with one paid plan at $14.99 a month or $140 a year for the whole family
 
 The business model is education-first and referral-funded. The education is free; Ryan makes his living on real estate referrals, paid to him by the agent, never by the family. No moving services, no senior care placement commissions, no "we buy houses" wholesaling. Ryan is the referring broker, never the listing agent.
 
@@ -5186,8 +5213,431 @@ You must qualify for Medicaid, then apply for the Community Choices Waiver, choo
 
 # Blog Posts (newest first)
 
-The 135 posts below are the full body of every published article
+The 137 posts below are the full body of every published article
 on https://rigginsstrategicsolutions.com/blog, in reverse chronological order.
+
+---
+
+# Before a Fall Makes the Decision: The Home Check That Tells You If Mom's House Still Works
+https://rigginsstrategicsolutions.com/blog/fall-prevention-home-check-before-the-fall-decides
+Published: 2026-09-18
+
+**Excerpt:** For most families, the stay-or-move decision gets made in an emergency room after a fall. It doesn't have to. A calm walk through your parent's house this month tells you what to fix, what Medicare will and won't pay for, and whether the house still works.
+
+You know how it usually goes. Nobody in the family decides whether Mom can keep living in her house. A fall decides it, on a Tuesday night, and then everybody else spends the next three weeks catching up in a hospital hallway.
+
+I watched that pattern for years from the wrong side of the table. When I was buying houses from families in transition, the call almost never came from a family that had talked it through at the kitchen table. It came from a son standing in a hospital parking lot, or a daughter who'd just been told her dad couldn't go home to a two-story house with the only bathroom upstairs. People in that spot sell fast and they sell cheap, because the house has stopped being a home and started being a problem.
+
+That's why I'm writing this one now, while nobody's in a hospital bed.
+
+September is Falls Prevention Awareness Month. The Administration for Community Living kicked it off on September 3, and the CDC updated its older adult falls page on September 4. So this is a good month to do something most families never do: walk your parent's house with fresh eyes before anything happens, and let what you find tell you whether the house still works.
+
+You're not deciding to move anybody. You're collecting information, so that if the day comes, you're making a decision instead of reacting to one. That's the whole point. A fall shouldn't be the thing that chooses where your mom or dad lives for the rest of their life.
+
+## What the CDC Numbers Actually Say
+
+Here's what the CDC reports on its older adult falls page, which was reviewed by its subject matter experts on September 8, 2026.
+
+More than one out of four people 65 and older falls each year, and less than half of them tell their doctor. Read that second part twice. If your parent fell in the garden last spring and got right back up, there's a good chance you never heard about it, and neither did their doctor.
+
+Falling once doubles the chance of falling again. So the fall that "didn't hurt anything" is still the most important warning sign you'll get.
+
+Each year there are about 4.5 million emergency department visits because older adults fall. About 3.1 million of those people are treated and released, and about 1.4 million are hospitalized.
+
+The CDC also says about 37% of people who fall report an injury that needed medical treatment or restricted their activity for at least a day. Nearly 319,000 older people are hospitalized for hip fractures each year, and falls caused 83% of hip fracture deaths and 88% of the emergency visits and hospitalizations for hip fractures. Falls are also the most common cause of traumatic brain injury in older adults, and the CDC specifically warns that a head injury is more serious for someone taking certain medicines, like blood thinners.
+
+There's one more line on that page that I think every adult child should hear. Many people who fall, even without an injury, become afraid of falling. That fear makes them do less. Doing less makes them weaker, and being weaker raises their chances of falling again. So when your dad says he "just doesn't feel like" going to church anymore, it may not be about church.
+
+## The Risk Factors You Can Actually Change
+
+The CDC lists the conditions that make a fall more likely, and most of them can be changed:
+
+- Lower body weakness
+- Vitamin D deficiency
+- Trouble with walking and balance
+- Medicines like tranquilizers, sedatives, or antidepressants, and even some over-the-counter medicines
+- Vision problems
+- Foot pain or poor footwear
+- Home hazards like broken or uneven steps, throw rugs, and clutter
+
+The CDC also notes that most falls come from a combination of these, and the more risk factors a person has, the greater the chance of falling. That's good news for you, because it means you don't have to fix everything. Every factor you take off the list lowers the odds.
+
+## What This Means for Your Family
+
+### The house is either working or it isn't
+
+Here's the part that connects to what I do. Aging in place isn't a yes or no question about whether your parent wants to stay. Almost everybody wants to stay. The real question is whether the house can be made to work for the body your parent has now, and at what cost.
+
+Some houses can. A one-level ranch with a walk-in shower, decent lighting, and a couple of grab bars might serve your mom well for another ten years. Other houses can't, no matter how much you spend. If the only full bathroom is up a steep staircase with one handrail, or the laundry is in a basement, or the front door has five brick steps and no rail, you're looking at a house that's going to fight your parent every day.
+
+You don't have to guess which one you've got. The walk-through below tells you.
+
+### What Medicare will pay for, and what it won't
+
+This is where a lot of families get surprised, so let's be exact.
+
+**Walkers are covered.** Medicare.gov says Part B covers walkers, including rollators, if your parent is eligible. Your parent's provider has to prescribe it for use in the home. After the Part B deductible, your parent pays 20% of the Medicare-approved amount.
+
+**Physical therapy is covered, and it isn't only for after an injury.** Per Medicare.gov, Part B helps pay for medically necessary outpatient physical therapy. It can be used to improve or maintain current function, or to slow the rate of decline, not just to recover from surgery. A doctor, nurse practitioner, clinical nurse specialist, or physician assistant has to certify the need. There's no yearly limit on what Medicare pays for medically necessary outpatient therapy, and after the Part B deductible your parent pays 20%. Since lower body weakness and balance trouble are two of the CDC's top risk factors, this is the covered benefit that goes straight at the problem.
+
+**The yearly wellness visit is free, and it includes a medication review.** Medicare.gov says your parent pays nothing for the yearly wellness visit if the provider accepts assignment, and the Part B deductible doesn't apply. The visit includes a review of current prescriptions. Since medicines are on the CDC's risk list, that's a free chance to ask whether anything your parent takes could be making them unsteady. Just know that if the provider adds tests or services that aren't part of the wellness visit, coinsurance and the deductible can apply.
+
+**Grab bars are not covered.** This one surprises people. The CMS national coverage determination for durable medical equipment, NCD 280.1, lists grab bars as "Deny," calling them a self-help device that's not primarily medical in nature. The same list denies bathtub seats and bathtub lifts. So the cheapest, most useful change in the whole house is one you'll be paying for yourself. Plan for it.
+
+## The Walk-Through: What to Do, in Order
+
+The steps below follow the CDC's own home checklist, called Check for Safety, and its guide for family caregivers. Do this in person if you can. A phone call where your mom says "everything's fine" isn't a walk-through.
+
+### 1. Start at the front door and the stairs
+
+Look for papers, shoes, or anything else sitting on the steps, inside and out. Check for broken or uneven steps, and loose or torn carpet on stairs. The CDC checklist says handrails should be on both sides of the stairs and run the full length of them. Check for a light and a switch at both the top and the bottom. If a stairway bulb is burned out, change it today, because your parent may have been living with it for weeks rather than climb a ladder.
+
+### 2. Walk every floor path
+
+Notice whether you have to step around furniture to cross a room. Pick up throw rugs, or secure them with double-sided tape or a non-slip backing. Coil or tape cords along the wall. If your parent is running an extension cord across a walkway because there's no outlet where they need it, that's a job for an electrician, and it's cheaper than a hospital stay.
+
+### 3. Check the kitchen reach
+
+Look at where your parent keeps what they use every day. The CDC recommends keeping those things on lower shelves, about waist high. If there's a step stool, it should have a bar to hold on to. And a chair should never stand in for a step stool.
+
+### 4. Walk the path from the bed to the bathroom, in the dark
+
+This is the one I'd do if you only do one. Stand by the bed, turn off the lights, and walk to the bathroom the way your parent does at 2 AM. Can a lamp be reached from the bed? Is there a nightlight? The CDC suggests nightlights along that path, and some turn on by themselves after dark.
+
+### 5. Look hard at the bathroom
+
+Check whether the tub or shower floor is slippery, and add a non-slip mat or self-stick strips. Then ask the honest question: does your parent need support getting in and out of the tub or up from the toilet? If so, the CDC checklist calls for grab bars next to and inside the tub, and next to the toilet. Remember from above, this is out of pocket.
+
+### 6. Book the appointments that go with the house
+
+The CDC's caregiver guidance goes past the house. Tell a healthcare provider right away if your parent has fallen, is worried about falling, or seems unsteady. Keep an updated list of every medication, including over-the-counter ones and supplements, and show it to a provider or pharmacist. Get eyes checked by an eye doctor at least once a year and feet checked by a provider once a year. Ask about vitamin D. And ask the provider about an exercise program, since the CDC notes that activities that improve balance and strengthen legs, like Tai Chi, can prevent falls.
+
+### 7. Write down what can't be fixed
+
+When you're done, you'll have two lists. One is things you can fix: rugs, bulbs, cords, rails, grab bars. The other is things you can't fix without a contractor, or at all: the only shower is upstairs, the entry has steps and no room for a ramp, the laundry is two floors down.
+
+That second list is the real answer to the aging in place question. If it's short, you've probably just bought your parent years in their home. If it's long, you've learned something important while there's still time to plan instead of scramble.
+
+## If the House Doesn't Pass
+
+I want to be careful here, because this is exactly the moment families get pushed. If your walk-through tells you the house is going to fight your parent, you don't need to call a real estate agent this week. Calling an agent starts a clock, and you're not on that clock yet.
+
+What you need first is the math. How much would the fixable list cost, and how many years would it buy? What would it cost to stay with more help at home, compared with a move to a place built for how your parent lives now? That's the question the free Aging in Place Break-Even calculator is built to answer, and it's worth doing before anyone else is in the conversation.
+
+And if the numbers eventually say sell, you still don't have to audition three agents, compare three prices you can't check, or be the one who tells somebody no. That part I can take off your plate when the time is right. Not before.
+
+For now, walk the house. Make the two lists. Book the wellness visit. The family that does this in September is the family that gets to make the decision at a kitchen table instead of in a hospital hallway.
+
+## Frequently Asked Questions
+
+### How common are falls in older adults?
+
+Very common. The CDC says more than one out of four people 65 and older falls each year, and less than half of them tell their doctor. Falling once doubles the chance of falling again, and older adult falls lead to about 4.5 million emergency department visits each year.
+
+### Does Medicare pay for grab bars in the bathroom?
+
+No. The CMS national coverage determination for durable medical equipment, NCD 280.1, denies grab bars as a self-help device that isn't primarily medical in nature. It also denies bathtub seats and bathtub lifts. Families generally pay for these themselves, so budget for them when you plan home changes.
+
+### Does Medicare cover a walker or physical therapy for fall risk?
+
+Yes, when the rules are met. Medicare.gov says Part B covers walkers, including rollators, when a provider prescribes one for use in the home, and it helps pay for medically necessary outpatient physical therapy, including therapy to maintain function or slow decline. After the Part B deductible, your parent pays 20% of the Medicare-approved amount for either.
+
+### What should I check in my parent's home to prevent falls?
+
+Follow the CDC's Check for Safety checklist. Clear stairs and floors, fix loose steps and handrails, put rails on both sides of stairs, remove or secure throw rugs, tape cords to the wall, keep everyday items about waist high, add a lamp by the bed and nightlights to the bathroom, and put non-slip mats and grab bars in the tub and by the toilet.
+
+### When is a house no longer safe for a parent to age in place?
+
+When the problems can't be fixed with small changes. Rugs, bulbs, cords, and grab bars are fixable. An only bathroom up a steep staircase, entry steps with no room for a rail or ramp, or laundry on another floor may not be. If that unfixable list is long, it's time to run the numbers on staying versus moving, before a fall forces the decision.
+
+## About Ryan Riggins
+
+Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [Hammock365 app](https://hammock365.com).
+
+---
+
+**Weighing stay versus move?** The free Aging in Place Break-Even calculator compares the cost of staying with help against a move: rigginsstrategicsolutions.com/tools/aging-in-place-break-even
+
+**If a fall has already happened.** Read The First 72 Hours After Your Parent Falls: rigginsstrategicsolutions.com/blog/the-first-72-hours-after-your-parent-falls-what-nobody-tells-you
+
+**Want a step-by-step guide?** The Senior Transition Blueprint is free, all 20 modules and 69 tools: rigginsstrategicsolutions.com/the-blueprint
+
+**Not sure where your family stands?** The free Family Readiness Score takes five minutes and shows the gaps across the home, the money, the legal documents, care, and family alignment: rigginsstrategicsolutions.com/tools/family-readiness-score
+
+**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
+
+**Selling a parent's home?** Ryan finds and vets the right local agent for your situation and stays in your corner on the whole sale, at no added cost to your family: rigginsstrategicsolutions.com/in-your-corner
+
+**Coordinate the family in one place.** Hammock365 keeps daily check-ins, medications, and documents where the whole family can see them: hammock365.com
+
+## Sources
+
+Checked September 18, 2026.
+
+- Administration for Community Living, Falls Prevention Awareness Month Is Here, September 3, 2026. https://acl.gov/news-and-events/announcements/falls-prevention-awareness-month-here
+- CDC, National Center for Injury Prevention and Control, Older Adult Falls Facts (updated September 4, 2026, reviewed September 8, 2026). Share who fall each year, telling the doctor, repeat falls, emergency visits and hospitalizations, hip fractures, traumatic brain injury, injury rate, fear of falling, and risk factors. https://www.cdc.gov/falls/data-research/facts-stats/index.html
+- CDC STEADI, Check for Safety: A Home Fall Prevention Checklist for Older Adults. Room-by-room hazards and fixes. https://www.cdc.gov/steadi/pdf/steadi-brochure-checkforsafety-508.pdf
+- CDC STEADI, Family Caregivers: Protect Your Loved Ones from Falling. Speaking up, medication lists, eye and foot checks, vitamin D, and exercise. https://www.cdc.gov/steadi/pdf/steadi-caregiverbrochure.pdf
+- CMS, National Coverage Determination 280.1, Durable Medical Equipment Reference List. Grab bars, bathtub seats, and bathtub lifts listed as Deny. https://www.cms.gov/medicare-coverage-database/view/ncd.aspx?ncdid=190&ncdver=2
+- Medicare.gov, Walkers. Part B coverage, prescription for home use, and 20% after the deductible. https://www.medicare.gov/coverage/walkers
+- Medicare.gov, Physical therapy services. Coverage to improve or maintain function or slow decline, provider certification, no yearly limit, and 20% after the deductible. https://www.medicare.gov/coverage/physical-therapy-services
+- Medicare.gov, Yearly wellness visits. No cost when the provider accepts assignment, prescription review, and when coinsurance can apply. https://www.medicare.gov/coverage/yearly-wellness-visits
+
+---
+
+# Buncombe County, NC Senior Help Directory: Asheville, Black Mountain and Weaverville Programs for Seniors and Families (2026)
+https://rigginsstrategicsolutions.com/blog/buncombe-county-nc-senior-help-directory
+Published: 2026-09-17
+
+**Excerpt:** Free, plain-English senior help in Buncombe County, NC: the Tax Assessment exemptions desk on College Street and the 2026 and 2027 income limits its own web pages have not caught up to, a reappraisal pushed to 2027 after Helene, a $300 homeowner grant that ended July 1 and the $500 General Assistance program that replaced it, a Council on Aging that is the county's Medicare counseling site and runs free volunteer rides at 60, Meals on Wheels for homebound seniors, a free monthly ART bus pass at 65 through Mountain Mobility, a PACE program in Asheville that covers most of the county's ZIP codes, the state's Senior Law Project office right downtown, a Helene home repair program that has closed even though a county page still says apply, and a Sheriff's line that checks on seniors living alone during storms.
+
+*Free, plain-English help for seniors and families in Buncombe County, NC. Education, not advice. Verify before you rely on it.*
+
+## Start here (works anywhere)
+- 211 (dial 2-1-1), Eldercare Locator 1-800-677-1116, Medicare 1-800-633-4227, Social Security 1-800-772-1213, VA 1-800-827-1000, Alzheimer's 24/7 Helpline 1-800-272-3900, National Elder Fraud Hotline 1-833-372-8311, Crisis Lifeline 988
+
+**Three local front doors:** **Council on Aging of Buncombe County**, **46 Sheffield Circle, Asheville, NC 28803**, **828-277-8288** | **Land of Sky Regional Council Area Agency on Aging**, **339 New Leicester Highway, Suite 140, Asheville, NC 28806**, **828-251-6622** | **Buncombe County Health and Human Services**, **40 Coxe Avenue, Asheville, NC 28801**, **828-250-5500**. And **2-1-1**, or **1-888-892-1162**, free and open 24 hours a day, every day of the year.
+
+**If you only make one call from this page, make it the Council on Aging.** In a lot of counties the Area Agency on Aging does the hands-on work. In Buncombe County, much of it sits with the **Council on Aging of Buncombe County**, a local nonprofit on Sheffield Circle. It is the county's **SHIIP Medicare counseling site**, it runs a **Benefits Enrollment Center** for Extra Help, SNAP and the Medicare Savings Programs, it sends **volunteer drivers** to people 60 and older, it runs the **senior dining sites**, it delivers a **monthly bag of shelf-stable food** to homebound seniors, it installs **grab bars and shower wands**, and it hands out **Family Caregiver Support Program respite funds** for Buncombe and Madison counties. Hours are **Monday to Friday, 9:00 a.m. to 4:30 p.m.**, and the email is **info@coabc.org**.
+
+**Land of Sky is the regional layer.** **Land of Sky Regional Council's Area Agency on Aging** covers **Buncombe, Henderson, Madison and Transylvania** counties. It provides **options counseling**, the regional **Family Caregiver Support Program**, **Project C.A.R.E.** for families living with dementia, the **Senior Companion** and **Foster Grandparent** programs, and the **Long-Term Care Ombudsman** for nursing home and assisted living residents. It also funds a good share of the local senior services you will see below.
+
+**Health and Human Services is the benefits office.** Medicaid, Food and Nutrition Services, Special Assistance, energy assistance, Adult Protective Services and the county's General Assistance Program all run out of **40 Coxe Avenue**, **Monday to Friday, 8 a.m. to 5 p.m.** The main line is **828-250-5500**. The county also runs a **One Buncombe Call Center at 828-250-6100**.
+
+**A word on Helene.** Tropical Storm Helene reshaped almost every program on this page. Some storm programs are still running, some have quietly closed, and a few county web pages have not caught up. Where an official page is out of date, this guide says so and tells you which source we went by.
+
+## Property tax relief (apply with Buncombe County Tax Assessment, 828-250-4915)
+
+**The office.** Buncombe County's senior and disability relief is handled by **Tax Assessment**, part of the county Tax Department. The county's forms call it the **Buncombe County Property Assessor, Exemption Division**. The office is at **182 College Street, Asheville, NC 28801**, which is also the mailing address. The **senior citizen and disability assistance line is 828-250-4915**. The main Tax Assessment line is **828-250-4920**, and Real Estate Assessment is **828-250-4940**. Hours are **Monday to Friday, 8 a.m. to 5 p.m.** If you go in person, the county says parking is available at the **164 College Street Parking Deck**; bring your ticket in for validation. The county does not publish an exemptions email address, so call.
+
+**Read this before you look up the income limit.** Buncombe County's two relief web pages still show an income limit of **$36,700** and a Circuit Breaker ceiling of **$55,050**. The county's own application packet labels $36,700 as the **2024** limit, and a FAQ on the reappraisal page quotes an even older **$29,500**. The current numbers come from the North Carolina Department of Revenue's form AV-9: **$38,800 for the 2026 tax year** and **$39,900 for the 2027 tax year**. If your parent's income sits between the old and new figures, do not let an outdated web page talk you out of applying.
+
+**The three programs.** All three are set by the state, filed with the county, and never sent to the Department of Revenue.
+
+- **Elderly or Disabled Exclusion.** Takes the **greater of the first $25,000 or 50 percent** off the appraised value of the permanent residence. The owner must be **65 or older, or totally and permanently disabled**, as of **January 1**, and income must be within the limit: **$38,800 for 2026, $39,900 for 2027**. If both spouses are under 65 and one is totally and permanently disabled, you also file **Form AV-9A**, which only a physician licensed in North Carolina or a government agency can complete. Buncombe County says that **once you are in the program, an annual application is not required**, but the county **audits accounts receiving tax relief periodically**.
+- **Circuit Breaker Tax Deferment.** Caps the tax at **4 percent of income** for incomes up to the base limit, or **5 percent** for incomes up to **$58,200 for 2026** or **$59,850 for 2027**. It needs **five full years of ownership and five years of occupancy** before January 1, and **every owner must qualify and elect it**, or no one gets the benefit. **This is a deferral, not forgiveness.** The taxes above the cap stay a **lien** on the home, and when a disqualifying event happens, such as **the owner's death, a transfer of the property, or the home no longer being the owner's permanent residence**, the **last three years of deferred taxes come due with interest**. And unlike the exclusion, **you must file a new application every year**. Understand the lien before your parent signs, especially if the plan is to leave the house to family or sell it later.
+- **Disabled Veteran Exclusion.** Takes up to **$45,000** off the appraised value, with **no age or income limit**. An unremarried surviving spouse may also qualify. It starts with **Form NCDVA-9**, which must first be completed by a Veterans Service Officer. In Buncombe County that is **Buncombe County Veterans Services, 40 Coxe Avenue, Asheville, NC 28801, 828-250-5726**, Monday to Friday 8 a.m. to 5 p.m. (One county relief page labels that number as the NC Division of Veterans Affairs; the county's Veterans Services page shows it is the county office.)
+
+**Each owner can use only one of the three programs.** When a married couple owns the home, one application covers both, and one full exclusion is available even if only one spouse qualifies.
+
+**Deadlines and paperwork.** Relief applications are open **January 1 to June 1**. Income proof is the **first two pages and Schedule 1 of the prior year's federal return**, and the county's forms warn that applications returned without income information will be denied. If you miss June 1, the state form allows a late application **for good cause**, but it applies only to that year's taxes. Call **828-250-4915** and ask.
+
+**The reappraisal was pushed back again.** Buncombe County's reappraisal was originally delayed after Helene from 2025 to 2026, and then state law placed the 2026 reappraisal in a **moratorium until January 1, 2027**. That means **2026 tax bills still use the 2021 values**, adjusted for any Helene damage the county already recorded, at the county rate of **61.54 cents per $100** of value. You can still **appeal the value on your current bill through December 31, 2026**. Expect new values in 2027, which is a good reason to get an eligible parent into the exclusion before then.
+
+**Paying this year's bill.** 2026 bills were due September 1 and can be paid **without penalty through January 5, 2027**. If a parent cannot pay in full, the county's collection specialists can talk about a payment plan at **828-250-4910**.
+
+**The grant that ended, and the program that replaced it.** For several years Buncombe County and the City of Asheville ran a **Homeowner Grant** that sent eligible owners a few hundred dollars toward their tax bill. The county now states plainly: **as of July 1, 2026, the Homeowner Grant program has been discontinued.** Older city and county news stories about it still turn up in searches; the city's page is marked as archived. What exists now is the **Buncombe County HHS General Assistance Program (GAP)**, funded by the county and the City of Asheville:
+
+- It can pay **up to $500**, sent **directly to the bill holder**, for a **primary residence**.
+- You must live in Buncombe County, have income **at or below 200 percent of the federal poverty limits**, and have **no more than $5,000 in reserve**.
+- **People already receiving a tax exemption are now eligible**, which was not true under the old grant.
+- **Last year's recipients must reapply.**
+- Call **828-250-5500**.
+
+**Watch for the fake federal senior exemption.** In August 2026 Buncombe County warned residents about YouTube videos that **appear to use artificial intelligence** to promote a federal senior property tax exemption. There is no such federal program. If an older parent mentions one, the county's tax office is the place to check, and anyone asking for a fee to "file" it is a red flag.
+
+## Food
+
+**Meals on Wheels.** **Meals on Wheels of Asheville and Buncombe County**, **146 Victoria Road, Asheville, NC 28801**, **828-253-5286**, serves **any resident of Buncombe County 60 or older who is homebound**. Meals are delivered **Monday through Friday between 9:30 a.m. and 12:30 p.m.**, up to five a week. A **$3.00 contribution per meal** is requested, and the program states that **no eligible senior is denied service due to an inability to pay**. Start with its referral form on mowabc.org or a phone call. The program does not publish waitlist status, so ask when you call.
+
+**Senior dining sites.** The **Council on Aging's Senior Dining and Wellness** program is **free for Buncombe County residents 60 and older**. You must **pre-register**; call **828-277-8288, extension 1323**. The Council on Aging lists four sites:
+
+- **Grove Street Community Center**, 36 Grove Street, Asheville (formerly the Senior Opportunity Center), Monday to Friday, **828-350-2062**
+- **Shiloh Community Center**, 121 Shiloh Road, Asheville, Wednesday and Friday, **828-274-7739**
+- **Lakeview Center for Active Aging**, 401 Laurel Circle Drive, Black Mountain, Monday to Friday
+- **Weaverville First Baptist Church**, 63 North Main Street, Weaverville, Monday to Friday, **828-645-6720**
+
+Land of Sky's older listing shows different days, hours and a different Weaverville phone for some of these sites. The Council on Aging runs them, so we went by its schedule; confirm hours when you register. The Town of Black Mountain says Lakeview **reopened its upstairs for congregate meal site dining and programs on March 9, 2026**.
+
+**Homebound food delivery.** Separately from Meals on Wheels, the Council on Aging delivers a **monthly bag of shelf-stable food** to Buncombe residents who are **60 or older and homebound**. A home visit is required to enroll. Call **828-277-8288**.
+
+**MANNA FoodBank.** MANNA supplies the pantries across Western North Carolina. Its **Food Helpline** helps with finding a pantry and with SNAP applications: **call or text 828-290-9749**, Monday to Friday 9 a.m. to 4 p.m. The pantry locator is at mannafoodbank.org/find-food. Note that MANNA's headquarters now lists **99 Broadpointe Drive, Mills River**, in Henderson County, so older Asheville addresses you may find are out of date. Main line **828-299-3663**.
+
+**Food and Nutrition Services (SNAP).** Apply online through **ePASS** at epass.nc.gov, or through Buncombe County HHS at **828-250-5500**. The Council on Aging's Benefits Enrollment Center also helps older adults apply; call **828-277-8288, extension 1327**.
+
+## Energy and utility help
+
+**Low Income Energy Assistance (LIEAP).** LIEAP is a once-a-year heating payment. The state's rule is that **households with a person 60 or older**, or disabled persons receiving services through the NC Division of Aging and Adult Services, **can sign up December 1 to 31**, and all other households **January 1 to March 31** or until funds run out. The income limit is **130 percent of the federal poverty level**. The state has not yet posted 2026 to 2027 season dates, and last winter it pushed the ePASS opening to December 10, so check with the county in late November. Apply on **ePASS** or through **Buncombe County HHS, Public Assistance / Economic Services, 40 Coxe Avenue, 828-250-5500**.
+
+**Crisis Intervention Program (CIP).** CIP is for a **heating or cooling emergency** and runs from **July 1 through June 30** or until the county's money runs out, so it is open now. Buncombe County says it covers households **below 150 percent of the poverty level** and can pay **electric bills, deposits, fuel oil, kerosene, gas, propane, wood, coal, heaters, furnace repairs and fans**. It does **not** pay rent, mortgage, water or prescriptions. For households with someone 60 or older or disabled, the state's resource limit is **$4,500**. The county's page says CIP requires a final notice for electric and gas, while the state page says disconnect notices are not required at this time, so apply anyway and ask. Apply on **ePASS** or call **828-250-5500**; the county's page reads as if walk-in applications are not taken, so call before you go.
+
+**If the power bill says Duke Energy.** Duke Energy's **Share the Light Fund** helps customers with a **past-due balance, unpaid deposit or unpaid reconnection charge**. Apply through the **NCDHHS CARELINE at 800-662-7030, press 3**, or online at **epass.nc.gov**. State policy caps the benefit at **$2,500 per application and per state fiscal year**.
+
+**If the power bill says Haywood EMC.** Part of Buncombe County is served by Haywood Electric Membership Corporation, which bought the Hominy Power Company here in 1943. Its **Project HEMC** gives **one $200 credit per program period**, winter (November through April) and summer (May through October), for members under its income limits, for example **$30,120 for one person** or **$40,880 for two**. It asks for **tax returns**, not pay stubs. **Haywood EMC, 376 Grindstone Road, Waynesville, 828-452-2281.**
+
+**If the power bill says French Broad EMC.** French Broad Electric Membership Corporation serves part of northern Buncombe County. Its website **does not list a bill assistance fund**, so for a French Broad bill, start with LIEAP, CIP and 2-1-1.
+
+**Natural gas.** The gas utility here is **Enbridge Gas North Carolina**. It sponsors the **Salvation Army's Heat Care Fund** for customers who need help with a gas bill, and its customer line is **1-877-776-2427**, Monday to Friday 7 a.m. to 6 p.m. Enbridge also offers **free weatherization** for income-qualified customers who heat or warm water with gas: **1-855-905-1278**. Note that Enbridge says the old account.dominionenergync.com address retires on **September 25, 2026**.
+
+**Local crisis help with utilities.**
+- **ABCCM Crisis Ministry** provides **utility and rental assistance**. Main site **24 Cumberland Avenue, Asheville, 828-259-5300**; South, 10 Buck Shoals Road, Arden, 828-259-5302; Hominy Valley, 1914 Smokey Park Highway, Candler, 828-259-5301; North, 403 Weaverville Highway, 828-259-5303. All open Monday to Friday, 8:30 a.m. to 4:30 p.m.
+- **Eblen Charities**, **23 Hamilton Street, Asheville**, **828-255-3066**, says it is **currently accepting requests** for rent, utility and medical help, and that **mortgage assistance is no longer available**.
+
+**A storm program that looks open but isn't.** The state's energy assistance page still says **Disaster Energy Applications** for Helene would be accepted **beginning January 15, 2025**, with nothing saying they are still open. Do not plan around it; ask HHS.
+
+## Medicare, Medicaid, prescriptions
+
+**Free Medicare counseling.** North Carolina's **Seniors' Health Insurance Information Program (SHIIP)**, run by the NC Department of Insurance, gives free, unbiased Medicare counseling. In Buncombe County, the state's counselor locator lists the **Council on Aging of Buncombe County Medicare Center, 46 Sheffield Circle, 828-277-8288**, extension **1310**, **by appointment only**. The statewide SHIIP line is **1-855-408-1212**, Monday to Friday 8 a.m. to 5 p.m. Call before any Medicare Advantage or Part D decision, especially during open enrollment from October 15 to December 7.
+
+**Help paying Medicare costs.** The **Medicare Savings Programs** (QMB, SLMB, QI and QDWI) can pay Medicare premiums and, for QMB, cost-sharing. **Extra Help** lowers Part D drug costs. Apply for the Medicare Savings Programs through Buncombe County HHS at **828-250-5500**; apply for Extra Help through SHIIP, through Social Security at **1-800-772-1213**, or online at socialsecurity.gov/i1020. The Council on Aging's **Benefits Enrollment Center (828-277-8288, extension 1327)** will help with either. We are not printing income limits here: the state pages we checked still showed prior-year figures.
+
+**Medicaid.** Apply on ePASS or at **Buncombe County HHS, 40 Coxe Avenue, 828-250-5500**. The **NC Medicaid Contact Center** is **888-245-0179**. NC Medicaid says work requirements for adults **19 to 64** start January 1, 2027, and renewal moves to every six months; the work rule does not apply to people 65 and older.
+
+**Staying home on Medicaid: CAP/DA.** The **Community Alternatives Program for Disabled Adults (CAP/DA)** is North Carolina's Medicaid waiver that brings in-home aide help, respite and case management so a person who would otherwise qualify for a nursing home can stay home. NC Medicaid no longer names a single lead agency per county; it says to **contact a local CAP/DA case management entity in the county of residence**. Its list for Buncombe County (dated May 2025) names **C and B Support Services Inc., 828-654-0644**; **CarePartners Private Duty Services, 828-277-4800**; **Healthkeeperz Inc., 910-522-0009**; **Primary Health Choice, 910-865-3500**; **RHA Management Services, Inc., 888-207-7828**; and **Walkers Home Care CAPDA, 252-432-6308**. CarePartners' own site lists a different Buncombe number, so if one line does not answer, try the other or ask the Medicaid Contact Center.
+
+**Prescriptions.** Start with Extra Help above, and ask SHIIP to run a Part D plan comparison against the actual drug list. **NC MedAssist (1-866-331-1348)** is a free pharmacy program, but it serves **uninsured** North Carolinians, so most people on Medicare will not qualify.
+
+## Home repair and safety
+
+**Start with the programs that are actually taking families.**
+
+- **Mountain Housing Opportunities, Essential Home Repair.** For homeowners who are **62 or older, disabled, a veteran**, a single parent, or a family with three or more dependent children. **53 South French Broad Avenue, Suite 100, Asheville, 828-254-4030**, or apply at mtnhousing.org. Woodfin homeowners have a separate partnership through MHO.
+- **Asheville Area Habitat for Humanity, Home Repair.** For Buncombe or Madison County homes that have been **owner occupied for at least one year**, with a **building tax value of $450,000 or less** and income **below 80 percent** of the HUD median. **31 Meadow Road, Asheville, 828-251-5702.** Habitat says it has **restarted non-storm repairs**. Its Helene disaster repairs run through a coalition intake whose current status we could not confirm, so ask.
+- **Council on Aging, Minor Home Repair.** Installs **grab bars and shower wands** for clients **60 and older in Buncombe County**, and staff help families apply to Habitat, Community Action Opportunities, Independent Living and MHO. The Council on Aging warns that **all programs have a waiting list**. **828-277-8288.**
+- **Weatherization.** North Carolina's weatherization provider for Buncombe is **Community Action Opportunities, 25 Gaston Street, Asheville, 828-252-2495**. It serves households **at or below 200 percent** of the federal income guidelines, with automatic eligibility for anyone who received SSI, TANF or SNAP in the prior 12 months, and **priority for the elderly and disabled**. Its **Heating and Air Repair and Replacement Program (HARRP)** can repair or replace a furnace or air system that is failing.
+- **USDA Section 504.** For very-low-income homeowners in eligible rural areas: loans up to **$40,000** at a fixed **1 percent** over 20 years, and grants up to **$10,000** for owners **62 or older**, combinable up to $50,000. Grants must be repaid if the home is sold within three years. Much of Asheville will not qualify as rural, so check the address on USDA's eligibility map first.
+
+**Helene programs: what is open and what is not.**
+- **Renew NC Single-Family Housing Program: closed.** The state says **the application period is now closed**, and Renew NC says applications are **no longer being accepted**. A Buncombe County Helene housing page still says homeowners can apply. That page is out of date. The program is now run by the **NC Department of Commerce, Division of Community Revitalization**; questions go to helene.recovery@commerce.nc.gov. If your parent already applied and was denied, **Pisgah Legal Services** handles Renew NC appeals (see Legal help).
+- **City of Asheville Helene repair money** was folded into Renew NC, and the city's recovery site lists **no upcoming deadlines**.
+- **Buncombe County Hazard Mitigation Grant Program: closed.** The county says applications are no longer being accepted.
+- **Reduce to Rebuild: open through June 30, 2027.** Buncombe County cuts **certain permit and inspection fees by 50 percent** for rebuilding a Helene-damaged primary home. Ask the county's Permits and Inspections Department.
+- **City of Asheville Home Repair Program: coming, city limits only.** The city says a call for proposals will be issued, and **applications will open in September 2026**, taken through partner agencies, for homes **within the city limits**. Questions go to affordablehousing@ashevillenc.gov. If your parent lives in Black Mountain, Weaverville, Woodfin or unincorporated Buncombe, this one will not apply.
+
+**A check-in call for seniors living alone.** The **Buncombe County Sheriff's Office Senior Resource Program** enrolls seniors for **phone check-ins during holidays and severe weather**. The Sheriff's Office is clear that it is **not a home security check**. **828-250-4447**, Monday to Friday 8:30 a.m. to 5:00 p.m., or seniors@buncombesheriff.org. After Helene, that is worth ten minutes to set up for a parent who lives alone up a mountain road.
+
+## Rent, housing, emergency cash
+
+- **Housing Authority of the City of Asheville (HACA)**, **165 South French Broad Avenue, Asheville, 828-258-1222.** As of this writing HACA states that its **Housing Choice Voucher waitlist is open** (apply online only) and its **affordable housing waitlist is open**. Income must be at or below 50 percent of the median, and vouchers cover **older adults throughout Buncombe County**. HACA's three web pages give three different sets of walk-in hours, so **call before you go**.
+- **General Assistance Program**, Buncombe County HHS: up to **$500** paid directly to a vendor, income at or below 200 percent of poverty, no more than $5,000 in reserve. **828-250-5500.**
+- **ABCCM Crisis Ministry**, rent and utility help, **828-259-5300**.
+- **Eblen Charities**, rent, utility and medical help, **828-255-3066**; mortgage help is no longer offered.
+- **2-1-1** knows which church funds and ministries have money this week.
+
+## Transportation
+
+**Mountain Mobility** is Buncombe County's community transportation service, administered through Land of Sky and run by McDonald Transit. Call **828-250-6750**: **option 5** for information and eligibility, **option 4** to schedule. TTY users dial 711.
+- **Most county residents are eligible**; eligibility can depend on where you live, age, trip needs and Medicaid status. Sign-up asks for a Social Security number and date of birth.
+- Trips are booked **one to 30 days ahead**, reservations Monday to Friday 8 a.m. to 3 p.m., rides Monday to Saturday 5:30 a.m. to 7:30 p.m. There is **no same-day service**. Off-peak rides between 10 a.m. and 2 p.m. are the easiest to get.
+- Shopping and errand trips run only on set community routes and days. Rides to the Council on Aging's dining sites are available.
+- The county does not publish fare amounts; you are told at sign-up whether a fare applies.
+- **Free monthly ART bus pass for seniors 65 and older.** Mountain Mobility issues it; call option 5.
+- **RIDE vouchers** for older and disabled residents cost **$2.50 each, sold in books of 10 for $25**, and each takes **$10** off a trip. The county's web page and its printed rider's guide disagree on how many vouchers you can use per trip, so confirm when you buy.
+- **Trailblazer routes** serve **Black Mountain and Swannanoa, Enka and Candler, and North Buncombe, Weaverville and Woodfin**, and they are **fare-free**. The bus can detour up to a quarter mile to your address if you call 828-250-6750, option 1, **by 5 p.m. the day before**. (The older printed guide still shows a 50 cent fare; the county's current page says fare-free.)
+
+**Asheville Rides Transit (ART).** The regular fare is **$1**. The **discounted fare is 50 cents** for **seniors 65 and older with photo ID** and for **anyone with a Medicare card**. A discounted monthly pass is **$10** and an annual pass **$110**. Discount cards can usually be processed **the same day at the ART Station, 49 Coxe Avenue**. ART runs Monday to Saturday 5:30 a.m. to 10:30 p.m. in Asheville and 5:30 a.m. to 8:30 p.m. to Black Mountain, and Sundays and holidays 8:30 a.m. to 6:30 p.m. Main line **828-259-5943**.
+
+**ADA paratransit.** ART provides next-day paratransit **through Mountain Mobility**, for people whose disability keeps them from using the bus. It covers the city and **within three quarters of a mile of ART routes**, costs **$2 per one-way trip**, and a certified personal care attendant rides free. Book **by 5 p.m. the day before** at 828-250-6750, extension 4; apply at extension 5.
+
+**Medicaid rides to appointments.** Buncombe County's transportation page says Medicaid members can call **828-552-5486** to determine eligibility and schedule medical trips. NC Medicaid says members of a health plan should request a ride **at least 2 days ahead** by calling their plan, and **NC Medicaid Direct** members should ask **at least 4 days ahead** through the county.
+
+**Volunteer drivers.** The **Council on Aging's Call-A-Ride** uses volunteer drivers for Buncombe residents **60 and older**. Call **828-277-8288** at least **one week ahead**, up to eight requests a month. The Council on Aging says **there is no guarantee that a volunteer will be available**, riders must also be enrolled with Mountain Mobility, and Medicaid members must try Medicaid transportation first.
+
+## Legal help
+
+**Senior Legal Helpline.** **Legal Aid of North Carolina's Senior Legal Helpline** gives **free legal help to North Carolinians 60 and older**: **1-877-579-7562**, Monday to Friday **9 to 11 a.m. and 1 to 3 p.m.** Legal Aid's **Senior Law Project** has an office right in Asheville, **20 Artful Way, Suite 210**. Legal Aid's general helpline for younger family members is **1-866-219-5262**, Monday to Friday 9 a.m. to 3 p.m.; its general cases for Buncombe are handled from its Foothills office in Morganton.
+
+**Pisgah Legal Services.** **62 Charlotte Street, Asheville, 828-253-0406**, toll free **800-489-6144**, Monday to Friday 8:30 to 5:00. Its senior legal services cover **urgent health care needs, elder abuse including financial exploitation, consumer fraud, unfair debt collection and end-of-life planning**. Income guidelines run from **125 to 200 percent** of the federal poverty level depending on the program. Pisgah is still doing **Helene legal work**: **Renew NC appeals, insurance denials, foreclosure prevention and scams**.
+
+**Protecting an older adult.**
+- **Buncombe County Adult Protective Services: 828-250-5800, any time, day or night.** No appointment needed.
+- **Long-Term Care Ombudsman at Land of Sky**, for problems in a nursing home or assisted living facility: **828-251-6622** or **1-800-727-0557**.
+- **NC Attorney General Consumer Protection: 1-877-566-7226** (1-877-5-NO-SCAM).
+- **National Elder Fraud Hotline: 1-833-372-8311.**
+
+**Paperwork offices you will need.** A power of attorney that will be used for real estate is recorded at the **Buncombe County Register of Deeds, 205 College Street, Asheville, 828-250-4302**. Estates run through the **Buncombe County Clerk of Superior Court, 60 Court Plaza, 828-259-3400**. For a veteran's benefits, **Buncombe County Veterans Services, 40 Coxe Avenue, 828-250-5726**.
+
+## Caregiver support
+
+- **Family Caregiver Support Program respite funds.** The Council on Aging coordinates them for **Buncombe and Madison counties**: **828-277-8288, extension 1303**. It also hosts a free caregiver support group, **CAPES**, on the third Tuesday of the month. Land of Sky runs the program regionally and says **limited financial assistance is available for caregiver respite**; its caregiver line is **828-251-7441**.
+- **Project C.A.R.E.** Buncombe is one of the **15 westernmost counties served by Western Project C.A.R.E.**, which gives families caring for someone with dementia a **family consultant** and limited respite money. There is **no income limit**, though priority goes to low-income, rural and minority families. Reach it through Land of Sky at **828-251-6622**.
+- **MemoryCare.** A nonprofit dementia medical practice, not a residence, at the **SECU Center for MemoryCare, 100 Far Horizons Lane, Asheville, 828-771-2219**. It needs a **doctor's referral**, the wait is **several weeks to two months**, and there is a **$695 annual caregiver fee** that families can apply to have waived.
+- **Alzheimer's Association.** The **24/7 Helpline is 1-800-272-3900**. The Western North Carolina Chapter's Mountain Area line is **828-254-7363**.
+- **Adult day.** Buncombe County HHS says its state **Adult Day Care Fund** helps pay for programs including **DayStay Adult Day Services** and **MountainCare**. Ask Aging and Adult Services at **828-250-5800** about the fund and current openings.
+- **Senior centers.** **Harvest House Community Center**, 205 Kenilworth Road, Asheville, **828-350-2051**; **Grove Street Community Center**, 36 Grove Street, Asheville, **828-350-2062**; and the **Lakeview Center for Active Aging** in Black Mountain, for adults 50 and older, through the Town of Black Mountain at **828-419-9300**. (A county "Active Aging Center" you may see mentioned is still a concept, not a building.)
+
+## PACE
+
+**Buncombe County has a PACE program, and for many families it is the strongest option on this page.**
+
+PACE, the **Program of All-Inclusive Care for the Elderly**, takes over a person's whole care plan, doctors, a day center, therapy, personal care, prescriptions and transportation, so someone who needs a nursing home level of care can keep living at home. NC Medicaid's official service area list names **CarePartners PACE, 286 Overlook Road, Asheville, NC 28803, 828-213-8442**, serving **Buncombe, Henderson, and portions of McDowell and Transylvania** counties. CarePartners is now part of Mission Health.
+
+**Who qualifies.** People **55 and older** who meet a **nursing home level of care** and can live safely in the community with PACE's support, inside the service area.
+
+**Check the ZIP code.** The state list names these Buncombe ZIP codes: **28701, 28704, 28709, 28711, 28715, 28730, 28748, 28757, 28778, 28787, 28801, 28803, 28804, 28805, 28806 and 28810**. If your parent's ZIP code is not there, call CarePartners and ask before you build a plan around it.
+
+## Frequently asked questions
+**Mom is 74, lives alone in West Asheville on Social Security of about $2,900 a month, and heard about a "federal senior tax exemption" on YouTube. What is real?** The YouTube exemption is not. Buncombe County has warned that those videos appear to use artificial intelligence. What is real is North Carolina's **Elderly or Disabled Exclusion**. About $2,900 a month is about $34,800 a year, which is under the **$38,800** limit for 2026, and the exclusion takes the greater of **$25,000 or half** of her home's value off the tax bill. Her application window for the 2027 tax year is **January 1 to June 1, 2027**, when the limit is **$39,900**. Call Tax Assessment at **828-250-4915** in January. She may also qualify for up to **$500** from the county's General Assistance Program toward this year's bill; call **828-250-5500**.
+
+**We applied for the Homeowner Grant last year. Why hasn't anything come?** Because the program ended. Buncombe County says the Homeowner Grant was discontinued as of July 1, 2026. The **General Assistance Program** replaced it, last year's recipients must **reapply**, and people who already get a tax exemption can now apply too. Call **828-250-5500**.
+
+**Dad's roof was damaged by Helene. Can he still apply to Renew NC?** Not as a new applicant. The state says the Single-Family Housing Program application period is **closed**, even though a county page still says apply. If he applied and was turned down, **Pisgah Legal Services (828-253-0406)** handles Renew NC appeals. For a new request, try **Mountain Housing Opportunities (828-254-4030)** at 62 or older, **Asheville Area Habitat for Humanity (828-251-5702)**, and weatherization through **Community Action Opportunities (828-252-2495)**. If he lives inside Asheville's city limits, watch for the city's **Home Repair Program**, which says applications open in September 2026. And if he is rebuilding, ask the county about **Reduce to Rebuild**, which halves certain permit fees through June 30, 2027.
+
+**Is the Circuit Breaker a good idea if we plan to sell the house after Dad passes?** Go in with open eyes. It caps his tax at 4 or 5 percent of income, but the rest is **deferred, not forgiven**. The deferred taxes stay a lien, and when he dies, the home is transferred, or it stops being his permanent residence, the **last three years of deferred taxes come due with interest**, typically out of the sale. It also must be **reapplied for every year**. If his income is under the exclusion limit, the **Elderly or Disabled Exclusion** is usually simpler, and each owner can only use one program. Ask Tax Assessment at **828-250-4915** to run both, and talk to an attorney through the **Senior Legal Helpline (1-877-579-7562)** if the house is part of an estate plan.
+
+**My mother in Weaverville needs rides to the doctor and her Medicaid just started. Who do I call?** First the Medicaid ride. Buncombe County says Medicaid members call **828-552-5486** to set up medical trips; NC Medicaid says plan members should request rides at least **2 days** ahead and Medicaid Direct members at least **4 days** ahead. For everything else, **Mountain Mobility (828-250-6750)** serves the whole county, and the **North Buncombe Trailblazer** through Weaverville and Woodfin is fare-free. The Council on Aging's volunteer **Call-A-Ride** requires Medicaid members to use Medicaid transportation first.
+
+**Can PACE replace a nursing home for my father in Candler?** Possibly. **CarePartners PACE (828-213-8442)** serves Buncombe County, and Candler's **28715** is on the state's service area list. He must be 55 or older, meet a nursing home level of care, and be able to live safely at home with PACE's support. Ask about Medicaid and private-pay costs on the first call.
+
+## Sources
+- **North Carolina Department of Revenue, Form AV-9, 2026 Application for Property Tax Relief**: source of the Elderly or Disabled Exclusion ("excludes the greater of the first $25,000 or 50% of the appraised value of the permanent residence"), the 2026 income limit $38,800, the Circuit Breaker limit $58,200, the $45,000 Disabled Veteran Exclusion with "no age or income limitation," the June 1 filing deadline and instruction not to submit to NCDOR, the January 1 age test, AV-9A for applicants under 65, NCDVA-9 completed by a Veterans Service Officer, the five-year ownership and occupancy rule, "All owners must qualify," the lien and three-year payback on a disqualifying event, one program per owner, one application for a married couple, income documentation, the annual Circuit Breaker filing rule, and the good-cause late application rule: https://www.ncdor.gov/2026-av-9-securedpdf/open . Verified September 17, 2026.
+- **North Carolina Department of Revenue, Form AV-9, 2027 Application**: source of the 2027 limits, $39,900 for the exclusion and $59,850 for the Circuit Breaker: https://www.ncdor.gov/2027-av-9-securedpdf/open . Verified September 17, 2026.
+- **North Carolina Department of Revenue, County Assessors List (revised 7/20/26)**: source of the Buncombe assessor at 182 College Street, Asheville, 828-250-4920: https://www.ncdor.gov/assessors-list-7-20-26pdf/open . Verified September 17, 2026.
+- **North Carolina Department of Revenue, Tax Administration course, Section 21, Exemptions and Exclusions**: source of "one full exclusion is available, even if only one spouse meets the requirements": https://www.ncdor.gov/documents/manuals/tax-administration-north-carolina-course-section-21-exemptions-exclusions-and-applications/open . Verified September 17, 2026.
+- **Buncombe County, Senior/Disability Property Tax Relief**: source of the Tax Assessment office at 182 College Street, Asheville, NC 28801, the senior citizen and disability assistance line 828-250-4915, the main line 828-250-4920, Real Estate Assessment 828-250-4940, hours Monday through Friday 8 am to 5 pm, parking at the 164 College Street deck with validation, "Once in the program, an annual application is not required to stay in the program. Buncombe County does audit accounts receiving tax relief periodically," and the outdated $36,700 limit and veterans phone label noted on this page: https://www.buncombenc.gov/602/Senior-Disability-Property-Tax-Relief . Verified September 17, 2026.
+- **Buncombe County, Circuit Breaker Program**: source of "you must apply for the opportunity to defer property taxes each and every year" and the outdated $55,050 figure noted on this page: https://www.buncombenc.gov/593/Circuit-Breaker-Program . Verified September 17, 2026.
+- **Buncombe County, tax relief application packet and forms**: source of "for 2024 tax year is $36,700," the Property Assessor Exemption Division name, the 30-day income documentation warning, and the AV-9A physician rule: https://www.buncombenc.gov/DocumentCenter/View/2144 , https://www.buncombenc.gov/DocumentCenter/View/2152 , https://www.buncombenc.gov/DocumentCenter/View/2196 , https://www.buncombenc.gov/DocumentCenter/View/3323 . Verified September 17, 2026.
+- **Buncombe County, MyValueBC 2026 Reappraisal, and news release on the moratorium**: source of "Buncombe County's 2026 Reappraisal was placed in a moratorium until Jan. 1, 2027," Session Law 2026-8 and Session Law 2026-47, the 61.54 cents per $100 rate on the old value, the earlier delay to 2026, Helene adjustments in last year's values, appeals of the current bill through Dec. 31, 2026, and the outdated $29,500 FAQ figure: https://www.buncombenc.gov/588/MyValueBC-2026-Reappraisal and https://www.buncombenc.gov/m/newsflash/Home/Detail/1049 . Verified September 17, 2026.
+- **Buncombe County, news release on 2026 tax bills (August 2026)**: source of payment without penalty through Jan. 5, 2027, the collection line 828-250-4910, "Applications for tax relief programs are open Jan. 1-June 1," and the warning about videos that "appear to use artificial intelligence and misleading commentary": https://www.buncombenc.gov/m/newsflash/home/detail/1102 . Verified September 17, 2026.
+- **Buncombe County, Homeowner Grant application site**: source of "As of July 1, 2026, the Homeowner Grant program has been discontinued": https://www.buncombenc.gov/homeownergrant . The City of Asheville's grant announcement is marked "archived web content": https://www.ashevillenc.gov/news/city-of-asheville-joins-buncombe-county-in-homeowner-grant-program/ . Verified September 17, 2026.
+- **Buncombe County HHS, General Assistance Program, and news release**: source of up to $500, payment to the vendor, primary residence, income at or below 200% of the Federal Poverty Limits, "You must not have more than $5,000 in reserve," reapplication by last year's recipients, phone 828-250-5500, "funds provided by Buncombe County and the City of Asheville," and "residents receiving tax exemptions are now eligible for GAP funds": https://www.buncombenc.gov/gap and https://www.buncombenc.gov/m/newsflash/home/detail/1030 . Verified September 17, 2026.
+- **Buncombe County, Veterans Services**: source of 40 Coxe Avenue, Asheville NC 28801, 828-250-5726, Monday through Friday 8 a.m. to 5 p.m.: https://www.buncombenc.gov/617/Veterans-Services . Verified September 17, 2026.
+- **Council on Aging of Buncombe County, Contact, Call-A-Ride, Dining and Wellness, Caregiver Support, Minor Home Repair and program pages**: source of 46 Sheffield Circle, Asheville, NC 28803, (828) 277-8288, hours M-F 9:00 AM-4:30 PM, info@coabc.org, the SHIIP extension 1310, Benefits Enrollment Center extension 1327, caregiver extension 1303, dining extension 1323, the four dining sites and phones (Grove Street (828) 350-2062, Shiloh (828) 274-7739, Weaverville First Baptist (828) 645-6720), homebound food delivery, Call-A-Ride rules for residents 60+ including one week notice and "There is no guarantee that a volunteer will be available," "coordinates Family Caregiver Support Program respite funds for Buncombe and Madison Counties," the CAPES group, grab bars and shower wands for clients 60+, and "all programs have a waiting list": https://www.coabc.org/contact/ , https://www.coabc.org/programs/call-a-ride/ , https://www.coabc.org/programs/dining-and-wellness/ , https://www.coabc.org/programs/caregiver-support/ , https://www.coabc.org/programs/minor-home-repair/ . Verified September 17, 2026.
+- **Land of Sky Regional Council, Area Agency on Aging, Family Caregiver Support, Project C.A.R.E., Ombudsman and funding pages**: source of 339 New Leicester Hwy., Suite 140, Asheville, NC 28806, 828.251.6622, the four-county region, program list, caregiver line 828.251.7441, "Limited financial assistance is available for caregiver respite," "the 15 westernmost counties served by Western Project C.A.R.E.," ombudsman toll free 1.800.727.0557, and the older dining site listing noted on this page: https://www.landofsky.org/aaa.html , https://www.landofsky.org/fcsp.html , https://www.landofsky.org/projectcare.html , https://www.landofsky.org/ombudsman.html , https://www.landofsky.org/hccbg.html . Verified September 17, 2026.
+- **Buncombe County Health and Human Services, main, Public Assistance, Aging and Adult Services, Adult Protective Services, Adult Day Care and Food Resources pages**: source of 40 Coxe Avenue, Asheville, NC 28801, P.O. Box 7408, 828-250-5500, hours, Aging and Adult Services 828-250-5800, "calling 828-250-5800 anytime, day or night," the Adult Day Care Fund naming DayStay Adult Day Services and MountainCare, and the One Buncombe Call Center 828-250-6100: https://www.buncombenc.gov/231/Health-Human-Services , https://www.buncombenc.gov/358/Public-Assistance-Economic-Services , https://www.buncombenc.gov/474/Aging-Adult-Services , https://www.buncombenc.gov/489/Adult-Protective-Services , https://www.buncombenc.gov/488/Adult-Day-Care , https://www.buncombenc.gov/993/Food-Resources . Verified September 17, 2026.
+- **NC 211 and United Way of Asheville and Buncombe County**: source of 2-1-1 or 1-888-892-1162 and "open 24 hours a day, seven days a week, 365 days a year": https://nc211.org/ and https://www.unitedwayabc.org/help-starts-here-dial-2-1-1 . Verified September 17, 2026.
+- **Meals on Wheels of Asheville and Buncombe County**: source of 146 Victoria Rd., Asheville, NC 28801, 828-253-5286, "Any resident of Buncombe county, 60 years of age and older, who is homebound," delivery between 9:30 AM and 12:30 PM Monday through Friday, the $3.00 contribution, "No eligible senior is denied service due to an inability to pay," and the referral form: https://www.mowabc.org/faq-clients and https://www.mowabc.org/receive-a-meal . Verified September 17, 2026.
+- **MANNA FoodBank, home page and Food Helpline**: source of 99 Broadpointe Drive, Mills River, NC 28759, 828-299-3663, the Food Helpline call or text 828-290-9749 Monday to Friday 9AM to 4PM, and the food finder: https://mannafoodbank.org/ , https://mannafoodbank.org/manna-food-helpline/ , https://mannafoodbank.org/find-food . Verified September 17, 2026.
+- **NCDHHS, Apply for Food and Nutrition Services**: source of "Apply online with ePASS": https://www.ncdhhs.gov/divisions/child-and-family-well-being/food-and-nutrition-services-food-stamps/apply-food-and-nutrition-services-food-stamps . Verified September 17, 2026.
+- **City of Asheville, Grove Street Community Center and Harvest House Community Center**: source of "Now known as Grove Street Community Center," 36 Grove Street, (828) 350-2062, and Harvest House at 205 Kenilworth Road, (828) 350-2051: https://www.ashevillenc.gov/locations/grove-street-community-center/ and https://www.ashevillenc.gov/locations/harvest-house-community-center/ . Verified September 17, 2026.
+- **Town of Black Mountain, Lakeview Center for Active Aging, and Public Transportation**: source of 401 Laurel Circle Drive, adults 50+, town phone 828-419-9300, the March 9, 2026 reopening for congregate dining, and ART service to Black Mountain: https://www.townofblackmountain.org/2486/Lakeview-Center-for-Active-Aging and https://www.townofblackmountain.org/288/Public-Transportation . Verified September 17, 2026.
+- **NCDHHS, Low Income Energy Assistance (LIEAP), Crisis Intervention Program, and Energy Assistance pages**: source of the December 1 to 31 window for households with a person 60 or older or disabled, January 1 to March 31 for others, 130% of poverty, the July 1 to June 30 CIP year, the $4,500 resource limit, "disconnect notices are not required at this time," and the stale Disaster Energy Assistance notice: https://www.ncdhhs.gov/divisions/social-services/energy-assistance/low-income-energy-assistance-lieap , https://www.ncdhhs.gov/divisions/social-services/energy-assistance/low-income-energy-assistance/crisis-intervention-program , https://www.ncdhhs.gov/divisions/social-services/energy-assistance . Verified September 17, 2026.
+- **Buncombe County, Crisis Intervention Program and ePASS pages**: source of below 150% of the poverty level, the list of what CIP pays and does not pay, the final notice statement, and ePASS applications for CIP and LIEAP: https://www.buncombenc.gov/395/Crisis-Intervention-Program and https://www.buncombenc.gov/398/ePASS . Verified September 17, 2026.
+- **Duke Energy, Share the Light Fund (North Carolina)**: source of the past-due balance, unpaid deposit or reconnection charge requirement and application through NC DHHS CARELINE at 800.662.7030, press 3, or epass.nc.gov: https://www.duke-energy.com/home/billing/assistance/share-the-light . The $2,500 cap is from NCDHHS policy EP-500 (4/9/2025): https://policies.ncdhhs.gov/wp-content/uploads/EP-500-4.9.2025.pdf . Verified September 17, 2026.
+- **Haywood EMC, Who We Are and Project HEMC**: source of the 1943 purchase of the Hominy Power Company in Buncombe County, the $200 credit per program period, winter and summer periods, income limits $30,120 for one person and $40,880 for two, tax return requirement, and 376 Grindstone Road, Waynesville, (828) 452-2281: https://www.haywoodemc.com/about-us/who-we-are/ and https://www.haywoodemc.com/member-services/project-hemc/project-hemc-energy-assistance-application/ . Verified September 17, 2026.
+- **French Broad EMC, About and Community**: source of the board's District 2, Buncombe County, and community grants to North Buncombe schools; no bill assistance fund is listed on its site: https://www.frenchbroademc.com/index.php/about-main/ and https://www.frenchbroademc.com/index.php/community/ . Verified September 17, 2026.
+- **Enbridge Gas North Carolina, Billing Options and Assistance, and Weatherization Assistance**: source of the Salvation Army's Heat Care Fund, 1-877-776-2427 Monday to Friday 7 a.m. to 6 p.m., the Sept. 25, 2026 retirement of the old Dominion account address, and free weatherization at 1-855-905-1278: https://www.enbridgegas.com/north-carolina/billing/billing-options-and-assistance and https://www.enbridgegas.com/north-carolina/save-energy/thermwise/weatherization-assistance . Verified September 17, 2026.
+- **ABCCM Crisis Ministry**: source of utility and rental assistance and the four sites and phones, main 24 Cumberland Ave (828) 259-5300, South (828) 259-5302, Hominy Valley (828) 259-5301, North Samaritan (828) 259-5303, all Monday to Friday 8:30 am to 4:30 pm: https://www.abccm.org/ministry-services/crisis/ . Verified September 17, 2026.
+- **Eblen Charities, Programs**: source of "WE ARE CURRENTLY ACCEPTING REQUESTS FOR ASSISTANCE," "MORTGAGE ASSISTANCE IS NO LONGER AVAILABLE," 23 Hamilton St, and 828-255-3066: https://www.eblencharities.org/programs . Verified September 17, 2026.
+- **NCDOI, SHIIP contact page, county counselor locator, and Get Help Paying Your Medicare Costs**: source of 1-855-408-1212 Monday through Friday 8am to 5pm, "Council on Aging of Buncombe Co Medicare Center 46 Sheffield Circle Asheville NC 28803 828-277-8288" and "(Counseling By Appointment Only)," the Medicare Savings Programs, and Extra Help application routes: https://www.ncdoi.gov/consumers/medicare-and-seniors-health-insurance-information-program-shiip/contact-seniors-health-insurance-information-program-shiip , https://ncdoi.com/_Iframes/Search_For_a_Counselor_By_County_View.aspx , https://www.ncdoi.gov/consumers/get-help-paying-your-medicare-costs . Verified September 17, 2026.
+- **NC Medicaid, CAP/DA page and case management agencies by county (5/5/2025)**: source of "Contact a local CAP/DA case management entity in the county of residence" and the six Buncombe agencies and phones, C and B Support Services 828-654-0644, Carepartners Private Duty Services 828-277-4800, Healthkeeperz 910-522-0009, Primary Health Choice 910-865-3500, RHA Management Services 888-207-7828, Walkers Home Care CAPDA 252-432-6308; the CAP/DA page also lists the NC Medicaid Contact Center, 888-245-0179: https://medicaid.ncdhhs.gov/providers/programs-and-services/long-term-care/community-alternatives-program-disabled-adults-capda and https://medicaid.ncdhhs.gov/capda-case-management-agencies-county . Verified September 17, 2026.
+- **NC Medicaid, Medicaid Is Changing**: source of work requirements for ages 19 to 64 starting January 1, 2027 and six-month renewals: https://medicaid.ncdhhs.gov/beneficiaries/medicaid-is-changing . Verified September 17, 2026.
+- **NC MedAssist**: source of 866-331-1348 and service to "Uninsured North Carolina residents with a household income below 300% of the federal poverty level": https://medassist.org/ . Verified September 17, 2026.
+- **NC Medicaid, PACE service area list**: source of "CarePartners PACE Counties: Buncombe, Henderson, and portions of McDowell and Transylvania," 286 Overlook Road, Asheville, NC 28803, 828-213-8442, and the Buncombe ZIP codes listed on this page: https://medicaid.ncdhhs.gov/ncpace-service-area/download?attachment . CarePartners' own page confirms the address, phone, age 55+ and nursing home level of care: https://www.missionhealth.org/locations/carepartners/specialties/senior-health . Verified September 17, 2026.
+- **Mountain Housing Opportunities, Essential Home Repair**: source of eligibility "elderly (62 years of age or older), disabled, a veteran," 53 South French Broad Avenue, Suite 100, 828-254-4030, and the Woodfin partnership: https://mtnhousing.org/services/essential-home-repair/ . Verified September 17, 2026.
+- **Asheville Area Habitat for Humanity, Home Repair and Helene Response**: source of the Buncombe or Madison, one year owner occupied, $450,000 building tax value and 80% of HUD median rules, (828) 251-5702, 31 Meadow Road, and "Habitat restarted non-storm-related repairs": https://www.ashevillehabitat.org/housing-programs/home-repair/ and https://www.ashevillehabitat.org/helene-response/ . Verified September 17, 2026.
+- **NC Department of Environmental Quality, Weatherization, Find Your Service Provider, and Community Action Opportunities**: source of "CAO - Community Action Opportunity 25 Gaston Street Asheville, NC 28801 828-252-2495," the 200 percent income rule, SSI, TANF or SNAP categorical eligibility, "Priority is given to elderly, disabled," and HARRP: https://www.deq.nc.gov/energy-climate/state-energy-office/weatherization-assistance-program/find-your-service-provider and https://communityactionopportunities.org/weatherization/ . Verified September 17, 2026.
+- **USDA Rural Development, Single Family Housing Repair Loans and Grants**: source of the $40,000 maximum loan, $10,000 maximum grant, $50,000 combined, 1% fixed rate, 20-year term, age 62 for grants, repayment if sold within three years, and "Application Window: Open": https://www.rd.usda.gov/programs-services/single-family-housing-programs/single-family-housing-repair-loans-grants . Verified September 17, 2026.
+- **NC Department of Commerce, Single-Family Housing Program, and Renew NC**: source of "The application period for the Single-Family Housing Program is now closed," "Applications for the Renew NC Single-Family Housing and Small Rental Rehabilitation Programs are no longer being accepted," the Division of Community Revitalization, and helene.recovery@commerce.nc.gov: https://www.commercerecovery.nc.gov/single-family-housing-program and https://renewnc.org/ . Verified September 17, 2026.
+- **Buncombe County, Helene Recovery, Housing**: source of the out-of-date "can now apply" Renew NC language noted on this page, the closed Hazard Mitigation Grant Program, and "The Reduce to Rebuild program runs through June 30, 2027": https://www.buncombenc.gov/805/Helene-Recovery---Housing . Verified September 17, 2026.
+- **City of Asheville, Ashevillerecovers.org CDBG-DR Housing, and Home Repair Program**: source of city repair funds moving into Renew NC, "There are currently no upcoming deadlines," "Applications will be opening in September 2026," homes "within the city limits," and affordablehousing@ashevillenc.gov: https://www.ashevillerecovers.org/cdbg-dr/housing/ and https://www.ashevillenc.gov/department/housing-economic-development/affordable-housing/home-repair-program/ . Verified September 17, 2026.
+- **Buncombe County Sheriff's Office, Senior Reassurance**: source of phone check-ins "during holidays, severe weather incidents," "not a home security check," 828-250-4447, Monday to Friday 8:30 am to 5:00 pm, and seniors@buncombesheriff.org: https://buncombesheriff.com/senior-reassurance/ . Verified September 17, 2026.
+- **Housing Authority of the City of Asheville, Admissions, Housing Choice Voucher and Contact pages**: source of 165 South French Broad Ave., (828) 258-1222, "HCV TENANT-BASED VOUCHER WAITLIST IS OPEN," "AFFORDABLE HOUSING WAITLIST IS OPEN," the 50 percent income rule, service to older adults throughout Buncombe County, and the three conflicting office hours: https://haca.org/admissions/ , https://haca.org/hcvp/ , https://haca.org/contact/ . Verified September 17, 2026.
+- **Buncombe County, Mountain Mobility pages (Eligibility and Registration, Schedule a Trip, Programs, Trailblazer Routes) and Rider's Guide**: source of 828-250-6750 with options 1, 4 and 5, TTY 711, office, reservation and ride hours, "Most residents of Buncombe County are eligible," "Trips may be scheduled between one and 30 days in advance," no same-day service, off-peak hours, community routes, the free monthly ART pass for seniors 65 or older, RIDE voucher pricing, fare-free Trailblazer routes since July 11, 2018 and the quarter-mile detour, the Medicaid trip line 828-552-5486, and the Land of Sky and McDonald Transit contracts: https://www.buncombenc.gov/610/Eligibility-Registration , https://www.buncombenc.gov/612/Schedule-a-Trip , https://www.buncombenc.gov/614/Programs , https://www.buncombenc.gov/615/Trailblazer-Routes , https://www.buncombenc.gov/DocumentCenter/View/2214 . Verified September 17, 2026.
+- **City of Asheville Transit and Asheville Rides Transit (ART), Fares and Passes, ADA, and the city's ADA Paratransit and Discounted Bus Pass guidelines**: source of the $1 standard fare, the $0.50 discounted fare for seniors 65+ with photo ID and Medicare recipients with a Medicare card, the $10 monthly and $110 annual discount passes, same-day discount processing at the ART Station, service hours, 49 Coxe Ave, 828-259-5943, next-day paratransit through Mountain Mobility, the three-quarter-mile service area, the $2.00 fare, free personal care attendants, and booking by 5 pm the day before: https://www.ashevillenc.gov/department/transit/ , https://www.ridetheart.com/fares-and-passes/ , https://www.ridetheart.com/ada/ . Verified September 17, 2026.
+- **NC Medicaid, Non-Emergency Medical Transportation**: source of "ask for your ride at least 2 days before your appointment" and "NC Medicaid Direct beneficiaries should ask for a ride at least 4 days before": https://medicaid.ncdhhs.gov/nemt . Verified September 17, 2026.
+- **Legal Aid of North Carolina, Apply and Offices**: source of the Senior Legal Helpline 877-579-7562, 9:00 AM to 11:00 AM and 1:00 PM to 3:00 PM Monday-Friday, "Free legal help for North Carolinians 60 years of age or older," the general helpline 1 (866) 219-5262 9:00 AM to 3:00 PM, the Asheville Senior Law Project at 20 Artful Way, Suite 210, and the Foothills office handling general Buncombe cases: https://legalaidnc.org/apply/ and https://legalaidnc.org/offices/ . Verified September 17, 2026.
+- **Pisgah Legal Services, Senior Legal Services, Pro Bono, Partner Info and Helene pages**: source of 62 Charlotte Street, Asheville, NC 28801, (828) 253-0406, (800) 489-6144, hours, the senior case types, the 125% to 200% income guidelines, and Helene work including "Renew NC appeals": https://www.pisgahlegal.org/free-legal-assistance/senior-legal-services/ , https://www.pisgahlegal.org/pro-bono-legal-services/ , https://www.pisgahlegal.org/partnerinfo/ , https://www.pisgahlegal.org/helene/ . Verified September 17, 2026.
+- **North Carolina Department of Justice, Protecting Consumers**: source of 1-877-5-NO-SCAM, that is 1-877-566-7226: https://ncdoj.gov/protecting-consumers/ . Verified September 17, 2026.
+- **Buncombe County, Register of Deeds, and North Carolina Judicial Branch, Buncombe County Clerk of Superior Court**: source of 205 College Street, 828-250-4302, and the Clerk at 60 Court Plaza, (828) 259-3400: https://www.buncombenc.gov/457/Register-of-Deeds and https://www.nccourts.gov/locations/buncombe-county/contact-directory . Verified September 17, 2026.
+- **MemoryCare**: source of the SECU Center for MemoryCare, 100 Far Horizons Lane, Asheville, NC 28803, (828) 771-2219, doctor's referral, the several weeks to 2 months wait, and the $695 annual caregiver fee with a waiver application: https://memorycare.org/ and https://memorycare.org/about-us/ . Verified September 17, 2026.
+- **Alzheimer's Association, North Carolina chapters**: source of the 24/7 Helpline 800.272.3900 and the Western North Carolina Chapter Mountain Area line 828.254.7363: https://www.alz.org/northcarolina/about . Verified September 17, 2026.
+- National anchor lines used in the "Start here" section, all of which work from anywhere: **Eldercare Locator 1-800-677-1116**: https://eldercare.acl.gov/ . **Medicare 1-800-633-4227 (1-800-MEDICARE)**, 24 hours a day, 7 days a week except some federal holidays: https://www.medicare.gov/talk-to-someone . **Social Security 1-800-772-1213**, 8:00 a.m. to 7:00 p.m. local time, Monday through Friday: https://www.ssa.gov/agency/contact/phone.html . **VA 1-800-827-1000**: https://www.va.gov/contact-us/ . **Alzheimer's Association 24/7 Helpline 1-800-272-3900**: https://www.alz.org/help-support/resources/helpline . **National Elder Fraud Hotline 1-833-372-8311**, Monday to Friday 10:00 a.m. to 6:00 p.m. eastern: https://ovc.ojp.gov/program/stop-elder-fraud/providing-help-restoring-hope . **988 Suicide and Crisis Lifeline**, call, text or chat 24/7: https://988lifeline.org/ . Verified September 17, 2026.
+
+---
+*Verified September 17, 2026. Program names, phone numbers, income limits, and deadlines change. Confirm directly with each program before you rely on it.*
+
+*Ryan Riggins, NC Real Estate License #361546, eXp Realty. Riggins Strategic Solutions is an education and media company, not a real estate sales business. Not financial, tax, medical, or legal advice. Programs and contacts change, confirm directly before relying on them.*
 
 ---
 
@@ -9194,7 +9644,7 @@ If you take one thing from this page, take the sequence. The order is what prote
 
 **Week one.** Stabilize the care situation and stop the clock in your own head. Call the facility business office and ask exactly what flexibility exists on the deposit and start date. Write down what they say and who said it. Do not sign anything about the house.
 
-**Week one, same week.** Call Legal Aid of North Carolina's Senior Law Project at 1-877-579-7562 if your parent is 60 or older, and get on the calendar of an elder law attorney. Confirm who has the legal authority to sell, and ask what to avoid.
+**Week one, same week.** Call Legal Aid of North Carolina's Senior Law Project at 1-877-579-7562 if your parent is 60 or older, and get on the calendar of an elder law attorney. Confirm who has the legal authority to sell, and ask what to avoid. The same week, get the community's fee sheet in writing and run the funding math on the house, yourself or with a [Senior Transition Advisor for the family home](/what-is-a-senior-transition-advisor) like me, so nobody lists anything before you know how long the money has to last.
 
 **Week two.** Gather documents. Deed, mortgage statement, tax bill, insurance, any POA or trust paperwork. Get a rough net-proceeds number using real closing cost assumptions.
 

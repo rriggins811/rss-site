@@ -7,7 +7,16 @@
  */
 
 import { socialLinks, additionalSameAs } from "@/lib/social";
-import { AUTHOR, ORGANIZATION, SITE_NAME, SITE_URL, abs } from "@/lib/site";
+import {
+  AUTHOR,
+  ORGANIZATION,
+  ROLE_DEFINITION,
+  ROLE_TITLE,
+  SERVICE_AREA,
+  SITE_NAME,
+  SITE_URL,
+  abs,
+} from "@/lib/site";
 import type { BlogPost, HowToStep } from "@/lib/blog";
 import type { MediaItem } from "@/lib/media";
 import type { VideoItem } from "@/lib/videos";
@@ -115,7 +124,7 @@ export function organizationSchema() {
       addressRegion: ORGANIZATION.address.addressRegion,
       addressCountry: ORGANIZATION.address.addressCountry,
     },
-    areaServed: ORGANIZATION.areaServed,
+    areaServed: SERVICE_AREA,
     // sameAs reinforces the identity graph: same brand on social profiles,
     // the Hammock365 marketing site (consumer brand for the app shipped by
     // Riggins Properties LLC d/b/a RSS), and any additional org-only profiles from
@@ -139,7 +148,7 @@ export function personSchema() {
     "@id": PERSON_ID,
     name: AUTHOR.name,
     jobTitle: AUTHOR.jobTitle,
-    description: AUTHOR.bio,
+    description: ROLE_DEFINITION,
     image: AUTHOR.imageUrl,
     url: AUTHOR.url,
     worksFor: { "@id": ORG_ID },
@@ -178,7 +187,7 @@ export function enrichedPersonSchema() {
     "@id": PERSON_ID,
     name: AUTHOR.name,
     jobTitle: AUTHOR.jobTitle,
-    description: AUTHOR.bio,
+    description: ROLE_DEFINITION,
     image: AUTHOR.imageUrl,
     url: AUTHOR.url,
     worksFor: { "@id": ORG_ID },
@@ -189,7 +198,8 @@ export function enrichedPersonSchema() {
     })),
     hasOccupation: {
       "@type": "Occupation",
-      name: "Senior Transition Advisor",
+      name: ROLE_TITLE,
+      description: ROLE_DEFINITION,
       occupationLocation: {
         "@type": "City",
         name: `${ORGANIZATION.address.addressLocality}, ${ORGANIZATION.address.addressRegion}`,
@@ -269,42 +279,6 @@ export function clientReviewsSchema(reviews: ClientReview[]) {
       ? { publisher: { "@type": "Organization", name: r.publisher } }
       : {}),
   }));
-}
-
-export function localBusinessSchema() {
-  return {
-    "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    "@id": `${SITE_URL}/#localbusiness`,
-    name: ORGANIZATION.name,
-    url: SITE_URL,
-    image: ORGANIZATION.logoUrl,
-    logo: ORGANIZATION.logoUrl,
-    telephone: ORGANIZATION.telephone,
-    email: ORGANIZATION.email,
-    priceRange: "$",
-    address: {
-      "@type": "PostalAddress",
-      addressLocality: ORGANIZATION.address.addressLocality,
-      addressRegion: ORGANIZATION.address.addressRegion,
-      addressCountry: ORGANIZATION.address.addressCountry,
-    },
-    geo: {
-      "@type": "GeoCoordinates",
-      latitude: 36.0726,
-      longitude: -79.792,
-    },
-    areaServed: {
-      "@type": "Country",
-      name: "United States",
-    },
-    founder: { "@id": PERSON_ID },
-    sameAs: [
-      // Personal LinkedIn excluded here too (it is a Person identity); see organizationSchema.
-      ...socialLinks.filter((s) => s.name !== "LinkedIn").map((s) => s.url),
-      ...additionalSameAs.org,
-    ],
-  };
 }
 
 /**
@@ -696,8 +670,7 @@ export function professionalServiceSchema() {
     "@type": "ProfessionalService",
     "@id": `${SITE_URL}/#professionalservice`,
     name: ORGANIZATION.name,
-    description:
-      "Senior transition advisory for families facing an elderly parent's housing transition. Education-first consumer protection company.",
+    description: ROLE_DEFINITION,
     url: SITE_URL,
     telephone: ORGANIZATION.telephone,
     email: ORGANIZATION.email,
@@ -713,10 +686,7 @@ export function professionalServiceSchema() {
       latitude: 36.0726,
       longitude: -79.792,
     },
-    areaServed: [
-      { "@type": "State", name: "North Carolina" },
-      { "@type": "Country", name: "United States" },
-    ],
+    areaServed: SERVICE_AREA,
     openingHoursSpecification: {
       "@type": "OpeningHoursSpecification",
       dayOfWeek: [
@@ -803,6 +773,54 @@ export function faqPageSchema(faqs: FaqItem[], pageUrl: string) {
         text: f.a,
       },
     })),
+  };
+}
+
+/**
+ * Article schema for a hand-built answer page (not an MDX blog post). Same
+ * author and publisher @ids as the blog Article schema, so the page joins
+ * the one Person and Organization entity in the graph.
+ */
+export function pageArticleSchema(args: {
+  path: string;
+  headline: string;
+  description: string;
+  datePublished: string;
+  dateModified: string;
+  about?: object;
+}) {
+  const url = abs(args.path);
+  return {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    mainEntityOfPage: { "@type": "WebPage", "@id": url },
+    headline: args.headline,
+    description: args.description,
+    image: [abs("/og/homepage.png")],
+    datePublished: args.datePublished,
+    dateModified: args.dateModified,
+    author: { "@id": PERSON_ID },
+    publisher: { "@id": ORG_ID },
+    inLanguage: "en-US",
+    url,
+    speakable: speakableSpec(),
+    isAccessibleForFree: true,
+    ...(args.about ? { about: args.about } : {}),
+  };
+}
+
+/**
+ * DefinedTerm for the role. Gives answer engines one machine-readable
+ * definition of "Senior Transition Advisor for the family home".
+ */
+export function roleDefinedTermSchema(pageUrl: string) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "@id": `${SITE_URL}/#role`,
+    name: ROLE_TITLE,
+    description: ROLE_DEFINITION,
+    url: pageUrl,
   };
 }
 

@@ -9,6 +9,7 @@ import { QuickAnswer } from "@/components/aeo/QuickAnswer";
 import { JsonLd } from "@/components/site/JsonLd";
 import { enrichedPersonSchema, clientReviewsSchema } from "@/lib/schema";
 import { RYAN_REVIEWS } from "@/lib/reviews";
+import { ROLE_DEFINITION, ROLE_TITLE } from "@/lib/site";
 
 // Real client testimonials. Each entry emits a Review JSON-LD entity tied
 // to the RSS ProfessionalService — strong E-E-A-T signal.
@@ -32,7 +33,7 @@ import { RYAN_REVIEWS } from "@/lib/reviews";
 export const metadata: Metadata = {
   title: "About Ryan Riggins",
   description:
-    "Senior Transition Advisor helping families avoid the $50K mistakes of a senior housing transition. Not a move manager, not a listing agent. Greensboro, NC.",
+    "Senior Transition Advisor for the family home. I help families decide what happens to a parent's house before anyone lists it. Not a mover, not a placement agent, never the listing agent. Greensboro, NC.",
   alternates: { canonical: "/about" },
   openGraph: {
     type: "website",
@@ -102,13 +103,19 @@ export default function AboutPage() {
               About Ryan
             </Badge>
             <h1 className="mt-6 leading-tight">
-              I&rsquo;m Ryan Riggins. Senior Transition Advisor and Advocate.
+              I&rsquo;m Ryan Riggins, {ROLE_TITLE}.
             </h1>
+            <QuickAnswer
+              className="mt-6 max-w-prose"
+              topic="The role"
+              question={`What is a ${ROLE_TITLE}?`}
+              answer={ROLE_DEFINITION}
+            />
             <QuickAnswer
               className="mt-6 max-w-prose"
               topic="About Ryan"
               question="Who is Ryan Riggins?"
-              answer="Ryan Riggins is the founder of Riggins Strategic Solutions, a consumer protection company for families going through senior transitions. He spent eight years in construction project management and house flipping before switching sides to help the families he used to do business with. Two books on Amazon. North Carolina real estate license number 361546."
+              answer="Ryan Riggins is a Senior Transition Advisor for the family home and the founder of Riggins Strategic Solutions, a consumer protection company for families going through senior transitions. He spent eight years in construction project management and house flipping before switching sides to help the families he used to do business with. Two books on Amazon. North Carolina real estate broker license number 361546, with eXp Realty."
             />
             <p className="mt-6 max-w-prose font-serif text-xl text-burgundy-600 leading-snug">
               &ldquo;I&rsquo;m not a move manager and I&rsquo;m not a listing
@@ -117,6 +124,14 @@ export default function AboutPage() {
             </p>
             <p className="mt-4 text-sm text-ink/70">
               Greensboro, NC · Serving families nationwide
+            </p>
+            <p className="mt-2 text-sm">
+              <Link
+                href="/what-is-a-senior-transition-advisor"
+                className="font-semibold text-burgundy-600 underline-offset-4 hover:text-burgundy-700 hover:underline"
+              >
+                How the role differs from a move manager, a placement advisor and a listing agent &rarr;
+              </Link>
             </p>
             <p className="mt-6 max-w-prose text-ink/80">
               My real expertise comes from 8+ years in the trenches. Flipping

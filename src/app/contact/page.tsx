@@ -8,7 +8,7 @@ import { GoldRule } from "@/components/site/GoldRule";
 import { SocialLinks } from "@/components/site/SocialLinks";
 import { ContactForm } from "@/components/forms/ContactForm";
 import { JsonLd } from "@/components/site/JsonLd";
-import { breadcrumbListSchema, localBusinessSchema } from "@/lib/schema";
+import { breadcrumbListSchema, professionalServiceSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Contact Ryan",
@@ -25,7 +25,9 @@ export default function ContactPage() {
 
   return (
     <main>
-      <JsonLd data={localBusinessSchema()} />
+      {/* Same ProfessionalService entity (same @id) the homepage emits, so the
+          site carries one business entity, not a second LocalBusiness. */}
+      <JsonLd data={professionalServiceSchema()} />
       <JsonLd data={breadcrumbs} />
 
       {/* HERO */}
@@ -152,11 +154,13 @@ export default function ContactPage() {
               these tools. That was the whole point of building them.
             </p>
             <p>
-              I do carry a North Carolina real estate license (#361546 with eXp
-              Realty), but I don&rsquo;t work as a traditional listing agent. My role
-              with families is the transition itself. The hard conversations, the
-              plan, the cleanout, the move, the family coordination, the paperwork
-              nobody warned you about. That&rsquo;s where I&rsquo;m useful.
+              I&rsquo;m a Senior Transition Advisor for the family home. I
+              carry a North Carolina real estate license (#361546 with eXp
+              Realty), but I never take the listing. My job is the house
+              decision that comes before any listing: the funding math against
+              the community&rsquo;s fee sheet, who can legally sign, and sell,
+              rent or keep. I&rsquo;m not a mover and I&rsquo;m not a placement
+              agent.
             </p>
             <p>
               When it&rsquo;s time to actually list or buy, I match you with a vetted
@@ -166,6 +170,13 @@ export default function ContactPage() {
               of agents who get this work. Either way: the right person in the right
               role, and no family stuck with a transactional agent who doesn&rsquo;t
               understand what&rsquo;s really going on.
+            </p>
+            <p>
+              Locally, that means the Triad (Greensboro, Winston-Salem, High
+              Point, Burlington, Asheboro, Lexington, Thomasville, Kernersville),
+              the Triangle (Raleigh, Durham, Cary, Chapel Hill), and the Grand
+              Strand in South Carolina (Myrtle Beach, Conway, Georgetown), where
+              the agent I refer is a vetted South Carolina partner.
             </p>
           </div>
         </div>

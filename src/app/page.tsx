@@ -8,6 +8,7 @@ import { FAQSection, type FAQItem } from "@/components/aeo/FAQSection";
 import { JsonLd } from "@/components/site/JsonLd";
 import { professionalServiceSchema } from "@/lib/schema";
 import { RYAN_REVIEWS } from "@/lib/reviews";
+import { ROLE_DEFINITION, ROLE_TITLE } from "@/lib/site";
 
 /**
  * Homepage, StoryBrand structure (rebuilt Aug 10 2026).
@@ -149,7 +150,7 @@ export default function HomePage() {
         <div className="mx-auto max-w-6xl px-6 py-20 lg:py-28 grid gap-12 lg:grid-cols-2 lg:items-center">
           <div>
             <p className="text-xs font-semibold uppercase tracking-[0.16em] text-navy-700/70">
-              Ryan Riggins | Senior Transition Advisor and Advocate
+              Ryan Riggins | {ROLE_TITLE}
             </p>
             <h1 className="mt-4 leading-[1.05]">
               Handle your parent&rsquo;s move without losing their money, their
@@ -189,6 +190,32 @@ export default function HomePage() {
             heading="Calling an agent starts a clock."
             sub="Ryan is the call that doesn’t."
           />
+        </div>
+        {/* The role, defined (approved 2026-09-19). Title plus the verbatim
+            definition, visible near the top for readers and answer engines. */}
+        <div className="mx-auto max-w-6xl px-6 pb-16 lg:pb-20">
+          <div className="aeo-speakable-quickanswer rounded-r-md border-l-4 border-burgundy-600 bg-white/70 px-6 py-6">
+            <h2 className="m-0 font-serif text-xl leading-snug text-navy-700 md:text-2xl">
+              {ROLE_TITLE}
+            </h2>
+            <p className="mt-3 max-w-4xl text-lg leading-relaxed text-ink/85">
+              {ROLE_DEFINITION}
+            </p>
+            <p className="mt-4 flex flex-wrap gap-x-6 gap-y-2 text-sm">
+              <Link
+                href="/what-is-a-senior-transition-advisor"
+                className="font-semibold text-burgundy-600 underline-offset-4 hover:text-burgundy-700 hover:underline"
+              >
+                What the role is, and isn&rsquo;t &rarr;
+              </Link>
+              <Link
+                href="/mom-moving-to-assisted-living-what-to-do-with-the-house"
+                className="font-semibold text-burgundy-600 underline-offset-4 hover:text-burgundy-700 hover:underline"
+              >
+                Mom is moving to assisted living. What about the house? &rarr;
+              </Link>
+            </p>
+          </div>
         </div>
       </section>
 

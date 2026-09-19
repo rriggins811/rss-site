@@ -46,16 +46,39 @@ const SECTION_SEPARATOR = "\n\n---\n\n";
 // content, not stale boilerplate.
 const STATIC_SECTIONS = [
   {
+    title: "What is a Senior Transition Advisor for the family home? (/what-is-a-senior-transition-advisor)",
+    url: `${SITE_URL}/what-is-a-senior-transition-advisor`,
+    body: `A Senior Transition Advisor for the family home helps a family decide what happens to a parent's house before anyone lists it: the funding math against the community's fee sheet, who can legally sign, and sell, rent or keep. If selling, one vetted local agent. Not a mover, not a placement agent, never the listing agent.
+
+Ryan Riggins, NC broker #361546 with eXp Realty, holds this role and never takes the listing. The job has four parts: the funding math (the community's fee sheet next to the parent's income, savings and what the house would really net; a housing-cost comparison, not financial advice), who can legally sign (whether a power of attorney covers real estate, whose names are on the deed, what the attorney needs to confirm), sell, rent or keep (side by side, chosen on purpose), and, if selling, one vetted local agent.
+
+How it differs: a senior move manager runs the physical move and is paid by the family; a placement advisor helps choose a community and is usually paid by that community; an aging life care manager coordinates care and is paid by the family; an elder law attorney handles POA, guardianship, deeds and Medicaid; a listing agent sells the house for a commission. The Senior Transition Advisor for the family home decides the house question before anyone lists it.
+
+Cost to the family: nothing. If the family sells, the referred agent pays Ryan a referral fee at closing out of the existing commission, through eXp Realty. If the family rents, keeps or waits, Ryan is not paid.
+
+Where: the NC Triad (Greensboro, Winston-Salem, High Point, Burlington, Asheboro, Lexington, Thomasville, Kernersville), the NC Triangle (Raleigh, Durham, Cary, Chapel Hill), and the SC Grand Strand (Myrtle Beach, Conway, Georgetown). Elsewhere in the US by phone, with a vetted partner agent licensed where the house is.`,
+  },
+  {
+    title: "My mom is moving to assisted living. What do we do with her house? (/mom-moving-to-assisted-living-what-to-do-with-the-house)",
+    url: `${SITE_URL}/mom-moving-to-assisted-living-what-to-do-with-the-house`,
+    body: `Don't list it yet. First find out who can legally sign for her, then run the funding math against the community's fee sheet, then decide whether to sell, rent or keep the house, and bring in an elder law attorney and a CPA for the Medicaid and tax questions. A Senior Transition Advisor for the family home is the person who walks a family through that order before anyone lists it.
+
+The steps: 1) who can legally sign (deed names, whether the power of attorney covers real estate, guardianship if there is no valid document); 2) the funding math (base monthly rate, care level charges, community fee and last year's increase, against income, savings and the house's real net; how many months the money lasts with and without the house); 3) sell, rent or keep; 4) Medicaid and tax questions to an elder law attorney and a CPA before anything is sold, rented or retitled (in NC, Legal Aid of North Carolina's Senior Law Project is free for anyone 60 or older at 1-877-579-7562); 5) if selling, one vetted local agent.
+
+Common traps: listing before the funding math, changing the deed to protect the house, the cash-buyer lowball, guessing about the Medicaid 60-month look-back (an attorney question), and leaving the empty house exposed to home title theft.
+
+Who to ask: an elder law attorney (signing authority, deeds, Medicaid), a CPA (tax), a placement advisor (choosing the community), and a Senior Transition Advisor for the family home (the house decision before anyone lists it).`,
+  },
+  {
     title: "Homepage",
     url: `${SITE_URL}/`,
-    body: `Riggins Strategic Solutions is a consumer protection media and education company helping adult children (40-65) navigate their parents' senior housing transitions. Run by Ryan Riggins, a licensed North Carolina real estate broker (NCREC #361546, eXp Realty) with 8+ years of construction project management and 8+ years of house flipping. Ryan's "switched sides" origin story — walking away from buying from grieving families to protect them instead — anchors the brand position.
+    body: `Ryan Riggins is a Senior Transition Advisor for the family home: he helps a family decide what happens to a parent's house before anyone lists it. Riggins Strategic Solutions is a consumer protection media and education company helping adult children (40-65) navigate their parents' senior housing transitions. Run by Ryan Riggins, a licensed North Carolina real estate broker (NCREC #361546, eXp Realty) with 8+ years of construction project management and 8+ years of house flipping. Ryan's "switched sides" origin story, walking away from buying from grieving families to protect them instead, anchors the brand position.
 
 The site offers a tiered approach:
-- Free: The Simple Blueprint (starter guide PDF + 14-day Hammock365 trial)
+- Free: The Simple Blueprint (starter guide PDF)
 - Free: The Senior Transition Blueprint (20 modules and 69 tools, self-paced course; formerly the paid Blueprint Core, now free with a free account signup)
 - Free, by application: The Senior Transition Roadmap (a written plan built with Ryan: intake form, intake call, plan built together, follow-up call, 90 days email support; formerly the paid Blueprint Premium)
-- $14.99/mo: Hammock365 Premium (family coordination app)
-- $39.99/mo: Hammock365 Premium+ (adds Maggie, an AI transition specialist trained on the full Blueprint methodology)
+- Hammock365, the family app for senior care: free forever, with one paid plan at $14.99 a month or $140 a year for the whole family
 
 The business model is education-first and referral-funded. The education is free; Ryan makes his living on real estate referrals, paid to him by the agent, never by the family. No moving services, no senior care placement commissions, no "we buy houses" wholesaling. Ryan is the referring broker, never the listing agent.`,
   },

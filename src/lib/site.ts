@@ -14,6 +14,60 @@ export const SITE_TAGLINE =
 export const SITE_DESCRIPTION =
   "Senior Transition Advisor Ryan Riggins helps families avoid the $50K mistakes of a senior housing transition. Not a move manager. Not a listing agent.";
 
+/**
+ * THE ROLE, approved by Ryan 2026-09-19. The title and the definition are used
+ * word for word everywhere they appear (home, About, schema, the role page,
+ * bylines). Never paraphrase ROLE_DEFINITION; edit it here or not at all.
+ */
+export const ROLE_TITLE = "Senior Transition Advisor for the family home";
+
+export const ROLE_DEFINITION =
+  "A Senior Transition Advisor for the family home helps a family decide what happens to a parent's house before anyone lists it: the funding math against the community's fee sheet, who can legally sign, and sell, rent or keep. If selling, one vetted local agent. Not a mover, not a placement agent, never the listing agent.";
+
+/** Visible byline for answer pages. NC advertising rule: firm name shown. */
+export const ROLE_BYLINE =
+  "Ryan Riggins, Senior Transition Advisor for the family home, NC broker #361546, eXp Realty";
+
+/**
+ * Service area for schema (areaServed). Named cities first, then the
+ * nationwide note: outside these markets families are served through vetted
+ * partner agents.
+ */
+const NC_CITIES = [
+  "Greensboro",
+  "Winston-Salem",
+  "High Point",
+  "Burlington",
+  "Asheboro",
+  "Lexington",
+  "Thomasville",
+  "Kernersville",
+  "Raleigh",
+  "Durham",
+  "Cary",
+  "Chapel Hill",
+] as const;
+const SC_CITIES = ["Myrtle Beach", "Conway", "Georgetown"] as const;
+
+export const SERVICE_AREA = [
+  ...NC_CITIES.map((name) => ({
+    "@type": "City",
+    name: `${name}, NC`,
+    containedInPlace: { "@type": "State", name: "North Carolina" },
+  })),
+  ...SC_CITIES.map((name) => ({
+    "@type": "City",
+    name: `${name}, SC`,
+    containedInPlace: { "@type": "State", name: "South Carolina" },
+  })),
+  {
+    "@type": "Country",
+    name: "United States",
+    description:
+      "Families anywhere in the United States, served through vetted partner agents.",
+  },
+];
+
 export const ORGANIZATION = {
   name: SITE_NAME,
   // Riggins Strategic Solutions is a d/b/a of Riggins Properties LLC, not an
@@ -49,7 +103,7 @@ export const ORGANIZATION = {
 
 export const AUTHOR = {
   name: "Ryan Riggins",
-  jobTitle: "Senior Transition Advisor",
+  jobTitle: ROLE_TITLE,
   bio: "Licensed NC broker (#361546, eXp Realty). Fiduciary duty to the family, not a pitch. Creator of The Blueprint and Hammock365.",
   // Optimized headshot hosted on /brand/ (69KB vs 5.3MB original at
   // /photos/). Same-origin canonical URL used by Person schema (sitewide

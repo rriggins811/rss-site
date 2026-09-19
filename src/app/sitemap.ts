@@ -27,6 +27,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }[] = [
     { path: "/", changeFrequency: "monthly", priority: 1.0 },
     { path: "/about", changeFrequency: "monthly", priority: 0.8 },
+    { path: "/what-is-a-senior-transition-advisor", changeFrequency: "monthly", priority: 0.9 },
+    { path: "/mom-moving-to-assisted-living-what-to-do-with-the-house", changeFrequency: "monthly", priority: 0.9 },
     { path: "/faq", changeFrequency: "monthly", priority: 0.8 },
     { path: "/the-blueprint", changeFrequency: "monthly", priority: 0.9 },
     { path: "/the-roadmap", changeFrequency: "monthly", priority: 0.9 },

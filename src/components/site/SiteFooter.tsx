@@ -29,6 +29,14 @@ const footerNav: { heading: string; links: { href: string; label: string; extern
     heading: "Learn",
     links: [
       { href: "/about", label: "About Ryan" },
+      {
+        href: "/what-is-a-senior-transition-advisor",
+        label: "What is a Senior Transition Advisor?",
+      },
+      {
+        href: "/mom-moving-to-assisted-living-what-to-do-with-the-house",
+        label: "Mom is moving to assisted living: the house",
+      },
       { href: "/faq", label: "Common questions" },
       { href: "/blog", label: "Blog" },
       { href: "/resources", label: "Resources" },
@@ -75,8 +83,9 @@ export function SiteFooter() {
               className="h-10 w-auto brightness-0 invert"
             />
             <p className="mt-4 text-sm text-cream/80 leading-relaxed">
-              Ryan Riggins, Senior Transition Advisor. Plain-English guidance for
-              families facing a senior housing transition. Greensboro, NC &middot;
+              Ryan Riggins, Senior Transition Advisor for the family home. I
+              help families decide what happens to a parent&rsquo;s house
+              before anyone lists it. Greensboro, NC &middot;
               Serving families nationwide.
             </p>
             <p className="mt-2 text-xs text-cream/70 leading-relaxed">
