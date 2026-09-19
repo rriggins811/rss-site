@@ -3,8 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="robots" content="noindex, nofollow">
-<title>The Strategic Exit Engine | Riggins Strategic Solutions</title>
+<title>6 Ways to Sell a Parent's House, Side by Side | Riggins Strategic Solutions</title>
+<meta name="description" content="Compare six ways to sell a parent's house side by side: a listing, an as-is cash offer, owner financing, a lease-option, a 1031 exchange, or renting it out. See the estimated net, the time to cash, and the cash each frees up for care on day one.">
+<link rel="canonical" href="https://www.rigginsstrategicsolutions.com/tools/strategic-exit-engine">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800;900&family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
 <style>
   *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
@@ -334,7 +335,7 @@
   }
 
   .see-card.best::before {
-    content: '★ BEST NET PROCEEDS';
+    content: '★ HIGHEST LUMP SUM';
     position: absolute;
     top: 12px;
     right: 16px;
@@ -541,7 +542,6 @@
     font-size: 14px;
     color: var(--gray-800);
     line-height: 1.6;
-    font-style: italic;
   }
 
   .see-tip.open .see-tip-content { display: block; }
@@ -700,6 +700,58 @@
     background: #fff;
   }
 
+  /* Cash for care on day one */
+  .see-dayone {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 4px 12px;
+    background: var(--green-light);
+    border: 1px solid rgba(45,138,78,0.25);
+    border-radius: 8px;
+    padding: 10px 12px;
+    margin-bottom: 14px;
+  }
+  .see-dayone.none {
+    background: var(--orange-light);
+    border-color: rgba(212,130,10,0.3);
+  }
+  .see-dayone-label {
+    font-size: 11px;
+    font-weight: 800;
+    color: var(--gray-600);
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+  }
+  .see-dayone-value {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 800;
+    font-size: 20px;
+    color: var(--green);
+  }
+  .see-dayone.none .see-dayone-value { color: var(--orange); font-size: 17px; }
+  .see-dayone-detail {
+    flex-basis: 100%;
+    font-size: 12px;
+    color: var(--gray-600);
+  }
+
+  /* Estimates notice + cross-link under the header */
+  .see-notice {
+    background: var(--cream);
+    border-bottom: 1px solid var(--gray-200);
+    padding: 14px 28px;
+    font-size: 14px;
+    color: var(--gray-800);
+    line-height: 1.55;
+  }
+  .see-notice strong { color: var(--navy); }
+  .see-notice a { color: var(--burgundy); font-weight: 700; }
+
+  .see-warning ul, .see-tip-content ul { margin: 6px 0 0 18px; }
+  .see-warning li, .see-tip-content li { margin-bottom: 4px; }
+
   /* ════════════════════════════════════════════
      RESPONSIVE
   ════════════════════════════════════════════ */
@@ -714,6 +766,7 @@
     .see-footer { padding: 24px 16px; }
     .see-results-header { padding: 20px 16px; }
     .see-of-inputs { grid-template-columns: 1fr; }
+    .see-notice { padding: 12px 16px; }
   }
 
   @media (max-width: 400px) {
@@ -728,34 +781,39 @@
 
   <!-- HEADER -->
   <div class="see-header">
-    <div class="see-badge">🔧 Built by an Investor/Project Manager, Not a Sales Agent</div>
-    <h1>The Strategic <span>Exit Engine</span></h1>
-    <p>Check what each way of selling your family home would net, how long it takes, and the stress involved, side by side, before you answer any offer. Decide sell, rent or keep first. If you sell, use one vetted local agent.</p>
+    <div class="see-badge">For families whose parent is moving to care</div>
+    <h1>6 Ways to Sell a Parent's House, <span>Side by Side</span></h1>
+    <p>See what each way of selling would net, how long it takes, and how much cash it frees up for care on day one. Use it to check the math on any offer before you answer it.</p>
+  </div>
+
+  <div class="see-notice">
+    <strong>These are estimates, not advice.</strong> Tax and Medicaid questions go to a CPA and an elder law attorney.<br>
+    Not sure whether to sell at all? Try <a href="https://www.rigginsstrategicsolutions.com/tools/sell-rent-or-keep-calculator" target="_top">Sell, Rent or Keep: What It Means for Mom's Care</a>.
   </div>
 
   <!-- GLOBAL INPUTS -->
   <div class="see-inputs">
-    <div class="see-inputs-title">Your Property Details</div>
-    <div class="see-inputs-sub">Adjust these numbers to match your situation. All 6 strategies update automatically.</div>
+    <div class="see-inputs-title">The House</div>
+    <div class="see-inputs-sub">Adjust these numbers to match the house. All six options update when you calculate.</div>
 
     <div class="see-grid">
       <!-- Market Value (Slider + Editable Input) -->
       <div class="see-field" style="grid-column: 1 / -1;">
-        <label>Estimated Market Value</label>
+        <label for="mvInput">Estimated Market Value</label>
         <div class="see-slider-wrap">
           <div style="display:flex;align-items:center;gap:8px;margin-bottom:4px;">
             <span class="see-field-prefix" style="font-size:24px;font-weight:800;color:var(--navy);">$</span>
             <input type="text" id="mvInput" value="300,000" inputmode="numeric"
-              style="font-family:'Playfair Display',Georgia,serif;font-weight:800;font-size:28px;color:var(--navy);border:none;border-bottom:2px solid var(--gold);background:transparent;outline:none;width:200px;padding:2px 0;">
+              style="font-family:'Playfair Display',Georgia,serif;font-weight:800;font-size:28px;color:var(--navy);border:none;border-bottom:2px solid var(--gold);background:transparent;outline:none;width:200px;max-width:100%;padding:2px 0;">
           </div>
-          <input type="range" class="see-slider" id="marketValue" min="75000" max="1000000" step="5000" value="300000">
+          <input type="range" class="see-slider" id="marketValue" min="75000" max="1000000" step="5000" value="300000" aria-label="Estimated market value">
           <div class="see-slider-labels"><span>$75K</span><span>$500K</span><span>$1M</span></div>
         </div>
       </div>
 
       <!-- Mortgage Balance -->
       <div class="see-field">
-        <label>Mortgage Balance</label>
+        <label for="mortgage">Mortgage Balance</label>
         <div class="see-field-wrap">
           <span class="see-field-prefix">$</span>
           <input type="text" id="mortgage" value="0" inputmode="numeric" placeholder="0">
@@ -764,25 +822,26 @@
 
       <!-- Estimated Repairs -->
       <div class="see-field">
-        <label>Estimated "HGTV-Style" Repairs</label>
+        <label for="repairs">Repairs Before Listing</label>
         <div class="see-field-wrap">
           <span class="see-field-prefix">$</span>
-          <input type="text" id="repairs" value="30,000" inputmode="numeric" placeholder="30,000">
+          <input type="text" id="repairs" value="15,000" inputmode="numeric" placeholder="15,000">
         </div>
       </div>
 
       <!-- Monthly Carrying Costs -->
       <div class="see-field">
-        <label>Monthly Carrying Costs</label>
+        <label for="carrying">Monthly Carrying Costs</label>
         <div class="see-field-wrap">
           <span class="see-field-prefix">$</span>
-          <input type="text" id="carrying" value="2,500" inputmode="numeric" placeholder="2,500">
+          <input type="text" id="carrying" value="1,200" inputmode="numeric" placeholder="1,200">
         </div>
+        <div style="font-size:12px;color:var(--gray-600);">Tax, insurance, utilities, upkeep, plus any mortgage payment.</div>
       </div>
 
       <!-- Calculate Button -->
       <button class="see-calculate-btn" id="calcBtn" onclick="calculate()">
-        ⚡ Calculate All 6 Exit Strategies
+        Compare All 6 Ways to Sell
       </button>
     </div>
   </div>
@@ -790,8 +849,8 @@
   <!-- RESULTS -->
   <div class="see-results" id="seeResults">
     <div class="see-results-header">
-      <div class="see-results-title">Your 6 Exit Strategies Compared</div>
-      <div class="see-results-sub">Based on a home valued at <strong id="seeResultVal">$300,000</strong></div>
+      <div class="see-results-title">The 6 Ways, Compared</div>
+      <div class="see-results-sub">Based on a home valued at <strong id="seeResultVal">$300,000</strong>. Every figure is an estimate built on the assumptions shown in each card.</div>
     </div>
 
     <div class="see-strategies" id="seeStrategies"></div>
@@ -803,25 +862,28 @@
         <table class="see-table" id="seeCompTable">
           <thead>
             <tr>
-              <th>Strategy</th>
-              <th>Net Proceeds</th>
+              <th>Option</th>
+              <th>Estimated Net</th>
+              <th>Cash for Care, Day One</th>
               <th>Time to Cash</th>
-              <th>Stress</th>
-              <th>Best When…</th>
+              <th>Hassle</th>
+              <th>Fits When</th>
             </tr>
           </thead>
           <tbody id="seeCompBody"></tbody>
         </table>
       </div>
+      <p style="margin-top:12px;font-size:13px;color:var(--gray-600);line-height:1.5;">Hassle is a rough guide, not a measurement. These are estimates, not advice. Tax and Medicaid questions go to a CPA and an elder law attorney.</p>
     </div>
 
     <!-- FOOTER CTA -->
     <div class="see-footer">
       <p>Decide <strong>sell, rent or keep</strong> first. If you sell, use one vetted local agent. The other paths are here so you can check the math on any offer someone makes you. Ryan never buys houses and never bids.</p>
       <div style="display:flex;flex-direction:column;gap:12px;max-width:480px;margin:0 auto;">
-        <a href="https://www.rigginsstrategicsolutions.com/the-blueprint" class="see-footer-btn" style="display:block;text-align:center;">📋 Get the Senior Transition Blueprint (free)</a>
-        <a href="https://www.rigginsstrategicsolutions.com/work-with-ryan" class="see-footer-btn" style="display:block;text-align:center;background:rgba(255,255,255,0.1);border:2px solid rgba(255,255,255,0.3);color:#fff;box-shadow:none;">📞 Book a Free Call with Ryan</a>
-        <a href="https://www.rigginsstrategicsolutions.com/resources/senior-help-directory" style="display:block;text-align:center;color:rgba(255,255,255,0.6);font-size:14px;font-weight:600;text-decoration:none;padding:8px;">📖 Not ready? Browse the free Senior Help Directory</a>
+        <a href="https://www.rigginsstrategicsolutions.com/tools/sell-rent-or-keep-calculator" target="_top" class="see-footer-btn" style="display:block;text-align:center;">Not sure whether to sell? Try Sell, Rent or Keep</a>
+        <a href="https://www.rigginsstrategicsolutions.com/work-with-ryan" target="_top" class="see-footer-btn" style="display:block;text-align:center;background:rgba(255,255,255,0.1);border:2px solid rgba(255,255,255,0.3);color:#fff;box-shadow:none;">📞 Book a Free Call with Ryan</a>
+        <a href="https://www.rigginsstrategicsolutions.com/the-blueprint" target="_top" style="display:block;text-align:center;color:rgba(255,255,255,0.75);font-size:15px;font-weight:600;text-decoration:none;padding:8px;">📋 Get the Senior Transition Blueprint (free)</a>
+        <a href="https://www.rigginsstrategicsolutions.com/resources/senior-help-directory" target="_top" style="display:block;text-align:center;color:rgba(255,255,255,0.6);font-size:14px;font-weight:600;text-decoration:none;padding:8px;">📖 Not ready? Browse the free Senior Help Directory</a>
         <a href="sms:3365538933" style="display:block;text-align:center;padding:14px 24px;background:rgba(255,255,255,0.15);border:2px solid rgba(255,255,255,0.4);border-radius:10px;color:#fff;font-size:16px;font-weight:700;text-decoration:none;font-family:'Source Sans 3',sans-serif;">💬 Just Text Ryan: (336) 553-8933</a>
       </div>
     </div>
@@ -844,7 +906,7 @@ function fmt(n) {
 }
 
 function fmtMo(n) {
-  return '$' + Math.round(n).toLocaleString() + '/mo';
+  return fmt(n) + '/mo';
 }
 
 // Format input with commas as user types
@@ -864,7 +926,7 @@ const mvInput = document.getElementById('mvInput');
 function updateSlider() {
   const v = parseInt(slider.value);
   mvInput.value = v.toLocaleString();
-  const pct = ((v - 75000) / (1000000 - 75000)) * 100;
+  const pct = ((v - 75000) / (parseInt(slider.max) - 75000)) * 100;
   slider.style.setProperty('--pct', pct + '%');
 }
 
@@ -877,10 +939,9 @@ mvInput.addEventListener('input', function() {
   if (raw) {
     let num = parseInt(raw);
     this.value = num.toLocaleString();
-    // Clamp to slider range
-    num = Math.max(75000, Math.min(1000000, num));
+    num = Math.max(75000, Math.min(parseInt(slider.max), num));
     slider.value = num;
-    const pct = ((num - 75000) / (1000000 - 75000)) * 100;
+    const pct = ((num - 75000) / (parseInt(slider.max) - 75000)) * 100;
     slider.style.setProperty('--pct', pct + '%');
   }
 });
@@ -890,17 +951,16 @@ mvInput.addEventListener('change', function() {
   let raw = this.value.replace(/[^0-9]/g, '');
   if (raw) {
     let num = parseInt(raw);
-    if (num > 1000000) {
+    if (num > parseInt(slider.max)) {
       slider.max = num;
       slider.value = num;
-      const pct = 100;
-      slider.style.setProperty('--pct', pct + '%');
+      slider.style.setProperty('--pct', '100%');
     }
     this.value = num.toLocaleString();
   }
 });
 
-// Stress colors
+// Hassle colors
 function stressColor(score) {
   if (score <= 3) return '#2d8a4e';
   if (score <= 5) return '#d4a20a';
@@ -909,8 +969,8 @@ function stressColor(score) {
 }
 
 function stressLabel(score) {
-  if (score <= 2) return 'Very Low';
-  if (score <= 4) return 'Low-Moderate';
+  if (score <= 2) return 'Low';
+  if (score <= 4) return 'Low to Moderate';
   if (score <= 6) return 'Moderate';
   if (score <= 8) return 'High';
   return 'Very High';
@@ -924,154 +984,221 @@ function monthlyPayment(principal, annualRate, years) {
   return principal * (r * Math.pow(1 + r, n)) / (Math.pow(1 + r, n) - 1);
 }
 
+// Owner financing terms: read the card's inputs if the family changed them.
+function ofTerms() {
+  const dpEl = document.getElementById('ofDp');
+  const rateEl = document.getElementById('ofRate');
+  let dp = dpEl ? parseFloat(dpEl.value) : 10;
+  let rate = rateEl ? parseFloat(rateEl.value) : 7;
+  if (!isFinite(dp) || dp < 0) dp = 0;
+  if (dp > 100) dp = 100;
+  if (!isFinite(rate) || rate < 0) rate = 0;
+  return { dpPct: dp, ratePct: rate };
+}
+
+const SIGN_LINE = 'Who can legally sign? If Mom can\'t sign for herself, the agent named in her power of attorney or the trustee of her trust may be able to, but only if the document gives that power. Have an attorney check before anyone signs.';
+
 // ════════════════════════════════════════════
 // STRATEGY DEFINITIONS
 // ════════════════════════════════════════════
 
 function getStrategies(mv, mtg, repairs, carry) {
-  const equity = mv - mtg;
-
-  // 1. Traditional MLS
+  // 1. Listing with an agent
   const trad_commission = mv * 0.06;
   const trad_closing = mv * 0.015;
   const trad_carry = carry * 4;
   const trad_net = mv - trad_commission - repairs - trad_closing - trad_carry - mtg;
 
-  // 2. As-Is Cash
+  // 2. As-is cash offer (illustration only: 75% of value)
   const cash_offer = mv * 0.75;
   const cash_closing = 1500;
   const cash_net = cash_offer - cash_closing - mtg;
+  const cash_gap = trad_net - cash_net;
 
-  // 3. Owner Financing
-  const of_dp_pct = 0.10;
-  const of_rate = 0.07;
-  const of_dp = mv * of_dp_pct;
-  const of_balance = mv - of_dp;
-  const of_monthly = monthlyPayment(of_balance, of_rate, 30);
+  // 3. Owner financing
+  const t = ofTerms();
+  const of_dp = mv * (t.dpPct / 100);
+  const of_balance = Math.max(0, mv - of_dp);
+  const of_monthly = of_balance > 0 ? monthlyPayment(of_balance, t.ratePct / 100, 30) : 0;
   const of_total = of_dp + (of_monthly * 360);
+  const of_dayone = of_dp - mtg;
 
-  // 4. Lease-Option
+  // 4. Lease-option
   const lo_option_fee = Math.max(5000, mv * 0.02);
   const lo_rent = Math.round(mv * 0.008);
   const lo_strike = Math.round(mv * 1.10);
+  const lo_net3 = lo_option_fee + (lo_rent * 36) - (carry * 36);
 
-  // 5. 1031 Exchange
-  const ex_gains = Math.max(0, equity - 250000);
-  const ex_tax_saved = ex_gains > 0 ? ex_gains * 0.175 : (equity * 0.175);
-  const ex_net = trad_net;
+  // 5. 1031 exchange: same sale math as a listing, but the money is reinvested
+  const ex_reinvested = trad_net;
 
-  // 6. Long-Term Rental
+  // 6. Long-term rental
   const rent_gross = Math.round(mv * 0.007);
   const rent_mgmt = rent_gross * 0.10;
   const rent_maint = rent_gross * 0.10;
   const rent_net_monthly = rent_gross - rent_mgmt - rent_maint - carry;
-  const rent_annual = rent_net_monthly * 12;
 
   return [
     {
       num: 1,
-      name: 'Traditional MLS Listing',
-      tagline: 'Highest gross price, highest hassle',
+      name: 'Listing With an Agent',
+      tagline: 'Usually the highest price, takes a few months',
       net: trad_net,
       netLabel: fmt(trad_net),
       netPositive: trad_net > 0,
+      dayOne: trad_net,
+      dayOneLabel: fmt(Math.max(0, trad_net)),
+      dayOneDetail: 'Lump sum at closing, after commission, repairs, closing costs, the mortgage payoff and about 4 months of carrying costs.',
       timeToCash: '3-6 months',
       timeDetail: 'Repairs + listing + closing',
-      stress: 9,
-      breakdown: `Commission: ${fmt(trad_commission)} · Repairs: ${fmt(repairs)} · Closing: ${fmt(trad_closing)} · 4mo carry: ${fmt(trad_carry)}`,
+      stress: 6,
+      breakdown: `Commission (6%): ${fmt(trad_commission)} · Repairs: ${fmt(repairs)} · Closing (1.5%): ${fmt(trad_closing)} · 4 months carrying: ${fmt(trad_carry)} · Mortgage payoff: ${fmt(mtg)}`,
       warning: null,
       info: null,
-      tip: `In my 8 years flipping houses, I've seen families waste $30,000 on HGTV-inspired renovations that returned less than $10,000 at closing. Traditional listings work, but only if you know which repairs actually pay back. Most realtors will tell you to "update the kitchen." I'll tell you to clean, paint, and fix the roof leak. That's the difference between a $30K renovation and a $3K one with the same sale price.`,
-      bestWhen: 'Maximum equity, time to wait',
+      tips: [
+        'Repairs rarely return their full cost at sale. Cleaning, paint and fixing real defects (a roof leak, a safety problem) usually matter more than a remodel.',
+        'Ask the listing agent which repairs buyers in that market actually pay for, and get the answer before spending money.',
+        'Commission is negotiable. 6% is used here as a round estimate.',
+        'If you sell, one vetted local agent is enough. Ryan never lists the house himself.'
+      ],
+      bestWhen: 'The most money matters and there is time to prep',
       isStream: false
     },
     {
       num: 2,
       name: 'As-Is Cash Offer',
-      tagline: 'Speed and certainty, lower price',
+      tagline: 'Speed and no repairs, lower price',
       net: cash_net,
       netLabel: fmt(cash_net),
       netPositive: cash_net > 0,
-      timeToCash: '14-21 days',
+      dayOne: cash_net,
+      dayOneLabel: fmt(Math.max(0, cash_net)),
+      dayOneDetail: 'Lump sum at closing, usually in weeks. The price is usually the lowest of the sale options.',
+      timeToCash: '2-4 weeks',
       timeDetail: 'No repairs, no showings',
-      stress: 1,
-      breakdown: `Offer: ${fmt(cash_offer)} (75% of value) · Closing: ${fmt(cash_closing)} · No repairs · No commission`,
+      stress: 2,
+      breakdown: `Illustration: offer at 75% of value (${fmt(cash_offer)}). Real offers vary. · Closing: ${fmt(cash_closing)} · Mortgage payoff: ${fmt(mtg)} · No repairs · No commission`,
       warning: null,
-      info: null,
-      tip: `Here's what nobody tells you about cash offers: the "discount" isn't always a loss. When you factor in 4 months of carrying costs (${fmt(carry * 4)}), contractor overcharges, and the emotional toll of 37 showings with Mom's oxygen tank in the corner, that 25% "discount" might only be 10-12% when you do the real math. I've closed deals where the as-is price beat the MLS net by $8,000 after carrying costs.`,
-      bestWhen: 'Urgent timeline, estate clean-out',
+      info: cash_gap > 0
+        ? `At these numbers the listing estimate nets about ${fmt(cash_gap)} more than this cash offer. That gap is what the speed costs.`
+        : 'At these numbers this cash offer nets about the same as or more than the listing estimate. Check the repair and carrying cost inputs, then compare real written offers.',
+      tips: [
+        'Get several written offers, not one. Compare each against the listing net above, not against the home value.',
+        'Read the contract for inspection periods, assignment clauses and fees that can lower the price after you agree.',
+        'Ryan never buys houses and never bids. There is no offer from him in this comparison.'
+      ],
+      bestWhen: 'Speed matters more than price, or the house needs major work',
       isStream: false,
       isFastest: true
     },
     {
       num: 3,
       name: 'Owner Financing',
-      tagline: 'Wealth over time, monthly income stream',
+      tagline: 'You become the bank. Monthly payments, not a lump sum',
       net: of_total - mtg,
       netLabel: fmtMo(of_monthly),
       netPositive: true,
-      timeToCash: 'Ongoing (30 years)',
+      dayOne: of_dayone,
+      dayOneLabel: of_dayone > 0 ? fmt(of_dayone) : 'None',
+      dayOneDetail: mtg > 0
+        ? `Only the down payment (${fmt(of_dp)}), less the mortgage payoff (${fmt(mtg)}). Most mortgages must be paid off when the house is sold.`
+        : `Only the down payment. The rest comes in as ${fmtMo(of_monthly)} over 30 years, if the buyer keeps paying.`,
+      timeToCash: 'Over 30 years',
       timeDetail: `${fmt(of_dp)} down + ${fmtMo(of_monthly)} for 30 years`,
-      stress: 4,
-      breakdown: `Down payment: ${fmt(of_dp)} (10%) · Monthly: ${fmtMo(of_monthly)} at 7% · Total over 30yr: ${fmt(of_total)}`,
-      warning: '⚠️ RISK: If the buyer stops paying, you must go through the legal foreclosure process to take the house back. This can take 6-12 months and cost $5,000-15,000 in legal fees.',
+      stress: 7,
+      breakdown: `Down payment: ${fmt(of_dp)} (${t.dpPct}%) · Monthly: ${fmtMo(of_monthly)} at ${t.ratePct}% · Total over 30 years if every payment is made: ${fmt(of_total)}`,
+      warning: `<strong>Hard questions for a parent who needs care money:</strong><ul>
+        <li>Monthly payments, not a lump sum. Care bills are due now.</li>
+        <li>If the buyer stops paying, the family has to foreclose to get the house back. That takes months, costs legal fees, and the risk falls on the family.</li>
+        <li>A note owed to Mom can complicate Medicaid eligibility. Ask an elder law attorney before agreeing.</li>
+        <li>${SIGN_LINE}</li>
+      </ul>`,
       info: null,
-      tip: `Owner financing is the hidden gem most realtors don't even know exists. I've structured deals where the seller made 40% MORE than a traditional sale over 10 years, and the buyer got into a home they couldn't otherwise afford. But you MUST have an attorney draft this. The note, the deed of trust, the insurance requirements. get it wrong and you have zero protection. This is "wealthy landlord" strategy, not "quick cash" strategy.`,
-      bestWhen: 'Want monthly income, not a lump sum',
+      tips: [
+        'An attorney should draft the note, the deed of trust and the insurance requirements. The terms here are only an example.',
+        'If there is still a mortgage on the house, most loans have a due-on-sale clause. Plan on paying it off at closing.'
+      ],
+      bestWhen: 'Care is already paid for and the family wants income over time',
       isStream: true,
-      ofDp: of_dp_pct * 100,
-      ofRate: of_rate * 100
+      ofDp: t.dpPct,
+      ofRate: t.ratePct
     },
     {
       num: 4,
       name: 'Lease-Option',
-      tagline: 'Hold the property, wait for the right price',
-      net: lo_option_fee + (lo_rent * 36) - (carry * 36),
+      tagline: 'Rent now, the tenant may buy later',
+      net: lo_net3,
       netLabel: fmt(lo_option_fee) + ' + ' + fmtMo(lo_rent),
       netPositive: lo_rent > carry,
-      timeToCash: '1-3 years',
-      timeDetail: `Option fee: ${fmt(lo_option_fee)} upfront · Rent: ${fmtMo(lo_rent)} · Strike price: ${fmt(lo_strike)}`,
+      dayOne: lo_option_fee,
+      dayOneLabel: fmt(lo_option_fee),
+      dayOneDetail: 'Only the option fee. After that, monthly rent. The sale happens later, and only if the tenant can buy.',
+      timeToCash: '1-3 years, if ever',
+      timeDetail: `Option fee: ${fmt(lo_option_fee)} upfront · Rent: ${fmtMo(lo_rent)} · Purchase price: ${fmt(lo_strike)}`,
       stress: 7,
-      breakdown: `Option fee: ${fmt(lo_option_fee)} · Monthly rent: ${fmtMo(lo_rent)} · Future strike price: ${fmt(lo_strike)} (110% of value) · Net over 3yr: ${fmt(lo_option_fee + (lo_rent * 36) - (carry * 36))}`,
-      warning: '⚠️ RISK: If the tenant cannot qualify for a mortgage at year 3 and refuses to leave, you face a costly eviction and potential property damage. Budget $3,000-8,000 for worst-case.',
+      breakdown: `Option fee (2%, at least $5,000): ${fmt(lo_option_fee)} · Monthly rent (0.8% of value): ${fmtMo(lo_rent)} · Future purchase price (110% of value): ${fmt(lo_strike)} · Rent minus carrying costs plus fee over 3 years: ${fmt(lo_net3)}`,
+      warning: `<strong>Hard questions for a parent who needs care money:</strong><ul>
+        <li>No lump sum until the tenant buys, and many never do. Mom's care bills keep coming in the meantime.</li>
+        <li>If the tenant stops paying or won't leave, the family faces an eviction, repairs and legal costs.</li>
+        <li>Rental income and an open option on the house can complicate Medicaid eligibility. Ask an elder law attorney.</li>
+        <li>${SIGN_LINE}</li>
+      </ul>`,
       info: null,
-      tip: `Lease-options are the bridge strategy nobody talks about. Perfect when the market is soft but you believe values are going up. You get paid rent NOW, you get a higher strike price LATER, and the tenant takes care of the property because they have skin in the game. But here's the construction guy truth: inspect that property every 6 months. I've seen tenants "improve" homes in ways that cost $15,000 to undo.`,
-      bestWhen: 'Soft market, expect values to rise',
+      tips: [
+        'The family is still the landlord until the sale closes: repairs, insurance and taxes stay with Mom.',
+        'Lease-option rules differ by state. Have a local real estate attorney write the agreement.'
+      ],
+      bestWhen: 'Care is already paid for and the family can wait',
       isStream: true
     },
     {
       num: 5,
       name: '1031 Exchange',
-      tagline: 'Defer taxes, reinvest the gains',
-      net: trad_net,
-      netLabel: fmt(trad_net),
-      netPositive: trad_net > 0,
+      tagline: 'For investment property only. The money stays invested',
+      net: ex_reinvested,
+      netLabel: fmt(ex_reinvested),
+      netPositive: ex_reinvested > 0,
+      dayOne: 0,
+      dayOneLabel: 'None usable',
+      dayOneDetail: 'The proceeds must go into another investment property through a qualified intermediary. None of it can be spent on care.',
       timeToCash: '3-6 months (reinvested)',
-      timeDetail: `Est. tax savings: ${fmt(ex_tax_saved)} deferred`,
-      stress: 6,
-      breakdown: `Same net as traditional (${fmt(trad_net)}) but defer ${fmt(ex_tax_saved)} in capital gains tax · Must reinvest in 180 days`,
-      warning: null,
-      info: '📋 IRS REQUIREMENT: You must identify a replacement property within 45 days and close within 180 days. Proceeds go through a Qualified Intermediary. you cannot touch the money. Miss either deadline and you owe the full capital gains tax.',
-      tip: `I'll be blunt: 1031 exchanges are powerful but they're not for everyone. If your parents lived in the home for 2+ of the last 5 years, they likely qualify for a $250K ($500K married) capital gains exclusion FIRST. Only consider 1031 if the gains exceed that exclusion. And hire a Qualified Intermediary. do NOT try to DIY this. The IRS gives zero grace period on that 180-day window.`,
-      bestWhen: 'Reinvesting in another property',
+      timeDetail: '45 days to identify, 180 days to close',
+      stress: 7,
+      breakdown: `Same sale math as a listing (${fmt(ex_reinvested)}), but all of it goes into a replacement investment property.`,
+      warning: `<strong>A home Mom lived in usually does not qualify.</strong> A 1031 exchange only applies to investment or rental property, not a home she lived in as her residence. For her home, ask a CPA about the home sale exclusion (Section 121): up to $250,000 of gain for a single owner, $500,000 for a married couple.`,
+      info: 'IRS rules: identify the replacement property within 45 days and close within 180 days. The money is held by a qualified intermediary, and missing either deadline makes the gain taxable.',
+      tips: [
+        'This option fits a rental house the family owns, not usually the house Mom is leaving.',
+        'Tax deferral depends on the gain, the basis and the property. A CPA can tell you whether it applies. This tool does not estimate it.'
+      ],
+      bestWhen: 'It is a rental or investment property and nobody needs the cash',
       isStream: false,
-      taxSaved: ex_tax_saved
+      noCash: true
     },
     {
       num: 6,
       name: 'Long-Term Rental',
-      tagline: 'Keep the asset, earn monthly income',
-      net: rent_annual,
+      tagline: 'Keep the house, collect rent',
+      net: rent_net_monthly * 12,
       netLabel: fmtMo(rent_net_monthly),
       netPositive: rent_net_monthly > 0,
-      timeToCash: 'Ongoing',
+      dayOne: 0,
+      dayOneLabel: 'None',
+      dayOneDetail: rent_net_monthly > 0
+        ? `No lump sum. Monthly income only, about ${fmtMo(rent_net_monthly)} after costs at these numbers.`
+        : 'No lump sum, and at these numbers the rent does not cover the costs.',
+      timeToCash: 'Monthly, ongoing',
       timeDetail: `Gross rent: ${fmtMo(rent_gross)} · After expenses: ${fmtMo(rent_net_monthly)}`,
       stress: 8,
-      breakdown: `Gross rent: ${fmtMo(rent_gross)} · Mgmt (10%): -${fmtMo(rent_mgmt)} · Maintenance (10%): -${fmtMo(rent_maint)} · Carrying costs: -${fmtMo(carry)} · Net: ${fmtMo(rent_net_monthly)}`,
-      warning: rent_net_monthly < 0 ? `⚠️ WARNING: At these numbers, you would LOSE ${fmtMo(Math.abs(rent_net_monthly))} every month. Your carrying costs exceed rental income. This strategy does not work for this property.` : null,
+      breakdown: `Gross rent (0.7% of value): ${fmtMo(rent_gross)} · Management (10%): -${fmtMo(rent_mgmt)} · Maintenance (10%): -${fmtMo(rent_maint)} · Carrying costs: -${fmtMo(carry)} · Net: ${fmtMo(rent_net_monthly)}`,
+      warning: rent_net_monthly < 0 ? `At these numbers the house would lose about ${fmtMo(Math.abs(rent_net_monthly))} a month. The carrying costs are higher than the rent after costs.` : null,
       info: null,
-      tip: `After 8 years in construction and real estate, here's my honest take on rentals: most families should NOT become landlords. The "passive income" fantasy ignores midnight toilet calls, $4,000 HVAC replacements, and tenants who stop paying in month 6. If you want rental income, hire a property manager (10%) and budget 10% for maintenance. If the numbers don't work with those costs built in, the numbers don't work. Period.`,
-      bestWhen: 'Want to keep the asset long-term',
+      tips: [
+        'Someone has to be the landlord: tenant screening, late rent, repairs, turnover between tenants. A property manager handles most of it for a fee.',
+        'Rent it too long and the home sale exclusion can be lost. The owner generally must have lived there 2 of the 5 years before a sale, so renting more than about 3 years after she moves out can end it. Ask a CPA.',
+        'Rental income can count as income for Medicaid. Ask an elder law attorney.'
+      ],
+      bestWhen: 'Care is covered without the equity and someone will manage it',
       isStream: true
     }
   ];
@@ -1093,10 +1220,10 @@ function calculate() {
 
   const strategies = getStrategies(mv, mtg, repairs, carry);
 
-  // Find best net (non-stream)
+  // Highest lump sum among the options that actually pay one at closing
   let bestNet = -Infinity;
   strategies.forEach(s => {
-    if (!s.isStream && s.net > bestNet) bestNet = s.net;
+    if (!s.isStream && !s.noCash && s.net > bestNet) bestNet = s.net;
   });
 
   // Render cards
@@ -1104,38 +1231,46 @@ function calculate() {
   container.innerHTML = '';
 
   strategies.forEach(s => {
-    const isBest = !s.isStream && s.net === bestNet && s.net > 0;
+    const isBest = !s.isStream && !s.noCash && s.net === bestNet && s.net > 0;
 
     let ownerFinanceInputs = '';
     if (s.num === 3) {
       ownerFinanceInputs = `
         <div class="see-of-inputs">
           <div class="see-of-field">
-            <label>Down Payment %</label>
-            <input type="number" id="ofDp" value="${s.ofDp}" min="0" max="50" step="1" onchange="calculate()">
+            <label for="ofDp">Down Payment %</label>
+            <input type="number" id="ofDp" value="${s.ofDp}" min="0" max="100" step="1" inputmode="decimal">
           </div>
           <div class="see-of-field">
-            <label>Interest Rate %</label>
-            <input type="number" id="ofRate" value="${s.ofRate}" min="0" max="15" step="0.5" onchange="calculate()">
+            <label for="ofRate">Interest Rate %</label>
+            <input type="number" id="ofRate" value="${s.ofRate}" min="0" max="15" step="0.5" inputmode="decimal">
           </div>
         </div>`;
     }
+
+    const noDayOne = !(s.dayOne > 0);
+    const tipsHtml = '<ul>' + s.tips.map(x => `<li>${x}</li>`).join('') + '</ul>';
 
     const card = document.createElement('div');
     card.className = 'see-card' + (isBest ? ' best' : '') + (s.isFastest ? ' fastest' : '');
 
     card.innerHTML = `
-      <div class="see-card-num">Strategy ${s.num}</div>
+      <div class="see-card-num">Option ${s.num}</div>
       <div class="see-card-name">${s.name}</div>
       <div class="see-card-tagline">${s.tagline}</div>
 
       ${ownerFinanceInputs}
 
+      <div class="see-dayone${noDayOne ? ' none' : ''}">
+        <span class="see-dayone-label">Cash for care on day one</span>
+        <span class="see-dayone-value">${s.dayOneLabel}</span>
+        <span class="see-dayone-detail">${s.dayOneDetail}</span>
+      </div>
+
       <div class="see-metrics">
         <div class="see-metric">
-          <div class="see-metric-label">${s.isStream ? 'Monthly Income' : 'Net Proceeds'}</div>
+          <div class="see-metric-label">${s.isStream ? 'Monthly Income' : (s.noCash ? 'Reinvested' : 'Estimated Net')}</div>
           <div class="see-metric-value ${s.netPositive ? 'positive' : 'negative'} ${s.isStream ? 'stream' : ''}">${s.netLabel}</div>
-          ${s.num === 5 ? `<div class="see-metric-detail">+ ${fmt(s.taxSaved)} tax deferred</div>` : ''}
         </div>
         <div class="see-metric">
           <div class="see-metric-label">Time to Cash</div>
@@ -1148,7 +1283,7 @@ function calculate() {
 
       <div class="see-stress">
         <div class="see-stress-header">
-          <span class="see-stress-label">Stress Level</span>
+          <span class="see-stress-label">Hassle (rough guide)</span>
           <span class="see-stress-score" style="color:${stressColor(s.stress)}">${s.stress}/10 · ${stressLabel(s.stress)}</span>
         </div>
         <div class="see-stress-bar">
@@ -1156,18 +1291,15 @@ function calculate() {
         </div>
       </div>
 
-      ${s.warning ? `<div class="see-warning"><svg viewBox="0 0 24 24"><path d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z"/></svg>${s.warning}</div>` : ''}
+      ${s.warning ? `<div class="see-warning">${s.warning}</div>` : ''}
       ${s.info ? `<div class="see-info">${s.info}</div>` : ''}
 
       <div class="see-tip" onclick="this.classList.toggle('open')">
         <div class="see-tip-toggle">
           <span class="arrow">▶</span>
-          🔧 Ryan's Expert Take
+          Good to know
         </div>
-        <div class="see-tip-content">
-          "${s.tip}"
-          <div class="see-tip-sig">Ryan Riggins, Senior Transition Advisor and Advocate</div>
-        </div>
+        <div class="see-tip-content">${tipsHtml}</div>
       </div>
     `;
 
@@ -1179,13 +1311,14 @@ function calculate() {
   tbody.innerHTML = '';
 
   strategies.forEach(s => {
-    const isBest = !s.isStream && s.net === bestNet && s.net > 0;
+    const isBest = !s.isStream && !s.noCash && s.net === bestNet && s.net > 0;
     const tr = document.createElement('tr');
     if (isBest) tr.className = 'highlight';
 
     tr.innerHTML = `
       <td>${s.name}</td>
       <td class="${s.netPositive ? 'proceeds' : 'negative-val'}">${s.isStream ? s.netLabel : fmt(s.net)}</td>
+      <td>${s.dayOneLabel}</td>
       <td>${s.timeToCash}</td>
       <td><span style="color:${stressColor(s.stress)};font-weight:800;">${s.stress}/10</span></td>
       <td>${s.bestWhen}</td>
@@ -1196,23 +1329,14 @@ function calculate() {
 
   // Show results
   const results = document.getElementById('seeResults');
+  const firstShow = !results.classList.contains('active');
   results.classList.add('active');
-  results.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  if (firstShow) results.scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 
-// Override owner finance if user changes inputs
-const origCalc = calculate;
+// Recalculate when the owner financing terms change
 window.addEventListener('change', function(e) {
-  if (e.target.id === 'ofDp' || e.target.id === 'ofRate') {
-    // Recalc with custom OF values
-    const mv = parseInt(document.getElementById('marketValue').value);
-    const mtg = parseNum('mortgage');
-    const dpPct = parseFloat(document.getElementById('ofDp').value) / 100;
-    const rate = parseFloat(document.getElementById('ofRate').value) / 100;
-
-    // Update strategy 3 with new values before full recalc
-    calculate();
-  }
+  if (e.target.id === 'ofDp' || e.target.id === 'ofRate') calculate();
 });
 </script>
 
