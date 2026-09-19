@@ -10,9 +10,10 @@ import { AppPlatformBadges } from "@/components/site/AppPlatformBadges";
 import { JsonLd } from "@/components/site/JsonLd";
 import { paymentLinks } from "@/lib/payment-links";
 import { seniorSafeMobileApplicationSchema } from "@/lib/schema";
+import { pageTitle } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Hammock365 | The Family App for Senior Care",
+  title: pageTitle("Hammock365 | The Family App for Senior Care"),
   description:
     "Hammock365 is free, forever: the daily I'm Okay check-in, a text to one family member when it is missed, medication reminders, and Maggie, one assistant for the senior and the family. One paid plan, $14.99 a month or $140 a year, for the whole family.",
   alternates: { canonical: "/hammock365" },

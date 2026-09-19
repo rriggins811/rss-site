@@ -21,7 +21,7 @@ import {
   faqPageSchema,
   howToSchemaFromPost,
 } from "@/lib/schema";
-import { abs } from "@/lib/site";
+import { abs, pageTitle } from "@/lib/site";
 import { RelatedReading } from "@/components/site/RelatedReading";
 import { QuickAnswer } from "@/components/aeo/QuickAnswer";
 import { PostVideo } from "@/components/site/PostVideo";
@@ -44,7 +44,7 @@ export async function generateMetadata({
   if (!post) return { title: "Post not found" };
   const url = `/blog/${post.frontmatter.slug}`;
   return {
-    title: post.frontmatter.title,
+    title: pageTitle(post.frontmatter.title),
     description: post.frontmatter.excerpt,
     alternates: { canonical: url },
     openGraph: {

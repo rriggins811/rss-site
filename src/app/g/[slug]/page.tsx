@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { LEAD_MAGNETS, getLeadMagnet } from "@/lib/lead-magnets";
 import { GuideOptInForm } from "@/components/forms/GuideOptInForm";
+import { pageTitle } from "@/lib/site";
 
 /**
  * Warm-funnel ad landing page. One guide, one job: earn the email and
@@ -27,7 +28,7 @@ export async function generateMetadata({
   const magnet = getLeadMagnet(slug);
   if (!magnet) return { title: "Free guide" };
   return {
-    title: magnet.title,
+    title: pageTitle(magnet.title),
     description: magnet.landing?.subhead ?? magnet.subtitle,
     robots: { index: false, follow: false },
   };

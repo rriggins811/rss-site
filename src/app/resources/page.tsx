@@ -5,12 +5,12 @@ import { GoldRule } from "@/components/site/GoldRule";
 import { JsonLd } from "@/components/site/JsonLd";
 import { breadcrumbListSchema, collectionPageSchema } from "@/lib/schema";
 import { RESOURCES } from "@/lib/resources";
-import { abs } from "@/lib/site";
+import { abs, pageTitle } from "@/lib/site";
 
 const TITLE = "Resources for families facing a senior transition";
 
 export const metadata: Metadata = {
-  title: TITLE,
+  title: pageTitle(TITLE),
   description:
     "Plain-English guides for families facing a senior housing transition. Selling a parent's home, talking to a stubborn parent, spotting cash-buyer scams, choosing between assisted living and memory care, and more.",
   alternates: { canonical: "/resources" },

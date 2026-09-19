@@ -18,7 +18,7 @@ import {
   stateBySlug,
 } from "@/lib/directory";
 import { getStateContent } from "@/lib/directory-state-content";
-import { abs } from "@/lib/site";
+import { abs, pageTitle } from "@/lib/site";
 
 type RouteParams = { state: string };
 
@@ -74,7 +74,7 @@ export async function generateMetadata({
   const description = `Free, plain-English senior help in ${state.name}: Medicare counseling (SHIP), energy assistance (LIHEAP), property tax relief, food, caregiver, and legal help, routed to the right local office. No sign-up.`;
 
   return {
-    title,
+    title: pageTitle(title),
     description,
     alternates: { canonical },
     // States are noindex until they gain real depth: either verified

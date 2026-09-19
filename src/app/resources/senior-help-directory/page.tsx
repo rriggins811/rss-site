@@ -15,7 +15,7 @@ import {
   DIRECTORY_STATES,
   countiesForState,
 } from "@/lib/directory";
-import { abs } from "@/lib/site";
+import { abs, pageTitle } from "@/lib/site";
 
 const TITLE =
   "Senior Help Directory: Free Programs for Seniors & Families (by State & County)";
@@ -24,7 +24,7 @@ const DESCRIPTION =
 const CANONICAL = "/resources/senior-help-directory";
 
 export const metadata: Metadata = {
-  title: TITLE,
+  title: pageTitle(TITLE),
   description: DESCRIPTION,
   alternates: { canonical: CANONICAL },
   openGraph: {

@@ -5,9 +5,10 @@ import { FAQSection, type FAQItem } from "@/components/aeo/FAQSection";
 import { GoldRule } from "@/components/site/GoldRule";
 import { JsonLd } from "@/components/site/JsonLd";
 import { breadcrumbListSchema } from "@/lib/schema";
+import { pageTitle } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Questions Families Ask Before They Call",
+  title: pageTitle("Questions Families Ask Before They Call"),
   description:
     "How this works, what it costs, why I never take the listing, and where I can help. Straight answers about the business, not the paperwork.",
   alternates: { canonical: "/faq" },

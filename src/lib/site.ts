@@ -12,7 +12,7 @@ export const SITE_TAGLINE =
   "Senior Transition Advisor Ryan Riggins helps families avoid the $50K mistakes of a senior housing transition.";
 
 export const SITE_DESCRIPTION =
-  "Senior Transition Advisor Ryan Riggins helps families avoid the $50K mistakes of a senior housing transition. Not a move manager. Not a listing agent.";
+  "Senior Transition Advisor for the family home: what to do with a parent's house before it's listed. Funding math, who can sign, and sell, rent or keep.";
 
 /**
  * THE ROLE, approved by Ryan 2026-09-19. The title and the definition are used
@@ -133,4 +133,20 @@ export const AUTHOR = {
 export function abs(path: string): string {
   if (path.startsWith("http")) return path;
   return `${SITE_URL}${path.startsWith("/") ? path : `/${path}`}`;
+}
+
+/**
+ * Page title with the site-name suffix only when it fits. The root layout
+ * template appends " | Riggins Strategic Solutions" (30 characters). Google
+ * cuts titles at about 60, so a long question title loses the brand and its
+ * own ending. When the full title would run past 60 characters, return the
+ * base title alone (absolute, so the template is skipped). SEO audit
+ * 2026-09-19. H1s and slugs are not affected.
+ */
+export const MAX_TITLE_LENGTH = 60;
+
+export function pageTitle(base: string): string | { absolute: string } {
+  return `${base} | ${SITE_NAME}`.length <= MAX_TITLE_LENGTH
+    ? base
+    : { absolute: base };
 }

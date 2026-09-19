@@ -19,7 +19,7 @@ import {
   getResourceContent,
 } from "@/lib/resource-content";
 import { breadcrumbListSchema } from "@/lib/schema";
-import { abs } from "@/lib/site";
+import { abs, pageTitle } from "@/lib/site";
 
 type RouteParams = { slug: string };
 
@@ -55,7 +55,7 @@ export async function generateMetadata({
   const published = content?.frontmatter.date ?? STUB_PUBLISHED_ISO;
 
   return {
-    title,
+    title: pageTitle(title),
     description,
     alternates: { canonical: `/resources/${slug}` },
     openGraph: {

@@ -10,7 +10,7 @@ import {
   faqPageSchema,
   blueprintPremiumProductSchema,
 } from "@/lib/schema";
-import { abs } from "@/lib/site";
+import { abs, pageTitle } from "@/lib/site";
 
 // Warm display serif for the headlines, mirroring the premium care-roadmap feel.
 // Declared once in @/lib/fonts; see the note there.
@@ -20,7 +20,7 @@ const PREMIUM_CHECKOUT = paymentLinks.blueprintPremium;
 const SUPPORT_EMAIL = "ryan@rigginsstrategicsolutions.com";
 
 export const metadata: Metadata = {
-  title: "Senior Transition Roadmap | Free Guided Advisory, By Application",
+  title: pageTitle("Senior Transition Roadmap | Free Guided Advisory, By Application"),
   description:
     "The Senior Transition Roadmap is the whole senior transition mapped with you, start to finish: a detailed intake, calls with Ryan, a written plan built together, and email support while you execute. Free, by application.",
   alternates: { canonical: "/the-roadmap" },

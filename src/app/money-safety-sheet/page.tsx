@@ -4,6 +4,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { JsonLd } from "@/components/site/JsonLd";
 import { breadcrumbListSchema } from "@/lib/schema";
+import { pageTitle } from "@/lib/site";
 
 const PDF_PATH = "/family-money-safety-sheet.pdf";
 const TITLE = "Free Family Money Safety Sheet | Protect Your Parents From Scams";
@@ -12,7 +13,7 @@ const DESCRIPTION =
 
 export const metadata: Metadata = {
   // Site suffix is appended by the root layout title template.
-  title: TITLE,
+  title: pageTitle(TITLE),
   description: DESCRIPTION,
   alternates: { canonical: "/money-safety-sheet" },
   openGraph: {

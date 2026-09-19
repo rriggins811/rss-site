@@ -5,9 +5,10 @@ import { EmailFallback } from "@/components/site/EmailFallback";
 import { GoldRule } from "@/components/site/GoldRule";
 import { JsonLd } from "@/components/site/JsonLd";
 import { breadcrumbListSchema } from "@/lib/schema";
+import { pageTitle } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "For Professionals Who Refer Families",
+  title: pageTitle("For Professionals Who Refer Families"),
   description:
     "Elder law and estate attorneys, trust officers, CPAs, advisors, care managers and placement advisors: I handle the house end of the plan you already built. I never take the listing and I never buy the house.",
   alternates: { canonical: "/partners" },

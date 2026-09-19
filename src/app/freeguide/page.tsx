@@ -3,6 +3,7 @@ import { Badge } from "@/components/ui/badge";
 import { GoldRule } from "@/components/site/GoldRule";
 import { StarterGuideForm } from "@/components/forms/StarterGuideForm";
 import { FAQSection, type FAQItem } from "@/components/aeo/FAQSection";
+import { pageTitle } from "@/lib/site";
 
 // FAQs derived from the actual signup-flow questions that come in
 // repeatedly (search console "people also ask" + Ryan's inbox). FAQSection
@@ -43,7 +44,7 @@ const FREEGUIDE_FAQS: FAQItem[] = [
 ];
 
 export const metadata: Metadata = {
-  title: "The Simple Blueprint | Free Starter Guide",
+  title: pageTitle("The Simple Blueprint | Free Starter Guide"),
   description:
     "A free, plain-English starter guide for families facing a senior housing transition. The first 3 moves most families get wrong, and what to do instead.",
   alternates: { canonical: "/freeguide" },

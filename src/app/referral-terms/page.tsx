@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { LegalPage } from "@/components/site/LegalPage";
 import { getLegalBySlug } from "@/lib/legal";
+import { pageTitle } from "@/lib/site";
 
 const SLUG = "referral-terms";
 
@@ -9,7 +10,7 @@ export async function generateMetadata(): Promise<Metadata> {
   const page = getLegalBySlug(SLUG);
   if (!page) return { title: "Not found" };
   return {
-    title: page.frontmatter.title,
+    title: pageTitle(page.frontmatter.title),
     description: page.frontmatter.description,
     alternates: { canonical: `/${SLUG}` },
   };

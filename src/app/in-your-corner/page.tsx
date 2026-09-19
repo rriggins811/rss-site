@@ -4,7 +4,7 @@ import { fraunces } from "@/lib/fonts";
 import { JsonLd } from "@/components/site/JsonLd";
 import { QuickAnswer } from "@/components/aeo/QuickAnswer";
 import { breadcrumbListSchema, faqPageSchema } from "@/lib/schema";
-import { abs } from "@/lib/site";
+import { abs, pageTitle } from "@/lib/site";
 
 // Warm display serif for the headlines, matching the Blueprint and Roadmap pages.
 // Declared once in @/lib/fonts; see the note there.
@@ -13,7 +13,7 @@ const display = fraunces.className;
 const SUPPORT_EMAIL = "ryan@rigginsstrategicsolutions.com";
 
 export const metadata: Metadata = {
-  title: "Get Me in Your Corner | A Vetted Agent and an Advocate on the Sale",
+  title: pageTitle("Get Me in Your Corner | A Vetted Agent and an Advocate on the Sale"),
   description:
     "Selling a parent's home? Ryan Riggins finds and vets the right local real estate agent for your situation, wherever you are, and stays in your corner the whole way. A referral service through eXp Realty, at no added cost to you.",
   alternates: { canonical: "/in-your-corner" },

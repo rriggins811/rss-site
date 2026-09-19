@@ -11,7 +11,7 @@ import {
   CATEGORY_LABELS,
 } from "@/lib/tools";
 import { breadcrumbListSchema } from "@/lib/schema";
-import { abs, AUTHOR, SITE_URL } from "@/lib/site";
+import { abs, AUTHOR, SITE_URL, pageTitle } from "@/lib/site";
 import { RelatedReading } from "@/components/site/RelatedReading";
 import { FAQSection } from "@/components/aeo/FAQSection";
 
@@ -31,7 +31,7 @@ export async function generateMetadata({
   if (!tool) return { title: "Tool not found" };
   const url = `/tools/${tool.slug}`;
   return {
-    title: tool.title,
+    title: pageTitle(tool.title),
     description: tool.description,
     alternates: { canonical: url },
     openGraph: {

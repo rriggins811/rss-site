@@ -15,10 +15,10 @@ import {
   blueprintCoreProductSchema,
   blueprintCourseSchema,
 } from "@/lib/schema";
-import { abs } from "@/lib/site";
+import { abs, pageTitle } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "The Blueprint | Senior Transition Tiers",
+  title: pageTitle("The Blueprint | Senior Transition Tiers"),
   description:
     "Every way to work with Ryan Riggins on a senior housing transition. The free Senior Transition Blueprint course, the Senior Transition Roadmap (free, by application), Get Me in Your Corner (a vetted real estate agent referral at no added cost), and the free Hammock365 app.",
   alternates: { canonical: "/the-blueprint" },

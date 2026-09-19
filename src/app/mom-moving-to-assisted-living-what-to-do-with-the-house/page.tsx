@@ -5,7 +5,7 @@ import { GoldRule } from "@/components/site/GoldRule";
 import { JsonLd } from "@/components/site/JsonLd";
 import { FAQSection, type FAQItem } from "@/components/aeo/FAQSection";
 import { breadcrumbListSchema, pageArticleSchema } from "@/lib/schema";
-import { ROLE_BYLINE, abs } from "@/lib/site";
+import { ROLE_BYLINE, abs, pageTitle } from "@/lib/site";
 
 /**
  * Answer page for the exact family question (approved by Ryan 2026-09-19).
@@ -24,7 +24,7 @@ const DESCRIPTION =
   "Don't list it yet. Find out who can sign for her, run the funding math against the community's fee sheet, then decide sell, rent or keep, with an elder law attorney and a CPA for the Medicaid and tax questions.";
 
 export const metadata: Metadata = {
-  title: "Mom Is Moving to Assisted Living. What Do We Do With Her House?",
+  title: pageTitle("Mom Is Moving to Assisted Living. What Do We Do With Her House?"),
   description: DESCRIPTION,
   alternates: { canonical: PATH },
   openGraph: {

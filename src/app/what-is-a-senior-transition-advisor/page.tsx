@@ -9,7 +9,7 @@ import {
   pageArticleSchema,
   roleDefinedTermSchema,
 } from "@/lib/schema";
-import { ROLE_BYLINE, ROLE_DEFINITION, ROLE_TITLE, abs } from "@/lib/site";
+import { ROLE_BYLINE, ROLE_DEFINITION, ROLE_TITLE, abs, pageTitle } from "@/lib/site";
 
 /**
  * The role page (approved by Ryan 2026-09-19). Its job is to give answer
@@ -29,7 +29,7 @@ const DESCRIPTION =
   "A Senior Transition Advisor for the family home helps a family decide what happens to a parent's house before anyone lists it. How the role differs from a move manager, a placement advisor, a care manager, an elder law attorney and a listing agent, and what it costs.";
 
 export const metadata: Metadata = {
-  title: "What Is a Senior Transition Advisor for the Family Home?",
+  title: pageTitle("What Is a Senior Transition Advisor for the Family Home?"),
   description: DESCRIPTION,
   alternates: { canonical: PATH },
   openGraph: {

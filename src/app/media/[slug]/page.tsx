@@ -16,6 +16,7 @@ import {
   getYouTubeId,
 } from "@/lib/media";
 import { breadcrumbListSchema, mediaSchemaFromItem } from "@/lib/schema";
+import { pageTitle } from "@/lib/site";
 
 type RouteParams = { slug: string };
 
@@ -33,7 +34,7 @@ export async function generateMetadata({
   if (!item) return { title: "Episode not found" };
   const url = `/media/${item.frontmatter.slug}`;
   return {
-    title: item.frontmatter.title,
+    title: pageTitle(item.frontmatter.title),
     description: item.frontmatter.excerpt,
     alternates: { canonical: url },
     openGraph: {

@@ -14,6 +14,7 @@ import {
   humanDuration,
 } from "@/lib/videos";
 import { breadcrumbListSchema, videoSchemaFromItem } from "@/lib/schema";
+import { pageTitle } from "@/lib/site";
 
 type RouteParams = { slug: string };
 
@@ -31,7 +32,7 @@ export async function generateMetadata({
   if (!item) return { title: "Video not found" };
   const url = `/videos/${item.frontmatter.slug}`;
   return {
-    title: item.frontmatter.title,
+    title: pageTitle(item.frontmatter.title),
     description: item.frontmatter.excerpt,
     alternates: { canonical: url },
     openGraph: {

@@ -5,13 +5,13 @@ import { GoldRule } from "@/components/site/GoldRule";
 import { JsonLd } from "@/components/site/JsonLd";
 import { breadcrumbListSchema, collectionPageSchema } from "@/lib/schema";
 import { getPublishedVideos, formatVideoDate, humanDuration } from "@/lib/videos";
-import { abs } from "@/lib/site";
+import { abs, pageTitle } from "@/lib/site";
 
 const DESCRIPTION =
   "Short videos on senior transitions from Ryan Riggins, who spent eight years on the cash-buyer side before switching. Every one has a full transcript, so you can read it instead of watching.";
 
 export const metadata: Metadata = {
-  title: "Videos | Senior Transition Straight Talk",
+  title: pageTitle("Videos | Senior Transition Straight Talk"),
   description: DESCRIPTION,
   alternates: { canonical: "/videos" },
 };

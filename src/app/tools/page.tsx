@@ -10,10 +10,10 @@ import {
   type ToolCategory,
 } from "@/lib/tools";
 import { breadcrumbListSchema, collectionPageSchema } from "@/lib/schema";
-import { abs } from "@/lib/site";
+import { abs, pageTitle } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Free Tools for Senior Transitions",
+  title: pageTitle("Free Tools for Senior Transitions"),
   description:
     "Nine free calculators, planning tools, and assessments for families facing a senior housing transition. No email gate, no pitch.",
   alternates: { canonical: "/tools" },

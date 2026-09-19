@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { SocialLinks } from "@/components/site/SocialLinks";
+import { pageTitle } from "@/lib/site";
 
 /**
  * Link-in-bio hub at /links. The single destination for every social bio
@@ -18,7 +19,7 @@ import { SocialLinks } from "@/components/site/SocialLinks";
  */
 
 export const metadata: Metadata = {
-  title: "Ryan Riggins | Links, Free Tools & Resources",
+  title: pageTitle("Ryan Riggins | Links, Free Tools & Resources"),
   description:
     "Every free tool, guide, and resource from Ryan Riggins, Senior Transition Advisor, in one place.",
   alternates: { canonical: "/links" },
