@@ -226,6 +226,34 @@
   .srk-lines li { display: flex; justify-content: space-between; gap: 10px; padding: 4px 0; border-bottom: 1px dashed var(--gray-200); }
   .srk-lines li span:last-child { font-weight: 700; color: var(--gray-800); white-space: nowrap; }
 
+  /* CASH BUYER RANGE (inside the Sell column) */
+  .srk-cash {
+    background: var(--cream);
+    border: 1px solid var(--gray-200);
+    border-left: 3px solid var(--gold-dark);
+    border-radius: 0 8px 8px 0;
+    padding: 12px 14px;
+    margin-top: 14px;
+  }
+  .srk-cash-label {
+    font-size: 11px;
+    font-weight: 800;
+    color: var(--gold-dark);
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+  }
+  .srk-cash-range {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 800;
+    font-size: 21px;
+    color: var(--navy);
+    line-height: 1.25;
+    margin: 2px 0 6px;
+  }
+  .srk-cash p { font-size: 13px; color: var(--gray-600); line-height: 1.5; }
+  .srk-cash p + p { margin-top: 6px; }
+  .srk-cash strong { color: var(--gray-800); }
+
   .srk-sub-title {
     font-size: 12px;
     font-weight: 800;
@@ -346,7 +374,7 @@
         <div class="srk-field">
           <label for="repairs">Repairs it needs before listing</label>
           <div class="srk-wrap"><span class="srk-prefix">$</span><input type="text" id="repairs" inputmode="numeric" value="15,000"></div>
-          <label class="srk-check" style="text-transform:none;letter-spacing:0;font-weight:600;"><input type="checkbox" id="asIs"> Sell as-is instead: skip the repairs and assume a price about 10% below value (an estimate)</label>
+          <label class="srk-check" style="text-transform:none;letter-spacing:0;font-weight:600;"><input type="checkbox" id="asIs"> Sell as-is instead: skip the repairs and list it as-is on the open market, about 10 percent below value (an estimate)</label>
         </div>
         <div class="srk-field">
           <label for="taxIns">Property tax + insurance, monthly</label>
@@ -411,6 +439,12 @@
           <div class="srk-big-detail" id="sellMonthsDetail"></div>
         </div>
         <ul class="srk-lines" id="sellLines"></ul>
+        <div class="srk-cash" id="cashBox">
+          <div class="srk-cash-label">Or sell to a cash buyer, as-is</div>
+          <div class="srk-cash-range" id="cashRange">$0</div>
+          <p>A cash buyer who takes it as-is usually pays 20 to 50 percent below what the house would be worth fixed up, depending on condition. No repairs, no commission, and it usually closes in weeks instead of months.</p>
+          <p id="cashNetLine"></p>
+        </div>
         <div class="srk-sub-title">Keep in mind</div>
         <ul class="srk-bullets">
           <li>The house is gone. If Mom's plans change, there's no home to go back to.</li>
@@ -478,11 +512,13 @@
         <summary>How we figured this</summary>
         <ul>
           <li><strong>Monthly gap:</strong> the community's monthly fee minus Mom's monthly income. That is what her savings and the house have to cover each month.</li>
-          <li><strong>Sell:</strong> price is the home value, or about 10% below value if you choose as-is. From that we subtract about 6% commission, the repairs (skipped if as-is), about 1.5% closing costs, the mortgage payoff, and about 4 months of carrying costs (tax, insurance, utilities, upkeep and any mortgage payment) while it sells. Months of care = (savings + sale net) divided by the monthly gap.</li>
+          <li><strong>Sell:</strong> price is the home value, or about 10 percent below value if you check the as-is box. Either way this is the house listed on the open market with an agent. From that price we subtract about 6% commission, the repairs (skipped if as-is), about 1.5% closing costs, the mortgage payoff, and about 4 months of carrying costs (tax, insurance, utilities, upkeep and any mortgage payment) while it sells. Months of care = (savings + sale net) divided by the monthly gap.</li>
+          <li><strong>The cash buyer range:</strong> a separate estimate, not used in the months of care above. The offer range is 50% to 80% of the home value, which is 20 to 50 percent below what the house would be worth fixed up. From each end we subtract about 1.5% closing costs, one month of carrying costs and the mortgage payoff. No commission and no repairs. The months shown there are (savings + that net) divided by the monthly gap.</li>
           <li><strong>Rent:</strong> rent minus about 10% for a property manager, about 8% for vacancy between tenants, maintenance at about 1% of the home's value per year (divided by 12), property tax and insurance, and the mortgage payment. The tenant is assumed to pay utilities. Months of care = savings divided by (monthly gap minus rent net).</li>
           <li><strong>Keep:</strong> monthly cost = tax, insurance, utilities, upkeep and any mortgage payment. Months until savings run out = savings divided by (monthly gap plus the cost to keep it).</li>
           <li><strong>Not included:</strong> income tax on the sale or the rent, capital gains, rising community fees (they usually go up every year), rising rents, changes in the home's value, one-time move-in or community fees, and interest earned on savings. Real numbers will differ.</li>
-          <li>The column with the most months is highlighted. That is a math result, not a recommendation.</li>
+          <li><strong>Expected monthly rent</strong> fills in at about 0.7% of the home value a month, rounded to the nearest $25, until you type your own number.</li>
+          <li>The column with the most months is highlighted. That is a math result, not a recommendation, and it uses the listed sale number, not the cash buyer range.</li>
         </ul>
       </details>
     </div>
@@ -505,6 +541,9 @@
   var CLOSING = 0.015;
   var MONTHS_TO_SELL = 4;
   var AS_IS_DISCOUNT = 0.10;
+  var CASH_DISCOUNT_LOW = 0.20;   // best case for the family: 20% below value
+  var CASH_DISCOUNT_HIGH = 0.50;  // worst case: 50% below value
+  var CASH_MONTHS_TO_CLOSE = 1;
   var MGMT = 0.10;
   var VACANCY = 0.08;
   var MAINT_YEARLY = 0.01;
@@ -530,6 +569,10 @@
     if (m > 360) return '30+ years';
     var mm = Math.floor(m);
     return mm + (mm === 1 ? ' month' : ' months');
+  }
+  function monthsNum(m) {
+    if (m === Infinity || m > 360) return '360+';
+    return String(Math.floor(Math.max(0, m)));
   }
   function yearsText(m) {
     if (m === Infinity || m <= 0) return '';
@@ -586,7 +629,7 @@
     var sellNet = price - commission - closing - repairCost - carryWhileSelling - mtgBal;
     var sellMonths = runway(savings + sellNet, gap);
 
-    setText('sellTag', asIs ? 'Sell as-is, no repairs' : 'List it with a local agent');
+    setText('sellTag', asIs ? 'Listed as-is with a local agent, no repairs' : 'List it with a local agent');
     var sn = document.getElementById('sellNet');
     sn.textContent = money(sellNet);
     sn.className = 'srk-big-value ' + (sellNet >= 0 ? 'pos' : 'neg');
@@ -595,13 +638,43 @@
       ? 'Her income covers the fee, so the sale money is not drawn down'
       : (yearsText(sellMonths) + (sellMonths > 0 ? ', using savings plus the sale net' : '')));
     lines('sellLines', [
-      [asIs ? 'Price (as-is, about 10% below value)' : 'Price', money(price)],
+      [asIs ? 'Price, listed as-is on the open market (about 10 percent below value, an estimate)' : 'Price', money(price)],
       ['Commission (about 6%)', '-' + money(commission)],
       ['Repairs', asIs ? 'skipped' : '-' + money(repairCost)],
       ['Closing costs (about 1.5%)', '-' + money(closing)],
       ['Carrying costs, 4 months', '-' + money(carryWhileSelling)],
       ['Mortgage payoff', '-' + money(mtgBal)]
     ]);
+
+    // CASH BUYER RANGE: the other as-is route, shown next to the retail as-is number
+    var cashBox = document.getElementById('cashBox');
+    if (value <= 0) {
+      cashBox.style.display = 'none';
+    } else {
+      cashBox.style.display = '';
+      var cashLow = value * (1 - CASH_DISCOUNT_HIGH);
+      var cashHigh = value * (1 - CASH_DISCOUNT_LOW);
+      var cashCarry = (taxIns + util + mtgPmt) * CASH_MONTHS_TO_CLOSE;
+      var cashNetLow = cashLow - (cashLow * CLOSING) - cashCarry - mtgBal;
+      var cashNetHigh = cashHigh - (cashHigh * CLOSING) - cashCarry - mtgBal;
+
+      setText('cashRange', money(cashLow) + ' to ' + money(cashHigh));
+
+      var cashText;
+      if (cashNetHigh <= 0) {
+        cashText = 'At these numbers the mortgage payoff and closing costs would take all of that, so a cash sale would leave nothing for care.';
+      } else {
+        cashText = 'After about 1.5% closing costs, one month of carrying costs and the mortgage payoff, that is roughly <strong>'
+          + money(Math.max(0, cashNetLow)) + ' to ' + money(cashNetHigh) + '</strong> in hand';
+        if (gap > 0) {
+          cashText += ', or about <strong>' + monthsNum(runway(savings + Math.max(0, cashNetLow), gap))
+            + ' to ' + monthsNum(runway(savings + cashNetHigh, gap)) + ' months</strong> of care.';
+        } else {
+          cashText += '.';
+        }
+      }
+      document.getElementById('cashNetLine').innerHTML = cashText;
+    }
 
     // RENT
     var mgmt = rent * MGMT;

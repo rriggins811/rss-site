@@ -52,14 +52,14 @@ export const TOOLS: Tool[] = [
     shortDescription:
       "What you actually walk away with after selling",
     description:
-      "Free net proceeds calculator for families selling a parent's home. Calculate exactly what you'll walk away with after fees, repairs, payoffs, and taxes. Most families overestimate by $30K to $50K. Get the real math in 5 minutes. No email required.",
+      "Free net proceeds calculator for families selling a parent's home. See what is left after commission, repairs, closing costs, carrying costs and the mortgage payoff, for four ways to sell. Estimates, not advice. No email required.",
     category: "financial",
     minHeight: 1800,
     faqs: [
       {
         question: "How do you calculate net proceeds from a home sale?",
         answer:
-          "Net proceeds equal the sale price minus: agent commission (typically 5-6%), seller-paid closing costs (1-3%), repair credits to the buyer, mortgage and lien payoffs, prorated property taxes, transfer taxes, capital gains tax (if applicable), and any seller concessions. On a $400,000 sale, a family typically nets $320,000 to $360,000, not $400,000.",
+          "Net proceeds equal the sale price minus: agent commission (typically 5% to 6%), seller-paid closing costs (1% to 3%), repair credits to the buyer, mortgage and lien payoffs, prorated property taxes, transfer taxes, capital gains tax (if applicable), and any seller concessions. On a $400,000 sale, a 6% commission is $24,000 and closing costs at 1.5% are another $6,000, so the number the family keeps is already $30,000 below the sale price before any repairs or payoffs.",
       },
       {
         question: "Do I owe capital gains tax when I sell my parent's house?",
@@ -75,12 +75,12 @@ export const TOOLS: Tool[] = [
       {
         question: "How accurate is this net proceeds calculator?",
         answer:
-          "It's accurate to within 2-3% for a standard residential sale. The biggest variables are repair credits (negotiated buyer-seller), the agent commission split, and any title or HOA issues that surface late. This calculator catches all the standard line items so families aren't shocked at closing.",
+          "It is an estimate, not a closing statement. It covers the standard line items: commission, seller-paid closing costs, repairs, carrying costs while the house is on the market, and the mortgage payoff. The figures that move the most are the repair credits, which are negotiated between buyer and seller, the commission rate, which is set in the listing agreement, and any title, lien or HOA issue that surfaces late. The binding number is the seller's estimated settlement statement, prepared by the closing attorney or title company before closing. Ask for it in writing as soon as there is a contract.",
       },
       {
         question: "Who built this net proceeds calculator?",
         answer:
-          "Ryan Riggins built this tool based on 8+ years of buying and selling homes (he was a house flipper before he was a senior transition advisor) plus several years of helping families through the senior home sale process. Ryan is a licensed NC broker who walked away from the cash-buyer side after seeing how often families left $50K on the table.",
+          "Ryan Riggins, a licensed North Carolina real estate broker and senior transition advisor at Riggins Strategic Solutions. The calculator uses the standard line items that come out of a home sale: commission, seller-paid closing costs, repairs, carrying costs while the house is on the market, and the mortgage payoff. Ryan never buys houses and never bids on them. If a family decides to sell, he refers one vetted local agent.",
       },
     ],
   },
