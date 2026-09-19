@@ -8,9 +8,6 @@
 export const SITE_URL = "https://rigginsstrategicsolutions.com";
 export const SITE_NAME = "Riggins Strategic Solutions";
 
-export const SITE_TAGLINE =
-  "Senior Transition Advisor Ryan Riggins helps families avoid the $50K mistakes of a senior housing transition.";
-
 export const SITE_DESCRIPTION =
   "Senior Transition Advisor for the family home: what to do with a parent's house before it's listed. Funding math, who can sign, and sell, rent or keep.";
 

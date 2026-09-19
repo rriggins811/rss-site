@@ -10,7 +10,7 @@ import { abs } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Media | Podcasts & Press",
   description:
-    "Podcast appearances and press where Senior Transition Advisor Ryan Riggins talks about senior housing transitions, family equity, and the $50K mistakes most families never see coming.",
+    "Podcast appearances and press where Senior Transition Advisor Ryan Riggins talks about senior housing transitions, family equity, and what to do with a parent's house before anyone lists it.",
   alternates: { canonical: "/media" },
 };
 
@@ -30,7 +30,7 @@ export default function MediaIndexPage() {
       ? collectionPageSchema({
           name: "Media | Podcasts & Press",
           description:
-            "Podcast appearances and press where Senior Transition Advisor Ryan Riggins talks about senior housing transitions, family equity, and the $50K mistakes most families never see coming.",
+            "Podcast appearances and press where Senior Transition Advisor Ryan Riggins talks about senior housing transitions, family equity, and what to do with a parent's house before anyone lists it.",
           pageUrl: abs("/media"),
           items: items.map((m) => ({
             name: m.frontmatter.title,

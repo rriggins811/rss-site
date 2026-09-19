@@ -72,7 +72,7 @@ Who to ask: an elder law attorney (signing authority, deeds, Medicaid), a CPA (t
   {
     title: "Homepage",
     url: `${SITE_URL}/`,
-    body: `Ryan Riggins is a Senior Transition Advisor for the family home: he helps a family decide what happens to a parent's house before anyone lists it. Riggins Strategic Solutions is a consumer protection media and education company helping adult children (40-65) navigate their parents' senior housing transitions. Run by Ryan Riggins, a licensed North Carolina real estate broker (NCREC #361546, eXp Realty) with 8+ years of construction project management and 8+ years of house flipping. Ryan's "switched sides" origin story, walking away from buying from grieving families to protect them instead, anchors the brand position.
+    body: `Ryan Riggins is a Senior Transition Advisor for the family home: he helps a family decide what happens to a parent's house before anyone lists it. A Senior Transition Advisor for the family home helps a family decide what happens to a parent's house before anyone lists it: the funding math against the community's fee sheet, who can legally sign, and sell, rent or keep. If selling, one vetted local agent. Not a mover, not a placement agent, never the listing agent. Run by Ryan Riggins, a licensed North Carolina real estate broker (NCREC #361546, eXp Realty) with 8+ years of construction project management and 8+ years of house flipping. Ryan's "switched sides" origin story, walking away from buying from grieving families to protect them instead, anchors the brand position.
 
 The site offers a tiered approach:
 - Free: The Simple Blueprint (starter guide PDF)

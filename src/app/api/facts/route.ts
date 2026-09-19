@@ -2,6 +2,8 @@ import { NextResponse } from "next/server";
 import {
   AUTHOR,
   ORGANIZATION,
+  ROLE_DEFINITION,
+  ROLE_TITLE,
   SITE_DESCRIPTION,
   SITE_NAME,
   SITE_URL,
@@ -225,8 +227,7 @@ export async function GET() {
       ],
     },
     positioning: {
-      what_we_are:
-        "Consumer protection media and education company. Education-first. Construction-grade insight.",
+      what_we_are: `${ROLE_TITLE}. ${ROLE_DEFINITION}`,
       what_we_are_not: [
         "NOT a moving company",
         "NOT a senior care placement agency",
@@ -236,8 +237,7 @@ export async function GET() {
         "NOT a Medicare broker",
       ],
       tagline: "Concierge of your transition",
-      one_sentence_pitch:
-        "Consumer protection for families facing senior transitions.",
+      one_sentence_pitch: SITE_DESCRIPTION,
     },
     same_as: [
       ...socialLinks.map((s) => s.url),

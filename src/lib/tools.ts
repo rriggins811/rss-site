@@ -123,7 +123,7 @@ export const TOOLS: Tool[] = [
       {
         question: "Who built this Medicare gap analyzer?",
         answer:
-          "Ryan Riggins built this tool based on data from KFF, AARP, and CMS, plus 8+ years of helping families get through senior housing transitions and Medicare coverage shortfalls. Ryan is a senior transition advisor and former house flipper who switched sides to help families avoid the $50K mistakes most don't see coming.",
+          "Ryan Riggins built this tool based on data from KFF, AARP, and CMS, plus 8+ years of helping families get through senior housing transitions and Medicare coverage shortfalls. Ryan is a senior transition advisor and former house flipper who switched sides to help families decide what happens to a parent's house before anyone lists it.",
       },
     ],
   },
