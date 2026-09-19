@@ -4,8 +4,21 @@ slug: medicare-vs-medicaid-senior-care
 type: resource_pillar
 category: "Senior Care Education"
 date: 2026-05-27
+dateModified: "2026-09-19"
 author: Ryan Riggins
 pillar_cluster: care-financing
+# "Will Medicaid take Mom's house?" section, verified 2026-09-19 against primary sources:
+# - Home exempt while living there / spouse or dependent relative there / written intent to return, no time limit,
+#   countable the month after leaving otherwise: NC DHHS Adult Medicaid Manual MA-2230 Financial Resources, VII.A.1-2
+#   (https://policies.ncdhhs.gov/wp-content/uploads/MA-2230-2.pdf)
+# - $752,000 home equity limit for institutional services, applications on or after 1/1/2026; not applied if spouse,
+#   child under 21, or blind/disabled child lives there: NC DHHS MA-2242, revised 12/8/2025, Change No. 11-25
+#   (https://policies.ncdhhs.gov/wp-content/uploads/ma-2242-Home-Equity-Value-For-Evaluating-Instititional-Services.pdf);
+#   matches the federal 2026 minimum in CMS CIB 4/27/2026 (https://www.medicaid.gov/federal-policy-guidance/downloads/cib04272026.pdf)
+# - $1 million cap from 2028: H.R. 1 (Pub. L. 119-21) sec. 71108, 42 U.S.C. 1396p(f)(1) (summary: justiceinaging.org, 2025)
+# - Estate recovery (55+, deferral for spouse / child under 21 / blind or disabled child, waived under $50,000 estate or
+#   $10,000 paid, undue hardship): NC DHHS MA-2285 Estate Recovery, revised 5/22/2023
+#   (https://policies.ncdhhs.gov/wp-content/uploads/ma-2285-3-1.pdf)
 quick_answer: "The costliest misunderstanding in senior care is assuming Medicare pays for long-term care. It does not. Medicare covers short-term skilled care and rehab, not the ongoing custodial care of assisted living or a long nursing-home stay. Medicaid does cover long-term care, but it is means-tested, with a five-year lookback on asset transfers in 49 states, a roughly $2,000 individual asset limit, and protections for a spouse. The two are not interchangeable, and confusing them costs families their savings and sometimes their home."
 internal_links:
   - /resources/cost-of-assisted-living-in-2026
@@ -42,11 +55,17 @@ Here is the rule that traps families who try to give assets away at the last min
 
 If your parent gave away money or property, sold something below fair value, or transferred the house to a child during that five-year window, the state can impose a penalty period during which Medicaid will not pay, calculated based on the amount transferred. Families who try to "protect" assets by gifting the house to a kid the year before applying often create exactly the penalty they were trying to avoid. The lookback is why real Medicaid planning happens years ahead, not in the crisis.
 
-## What happens to the house
+## Will Medicaid take Mom's house?
 
-The family home is the asset families worry about most, and the rules are nuanced. While your parent is living in the home, or a spouse is, the home is generally exempt from Medicaid's asset count up to a home equity limit. A significant change is coming: under federal law, a $1 million home equity cap takes effect in 2028, which will affect families with higher-value homes that previously relied on full home-equity exemption.
+Not while she's living, in most cases. But the house can still matter to Medicaid in three ways, and most families only hear about one of them. Here's how it works in North Carolina, where I work. Other states run on the same federal rules, with their own details.
 
-But exemption during life is not the end of the story. After your parent passes, Medicaid estate recovery allows the state to seek repayment from the estate, which can include the home. This is one of the most important and least understood pieces, and it is exactly why decisions about the house should involve an elder law attorney, not just a real estate agent, when Medicaid is in the picture.
+**While she might come home, the house usually doesn't count.** Medicaid doesn't count the home your parent lives in. It keeps not counting it after she moves out if her spouse or a dependent relative still lives there, or if she says in writing that she intends to return home. North Carolina accepts that statement without weighing her age, her health, or whether the house is rented, and there's no time limit on it. If none of that is true, the house becomes a countable asset the month after she leaves.
+
+**There's an equity limit for nursing home care.** For Medicaid applications for nursing home and other institutional care taken on or after January 1, 2026, North Carolina won't pay for that care if her equity in the home is over $752,000. Equity is the market value minus what's owed on it. The limit doesn't apply if her spouse, a child under 21, or a blind or disabled child of any age lives in the home. Federal law also caps this limit at $1 million for every state starting in 2028.
+
+**After she dies, the state can ask for the money back.** North Carolina's estate recovery program can file a claim against the estate of a Medicaid member who was 55 or older and got nursing home care or certain in-home care, and the house can be part of that estate. Recovery waits while her spouse is living, or while she has a surviving child under 21 or a blind or disabled child of any age. The state doesn't recover when the estate is under $50,000 or Medicaid paid less than $10,000, and the family can ask for a hardship waiver.
+
+**Talk to an elder law attorney before you sell, rent or change the deed.** Selling turns the house into cash, and cash counts. Putting the house in a child's name is a transfer the five-year lookback looks at. Renting it has its own rules. Any of those can be the right move, but the order matters, and the answer depends on your parent's facts. If cost is in the way, Legal Aid of North Carolina's Senior Law Project is free for anyone 60 or older at 1-877-579-7562.
 
 ## The spousal protections most families miss
 
@@ -68,8 +87,8 @@ Medicare does not pay for assisted living at all, and it pays for a nursing home
 **What is the Medicaid five-year lookback?**
 When applying for Medicaid long-term care, the state reviews 60 months of financial transactions. Gifts, below-value sales, or transfers within that window can trigger a penalty period when Medicaid will not pay. It applies in 49 of 50 states. This is why Medicaid planning is done years ahead, not in a crisis, and why last-minute asset transfers often backfire.
 
-**Will Medicaid take my parent's house?**
-While your parent or their spouse lives in the home, it is generally exempt up to a home equity limit (a $1 million cap takes effect in 2028). But after death, Medicaid estate recovery can seek repayment from the estate, which may include the home. Decisions about the house when Medicaid is involved should go through an elder law attorney.
+**Will Medicaid take Mom's house?**
+Not while she's living, in most cases. In North Carolina the home doesn't count while she lives there, while her spouse or a dependent relative lives there, or while she states in writing that she intends to return. For nursing home care applied for on or after January 1, 2026, her home equity can't be over $752,000 unless her spouse or certain children live there. After she dies, estate recovery can file a claim against her estate, which can include the house, but it waits while a spouse is living or there's a child under 21 or a blind or disabled child. Talk to an elder law attorney before you sell, rent or change the deed.
 
 **What happens to the healthy spouse's money?**
 The Community Spouse Resource Allowance protects the non-applicant spouse, who can keep a share of combined assets up to roughly $162,660 in 2026, plus a minimum income allowance. Couples do not have to spend down to nothing. Missing these protections costs families real money.
