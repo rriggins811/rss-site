@@ -1,5 +1,5 @@
 /**
- * Registry for the 9 interactive tools (calculators + quizzes).
+ * Registry for the 10 interactive tools (calculators + quizzes).
  *
  * Each tool is an iframe-embedded HTML file under /public/tools/<slug>.html.
  * Metadata here drives /tools/[slug] pages + the /tools hub page + sitemap.
@@ -37,7 +37,7 @@ export type Tool = {
    * Hidden tools keep a working /tools/<slug> URL but are noindex,nofollow
    * and left out of the sitemap, the /tools hub, related-reading links and
    * llms files. Added 2026-09-19 for the Strategic Exit Engine while Ryan
-   * rebuilds it.
+   * rebuilt it; un-hidden the same day after the rework. No tool uses it now.
    */
   hidden?: boolean;
 };
@@ -52,14 +52,14 @@ export const TOOLS: Tool[] = [
     shortDescription:
       "What you actually walk away with after selling",
     description:
-      "Free net proceeds calculator for families selling a parent's home. Calculate exactly what you'll walk away with after fees, repairs, payoffs, and taxes. Most families overestimate by $30K to $50K. Get the real math in 5 minutes. No email required.",
+      "Free net proceeds calculator for families selling a parent's home. See what is left after commission, repairs, closing costs, carrying costs and the mortgage payoff, for four ways to sell. Estimates, not advice. No email required.",
     category: "financial",
     minHeight: 1800,
     faqs: [
       {
         question: "How do you calculate net proceeds from a home sale?",
         answer:
-          "Net proceeds equal the sale price minus: agent commission (typically 5-6%), seller-paid closing costs (1-3%), repair credits to the buyer, mortgage and lien payoffs, prorated property taxes, transfer taxes, capital gains tax (if applicable), and any seller concessions. On a $400,000 sale, a family typically nets $320,000 to $360,000, not $400,000.",
+          "Net proceeds equal the sale price minus: agent commission (typically 5% to 6%), seller-paid closing costs (1% to 3%), repair credits to the buyer, mortgage and lien payoffs, prorated property taxes, transfer taxes, capital gains tax (if applicable), and any seller concessions. On a $400,000 sale, a 6% commission is $24,000 and closing costs at 1.5% are another $6,000, so the number the family keeps is already $30,000 below the sale price before any repairs or payoffs.",
       },
       {
         question: "Do I owe capital gains tax when I sell my parent's house?",
@@ -75,12 +75,12 @@ export const TOOLS: Tool[] = [
       {
         question: "How accurate is this net proceeds calculator?",
         answer:
-          "It's accurate to within 2-3% for a standard residential sale. The biggest variables are repair credits (negotiated buyer-seller), the agent commission split, and any title or HOA issues that surface late. This calculator catches all the standard line items so families aren't shocked at closing.",
+          "It is an estimate, not a closing statement. It covers the standard line items: commission, seller-paid closing costs, repairs, carrying costs while the house is on the market, and the mortgage payoff. The figures that move the most are the repair credits, which are negotiated between buyer and seller, the commission rate, which is set in the listing agreement, and any title, lien or HOA issue that surfaces late. The binding number is the seller's estimated settlement statement, prepared by the closing attorney or title company before closing. Ask for it in writing as soon as there is a contract.",
       },
       {
         question: "Who built this net proceeds calculator?",
         answer:
-          "Ryan Riggins built this tool based on 8+ years of buying and selling homes (he was a house flipper before he was a senior transition advisor) plus several years of helping families through the senior home sale process. Ryan is a licensed NC broker who walked away from the cash-buyer side after seeing how often families left $50K on the table.",
+          "Ryan Riggins, a licensed North Carolina real estate broker and senior transition advisor at Riggins Strategic Solutions. The calculator uses the standard line items that come out of a home sale: commission, seller-paid closing costs, repairs, carrying costs while the house is on the market, and the mortgage payoff. Ryan never buys houses and never bids on them. If a family decides to sell, he refers one vetted local agent.",
       },
     ],
   },
@@ -136,22 +136,76 @@ export const TOOLS: Tool[] = [
   },
   {
     slug: "strategic-exit-engine",
-    title: "Strategic Exit Engine",
-    // Reframed 2026-09-19 (Content Review #12): the calculator itself still
-    // compares six ways to sell; the copy now says decide sell, rent or keep
-    // first and use it to check the math on an offer. Logic untouched.
+    // Reworked and un-hidden 2026-09-19 (Ryan: keep it, it's valuable).
+    // Same slug. Retitled from "Strategic Exit Engine"; every card now shows
+    // cash for care on day one, first-person tips replaced with general
+    // facts, honest owner-financing, lease-option and 1031 caveats.
+    title: "6 Ways to Sell a Parent's House, Side by Side",
     shortDescription:
-      "Check the math on any offer for a parent's house",
+      "Compare six ways to sell, and the cash each frees up for care",
     description:
-      "See what each way of selling a parent's house would net, side by side: a listing, an as-is cash offer, owner financing, a lease-option, a 1031 exchange, or renting it out. Use it to check the math on any offer. Decide sell, rent or keep first, and if you sell, use one vetted local agent. Ryan never buys and never bids.",
+      "Compare six ways to sell a parent's house side by side: a listing, an as-is cash offer, owner financing, a lease-option, a 1031 exchange, or renting it out. See the estimated net, the time to cash, and how much cash each one frees up for care on day one. Estimates, not advice. Ryan never buys and never bids.",
     category: "financial",
     minHeight: 2400,
-    // Hidden 2026-09-19 (Ryan): noindex, out of sitemap, hub and internal
-    // links until the rebuild. The URL stays live.
-    hidden: true,
+    faqs: [
+      {
+        question: "What are the ways to sell a parent's house?",
+        answer:
+          "The common ones are a regular listing with an agent, an as-is cash offer, owner financing, a lease-option, and a 1031 exchange for investment property. Renting it out instead of selling is the sixth path families weigh. For a parent moving to care, the question that matters most is how much cash each one frees up on day one. A listing and a cash offer pay a lump sum at closing. The others pay over time or not at all.",
+      },
+      {
+        question: "Is owner financing a good idea when Mom needs money for care?",
+        answer:
+          "Usually it is a poor fit. The family gets a down payment, then monthly payments, not a lump sum. If the buyer stops paying, the family has to foreclose to get the house back. A note receivable can also complicate Medicaid eligibility, so ask an elder law attorney first, and confirm who can legally sign the note (the parent, an agent under a power of attorney, or a trustee).",
+      },
+      {
+        question: "Can we do a 1031 exchange on a parent's house?",
+        answer:
+          "Only if the house is investment or rental property. A home the parent lived in as a residence does not qualify for a 1031 exchange. The proceeds also have to go into another investment property through a qualified intermediary, so none of it can be spent on care. For a home she lived in, ask a CPA about the $250,000 home sale exclusion (Section 121) instead.",
+      },
+      {
+        question: "Should we take a cash offer on Mom's house?",
+        answer:
+          "A cash offer trades price for speed and no repairs. Get several written offers and compare each one against what a listing would net after commission, repairs, closing costs and a few months of carrying costs. The gap is what the speed costs you. Ryan never buys houses and never bids, so there is no offer from him in the mix.",
+      },
+    ],
   },
 
   // Planning
+  {
+    // Built 2026-09-19. The decision before the sale: what each choice does
+    // to the months of care Mom's money covers.
+    slug: "sell-rent-or-keep-calculator",
+    title: "Sell, Rent or Keep: What It Means for Mom's Care",
+    shortDescription:
+      "How many months of care each choice pays for",
+    description:
+      "Free calculator for a family whose parent is moving to assisted living. Enter the home value, the mortgage, the community's monthly fee and Mom's income and savings, and see how many months of care selling, renting or keeping the house pays for. Estimates, not advice. No email required.",
+    category: "planning",
+    minHeight: 2200,
+    faqs: [
+      {
+        question: "Should we sell Mom's house to pay for assisted living?",
+        answer:
+          "It depends on the math, not a rule. Take the community's monthly fee, subtract Mom's monthly income, and that is the gap her savings and the house have to cover. If selling is the only way the money lasts, selling usually wins. If her income and savings already cover years of care, you have more room to rent or keep it. Before selling, ask an elder law attorney how the sale affects Medicaid, because the home is often an exempt asset and the cash from a sale is not.",
+      },
+      {
+        question: "Is it better to rent Mom's house or sell it?",
+        answer:
+          "Renting keeps the house and brings in a monthly check, but that check is smaller than most families expect after management, vacancy, repairs, taxes and insurance, and someone has to manage it. Selling turns the equity into cash that can pay for care now. Run both in the calculator. If rent covers the care gap and someone is willing to be the landlord, renting can work. If not, the sale usually pays for more months of care.",
+      },
+      {
+        question: "What happens to the capital gains exclusion if we rent the house?",
+        answer:
+          "The home sale exclusion (up to $250,000 of gain for a single person, $500,000 for a married couple) needs the owner to have lived in the home at least 2 of the 5 years before the sale. Renting it out after Mom moves starts that clock. Rent it for more than about 3 years and the exclusion can be lost. IRS rules also let time in a licensed care facility count in some cases. Ask a CPA before you sign a lease.",
+      },
+      {
+        question: "What does it cost to keep an empty house?",
+        answer:
+          "Property tax, insurance, utilities, lawn care and upkeep keep coming, plus any mortgage payment, with nothing coming in. Many standard homeowners policies limit or deny claims after the house has been vacant for about 60 days, so tell the insurer and ask about a vacant-home policy. The calculator shows how much faster Mom's savings run out while the house sits.",
+      },
+    ],
+  },
   {
     slug: "aging-in-place-break-even",
     // Title + description tuned 2026-05-13 for "aging in place vs assisted

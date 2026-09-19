@@ -187,6 +187,13 @@ export default function SellRentOrKeepPage() {
             don&rsquo;t win or lose based on which way you go. Here&rsquo;s how
             I lay the choices out for a family.
           </p>
+          <p className="mt-4 text-base leading-relaxed text-ink/80">
+            Want the months counted for you? Try the free{" "}
+            <Link href="/tools/sell-rent-or-keep-calculator" className={linkClass}>
+              Sell, Rent or Keep calculator
+            </Link>
+            : it shows how many months of care each choice pays for.
+          </p>
         </div>
       </section>
 
@@ -217,7 +224,11 @@ export default function SellRentOrKeepPage() {
             <li>
               <strong className="text-navy-700">4. Count the months.</strong>{" "}
               How long does the money last with the house sold, and without it?
-              That one answer usually settles more than any opinion.
+              That one answer usually settles more than any opinion. The{" "}
+              <Link href="/tools/sell-rent-or-keep-calculator" className={linkClass}>
+                Sell, Rent or Keep calculator
+              </Link>{" "}
+              counts the months of care for each choice.
             </li>
           </ol>
           <p className="mt-6 text-base leading-relaxed text-ink/70">

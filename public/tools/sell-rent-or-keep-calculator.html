@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sell, Rent or Keep: What It Means for Mom's Care | Riggins Strategic Solutions</title>
+<meta name="description" content="Free calculator for a family whose parent is moving to assisted living. See how many months of care selling, renting or keeping the house pays for. Estimates, not advice. No email required.">
+<link rel="canonical" href="https://www.rigginsstrategicsolutions.com/tools/sell-rent-or-keep-calculator">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800;900&family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+  :root {
+    --navy: #1a3052;
+    --navy-deep: #0f1f35;
+    --navy-light: #2a4a72;
+    --burgundy: #8b1a2b;
+    --gold: #c9a84c;
+    --gold-light: #e8d48b;
+    --gold-dark: #a88a30;
+    --cream: #faf8f4;
+    --gray-50: #f7f6f3;
+    --gray-100: #f0eee9;
+    --gray-200: #dbd8d0;
+    --gray-400: #a09b90;
+    --gray-600: #6b665c;
+    --gray-800: #333028;
+    --green: #2d8a4e;
+    --green-light: #e8f5ec;
+    --red: #c0392b;
+    --red-light: #fdecea;
+    --orange: #d4820a;
+    --orange-light: #fef5e7;
+    --blue-light: #eaf2fa;
+    --radius: 14px;
+    --radius-sm: 10px;
+  }
+
+  body {
+    font-family: 'Source Sans 3', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: var(--gray-50);
+    color: var(--gray-800);
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .srk-container { max-width: 1200px; margin: 0 auto; padding: 24px 16px 60px; }
+
+  /* HEADER */
+  .srk-header {
+    text-align: center;
+    padding: 40px 20px 36px;
+    background: linear-gradient(165deg, var(--navy) 0%, var(--navy-deep) 100%);
+    border-radius: var(--radius) var(--radius) 0 0;
+  }
+  .srk-badge {
+    display: inline-block;
+    background: rgba(201,168,76,0.15);
+    border: 1px solid rgba(201,168,76,0.25);
+    border-radius: 100px;
+    padding: 5px 14px;
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--gold-light);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 16px;
+  }
+  .srk-header h1 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 900;
+    font-size: clamp(26px, 5vw, 40px);
+    color: #fff;
+    line-height: 1.15;
+    margin-bottom: 10px;
+  }
+  .srk-header h1 span { color: var(--gold); }
+  .srk-header p {
+    font-size: 16px;
+    color: rgba(255,255,255,0.7);
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+
+  .srk-notice {
+    background: var(--cream);
+    border-bottom: 1px solid var(--gray-200);
+    padding: 14px 28px;
+    font-size: 14px;
+    line-height: 1.55;
+  }
+  .srk-notice strong { color: var(--navy); }
+  .srk-notice a, .srk-link { color: var(--burgundy); font-weight: 700; }
+
+  /* INPUTS */
+  .srk-inputs { background: #fff; padding: 28px; border-bottom: 1px solid var(--gray-200); }
+  .srk-section-title {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 800;
+    font-size: 20px;
+    color: var(--navy);
+    margin: 0 0 4px;
+  }
+  .srk-section-sub { font-size: 14px; color: var(--gray-600); margin-bottom: 18px; }
+  .srk-group + .srk-group { margin-top: 28px; }
+  .srk-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 18px;
+  }
+  .srk-field { display: flex; flex-direction: column; gap: 6px; }
+  .srk-field label {
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--gray-600);
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+  }
+  .srk-wrap {
+    display: flex;
+    align-items: center;
+    background: var(--gray-50);
+    border: 2px solid var(--gray-200);
+    border-radius: var(--radius-sm);
+    padding: 0 14px;
+    transition: border-color 0.2s;
+  }
+  .srk-wrap:focus-within { border-color: var(--navy); background: #fff; }
+  .srk-prefix { font-size: 16px; font-weight: 700; color: var(--gray-400); margin-right: 4px; }
+  .srk-wrap input {
+    width: 100%;
+    min-width: 0;
+    border: none;
+    background: transparent;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--gray-800);
+    padding: 12px 0;
+    outline: none;
+  }
+  .srk-hint { font-size: 12px; color: var(--gray-600); line-height: 1.4; }
+  .srk-check {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    font-size: 14px;
+    color: var(--gray-800);
+    cursor: pointer;
+    line-height: 1.4;
+  }
+  .srk-check input { width: 18px; height: 18px; margin-top: 1px; flex-shrink: 0; accent-color: var(--navy); }
+
+  /* RESULTS */
+  .srk-results { background: #fff; }
+  .srk-results-head { padding: 26px 28px 18px; border-bottom: 1px solid var(--gray-200); }
+  .srk-gap {
+    margin-top: 12px;
+    padding: 12px 14px;
+    border-radius: 8px;
+    background: var(--blue-light);
+    border-left: 3px solid var(--navy-light);
+    font-size: 15px;
+    color: var(--navy);
+    font-weight: 600;
+  }
+  .srk-gap.ok { background: var(--green-light); border-left-color: var(--green); color: #1f5f36; }
+
+  .srk-cols { display: grid; grid-template-columns: repeat(3, 1fr); }
+  .srk-col {
+    padding: 24px 24px 22px;
+    border-right: 1px solid var(--gray-100);
+    border-bottom: 1px solid var(--gray-100);
+    position: relative;
+  }
+  .srk-col:last-child { border-right: none; }
+  .srk-col.longest { background: linear-gradient(180deg, rgba(45,138,78,0.07) 0%, rgba(45,138,78,0.01) 100%); }
+  .srk-flag-top {
+    display: none;
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 1.2px;
+    color: var(--green);
+    background: var(--green-light);
+    padding: 3px 10px;
+    border-radius: 100px;
+    margin-bottom: 10px;
+    width: fit-content;
+    text-transform: uppercase;
+  }
+  .srk-col.longest .srk-flag-top { display: block; }
+  .srk-col-name {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 800;
+    font-size: 24px;
+    color: var(--navy);
+  }
+  .srk-col-tag { font-size: 13px; color: var(--gray-600); font-style: italic; margin-bottom: 16px; }
+  .srk-big {
+    background: var(--gray-50);
+    border-radius: 8px;
+    padding: 12px 14px;
+    margin-bottom: 10px;
+  }
+  .srk-big-label {
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--gray-600);
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+  }
+  .srk-big-value {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 800;
+    font-size: 26px;
+    color: var(--navy);
+    line-height: 1.2;
+  }
+  .srk-big-value.pos { color: var(--green); }
+  .srk-big-value.neg { color: var(--red); }
+  .srk-big-detail { font-size: 12px; color: var(--gray-600); margin-top: 2px; }
+  .srk-months .srk-big-value { font-size: 30px; }
+
+  .srk-lines { list-style: none; font-size: 13px; color: var(--gray-600); margin: 12px 0; }
+  .srk-lines li { display: flex; justify-content: space-between; gap: 10px; padding: 4px 0; border-bottom: 1px dashed var(--gray-200); }
+  .srk-lines li span:last-child { font-weight: 700; color: var(--gray-800); white-space: nowrap; }
+
+  /* CASH BUYER RANGE (inside the Sell column) */
+  .srk-cash {
+    background: var(--cream);
+    border: 1px solid var(--gray-200);
+    border-left: 3px solid var(--gold-dark);
+    border-radius: 0 8px 8px 0;
+    padding: 12px 14px;
+    margin-top: 14px;
+  }
+  .srk-cash-label {
+    font-size: 11px;
+    font-weight: 800;
+    color: var(--gold-dark);
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+  }
+  .srk-cash-range {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 800;
+    font-size: 21px;
+    color: var(--navy);
+    line-height: 1.25;
+    margin: 2px 0 6px;
+  }
+  .srk-cash p { font-size: 13px; color: var(--gray-600); line-height: 1.5; }
+  .srk-cash p + p { margin-top: 6px; }
+  .srk-cash strong { color: var(--gray-800); }
+
+  .srk-sub-title {
+    font-size: 12px;
+    font-weight: 800;
+    color: var(--navy);
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    margin: 14px 0 6px;
+  }
+  .srk-bullets { margin-left: 18px; font-size: 13px; color: var(--gray-800); line-height: 1.5; }
+  .srk-bullets li { margin-bottom: 4px; }
+
+  /* FLAGS */
+  .srk-flags { padding: 26px 28px; border-top: 2px solid var(--navy); }
+  .srk-flag {
+    background: var(--orange-light);
+    border-left: 3px solid var(--orange);
+    border-radius: 0 6px 6px 0;
+    padding: 12px 14px;
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  .srk-flag strong { color: var(--navy); }
+  .srk-flag .who { display: block; margin-top: 4px; font-size: 13px; font-weight: 700; color: var(--burgundy); }
+
+  /* HOW WE FIGURED THIS */
+  .srk-how { padding: 0 28px 26px; }
+  .srk-how details { border: 1px solid var(--gray-200); border-radius: 10px; padding: 14px 16px; background: var(--gray-50); }
+  .srk-how summary { cursor: pointer; font-weight: 800; color: var(--navy); font-size: 16px; }
+  .srk-how ul { margin: 12px 0 0 18px; font-size: 14px; line-height: 1.55; }
+  .srk-how li { margin-bottom: 6px; }
+
+  /* FOOTER */
+  .srk-footer {
+    background: var(--navy);
+    padding: 32px 28px;
+    text-align: center;
+    border-radius: 0 0 var(--radius) var(--radius);
+  }
+  .srk-footer p {
+    font-size: 16px;
+    color: rgba(255,255,255,0.8);
+    margin: 0 auto 16px;
+    max-width: 520px;
+    line-height: 1.6;
+  }
+  .srk-footer p strong { color: var(--gold-light); }
+  .srk-btn {
+    display: block;
+    max-width: 480px;
+    margin: 0 auto 12px;
+    padding: 16px 24px;
+    background: linear-gradient(160deg, var(--gold-light) 0%, var(--gold) 40%, var(--gold-dark) 100%);
+    border-radius: var(--radius-sm);
+    font-size: 17px;
+    font-weight: 700;
+    color: var(--navy-deep);
+    text-decoration: none;
+    box-shadow: 0 4px 12px rgba(201,168,76,0.3);
+  }
+  .srk-btn.ghost {
+    background: rgba(255,255,255,0.1);
+    border: 2px solid rgba(255,255,255,0.3);
+    color: #fff;
+    box-shadow: none;
+  }
+
+  @media (max-width: 900px) {
+    .srk-cols { grid-template-columns: 1fr; }
+    .srk-col { border-right: none; }
+  }
+  @media (max-width: 768px) {
+    .srk-container { padding: 12px 8px 40px; }
+    .srk-header { padding: 28px 16px; }
+    .srk-inputs, .srk-results-head, .srk-flags, .srk-footer { padding-left: 16px; padding-right: 16px; }
+    .srk-how { padding: 0 16px 20px; }
+    .srk-notice { padding: 12px 16px; }
+    .srk-col { padding: 20px 16px; }
+    .srk-grid { grid-template-columns: 1fr; gap: 14px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="srk-container">
+
+  <div class="srk-header">
+    <div class="srk-badge">For families whose parent is moving to care</div>
+    <h1>Sell, Rent or Keep: <span>What It Means for Mom's Care</span></h1>
+    <p>Put in the house, the community's fee sheet and Mom's money. See how many months of care each choice pays for, side by side.</p>
+  </div>
+
+  <div class="srk-notice">
+    <strong>Numbers are estimates, not advice.</strong> Tax and Medicaid questions go to a CPA and an elder law attorney. Nothing you type here leaves this page.<br>
+    Already decided to sell? <a href="https://www.rigginsstrategicsolutions.com/tools/strategic-exit-engine" target="_top">Compare 6 ways to sell</a>.
+  </div>
+
+  <div class="srk-inputs">
+    <div class="srk-group">
+      <h2 class="srk-section-title">The house</h2>
+      <p class="srk-section-sub">Rough numbers are fine. Everything updates as you type.</p>
+      <div class="srk-grid">
+        <div class="srk-field">
+          <label for="value">Home value</label>
+          <div class="srk-wrap"><span class="srk-prefix">$</span><input type="text" id="value" inputmode="numeric" value="300,000"></div>
+          <span class="srk-hint">What it would likely sell for once the repairs below are done.</span>
+        </div>
+        <div class="srk-field">
+          <label for="mtgBal">Mortgage balance</label>
+          <div class="srk-wrap"><span class="srk-prefix">$</span><input type="text" id="mtgBal" inputmode="numeric" value="0"></div>
+          <span class="srk-hint">Include any home equity loan. Enter 0 if paid off.</span>
+        </div>
+        <div class="srk-field">
+          <label for="mtgPmt">Monthly mortgage payment</label>
+          <div class="srk-wrap"><span class="srk-prefix">$</span><input type="text" id="mtgPmt" inputmode="numeric" value="0"></div>
+          <span class="srk-hint">Principal and interest. 0 if there is no mortgage.</span>
+        </div>
+        <div class="srk-field">
+          <label for="repairs">Repairs it needs before listing</label>
+          <div class="srk-wrap"><span class="srk-prefix">$</span><input type="text" id="repairs" inputmode="numeric" value="15,000"></div>
+          <label class="srk-check" style="text-transform:none;letter-spacing:0;font-weight:600;"><input type="checkbox" id="asIs"> Sell as-is instead: skip the repairs and list it as-is on the open market, about 10 percent below value (an estimate)</label>
+        </div>
+        <div class="srk-field">
+          <label for="taxIns">Property tax + insurance, monthly</label>
+          <div class="srk-wrap"><span class="srk-prefix">$</span><input type="text" id="taxIns" inputmode="numeric" value="400"></div>
+          <span class="srk-hint">Yearly tax and insurance bills divided by 12.</span>
+        </div>
+        <div class="srk-field">
+          <label for="util">Utilities + upkeep while empty, monthly</label>
+          <div class="srk-wrap"><span class="srk-prefix">$</span><input type="text" id="util" inputmode="numeric" value="350"></div>
+          <span class="srk-hint">Power, water, lawn care, HOA dues, small fixes.</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="srk-group">
+      <h2 class="srk-section-title">Mom's care and money</h2>
+      <p class="srk-section-sub">Use the community's fee sheet for the monthly fee, including the care level charge.</p>
+      <div class="srk-grid">
+        <div class="srk-field">
+          <label for="fee">Community's monthly fee</label>
+          <div class="srk-wrap"><span class="srk-prefix">$</span><input type="text" id="fee" inputmode="numeric" value="5,500"></div>
+          <span class="srk-hint">Base rate plus care level, from the fee sheet.</span>
+        </div>
+        <div class="srk-field">
+          <label for="income">Mom's monthly income</label>
+          <div class="srk-wrap"><span class="srk-prefix">$</span><input type="text" id="income" inputmode="numeric" value="2,400"></div>
+          <span class="srk-hint">Social Security, pension, annuity, long-term care insurance benefits.</span>
+        </div>
+        <div class="srk-field">
+          <label for="savings">Her savings and liquid assets</label>
+          <div class="srk-wrap"><span class="srk-prefix">$</span><input type="text" id="savings" inputmode="numeric" value="80,000"></div>
+          <span class="srk-hint">Bank accounts, CDs, investments she can reach. Note that taking money out of an IRA can mean income tax.</span>
+        </div>
+        <div class="srk-field">
+          <label for="rent">Expected monthly rent</label>
+          <div class="srk-wrap"><span class="srk-prefix">$</span><input type="text" id="rent" inputmode="numeric" value="2,100"></div>
+          <span class="srk-hint" id="rentHint">Starting guess: about 0.7% of value a month. Change it to what similar homes nearby rent for.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="srk-results" id="results" aria-live="polite">
+    <div class="srk-results-head">
+      <h2 class="srk-section-title">How long the money lasts</h2>
+      <div class="srk-gap" id="gapLine"></div>
+    </div>
+
+    <div class="srk-cols">
+      <div class="srk-col" id="colSell">
+        <div class="srk-flag-top">Pays for care longest</div>
+        <div class="srk-col-name">Sell</div>
+        <div class="srk-col-tag" id="sellTag">List it with a local agent</div>
+        <div class="srk-big">
+          <div class="srk-big-label">Estimated net from the sale</div>
+          <div class="srk-big-value" id="sellNet">$0</div>
+          <div class="srk-big-detail">Cash at closing, after costs and payoff</div>
+        </div>
+        <div class="srk-big srk-months">
+          <div class="srk-big-label">Months of care covered</div>
+          <div class="srk-big-value" id="sellMonths">0</div>
+          <div class="srk-big-detail" id="sellMonthsDetail"></div>
+        </div>
+        <ul class="srk-lines" id="sellLines"></ul>
+        <div class="srk-cash" id="cashBox">
+          <div class="srk-cash-label">Or sell to a cash buyer, as-is</div>
+          <div class="srk-cash-range" id="cashRange">$0</div>
+          <p>A cash buyer who takes it as-is usually pays 20 to 50 percent below what the house would be worth fixed up, depending on condition. No repairs, no commission, and it usually closes in weeks instead of months.</p>
+          <p id="cashNetLine"></p>
+        </div>
+        <div class="srk-sub-title">Keep in mind</div>
+        <ul class="srk-bullets">
+          <li>The house is gone. If Mom's plans change, there's no home to go back to.</li>
+          <li>Selling usually turns an often-exempt home into countable cash for Medicaid. See the flags below.</li>
+          <li>If you sell, one vetted local agent is enough.</li>
+        </ul>
+      </div>
+
+      <div class="srk-col" id="colRent">
+        <div class="srk-flag-top">Pays for care longest</div>
+        <div class="srk-col-name">Rent</div>
+        <div class="srk-col-tag">Keep the house, lease it out</div>
+        <div class="srk-big">
+          <div class="srk-big-label">Estimated monthly net from rent</div>
+          <div class="srk-big-value" id="rentNet">$0</div>
+          <div class="srk-big-detail">After management, vacancy, upkeep, tax, insurance and mortgage</div>
+        </div>
+        <div class="srk-big srk-months">
+          <div class="srk-big-label">Months of care covered</div>
+          <div class="srk-big-value" id="rentMonths">0</div>
+          <div class="srk-big-detail" id="rentMonthsDetail"></div>
+        </div>
+        <ul class="srk-lines" id="rentLines"></ul>
+        <div class="srk-sub-title">Landlord realities</div>
+        <ul class="srk-bullets">
+          <li>Tenant problems happen: late rent, damage, and evictions take time and money.</li>
+          <li>Repairs don't wait. A roof or an HVAC system can wipe out a year of rent.</li>
+          <li>Someone has to manage it, or pay a manager to.</li>
+          <li>The $250,000 home sale tax exclusion can be lost if it's rented more than about 3 years after she moves out. Ask a CPA.</li>
+        </ul>
+      </div>
+
+      <div class="srk-col" id="colKeep">
+        <div class="srk-flag-top">Pays for care longest</div>
+        <div class="srk-col-name">Keep</div>
+        <div class="srk-col-tag">Leave it empty, or family uses it</div>
+        <div class="srk-big">
+          <div class="srk-big-label">Monthly cost to keep it</div>
+          <div class="srk-big-value neg" id="keepCost">$0</div>
+          <div class="srk-big-detail">Tax, insurance, utilities, upkeep and any mortgage payment</div>
+        </div>
+        <div class="srk-big srk-months">
+          <div class="srk-big-label">Months until savings run out</div>
+          <div class="srk-big-value" id="keepMonths">0</div>
+          <div class="srk-big-detail" id="keepMonthsDetail"></div>
+        </div>
+        <ul class="srk-lines" id="keepLines"></ul>
+        <div class="srk-sub-title">Keep in mind</div>
+        <ul class="srk-bullets">
+          <li>If family lives there, decide in writing who pays the tax, insurance and repairs.</li>
+          <li>An empty house needs someone to check on it regularly.</li>
+          <li>Keeping it can make sense when her income and savings already cover care, or when the family plans to inherit it. See the flags below.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="srk-flags">
+      <h2 class="srk-section-title">Flags to check with a professional</h2>
+      <p class="srk-section-sub">These are questions to ask, not advice. Each one depends on Mom's state and her paperwork.</p>
+      <div id="flags"></div>
+    </div>
+
+    <div class="srk-how">
+      <details>
+        <summary>How we figured this</summary>
+        <ul>
+          <li><strong>Monthly gap:</strong> the community's monthly fee minus Mom's monthly income. That is what her savings and the house have to cover each month.</li>
+          <li><strong>Sell:</strong> price is the home value, or about 10 percent below value if you check the as-is box. Either way this is the house listed on the open market with an agent. From that price we subtract about 6% commission, the repairs (skipped if as-is), about 1.5% closing costs, the mortgage payoff, and about 4 months of carrying costs (tax, insurance, utilities, upkeep and any mortgage payment) while it sells. Months of care = (savings + sale net) divided by the monthly gap.</li>
+          <li><strong>The cash buyer range:</strong> a separate estimate, not used in the months of care above. The offer range is 50% to 80% of the home value, which is 20 to 50 percent below what the house would be worth fixed up. From each end we subtract about 1.5% closing costs, one month of carrying costs and the mortgage payoff. No commission and no repairs. The months shown there are (savings + that net) divided by the monthly gap.</li>
+          <li><strong>Rent:</strong> rent minus about 10% for a property manager, about 8% for vacancy between tenants, maintenance at about 1% of the home's value per year (divided by 12), property tax and insurance, and the mortgage payment. The tenant is assumed to pay utilities. Months of care = savings divided by (monthly gap minus rent net).</li>
+          <li><strong>Keep:</strong> monthly cost = tax, insurance, utilities, upkeep and any mortgage payment. Months until savings run out = savings divided by (monthly gap plus the cost to keep it).</li>
+          <li><strong>Not included:</strong> income tax on the sale or the rent, capital gains, rising community fees (they usually go up every year), rising rents, changes in the home's value, one-time move-in or community fees, and interest earned on savings. Real numbers will differ.</li>
+          <li><strong>Expected monthly rent</strong> fills in at about 0.7% of the home value a month, rounded to the nearest $25, until you type your own number.</li>
+          <li>The column with the most months is highlighted. That is a math result, not a recommendation, and it uses the listed sale number, not the cash buyer range.</li>
+        </ul>
+      </details>
+    </div>
+
+    <div class="srk-footer">
+      <p><strong>Numbers are estimates.</strong> Want to run your real numbers, with the fee sheet and the house in front of you? Book a free 20-minute call.</p>
+      <a class="srk-btn" href="https://www.rigginsstrategicsolutions.com/work-with-ryan" target="_top">📞 Book a free 20-minute call</a>
+      <a class="srk-btn ghost" href="https://www.rigginsstrategicsolutions.com/tools/strategic-exit-engine" target="_top">Already decided to sell? Compare 6 ways to sell</a>
+      <p style="font-size:14px;margin-top:8px;margin-bottom:0;">Ryan never buys houses and never bids. If the family sells, he refers one vetted local agent.</p>
+    </div>
+  </div>
+</div>
+
+<script>
+(function () {
+  var MONEY_IDS = ['value', 'mtgBal', 'mtgPmt', 'repairs', 'taxIns', 'util', 'fee', 'income', 'savings', 'rent'];
+
+  // Assumptions (also listed in "How we figured this")
+  var COMMISSION = 0.06;
+  var CLOSING = 0.015;
+  var MONTHS_TO_SELL = 4;
+  var AS_IS_DISCOUNT = 0.10;
+  var CASH_DISCOUNT_LOW = 0.20;   // best case for the family: 20% below value
+  var CASH_DISCOUNT_HIGH = 0.50;  // worst case: 50% below value
+  var CASH_MONTHS_TO_CLOSE = 1;
+  var MGMT = 0.10;
+  var VACANCY = 0.08;
+  var MAINT_YEARLY = 0.01;
+  var RENT_GUESS = 0.007;
+
+  var rentTouched = false;
+
+  function num(id) {
+    var v = document.getElementById(id).value.replace(/[^0-9.]/g, '');
+    var n = parseFloat(v);
+    return isFinite(n) && n > 0 ? n : 0;
+  }
+  function money(n) {
+    var r = Math.round(n);
+    return (r < 0 ? '-$' : '$') + Math.abs(r).toLocaleString('en-US');
+  }
+  function perMo(n) { return money(n) + '/mo'; }
+  function setText(id, t) { document.getElementById(id).textContent = t; }
+
+  function monthsText(m) {
+    if (m === Infinity) return 'Covers it';
+    if (m <= 0) return '0 months';
+    if (m > 360) return '30+ years';
+    var mm = Math.floor(m);
+    return mm + (mm === 1 ? ' month' : ' months');
+  }
+  function monthsNum(m) {
+    if (m === Infinity || m > 360) return '360+';
+    return String(Math.floor(Math.max(0, m)));
+  }
+  function yearsText(m) {
+    if (m === Infinity || m <= 0) return '';
+    if (m > 360) return 'More than 30 years at these numbers';
+    return 'About ' + (m / 12).toFixed(1) + ' years';
+  }
+  function lines(id, rows) {
+    document.getElementById(id).innerHTML = rows.map(function (r) {
+      return '<li><span>' + r[0] + '</span><span>' + r[1] + '</span></li>';
+    }).join('');
+  }
+
+  // months of care: pool of money divided by the monthly drain
+  function runway(pool, drain) {
+    if (drain <= 0) return Infinity;
+    if (pool <= 0) return 0;
+    return pool / drain;
+  }
+
+  function calc() {
+    var value = num('value');
+    var mtgBal = num('mtgBal');
+    var mtgPmt = num('mtgPmt');
+    var repairs = num('repairs');
+    var taxIns = num('taxIns');
+    var util = num('util');
+    var fee = num('fee');
+    var income = num('income');
+    var savings = num('savings');
+    var asIs = document.getElementById('asIs').checked;
+
+    if (!rentTouched) {
+      var guess = Math.round(value * RENT_GUESS / 25) * 25;
+      document.getElementById('rent').value = guess.toLocaleString('en-US');
+    }
+    var rent = num('rent');
+
+    var gap = fee - income;
+    var gapLine = document.getElementById('gapLine');
+    if (gap <= 0) {
+      gapLine.className = 'srk-gap ok';
+      gapLine.textContent = "Mom's income of " + perMo(income) + " covers the community's fee of " + perMo(fee) + " with " + perMo(-gap) + " to spare. Her savings aren't needed for the monthly fee at these numbers, so the question is what each choice does to the house and her savings.";
+    } else {
+      gapLine.className = 'srk-gap';
+      gapLine.textContent = "Monthly gap: the community's fee of " + perMo(fee) + " minus Mom's income of " + perMo(income) + " leaves " + money(gap) + " a month to cover from savings and the house.";
+    }
+
+    // SELL
+    var price = asIs ? value * (1 - AS_IS_DISCOUNT) : value;
+    var commission = price * COMMISSION;
+    var closing = price * CLOSING;
+    var repairCost = asIs ? 0 : repairs;
+    var carryWhileSelling = (taxIns + util + mtgPmt) * MONTHS_TO_SELL;
+    var sellNet = price - commission - closing - repairCost - carryWhileSelling - mtgBal;
+    var sellMonths = runway(savings + sellNet, gap);
+
+    setText('sellTag', asIs ? 'Listed as-is with a local agent, no repairs' : 'List it with a local agent');
+    var sn = document.getElementById('sellNet');
+    sn.textContent = money(sellNet);
+    sn.className = 'srk-big-value ' + (sellNet >= 0 ? 'pos' : 'neg');
+    setText('sellMonths', monthsText(sellMonths));
+    setText('sellMonthsDetail', sellMonths === Infinity
+      ? 'Her income covers the fee, so the sale money is not drawn down'
+      : (yearsText(sellMonths) + (sellMonths > 0 ? ', using savings plus the sale net' : '')));
+    lines('sellLines', [
+      [asIs ? 'Price, listed as-is on the open market (about 10 percent below value, an estimate)' : 'Price', money(price)],
+      ['Commission (about 6%)', '-' + money(commission)],
+      ['Repairs', asIs ? 'skipped' : '-' + money(repairCost)],
+      ['Closing costs (about 1.5%)', '-' + money(closing)],
+      ['Carrying costs, 4 months', '-' + money(carryWhileSelling)],
+      ['Mortgage payoff', '-' + money(mtgBal)]
+    ]);
+
+    // CASH BUYER RANGE: the other as-is route, shown next to the retail as-is number
+    var cashBox = document.getElementById('cashBox');
+    if (value <= 0) {
+      cashBox.style.display = 'none';
+    } else {
+      cashBox.style.display = '';
+      var cashLow = value * (1 - CASH_DISCOUNT_HIGH);
+      var cashHigh = value * (1 - CASH_DISCOUNT_LOW);
+      var cashCarry = (taxIns + util + mtgPmt) * CASH_MONTHS_TO_CLOSE;
+      var cashNetLow = cashLow - (cashLow * CLOSING) - cashCarry - mtgBal;
+      var cashNetHigh = cashHigh - (cashHigh * CLOSING) - cashCarry - mtgBal;
+
+      setText('cashRange', money(cashLow) + ' to ' + money(cashHigh));
+
+      var cashText;
+      if (cashNetHigh <= 0) {
+        cashText = 'At these numbers the mortgage payoff and closing costs would take all of that, so a cash sale would leave nothing for care.';
+      } else {
+        cashText = 'After about 1.5% closing costs, one month of carrying costs and the mortgage payoff, that is roughly <strong>'
+          + money(Math.max(0, cashNetLow)) + ' to ' + money(cashNetHigh) + '</strong> in hand';
+        if (gap > 0) {
+          cashText += ', or about <strong>' + monthsNum(runway(savings + Math.max(0, cashNetLow), gap))
+            + ' to ' + monthsNum(runway(savings + cashNetHigh, gap)) + ' months</strong> of care.';
+        } else {
+          cashText += '.';
+        }
+      }
+      document.getElementById('cashNetLine').innerHTML = cashText;
+    }
+
+    // RENT
+    var mgmt = rent * MGMT;
+    var vacancy = rent * VACANCY;
+    var maint = value * MAINT_YEARLY / 12;
+    var rentNet = rent - mgmt - vacancy - maint - taxIns - mtgPmt;
+    var rentMonths = runway(savings, gap - rentNet);
+
+    var rn = document.getElementById('rentNet');
+    rn.textContent = perMo(rentNet);
+    rn.className = 'srk-big-value ' + (rentNet >= 0 ? 'pos' : 'neg');
+    setText('rentMonths', monthsText(rentMonths));
+    var rentDetail;
+    if (rentMonths === Infinity) {
+      rentDetail = gap <= 0 ? 'Her income covers the fee' : 'The rent net covers the monthly gap, as long as the rent keeps coming';
+    } else {
+      rentDetail = yearsText(rentMonths) + (rentMonths > 0 ? ', using savings plus the rent' : '');
+      if (rentNet < 0) rentDetail += '. The rent does not cover the house costs, so it adds to the gap';
+    }
+    setText('rentMonthsDetail', rentDetail);
+    lines('rentLines', [
+      ['Rent', perMo(rent)],
+      ['Management (about 10%)', '-' + perMo(mgmt)],
+      ['Vacancy (about 8%)', '-' + perMo(vacancy)],
+      ['Maintenance (about 1% of value a year)', '-' + perMo(maint)],
+      ['Property tax + insurance', '-' + perMo(taxIns)],
+      ['Mortgage payment', '-' + perMo(mtgPmt)]
+    ]);
+
+    // KEEP
+    var keepCost = taxIns + util + mtgPmt;
+    var keepMonths = runway(savings, gap + keepCost);
+    setText('keepCost', perMo(keepCost));
+    setText('keepMonths', monthsText(keepMonths));
+    setText('keepMonthsDetail', keepMonths === Infinity
+      ? "Her income covers the fee and the house costs"
+      : (yearsText(keepMonths) + (keepMonths > 0 ? ', paying for care and the house from savings' : '. Her savings would not cover the next month')));
+    lines('keepLines', [
+      ['Property tax + insurance', perMo(taxIns)],
+      ['Utilities + upkeep', perMo(util)],
+      ['Mortgage payment', perMo(mtgPmt)],
+      ['Drawn from savings each month', perMo(Math.max(0, gap + keepCost))]
+    ]);
+
+    // Highlight the longest runway (a math result, not a recommendation)
+    var cols = [['colSell', sellMonths], ['colRent', rentMonths], ['colKeep', keepMonths]];
+    var best = Math.max(sellMonths, rentMonths, keepMonths);
+    cols.forEach(function (c) {
+      var el = document.getElementById(c[0]);
+      var on = best > 0 && c[1] === best;
+      el.classList.toggle('longest', on);
+    });
+
+    // FLAGS
+    var flags = [];
+    flags.push(['Selling and Medicaid.', "Many states treat the home as an exempt asset while Mom intends to return or a spouse lives there. Once it's sold, the money is countable, and she may have to spend it down before Medicaid helps. Gifting the house or the money can trigger a penalty under the 5-year look-back.", 'Ask an elder law attorney before you sell or give anything away.']);
+    flags.push(['The home sale tax exclusion.', "If Mom owned and lived in the home at least 2 of the 5 years before the sale, up to $250,000 of gain ($500,000 for a married couple) may be tax free. Renting it or leaving it empty for years can shrink or end that window. Time in a licensed care facility can count in some cases.", 'Ask a CPA before you list or sign a lease.']);
+    flags.push(['Who can legally sign.', "A sale, a lease or a listing agreement has to be signed by Mom, by the agent named in her power of attorney if it gives that power, or by the trustee if the house is in a trust. If none of those fit, a court process may be needed.", 'Have an attorney read the power of attorney or the trust first.']);
+    flags.push(['Vacant-home insurance (Keep).', "Tell the insurer the house is empty. Many standard homeowners policies limit or deny claims once a house has been vacant for about 60 days. A vacant-home policy or endorsement usually costs more.", 'Call the insurance agent this week.']);
+    flags.push(['Step-up in basis (Keep).', "A house that passes to heirs at death usually gets a new tax basis at its value on the date of death, which can wipe out most of the capital gain. A house given away during life usually keeps her original basis.", 'Ask a CPA before deciding to keep it for the family or to put it in someone else\'s name.']);
+    flags.push(['Reverse mortgage?', "If the house has a reverse mortgage, it generally comes due once she has lived elsewhere for 12 months in a row and no co-borrower lives there.", 'Call the loan servicer to find the deadline.']);
+
+    document.getElementById('flags').innerHTML = flags.map(function (f) {
+      return '<div class="srk-flag"><strong>' + f[0] + '</strong> ' + f[1] + '<span class="who">' + f[2] + '</span></div>';
+    }).join('');
+  }
+
+  MONEY_IDS.forEach(function (id) {
+    var el = document.getElementById(id);
+    el.addEventListener('input', function () {
+      if (id === 'rent') rentTouched = true;
+      var raw = el.value.replace(/[^0-9]/g, '');
+      el.value = raw ? parseInt(raw, 10).toLocaleString('en-US') : '';
+      calc();
+    });
+  });
+  document.getElementById('asIs').addEventListener('change', calc);
+
+  calc();
+})();
+</script>
+
+</body>
+</html>
