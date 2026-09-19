@@ -55,6 +55,8 @@ export const CLUSTERS: Cluster[] = [
     label: "Selling a parent's home",
     members: [
       { type: "tool", slug: "net-proceeds-calculator" },
+      { type: "tool", slug: "sell-rent-or-keep-calculator" },
+      { type: "tool", slug: "strategic-exit-engine" },
       { type: "resource", slug: "how-to-sell-elderly-parents-house" },
       { type: "resource", slug: "power-of-attorney-selling-parents-home" },
       { type: "resource", slug: "how-to-talk-to-mom-about-selling-house" },
@@ -271,6 +273,7 @@ export const CLUSTERS: Cluster[] = [
     id: "paying-for-senior-care",
     label: "Paying for senior care",
     members: [
+      { type: "tool", slug: "sell-rent-or-keep-calculator" },
       {
         type: "blog",
         slug: "va-aid-attendance-2026-benefit-veteran-families",

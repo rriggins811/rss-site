@@ -211,6 +211,20 @@ export async function GET() {
         description:
           "Honest break-even analysis comparing the all-in cost of aging in place (renovations + in-home care over time) against assisted living monthly rates.",
       },
+      {
+        slug: "sell-rent-or-keep-calculator",
+        title: "Sell, Rent or Keep: What It Means for Mom's Care",
+        url: `${SITE_URL}/tools/sell-rent-or-keep-calculator`,
+        description:
+          "Shows how many months of care selling, renting or keeping a parent's house pays for, from the home value, mortgage, carrying costs, the community's monthly fee, the parent's income, savings and expected rent. Assumptions stated; estimates, not advice.",
+      },
+      {
+        slug: "strategic-exit-engine",
+        title: "6 Ways to Sell a Parent's House, Side by Side",
+        url: `${SITE_URL}/tools/strategic-exit-engine`,
+        description:
+          "Compares a listing, an as-is cash offer, owner financing, a lease-option, a 1031 exchange and a long-term rental, including the cash each frees up for care on day one. Ryan never buys and never bids.",
+      },
     ],
     audience: {
       primary: "Adult children (40-65) of aging parents (65+) facing senior housing transitions",
