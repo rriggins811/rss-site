@@ -165,4 +165,4 @@ Do not assume it is final. Check your state's current cancellation rights with a
 
 ## About Ryan Riggins
 
-Ryan Riggins is the founder of Riggins Strategic Solutions, a consumer protection and education company for families in a senior transition. He spent eight years buying houses from families in crisis before switching sides to help families avoid the deals he used to make. Based in Greensboro, NC. Licensed North Carolina real estate broker, License #361546, eXp Realty. Two books on Amazon. Free family tools at rigginsstrategicsolutions.com/tools.
+Ryan Riggins is a Senior Transition Advisor for the family home. When a parent moves to senior living, he helps the family decide what happens to the house before anyone lists it: the funding math against the community's fee sheet, who can legally sign, and sell, rent or keep. If selling, one vetted local agent. Not a mover, not a placement agent, never the listing agent. NC broker #361546, eXp Realty. Free family tools at rigginsstrategicsolutions.com/tools.
