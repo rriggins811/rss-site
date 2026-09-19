@@ -874,3 +874,52 @@ export function breadcrumbFromPath(
 }
 
 export type JsonLdValue = Record<string, unknown> | Record<string, unknown>[];
+
+/**
+ * ProfessionalService for one city page (city pages, 2026-09-19). Same
+ * business and founder as the site-wide ProfessionalService, but with its
+ * own @id per page so areaServed can be that one city without rewriting
+ * the site entity. The address stays the real Greensboro base; no office
+ * is claimed in the city itself. No priceRange: the service is free to the
+ * family (SEO audit 2026-09-19).
+ */
+export function cityServiceSchema(args: {
+  path: string;
+  city: string;
+  counties: string[];
+  description: string;
+}) {
+  const url = abs(args.path);
+  return {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "@id": `${url}#service`,
+    name: `${ORGANIZATION.name}: ${ROLE_TITLE} in ${args.city}, NC`,
+    description: args.description,
+    serviceType: ROLE_TITLE,
+    url,
+    telephone: ORGANIZATION.telephone,
+    email: ORGANIZATION.email,
+    image: abs("/og/homepage.png"),
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: ORGANIZATION.address.addressLocality,
+      addressRegion: ORGANIZATION.address.addressRegion,
+      addressCountry: ORGANIZATION.address.addressCountry,
+    },
+    areaServed: {
+      "@type": "City",
+      name: `${args.city}, NC`,
+      containedInPlace: [
+        ...args.counties.map((c) => ({
+          "@type": "AdministrativeArea",
+          name: `${c}, North Carolina`,
+        })),
+        { "@type": "State", name: "North Carolina" },
+      ],
+    },
+    parentOrganization: { "@id": ORG_ID },
+    founder: { "@id": PERSON_ID },
+    employee: { "@id": PERSON_ID },
+  };
+}

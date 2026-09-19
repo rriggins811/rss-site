@@ -37,6 +37,14 @@ const footerNav: { heading: string; links: { href: string; label: string; extern
         href: "/mom-moving-to-assisted-living-what-to-do-with-the-house",
         label: "Mom is moving to assisted living: the house",
       },
+      {
+        href: "/sell-rent-or-keep-parents-house",
+        label: "Sell, rent or keep a parent's house",
+      },
+      {
+        href: "/senior-transition-advisor",
+        label: "Cities I serve",
+      },
       { href: "/faq", label: "Common questions" },
       { href: "/blog", label: "Blog" },
       { href: "/resources", label: "Resources" },

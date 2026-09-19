@@ -179,7 +179,11 @@ export default function MomMovingToAssistedLivingPage() {
                 it empty costs taxes, insurance, utilities and upkeep every
                 month, and many homeowner&rsquo;s policies change once a house
                 sits vacant, so call the insurer. Pick one on purpose, not
-                because a deadline picked it for you.
+                because a deadline picked it for you. Here&rsquo;s{" "}
+                <Link href="/sell-rent-or-keep-parents-house" className={linkClass}>
+                  how sell, rent and keep compare side by side
+                </Link>
+                .
               </p>
             </li>
             <li>

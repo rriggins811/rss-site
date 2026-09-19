@@ -290,6 +290,13 @@ export default function WhatIsASeniorTransitionAdvisorPage() {
             >
               what to do with the house when Mom moves to assisted living
             </Link>
+            . If the house is in the Triad or the Triangle, here&rsquo;s{" "}
+            <Link
+              href="/senior-transition-advisor"
+              className="font-semibold text-burgundy-600 underline underline-offset-4 hover:text-burgundy-700"
+            >
+              what I do city by city
+            </Link>
             .
           </p>
         </div>
