@@ -31,6 +31,12 @@ export type ResourceFrontmatter = {
   type?: string;
   category?: string;
   date?: string;
+  /**
+   * Optional. Set only when the page body really changed, so the Article
+   * schema and sitemap show an honest modified date while `date` stays the
+   * publish date. Falls back to `date` when absent.
+   */
+  dateModified?: string;
   author?: string;
   pillar_cluster?: string;
   quick_answer: string;

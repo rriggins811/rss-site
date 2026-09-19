@@ -53,6 +53,7 @@ export async function generateMetadata({
   const description =
     content?.frontmatter.meta_description ?? registry!.description;
   const published = content?.frontmatter.date ?? STUB_PUBLISHED_ISO;
+  const modified = content?.frontmatter.dateModified ?? published;
 
   return {
     title: pageTitle(title),
@@ -64,7 +65,7 @@ export async function generateMetadata({
       type: "article",
       url: `/resources/${slug}`,
       publishedTime: published,
-      modifiedTime: published,
+      modifiedTime: modified,
       authors: ["Ryan Riggins"],
     },
     twitter: {
@@ -112,6 +113,7 @@ export default async function ResourceArticlePage({
     content?.frontmatter.meta_description ?? registry!.description;
   const topic = content?.frontmatter.category ?? registry?.topic ?? "Resource";
   const published = content?.frontmatter.date ?? STUB_PUBLISHED_ISO;
+  const modified = content?.frontmatter.dateModified ?? published;
 
   const breadcrumbs = breadcrumbListSchema([
     { name: "Home", path: "/" },
@@ -138,7 +140,7 @@ export default async function ResourceArticlePage({
         headline={title}
         description={description}
         datePublished={published}
-        dateModified={published}
+        dateModified={modified}
         url={url}
         image="/photos/hero_ryan_consulting_family.jpg"
       />

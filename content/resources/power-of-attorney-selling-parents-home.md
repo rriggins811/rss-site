@@ -4,6 +4,7 @@ slug: power-of-attorney-selling-parents-home
 type: resource_pillar
 category: "Senior Real Estate"
 date: 2026-05-27
+dateModified: "2026-09-19"
 author: Ryan Riggins
 pillar_cluster: selling-parents-home
 quick_answer: "You need a power of attorney to sell your parent's home only when your parent cannot sign for themselves and the home is in their name. If your parent is still competent, they sign and you need nothing. The real danger is waiting: once a parent loses capacity, they can no longer grant a POA, and the family is forced into a slow, expensive court guardianship instead. Get the durable POA with real-property authority in place while your parent can still sign it."
@@ -89,6 +90,8 @@ If your parent is still competent, this is a same-week task, not a someday task.
 If your parent has already lost capacity and there is no POA, do not waste energy on guilt. Get an elder law attorney on the phone this week to start the guardianship process, because the timeline only gets longer the longer you wait, and the house and the care decisions are waiting on it.
 
 And whichever situation you are in, before you sell, get a real read on what the house is actually worth from a Senior Real Estate Specialist, not a quick-cash buyer. The legal authority to sell and the knowledge of what the house should sell for are two different protections, and your family needs both.
+
+Who can legally sign is one of the first things a [Senior Transition Advisor for the family home](/what-is-a-senior-transition-advisor) checks, before anyone lists the house. If the house is in North Carolina, I wrote a separate walkthrough of what the POA has to say there and what the closing attorney will ask: [Can I Sell My Parent's House With POA in NC?](/blog/selling-parents-house-power-of-attorney-nc)
 
 ## Frequently asked questions
 

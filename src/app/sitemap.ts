@@ -103,7 +103,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // Use the authored markdown's real date so genuinely-updated pillars get an
     // honest freshness signal, instead of stamping every page "modified today"
     // on every build. Unauthored stubs (no markdown) fall back to now.
-    const authoredDate = getResourceContent(r.slug)?.frontmatter.date;
+    const fm = getResourceContent(r.slug)?.frontmatter;
+    const authoredDate = fm?.dateModified ?? fm?.date;
     return {
       url: `${SITE_URL}/resources/${r.slug}`,
       lastModified: authoredDate ? new Date(authoredDate) : now,
