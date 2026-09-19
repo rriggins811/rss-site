@@ -33,7 +33,7 @@ const RELATED_GUIDES: { href: string; label: string; blurb: string }[] = [
     href: "/resources/how-to-sell-elderly-parents-house",
     label: "How to sell an aging parent's home",
     blurb:
-      "The full process, the five exit paths, and how to net the most without rushing into a lowball cash offer.",
+      "Decide sell, rent or keep first. If you sell, one vetted local agent, and no rushing into a lowball cash offer. Ryan never buys and never bids.",
   },
   {
     href: "/resources/senior-scam-protection",

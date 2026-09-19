@@ -60,7 +60,7 @@ const PILLAR_LABELS: Record<string, string> = {
   financial: "Financial and legal",
   family: "Family communication",
   senior: "Senior readiness",
-  exit: "Exit strategy",
+  exit: "Sell, rent or keep decision",
 };
 
 const PILLAR_MAX = 20;

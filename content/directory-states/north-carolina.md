@@ -20,8 +20,8 @@ North Carolina's program is **SHIIP, the Seniors' Health Insurance Information P
 
 ## Property tax relief (North Carolina)
 NC offers three programs, applied for at your **county tax office** (deadline June 1):
-- **Homestead Exclusion** - greater of $25,000 or 50% off taxable value; 2026 income limit $38,800; age 65+ or totally and permanently disabled.
-- **Circuit Breaker** - caps tax at 4-5% of income; income limit $58,200. CAUTION: it is a deferral that becomes a lien at 6% interest, due when the home is sold or the owner passes.
+- **Homestead Exclusion** - greater of $25,000 or 50% off taxable value; income limit $38,800 for the 2026 tax year, $39,900 for 2027 (NC DOR form AV-9); age 65+ or totally and permanently disabled.
+- **Circuit Breaker** - caps tax at 4-5% of income; income limit $58,200 for the 2026 tax year, $59,850 for 2027. CAUTION: it is a deferral that becomes a lien at 6% interest, due when the home is sold or the owner passes.
 - **Disabled Veteran Exclusion** - $45,000 off taxable value; no income limit, no age requirement.
 
 ## Home repair, food, transportation, caregiver, and legal help

@@ -225,7 +225,7 @@
 
   <div class="npc-body">
     <div class="npc-stitle">Your Property Details</div>
-    <div class="npc-ssub">Enter your numbers below. We'll calculate net proceeds for every exit strategy so you can compare them honestly.</div>
+    <div class="npc-ssub">Enter your numbers below. We'll calculate net proceeds for each way to sell so you can check the math on any offer.</div>
 
     <div class="npc-grid">
       <div class="npc-field">
@@ -272,35 +272,16 @@
       </div>
     </div>
 
-    <div class="npc-divider"></div>
-    <div class="npc-stitle">Owner Financing Terms (Optional)</div>
-    <div class="npc-ssub">If you're considering selling with owner financing, adjust these terms.</div>
-    <div class="npc-grid">
-      <div class="npc-field">
-        <label>Down Payment %</label>
-        <div class="npc-wrap">
-          <input type="text" id="npcOfDp" value="10" inputmode="numeric" style="max-width:60px;">
-          <span class="npc-suf">%</span>
-        </div>
-      </div>
-      <div class="npc-field">
-        <label>Interest Rate</label>
-        <div class="npc-wrap">
-          <input type="text" id="npcOfRate" value="7" inputmode="numeric" style="max-width:60px;">
-          <span class="npc-suf">%</span>
-        </div>
-      </div>
-    </div>
 
     <div style="margin-top:24px;">
-      <button class="npc-btn" onclick="npcCalculate()">💰 Calculate Net Proceeds for All 5 Strategies</button>
+      <button class="npc-btn" onclick="npcCalculate()">💰 Calculate Net Proceeds for All 4 Ways to Sell</button>
     </div>
   </div>
 
   <div id="npcCapture" style="display:none; margin:0; padding:28px; background:#fff; border-top:3px solid #c9a227;">
     <div style="max-width:480px; margin:0 auto; text-align:center;">
       <div style="font-size:20px; font-weight:700; color:#1b2a4a; margin-bottom:6px;">Want a copy of this breakdown?</div>
-      <p style="font-size:14.5px; color:#555; line-height:1.6; margin-bottom:16px;">Optional. Your results show either way, free, no strings. Put your name and email here and I will also send you the full five-strategy breakdown to keep and share with your family.</p>
+      <p style="font-size:14.5px; color:#555; line-height:1.6; margin-bottom:16px;">Optional. Your results show either way, free, no strings. Put your name and email here and I will also send you the full breakdown to keep and share with your family.</p>
       <div style="display:flex; flex-direction:column; gap:10px; text-align:left;">
         <input type="text" id="npcLeadName" placeholder="First name" autocomplete="given-name" style="width:100%; padding:12px 14px; border:1px solid #ddd; border-radius:8px; font-size:15px;">
         <input type="email" id="npcLeadEmail" placeholder="Email" autocomplete="email" style="width:100%; padding:12px 14px; border:1px solid #ddd; border-radius:8px; font-size:15px;">
@@ -328,7 +309,7 @@
     </div>
 
     <div class="npc-footer">
-      <p>This calculator covers 5 strategies. <strong>The Senior Transition Blueprint</strong> gives you all 20 modules, including how to negotiate each one, the legal protections you need, and the mistakes that cost families $20,000+.</p>
+      <p>This calculator checks the math on 4 ways to sell. Decide sell, rent or keep first. If you sell, use one vetted local agent. Ryan never buys and never bids. <strong>The Senior Transition Blueprint</strong> gives you all 20 modules, including the legal protections you need and the mistakes that cost families $20,000+.</p>
       <div style="display:flex;flex-direction:column;gap:12px;max-width:480px;margin:0 auto;">
         <a href="https://www.rigginsstrategicsolutions.com/need-an-agent" class="npc-footer-btn" style="display:block;text-align:center;">🏡 Selling this house? Have me find and vet the agent (free)</a>         <a href="https://www.rigginsstrategicsolutions.com/the-blueprint" class="npc-footer-btn" style="display:block;text-align:center;">📋 Get the Senior Transition Blueprint (free)</a>
         <a href="https://www.rigginsstrategicsolutions.com/work-with-ryan" class="npc-footer-btn" style="display:block;text-align:center;background:rgba(255,255,255,0.1);border:2px solid rgba(255,255,255,0.3);color:#fff;box-shadow:none;">📞 Book a Free Call with Ryan</a>
@@ -425,9 +406,7 @@ function npcSubmitLead() {
 function npcRunCalculation() {
   const mv=npcParse('npcValue'), mtg=npcParse('npcMortgage'), repairs=npcParse('npcRepairs'),
         carry=npcParse('npcCarry'), commPct=parseFloat(document.getElementById('npcComm').value)||6,
-        staging=npcParse('npcStaging'),
-        ofDpPct=(parseFloat(document.getElementById('npcOfDp').value)||10)/100,
-        ofRate=(parseFloat(document.getElementById('npcOfRate').value)||7)/100;
+        staging=npcParse('npcStaging');
 
   const comm = mv*(commPct/100);
   const closing_trad = mv*0.015;
@@ -483,19 +462,6 @@ function npcRunCalculation() {
       ],
       get totalCosts() { return this.costs.reduce((a,c)=>a+c.val,0); },
       get net() { return mv*0.97 - this.totalCosts - mtg; }, // Slightly below full market
-    },
-    {
-      name: 'Owner Financing',
-      short: 'Owner Finance',
-      time: '30 years (stream)',
-      isStream: true,
-      costs: [],
-      get dp() { return mv*ofDpPct; },
-      get balance() { return mv - this.dp; },
-      get monthly() { return npcMP(this.balance, ofRate, 30); },
-      get total30yr() { return this.dp + (this.monthly*360); },
-      get totalCosts() { return 0; },
-      get net() { return this.dp - mtg; }, // Immediate cash
     }
   ];
 

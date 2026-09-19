@@ -33,6 +33,13 @@ export type Tool = {
    * crawlable for AEO + Rich Results.
    */
   faqs?: ToolFaq[];
+  /**
+   * Hidden tools keep a working /tools/<slug> URL but are noindex,nofollow
+   * and left out of the sitemap, the /tools hub, related-reading links and
+   * llms files. Added 2026-09-19 for the Strategic Exit Engine while Ryan
+   * rebuilds it.
+   */
+  hidden?: boolean;
 };
 
 export const TOOLS: Tool[] = [
@@ -139,6 +146,9 @@ export const TOOLS: Tool[] = [
       "See what each way of selling a parent's house would net, side by side: a listing, an as-is cash offer, owner financing, a lease-option, a 1031 exchange, or renting it out. Use it to check the math on any offer. Decide sell, rent or keep first, and if you sell, use one vetted local agent. Ryan never buys and never bids.",
     category: "financial",
     minHeight: 2400,
+    // Hidden 2026-09-19 (Ryan): noindex, out of sitemap, hub and internal
+    // links until the rebuild. The URL stays live.
+    hidden: true,
   },
 
   // Planning
@@ -260,6 +270,10 @@ export const TOOLS: Tool[] = [
   },
 ];
 
+/** Tools that are listed publicly (hub, sitemap, related links). */
+export const PUBLIC_TOOLS: Tool[] = TOOLS.filter((t) => !t.hidden);
+
+/** Every tool with a live page, hidden ones included. */
 export function getAllToolSlugs(): string[] {
   return TOOLS.map((t) => t.slug);
 }
@@ -269,7 +283,7 @@ export function getToolBySlug(slug: string): Tool | null {
 }
 
 export function getToolsByCategory(category: ToolCategory): Tool[] {
-  return TOOLS.filter((t) => t.category === category);
+  return PUBLIC_TOOLS.filter((t) => t.category === category);
 }
 
 export const CATEGORY_LABELS: Record<ToolCategory, string> = {

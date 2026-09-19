@@ -4002,8 +4002,8 @@ North Carolina's program is **SHIIP, the Seniors' Health Insurance Information P
 
 ## Property tax relief (North Carolina)
 NC offers three programs, applied for at your **county tax office** (deadline June 1):
-- **Homestead Exclusion** - greater of $25,000 or 50% off taxable value; 2026 income limit $38,800; age 65+ or totally and permanently disabled.
-- **Circuit Breaker** - caps tax at 4-5% of income; income limit $58,200. CAUTION: it is a deferral that becomes a lien at 6% interest, due when the home is sold or the owner passes.
+- **Homestead Exclusion** - greater of $25,000 or 50% off taxable value; income limit $38,800 for the 2026 tax year, $39,900 for 2027 (NC DOR form AV-9); age 65+ or totally and permanently disabled.
+- **Circuit Breaker** - caps tax at 4-5% of income; income limit $58,200 for the 2026 tax year, $59,850 for 2027. CAUTION: it is a deferral that becomes a lien at 6% interest, due when the home is sold or the owner passes.
 - **Disabled Veteran Exclusion** - $45,000 off taxable value; no income limit, no age requirement.
 
 ## Home repair, food, transportation, caregiver, and legal help
@@ -12911,7 +12911,7 @@ Out-of-state property is a common target because distance means nobody is watchi
 
 ---
 
-**See the five real ways to sell.** Run the Strategic Exit Engine before you respond to any cash offer: rigginsstrategicsolutions.com/tools/strategic-exit-engine
+**Decide sell, rent or keep before you answer any cash offer.** If you sell, one vetted local agent. Ryan never buys and never bids: rigginsstrategicsolutions.com/sell-rent-or-keep-parents-house
 
 **Want a step-by-step guide?** The free Simple Blueprint walks through every stage of a senior transition: rigginsstrategicsolutions.com/freeguide
 
@@ -13028,7 +13028,7 @@ Not necessarily. Given the current litigation, it is worth having an attorney or
 
 ---
 
-**See every way to handle a parent's home before you sign.** The free Strategic Exit Engine lays out the real paths side by side: rigginsstrategicsolutions.com/tools/strategic-exit-engine
+**Decide sell, rent or keep before you sign anything.** The free guide walks through the choice: rigginsstrategicsolutions.com/sell-rent-or-keep-parents-house
 
 **What will you actually net?** Run the numbers with the free Net Proceeds Calculator: rigginsstrategicsolutions.com/tools/net-proceeds-calculator
 
@@ -13785,7 +13785,7 @@ Not necessarily. Read the contract for an inspection period, a due diligence win
 
 ---
 
-**Not sure which of the five paths fits your family?** The free Strategic Exit Engine walks all of them: rigginsstrategicsolutions.com/tools/strategic-exit-engine
+**Not sure whether to sell, rent or keep?** Decide that first. If you sell, one vetted local agent: rigginsstrategicsolutions.com/sell-rent-or-keep-parents-house
 
 **Want a step-by-step guide?** The free Simple Blueprint walks through every stage of a senior transition: rigginsstrategicsolutions.com/freeguide
 
@@ -14657,7 +14657,7 @@ Do not sign the same day. Ask in writing what they will owe if the home rises in
 
 ---
 
-**See the 7 ways to sell or tap a senior's home, so you can compare any pitch:** rigginsstrategicsolutions.com/tools/strategic-exit-engine
+**Decide sell, rent or keep before you compare any pitch:** rigginsstrategicsolutions.com/sell-rent-or-keep-parents-house
 
 **Want a step-by-step guide?** The free Simple Blueprint walks through every stage of a senior transition: rigginsstrategicsolutions.com/freeguide
 
@@ -16889,7 +16889,7 @@ It depends on the situation, but for most families the gap between a fair-market
 
 **See what your parents would actually net.** Free Net Proceeds Calculator: rigginsstrategicsolutions.com/tools/net-proceeds-calculator
 
-**Not sure which path fits?** The free Strategic Exit Engine walks the five ways to sell a senior's home: rigginsstrategicsolutions.com/tools/strategic-exit-engine
+**Not sure which way to go?** Decide sell, rent or keep first. If you sell, one vetted local agent: rigginsstrategicsolutions.com/sell-rent-or-keep-parents-house
 
 **Want a step-by-step guide?** The free Simple Blueprint walks through every stage of a senior transition: rigginsstrategicsolutions.com/freeguide
 
@@ -17038,7 +17038,7 @@ If you're caring for an aging parent in Pittsboro, Siler City, or anywhere in Ch
 
 North Carolina's senior tax programs are administered by the **Chatham County Tax Administration Listing Division** (12 East Street, Pittsboro; mailing P.O. Box 908; Listing Division **919-542-8250**; general Tax Office 919-542-8211). The application deadline is **June 1.** Chatham completed a revaluation effective in 2025, so values changed countywide. Watch your mail for appeal and relief windows.
 
-- **Elderly or Disabled Exclusion:** greater of $25,000 or 50% off taxable value. Income limit $38,800 for the 2026 tax year. Age 65+ or totally and permanently disabled as of January 1.
+- **Elderly or Disabled Exclusion:** greater of $25,000 or 50% off taxable value. Income limit $38,800 for the 2026 tax year and $39,900 for the 2027 tax year (NC DOR form AV-9). Age 65+ or totally and permanently disabled as of January 1.
 - **Circuit Breaker:** caps tax at a percentage of income (4% or 5%) up to a $58,200 income limit, for owners 65+ or totally and permanently disabled who have owned and occupied the home at least five years. CAUTION: it's a deferral, not forgiveness. The deferred tax becomes a lien with interest, due when the home is sold or the owner passes. It requires a new application every year, and you cannot combine it with the Homestead or Disabled Veteran Exclusion. Understand it before you sign.
 - **Disabled Veteran Exclusion:** $45,000 off, no income limit, no age requirement. Uses Form NCDVA-9 (completed by the NC Division of Veterans Affairs). An unmarried surviving spouse may also qualify.
 - **Local extra: Chatham County Low Income Tax Relief Program (TRP).** Run through the county's Affordable Housing office, this local program gives up to $500 of property tax assistance (no more than 50% of the current year's bill) for income-eligible residents who have owned and lived in the home at least five years and are current on their taxes. Eligibility uses a published household-income chart; households already receiving Food and Nutrition Services skip the income paperwork, and as of June 2025 receiving other tax relief does not disqualify you. For the current income limits and to apply, email **emergency.housing@chathamcountync.gov.**
@@ -17112,7 +17112,7 @@ Don't try to call all of it. Pick the one pressure point hurting most right now 
 Start with three front doors. NC 211 (dial 2-1-1) is the free 24/7 line that routes you to rent, utility, food, and medical help. Chatham County Aging Services is the county's lead aging agency for meals, caregiver support, and Medicare counseling, reached through the Pittsboro Center for Active Living at 919-542-4512. Chatham County DSS at 919-542-2759 handles Medicaid, food benefits, and energy assistance.
 
 ### What property tax relief is available to seniors in Chatham County?
-The statewide North Carolina programs apply through Chatham County Tax Administration's Listing Division at 919-542-8250: the Elderly or Disabled Exclusion (2026 income limit $38,800), the Circuit Breaker (a deferral that caps tax at a percentage of income up to a $58,200 limit and becomes a lien), and the Disabled Veteran Exclusion ($45,000 off, no income limit). The deadline is June 1. Chatham also runs its own Low Income Tax Relief Program (up to $500 off) through Affordable Housing.
+The statewide North Carolina programs apply through Chatham County Tax Administration's Listing Division at 919-542-8250: the Elderly or Disabled Exclusion (income limit $38,800 for the 2026 tax year, $39,900 for 2027), the Circuit Breaker (a deferral that caps tax at a percentage of income up to a $58,200 limit and becomes a lien), and the Disabled Veteran Exclusion ($45,000 off, no income limit). The deadline is June 1. Chatham also runs its own Low Income Tax Relief Program (up to $500 off) through Affordable Housing.
 
 ### How do older adults in Chatham County get meals?
 Chatham County Aging Services runs Meals on Wheels for homebound seniors and congregate lunch at its two senior centers (Pittsboro 919-542-4512, Siler City 919-742-3975). CORA Food Pantry (919-542-5020) gives out groceries and delivers to home-bound older adults, the Food Bank of Central & Eastern NC Food Finder lists local pantries, and SNAP is available through Chatham County DSS at 919-542-2759.
@@ -17253,8 +17253,8 @@ If you're caring for an aging parent in Statesville, Mooresville, or anywhere in
 
 North Carolina's senior tax programs are administered by **Iredell County Tax Administration** (135 E. Water Street, Room 100, Statesville; **704-878-3000**, ask for tax relief). The application deadline is **June 1**, and after a county revaluation, watch your mail for relief deadlines.
 
-- **Homestead Exclusion:** greater of $25,000 or 50% off taxable value (including up to one acre of land). Income limit $38,800 for the 2026 tax year. Age 65+ or totally and permanently disabled as of January 1.
-- **Circuit Breaker:** caps tax at 4% of income (up to $38,800) or 5% (up to $58,200). CAUTION: it's a deferral, not forgiveness. The unpaid difference for the current and three prior years becomes a lien with interest, due when the home is sold or the owner passes. It requires a new application every year, and you cannot combine it with the Homestead or Disabled Veteran Exclusion. Understand it before you sign.
+- **Homestead Exclusion:** greater of $25,000 or 50% off taxable value (including up to one acre of land). Income limit $38,800 for the 2026 tax year and $39,900 for the 2027 tax year (NC DOR form AV-9). Age 65+ or totally and permanently disabled as of January 1.
+- **Circuit Breaker:** caps tax at 4% of income (up to $38,800 for 2026, $39,900 for 2027) or 5% (up to $58,200 for 2026, $59,850 for 2027). CAUTION: it's a deferral, not forgiveness. The unpaid difference for the current and three prior years becomes a lien with interest, due when the home is sold or the owner passes. It requires a new application every year, and you cannot combine it with the Homestead or Disabled Veteran Exclusion. Understand it before you sign.
 - **Disabled Veteran Exclusion:** $45,000 off, no income limit, no age requirement. An unmarried surviving spouse may also qualify.
 
 All three use Form AV-9, available from the tax office (disabled applicants under 65 also need the AV-9 Certification of Disability). If you missed the June 1 deadline, call and ask: late applications can sometimes be accepted for good cause. For the full walk-through of how these statewide programs work (and the Circuit Breaker lien trap in particular), see our guide to [NC senior property tax relief](/blog/nc-senior-property-tax-relief-guilford-county).
@@ -17324,7 +17324,7 @@ Don't try to call all of it. Pick the one pressure point hurting most right now 
 Start with three front doors. NC 211 (dial 2-1-1) is the free 24/7 line that routes you to rent, utility, food, and medical help. The Iredell Council on Aging at 704-873-5171 is the county's aging front door for meals, in-home aide, caregiver support, and adult day care. Iredell County DSS at 704-873-5631 handles Medicaid, food benefits, and energy assistance.
 
 ### What property tax relief is available to seniors in Iredell County?
-The statewide North Carolina programs apply through Iredell County Tax Administration at 704-878-3000: the Homestead Exclusion (2026 income limit $38,800), the Circuit Breaker (a deferral that caps tax at 4% or 5% of income up to a $58,200 limit and becomes a lien), and the Disabled Veteran Exclusion ($45,000 off, no income limit). The application deadline is June 1.
+The statewide North Carolina programs apply through Iredell County Tax Administration at 704-878-3000: the Homestead Exclusion (income limit $38,800 for the 2026 tax year, $39,900 for 2027), the Circuit Breaker (a deferral that caps tax at 4% or 5% of income up to a $58,200 limit and becomes a lien), and the Disabled Veteran Exclusion ($45,000 off, no income limit). The application deadline is June 1.
 
 ### How do older adults in Iredell County get meals?
 The Iredell Council on Aging delivers home-delivered meals to homebound seniors 60 and older at 704-873-5171, and serves congregate meals at group sites. Fifth Street Ministries (704-872-4045) serves free hot meals daily and gives out food boxes on Wednesdays and Fridays, Second Harvest Food Bank of Metrolina (704-376-1785) fills in, and SNAP is available through Iredell County DSS at 704-873-5631.
@@ -17362,8 +17362,8 @@ If you're caring for an aging parent in Smithfield, Clayton, Selma, or anywhere 
 
 North Carolina's senior tax programs are administered by **Johnston County Tax Administration** (207 E. Johnston Street, 2nd floor of the Courthouse, Smithfield; mailing P.O. Box 451, Smithfield 27577; **919-989-5130**). The application deadline is **June 1.** Johnston completed a revaluation recently, so watch your mail for relief deadlines and appeal windows.
 
-- **Homestead Exclusion:** greater of $25,000 or 50% off taxable value (including up to one acre of land). Income limit $38,800 for the 2026 tax year. Age 65+ or totally and permanently disabled as of January 1.
-- **Circuit Breaker:** caps tax at 4% of income (up to $38,800) or 5% (up to $58,200). CAUTION: it's a deferral, not forgiveness. The unpaid difference for the current and three prior years becomes a lien with interest, due when the home is sold or the owner passes. It requires a new application every year, and you cannot combine it with the Homestead or Disabled Veteran Exclusion. Understand it before you sign.
+- **Homestead Exclusion:** greater of $25,000 or 50% off taxable value (including up to one acre of land). Income limit $38,800 for the 2026 tax year and $39,900 for the 2027 tax year (NC DOR form AV-9). Age 65+ or totally and permanently disabled as of January 1.
+- **Circuit Breaker:** caps tax at 4% of income (up to $38,800 for 2026, $39,900 for 2027) or 5% (up to $58,200 for 2026, $59,850 for 2027). CAUTION: it's a deferral, not forgiveness. The unpaid difference for the current and three prior years becomes a lien with interest, due when the home is sold or the owner passes. It requires a new application every year, and you cannot combine it with the Homestead or Disabled Veteran Exclusion. Understand it before you sign.
 - **Disabled Veteran Exclusion:** $45,000 off, no income limit, no age requirement. An unmarried surviving spouse may also qualify.
 
 All three use Form AV-9, available from the tax office (disabled applicants under 65 also need the AV-9 Certification of Disability). If you missed the June 1 deadline, call and ask: late applications can sometimes be accepted for good cause. For the full walk-through of how these statewide programs work (and the Circuit Breaker lien trap in particular), see our guide to [NC senior property tax relief](/blog/nc-senior-property-tax-relief-guilford-county).
@@ -17432,7 +17432,7 @@ Don't try to call all of it. Pick the one pressure point hurting most right now 
 Start with three front doors. NC 211 (dial 2-1-1) is the free 24/7 line that routes you to rent, utility, food, and medical help. Community & Senior Services of Johnston County at 919-934-6066 is the county's aging front door for meals, in-home aide, caregiver support, and senior centers. Johnston County DSS at 919-989-5300 handles Medicaid, food benefits, and energy assistance.
 
 ### What property tax relief is available to seniors in Johnston County?
-The statewide North Carolina programs apply through Johnston County Tax Administration at 919-989-5130: the Homestead Exclusion (2026 income limit $38,800), the Circuit Breaker (a deferral that caps tax at 4% or 5% of income up to a $58,200 limit and becomes a lien), and the Disabled Veteran Exclusion ($45,000 off, no income limit). The application deadline is June 1, and the county recently completed a revaluation, so watch your mail for relief and appeal windows.
+The statewide North Carolina programs apply through Johnston County Tax Administration at 919-989-5130: the Homestead Exclusion (income limit $38,800 for the 2026 tax year, $39,900 for 2027), the Circuit Breaker (a deferral that caps tax at 4% or 5% of income up to a $58,200 limit and becomes a lien), and the Disabled Veteran Exclusion ($45,000 off, no income limit). The application deadline is June 1, and the county recently completed a revaluation, so watch your mail for relief and appeal windows.
 
 ### How do older adults in Johnston County get meals?
 Community & Senior Services of Johnston County runs Meals on Wheels for homebound seniors 60 and older at 919-934-6066, with congregate dining at senior centers in Benson, Clayton, Kenly, Micro, Princeton, Selma, and Smithfield. The Smithfield Rescue Mission (919-934-9257) gives out groceries and food boxes, the Food Bank of Central & Eastern NC Food Finder lists local pantries, and SNAP is available through Johnston County DSS at 919-989-5300.
@@ -17470,8 +17470,8 @@ If you're caring for an aging parent in Gastonia, Belmont, Mount Holly, or anywh
 
 North Carolina's senior tax programs are administered by the **Gaston County Tax Office** (100 East Garrison Boulevard, Gastonia; **704-866-3158**, ask for tax relief, option 6 on the main line). The application period is **January 1 to June 1**, and after a county revaluation, watch your mail for relief deadlines.
 
-- **Homestead Exclusion:** greater of $25,000 or 50% off taxable value (including up to one acre of land). Income limit $38,800 for the 2026 tax year. Age 65+ or totally and permanently disabled as of January 1.
-- **Circuit Breaker:** caps tax at 4% of income (up to $38,800) or 5% (up to $58,200). CAUTION: it's a deferral, not forgiveness. The unpaid difference for the current and three prior years becomes a lien with interest, due when the home is sold or the owner passes. It requires a new application every year, and you cannot combine it with the Homestead or Disabled Veteran Exclusion. Understand it before you sign.
+- **Homestead Exclusion:** greater of $25,000 or 50% off taxable value (including up to one acre of land). Income limit $38,800 for the 2026 tax year and $39,900 for the 2027 tax year (NC DOR form AV-9). Age 65+ or totally and permanently disabled as of January 1.
+- **Circuit Breaker:** caps tax at 4% of income (up to $38,800 for 2026, $39,900 for 2027) or 5% (up to $58,200 for 2026, $59,850 for 2027). CAUTION: it's a deferral, not forgiveness. The unpaid difference for the current and three prior years becomes a lien with interest, due when the home is sold or the owner passes. It requires a new application every year, and you cannot combine it with the Homestead or Disabled Veteran Exclusion. Understand it before you sign.
 - **Disabled Veteran Exclusion:** $45,000 off, no income limit, no age requirement. An unmarried surviving spouse may also qualify.
 
 All three use Form AV-9, available from the tax office (disabled applicants under 65 also need the AV-9 Certification of Disability completed by a physician). If you missed the June 1 deadline, call and ask: late applications can sometimes be accepted for good cause. For the full walk-through of how these statewide programs work (and the Circuit Breaker lien trap in particular), see our guide to [NC senior property tax relief](/blog/nc-senior-property-tax-relief-guilford-county).
@@ -17540,7 +17540,7 @@ Don't try to call all of it. Pick the one pressure point hurting most right now 
 Start with three front doors. NC 211 (dial 2-1-1) is the free 24/7 line that routes you to rent, utility, food, and medical help. Gaston County Adult & Aging Services at 704-862-7540 is the county's aging front door for meals, in-home aide, caregiver support, and senior transportation. Gaston County DSS Economic Services at 704-862-7889 handles Medicaid, food benefits, and energy assistance.
 
 ### What property tax relief is available to seniors in Gaston County?
-The statewide North Carolina programs apply through the Gaston County Tax Office at 704-866-3158: the Homestead Exclusion (2026 income limit $38,800), the Circuit Breaker (a deferral that caps tax at 4% or 5% of income up to a $58,200 limit and becomes a lien), and the Disabled Veteran Exclusion ($45,000 off, no income limit). The application period is January 1 to June 1.
+The statewide North Carolina programs apply through the Gaston County Tax Office at 704-866-3158: the Homestead Exclusion (income limit $38,800 for the 2026 tax year, $39,900 for 2027), the Circuit Breaker (a deferral that caps tax at 4% or 5% of income up to a $58,200 limit and becomes a lien), and the Disabled Veteran Exclusion ($45,000 off, no income limit). The application period is January 1 to June 1.
 
 ### How do older adults in Gaston County get meals?
 Gaston County Meals on Wheels, run by Adult & Aging Services, delivers a noon meal to homebound seniors at 704-862-7540, with routes across Belmont, Bessemer City, Cherryville, Cramerton, Dallas, Gastonia, Lowell, McAdenville, Mt. Holly, and Stanley. In the greater Gastonia area, Crisis Assistance Ministry (704-867-8901) runs an on-site food pantry, Second Harvest Food Bank of Metrolina (704-376-1785) fills in, and SNAP is available through Gaston County DSS.
@@ -17691,8 +17691,8 @@ If you're caring for an aging parent in Monroe, Indian Trail, Waxhaw, or anywher
 
 North Carolina's senior tax programs are administered by the **Union County Tax Administration, Assessment Division** (500 N. Main Street, Suite 236, Monroe; **704-283-3746**), which handles exemptions and exclusions. The application period is **January 1 to June 1**, and after a county revaluation, watch your mail for relief deadlines. For registered motor vehicle tax questions, the Tax Collector's office is 704-283-3848.
 
-- **Homestead Exclusion:** greater of $25,000 or 50% off taxable value. Income limit $38,800 for the 2026 tax year. Age 65+ or totally and permanently disabled as of January 1.
-- **Circuit Breaker:** caps tax at 4% of income (up to $38,800) or 5% (up to $58,200). CAUTION: it's a deferral, not forgiveness. The unpaid difference for the current and three prior years becomes a lien with interest, due when the home is sold or the owner passes. It requires a new application every year, and you cannot combine it with the Homestead or Disabled Veteran Exclusion. Understand it before you sign.
+- **Homestead Exclusion:** greater of $25,000 or 50% off taxable value. Income limit $38,800 for the 2026 tax year and $39,900 for the 2027 tax year (NC DOR form AV-9). Age 65+ or totally and permanently disabled as of January 1.
+- **Circuit Breaker:** caps tax at 4% of income (up to $38,800 for 2026, $39,900 for 2027) or 5% (up to $58,200 for 2026, $59,850 for 2027). CAUTION: it's a deferral, not forgiveness. The unpaid difference for the current and three prior years becomes a lien with interest, due when the home is sold or the owner passes. It requires a new application every year, and you cannot combine it with the Homestead or Disabled Veteran Exclusion. Understand it before you sign.
 - **Disabled Veteran Exclusion:** $45,000 off, no income limit, no age requirement. An unmarried surviving spouse may also qualify.
 
 All three use Form AV-9, available from the tax office (disabled applicants under 65 also need Form AV-9A completed by a physician). If you missed the June 1 deadline, call and ask: late applications can sometimes be accepted for good cause. For the full walk-through of how these statewide programs work (and the Circuit Breaker lien trap in particular), see our guide to [NC senior property tax relief](/blog/nc-senior-property-tax-relief-guilford-county).
@@ -17758,7 +17758,7 @@ Don't try to call all of it. Pick the one pressure point hurting most right now 
 Start with three front doors. NC 211 (dial 2-1-1) is the free 24/7 line that routes you to rent, utility, food, and medical help. Union County Senior Nutrition at 704-283-3712 is the county's aging front door for meals and referrals. Union County DSS at 704-296-4300 handles Medicaid, food benefits, and adult services.
 
 ### What property tax relief is available to seniors in Union County?
-The statewide North Carolina programs apply through the Union County Tax Administration Assessment Division at 704-283-3746: the Homestead Exclusion (2026 income limit $38,800), the Circuit Breaker (a deferral that caps tax at 4% or 5% of income up to a $58,200 limit and becomes a lien), and the Disabled Veteran Exclusion ($45,000 off, no income limit). The application period is January 1 to June 1.
+The statewide North Carolina programs apply through the Union County Tax Administration Assessment Division at 704-283-3746: the Homestead Exclusion (income limit $38,800 for the 2026 tax year, $39,900 for 2027), the Circuit Breaker (a deferral that caps tax at 4% or 5% of income up to a $58,200 limit and becomes a lien), and the Disabled Veteran Exclusion ($45,000 off, no income limit). The application period is January 1 to June 1.
 
 ### How do older adults in Union County get meals?
 Union County Senior Nutrition delivers five meals a week to homebound seniors 60 and older at 704-283-3712, with no cost and no income limit. Loaves and Fishes of Union County (704-960-1486) gives a week of groceries in a crisis, Second Harvest Food Bank of Metrolina (704-376-1785) fills in, and SNAP is available through Union County DSS at 704-296-4300.
@@ -17796,8 +17796,8 @@ If you're caring for an aging parent in Concord, Kannapolis, or anywhere in Caba
 
 North Carolina's senior tax programs are administered by **Cabarrus County Tax Administration** (65 Church Street S, Concord; **704-920-2100**; tax-relief applications are handled by Land Records, 704-920-2127). The application period is **January 1 to June 1**, and after a county revaluation, watch your mail for relief deadlines.
 
-- **Homestead Exclusion:** greater of $25,000 or 50% off taxable value. Income limit $38,800 for the 2026 tax year. Age 65+ or totally and permanently disabled as of January 1.
-- **Circuit Breaker:** caps tax at 4% of income (up to $38,800) or 5% (up to $58,200). CAUTION: it's a deferral, not forgiveness. The unpaid difference for the current and three prior years becomes a lien with interest, due when the home is sold or the owner passes. It requires a new application every year, and you cannot combine it with the Homestead or Disabled Veteran Exclusion. Understand it before you sign.
+- **Homestead Exclusion:** greater of $25,000 or 50% off taxable value. Income limit $38,800 for the 2026 tax year and $39,900 for the 2027 tax year (NC DOR form AV-9). Age 65+ or totally and permanently disabled as of January 1.
+- **Circuit Breaker:** caps tax at 4% of income (up to $38,800 for 2026, $39,900 for 2027) or 5% (up to $58,200 for 2026, $59,850 for 2027). CAUTION: it's a deferral, not forgiveness. The unpaid difference for the current and three prior years becomes a lien with interest, due when the home is sold or the owner passes. It requires a new application every year, and you cannot combine it with the Homestead or Disabled Veteran Exclusion. Understand it before you sign.
 - **Disabled Veteran Exclusion:** $45,000 off, no income limit, no age requirement. An unmarried surviving spouse may also qualify.
 
 All three use Form AV-9, available from the tax office. If you missed the June 1 deadline, call and ask: late applications can sometimes be accepted for good cause. For the full walk-through of how these statewide programs work (and the Circuit Breaker lien trap in particular), see our guide to [NC senior property tax relief](/blog/nc-senior-property-tax-relief-guilford-county).
@@ -17864,7 +17864,7 @@ Don't try to call all of it. Pick the one pressure point hurting most right now 
 Start with three front doors. NC 211 (dial 2-1-1) is the free 24/7 line that routes you to rent, utility, food, and medical help. The Concord Active Living Center at 704-920-3484 is the county senior center. Cabarrus County DHS at 704-920-1400 handles energy assistance, food benefits, and Medicaid.
 
 ### What property tax relief is available to seniors in Cabarrus County?
-The statewide North Carolina programs apply through Cabarrus County Tax Administration at 704-920-2100: the Homestead Exclusion (2026 income limit $38,800), the Circuit Breaker (a deferral that caps tax at 4% or 5% of income up to a $58,200 limit and becomes a lien), and the Disabled Veteran Exclusion ($45,000 off, no income limit). The application period is January 1 to June 1.
+The statewide North Carolina programs apply through Cabarrus County Tax Administration at 704-920-2100: the Homestead Exclusion (income limit $38,800 for the 2026 tax year, $39,900 for 2027), the Circuit Breaker (a deferral that caps tax at 4% or 5% of income up to a $58,200 limit and becomes a lien), and the Disabled Veteran Exclusion ($45,000 off, no income limit). The application period is January 1 to June 1.
 
 ### How do older adults in Cabarrus County get meals?
 Cabarrus Meals on Wheels delivers weekday meals to homebound seniors at 704-932-3412. Cooperative Christian Ministry (704-786-4709) runs a drive-thru food pantry, Second Harvest Food Bank of Metrolina (704-376-1785) fills in, and SNAP is available through Cabarrus County DHS at 704-920-1400.
@@ -17902,8 +17902,8 @@ If you're caring for an aging parent in Mocksville or anywhere in Davie County, 
 
 North Carolina's senior tax programs are administered by **Davie County Tax Administration** (123 South Main Street, Mocksville). To request the elderly or disabled exclusion application, call **336-753-6120** (other lines: revaluation and land records 336-753-6140, collections 336-753-6130). The deadline for all three is **June 1**, and after a county revaluation, watch your mail for relief deadlines.
 
-- **Homestead Exclusion:** greater of $25,000 or 50% off taxable value. Income limit $38,800 for the 2026 tax year. Age 65+ or totally and permanently disabled.
-- **Circuit Breaker:** caps tax at 4% of income (up to $38,800) or 5% (up to $58,200). CAUTION: it's a deferral, not forgiveness. The unpaid difference for the current and three prior years becomes a lien with interest, due when the home is sold or the owner passes. It requires a new application every year, and you cannot combine it with the Homestead Exclusion. Understand it before you sign.
+- **Homestead Exclusion:** greater of $25,000 or 50% off taxable value. Income limit $38,800 for the 2026 tax year and $39,900 for the 2027 tax year (NC DOR form AV-9). Age 65+ or totally and permanently disabled.
+- **Circuit Breaker:** caps tax at 4% of income (up to $38,800 for 2026, $39,900 for 2027) or 5% (up to $58,200 for 2026, $59,850 for 2027). CAUTION: it's a deferral, not forgiveness. The unpaid difference for the current and three prior years becomes a lien with interest, due when the home is sold or the owner passes. It requires a new application every year, and you cannot combine it with the Homestead Exclusion. Understand it before you sign.
 - **Disabled Veteran Exclusion:** $45,000 off, no income limit, no age requirement. An unmarried surviving spouse may also qualify.
 
 All three use Form AV-9, available from the tax office. If you missed the June 1 deadline, call and ask: late applications can sometimes be accepted for good cause. For the full walk-through of how these statewide programs work (and the Circuit Breaker lien trap in particular), see our guide to [NC senior property tax relief](/blog/nc-senior-property-tax-relief-guilford-county).
@@ -17974,7 +17974,7 @@ Don't try to call all of it. Pick the one pressure point hurting most right now 
 Start with three front doors. NC 211 (dial 2-1-1) is the free 24/7 line that routes you to rent, utility, food, and medical help. Davie County Senior Services at 336-753-6230 runs local aging programs, homebound meals, and caregiver help. Davie County DSS at 336-753-6180 handles energy assistance, food benefits, and Medicaid.
 
 ### What property tax relief is available to seniors in Davie County?
-The statewide North Carolina programs apply through Davie County Tax Administration (call 336-753-6120 for the application): the Homestead Exclusion (2026 income limit $38,800), the Circuit Breaker (a deferral that caps tax at 4% or 5% of income up to a $58,200 limit and becomes a lien), and the Disabled Veteran Exclusion ($45,000 off, no income limit). The deadline is June 1.
+The statewide North Carolina programs apply through Davie County Tax Administration (call 336-753-6120 for the application): the Homestead Exclusion (income limit $38,800 for the 2026 tax year, $39,900 for 2027), the Circuit Breaker (a deferral that caps tax at 4% or 5% of income up to a $58,200 limit and becomes a lien), and the Disabled Veteran Exclusion ($45,000 off, no income limit). The deadline is June 1.
 
 ### How do older adults in Davie County get meals?
 Davie County Senior Services delivers Homebound Meals to residents 60 and older at 336-753-6230. A Storehouse for Jesus (336-751-1060) runs a food pantry, Second Harvest Food Bank of Northwest NC (336-784-5770) fills in, and SNAP is available through Davie County DSS at 336-753-6180.
@@ -18012,8 +18012,8 @@ If you're caring for an aging parent in Lexington, Thomasville, or anywhere in D
 
 North Carolina's senior tax programs are administered by the **Davidson County Tax Assessor's office** (913 Greensboro Street, 3rd Floor Suite 303, Lexington; **336-242-2160**; mailing P.O. Box 1617, Lexington 27293). The deadline for all three is **June 1**, and after a county revaluation, watch your mail for relief deadlines. (Note: the county's own web page may still show older figures, but the statewide limit governs.)
 
-- **Homestead Exclusion:** greater of $25,000 or 50% off taxable value. Income limit $38,800 for the 2026 tax year. Age 65+ or totally and permanently disabled.
-- **Circuit Breaker:** caps tax at 4% of income (up to $38,800) or 5% (up to $58,200). CAUTION: it's a deferral, not forgiveness. The unpaid difference for the current and three prior years becomes a lien with interest, due when the home is sold or the owner passes. It requires a new application every year, and you cannot combine it with the Homestead Exclusion. Understand it before you sign.
+- **Homestead Exclusion:** greater of $25,000 or 50% off taxable value. Income limit $38,800 for the 2026 tax year and $39,900 for the 2027 tax year (NC DOR form AV-9). Age 65+ or totally and permanently disabled.
+- **Circuit Breaker:** caps tax at 4% of income (up to $38,800 for 2026, $39,900 for 2027) or 5% (up to $58,200 for 2026, $59,850 for 2027). CAUTION: it's a deferral, not forgiveness. The unpaid difference for the current and three prior years becomes a lien with interest, due when the home is sold or the owner passes. It requires a new application every year, and you cannot combine it with the Homestead Exclusion. Understand it before you sign.
 - **Disabled Veteran Exclusion:** $45,000 off, no income limit, no age requirement. An unmarried surviving spouse may also qualify.
 
 All three use Form AV-9, available from the tax office. If you missed the June 1 deadline, call and ask: late applications can sometimes be accepted for good cause. For the full walk-through of how these statewide programs work (and the Circuit Breaker lien trap in particular), see our guide to [NC senior property tax relief](/blog/nc-senior-property-tax-relief-guilford-county).
@@ -18086,7 +18086,7 @@ Don't try to call all of it. Pick the one pressure point hurting most right now 
 Start with three front doors. NC 211 (dial 2-1-1) is the free 24/7 line that routes you to rent, utility, food, and medical help. Davidson County Senior Services at 336-242-2290 runs local aging programs, meals, and caregiver help. Davidson County DSS at 336-242-2500 handles energy assistance, food benefits, and Medicaid.
 
 ### What property tax relief is available to seniors in Davidson County?
-The statewide North Carolina programs apply through the Davidson County Tax Assessor's office at 336-242-2160: the Homestead Exclusion (2026 income limit $38,800), the Circuit Breaker (a deferral that caps tax at 4% or 5% of income up to a $58,200 limit and becomes a lien), and the Disabled Veteran Exclusion ($45,000 off, no income limit). The deadline is June 1.
+The statewide North Carolina programs apply through the Davidson County Tax Assessor's office at 336-242-2160: the Homestead Exclusion (income limit $38,800 for the 2026 tax year, $39,900 for 2027), the Circuit Breaker (a deferral that caps tax at 4% or 5% of income up to a $58,200 limit and becomes a lien), and the Disabled Veteran Exclusion ($45,000 off, no income limit). The deadline is June 1.
 
 ### How do older adults in Davidson County get meals?
 Davidson County Senior Services runs Meals on Wheels (24 routes, no charge) for homebound residents 60 and older at 336-242-2290. Second Harvest Food Bank of Northwest NC (336-784-5770) and the Crisis Ministry of Davidson County (336-248-6684) fill in, and SNAP is available through Davidson County DSS at 336-242-2500.
@@ -18124,8 +18124,8 @@ If you're caring for an aging parent in Reidsville, Eden, or anywhere in Rocking
 
 North Carolina's senior tax programs are administered by **Rockingham County Tax Administration** (371 NC Highway 65, Suite 107, Wentworth; **336-342-8305**; mailing P.O. Box 68, Wentworth 27375; online myrockinghamcountynctax.com). The deadline for all three is **June 1**, and after a county revaluation, watch your mail for relief deadlines.
 
-- **Homestead Exclusion:** greater of $25,000 or 50% off taxable value. Income limit $38,800 for the 2026 tax year. Age 65+ or totally and permanently disabled.
-- **Circuit Breaker:** caps tax at 4% of income (up to $38,800) or 5% (up to $58,200). CAUTION: it's a deferral, not forgiveness. The unpaid difference for the current and three prior years becomes a lien with interest, due when the home is sold or the owner passes. It requires a new application every year, and you cannot combine it with the Homestead Exclusion. Understand it before you sign.
+- **Homestead Exclusion:** greater of $25,000 or 50% off taxable value. Income limit $38,800 for the 2026 tax year and $39,900 for the 2027 tax year (NC DOR form AV-9). Age 65+ or totally and permanently disabled.
+- **Circuit Breaker:** caps tax at 4% of income (up to $38,800 for 2026, $39,900 for 2027) or 5% (up to $58,200 for 2026, $59,850 for 2027). CAUTION: it's a deferral, not forgiveness. The unpaid difference for the current and three prior years becomes a lien with interest, due when the home is sold or the owner passes. It requires a new application every year, and you cannot combine it with the Homestead Exclusion. Understand it before you sign.
 - **Disabled Veteran Exclusion:** $45,000 off, no income limit, no age requirement. An unmarried surviving spouse may also qualify.
 
 All three use Form AV-9, available from the tax office. If you missed the June 1 deadline, call and ask: late applications can sometimes be accepted for good cause. For the full walk-through of how these statewide programs work (and the Circuit Breaker lien trap in particular), see our guide to [NC senior property tax relief](/blog/nc-senior-property-tax-relief-guilford-county).
@@ -18199,7 +18199,7 @@ Don't try to call all of it. Pick the one pressure point hurting most right now 
 Start with three front doors. NC 211 (dial 2-1-1) is the free 24/7 line that routes you to rent, utility, food, and medical help. Aging, Disability and Transit Services (ADTS) at 336-349-2343 is the local hub for aging programs, meals, caregiver help, and rides. Rockingham County DHHS (Social Services) at 336-342-1394 handles energy assistance, food benefits, and Medicaid.
 
 ### What property tax relief is available to seniors in Rockingham County?
-The statewide North Carolina programs apply through Rockingham County Tax Administration at 336-342-8305: the Homestead Exclusion (2026 income limit $38,800), the Circuit Breaker (a deferral that caps tax at 4% or 5% of income up to a $58,200 limit and becomes a lien), and the Disabled Veteran Exclusion ($45,000 off, no income limit). The deadline is June 1.
+The statewide North Carolina programs apply through Rockingham County Tax Administration at 336-342-8305: the Homestead Exclusion (income limit $38,800 for the 2026 tax year, $39,900 for 2027), the Circuit Breaker (a deferral that caps tax at 4% or 5% of income up to a $58,200 limit and becomes a lien), and the Disabled Veteran Exclusion ($45,000 off, no income limit). The deadline is June 1.
 
 ### How do older adults in Rockingham County get meals?
 ADTS runs Meals on Wheels for homebound seniors at 336-349-2343. Inside the city limits, hot meals arrive weekday mornings; in rural areas, frozen meals are delivered biweekly. ADTS also runs Meals With Friends congregate dining. Second Harvest Food Bank of Northwest NC (336-784-5770) fills in, and SNAP is available through Rockingham County DHHS at 336-342-1394.
@@ -18237,8 +18237,8 @@ If you're caring for an aging parent in Burlington or anywhere in Alamance Count
 
 North Carolina's senior tax programs are administered by the **Alamance County Tax Department** (124 West Elm Street, Graham; **336-228-1312**; tax.help@alamancecountync.gov). The deadline for all three is **June 1**, and after a county revaluation, watch your mail for relief deadlines.
 
-- **Homestead Exclusion:** greater of $25,000 or 50% off taxable value. 2025 income limit $38,800. Age 65+ or totally and permanently disabled.
-- **Circuit Breaker:** caps tax at 4% of income (up to $38,800) or 5% (up to $58,200). CAUTION: it's a deferral, not forgiveness. The unpaid difference for the current and three prior years becomes a lien at 6% interest, due when the home is sold or the owner passes, and you cannot combine it with the Homestead Exclusion. Understand it before you sign.
+- **Homestead Exclusion:** greater of $25,000 or 50% off taxable value. Income limit $38,800 for the 2026 tax year and $39,900 for the 2027 tax year (NC DOR form AV-9). Age 65+ or totally and permanently disabled.
+- **Circuit Breaker:** caps tax at 4% of income (up to $38,800 for 2026, $39,900 for 2027) or 5% (up to $58,200 for 2026, $59,850 for 2027). CAUTION: it's a deferral, not forgiveness. The unpaid difference for the current and three prior years becomes a lien at 6% interest, due when the home is sold or the owner passes, and you cannot combine it with the Homestead Exclusion. Understand it before you sign.
 - **Disabled Veteran Exclusion:** $45,000 off, no income limit, no age requirement. An unmarried surviving spouse may also qualify.
 
 All three use Form AV-9, available from the tax office. If you missed the June 1 deadline, call and ask: late applications can sometimes be accepted for good cause. For the full walk-through of how these statewide programs work (and the Circuit Breaker lien trap in particular), see our guide to [NC senior property tax relief](/blog/nc-senior-property-tax-relief-guilford-county).
@@ -18311,7 +18311,7 @@ Don't try to call all of it. Pick the one pressure point hurting most right now 
 Start with three front doors. NC 211 (dial 2-1-1) is the free 24/7 line that routes you to rent, utility, food, and medical help. Alamance ElderCare at 336-223-8099 is the local nonprofit for aging resources and caregiver support. Alamance County DSS at 336-570-6532 handles energy assistance, food benefits, and Medicaid.
 
 ### What property tax relief is available to seniors in Alamance County?
-The statewide North Carolina programs apply through the Alamance County Tax Department at 336-228-1312: the Homestead Exclusion (2025 income limit $38,800), the Circuit Breaker (a deferral that caps tax at 4% or 5% of income up to a $58,200 limit and becomes a 6% lien), and the Disabled Veteran Exclusion ($45,000 off, no income limit). The deadline is June 1.
+The statewide North Carolina programs apply through the Alamance County Tax Department at 336-228-1312: the Homestead Exclusion (income limit $38,800 for the 2026 tax year, $39,900 for 2027), the Circuit Breaker (a deferral that caps tax at 4% or 5% of income up to a $58,200 limit and becomes a 6% lien), and the Disabled Veteran Exclusion ($45,000 off, no income limit). The deadline is June 1.
 
 ### How do older adults in Alamance County get meals?
 Alamance County Meals on Wheels delivers weekday meals to homebound residents 60 and older at 336-228-8815. Second Harvest Food Bank of Northwest NC (336-784-5770) and local church pantries fill in, and SNAP is available through Alamance County DSS at 336-570-6532.
@@ -18453,8 +18453,8 @@ If you're caring for an aging parent in Asheboro or anywhere in Randolph County,
 
 North Carolina's senior tax programs are administered by the **Randolph County Tax Department** (725 McDowell Road, Asheboro; **336-318-6500**). The deadline for all three is **June 1**, and after a county revaluation, watch your mail for relief deadlines.
 
-- **Homestead Exclusion:** greater of $25,000 or 50% off taxable value. 2025 income limit $38,800. Age 65+ or totally and permanently disabled.
-- **Circuit Breaker:** caps tax at 4% of income (up to $38,800) or 5% (up to $58,200). CAUTION: it's a deferral, not forgiveness. The unpaid difference for the current and three prior years becomes a lien at 6% interest, due when the home is sold or the owner passes, and you cannot combine it with the Homestead Exclusion. Understand it before you sign.
+- **Homestead Exclusion:** greater of $25,000 or 50% off taxable value. Income limit $38,800 for the 2026 tax year and $39,900 for the 2027 tax year (NC DOR form AV-9). Age 65+ or totally and permanently disabled.
+- **Circuit Breaker:** caps tax at 4% of income (up to $38,800 for 2026, $39,900 for 2027) or 5% (up to $58,200 for 2026, $59,850 for 2027). CAUTION: it's a deferral, not forgiveness. The unpaid difference for the current and three prior years becomes a lien at 6% interest, due when the home is sold or the owner passes, and you cannot combine it with the Homestead Exclusion. Understand it before you sign.
 - **Disabled Veteran Exclusion:** $45,000 off, no income limit, no age requirement. An unmarried surviving spouse may also qualify.
 
 All three use Form AV-9, available from the tax office. If you missed the June 1 deadline, call and ask: late applications can sometimes be accepted for good cause. For the full walk-through of how these statewide programs work (and the Circuit Breaker lien trap in particular), see our guide to [NC senior property tax relief](/blog/nc-senior-property-tax-relief-guilford-county).
@@ -18525,7 +18525,7 @@ Don't try to call all of it. Pick the one pressure point hurting most right now 
 Start with three front doors. NC 211 (dial 2-1-1) is the free 24/7 line that routes you to rent, utility, food, and medical help. The Randolph Senior Adults Association at 336-625-3389 is the county's lead agency on aging. Randolph County DSS at 336-683-8000 handles energy assistance, food benefits, and Medicaid.
 
 ### What property tax relief is available to seniors in Randolph County?
-The statewide North Carolina programs apply through the Randolph County Tax Department at 336-318-6500: the Homestead Exclusion (2025 income limit $38,800), the Circuit Breaker (a deferral that caps tax at 4% or 5% of income up to a $58,200 limit and becomes a 6% lien), and the Disabled Veteran Exclusion ($45,000 off, no income limit). The deadline is June 1.
+The statewide North Carolina programs apply through the Randolph County Tax Department at 336-318-6500: the Homestead Exclusion (income limit $38,800 for the 2026 tax year, $39,900 for 2027), the Circuit Breaker (a deferral that caps tax at 4% or 5% of income up to a $58,200 limit and becomes a 6% lien), and the Disabled Veteran Exclusion ($45,000 off, no income limit). The deadline is June 1.
 
 ### How do older adults in Randolph County get meals?
 The Randolph Senior Adults Association runs Meals on Wheels for homebound residents 60 and older at 336-625-3389, plus weekday congregate lunches at senior centers in Asheboro, Archdale, Liberty, and Randleman. Second Harvest Food Bank of Northwest NC (336-784-5770) and the Christians United Outreach Center pantry (336-625-1500) fill in.
@@ -18563,8 +18563,8 @@ If you're caring for an aging parent in Charlotte or anywhere in Mecklenburg Cou
 
 North Carolina's senior tax programs are administered by the **Mecklenburg County Assessor's Office** (Valerie C. Woodard Center, 3205 Freedom Dr. Ste 3500, Charlotte; **980-314-4226**). The deadline for all three is **June 1**, and after a county revaluation, watch your mail for relief deadlines.
 
-- **Homestead Exclusion:** greater of $25,000 or 50% off taxable value. 2025 income limit $38,800. Age 65+ or totally and permanently disabled.
-- **Circuit Breaker:** caps tax at 4% of income (up to $38,800) or 5% (up to $58,200). CAUTION: it's a deferral, not forgiveness. The unpaid difference for the current and three prior years becomes a lien at 6% interest, due when the home is sold or the owner passes, and you cannot combine it with the Homestead Exclusion. Understand it before you sign.
+- **Homestead Exclusion:** greater of $25,000 or 50% off taxable value. Income limit $38,800 for the 2026 tax year and $39,900 for the 2027 tax year (NC DOR form AV-9). Age 65+ or totally and permanently disabled.
+- **Circuit Breaker:** caps tax at 4% of income (up to $38,800 for 2026, $39,900 for 2027) or 5% (up to $58,200 for 2026, $59,850 for 2027). CAUTION: it's a deferral, not forgiveness. The unpaid difference for the current and three prior years becomes a lien at 6% interest, due when the home is sold or the owner passes, and you cannot combine it with the Homestead Exclusion. Understand it before you sign.
 - **Disabled Veteran Exclusion:** $45,000 off, no income limit, no age requirement. An unmarried surviving spouse may also qualify.
 - **Free help applying:** the **Charlotte Center for Legal Advocacy** prepares NC property tax relief applications for eligible low-income seniors, disabled residents, and disabled veterans at no charge. **980-256-7952.**
 
@@ -18633,7 +18633,7 @@ Don't try to call all of it. Pick the one pressure point hurting most right now 
 Start with three front doors. NC 211 (dial 2-1-1) is the free 24/7 line that routes you to rent, utility, food, and medical help. Mecklenburg County Just 1 Call at 704-432-1111 is the single front door for senior and adult services. Mecklenburg County DSS at 704-336-3000 handles energy assistance, food benefits, and Medicaid.
 
 ### What property tax relief is available to seniors in Charlotte and Mecklenburg County?
-The statewide North Carolina programs apply through the Mecklenburg County Assessor's Office at 980-314-4226: the Homestead Exclusion (2025 income limit $38,800), the Circuit Breaker (a deferral that becomes a 6% lien, up to a $58,200 income limit), and the Disabled Veteran Exclusion ($45,000 off, no income limit). The deadline is June 1. The Charlotte Center for Legal Advocacy offers free help applying at 980-256-7952.
+The statewide North Carolina programs apply through the Mecklenburg County Assessor's Office at 980-314-4226: the Homestead Exclusion (income limit $38,800 for the 2026 tax year, $39,900 for 2027), the Circuit Breaker (a deferral that becomes a 6% lien, up to a $58,200 income limit), and the Disabled Veteran Exclusion ($45,000 off, no income limit). The deadline is June 1. The Charlotte Center for Legal Advocacy offers free help applying at 980-256-7952.
 
 ### Is there free help applying for property tax relief in Charlotte?
 Yes. The Charlotte Center for Legal Advocacy prepares NC property tax relief applications for eligible low-income seniors, disabled residents, and disabled veterans at no charge, by phone appointment or at clinics. Call 980-256-7952. It also offers free civil legal help alongside Legal Aid of North Carolina.
@@ -18671,8 +18671,8 @@ If you're helping an aging parent in Chapel Hill, Hillsborough, or anywhere in O
 
 North Carolina's senior tax programs are administered by the **Orange County Tax Administration** (228 S. Churton St., Hillsborough; **919-245-2100 option 2**, taxrelief@orangecountync.gov). The deadline for all three is **June 1**, and staff will help you fill out the application in person or by phone.
 
-- **Homestead Exclusion:** greater of $25,000 or 50% off taxable value (and up to one acre). 2025 income limit $38,800. Age 65+ on January 1, or totally and permanently disabled.
-- **Circuit Breaker:** caps tax at 4% of income (up to $38,800) or 5% (up to $58,200). CAUTION: it's a deferral, not forgiveness. The unpaid difference for the current and three prior years becomes a lien at 6% interest, due when the home is sold or the owner passes, and you cannot combine it with the Homestead Exclusion. Understand it before you sign.
+- **Homestead Exclusion:** greater of $25,000 or 50% off taxable value (and up to one acre). Income limit $38,800 for the 2026 tax year and $39,900 for the 2027 tax year (NC DOR form AV-9). Age 65+ on January 1, or totally and permanently disabled.
+- **Circuit Breaker:** caps tax at 4% of income (up to $38,800 for 2026, $39,900 for 2027) or 5% (up to $58,200 for 2026, $59,850 for 2027). CAUTION: it's a deferral, not forgiveness. The unpaid difference for the current and three prior years becomes a lien at 6% interest, due when the home is sold or the owner passes, and you cannot combine it with the Homestead Exclusion. Understand it before you sign.
 - **Disabled Veteran Exclusion:** $45,000 off, no income limit, no age requirement. An unmarried surviving spouse may also qualify.
 
 For the full walk-through of how these statewide programs work (and the Circuit Breaker lien trap in particular), see our guide to [NC senior property tax relief](/blog/nc-senior-property-tax-relief-guilford-county).
@@ -18744,7 +18744,7 @@ Don't try to call all of it. Pick the one pressure point hurting most right now 
 Start with three front doors. NC 211 (dial 2-1-1) is the free 24/7 line that routes you to rent, utility, food, and medical help. The Orange County Department on Aging Information Helpline at 919-968-2087 runs the Seymour Center (Chapel Hill) and Passmore Center (Hillsborough). Orange County DSS at 919-245-2800 handles energy assistance, food benefits, and Medicaid.
 
 ### What property tax relief is available to seniors in Orange County?
-The statewide North Carolina programs apply through Orange County Tax Administration (919-245-2100 option 2, taxrelief@orangecountync.gov): the Homestead Exclusion (2025 income limit $38,800), the Circuit Breaker (a deferral that becomes a 6% lien, so understand it before you sign), and the Disabled Veteran Exclusion ($45,000 off, no income limit). The deadline is June 1, and staff will help you fill out the form.
+The statewide North Carolina programs apply through Orange County Tax Administration (919-245-2100 option 2, taxrelief@orangecountync.gov): the Homestead Exclusion (income limit $38,800 for the 2026 tax year, $39,900 for 2027), the Circuit Breaker (a deferral that becomes a 6% lien, so understand it before you sign), and the Disabled Veteran Exclusion ($45,000 off, no income limit). The deadline is June 1, and staff will help you fill out the form.
 
 ### Is there free help building a wheelchair ramp or making home repairs in Orange County?
 Yes. Handy Helpers, run by the Orange County Department on Aging (Aging Helpline 919-968-2087), is a volunteer program that builds ramps and installs grab bars at no labor cost. For larger repairs, the county Urgent Repair Program offers a forgivable zero-interest loan up to $10,000, with preference for owners 62 and older.
@@ -18782,8 +18782,8 @@ If you're caring for an aging parent in Durham County, there's more help out the
 
 North Carolina has three statewide programs, administered by the **Durham County Tax Administration** (201 East Main St., 3rd Floor, Durham; **919-560-0300**), plus Durham runs one of its own. The deadline for the three state programs is **June 1.**
 
-- **Homestead Exclusion:** greater of $25,000 or 50% off taxable value. 2025 income limit $38,800. Age 65+ or totally and permanently disabled.
-- **Circuit Breaker:** caps tax at 4% of income (up to $38,800) or 5% (up to $58,200). CAUTION: it's a deferral, not forgiveness. The unpaid difference becomes a lien at 6% interest, due when the home is sold or the owner passes. Understand it before you sign.
+- **Homestead Exclusion:** greater of $25,000 or 50% off taxable value. Income limit $38,800 for the 2026 tax year and $39,900 for the 2027 tax year (NC DOR form AV-9). Age 65+ or totally and permanently disabled.
+- **Circuit Breaker:** caps tax at 4% of income (up to $38,800 for 2026, $39,900 for 2027) or 5% (up to $58,200 for 2026, $59,850 for 2027). CAUTION: it's a deferral, not forgiveness. The unpaid difference becomes a lien at 6% interest, due when the home is sold or the owner passes. Understand it before you sign.
 - **Disabled Veteran Exclusion:** $45,000 off, no income limit, no age requirement. An unmarried surviving spouse may also qualify.
 - **Durham's Low-Income Homeowner Relief (LIHR):** a Durham County program (run by DSS, not the tax office) that helps eligible homeowners with the property tax bill on a three-tier income model. You must have owned and lived in the home five years, be at or below 80% of area median income, and not already be receiving a state property tax subsidy. Applications typically open September 1. Apply through **Durham County DSS, 919-560-8000.**
 
@@ -18854,7 +18854,7 @@ Don't try to call all of it. Pick the one pressure point hurting most right now 
 Start with three front doors. NC 211 (dial 2-1-1) is the free 24/7 line that routes you to rent, utility, food, and medical help. The Durham Center for Senior Life at 919-688-8247 is the local hub for older adults. Durham County DSS at 919-560-8000 handles energy assistance, food benefits, and Medicaid.
 
 ### What property tax relief is available to seniors in Durham County?
-The statewide North Carolina programs apply through Durham County Tax Administration at 919-560-0300: the Homestead Exclusion (2025 income limit $38,800), the Circuit Breaker (a deferral that becomes a 6% lien), and the Disabled Veteran Exclusion ($45,000 off, no income limit), all due June 1. Durham also runs its own Low-Income Homeowner Relief (LIHR) program through Durham County DSS at 919-560-8000, on a three-tier income model for owners at or below 80% of area median income who have lived in the home five years.
+The statewide North Carolina programs apply through Durham County Tax Administration at 919-560-0300: the Homestead Exclusion (income limit $38,800 for the 2026 tax year, $39,900 for 2027), the Circuit Breaker (a deferral that becomes a 6% lien), and the Disabled Veteran Exclusion ($45,000 off, no income limit), all due June 1. Durham also runs its own Low-Income Homeowner Relief (LIHR) program through Durham County DSS at 919-560-8000, on a three-tier income model for owners at or below 80% of area median income who have lived in the home five years.
 
 ### How do older adults in Durham get help with heating bills?
 Apply through Durham County DSS for LIEAP, a one-time annual heating payment, and the Crisis Intervention Program for a heating or cooling emergency. The LIEAP specialist line is 919-560-8192 and the main DSS number is 919-560-8000. Seniors 60 and older and disabled adults get a priority sign-up window.
@@ -18926,7 +18926,7 @@ Most county registers of deeds offer a free property fraud alert service. You si
 
 ### Know that you have more than one way to sell
 
-A big reason families fall for a single pushy offer is that they think they only have one option. They do not. There are several legitimate ways to move a senior's home, from a traditional listing to as-is sales to owner financing, and the right one depends on the home's condition, the timeline, and the family's goals. When you understand the full menu, no single buyer can corner you. Our Strategic Exit Engine walks through which path fits your situation.
+A big reason families fall for a single pushy offer is that they think they only have one option. They do not. The first choice is not which buyer. It is whether to sell, rent or keep the house, and that depends on the home's condition, the timeline, and the family's goals. Once the family has decided, no single buyer can corner you. If you sell, one vetted local agent is usually the cleanest path. Our [sell, rent or keep guide](/sell-rent-or-keep-parents-house) walks through the choice.
 
 ### Watch the mail and the phone together
 
@@ -18957,7 +18957,7 @@ Do not panic and do not pay a termination fee before getting advice. Contact a r
 
 **Run the real number first.** Before any sale, see what your family would actually net: rigginsstrategicsolutions.com/tools/net-proceeds-calculator
 
-**Know all your options.** The Strategic Exit Engine flags which sale path fits your situation: rigginsstrategicsolutions.com/tools/strategic-exit-engine
+**Decide sell, rent or keep first.** The free guide walks through the choice: rigginsstrategicsolutions.com/sell-rent-or-keep-parents-house
 
 **Want a step-by-step guide?** The free Simple Blueprint walks through every stage of a senior transition: rigginsstrategicsolutions.com/freeguide
 
@@ -18997,8 +18997,8 @@ If you're helping an aging parent in Raleigh or anywhere in Wake County, there's
 
 North Carolina's senior tax programs are administered by the **Wake County Department of Tax Administration** (301 S. McDowell St., 3rd Floor, Raleigh; **919-856-5400**, taxhelp@wake.gov). The deadline for all three is **June 1.**
 
-- **Homestead Exclusion:** greater of $25,000 or 50% off taxable value. 2025 income limit $38,800. Age 65+ or totally and permanently disabled.
-- **Circuit Breaker:** caps tax at 4% of income (up to $38,800) or 5% (up to $58,200). CAUTION: it's a deferral, not forgiveness. The unpaid difference for the current and three prior years becomes a lien at 6% interest, due when the home is sold or the owner passes. Understand it before you sign.
+- **Homestead Exclusion:** greater of $25,000 or 50% off taxable value. Income limit $38,800 for the 2026 tax year and $39,900 for the 2027 tax year (NC DOR form AV-9). Age 65+ or totally and permanently disabled.
+- **Circuit Breaker:** caps tax at 4% of income (up to $38,800 for 2026, $39,900 for 2027) or 5% (up to $58,200 for 2026, $59,850 for 2027). CAUTION: it's a deferral, not forgiveness. The unpaid difference for the current and three prior years becomes a lien at 6% interest, due when the home is sold or the owner passes. Understand it before you sign.
 - **Disabled Veteran Exclusion:** $45,000 off, no income limit, no age requirement. An unmarried surviving spouse may also qualify.
 
 These are statewide programs, so for the full walk-through of how each one works (and the Circuit Breaker lien trap in particular), see our guide to [NC senior property tax relief](/blog/nc-senior-property-tax-relief-guilford-county). Just use the Wake County Tax Administration number above.
@@ -19067,7 +19067,7 @@ Don't try to call all of it. Pick the one pressure point hurting most right now 
 Start with three front doors. NC 211 (dial 2-1-1) is the free 24/7 line that routes you to rent, utility, food, and medical help. Resources for Seniors at 919-872-7933 is the Wake County hub for older adults. Wake County Health and Human Services, Energy and Benefits, at 919-212-7000 handles energy assistance, food benefits, and Medicaid.
 
 ### What property tax relief is available to seniors in Wake County?
-The statewide North Carolina programs apply, administered by Wake County Tax Administration at 919-856-5400: the Homestead Exclusion (2025 income limit $38,800), the Circuit Breaker (a deferral that becomes a 6% lien, so understand it before you sign), and the Disabled Veteran Exclusion ($45,000 off with no income limit). The deadline is June 1.
+The statewide North Carolina programs apply, administered by Wake County Tax Administration at 919-856-5400: the Homestead Exclusion (income limit $38,800 for the 2026 tax year, $39,900 for 2027), the Circuit Breaker (a deferral that becomes a 6% lien, so understand it before you sign), and the Disabled Veteran Exclusion ($45,000 off with no income limit). The deadline is June 1.
 
 ### How do older adults in Raleigh get help with heating bills?
 Apply through Wake County Health and Human Services at 919-212-7000 for LIEAP, a one-time annual heating payment, and the Crisis Intervention Program for a heating or cooling emergency. Seniors 60 and older and disabled adults get a priority sign-up window.
@@ -19653,7 +19653,7 @@ Move quickly. Have a real estate attorney review the contract, especially the as
 
 ---
 
-**Comparing a cash offer against every other way to sell?** The free Strategic Exit Engine walks through all 5 exit strategies: rigginsstrategicsolutions.com/tools/strategic-exit-engine
+**Holding a cash offer?** Decide sell, rent or keep first. If you sell, one vetted local agent. Ryan never buys and never bids: rigginsstrategicsolutions.com/sell-rent-or-keep-parents-house
 
 **Want a step-by-step guide?** The free Simple Blueprint walks through every stage of a senior transition: rigginsstrategicsolutions.com/freeguide
 
@@ -19701,7 +19701,7 @@ If you're caring for an aging parent in Winston-Salem or anywhere in Forsyth Cou
 
 North Carolina's senior tax programs are administered by the **Forsyth County Tax Administration, 336-703-2300.** They lower the value both the county and the City of Winston-Salem tax, so they cut the whole bill.
 
-- **Homestead Exclusion:** greater of $25,000 or 50% off taxable value. 2026 income limit $38,800. Age 65+ or totally and permanently disabled. Deadline June 1.
+- **Homestead Exclusion:** greater of $25,000 or 50% off taxable value. Income limit $38,800 for the 2026 tax year and $39,900 for the 2027 tax year (NC DOR form AV-9). Age 65+ or totally and permanently disabled. Deadline June 1.
 - **Circuit Breaker:** caps tax at 4-5% of income, limit $58,200. CAUTION: it's a deferral, the unpaid difference becomes a lien at 6% interest, due when the home is sold or the owner passes. Understand it before you sign.
 - **Disabled Veteran Exclusion:** $45,000 off, no income limit, no age requirement.
 
@@ -19776,7 +19776,7 @@ Yes. NC MedAssist runs a free pharmacy program that mails medications to uninsur
 Yes. PACE of the Triad West in Winston-Salem coordinates a senior's entire medical care, including primary care, a day program, therapy, personal care, and transportation, so someone who would otherwise qualify for a nursing home can keep living at home. Call 336-550-4040.
 
 ### What property tax relief is available to seniors in Forsyth County?
-The same statewide North Carolina programs apply, administered locally by Forsyth County Tax Administration at 336-703-2300: the Homestead Exclusion (2026 income limit $38,800), the Circuit Breaker (which is a deferral with a 6% lien, so understand it before you sign), and the Disabled Veteran Exclusion ($45,000 off with no income limit). The deadline is June 1.
+The same statewide North Carolina programs apply, administered locally by Forsyth County Tax Administration at 336-703-2300: the Homestead Exclusion (income limit $38,800 for the 2026 tax year, $39,900 for 2027), the Circuit Breaker (which is a deferral with a 6% lien, so understand it before you sign), and the Disabled Veteran Exclusion ($45,000 off with no income limit). The deadline is June 1.
 
 *I'm Ryan Riggins. I spent years on the investor side of real estate, then switched to [educating families through senior transitions](/freeguide) so they don't get taken advantage of during the hardest season of their lives. This guide is free. If it helped, pass it on.*
 
@@ -20112,7 +20112,7 @@ Sign up for your county recorder's property records alert service if one exists,
 
 ---
 
-**Run the stay-or-sell math first.** The free Strategic Exit Engine walks through your options when there is a mortgage, a reverse mortgage, or a care bill in the picture: rigginsstrategicsolutions.com/tools/strategic-exit-engine
+**Decide sell, rent or keep first.** The free guide walks through the choice when there is a mortgage, a reverse mortgage, or a care bill in the picture: rigginsstrategicsolutions.com/sell-rent-or-keep-parents-house
 
 **Want a step-by-step guide?** The free Simple Blueprint walks through every stage of a senior transition: rigginsstrategicsolutions.com/freeguide
 
@@ -20336,7 +20336,7 @@ The tax pro doesn't have to be expensive. A two-hour consultation with a CPA who
 
 This is the one I see most often. The tax math scares the family into accepting a low cash offer because "at least it's done." That's almost never the right move. The tax bill is what it is. Selling for $80,000 less than the home is worth to avoid a $20,000 tax bill is a $60,000 mistake.
 
-If the right answer is to list with an agent and do the work, do the work. If the right answer is owner financing or a strategic exit to spread the gain over multiple tax years, do that. Run the math on every option before letting urgency drive the decision. The [Strategic Exit Engine](https://rigginsstrategicsolutions.com/tools/strategic-exit-engine) walks through all seven sale paths.
+Decide sell, rent or keep first. If the right answer is to sell, list with one vetted local agent and do the work. If someone pitches a way to spread the gain over several tax years, have a CPA and an attorney read it before anyone signs. Run the math before letting urgency drive the decision. The [sell, rent or keep guide](/sell-rent-or-keep-parents-house) walks through the choice.
 
 ## A Note on the Politics
 

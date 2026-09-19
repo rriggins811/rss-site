@@ -4,7 +4,7 @@ import { JsonLd } from "@/components/site/JsonLd";
 import { Button } from "@/components/ui/button";
 import { EmailFallback } from "@/components/site/EmailFallback";
 import {
-  TOOLS,
+  PUBLIC_TOOLS,
   CATEGORY_LABELS,
   type Tool,
   type ToolCategory,
@@ -51,12 +51,12 @@ function toCard(t: Tool): Card {
 }
 
 function groupedCards(): Record<ToolCategory, Card[]> {
-  const financial = TOOLS.filter((t) => t.category === "financial").map(toCard);
+  const financial = PUBLIC_TOOLS.filter((t) => t.category === "financial").map(toCard);
   const planning = [
-    ...TOOLS.filter((t) => t.category === "planning").map(toCard),
+    ...PUBLIC_TOOLS.filter((t) => t.category === "planning").map(toCard),
     ...EXTRA_PLANNING,
   ];
-  const assessment = TOOLS.filter((t) => t.category === "assessment").map(toCard);
+  const assessment = PUBLIC_TOOLS.filter((t) => t.category === "assessment").map(toCard);
   return { financial, planning, assessment };
 }
 
@@ -94,16 +94,15 @@ export default function ToolsHubPage() {
     { name: "Tools", path: "/tools" },
   ]);
 
-  // CollectionPage + ItemList for the tools hub. Every entry in TOOLS
-  // has a public /tools/[slug] page (rss-site Tool type has no public/
-  // private flag — all entries are public). Cap at first 30 to stay
-  // inside Google's recommended ItemList size.
+  // CollectionPage + ItemList for the tools hub. Only PUBLIC_TOOLS: hidden
+  // tools (Tool.hidden) keep their URL but stay out of the hub. Cap at
+  // first 30 to stay inside Google's recommended ItemList size.
   const collection = collectionPageSchema({
     name: "Free Interactive Tools for Senior Transitions",
     description:
       "Free calculators and triage tools for adult children handling a parent's senior housing transition. Net proceeds, caregiver burnout, Medicare gap, aging-in-place break-even, and more.",
     pageUrl: abs("/tools"),
-    items: TOOLS.slice(0, 30).map((t) => ({
+    items: PUBLIC_TOOLS.slice(0, 30).map((t) => ({
       name: t.title,
       itemUrl: abs(`/tools/${t.slug}`),
       description: t.description,

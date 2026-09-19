@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 import { getAllPosts } from "@/lib/blog";
 import { getAllMedia } from "@/lib/media";
 import { getPublishedVideos } from "@/lib/videos";
-import { TOOLS } from "@/lib/tools";
+import { PUBLIC_TOOLS } from "@/lib/tools";
 import { RESOURCES } from "@/lib/resources";
 import { getResourceContent } from "@/lib/resource-content";
 import { indexableStates } from "@/lib/directory";
@@ -92,7 +92,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
-  const toolEntries: MetadataRoute.Sitemap = TOOLS.map((t) => ({
+  const toolEntries: MetadataRoute.Sitemap = PUBLIC_TOOLS.map((t) => ({
     url: `${SITE_URL}/tools/${t.slug}`,
     lastModified: now,
     changeFrequency: "monthly",

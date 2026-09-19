@@ -233,7 +233,7 @@
       <div class="rss-a-pillar-item"><div class="rss-a-pillar-icon">2</div><div class="rss-a-pillar-item-text"><strong>Financial & Legal Preparation</strong>: documents, budgets, benefits</div></div>
       <div class="rss-a-pillar-item"><div class="rss-a-pillar-icon">3</div><div class="rss-a-pillar-item-text"><strong>Family Communication</strong>: alignment, roles, decision-making</div></div>
       <div class="rss-a-pillar-item"><div class="rss-a-pillar-icon">4</div><div class="rss-a-pillar-item-text"><strong>Senior's Physical & Emotional Readiness</strong>: health, acceptance, safety</div></div>
-      <div class="rss-a-pillar-item" style="border-bottom:none;"><div class="rss-a-pillar-icon">5</div><div class="rss-a-pillar-item-text"><strong>Exit Strategy Clarity</strong>: selling options, timeline, agent awareness</div></div>
+      <div class="rss-a-pillar-item" style="border-bottom:none;"><div class="rss-a-pillar-icon">5</div><div class="rss-a-pillar-item-text"><strong>Sell, Rent or Keep Decision</strong>: the family's decision, timeline, agent vetting</div></div>
     </div>
     <button class="rss-a-btn rss-a-btn-gold" onclick="rssAssessApp.start()" style="padding:16px 48px; font-size:18px;">Start the Assessment →</button>
     <p style="font-size:13px; color:#9ca3af; margin-top:12px;">No email required. Instant results.</p>
@@ -340,7 +340,7 @@
     { id: 'financial', name: 'Financial & Legal', short: 'Financial', maxPoints: 20 },
     { id: 'family', name: 'Family Communication', short: 'Family', maxPoints: 20 },
     { id: 'senior', name: 'Senior Readiness', short: 'Senior', maxPoints: 20 },
-    { id: 'exit', name: 'Exit Strategy', short: 'Exit', maxPoints: 20 }
+    { id: 'exit', name: 'Sell, Rent or Keep', short: 'Decision', maxPoints: 20 }
   ];
 
   var QUESTIONS = [
@@ -416,10 +416,10 @@
         { text: "A few minor concerns we're monitoring", points: 3 },
         { text: "Yes, there have been falls, near-misses, or dangerous situations", points: 1 }
       ]},
-    { pillar: 'exit', text: "Do you understand the different options for selling the home?", subtitle: "Traditional listing, as-is sale, creative strategies, investor offers.",
+    { pillar: 'exit', text: "Has the family decided whether to sell, rent or keep the home?", subtitle: "Decide that first. If you sell, use one vetted local agent, not the first cash offer.",
       options: [
-        { text: "Yes, I know the pros and cons of multiple strategies", points: 7 },
-        { text: "I know about traditional listing, but not much else", points: 4 },
+        { text: "Yes, we've weighed selling, renting and keeping, and we agree", points: 7 },
+        { text: "We've talked about it but haven't decided", points: 4 },
         { text: "No, I assumed we'd just list with a realtor or take a cash offer", points: 1 }
       ]},
     { pillar: 'exit', text: "Do you have a realistic timeline and price expectation for the home?", subtitle: "Overpricing or rushing are the two biggest mistakes families make.",

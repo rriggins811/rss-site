@@ -66,7 +66,7 @@ export function RelatedReading({
       }
       if (m.type === "tool") {
         const t = getToolBySlug(m.slug);
-        if (!t) return null;
+        if (!t || t.hidden) return null;
         return { url, type: m.type, title: t.title, excerpt: t.description };
       }
       return null;
