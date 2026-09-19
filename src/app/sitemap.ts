@@ -7,6 +7,7 @@ import { RESOURCES } from "@/lib/resources";
 import { getResourceContent } from "@/lib/resource-content";
 import { indexableStates } from "@/lib/directory";
 import { SITE_URL } from "@/lib/site";
+import { CITY_INDEX_PATH, CITY_PAGES, cityPath } from "@/lib/city-pages";
 
 /**
  * Dynamic sitemap. Auto-derives from:
@@ -29,6 +30,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/about", changeFrequency: "monthly", priority: 0.8 },
     { path: "/what-is-a-senior-transition-advisor", changeFrequency: "monthly", priority: 0.9 },
     { path: "/mom-moving-to-assisted-living-what-to-do-with-the-house", changeFrequency: "monthly", priority: 0.9 },
+    { path: "/sell-rent-or-keep-parents-house", changeFrequency: "monthly", priority: 0.9 },
+    { path: CITY_INDEX_PATH, changeFrequency: "monthly", priority: 0.8 },
+    ...CITY_PAGES.map((c) => ({
+      path: cityPath(c.slug),
+      changeFrequency: "monthly" as const,
+      priority: 0.8,
+    })),
     { path: "/faq", changeFrequency: "monthly", priority: 0.8 },
     { path: "/the-blueprint", changeFrequency: "monthly", priority: 0.9 },
     { path: "/the-roadmap", changeFrequency: "monthly", priority: 0.9 },
