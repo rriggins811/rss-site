@@ -86,7 +86,7 @@ export async function GET() {
       url: AUTHOR.url,
       image: AUTHOR.imageUrl,
       birth_year: 1990,
-      location: ORGANIZATION.cityState,
+      location: ORGANIZATION.baseCityState,
       nc_real_estate_license: "361546",
       brokerage: "eXp Realty",
       books: [

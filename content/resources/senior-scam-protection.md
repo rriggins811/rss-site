@@ -115,4 +115,4 @@ Call the Department of Justice National Elder Fraud Hotline at 1-833-372-8311, r
 
 ## About Ryan Riggins
 
-Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash buyer side to help families avoid the costly mistakes he used to profit from. Based in Raleigh, NC. NC Real Estate License #361546, eXp Realty. Founder of Riggins Strategic Solutions and the Hammock365 app. This page is education, not legal or financial advice.
+Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash buyer side to help families avoid the costly mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of Riggins Strategic Solutions and the Hammock365 app. This page is education, not legal or financial advice.

@@ -47,6 +47,17 @@ const NC_CITIES = [
 const SC_CITIES = ["Myrtle Beach", "Conway", "Georgetown"] as const;
 
 export const SERVICE_AREA = [
+  {
+    "@type": "Place",
+    name: "Piedmont Triad, North Carolina",
+    containedInPlace: { "@type": "State", name: "North Carolina" },
+  },
+  {
+    "@type": "Place",
+    name: "Research Triangle, North Carolina",
+    containedInPlace: { "@type": "State", name: "North Carolina" },
+  },
+  { "@type": "State", name: "North Carolina" },
   ...NC_CITIES.map((name) => ({
     "@type": "City",
     name: `${name}, NC`,
@@ -68,11 +79,13 @@ export const SERVICE_AREA = [
 export const ORGANIZATION = {
   name: SITE_NAME,
   // Riggins Strategic Solutions is a d/b/a of Riggins Properties LLC, not an
-  // LLC of its own. Ryan's call 2026-09-19: ONE public address and ONE public
-  // phone everywhere, on this site, hammock365.com and every profile.
-  // `address` is that one address in schema parts; `mailingAddress` is kept
-  // as an alias for older callers. Do not reintroduce a Greensboro street
-  // address or a second phone line.
+  // LLC of its own. Ryan's call 2026-09-19, corrected 2026-09-21: ONE public
+  // phone, and ONE published address, which is the MAILING address in
+  // Raleigh. Ryan is based in Greensboro (he works from home there, no public
+  // office yet) and works in Raleigh, statewide and nationwide. `address` is
+  // the mailing address in schema parts; `mailingAddress` is an alias for
+  // older callers. Label it "Mailing address" in visible copy. Never publish
+  // a Greensboro street address or a second phone line.
   legalName: "Riggins Properties LLC",
   legalLine: "Riggins Properties LLC d/b/a Riggins Strategic Solutions",
   mailingAddress: {
@@ -89,6 +102,7 @@ export const ORGANIZATION = {
   // ProfessionalService schemas + Web2 mini-site avatars + directory
   // submissions. NAP_MASTER workbook tracks this as a LOCKED URL.
   logoUrl: `${SITE_URL}/brand/logo-horizontal.png`,
+  foundingLocation: "Greensboro, North Carolina",
   address: {
     streetAddress: "4030 Wake Forest Rd Ste 349",
     addressLocality: "Raleigh",
@@ -96,8 +110,8 @@ export const ORGANIZATION = {
     postalCode: "27609",
     addressCountry: "US",
   },
-  /** City and state for "based in" copy. */
-  cityState: "Raleigh, NC",
+  /** Where Ryan is based, for "based in" copy. Not the mailing address. */
+  baseCityState: "Greensboro, NC",
   telephone: "+1-336-553-8933",
   /** The one public phone, display form. */
   telephoneDisplay: "(336) 553-8933",

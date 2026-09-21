@@ -33,7 +33,7 @@ import { ROLE_DEFINITION, ROLE_TITLE } from "@/lib/site";
 export const metadata: Metadata = {
   title: "About Ryan Riggins",
   description:
-    "Senior Transition Advisor for the family home. I help families decide what happens to a parent's house before anyone lists it. Not a mover, not a placement agent, never the listing agent. Raleigh, NC.",
+    "Senior Transition Advisor for the family home. I help families decide what happens to a parent's house before anyone lists it. Not a mover, not a placement agent, never the listing agent. Greensboro, NC.",
   alternates: { canonical: "/about" },
   openGraph: {
     type: "website",
@@ -123,7 +123,7 @@ export default function AboutPage() {
               mistakes.&rdquo;
             </p>
             <p className="mt-4 text-sm text-ink/70">
-              Raleigh, NC · Serving families nationwide
+              Greensboro, NC · Serving families nationwide
             </p>
             <p className="mt-2 text-sm">
               <Link

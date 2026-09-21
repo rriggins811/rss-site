@@ -93,7 +93,7 @@ export function SiteFooter() {
             <p className="mt-4 text-sm text-cream/80 leading-relaxed">
               Ryan Riggins, Senior Transition Advisor for the family home. I
               help families decide what happens to a parent&rsquo;s house
-              before anyone lists it. Raleigh, NC &middot;
+              before anyone lists it. Greensboro, NC &middot;
               Serving families nationwide.
             </p>
             <p className="mt-2 text-xs text-cream/70 leading-relaxed">

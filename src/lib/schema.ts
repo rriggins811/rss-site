@@ -118,7 +118,9 @@ export function organizationSchema() {
     founder: { "@id": PERSON_ID },
     email: ORGANIZATION.email,
     telephone: ORGANIZATION.telephone,
+    // The mailing address. Ryan is based in Greensboro (foundingLocation).
     address: { "@type": "PostalAddress", ...ORGANIZATION.address },
+    foundingLocation: { "@type": "Place", name: ORGANIZATION.foundingLocation },
     areaServed: SERVICE_AREA,
     // sameAs reinforces the identity graph: same brand on social profiles,
     // the Hammock365 marketing site (consumer brand for the app shipped by
@@ -197,7 +199,7 @@ export function enrichedPersonSchema() {
       description: ROLE_DEFINITION,
       occupationLocation: {
         "@type": "City",
-        name: ORGANIZATION.cityState,
+        name: ORGANIZATION.baseCityState,
       },
       skills: [...AUTHOR.knowsAbout].join(", "),
     },
@@ -655,10 +657,10 @@ export function seniorSafeMobileApplicationSchema() {
 
 /**
  * ProfessionalService schema for the homepage. Adds local-business signals
- * (the one public address, areaServed, opening hours) on top of the global
+ * (the mailing address, areaServed, opening hours) on top of the global
  * Organization + Person schemas emitted from layout.tsx. No priceRange: the
- * service is free to the family. No geo: the old coordinates pointed at
- * Greensboro, not the Raleigh address (NAP cleanup 2026-09-21).
+ * service is free to the family. No geo: Ryan works from home in
+ * Greensboro and there is no public office to pin (NAP cleanup 2026-09-21).
  */
 export function professionalServiceSchema() {
   return {
@@ -864,8 +866,8 @@ export type JsonLdValue = Record<string, unknown> | Record<string, unknown>[];
  * ProfessionalService for one city page (city pages, 2026-09-19). Same
  * business and founder as the site-wide ProfessionalService, but with its
  * own @id per page so areaServed can be that one city without rewriting
- * the site entity. The address is the one public business address (Raleigh);
- * no office is claimed in the city itself. No priceRange: the service is free to the
+ * the site entity. The address is the Raleigh mailing address; no office is
+ * claimed in the city itself. No priceRange: the service is free to the
  * family (SEO audit 2026-09-19).
  */
 export function cityServiceSchema(args: {

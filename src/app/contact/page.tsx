@@ -129,7 +129,7 @@ export default function ContactPage() {
           <address className="mt-10 not-italic text-sm text-ink/70 leading-relaxed">
             {ORGANIZATION.legalLine}
             <br />
-            Mail: {ORGANIZATION.mailingAddressLine}
+            Mailing address: {ORGANIZATION.mailingAddressLine}
             <br />
             Phone and text:{" "}
             <a href="tel:+13365538933" className="underline hover:text-burgundy-700">
