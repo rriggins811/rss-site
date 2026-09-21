@@ -143,6 +143,19 @@ export default async function BlogPostPage({
             {formatPostDate(post.datePublished)} &middot; {post.readMinutes} min read
           </div>
           <h1 className="mt-4 leading-[1.1]">{post.frontmatter.title}</h1>
+          <p className="mt-4 text-sm text-ink/70">
+            By{" "}
+            <Link
+              href="/about"
+              className="font-semibold text-navy-700 hover:text-burgundy-700"
+            >
+              Ryan Riggins
+            </Link>{" "}
+            &middot; Updated{" "}
+            <time dateTime={post.dateModified.slice(0, 10)}>
+              {formatPostDate(post.dateModified)}
+            </time>
+          </p>
           <p className="mt-6 text-lg text-ink/80 leading-relaxed">
             {post.frontmatter.excerpt}
           </p>

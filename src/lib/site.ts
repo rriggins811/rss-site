@@ -68,9 +68,11 @@ export const SERVICE_AREA = [
 export const ORGANIZATION = {
   name: SITE_NAME,
   // Riggins Strategic Solutions is a d/b/a of Riggins Properties LLC, not an
-  // LLC of its own. mailingAddress is the LLC's registered agent address, the
-  // one to publish wherever an address is needed (email footers, legal pages).
-  // `address` below stays the Greensboro base for local schema.
+  // LLC of its own. Ryan's call 2026-09-19: ONE public address and ONE public
+  // phone everywhere, on this site, hammock365.com and every profile.
+  // `address` is that one address in schema parts; `mailingAddress` is kept
+  // as an alias for older callers. Do not reintroduce a Greensboro street
+  // address or a second phone line.
   legalName: "Riggins Properties LLC",
   legalLine: "Riggins Properties LLC d/b/a Riggins Strategic Solutions",
   mailingAddress: {
@@ -87,13 +89,18 @@ export const ORGANIZATION = {
   // ProfessionalService schemas + Web2 mini-site avatars + directory
   // submissions. NAP_MASTER workbook tracks this as a LOCKED URL.
   logoUrl: `${SITE_URL}/brand/logo-horizontal.png`,
-  foundingLocation: "Greensboro, North Carolina",
   address: {
-    addressLocality: "Greensboro",
+    streetAddress: "4030 Wake Forest Rd Ste 349",
+    addressLocality: "Raleigh",
     addressRegion: "NC",
+    postalCode: "27609",
     addressCountry: "US",
   },
+  /** City and state for "based in" copy. */
+  cityState: "Raleigh, NC",
   telephone: "+1-336-553-8933",
+  /** The one public phone, display form. */
+  telephoneDisplay: "(336) 553-8933",
   email: "ryan@rigginsstrategicsolutions.com",
   areaServed: "United States",
 } as const;

@@ -9,11 +9,12 @@ import { SocialLinks } from "@/components/site/SocialLinks";
 import { ContactForm } from "@/components/forms/ContactForm";
 import { JsonLd } from "@/components/site/JsonLd";
 import { breadcrumbListSchema, professionalServiceSchema } from "@/lib/schema";
+import { ORGANIZATION } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Contact Ryan",
   description:
-    "Text, call, email, or book a free 20-minute call with Ryan Riggins. Senior transition advisor serving Greensboro and the NC Triad.",
+    "Text, call, email, or book a free 20-minute call with Ryan Riggins, Senior Transition Advisor for the family home in the NC Triad and the Triangle.",
   alternates: { canonical: "/contact" },
 };
 
@@ -124,6 +125,17 @@ export default function ContactPage() {
               </CardContent>
             </Card>
           </div>
+
+          <address className="mt-10 not-italic text-sm text-ink/70 leading-relaxed">
+            {ORGANIZATION.legalLine}
+            <br />
+            Mail: {ORGANIZATION.mailingAddressLine}
+            <br />
+            Phone and text:{" "}
+            <a href="tel:+13365538933" className="underline hover:text-burgundy-700">
+              {ORGANIZATION.telephoneDisplay}
+            </a>
+          </address>
         </div>
       </section>
 

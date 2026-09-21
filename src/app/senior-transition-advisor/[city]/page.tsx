@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { PAGE_UPDATED } from "@/lib/page-dates";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Button } from "@/components/ui/button";
@@ -24,7 +25,7 @@ import { CITY_INDEX_PATH, CITY_PAGES, cityBySlug, cityPath } from "@/lib/city-pa
 type RouteParams = { city: string };
 
 const PUBLISHED = "2026-09-19";
-const UPDATED = "2026-09-19";
+const UPDATED = PAGE_UPDATED.cityPages;
 const UPDATED_LABEL = "September 19, 2026";
 
 const linkClass =

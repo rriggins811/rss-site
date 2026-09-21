@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { PAGE_UPDATED } from "@/lib/page-dates";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { GoldRule } from "@/components/site/GoldRule";
@@ -22,7 +23,7 @@ import { ROLE_BYLINE, ROLE_DEFINITION, ROLE_TITLE, abs, pageTitle } from "@/lib/
 const PATH = "/what-is-a-senior-transition-advisor";
 const H1 = "What is a Senior Transition Advisor for the family home?";
 const PUBLISHED = "2026-09-19";
-const UPDATED = "2026-09-19";
+const UPDATED = PAGE_UPDATED["/what-is-a-senior-transition-advisor"];
 const UPDATED_LABEL = "September 19, 2026";
 
 const DESCRIPTION =

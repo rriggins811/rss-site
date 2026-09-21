@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { PAGE_UPDATED } from "@/lib/page-dates";
 import Link from "next/link";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -12,7 +13,7 @@ const TITLE = "Sorting & Progress Tracker";
 const DESCRIPTION =
   "Free senior decluttering tracker. Five-pile system, two-bag daily log, room-by-room dashboard. Download the Excel spreadsheet, no email signup.";
 const FILE_PATH = "/downloads/sorting-progress-tracker.xlsx";
-const PUBLISHED_ISO = "2026-05-21";
+const PUBLISHED_ISO = PAGE_UPDATED["/resources/sorting-tracker"];
 
 export const metadata: Metadata = {
   // Site suffix is appended by the root layout title template.
