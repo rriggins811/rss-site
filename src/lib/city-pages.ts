@@ -8,8 +8,9 @@
  *   written), or (b) checked on 2026-09-19 against a primary source noted
  *   in a comment beside it. Nothing else. No client stories, no statistics,
  *   no fee ranges, no office in any city.
- * - Ryan is based in Greensboro (ORGANIZATION.address). No page claims an
- *   office anywhere else.
+ * - Ryan is based in Greensboro and has no public office yet. The published
+ *   address (ORGANIZATION.address) is the Raleigh mailing address. No page
+ *   claims an office anywhere.
  * - No em dashes.
  *
  * SOURCES CHECKED 2026-09-19
@@ -159,7 +160,7 @@ export const CITY_PAGES: CityPage[] = [
       {
         question: "Do you have an office in Greensboro?",
         answer:
-          "I'm based in Greensboro, but I don't have a storefront office. The first call is a free 20-minute phone or video call, and most of the house decision is paperwork and numbers, so that's where the work happens.",
+          "Not a public one yet. I'm based in Greensboro and work from there. I meet families at the parent's home, at the community, or by phone and video, and the first call is a free 20-minute phone or video call. My mailing address is in Raleigh.",
       },
       {
         question: "Will you list my parent's Greensboro house?",

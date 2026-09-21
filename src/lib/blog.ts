@@ -180,10 +180,13 @@ export function getAllPosts(): BlogPost[] {
 }
 
 export function formatPostDate(iso: string): string {
+  // UTC so a bare YYYY-MM-DD date never shows as the day before when the
+  // build runs in a US time zone.
   return new Date(iso).toLocaleDateString("en-US", {
     year: "numeric",
     month: "long",
     day: "numeric",
+    timeZone: "UTC",
   });
 }
 

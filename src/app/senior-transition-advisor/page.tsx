@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { PAGE_UPDATED } from "@/lib/page-dates";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { GoldRule } from "@/components/site/GoldRule";
@@ -12,7 +13,7 @@ import { CITY_INDEX_PATH, CITY_PAGES, cityPath } from "@/lib/city-pages";
  */
 
 const H1 = "Senior Transition Advisor for the family home, by city";
-const UPDATED = "2026-09-19";
+const UPDATED = PAGE_UPDATED["/senior-transition-advisor"];
 const UPDATED_LABEL = "September 19, 2026";
 const DESCRIPTION =
   "Help deciding a parent's house before anyone lists it, in Greensboro, Winston-Salem, High Point, Raleigh, Durham, Cary and Chapel Hill, NC. Free to the family.";

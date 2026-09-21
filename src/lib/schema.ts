@@ -118,12 +118,9 @@ export function organizationSchema() {
     founder: { "@id": PERSON_ID },
     email: ORGANIZATION.email,
     telephone: ORGANIZATION.telephone,
-    address: {
-      "@type": "PostalAddress",
-      addressLocality: ORGANIZATION.address.addressLocality,
-      addressRegion: ORGANIZATION.address.addressRegion,
-      addressCountry: ORGANIZATION.address.addressCountry,
-    },
+    // The mailing address. Ryan is based in Greensboro (foundingLocation).
+    address: { "@type": "PostalAddress", ...ORGANIZATION.address },
+    foundingLocation: { "@type": "Place", name: ORGANIZATION.foundingLocation },
     areaServed: SERVICE_AREA,
     // sameAs reinforces the identity graph: same brand on social profiles,
     // the Hammock365 marketing site (consumer brand for the app shipped by
@@ -202,7 +199,7 @@ export function enrichedPersonSchema() {
       description: ROLE_DEFINITION,
       occupationLocation: {
         "@type": "City",
-        name: `${ORGANIZATION.address.addressLocality}, ${ORGANIZATION.address.addressRegion}`,
+        name: ORGANIZATION.baseCityState,
       },
       skills: [...AUTHOR.knowsAbout].join(", "),
     },
@@ -660,9 +657,10 @@ export function seniorSafeMobileApplicationSchema() {
 
 /**
  * ProfessionalService schema for the homepage. Adds local-business signals
- * (geo, areaServed, opening hours, price range) on top of the global
- * Organization + Person schemas emitted from layout.tsx. Helps with
- * "Greensboro senior transition advisor"-style local queries.
+ * (the mailing address, areaServed, opening hours) on top of the global
+ * Organization + Person schemas emitted from layout.tsx. No priceRange: the
+ * service is free to the family. No geo: Ryan works from home in
+ * Greensboro and there is no public office to pin (NAP cleanup 2026-09-21).
  */
 export function professionalServiceSchema() {
   return {
@@ -675,17 +673,7 @@ export function professionalServiceSchema() {
     telephone: ORGANIZATION.telephone,
     email: ORGANIZATION.email,
     image: abs("/og/homepage.png"),
-    address: {
-      "@type": "PostalAddress",
-      addressLocality: ORGANIZATION.address.addressLocality,
-      addressRegion: ORGANIZATION.address.addressRegion,
-      addressCountry: ORGANIZATION.address.addressCountry,
-    },
-    geo: {
-      "@type": "GeoCoordinates",
-      latitude: 36.0726,
-      longitude: -79.792,
-    },
+    address: { "@type": "PostalAddress", ...ORGANIZATION.address },
     areaServed: SERVICE_AREA,
     openingHoursSpecification: {
       "@type": "OpeningHoursSpecification",
@@ -699,7 +687,6 @@ export function professionalServiceSchema() {
       opens: "09:00",
       closes: "17:00",
     },
-    priceRange: "$$",
     founder: { "@id": PERSON_ID },
     sameAs: [
       // Personal LinkedIn excluded here too (it is a Person identity); see organizationSchema.
@@ -879,8 +866,8 @@ export type JsonLdValue = Record<string, unknown> | Record<string, unknown>[];
  * ProfessionalService for one city page (city pages, 2026-09-19). Same
  * business and founder as the site-wide ProfessionalService, but with its
  * own @id per page so areaServed can be that one city without rewriting
- * the site entity. The address stays the real Greensboro base; no office
- * is claimed in the city itself. No priceRange: the service is free to the
+ * the site entity. The address is the Raleigh mailing address; no office is
+ * claimed in the city itself. No priceRange: the service is free to the
  * family (SEO audit 2026-09-19).
  */
 export function cityServiceSchema(args: {
@@ -901,12 +888,7 @@ export function cityServiceSchema(args: {
     telephone: ORGANIZATION.telephone,
     email: ORGANIZATION.email,
     image: abs("/og/homepage.png"),
-    address: {
-      "@type": "PostalAddress",
-      addressLocality: ORGANIZATION.address.addressLocality,
-      addressRegion: ORGANIZATION.address.addressRegion,
-      addressCountry: ORGANIZATION.address.addressCountry,
-    },
+    address: { "@type": "PostalAddress", ...ORGANIZATION.address },
     areaServed: {
       "@type": "City",
       name: `${args.city}, NC`,

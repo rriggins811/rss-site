@@ -5,8 +5,8 @@ It contains the full Markdown of every key page, resource pillar, Senior Help
 Directory state page, and blog post, intended for AI crawlers that ingest
 content for answer generation.
 
-Generated: 2026-09-19
-Indexed: 137 blog posts, 16 resource pillars, 51 Senior Help Directory state pages, 17 video transcripts.
+Generated: 2026-09-21
+Indexed: 138 blog posts, 16 resource pillars, 51 Senior Help Directory state pages, 17 video transcripts.
 
 For citation guidance, organizational facts, and topic depth, see the summary
 index at https://rigginsstrategicsolutions.com/llms.txt.
@@ -117,6 +117,8 @@ Ryan Riggins is the founder of Riggins Strategic Solutions and a licensed North 
 The "switched sides" pivot came after Ryan realized he was on the wrong side of the table. Instead of buying houses from families in crisis, he built Riggins Strategic Solutions to teach families how to recognize the wholesalers, "we buy houses" cash buyers, and pressure tactics before they sign anything. His advisory work, the Blueprint course, and the Hammock365 app all exist to put that knowledge in family hands.
 
 Credentials: Licensed NC real estate broker (NCREC #361546), affiliated with eXp Realty. Based in Greensboro, NC (Triad area), serving families nationwide via consultation and a vetted referral network for transactions outside NC. Published author of "The Unheard Conversation" and "The Other Side of the Conversation" on Amazon.
+
+Mailing address: Riggins Properties LLC d/b/a Riggins Strategic Solutions, 4030 Wake Forest Rd Ste 349, Raleigh, NC 27609. Phone and text: (336) 553-8933. Email: ryan@rigginsstrategicsolutions.com.
 
 ---
 
@@ -5259,8 +5261,155 @@ You must qualify for Medicaid, then apply for the Community Choices Waiver, choo
 
 # Blog Posts (newest first)
 
-The 137 posts below are the full body of every published article
+The 138 posts below are the full body of every published article
 on https://rigginsstrategicsolutions.com/blog, in reverse chronological order.
+
+---
+
+# Medicare's New At-Home Help for Heart Failure and COPD: What the ACCESS Model Means for the Family Doing the Watching
+https://rigginsstrategicsolutions.com/blog/medicare-access-model-heart-failure-copd-2027
+Published: 2026-09-21
+
+**Excerpt:** If you're the one checking Dad's weight every morning and listening to his breathing on the phone, Medicare just announced help for the job you've been doing alone. On September 15, CMS said its ACCESS model adds heart failure and COPD in April 2027. There's one big catch.
+
+You know how it goes when a parent has heart failure. Somebody has to ask about the scale every morning. Somebody notices the ankles look puffier than Tuesday, or that Mom stopped halfway up the stairs to catch her breath, and somebody has to decide whether that's a call to the doctor or just a bad day. If you're reading this, that somebody is probably you.
+
+You didn't sign up to be a nurse between appointments. It just happened, one phone call at a time. The doctor sees your parent every few months. You see all the days in between.
+
+I spent more than eight years on the buying side of houses, sitting at kitchen tables with families in the middle of a transition, and then I walked away from that side of the table. Now I help families figure out what happens to the house before anybody lists it. I'm telling you that for one reason: I've watched how the house decision usually gets made, and it's rarely made calmly. The version I see most often starts with a hospital stay. A discharge planner says your parent can't go home alone, and suddenly you're deciding the future of a 40-year family home in about a week, from a plastic chair in a hallway.
+
+That's why a quiet announcement from Medicare on September 15 matters more than its headline suggests. It's aimed squarely at the gap you've been filling: the space between doctor visits, where things slide before anyone official notices. Here's what changed, who can actually use it, the catch that will trip up a lot of families this fall, and what you can do this week.
+
+## What Medicare Announced on September 15
+
+According to a September 15, 2026 press release from the Centers for Medicare & Medicaid Services (CMS), Medicare is expanding a program called the ACCESS Model, short for Advancing Chronic Care with Effective, Scalable Solutions. Per CMS, the expansion adds new condition tracks for heart failure, chronic obstructive pulmonary disease (COPD), substance use disorders, and tobacco cessation, plus longer support for chronic muscle and joint pain. CMS's model page puts the start date for those new tracks at April 1, 2027.
+
+ACCESS itself isn't brand new. Per CMS, the model began July 5, 2026 and runs for 10 years. Today it covers people with Original Medicare who have conditions like high blood pressure, high cholesterol, obesity, prediabetes, diabetes, chronic kidney disease, heart disease, depression, anxiety, or ongoing muscle or joint pain, according to Medicare.gov. CMS says three out of four people with Medicare qualify for at least one track.
+
+What does it actually provide? CMS describes it as technology-supported care between regular doctor visits: virtual care, health coaching, remote monitoring, and connected devices and wearables. Medicare.gov lists virtual visits, lifestyle coaching, connected or wearable devices, apps, medication management, and behavioral health support. For heart failure, CMS says the new track will offer continuous monitoring focused on measurable gains in function, symptom management, and quality of life. For COPD, CMS says the goal is to help maintain or improve lung function, ease symptoms, and support day-to-day activities.
+
+CMS Administrator Dr. Mehmet Oz put the purpose plainly in the release, saying too many people with chronic conditions "were falling through the cracks between appointments."
+
+The way Medicare pays is the other new piece. Per CMS, participating organizations get recurring payments, with full payment tied to measurable health outcomes based on each person's starting point. CMS's own example is helping a patient with high blood pressure lower it by 15 points (15 mmHg). CMS also says it will publish risk-adjusted outcomes in a public directory, so you'll be able to see how organizations actually perform instead of taking their word for it.
+
+As of the announcement, CMS says 160 organizations are participating, and more will be added over the model's 10 years.
+
+## What This Means for Your Family
+
+### The cost is small, and that's on purpose
+
+This is the part families tend not to believe at first. Per Medicare.gov, most ACCESS organizations charge between $0 and $7 a month. If one organization is helping your parent with more than one condition, Medicare.gov says it can't charge more than $13 a month total. CMS adds that some organizations may waive standard Medicare cost-sharing entirely.
+
+Equipment works the same way. Medicare.gov says a vendor may give or loan your parent medical equipment tied to the condition, like a blood pressure monitor or a continuous glucose monitor. Your parent may have to return it later, but won't pay to use it.
+
+Compare that to what the watching costs you now. It costs you sleep, work hours, and a background hum of worry that doesn't switch off when you hang up the phone. Two numbers on this page are worth writing down: $7 a month for most organizations, and $13 a month as the ceiling for multiple conditions at one organization.
+
+### It's not a caregiver, and you shouldn't expect it to be
+
+Here's where I want to be careful, because hope is easy to oversell. ACCESS is not home care. Nobody from ACCESS is coming to help your dad shower or cook dinner. It's monitoring, coaching, and virtual clinical support. Medicare.gov is clear that it doesn't replace your parent's existing doctors, and that the organization shares the care plan with the primary care provider or specialists when possible.
+
+What it can replace is some of the guessing. If a remote monitor flags a weight jump before you do, and a clinician on the other end acts on it, you stop being the only early-warning system. That's a real weight off your shoulders, even if the rest of the caregiving load stays where it is.
+
+### The catch: Medicare Advantage members can't use it
+
+This is the line that matters most this fall. Per both CMS and Medicare.gov, ACCESS is only for people with Original Medicare. If your parent is in a Medicare Advantage plan (Part C), they can't use ACCESS, though Medicare.gov notes the plan may offer something similar.
+
+And the timing is awkward. Medicare Open Enrollment runs October 15 to December 7, according to Medicare.gov. During that window your parent can switch from Medicare Advantage back to Original Medicare, with the change starting January 1. So you're going to hear about ACCESS right as you're comparing plans, and it'll be tempting to think, "Let's switch Dad to Original Medicare so he can get the heart failure program."
+
+Slow down before you do that. Here's why.
+
+### The Medigap trap nobody mentions in the headline
+
+Original Medicare on its own leaves gaps, which is why many people pair it with a Medicare Supplement (Medigap) policy. Per Medicare.gov, your parent had a one-time, six-month Medigap Open Enrollment Period when first enrolled in Part B at 65 or older. During that window, insurers couldn't use medical underwriting or deny coverage for pre-existing health problems.
+
+Outside that window, Medicare.gov says your parent may pay more, may have fewer choices, and the insurance company is allowed to deny a policy if your parent doesn't meet its medical underwriting requirements. There are certain situations, called guaranteed issue rights, where an insurer can't say no, and Medicare.gov says to check with your State Insurance Department about what applies.
+
+Put those two facts next to each other. A parent with heart failure or COPD is exactly the person an underwriter might turn down. Dropping a Medicare Advantage plan to chase a $7-a-month monitoring program, and then discovering your parent can't buy a Medigap policy, could leave them with far bigger out-of-pocket exposure than the program is worth. That doesn't mean don't switch. It means get the Medigap answer first, in writing, before you touch the enrollment.
+
+### Your parent might get randomly left out for a year
+
+One more detail that's buried on Medicare.gov and will confuse families if nobody tells them. Because ACCESS is new, Medicare is randomly assigning a small number of applicants to a control group so it can measure whether the program works. If your parent lands in that group, Medicare.gov says they won't be able to use this care option for 12 months.
+
+Medicare.gov is emphatic that this has nothing to do with your parent or their health, and that normal Medicare coverage, benefits, and rights aren't affected in any way. So if you sign your mom up and get told no, don't assume you did something wrong. Ask whether it was the control group, and if you have questions, call 1-800-MEDICARE.
+
+## What to Do This Week
+
+### 1. Find out which Medicare your parent actually has
+
+You'd be surprised how many families aren't sure. Is your parent in Original Medicare, maybe with a supplement, or in a Medicare Advantage plan run by a private insurance company? The answer decides everything else on this list. If the paperwork doesn't make it obvious, call 1-800-MEDICARE with your parent on the line and ask.
+
+### 2. Match the diagnosis to a track that exists today
+
+Heart failure and COPD don't start until April 1, 2027. But look at the current list: high blood pressure, diabetes, heart disease, chronic kidney disease, depression, anxiety, and ongoing muscle or joint pain are already covered, per Medicare.gov. A lot of parents with heart failure also carry one of those diagnoses. If your parent is on Original Medicare, you may not have to wait until spring.
+
+### 3. Look up organizations, and sign up directly if one fits
+
+Medicare.gov keeps a directory of participating organizations at Medicare.gov/ACCESS. Per Medicare.gov, your parent can contact an organization directly to sign up, without a referral. Your parent's doctor, pharmacist, or another provider can also help. Once the public outcomes data is posted, compare results, not marketing. And remember your parent can cancel or switch organizations after the first 90 days, per Medicare.gov.
+
+### 4. If your parent is on Medicare Advantage, ask the plan before Open Enrollment
+
+Call the plan and ask one plain question: "Do you offer remote monitoring or virtual support for heart failure or COPD, and what does it cost?" Write down the answer, the date, and the name of the person you spoke with. Then, if switching is on the table, ask a Medigap insurer whether your parent would be accepted, before December 7, not after.
+
+### 5. Get a free, unbiased second set of eyes
+
+In North Carolina, the Seniors' Health Insurance Information Program (SHIIP) at the NC Department of Insurance has counselors in all 100 counties. Per NCDOI, SHIIP counselors aren't licensed insurance agents and don't sell or endorse any product, plan, or company. You can reach SHIIP at 855-408-1212. Outside NC, your state has a similar program; 1-800-MEDICARE can point you to it.
+
+### 6. Write the house question down now, while things are calm
+
+This one's mine to add. If your parent's heart or lungs are the thing that could put them in the hospital, the house decision is already in play, whether anybody says it out loud or not. You don't have to decide anything today. But jot down three things: who can legally sign for your parent if they can't, what the monthly budget would look like if a move happened, and whether the house would be sold, rented, or kept. Families who have those answers on paper get to make the decision. Families who don't have it made for them in a discharge planner's office.
+
+## Frequently Asked Questions
+
+### What is the Medicare ACCESS model?
+
+ACCESS, short for Advancing Chronic Care with Effective, Scalable Solutions, is a CMS program that began July 5, 2026 and runs for 10 years. It pays approved organizations to provide technology-supported care between doctor visits, such as virtual visits, coaching, remote monitoring, and connected devices, for people with Original Medicare who have certain chronic conditions.
+
+### When does ACCESS start covering heart failure and COPD?
+
+Per CMS, the heart failure and COPD tracks start April 1, 2027, along with new tracks for substance use disorders and tobacco cessation. Conditions like high blood pressure, diabetes, heart disease, chronic kidney disease, depression, and anxiety are already covered today, according to Medicare.gov.
+
+### How much does ACCESS cost my parent?
+
+Per Medicare.gov, most organizations charge between $0 and $7 a month, and a single organization helping with multiple conditions can't charge more than $13 a month total. Equipment like a blood pressure monitor may be given or loaned at no cost to use, though it may need to be returned later.
+
+### Can someone in a Medicare Advantage plan use ACCESS?
+
+No. Per CMS and Medicare.gov, ACCESS is only for people with Original Medicare. Medicare Advantage plans may offer similar programs, so call the plan and ask. If you're thinking about switching during Open Enrollment, October 15 to December 7, check first whether your parent can still buy a Medigap policy, because outside the initial enrollment window insurers can use medical underwriting.
+
+### Why was my parent turned down for ACCESS?
+
+Medicare.gov lists three reasons: the parent doesn't meet the eligibility requirements for that condition, the parent is in a Medicare Advantage plan, or the parent was randomly placed in a small control group Medicare uses to evaluate the program. The control group can't use ACCESS for 12 months, and Medicare.gov says it doesn't affect normal coverage, benefits, or rights.
+
+## About Ryan Riggins
+
+Ryan Riggins is a Senior Transition Advisor for the family home. When a parent moves to senior living, he helps the family decide what happens to the house before anyone lists it: the funding math against the community's fee sheet, who can legally sign, and sell, rent or keep. If selling, one vetted local agent. Not a mover, not a placement agent, never the listing agent. NC broker #361546, eXp Realty.
+
+---
+
+**Carrying the watching alone?** The free Caregiver Burnout Triage takes two minutes and tells you honestly where you are: rigginsstrategicsolutions.com/tools/caregiver-burnout-triage
+
+**Checking your parent's coverage?** The free Medicare Gap Analyzer shows what Medicare doesn't cover, so you can see the gaps before you compare plans: rigginsstrategicsolutions.com/tools/medicare-gap-analyzer
+
+**Want a step-by-step guide?** The Senior Transition Blueprint is free, all 20 modules and 69 tools: rigginsstrategicsolutions.com/the-blueprint
+
+**Not sure where your family stands?** The free Family Readiness Score takes five minutes and shows the gaps across the home, the money, the legal documents, care, and family alignment: rigginsstrategicsolutions.com/tools/family-readiness-score
+
+**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
+
+**Selling a parent's home?** Ryan finds and vets the right local agent for your situation and stays in your corner on the whole sale, at no added cost to your family: rigginsstrategicsolutions.com/in-your-corner
+
+**Coordinate the family in one place.** Hammock365 keeps daily check-ins, medications, and documents where the whole family can see them: hammock365.com
+
+## Sources
+
+Checked September 21, 2026.
+
+- CMS press release, "CMS Adds Medicare Options to Help People Manage Substance Use Disorder, Heart Failure, and Other Common Chronic Conditions," September 15, 2026. New tracks, 160 participating organizations, three in four people with Medicare eligible for a track, Original Medicare only, the Oz quote. https://www.cms.gov/newsroom/press-releases/cms-adds-medicare-options-help-people-manage-substance-use-disorder-heart-failure-other-common
+- CMS Innovation Center, ACCESS (Advancing Chronic Care with Effective, Scalable Solutions) Model. Start date July 5, 2026, 10-year duration, April 1, 2027 start for the new tracks, outcome-aligned payments, the 15 mmHg example, public risk-adjusted outcomes, cost-sharing waivers. https://www.cms.gov/priorities/innovation/innovation-models/access
+- Medicare.gov, Support for chronic health conditions (ACCESS). Eligible conditions, $0 to $7 monthly and $13 cap, loaned equipment, sign up without a referral, 90-day switch rule, control group and 12-month wait, Medicare Advantage exclusion. https://www.medicare.gov/providers-services/coordinating-care/support-chronic-health-conditions-access
+- Medicare.gov, Joining a plan. Open Enrollment October 15 to December 7, switching from Medicare Advantage to Original Medicare, January 1 start. https://www.medicare.gov/basics/get-started-with-medicare/get-more-coverage/joining-a-plan
+- Medicare.gov, Get ready to buy (Medigap). Six-month Medigap Open Enrollment Period, medical underwriting outside it, guaranteed issue rights. https://www.medicare.gov/health-drug-plans/medigap/ready-to-buy
+- NC Department of Insurance, Seniors' Health Insurance Information Program (SHIIP). Counselors in all 100 counties, not licensed agents, 855-408-1212. https://www.ncdoi.gov/consumers/medicare-and-seniors-health-insurance-information-program-shiip
 
 ---
 

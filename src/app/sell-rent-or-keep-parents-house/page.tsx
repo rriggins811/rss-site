@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { PAGE_UPDATED } from "@/lib/page-dates";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { GoldRule } from "@/components/site/GoldRule";
@@ -41,7 +42,7 @@ import { ROLE_BYLINE, abs, pageTitle } from "@/lib/site";
 const PATH = "/sell-rent-or-keep-parents-house";
 const H1 = "Sell, rent, or keep a parent's house when they move to assisted living";
 const PUBLISHED = "2026-09-19";
-const UPDATED = "2026-09-19";
+const UPDATED = PAGE_UPDATED["/sell-rent-or-keep-parents-house"];
 const UPDATED_LABEL = "September 19, 2026";
 
 const DESCRIPTION =

@@ -297,8 +297,7 @@ export default function AboutPage() {
             <GoldRule />
             <h2 className="mt-3">What clients say.</h2>
             <p className="mt-4 text-ink/70 text-base max-w-2xl">
-              Real reviews from real families. We don&rsquo;t solicit them — these
-              come in unprompted when the work lands.
+              Real reviews from real families.
             </p>
             <ul
               className={

@@ -59,19 +59,19 @@ export async function GET() {
       entity_type: "Assumed business name (d/b/a) of Riggins Properties LLC",
       state_of_incorporation: "North Carolina",
       address: {
-        street: ORGANIZATION.mailingAddress.streetAddress,
-        locality: ORGANIZATION.mailingAddress.addressLocality,
-        region: ORGANIZATION.mailingAddress.addressRegion,
-        postal_code: ORGANIZATION.mailingAddress.postalCode,
-        country: ORGANIZATION.mailingAddress.addressCountry,
+        street: ORGANIZATION.address.streetAddress,
+        locality: ORGANIZATION.address.addressLocality,
+        region: ORGANIZATION.address.addressRegion,
+        postal_code: ORGANIZATION.address.postalCode,
+        country: ORGANIZATION.address.addressCountry,
       },
       phone: ORGANIZATION.telephone,
-      phone_display: "(336) 553-8933",
+      phone_display: ORGANIZATION.telephoneDisplay,
       email: ORGANIZATION.email,
       url: ORGANIZATION.url,
       logo_url: ORGANIZATION.logoUrl,
       area_served: "United States (national education), North Carolina (real estate brokerage)",
-      hours: "Monday–Friday, 9:00 AM – 5:00 PM ET",
+      hours: "Monday to Friday, 9:00 AM to 5:00 PM ET",
       timezone: "America/New_York",
       brand_colors: {
         navy: "#1B2A4E",
@@ -86,7 +86,7 @@ export async function GET() {
       url: AUTHOR.url,
       image: AUTHOR.imageUrl,
       birth_year: 1990,
-      location: "Greensboro, NC",
+      location: ORGANIZATION.baseCityState,
       nc_real_estate_license: "361546",
       brokerage: "eXp Realty",
       books: [
@@ -261,7 +261,7 @@ export async function GET() {
     contact: {
       preferred: "Book a free 20-minute call at " + SITE_URL + "/work-with-ryan",
       email: ORGANIZATION.email,
-      phone_display: "(336) 553-8933",
+      phone_display: ORGANIZATION.telephoneDisplay,
     },
     citation_guidance: {
       summary:

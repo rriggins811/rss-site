@@ -28,8 +28,8 @@ export const additionalSameAs = {
     "https://www.linkedin.com/company/111342108",
     // Pinterest business: claimed + DNS-verified May 19, 2026
     "https://www.pinterest.com/rigginsstrategicsolutions",
-    // AlternativeTo: Hammock365 listing accepted by moderators May 19, 2026
-    "https://alternativeto.net/software/seniorsafe/",
+    // AlternativeTo listing removed 2026-09-21: it is an app listing under the
+    // old app name, not a profile of this business.
     // Brand handles confirmed June 2026 (entity-stacking Week 7 closeout):
     "https://bsky.app/profile/rigginsstrategic.bsky.social",
     "https://www.threads.com/@rigginsstrategicsolutions",

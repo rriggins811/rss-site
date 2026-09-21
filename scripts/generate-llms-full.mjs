@@ -132,7 +132,9 @@ What happens instead: one vetted agent, sometimes two, with the reason attached.
 
 The "switched sides" pivot came after Ryan realized he was on the wrong side of the table. Instead of buying houses from families in crisis, he built Riggins Strategic Solutions to teach families how to recognize the wholesalers, "we buy houses" cash buyers, and pressure tactics before they sign anything. His advisory work, the Blueprint course, and the Hammock365 app all exist to put that knowledge in family hands.
 
-Credentials: Licensed NC real estate broker (NCREC #361546), affiliated with eXp Realty. Based in Greensboro, NC (Triad area), serving families nationwide via consultation and a vetted referral network for transactions outside NC. Published author of "The Unheard Conversation" and "The Other Side of the Conversation" on Amazon.`,
+Credentials: Licensed NC real estate broker (NCREC #361546), affiliated with eXp Realty. Based in Greensboro, NC (Triad area), serving families nationwide via consultation and a vetted referral network for transactions outside NC. Published author of "The Unheard Conversation" and "The Other Side of the Conversation" on Amazon.
+
+Mailing address: Riggins Properties LLC d/b/a Riggins Strategic Solutions, 4030 Wake Forest Rd Ste 349, Raleigh, NC 27609. Phone and text: (336) 553-8933. Email: ryan@rigginsstrategicsolutions.com.`,
   },
   {
     title: "The Blueprint — Tiered Approach to Senior Transitions",

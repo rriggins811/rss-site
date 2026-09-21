@@ -8,23 +8,48 @@ import { getResourceContent } from "@/lib/resource-content";
 import { indexableStates } from "@/lib/directory";
 import { SITE_URL } from "@/lib/site";
 import { CITY_INDEX_PATH, CITY_PAGES, cityPath } from "@/lib/city-pages";
+import { getLegalBySlug } from "@/lib/legal";
+import { PAGE_UPDATED } from "@/lib/page-dates";
 
 /**
  * Dynamic sitemap. Auto-derives from:
  *   - static route list below
- *   - every MDX file under content/blog
- *   - every MDX file under content/media
+ *   - every MDX file under content/blog, content/media and content/videos
+ *   - the tool, resource and directory registries
  *
- * lastModified pulls from frontmatter dateModified, falling back to
- * datePublished (both resolved in lib/blog + lib/media).
+ * lastmod honesty (2026-09-21): lastModified is only set from a real date
+ * the repo holds for that page: blog, media and video frontmatter (with the
+ * git fallback in lib/blog), resource frontmatter, legal last_updated, and
+ * the pinned dates in lib/page-dates. Hub pages that list posts or videos
+ * take the newest item's date. Everything else OMITS lastmod instead of
+ * stamping the build time, which told crawlers 177 pages changed every day.
  */
+/** Newest date in a list of YYYY-MM-DD or ISO strings, or undefined. */
+function newest(dates: (string | undefined)[]): Date | undefined {
+  const times = dates
+    .filter((d): d is string => Boolean(d))
+    .map((d) => new Date(d).getTime())
+    .filter((t) => !Number.isNaN(t));
+  return times.length ? new Date(Math.max(...times)) : undefined;
+}
+
+function legalDate(slug: string): Date | undefined {
+  const fm = getLegalBySlug(slug)?.frontmatter;
+  const d = fm?.last_updated ?? fm?.effective_date;
+  return d ? new Date(d) : undefined;
+}
+
 export default function sitemap(): MetadataRoute.Sitemap {
-  const now = new Date();
+  const posts = getAllPosts();
+  const media = getAllMedia();
+  const videos = getPublishedVideos();
+  const pinned = PAGE_UPDATED as Record<string, string>;
 
   const staticRoutes: {
     path: string;
     changeFrequency: MetadataRoute.Sitemap[number]["changeFrequency"];
     priority: number;
+    lastModified?: Date;
   }[] = [
     { path: "/", changeFrequency: "monthly", priority: 1.0 },
     { path: "/about", changeFrequency: "monthly", priority: 0.8 },
@@ -36,6 +61,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       path: cityPath(c.slug),
       changeFrequency: "monthly" as const,
       priority: 0.8,
+      lastModified: new Date(PAGE_UPDATED.cityPages),
     })),
     { path: "/faq", changeFrequency: "monthly", priority: 0.8 },
     { path: "/the-blueprint", changeFrequency: "monthly", priority: 0.9 },
@@ -49,34 +75,39 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/speaking", changeFrequency: "monthly", priority: 0.7 },
     { path: "/contact", changeFrequency: "monthly", priority: 0.7 },
     { path: "/partners", changeFrequency: "monthly", priority: 0.6 },
-    { path: "/blog", changeFrequency: "weekly", priority: 0.8 },
-    { path: "/media", changeFrequency: "monthly", priority: 0.7 },
-    { path: "/videos", changeFrequency: "weekly", priority: 0.7 },
+    { path: "/blog", changeFrequency: "weekly", priority: 0.8, lastModified: newest(posts.map((p) => p.dateModified)) },
+    { path: "/media", changeFrequency: "monthly", priority: 0.7, lastModified: newest(media.map((m) => m.dateModified)) },
+    { path: "/videos", changeFrequency: "weekly", priority: 0.7, lastModified: newest(videos.map((v) => v.dateModified)) },
     { path: "/tools", changeFrequency: "monthly", priority: 0.8 },
     { path: "/guides", changeFrequency: "monthly", priority: 0.8 },
     { path: "/resources", changeFrequency: "weekly", priority: 0.8 },
     { path: "/resources/senior-help-directory", changeFrequency: "weekly", priority: 0.8 },
     { path: "/resources/sorting-tracker", changeFrequency: "monthly", priority: 0.7 },
-    { path: "/privacy", changeFrequency: "yearly", priority: 0.3 },
-    { path: "/terms", changeFrequency: "yearly", priority: 0.3 },
-    { path: "/referral-terms", changeFrequency: "yearly", priority: 0.3 },
+    { path: "/privacy", changeFrequency: "yearly", priority: 0.3, lastModified: legalDate("privacy") },
+    { path: "/terms", changeFrequency: "yearly", priority: 0.3, lastModified: legalDate("terms") },
+    { path: "/referral-terms", changeFrequency: "yearly", priority: 0.3, lastModified: legalDate("referral-terms") },
   ];
 
-  const staticEntries: MetadataRoute.Sitemap = staticRoutes.map((r) => ({
-    url: `${SITE_URL}${r.path}`,
-    lastModified: now,
-    changeFrequency: r.changeFrequency,
-    priority: r.priority,
-  }));
+  const staticEntries: MetadataRoute.Sitemap = staticRoutes.map((r) => {
+    const pinnedDate = pinned[r.path];
+    const lastModified =
+      r.lastModified ?? (pinnedDate ? new Date(pinnedDate) : undefined);
+    return {
+      url: `${SITE_URL}${r.path}`,
+      ...(lastModified ? { lastModified } : {}),
+      changeFrequency: r.changeFrequency,
+      priority: r.priority,
+    };
+  });
 
-  const blogEntries: MetadataRoute.Sitemap = getAllPosts().map((p) => ({
+  const blogEntries: MetadataRoute.Sitemap = posts.map((p) => ({
     url: `${SITE_URL}/blog/${p.frontmatter.slug}`,
     lastModified: new Date(p.dateModified),
     changeFrequency: "monthly",
     priority: 0.7,
   }));
 
-  const mediaEntries: MetadataRoute.Sitemap = getAllMedia().map((m) => ({
+  const mediaEntries: MetadataRoute.Sitemap = media.map((m) => ({
     url: `${SITE_URL}/media/${m.frontmatter.slug}`,
     lastModified: new Date(m.dateModified),
     changeFrequency: "monthly",
@@ -85,29 +116,28 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // Only published videos. getPublishedVideos filters out future-dated reels so
   // next week's scheduled content never leaks into the sitemap early.
-  const videoEntries: MetadataRoute.Sitemap = getPublishedVideos().map((v) => ({
+  const videoEntries: MetadataRoute.Sitemap = videos.map((v) => ({
     url: `${SITE_URL}/videos/${v.frontmatter.slug}`,
     lastModified: new Date(v.dateModified),
     changeFrequency: "monthly",
     priority: 0.6,
   }));
 
+  // Tools carry no date in the registry, so no lastmod.
   const toolEntries: MetadataRoute.Sitemap = PUBLIC_TOOLS.map((t) => ({
     url: `${SITE_URL}/tools/${t.slug}`,
-    lastModified: now,
     changeFrequency: "monthly",
     priority: 0.7,
   }));
 
   const resourceEntries: MetadataRoute.Sitemap = RESOURCES.map((r) => {
     // Use the authored markdown's real date so genuinely-updated pillars get an
-    // honest freshness signal, instead of stamping every page "modified today"
-    // on every build. Unauthored stubs (no markdown) fall back to now.
+    // honest freshness signal. Unauthored stubs (no markdown) get no lastmod.
     const fm = getResourceContent(r.slug)?.frontmatter;
     const authoredDate = fm?.dateModified ?? fm?.date;
     return {
       url: `${SITE_URL}/resources/${r.slug}`,
-      lastModified: authoredDate ? new Date(authoredDate) : now,
+      ...(authoredDate ? { lastModified: new Date(authoredDate) } : {}),
       changeFrequency: "monthly" as const,
       priority: 0.7,
     };
@@ -118,9 +148,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // locator-only placeholder states are noindex (see the [state] route's
   // generateMetadata) so we never ship near-duplicates.
   const directoryStateEntries: MetadataRoute.Sitemap = indexableStates().map(
+    // No date is kept per state page, so no lastmod.
     (s) => ({
       url: `${SITE_URL}/resources/senior-help-directory/${s.slug}`,
-      lastModified: now,
       changeFrequency: "weekly",
       priority: 0.7,
     })
