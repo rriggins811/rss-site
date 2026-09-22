@@ -644,6 +644,15 @@ export const DIRECTORY_COUNTIES: DirectoryCounty[] = [
     blurb:
       "Asheville, Black Mountain and Weaverville, NC programs for seniors and families: the Tax Assessment exemptions desk on College Street and the 2026 and 2027 income limits its own relief pages still show at the older 2024 figure, a reappraisal held until 2027 so this year's bills still use 2021 values, a homeowner grant that ended July 1 and a $500 General Assistance program that replaced it and now takes people who already get an exemption, a Council on Aging that is the county's Medicare counseling site and sends volunteer drivers at 60, free senior dining sites and Meals on Wheels for homebound seniors, energy help that depends on whether the bill says Duke Energy, Haywood EMC or French Broad EMC, a free monthly ART bus pass at 65 through Mountain Mobility and fare-free Trailblazer routes to Black Mountain, Enka and Weaverville, a Helene repair program that has closed even though a county page still says apply, a city home repair program opening this month inside Asheville's limits only, the state's Senior Law Project office downtown, a Sheriff's check-in line for seniors living alone during storms, and a PACE program in Asheville that covers most of the county's ZIP codes.",
   },
+  {
+    slug: "brunswick-county-nc-senior-help-directory",
+    county: "Brunswick County",
+    state: "NC",
+    metro: "Leland, Southport & Shallotte",
+    region: "Cape Fear Coast",
+    blurb:
+      "Leland, Southport, Shallotte and Oak Island, NC programs for seniors and families: the Tax Office in Bolivia and the 2026 and 2027 income limits for North Carolina's three relief programs, a countywide revaluation effective January 1, 2027 with new values mailed by the end of March, a free Register of Deeds fraud alert for a parent's house, Brunswick Senior Resources and its six senior centers with free lunch at 60 and Meals on Wheels for homebound seniors, a Medicaid rule that covers up to three months of past costs for people 65 and older who apply by December 31, 2026, energy help that runs through Brunswick Family Assistance when the bill says Brunswick Electric, free home repair through WARM NC, a $3 county bus that takes any resident with 48 hours' notice and a $2 on-demand van around Leland, the Sheriff's free daily Are You OK call, a Section 8 waitlist that opens only by lottery, and a PACE program in Wilmington whose Brunswick service area covers only Bolivia, Leland, Southport and Winnabow.",
+  },
 ];
 
 export type DirectoryState = {
