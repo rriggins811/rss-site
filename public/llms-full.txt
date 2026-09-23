@@ -5,8 +5,8 @@ It contains the full Markdown of every key page, resource pillar, Senior Help
 Directory state page, and blog post, intended for AI crawlers that ingest
 content for answer generation.
 
-Generated: 2026-09-21
-Indexed: 138 blog posts, 16 resource pillars, 51 Senior Help Directory state pages, 17 video transcripts.
+Generated: 2026-09-23
+Indexed: 140 blog posts, 16 resource pillars, 51 Senior Help Directory state pages, 17 video transcripts.
 
 For citation guidance, organizational facts, and topic depth, see the summary
 index at https://rigginsstrategicsolutions.com/llms.txt.
@@ -5261,8 +5261,377 @@ You must qualify for Medicaid, then apply for the Community Choices Waiver, choo
 
 # Blog Posts (newest first)
 
-The 138 posts below are the full body of every published article
+The 140 posts below are the full body of every published article
 on https://rigginsstrategicsolutions.com/blog, in reverse chronological order.
+
+---
+
+# Who Else Can See Your Parents' Bank Account?
+https://rigginsstrategicsolutions.com/blog/who-else-can-see-your-parents-bank-account
+Published: 2026-09-23
+
+**Excerpt:** In four days last week, federal prosecutors closed three elder fraud cases. A bank analyst, a financial advisor, and a man stealing from his own elderly relative. Not one of them had to guess a password. Every one of them already had access.
+
+Federal prosecutors closed three separate elder fraud cases in four days last week, and not one of the thieves had to guess a password.
+
+One was a bank employee whose actual job was protecting customers from fraud. One was a financial advisor who'd had complete access to a client's brokerage account since 2016. One was a man stealing from his own elderly relative. All three already had the access they needed before they decided to use it.
+
+I spent more than eight years buying houses from families in transition, and I walked away from that side of the business because of what I kept seeing at those kitchen tables. Families were braced for the wrong threat. They'd talk about the phone scam, the roofer, the letter offering cash for the house. Meanwhile the checkbook sat in a drawer four people could open, and nobody had read a statement in a year.
+
+You're probably in some version of that right now, and you don't think of it as a risk, because the people with access are people you love or people you hired. That's exactly the shape of it. If your mother is 84 and still gets paper statements, if your brother has been handling the bills since your dad died, if an aide carries the debit card for groceries, then the question that matters isn't whether you trust them. It's whether anybody else can see what they're doing.
+
+That question has a short answer, and you can get most of it handled this week.
+
+## Three Cases, Four Days, One Pattern
+
+On September 17, the US Attorney's Office for the Northern District of Ohio announced that Yue Cao, 36, was sentenced to 120 months in prison. Cao was a quant analytics manager at an Ohio-based bank, and according to that office, he was hired to help protect customers from fraud. A federal jury convicted him in February on ten counts of bank fraud, four counts of aggravated identity theft, and one count of money laundering.
+
+Read his method slowly, because it tells you who's exposed. Cao targeted elderly customers who had not enrolled in the bank's online services. He used an offshore service to create email addresses in the names of more than 100 victims, enrolled those victims in online banking without their knowledge, and pointed their statements and notifications at the addresses he controlled. Then he moved their money into his own accounts. The victims lived in New York, Pennsylvania, Connecticut, Washington and Ohio, and they ranged in age from 90 to 103. Prosecutors put the unauthorized transfers at roughly $2 million.
+
+Three days earlier, on September 14, the US Attorney's Office for the Northern District of Georgia announced that Ejiroghene O. Okuma, 44, of Smyrna, was sentenced to seven years and four months for wire fraud after pleading guilty in March. According to that office, Okuma had complete access to an elderly client's brokerage account starting in 2016. In 2022 he was appointed to administer the estate of that client's sister, and he used the role to start moving money, including proceeds from the sale of the sister's residence. In February 2023 he opened an unauthorized brokerage account and added himself as a custodian on an existing bank account in the client's name. Within days he moved about $9 million.
+
+And on September 15, the US Attorney's Office for the Eastern District of Kentucky announced that Samuel Turner, 42, of Science Hill, was convicted on four counts of wire fraud. Prosecutors said Turner got into an elderly family member's bank accounts and credit cards and spent the money on guns, concert tickets and Amazon orders, and cashed out a certificate of deposit worth more than $35,000. His sentencing is set for January 6, 2027.
+
+## The Common Thread Isn't Cleverness. It's Access.
+
+Federal data says those three cases are the ordinary shape of this problem, not the extreme version of it.
+
+In April 2024, the Financial Crimes Enforcement Network, FinCEN, published an analysis of the elder financial exploitation reports that banks and other institutions filed between June 15, 2022 and June 15, 2023. There were 155,415 of them, tied to more than $27 billion in reported suspicious activity. FinCEN sorted them into two buckets: elder scams, where the victim doesn't know the person taking the money, and elder theft, where the victim does.
+
+Elder theft was roughly 20 percent of those filings. The average reported amount in a theft case was $98,863, with a median of $23,762. Those aren't small numbers for a household living on Social Security and a modest IRA.
+
+FinCEN was blunt about who does it. Adult children of older parents were the most frequently identified perpetrators of elder theft, named in nearly 40 percent of the cases FinCEN reviewed by hand. Paid caregivers came next: nurses, aides, rehab facility workers, in-home providers. FinCEN noted those people often already had the banking information, the checkbook, or the personal details, and that the perpetrator usually already has access or can get it quickly. There's no elaborate scheme, because there doesn't need to be one.
+
+## Why That Number Should Protect You, Not Insult You
+
+If you're the adult child reading this, that statistic stings. You're the one driving to appointments and calling the pharmacy, and now the federal government is telling you the most common thief looks exactly like you.
+
+Sit with it a second, because it explains things you've probably already run into. It's why the teller goes stiff when you ask about your mother's balance. It's why the brokerage wants a notarized power of attorney and then still won't tell you much. They're not being difficult. They're looking at the same data.
+
+So the move isn't to get offended, and it definitely isn't to take more control quietly. The move is to make what you do visible. A family where two people see every statement is a family where the honest kid never has to prove anything.
+
+The version of this I see most often isn't theft at all. It's a withdrawal nobody can explain a year later, a sibling who decides the worst thing must have happened, and a relationship that doesn't recover. Nobody wrote anything down, so there's no way left to prove the ordinary explanation. Visibility protects your parent from the rare bad actor. It protects you from the much more common suspicion.
+
+## The Riskiest Month Is The One The House Sells
+
+Look at the Okuma case one more time. Part of what he took was proceeds from the sale of a house.
+
+That isn't a coincidence. For most families, the largest amount of cash your parents will ever hold at once shows up on a single closing day, lands in one account, and sits there while everybody figures out the next step. After closing it's liquid, it's large, and the number of people who know about it just went up: the agent, the attorney, the buyer's side, the relative who asked how it went.
+
+If your family is anywhere near selling a parent's home, that's the month the account needs more than one set of eyes on it. Not because your people are dishonest. Because that's the month the number is worth taking.
+
+## What To Set Up This Week
+
+### 1. Put a trusted contact on every brokerage and retirement account
+
+FINRA Rule 4512 requires brokerage firms to make reasonable efforts to get the name and contact information for a trusted contact person, age 18 or older, on each customer account. Most families either never filled that in or filled it in once, years ago, and never looked again.
+
+A trusted contact can't trade, can't withdraw, and can't move a dollar. It's a name the firm is allowed to call. Under the rule, the firm tells the customer in writing that it may contact that person about possible financial exploitation, about current contact information or health status, or about the identity of a guardian, executor, trustee or power of attorney holder. That's visibility without control, which is exactly what you want here.
+
+Call each firm, ask for the trusted contact form, and put down a name that isn't the person already handling the money.
+
+### 2. Turn on alerts, and send them to two phones
+
+Every bank and brokerage will text or email on transactions over a dollar amount you choose, on new accounts, and on address or email changes.
+The Cao case turned on a notification change. He redirected where the statements went. If one other person on those accounts had been getting an alert on their own phone, that scheme lasts a week instead of years.
+
+### 3. Find out whether your parents are a paper-statement household
+
+Cao specifically went after customers who had not enrolled in online banking, because nobody was watching those accounts between statements. If your mother gets a paper statement, opens it or doesn't, and files it in a drawer, that account has no second set of eyes on it at all.
+
+You don't have to talk her into online banking. You do need somebody she chooses who can see activity without waiting for the mail.
+
+### 4. Write down who has access and what they may use it for
+
+Make a one-page list: every account, who's named on it, who carries a card, who has the login, who holds the power of attorney. Then write the boundary in plain words next to each one. Groceries and pharmacy on this card, nothing else.
+
+This costs you nothing, and it's the single thing that makes a hard family conversation survivable a year from now.
+
+### 5. Learn what a temporary hold is before you need one
+
+FINRA Rule 2165 lets a firm place a temporary hold on a disbursement or transaction in the account of a "specified adult," meaning a person 65 or older, when the firm reasonably believes financial exploitation has happened, is happening, or has been attempted. The firm has to notify the parties on the account and the trusted contact within two business days, unless it believes that person is involved, and the hold expires no later than 15 business days unless it gets extended.
+
+Notice how that rule defines financial exploitation. It counts acts committed through a power of attorney, guardianship, or any other authority. The regulator already knows the paperwork gets used as the tool.
+
+## Frequently Asked Questions
+
+### Who steals from older adults most often?
+
+Someone they already know. FinCEN's April 2024 analysis of elder financial exploitation reports found that adult children of older parents were the most frequently identified perpetrators of elder theft, named in nearly 40 percent of the cases it reviewed by hand, followed by paid caregivers such as nurses, aides, rehab facility workers and in-home providers. Strangers running scams account for more total dollars, but the people who already have access account for a large share of the theft.
+
+### Does naming a trusted contact give that person control of my parent's account?
+
+No. Under FINRA Rule 4512, a trusted contact is simply a person the firm is permitted to call. That person cannot trade, cannot withdraw, and cannot move money, and naming one does not create a power of attorney. The firm may contact them about suspected financial exploitation, about your parent's current contact information or health status, or about the identity of a guardian, executor, trustee or power of attorney holder.
+
+### Can a brokerage freeze my parent's account if it suspects someone is stealing?
+
+Temporarily, yes. FINRA Rule 2165 allows a member firm to place a temporary hold on a disbursement or a transaction in the account of a person age 65 or older when it reasonably believes financial exploitation has occurred, is occurring, or has been attempted. The firm must notify the parties on the account and the trusted contact within two business days, unless it believes that party is involved, and the hold expires no later than 15 business days unless it is extended.
+
+### Does a power of attorney protect my parent from financial exploitation?
+
+Not by itself. A power of attorney grants authority to act, which is a relief when the right person holds it and a serious problem when the wrong one does. FINRA Rule 2165 defines financial exploitation to include acts committed through the use of a power of attorney, guardianship, or any other authority over an older adult. Pair the document with visibility: statements going to a second person, alerts turned on, and the boundaries written down.
+
+### What should I do if I think a family member is taking my parent's money?
+
+Document before you confront. Pull the last twelve months of statements, write down the specific transactions that worry you with dates and amounts, and call the fraud line at the bank or brokerage to report suspected financial exploitation. You can also contact Adult Protective Services in your parent's county. The Justice Department keeps its elder fraud resources, including how to report, at justice.gov/elderjustice.
+
+## About Ryan Riggins
+
+Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [Hammock365 app](https://hammock365.com).
+
+---
+
+**Check the paperwork that bypasses the will.** The free Beneficiary Designation Audit walks the accounts that pay out on their own: rigginsstrategicsolutions.com/tools/beneficiary-designation-audit
+
+**Want a step-by-step guide?** The Senior Transition Blueprint is free, all 20 modules and 69 tools: rigginsstrategicsolutions.com/the-blueprint
+
+**Not sure where your family stands?** The free Family Readiness Score takes five minutes and shows the gaps across the home, the money, the legal documents, care, and family alignment: rigginsstrategicsolutions.com/tools/family-readiness-score
+
+**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
+
+**Selling a parent's home?** Ryan finds and vets the right local agent for your situation and stays in your corner on the whole sale, at no added cost to your family: rigginsstrategicsolutions.com/in-your-corner
+
+**Coordinate the family in one place.** Hammock365 keeps daily check-ins, medications, and documents where the whole family can see them: hammock365.com
+
+## Sources
+
+All sources checked September 23, 2026.
+
+- US Attorney's Office, Northern District of Ohio, "Former Bank Employee Who Targeted Elderly Victims in Identity Theft and Fraud Scheme Sentenced to a Decade in Prison," September 17, 2026.
+- US Attorney's Office, Northern District of Georgia, "Financial Advisor Sentenced to Federal Prison for Defrauding Elderly Client," September 14, 2026.
+- US Attorney's Office, Eastern District of Kentucky, "Pulaski County Man Convicted for Defrauding Elderly Relative," September 15, 2026.
+- FinCEN, "Elder Financial Exploitation: Threat Pattern and Trend Information, June 2022 to June 2023," April 2024.
+- FINRA Rule 4512, Customer Account Information, including Supplementary Material .06, Trusted Contact Person.
+- FINRA Rule 2165, Financial Exploitation of Specified Adults.
+
+---
+
+# Brunswick County, NC Senior Help Directory (2026)
+https://rigginsstrategicsolutions.com/blog/brunswick-county-nc-senior-help-directory
+Published: 2026-09-22
+
+**Excerpt:** Free, plain-English senior help in Brunswick County, NC: the Tax Office in Bolivia and the 2026 and 2027 income limits for North Carolina's three relief programs, a countywide revaluation that lands in 2027 with new values mailed by the end of March, a free deed fraud alert, Brunswick Senior Resources and its six senior centers, Meals on Wheels and free lunch at 60, a Medicaid change that rewards applying before December 31, a $3 county bus that takes any resident with 48 hours' notice, the co-op's Warm Homes, Warm Hearts fund, free home repair through WARM NC, the Sheriff's free daily check-in call, and a PACE program in Wilmington that reaches only four Brunswick ZIP codes.
+
+*Free, plain-English help for seniors and families in Brunswick County, NC. Education, not advice. Verify before you rely on it.*
+
+## Start here (works anywhere)
+- 211 (dial 2-1-1), Eldercare Locator 1-800-677-1116, Medicare 1-800-633-4227, Social Security 1-800-772-1213, VA 1-800-827-1000, Alzheimer's 24/7 Helpline 1-800-272-3900, National Elder Fraud Hotline 1-833-372-8311, Crisis Lifeline 988
+
+**Three local front doors:** **Brunswick Senior Resources, Inc. (BSRI)**, **3620 Express Drive, Shallotte, NC 28470**, **910-754-2300** | **Brunswick County Social Services**, **60 Government Center Drive, Building B, Bolivia, NC 28422**, **910-253-2077** | **Cape Fear Council of Governments Area Agency on Aging**, **1480 Harbour Drive, Wilmington, NC 28401**, **910-395-4553**. And **2-1-1**, or **1-888-892-1162**.
+
+**If you only make one call from this page, make it Brunswick Senior Resources.** BSRI is a nonprofit that the county describes as the group that operates the senior centers, coordinates Meals on Wheels and assists with in-home aide services. Its **Aging Resources** team serves **Brunswick County residents 60 and older and their caregivers**: information and assistance, **Meals on Wheels**, food pantries, the **in-home aide program**, **family caregiver support**, support groups, medication assistance, transportation and **SHIIP Medicare counseling**. Call **910-754-2300 and press 1** for Information and Assistance, or email infoandassist@bsrinc.org. Search engines sometimes show a Bolivia address for BSRI; that is the county government's address. BSRI's office is on **Express Drive in Shallotte**.
+
+**BSRI's six senior centers.**
+- **Calabash**, 10050 Beach Drive SW, Calabash 28467, **910-754-7427**, Monday to Friday 7 a.m. to 3 p.m.
+- **Leland**, 121 Town Hall Drive NE, Leland 28451, **910-754-7701**, Monday to Friday 8 a.m. to 4 p.m.
+- **Shallotte**, 3620 Express Drive, Shallotte 28470, Monday to Friday 8 a.m. to 4 p.m. (BSRI's pages list both 910-754-2300 and 910-754-7974 for this center.)
+- **Southport**, 1513 North Howe Street, Suite 1, Southport 28461, **910-754-7109**, Monday to Friday 8 a.m. to 4 p.m.
+- **Supply**, Stone Chimney Road SE, Supply 28462, **910-754-7604**. BSRI's pages give different hours for this center, so call first.
+- **Waccamaw**, 5841 Waccamaw School Road NW, Ash 28420, **910-287-3998**, Monday to Friday 8 a.m. to 4 p.m., lunch at 11:30.
+
+Any center can also be reached through BSRI's main line, **910-754-2300**.
+
+**Social Services is the benefits office.** Medicaid, Food and Nutrition Services, energy assistance, Special Assistance, adult day care funds and Adult Protective Services all run out of **60 Government Center Drive, Building B, Bolivia**, **Monday to Friday, 8:30 a.m. to 5 p.m.**, main line **910-253-2077**. You can apply in person **without an appointment**.
+
+**Cape Fear Council of Governments is the regional layer.** It is the **Area Agency on Aging for Region O**, covering **Brunswick, Columbus, New Hanover and Pender** counties. It runs the **Family Caregiver Support Program** regionally, **Project C.A.R.E.** for families living with dementia, and the **Long-Term Care Ombudsman** for nursing home and assisted living residents, and it funds caregiver services through BSRI in this county.
+
+## Property tax relief (apply with the Brunswick County Tax Office, 910-253-2829)
+
+**The office.** Senior and disability relief is handled by the **Brunswick County Tax Office**, **30 Government Center Drive NE, Sandifer Building, 1st Floor, Bolivia, NC 28422**. Mail goes to **PO Box 269, Bolivia, NC 28422**. The main line is **910-253-2829**, with an alternate toll-free line at **800-527-9001**. Hours are **Monday to Friday, 8:30 a.m. to 5 p.m.** The county's relief page asks you to call **910-253-2811**, but every other Tax Office page and the state's assessor list give **910-253-2829**, so if one number does not answer, try the other. The county publishes an online "Email the Tax Office" form but no email address. There are no satellite tax offices.
+
+**Where to find the income limit.** Brunswick County's relief page no longer prints a dollar figure; it sends you to the state application, and the county does not have a form of its own. Older copies of that county page that still show up in search results carry a **$33,800** limit for 2023. Ignore them. The current numbers come from the North Carolina Department of Revenue's form AV-9: **$38,800 for the 2026 tax year** and **$39,900 for the 2027 tax year**.
+
+**The three programs.** All three are set by the state and filed with the county Tax Office.
+
+- **Elderly or Disabled Exclusion.** Takes the **greater of the first $25,000 or 50 percent** off the appraised value of the permanent residence. The owner must be **65 or older, or totally and permanently disabled**, as of **January 1**, and income must be within the limit: **$38,800 for 2026, $39,900 for 2027**. If both spouses are under 65 and one is totally and permanently disabled, you also file **Form AV-9A**, a certification of disability.
+- **Circuit Breaker Tax Deferment.** Limits the tax to a percentage of the owner's income, for incomes up to **$58,200 for 2026** or **$59,850 for 2027**. It needs **five full years of ownership and five years of occupancy** before January 1. **This is a deferral, not forgiveness.** In the county's words, the taxes over the limit **"are deferred and remain a lien on the property,"** and **"the three most current years of deferred taxes prior to a disqualifying event will become due and payable, with interest."** Disqualifying events are **the death of the owner, transfer of the property, and the home no longer being the owner's permanent residence.** And the state form says it in capital letters: **you must file a new application for this program every year.** Understand the lien before your parent signs, especially if the plan is to sell the house or leave it to family.
+- **Disabled Veteran Exclusion.** Takes up to the first **$45,000** off the appraised value, with **no age or income limit**. The county routes it through **Brunswick County Veterans Services, 10 Referendum Drive, Building F, Bolivia, NC 28422, 910-253-2233**, Monday to Friday 8:30 a.m. to 5 p.m., by appointment. Bring VA documentation dated within the past year.
+
+**Each owner can use only one of the three programs.**
+
+**Deadlines.** The state form says an application **must be filed by June 1** to be on time. A late application needs a showing of **good cause** and applies only to that calendar year's taxes. Income proof follows the instructions on the AV-9.
+
+**The 2027 revaluation.** Brunswick County reappraises every four years. The last revaluation took effect **January 1, 2023**, and the next one takes effect **January 1, 2027**. The county says owners should get a notice with their **updated 2027 value by the end of March 2027**. The county rate is **34.20 cents per $100** of value (the county's own page labels that rate as the fiscal year that ended June 30, 2026, and its table shows the same 0.342 for 2026). Towns add their own rates on top. If a parent may qualify for the exclusion, the window for the 2027 tax year, **January 1 to June 1, 2027**, runs right alongside the new values.
+
+**Paying this year's bill.** 2026 bills were mailed in mid-August and were due September 1. They can be paid **without interest through January 5, 2027**. On January 6 unpaid bills become delinquent and **2 percent interest** is added, then **0.75 percent** more on February 1 and each month after. For a payment arrangement, call the **Collections Division at 910-253-2729**. One quirk: the county collects property taxes for every town **except Holden Beach and Ocean Isle Beach**, which bill their own town taxes.
+
+**Two protections worth ten minutes.**
+- The **Register of Deeds** runs a free **Fraud Alert** service that notifies you when a document is recorded in your name, a useful guard on a parent's paid-off house. Sign up on the county website or call **910-253-2690**.
+- The county also warns: **don't purchase copies of your deed from an unsolicited mailing.** Copies come from the Register of Deeds itself, 910-253-2690.
+
+## Food
+
+**Meals on Wheels.** **Brunswick Senior Resources** coordinates Meals on Wheels for the county. Eligible recipients get **a hot midday meal delivered on weekdays**. You must be **60 or older and homebound** (a spouse of an eligible person, or a disabled adult living with one, may also qualify), and enrollment starts with **an in-home assessment** by BSRI's Aging Resources staff. Call **910-754-2300, press 1**. BSRI does not publish waitlist status, so ask when you call.
+
+**Lunch at the senior centers.** Registered participants **60 and older eat lunch at no charge**, with contributions of any amount encouraged; anyone under 60 pays **$5**. Reservations are advised. Meals are served at the six BSRI centers above, plus two town-run sites that BSRI sponsors:
+- **Oak Island**, 102 SE 47th Street, Monday to Thursday 9:30 a.m. to 2 p.m., **910-278-3622** or **910-278-6552**
+- **Boiling Spring Lakes Community Center**, 1 Leeds Road, Monday, Wednesday and Friday 10 a.m. to 2 p.m., **910-363-0018**
+
+**Brunswick Family Assistance.** This local nonprofit runs a food pantry and emergency assistance at **929 Old Ocean Highway, Bolivia, 910-754-4766**. Hours are Monday, Tuesday and Thursday 9 a.m. to 4:30 p.m., Wednesday 1 to 4:30 p.m., and Friday 9 a.m. to 3 p.m., closed for lunch from noon to 1 p.m.; the pantry closes 30 minutes before the office. You can use the pantry **12 times a year with at least 30 days between visits**, and you must have lived in Brunswick County **at least 90 days**. Its **mobile pantry** is at **Leland Community Park** on Mondays, Tuesdays and Fridays from 9 a.m. to noon, and makes monthly stops in Southport, Calabash, Supply, Ash and Shallotte. Some older listings show a Leland or Shallotte office; its own site now lists only Bolivia.
+
+**The regional food bank.** The **Food Bank of Central and Eastern North Carolina's Wilmington branch**, **1000 Greenfield Street, Wilmington, 910-251-1465**, supplies pantries across Brunswick, Columbus, Duplin, New Hanover and Pender counties. Find the pantry nearest a parent's ZIP code on its "find food" page.
+
+**Food and Nutrition Services (SNAP).** Apply online through **ePASS** at epass.nc.gov, or in person at Social Services in Bolivia with no appointment needed. Call **910-253-2077** to have an application mailed.
+
+## Energy and utility help
+
+**Low Income Energy Assistance (LIEAP).** A once-a-year heating payment. Brunswick County says only households with **a person 60 or older**, or a disabled person receiving services through the Division of Aging and Adult Services, can get benefits **December 1 through December 31** or until funds run out; any household can apply **January 1 through March 31**. The state's income limit is **130 percent of the federal poverty level**. Apply on **ePASS** or through Social Services, **910-253-2077**. For a parent 60 or older, **December** is the month to apply.
+
+**Crisis Intervention Program (CIP).** For a **heating or cooling emergency**, taken **July 1 through June 30** or until the county's money runs out, so it is open now. The state limit is **150 percent of the poverty level**, with a **$4,500** resource limit for households with someone 60 or older or disabled. Apply on **ePASS** or in person at Social Services.
+
+**If the power bill says Brunswick Electric (BEMC).** BEMC's **Warm Homes, Warm Hearts** fund helps members with their electric bill **to avoid disconnection**, and the co-op puts up **to $50,000 in matching funds**. In Brunswick County, **Brunswick Family Assistance decides eligibility and hands out the money**: call **910-754-4766** and bring the final shut-off notice. BEMC's headquarters is **795 Ocean Highway West, Supply, 910-754-4391**; member services is **800-842-5871**. BEMC does not offer budget billing to renters.
+
+**If the power bill says Duke Energy.** Duke Energy's **Share the Light Fund** helps customers with a **past-due balance, unpaid deposit or unpaid reconnection charge**. Apply through the **NCDHHS CARELINE at 800-662-7030, press 3**, through Social Services, or at **epass.nc.gov**.
+
+**Help with any heating fuel.** Piedmont Natural Gas's **Share the Warmth** fund, handed out through county social services outside Mecklenburg, can pay energy bills **regardless of the energy source used in the home**, and state policy says **a household does not have to be a Piedmont customer**. Income must be **at or below 150 percent** of poverty, and the benefit is capped at **$200 per state fiscal year**. Ask Social Services at **910-253-2077**.
+
+**Brunswick Family Assistance, utilities.** Beyond the co-op fund, BFA can help eligible clients with a utility bill **once every 6 months**. Bring the final shut-off notice. It does **not** pay past-due gas or propane bills, and help depends on the money available the day you apply.
+
+## Medicare, Medicaid, prescriptions
+
+**Free Medicare counseling.** North Carolina's **Seniors' Health Insurance Information Program (SHIIP)**, run by the NC Department of Insurance, gives free, unbiased Medicare counseling, **by appointment**. The state's counselor locator lists three Brunswick sites, all at **910-408-1385** (ask for SHIIP help): **The Brunswick Center at Southport**, 1513 North Howe Street; **Brunswick Senior Resources**, 3620 Express Drive, Shallotte; and the **Leland SHIIP Office**, 121 Town Hall Drive. BSRI's own guide says it has SHIIP counselors at all six of its centers and books them at **910-754-2300, option 1**. The statewide SHIIP line is **1-855-408-1212**, Monday to Friday 8 a.m. to 5 p.m. Call before any Medicare Advantage or Part D decision, especially during open enrollment from **October 15 to December 7**.
+
+**Help paying Medicare costs.** The **Medicare Savings Programs** can pay Medicare premiums, and **Extra Help** lowers Part D drug costs. Apply for the Medicare Savings Programs through Social Services at **910-253-2077**, and for Extra Help through SHIIP or Social Security at **1-800-772-1213**. We are not printing income limits here; ask SHIIP to check them against your parent's numbers.
+
+**Medicaid, and a reason to apply before December 31.** Apply on ePASS, in person at Social Services in Bolivia, or by calling **910-253-2077** for a mailed application. The **NC Medicaid Contact Center** is **888-245-0179**. NC Medicaid says that for **adults 65 and older and people with a disability**, if you **apply by December 31, 2026**, Medicaid will cover approved costs for **up to 3 months before you applied**. Starting **January 1, 2027**, that look-back shrinks to **2 months**. If a parent is heading toward a nursing home or already paying for care, that difference can be real money. Work requirements starting January 1, 2027 apply to adults **19 to 64**, not to people 65 and older, and renewal moves to every six months.
+
+**Staying home on Medicaid: CAP/DA.** The **Community Alternatives Program for Disabled Adults (CAP/DA)** is North Carolina's Medicaid waiver that brings in-home aide help, respite and case management so someone who would otherwise qualify for a nursing home can stay home. NC Medicaid's list of case management agencies for Brunswick County (dated May 2025) names **Novant Health, NHRMC, 910-667-8303**; **Primary Health Choice, 910-865-3500**; **RHA Management Services, Inc., 888-207-7828**; and **Walkers Home Care CAPDA, 252-432-6308**. Brunswick County's Adult Services page lists **910-667-8303 or 910-742-9440** for CAP/DA. The state list is more than a year old, so if a line does not answer, ask the Medicaid Contact Center.
+
+**Special Assistance In-Home.** Brunswick County Social Services lists **Special Assistance In-Home (SA-IH)** and adult placement at **910-253-2197**. Ask whether a parent's income qualifies.
+
+**Prescriptions.** Start with Extra Help and a SHIIP plan comparison. **NC MedAssist (1-866-331-1348)** is a free mail-order pharmacy for uninsured North Carolinians with income up to 300 percent of poverty; it says it may help **some Medicare patients on a case-by-case basis**.
+
+## Home repair and safety
+
+- **WARM NC.** Does **free home repairs** for owners in Bladen, **Brunswick**, Columbus, Duplin, New Hanover, Onslow and Pender counties. You must **own the home and have lived in it at least three years**, with income **at or below 50 percent** of the county median (some funders allow up to 80 percent). Its funding includes the state's **Urgent Repair Program**. **910-399-7563.** Brunswick Senior Resources says its own crisis fund pays for emergency home repairs done alongside WARM NC, so mention BSRI when you call.
+- **Weatherization.** North Carolina's weatherization provider for Brunswick County is **Action Pathways**, based in Fayetteville, **910-223-0116** for weatherization (main line 910-485-6131). It serves households **at or below 200 percent** of poverty, gives **priority to the elderly and people with disabilities**, and runs the **Heating and Air Repair and Replacement Program (HARRP)** for failing furnaces and air systems. Have ID, proof of income (no bank statements), a 12-month utility printout and proof of ownership ready.
+- **USDA Section 504.** For very-low-income homeowners in eligible rural areas: loans up to **$40,000** at a fixed **1 percent** over 20 years, and grants up to **$10,000** for owners **62 or older**, combinable up to $50,000. Grants must be repaid if the home is sold within three years. Check the address on USDA's eligibility map first.
+- **Brunswick County Habitat for Humanity** (1323 Stone Chimney Road SW, Supply, 910-454-0007) builds homes and runs three ReStores. Its own website does not list a home repair program, so do not count on one.
+- **ReBuild NC (Hurricanes Florence and Matthew): closed.** The state's homeowner recovery program says its application period is closed.
+
+**A free daily check-in call.** The **Brunswick County Sheriff's Office "Are You OK?"** program places a **free computer-generated call every day** between **7 and 11 a.m.**, 365 days a year. If no one answers, the office tries the subscriber and the key holders, and **a deputy is sent** if no one is reached. You need **at least two key holders**. Call **910-253-2777** for an application, or mail it to PO Box 9, Bolivia, NC 28422.
+
+**Project Lifesaver.** The Sheriff's Office also offers **free** radio-tracking bracelets for people with dementia, autism or a similar condition who are **known to wander**. Call **910-253-2777** and ask for the I.M.P.A.C.T. Unit.
+
+## Rent, housing, emergency cash
+
+- **Brunswick County Public Housing Agency**, **60 Government Center Drive, Building B, Bolivia, 910-253-2222.** It runs only the **Section 8 Housing Choice Voucher** program; there is no public housing. The county says the waitlist **is usually closed** and opens to the public **by lottery**. The last opening it announced was **March 11 to 25, 2024**, when it selected 250 entries. Ask to be told when it reopens.
+- **Brunswick Family Assistance**, **910-754-4766.** Rent help with a late notice from the landlord, **once every 12 months**; utility help **once every 6 months**; and life-sustaining prescriptions. Help depends on eligibility **and the money available the day you apply**, and you must have lived in the county at least 90 days.
+- **BSRI senior housing.** Brunswick Senior Resources keeps an **interest list for partner affordable senior apartments**, generally for incomes **below 60 percent** of the area median. Call **910-754-9846, extension 1019**.
+- **2-1-1** knows which church funds and ministries have money this week.
+
+## Transportation
+
+**Brunswick Transit System (BTS)** is the county's public transportation, **5040 Main Street, Shallotte**. Call **910-253-7800** or toll free **877-754-2764**; TDD/TTY **800-735-2962** or 711.
+- **Any Brunswick County resident can ride**, for medical trips, general purpose trips and most non-emergency destinations.
+- Service runs **Monday to Friday, 8:00 a.m. to 4:30 p.m., as space permits.**
+- **Book by phone at least 48 hours ahead.** Allow **2 hours** before your drop-off time, and be ready: drivers wait only **5 minutes**. Cancel at least 2 hours ahead, because no-show charges must be paid before you can book again.
+- The general public fare is **$3.00 one way**, paid when you board. BTS does not list a senior discount.
+- **Drivers do not enter homes**, so a parent who needs help getting out the door needs someone with them.
+
+**BSRI rides to the senior centers.** Brunswick Senior Resources gives residents **60 and older** in select service areas free rides to its **nutrition sites and senior centers**. It is not for medical trips; for those, it points you to BTS. Call **910-754-2300**.
+
+**Leland and Belville: Wave RideMICRO.** Wilmington's Wave Transit runs an on-demand van, **RideMICRO Zone 1, Northern Brunswick**, connecting to Wave's buses at Padgett Station in downtown Wilmington. It runs weekdays 6 a.m. to 8 p.m., Saturdays 8 a.m. to 6 p.m. and Sundays 9 a.m. to 5 p.m., costs **$2 per one-way trip** with no reduced fare, and is booked at **910-861-0661**. Wave does not list the towns inside the zone, so give them the address when you call. Wave's DART paratransit covers only addresses within three quarters of a mile of a Wave bus route, so ask before counting on it for a Brunswick address.
+
+**Medicaid rides to appointments.** To apply for Medicaid transportation, Brunswick County lists **910-253-2124 or 910-253-2118**. To schedule, call **910-253-2247**. The county asks for **3 business days' notice** for trips inside the county and **at least 5 business days** for trips outside it, such as to a Wilmington specialist. (NC Medicaid's statewide rule is at least 2 days for health plan members, who call their plan, and 4 days for NC Medicaid Direct members. The county's own rule is longer, so go by the county.)
+
+## Legal help
+
+**Senior Legal Helpline.** **Legal Aid of North Carolina's Senior Legal Helpline** gives **free legal help to North Carolinians 60 and older**: **1-877-579-7562**, Monday to Friday **9 to 11 a.m. and 1 to 3 p.m.** Its Senior Law Project covers public benefits like Medicaid, food stamps and SSI, with priority for those with the greatest economic need.
+
+**Legal Aid, Wilmington office.** **272 North Front Street, Suite 220, Wilmington, 910-763-6207**, Monday to Friday 9 a.m. to 4:30 p.m., serves **Bladen, Brunswick, Columbus, Duplin, New Hanover, Onslow and Pender** counties. To apply for help, Legal Aid points people to its statewide helpline, **1-866-219-5262**, Monday to Friday 9 a.m. to 3 p.m.
+
+**Protecting an older adult.**
+- **Brunswick County Adult Protective Services:** **910-253-2077** or **910-253-2415** during business hours. **After hours, call 911** and ask for the on-call social worker. Do not email a report.
+- **Long-Term Care Ombudsman at the Cape Fear Council of Governments**, for problems in a nursing home or assisted living: **910-444-8485** or **910-444-8198**.
+- **Assisted living complaints** can also go to the county's Adult Home Specialist at **910-253-2166**, or the state Division of Health Service Regulation at **800-624-3004**.
+- **Guardianship questions**, Brunswick County Social Services: **910-253-2123**.
+- **NC Attorney General Consumer Protection: 1-877-566-7226** (1-877-5-NO-SCAM).
+- **National Elder Fraud Hotline: 1-833-372-8311.**
+
+**Paperwork offices you will need.** A power of attorney that will be used for real estate is recorded at the **Brunswick County Register of Deeds, 75 Courthouse Drive NE, Building I, Bolivia, 910-253-2690**. Estates run through the **Brunswick County Clerk of Superior Court, 310 Government Center Drive NE, Bolivia**, main line **910-253-3900**, estates **910-253-3904**. For a veteran's benefits, **Brunswick County Veterans Services, 910-253-2233**.
+
+## Caregiver support
+
+- **BSRI Family Caregiver Support.** Support groups, **respite care**, and supplemental services on a limited basis, including the **Homecare Independence Program**, which lets a caregiver **hire family, friends or others** to help. BSRI's caregiver support groups meet monthly at its Calabash, Leland, Shallotte, Southport and Supply centers; call **910-754-2300, extension 1**, for dates.
+- **Cape Fear Council of Governments.** Its **Family Caregiver Specialist** is at **910-274-0343**. The program serves caregivers of any age caring for someone 60 or older, or for someone with Alzheimer's disease or a related dementia.
+- **Project C.A.R.E.** Dementia-specific support and **respite vouchers** for families caring for someone with dementia at home, with **no specific income limit** (funds are limited). **910-408-6365.**
+- **Alzheimer's Association, Eastern North Carolina Chapter.** Wilmington and coastal area line **919-241-5960**; **24/7 Helpline 1-800-272-3900**.
+- **Adult day.** **Woodard's Adult Day Health Center**, **115 Holden Beach Road, Shallotte, 910-754-9409**. Brunswick County Social Services says **limited funds** are available to help pay for adult day care; call **910-253-2197** or **910-253-2072**.
+- **In-home aide.** Contact a case manager at your local BSRI senior center; eligibility is set by an in-home assessment.
+
+## PACE
+
+**Brunswick County has a PACE program, but only in the northern and eastern ZIP codes.**
+
+PACE, the **Program of All-Inclusive Care for the Elderly**, takes over a person's whole care plan, doctors, a day center, therapy, personal care, prescriptions and transportation, so someone who needs a nursing home level of care can keep living at home. NC Medicaid's official service area list names **Elderhaus, 2222 South 17th Street, Wilmington, NC 28401**, serving **New Hanover and Brunswick** counties. The phone the state list gives is **910-767-0932**.
+
+**Who qualifies.** People **55 and older** who meet a **nursing home level of care** and can live safely in the community with PACE's support, inside the service area.
+
+**Check the ZIP code.** The state list names only these Brunswick ZIP codes: **28422 (Bolivia), 28451 (Leland), 28461 (Southport) and 28479 (Winnabow)**. It does **not** list Oak Island (28465), Shallotte (28470), Supply (28462), Calabash (28467), Ocean Isle Beach (28469), Sunset Beach (28468), Ash (28420) or Longwood (28452). If your parent lives in one of those, call Elderhaus before you build a plan around it, and ask about CAP/DA through the agencies above instead.
+
+## Frequently asked questions
+**Mom is 72, lives in Leland, and gets about $3,000 a month from Social Security and a small pension. Does she qualify for a tax break?** Likely. About $3,000 a month is about $36,000 a year, under the **$38,800** limit for 2026 and the **$39,900** limit for 2027. The **Elderly or Disabled Exclusion** takes the greater of **$25,000 or half** of her home's value off the tax bill. Her window for the 2027 tax year is **January 1 to June 1, 2027**, the same spring the county mails new 2027 values. Call the Tax Office at **910-253-2829** in January.
+
+**Dad's new value comes in March 2027. Should he use the Circuit Breaker?** Go in with open eyes. It limits his tax to a percentage of income, but the rest is **deferred, not forgiven**. It stays a lien, and when he dies, the home is transferred, or it stops being his permanent residence, **the last three years of deferred taxes come due with interest**, usually out of the sale. He must **reapply every year**, and he needs five years of ownership and occupancy first. If his income is under the exclusion limit, the exclusion is usually simpler, and each owner can use only one program. Ask the Tax Office to run both, and talk to the **Senior Legal Helpline (1-877-579-7562)** if the house is part of an estate plan.
+
+**Mom lives in Oak Island and needs a nursing home level of care. Can PACE keep her home?** Not by the state's list. Elderhaus's Brunswick service area covers only Bolivia, Leland, Southport and Winnabow ZIP codes, and Oak Island's **28465** is not one of them. Call Elderhaus at **910-767-0932** to confirm, then look at **CAP/DA** through the case management agencies above, and ask Social Services about **Special Assistance In-Home** at **910-253-2197**.
+
+**Dad's savings are running out and he may need Medicaid for care. Does timing matter?** It can. NC Medicaid says people 65 and older who **apply by December 31, 2026** can get approved costs covered for **up to 3 months before they applied**; from January 1, 2027, the look-back is **2 months**. Call Social Services at **910-253-2077** or apply on ePASS, and talk to the Senior Legal Helpline before moving any assets.
+
+**My mother in Shallotte has a specialist in Wilmington and no car. How does she get there?** If she has Medicaid, call **910-253-2247** at least **5 business days** ahead; that is the county's rule for out-of-county trips. If she does not, **Brunswick Transit System (910-253-7800)** takes any county resident for medical trips with 48 hours' notice at **$3 one way**; ask when you book whether the Wilmington trip is on its schedule. Drivers do not come inside, so plan for someone to help her to the door.
+
+**Mom lives alone near Southport and hurricane season scares me. What can I set up today?** Three things. Enroll her in the Sheriff's free **"Are You OK?"** daily call (**910-253-2777**), which sends a deputy if she does not answer and no key holder can be reached. Sign her house up for the **Register of Deeds Fraud Alert**. And call **Brunswick Senior Resources (910-754-2300, press 1)** so she is known to the county's aging network before a storm, not after.
+
+## Sources
+- **North Carolina Department of Revenue, Form AV-9, 2026 Application for Property Tax Relief**: source of the Elderly or Disabled Exclusion ("excludes the greater of the first $25,000 or 50% of the appraised value of the permanent residence"), the 2026 limit $38,800, the Circuit Breaker limit $58,200, the $45,000 Disabled Veteran Exclusion, "This application must be filed by June 1st to be timely filed," the good-cause late filing rule, "Each owner is eligible to receive benefit from only one program," the January 1 age test, AV-9A, the five-year ownership and occupancy rule, and "YOU MUST FILE A NEW APPLICATION FOR THIS PROGRAM EVERY YEAR": https://www.ncdor.gov/2026-av-9-securedpdf/open . Verified September 22, 2026.
+- **North Carolina Department of Revenue, Form AV-9, 2027 Application**: source of $39,900 and $59,850 for the 2027 tax year: https://www.ncdor.gov/2027-av-9-securedpdf/open . Verified September 22, 2026.
+- **North Carolina Department of Revenue, County Assessors List (revised July 20, 2026)**: source of "Brunswick 910-253-2829 ... P. O. Box 269 Bolivia, NC 28422": https://www.ncdor.gov/assessors-list-7-20-26pdf/open . Verified September 22, 2026.
+- **Brunswick County, Tax Office**: source of 30 Government Center Drive NE, Sandifer Building, 1st Floor, Bolivia, NC 28422, PO Box 269, 910-253-2829, 800-527-9001, fax 910-253-2835, hours Monday through Friday 8:30 am to 5 pm, "Payable Without Interest Through January 5, 2027," bills mailed mid-August and due September 1, and the Holden Beach and Ocean Isle Beach exception: https://www.brunswickcountync.gov/447/Tax-Office . Verified September 22, 2026.
+- **Brunswick County, Tax Relief**: source of the three programs, the Circuit Breaker lien and three-year payback language quoted on this page, the disqualifying events, "There is no age or income limitation" for disabled veterans, the instruction to find the current income limit on the state application, and the relief contact line 910-253-2811: https://www.brunswickcountync.gov/497/Tax-Relief . Forms page linking to NCDOR: https://www.brunswickcountync.gov/455/Forms-Documents . Verified September 22, 2026.
+- **Brunswick County, 2027 Revaluation**: source of "a four (4) year reappraisal cycle with the last revaluation effective on January 1, 2023 and the next revaluation effective on January 1, 2027" and updated values "by the end of March 2027": https://www.brunswickcountync.gov/448/2027-Revaluation . Verified September 22, 2026.
+- **Brunswick County, Tax Rates**: source of 0.3420, 34.20 cents per $100, and the fiscal year label: https://www.brunswickcountync.gov/494/Tax-Rates . Verified September 22, 2026.
+- **Brunswick County, Tax Bills and Payments**: source of 2% interest on January 6, 0.75% on February 1 and each month after, and the Collections Division at 910-253-2729: https://www.brunswickcountync.gov/1106/Tax-Bills-Payments . Verified September 22, 2026.
+- **Brunswick County, Veterans Services and State Benefits**: source of 10 Referendum Drive, Building F, Bolivia, NC 28422, 910-253-2233, hours, appointments, and "VA documentation dated within the past year": https://www.brunswickcountync.gov/472/Veterans-Services and https://www.brunswickcountync.gov/503/State-Benefits-Property-Tax-Exclusion . Verified September 22, 2026.
+- **Brunswick County, Register of Deeds, Fraud Alert and Other Information**: source of 75 Courthouse Dr. NE, Building I, Bolivia, 910-253-2690, the free Fraud Alert Notification system, and "Don't purchase copies of your deed from an unsolicited mailing": https://www.brunswickcountync.gov/990/Register-of-Deeds , https://www.brunswickcountync.gov/997/Fraud-Alert , https://www.brunswickcountync.gov/1018/Other-Information . Verified September 22, 2026.
+- **North Carolina Judicial Branch, Brunswick County contact directory**: source of 310 Government Center Drive NE, Bolivia, the Clerk at (910) 253-3900, and Estates at (910) 253-3904: https://www.nccourts.gov/locations/brunswick-county/contact-directory . Verified September 22, 2026.
+- **Brunswick Senior Resources, Inc., home page, All Locations, center pages, Nutrition, Aging Resources, Transportation, Family Caregiver, Housing, support group list and Resource Guide**: source of 3620 Express Drive, Shallotte, NC 28470, (910) 754-2300, fax (910) 754-9269, option 1 for Information and Assistance, infoandassist@bsrinc.org, the six centers with their addresses, phones and hours (Calabash (910) 754-7427, Leland (910) 754-7701, Shallotte 910-754-7974, Southport (910) 754-7109, Supply (910) 754-7604, Waccamaw (910) 287-3998, including the conflicting Shallotte phone and Supply hours noted on this page), the Oak Island meal site at 910-278-3622 or 910-278-6552 and the Boiling Spring Lakes site at 910-363-0018, Meals on Wheels eligibility and the in-home assessment, free lunch at 60 and $5 under 60, transportation for residents 60 and up in select service areas, the Homecare Independence Program, the caregiver support groups, six SHIIP counseling centers, the housing interest list at 910-754-9846 ext. 1019, and the crisis fund for emergency home repairs with WARM NC: https://bsrinc.org/ , https://bsrinc.org/all-locations/ , https://bsrinc.org/nutrition/ , https://bsrinc.org/aging-resources/ , https://bsrinc.org/housing/ , https://bsrinc.org/wp-content/uploads/2022/06/Transportation.pdf , https://bsrinc.org/wp-content/uploads/2026/02/Brunswick-County-Support-Groups_Updated-12.3.25.pdf , https://bsrinc.org/wp-content/uploads/2026/03/Copy-of-Resource-Guide-6_24.docx.pdf . Verified September 22, 2026.
+- **Brunswick County, Services for Seniors**: source of BSRI as the nonprofit that "operates senior centers, coordinates the Meals on Wheels program, assists with in-home aide services": https://www.brunswickcountync.gov/346/Services-for-Seniors . Verified September 22, 2026.
+- **Cape Fear Council of Governments, Area Agency on Aging, Caregiver Support, Project C.A.R.E. and Ombudsman pages**: source of Region O serving Brunswick, Columbus, New Hanover and Pender, 1480 Harbour Dr, Wilmington, NC 28401, (910) 395-4553, the Family Caregiver Specialist at 910-274-0343 and eligibility, Project C.A.R.E. respite vouchers with "no specific income limitations" at (910) 408-6365, and the ombudsmen at 910-444-8485 and 910-444-8198: https://capefearcog.gov/aging/ , https://capefearcog.gov/aging/caregiver-support/ , https://capefearcog.gov/aging/project-care/ , https://capefearcog.gov/aging/ombudsman/ . Verified September 22, 2026.
+- **Brunswick County, Social Services, Adult Services, Abuse and Neglect Concerns, and Medicaid and Food and Nutrition Services pages**: source of 60 Government Center Drive, Building B, Bolivia NC 28422, 910-253-2077, hours, apply "in person at the Social Service building; no appointment is necessary," APS at 910-253-2077 or 910-253-2415, "call 911 or 910-253-7490 and ask to speak to the on-call social worker," "Please do not email reports," Special Assistance In-Home and adult placement at 910-253-2197, adult day care "Limited funds are available" at 910-253-2197 or 910-253-2072, the Adult Home Specialist at 910-253-2166 and DHSR at 800-624-3004, guardianship at 910-253-2123, and CAP-DA at 910-667-8303 or 910-742-9440: https://www.brunswickcountync.gov/387/Social-Services , https://www.brunswickcountync.gov/389/Adult-Services , https://www.brunswickcountync.gov/388/Abuse-Neglect-Concerns , https://www.brunswickcountync.gov/399/Medicaid-Food-Nutrition-Services . Verified September 22, 2026.
+- **NC 211**: source of "Dial 2-1-1 or 1-888-892-1162": https://www.nc211.org/ . Verified September 22, 2026.
+- **Food Bank of Central and Eastern North Carolina, Wilmington branch**: source of the five-county Cape Fear service area including Brunswick, 1000 Greenfield Street, Wilmington 28401, 910-251-1465, and the food finder: https://foodbankcenc.org/locations/wilmington and https://foodbankcenc.org/find-food-resources . Verified September 22, 2026.
+- **Brunswick Family Assistance, home, Contact, Apply for Assistance and Ongoing Programs pages**: source of 929 Old Ocean Highway, Bolivia NC 28422, 910-754-4766, hours and the lunch closing, pantry rules (12 times a year, 30 days apart, 90 days' residency), the mobile pantry schedule including Leland Community Park, utility help once every 6 months with a final shut-off notice, no past-due gas or propane, rent help once every 12 months with a late notice, life-sustaining prescriptions, and help depending on "the availability of funds the day of your application": https://brunswickfamily.org/ , https://brunswickfamily.org/contact/ , https://brunswickfamily.org/apply-for-assistance/ , https://brunswickfamily.org/ongoing-programs/ . Verified September 22, 2026.
+- **Brunswick County, Energy Assistance**: source of the December 1 to 31 window for households with someone 60 and above, January 1 to March 31 for any household, 910-253-2077, and CIP applications on ePASS or in person: https://www.brunswickcountync.gov/394/Energy-Assistance . Verified September 22, 2026.
+- **NCDHHS, Low Income Energy Assistance and Crisis Intervention Program**: source of 130% and 150% of poverty, the July 1 to June 30 CIP year, and the $4,500 resource limit for households with a member 60 or older or disabled: https://www.ncdhhs.gov/assistance/low-income-services/low-income-energy-assistance and https://www.ncdhhs.gov/assistance/low-income-services/crisis-intervention-program . Verified September 22, 2026.
+- **Brunswick Electric Membership Corporation, home, support, billing options and Warm Homes, Warm Hearts**: source of 795 Ocean Hwy W, Supply, 910-754-4391, member services 800-842-5871, budget billing "Not available for members renting or leasing their home," the fund assisting "with their electricity bill to avoid disconnection," "up to $50,000 in matching funds," and administration through Brunswick Family Assistance: https://www.bemc.org/ , https://www.bemc.org/support/ , https://www.bemc.org/payment-billing-options/ , https://www.bemc.org/warm-homes-warm-hearts/ . Verified September 22, 2026.
+- **Duke Energy, Share the Light Fund**: source of the past-due balance, unpaid deposit or reconnection charge requirement, and applying through NC DHHS CARELINE at 800.662.7030, press 3, the county DSS office, or epass.nc.gov: https://www.duke-energy.com/home/billing/special-assistance/share-the-light . Verified September 22, 2026.
+- **Piedmont Natural Gas, Share the Warmth, and NCDHHS policy EP-520**: source of "regardless of the energy source used in the home," NCDHHS as the partner for all other North Carolina counties, 150% of poverty, "$200 per application and $200 per State fiscal year," and "A household does not have to be a PNG customer": https://www.piedmontng.com/ (Share the Warmth page) and https://policies.ncdhhs.gov/wp-content/uploads/EP-520-9.18.2024.pdf . Verified September 22, 2026.
+- **NCDOI, SHIIP contact page and county counselor locator**: source of 1-855-408-1212 Monday through Friday 8am to 5pm, "Local counseling is done by appointment in each county," and the three Brunswick sites at 910-408-1385: https://www.ncdoi.gov/consumers/medicare-and-seniors-health-insurance-information-program-shiip/contact-seniors-health-insurance-information-program-shiip and https://www.ncdoi.com/_Iframes/Search_For_a_Counselor_By_County_View.aspx . Verified September 22, 2026.
+- **NC Medicaid, Medicaid is Changing in 2026-27**: source of "If you apply by December 31, 2026, Medicaid will cover approved costs for up to 3 months before you applied," the 2-month rule from January 1, 2027 for adults 65 and older and people with a disability, work requirements for ages 19 through 64, and six-month renewals: https://medicaid.ncdhhs.gov/beneficiaries/medicaid-is-changing . Verified September 22, 2026.
+- **NC Medicaid, CAP/DA case management agencies by county (May 2025) and Contact Center**: source of the four Brunswick agencies, Novant Health - NHRMC 910-667-8303, Primary Health Choice 910-865-3500, RHA Management Services 888-207-7828 and Walkers Home Care CAPDA 252-432-6308, and 888-245-0179: https://medicaid.ncdhhs.gov/capda-case-management-agencies-county . Verified September 22, 2026.
+- **NC MedAssist**: source of 1.866.331.1348, uninsured North Carolina residents, income limits at 300% of poverty, and Medicare patients "on a case-by-case basis": https://medassist.org/free-pharmacy-program/ and https://medassist.org/how-to-enroll/ . Verified September 22, 2026.
+- **NC Medicaid, PACE service area list (published November 5, 2025)**: source of "Elderhaus ... Counties: New Hanover and Brunswick ... ZIP codes: 28422, 28451, 28461, 28479," 2222 South 17th Street, Wilmington, NC 28401, and 910-767-0932: https://medicaid.ncdhhs.gov/ncpace-service-area/download?attachment . Elderhaus's own website blocked automated reading, so the service area on this page is the state's. Verified September 22, 2026.
+- **WARM NC, What We Do**: source of the seven-county service area including Brunswick, "Repairs are completed at no cost to the homeowner," three years of ownership and occupancy, 50% of county median (some funders up to 80%), the Urgent Repair Program funding, and 910.399.7563: https://warmnc.org/what-we-do/ . Verified September 22, 2026.
+- **NC DEQ Weatherization Assistance Program state plan, and Action Pathways weatherization pages**: source of Action Pathways, 4525 Campground Road, Fayetteville, serving Brunswick, (910) 485-6131, the weatherization line (910) 223-0116, the 200 percent income rule for weatherization and HARRP, priority for the elderly and people with disabilities, and the documents list: https://www.deq.nc.gov/nc-wap-annual-state-plan/open , https://actionpathways.ngo/our-programs/weatherization/ , https://actionpathways.ngo/contact/ , https://actionpathways.ngo/how-to-apply/ . Verified September 22, 2026.
+- **USDA Rural Development, Single Family Housing Repair Loans and Grants**: source of the $40,000 loan, $10,000 grant, $50,000 combined, 1% fixed rate, 20-year term, age 62 for grants, repayment if sold within three years, and "OPEN": https://www.rd.usda.gov/programs-services/single-family-housing-programs/single-family-housing-repair-loans-grants . Verified September 22, 2026.
+- **Brunswick County Habitat for Humanity**: source of 1323 Stone Chimney Rd. SW, Supply, 910-454-0007, the three ReStores, and no home repair program listed: https://brunswickcountyhabitat.org/ and https://brunswickcountyhabitat.org/contact/ . Verified September 22, 2026.
+- **ReBuild NC, Homeowner Recovery Program**: source of "Application Period Closed": https://www.rebuild.nc.gov/homeowners-and-landlords/homeowner-recovery-program . Verified September 22, 2026.
+- **Brunswick County Sheriff's Office, "Are You OK?", Project Lifesaver and contact**: source of the free daily computer-generated calls between 7am and 11am, 365 days a year, the key holder and deputy dispatch rules, PO Box 9, Bolivia 28422, the free Project Lifesaver bracelets, the I.M.P.A.C.T. Unit, and (910) 253-2777: https://www.brunswicksheriff.com/community-programs/ruok and https://www.brunswicksheriff.com/community-programs/project-lifesaver . Verified September 22, 2026.
+- **Brunswick County Public Housing Agency, About Section 8, Public Housing and the 2024 waitlist announcement**: source of "This is the only program administered by the agency," 60 Government Center Drive Building B, 910-253-2222, "the HCVP wait list is usually closed," the lottery, and the March 11 to March 25, 2024 opening selecting 250 entries: https://www.brunswickcountync.gov/370/About-Section-8 , https://www.brunswickcountync.gov/369/Public-Housing , https://www.brunswickcountync.gov/CivicAlerts.aspx?AID=95 . Verified September 22, 2026.
+- **Brunswick Transit System, home, Services and Contact**: source of 5040 Main Street, Shallotte, NC 28470, (910) 253-7800, (877) 754-2764, TDD/TTY (800) 735-2962 or 711, "Any resident of Brunswick County is eligible to ride with BTS," hours, 48-hour phone reservations, the 2-hour window, the 5-minute wait, cancellations and no-show charges, the $3.00 general public fare, and "Drivers do not enter residences": https://www.brunswicktransit.org/ , https://www.brunswicktransit.org/Services , https://www.brunswicktransit.org/contact . Verified September 22, 2026.
+- **Wave Transit, RideMICRO, fares, and Dial-A-Ride Transportation**: source of RideMICRO Zone 1, Northern Brunswick, the Padgett Station connection, hours, 910-861-0661, the $2 fare with no reduced fare, and DART's three-quarter-mile rule: https://www.wavetransit.com/ridemicro/ and https://www.wavetransit.com/dial-ride-transportation/ . Verified September 22, 2026.
+- **Brunswick County, Other Assistance (Medicaid transportation)**: source of 910-253-2124 or 910-253-2118 to apply, 910-253-2247 to schedule, and 3 business days in county and 5 business days out of county: https://www.brunswickcountync.gov/402/Other-Assistance . NC Medicaid's statewide rule of 2 days and 4 days: https://medicaid.ncdhhs.gov/nemt . Verified September 22, 2026.
+- **Legal Aid of North Carolina, Apply, Offices and Senior Law Project**: source of the Senior Legal Helpline 877-579-7562, 9:00 AM to 11:00 AM and 1:00 PM to 3:00 PM, "Free legal help for North Carolinians 60 years of age or older," the general helpline 1 (866) 219-5262 9:00 AM to 3:00 PM, and the Wilmington office at 272 N Front St, Ste 220, 910-763-6207, serving Brunswick: https://legalaidnc.org/apply/ , https://legalaidnc.org/offices/ , https://legalaidnc.org/project/senior-law-project/ . Verified September 22, 2026.
+- **North Carolina Department of Justice, Protecting Consumers**: source of 1-877-5-NO-SCAM, that is 1-877-566-7226: https://ncdoj.gov/protecting-consumers/ . Verified September 22, 2026.
+- **Woodard's Adult Day Health Center**: source of 115 Holden Beach Road, Shallotte, 910-754-9409: https://woodardshealthcenter.org/contact-us . Verified September 22, 2026.
+- **Alzheimer's Association, North Carolina chapters**: source of the Wilmington/Coastal Area line 919.241.5960 and the 24/7 Helpline 800.272.3900: https://www.alz.org/nc/about . Verified September 22, 2026.
+- National anchor lines used in the "Start here" section, all of which work from anywhere: **Eldercare Locator 1-800-677-1116**: https://eldercare.acl.gov/ . **Medicare 1-800-633-4227 (1-800-MEDICARE)**: https://www.medicare.gov/talk-to-someone . **VA 1-800-827-1000**: https://www.va.gov/contact-us/ . **Alzheimer's Association 24/7 Helpline 1-800-272-3900**: https://www.alz.org/help-support/resources/helpline . **National Elder Fraud Hotline 1-833-372-8311 (1-833-FRAUD-11)**: https://ovc.ojp.gov/program/stop-elder-fraud/providing-help-restoring-hope . Verified September 22, 2026. **Social Security 1-800-772-1213**: https://www.ssa.gov/agency/contact/phone.html . **988 Suicide and Crisis Lifeline**: https://988lifeline.org/ . These two were last verified September 17, 2026.
+
+---
+*Verified September 22, 2026. Program names, phone numbers, income limits, and deadlines change. Confirm directly with each program before you rely on it.*
+
+*Ryan Riggins, NC Real Estate License #361546, eXp Realty. Riggins Strategic Solutions is an education and media company, not a real estate sales business. Not financial, tax, medical, or legal advice. Programs and contacts change, confirm directly before relying on them.*
 
 ---
 
