@@ -653,6 +653,15 @@ export const DIRECTORY_COUNTIES: DirectoryCounty[] = [
     blurb:
       "Leland, Southport, Shallotte and Oak Island, NC programs for seniors and families: the Tax Office in Bolivia and the 2026 and 2027 income limits for North Carolina's three relief programs, a countywide revaluation effective January 1, 2027 with new values mailed by the end of March, a free Register of Deeds fraud alert for a parent's house, Brunswick Senior Resources and its six senior centers with free lunch at 60 and Meals on Wheels for homebound seniors, a Medicaid rule that covers up to three months of past costs for people 65 and older who apply by December 31, 2026, energy help that runs through Brunswick Family Assistance when the bill says Brunswick Electric, free home repair through WARM NC, a $3 county bus that takes any resident with 48 hours' notice and a $2 on-demand van around Leland, the Sheriff's free daily Are You OK call, a Section 8 waitlist that opens only by lottery, and a PACE program in Wilmington whose Brunswick service area covers only Bolivia, Leland, Southport and Winnabow.",
   },
+  {
+    slug: "new-hanover-county-nc-senior-help-directory",
+    county: "New Hanover County",
+    state: "NC",
+    metro: "Wilmington, Carolina Beach & Castle Hayne",
+    region: "Cape Fear Coast",
+    blurb:
+      "Wilmington, Carolina Beach, Castle Hayne and Wrightsville Beach, NC programs for seniors and families: the Tax Department on Government Center Drive and the 2026 and 2027 income limits for North Carolina's three relief programs, an exclusion you apply for once that survives a nursing home stay if the house sits empty, values that stay on the 2025 revaluation until 2029, a free Register of Deeds fraud alert, a county-run Senior Resource Center with free lunch at 60 at three sites, weekday Meals on Wheels and free rides to medical visits for seniors not on Medicaid, a grocery and prescription delivery pilot for food desert neighborhoods, a free dental program with dentures for low-income adults 55 and older, a Medicaid rule that covers up to three months of past costs for people 65 and older who apply by December 31, 2026, a $1 Wave bus fare at 65 with a Medicare card, city repair loans inside Wilmington whose balance can come due at death, a hurricane registry whose volunteers call before the storm, and a PACE program in Wilmington whose own list covers every New Hanover ZIP code.",
+  },
 ];
 
 export type DirectoryState = {
