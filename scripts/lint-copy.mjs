@@ -9,7 +9,7 @@ const ROOTS = ['content', 'src'];
 const EXT = new Set(['.md', '.mdx', '.ts', '.tsx']);
 const BANNED = [/game[ -]changer/gi, /deep[ -]dive/gi];  // hard-banned (Ryan 2026-08-20)
 const SPARING = [/\bjourney\b/gi, /\bleverage\b/gi, /\bnavigat(e|ing|ion)\b/gi, /\bempower/gi, /\bunlock/gi, /important to note/gi];  // allowed sparingly
-const RETIRED = [/\$297(?![\d,.])/g, /\$47(?![\d,.])/g, /(?:mind ?map|the map)[^.\n]{0,40}\$9\.99|\$9\.99[^.\n]{0,40}(?:mind ?map|the map)/gi, /seniortransitionblueprint\.com/gi, /Blueprint Premium/gi];
+const RETIRED = [/\$297(?![\d,.])/g, /\$47(?![\d,.])/g, /(?:mind ?map|the map)[^.\n]{0,40}\$9\.99|\$9\.99[^.\n]{0,40}(?:mind ?map|the map)/gi, /seniortransitionblueprint\.com/gi, /Blueprint Premium/gi, /Premium\+/g, /39\.99/g, /14-day[^.\n]{0,30}trial/gi];
 
 function* walk(dir) {
   for (const e of readdirSync(dir)) {
