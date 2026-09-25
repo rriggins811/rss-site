@@ -49,11 +49,11 @@ export const TOOLS: Tool[] = [
     // arriving from "how long will mom's money last in assisted living" gets
     // their real number in about four minutes, then the Roadmap CTA.
     slug: "care-runway-calculator",
-    title: "Free Care Runway Calculator | How Long Will the Money Last",
+    title: "Care Runway Calculator | How Long Will the Money Last",
     shortDescription:
       "How many months of private pay you actually have left",
     description:
-      "Free care runway calculator for families paying privately for assisted living or memory care. Work out how many months the money actually lasts once the annual rate increases are in the math, and how much more monthly income it would take to reach the number of months you need. No email required.",
+      "A care runway calculator for families paying privately for assisted living or memory care. Work out how many months the money actually lasts once the annual rate increases are in the math, and how much more monthly income it would take to reach the number of months you need. No email required.",
     category: "financial",
     minHeight: 2100,
     faqs: [
@@ -85,7 +85,7 @@ export const TOOLS: Tool[] = [
       {
         question: "Who built this care runway calculator, and does it cost anything?",
         answer:
-          "Ryan Riggins built it. He is a licensed North Carolina broker and senior transition advisor who spent eight years on the investor side making cash offers to families before switching sides. The calculator is free, requires no email, and there is nothing to buy. He never takes the listing and never buys the house.",
+          "Ryan Riggins built it. He is a licensed North Carolina broker and senior transition advisor who spent eight years on the investor side making cash offers to families before switching sides. The calculator asks for no email and there is nothing to buy. He never takes the listing and never buys the house.",
       },
     ],
   },
