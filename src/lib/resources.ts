@@ -203,6 +203,21 @@ export const RESOURCES: Resource[] = [
     ],
   },
   {
+    slug: "talk-to-real-estate-agent-without-listing-parents-house",
+    title:
+      "Can I Talk to a Real Estate Agent About My Parent's House Without Listing It?",
+    description:
+      "Yes. What to ask first, what a no-pressure conversation about a parent's house should cover, and how to tell when you are being sold.",
+    topic: "Talking it through before listing",
+    h2s: [
+      "Why the first call usually turns into a pitch",
+      "What a no-pressure conversation should cover",
+      "Questions to ask any agent before you share the details",
+      "How I do it",
+      "When to call",
+    ],
+  },
+  {
     slug: "seniors-real-estate-specialist-vs-investor",
     title:
       "Seniors Real Estate Specialist vs. Cash Investor: Why The Difference Costs $50K",
