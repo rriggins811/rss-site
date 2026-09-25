@@ -4,7 +4,7 @@ import { trackPixelEvent, getFbc, getFbp } from "@/lib/meta/pixel";
 import { generateEventId } from "@/lib/meta/events";
 
 // Free-pivot: the Blueprint Map is no longer sold. The map content is part of
-// the free Senior Transition Blueprint, so this CTA now sends visitors to the
+// the Senior Transition Blueprint, so this CTA now sends visitors to the
 // free account signup on blueprint-site.
 const SIGNUP_URL = "https://blueprint.rigginsstrategicsolutions.com/signup";
 

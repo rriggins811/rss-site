@@ -441,7 +441,7 @@ export default function SeniorSafePage() {
               <a href="/the-blueprint">See all the ways to work together</a>
             </Button>
             <Button asChild variant="outline">
-              <Link href="/work-with-ryan">Book a free call to talk it through</Link>
+              <Link href="/work-with-ryan">Book a 30-minute call to talk it through</Link>
             </Button>
           </div>
           <EmailFallback className="mt-4" />

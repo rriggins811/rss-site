@@ -6,23 +6,23 @@ const footerNav: { heading: string; links: { href: string; label: string; extern
   {
     heading: "Work with Ryan",
     links: [
-      { href: "/blueprint-preview", label: "Blueprint Map (free)" },
-      { href: "/the-blueprint", label: "Senior Transition Blueprint (free)" },
-      { href: "/the-roadmap", label: "Senior Transition Roadmap (free, by application)" },
+      { href: "/blueprint-preview", label: "Blueprint Map" },
+      { href: "/the-blueprint", label: "Senior Transition Blueprint" },
+      { href: "/the-roadmap", label: "Senior Transition Roadmap (by application)" },
       { href: "/in-your-corner", label: "Get Me in Your Corner (No added cost)" },
       { href: "/hammock365", label: "Hammock365" },
       { href: "/work-with-ryan", label: "Book a call" },
     ],
   },
   {
-    heading: "Free tools",
+    heading: "Tools",
     links: [
-      { href: "/tools", label: "All free tools and calculators" },
+      { href: "/tools", label: "All tools and calculators" },
       { href: "/tools/family-readiness-score", label: "Family Readiness Score" },
       { href: "/tools/net-proceeds-calculator", label: "Net Proceeds Calculator" },
       { href: "/tools/aging-in-place-break-even", label: "Aging-in-Place Break-Even" },
       { href: "/resources/senior-help-directory", label: "Senior Help Directory" },
-      { href: "/freeguide", label: "Simple Blueprint (free PDF)" },
+      { href: "/freeguide", label: "Simple Blueprint (PDF)" },
     ],
   },
   {

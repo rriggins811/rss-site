@@ -7,7 +7,7 @@ import { LEAD_MAGNETS, getLeadMagnet } from "@/lib/lead-magnets";
  * Branded instant-delivery page for the warm funnel. The user lands here
  * the moment they opt in (and the Resend email links here too). Two jobs:
  *   1. deliver the guide instantly on our domain (not a raw file dump),
- *   2. present the free Blueprint Map as the ONE soft next step.
+ *   2. present the Blueprint Map as the ONE soft next step.
  * Deliberately shows no other guides — one offer, one decision.
  *
  * noindex (paid-traffic page) and header hidden on /g/* via SiteHeaderGate.
@@ -74,7 +74,7 @@ export default async function GuideReadyPage({
           </a>
         </section>
 
-        {/* The ONE next step: the free Blueprint Map. Soft. */}
+        {/* The ONE next step: the Blueprint Map. Soft. */}
         <section
           className="mt-8 rounded-xl border-2 p-6 md:p-8"
           style={{ borderColor: "#1C3A52", backgroundColor: "#1C3A52" }}

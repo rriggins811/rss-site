@@ -162,10 +162,10 @@ export default async function VideoDetailPage({
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-4">
             <Button asChild size="lg">
-              <Link href="/the-blueprint">Get the free Blueprint</Link>
+              <Link href="/the-blueprint">Get the Blueprint</Link>
             </Button>
             <Button asChild size="lg" variant="outline">
-              <Link href="/work-with-ryan">Get the free Roadmap</Link>
+              <Link href="/work-with-ryan">Get the Roadmap</Link>
             </Button>
           </div>
         </div>

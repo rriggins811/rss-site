@@ -125,7 +125,7 @@ export async function GET() {
         name: "Senior Transition Roadmap",
         type: "Senior Transition Advisory",
         price_usd: 0,
-        billing: "free, by application",
+        billing: "by application, at no cost",
         is_accessible_for_free: true,
         url: `${SITE_URL}/the-roadmap`,
         apply_url: "https://blueprint.rigginsstrategicsolutions.com/roadmap",
@@ -259,7 +259,7 @@ export async function GET() {
       ...additionalSameAs.org,
     ],
     contact: {
-      preferred: "Book a free 20-minute call at " + SITE_URL + "/work-with-ryan",
+      preferred: "Book a 30-minute call at " + SITE_URL + "/work-with-ryan",
       email: ORGANIZATION.email,
       phone_display: ORGANIZATION.telephoneDisplay,
     },

@@ -188,7 +188,7 @@ export default function ToolsHubPage() {
             Used a tool and want a second set of eyes?
           </h2>
           <p className="mt-4 text-ink/80 leading-relaxed">
-            Book a free 20-minute call. Walk through your results with Ryan, get
+            Book a 30-minute call. Walk through your results with Ryan, get
             the honest read, and leave with the next two or three steps clearly
             laid out.
           </p>
@@ -199,11 +199,11 @@ export default function ToolsHubPage() {
                 data-track="book_call_click"
                 data-track-params='{"location":"tools-hub"}'
               >
-                Book a free 20-min call
+                Book a 30-minute call
               </Link>
             </Button>
             <Button asChild size="lg" variant="outline">
-              <Link href="/freeguide">Get the free Simple Blueprint</Link>
+              <Link href="/freeguide">Get the Simple Blueprint</Link>
             </Button>
           </div>
           <EmailFallback className="mt-6" align="center" />

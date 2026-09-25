@@ -157,9 +157,9 @@ export async function sendReadinessResultsEmail(args: {
   <h3 style="font-size:16px;margin:28px 0 8px;">What to do next</h3>
   <p style="margin:0 0 12px;">The Senior Transition Blueprint covers every pillar above in detail, at no cost. All 20 modules and 69 tools.</p>
   <p style="text-align:center;margin:24px 0;">
-    <a href="${BLUEPRINT_URL}" style="background:#4A1E2B;color:#ffffff;padding:14px 32px;border-radius:6px;text-decoration:none;font-weight:600;display:inline-block;font-size:16px;">Open the free Blueprint</a>
+    <a href="${BLUEPRINT_URL}" style="background:#4A1E2B;color:#ffffff;padding:14px 32px;border-radius:6px;text-decoration:none;font-weight:600;display:inline-block;font-size:16px;">Open the Blueprint</a>
   </p>
-  <p style="font-size:14px;color:#555;">If you would rather talk it through, a <a href="${CALL_URL}" style="color:#4A1E2B;">free 20-minute call</a> is open. No pressure and no pitch, and if the right move is to wait, you will hear that too.</p>
+  <p style="font-size:14px;color:#555;">If you would rather talk it through, a <a href="${CALL_URL}" style="color:#4A1E2B;">30-minute call</a> is open. No pressure and no pitch, and if the right move is to wait, you will hear that too.</p>
 
   <p>Hit reply if anything here raises a question about your family's specific situation. I read every one.</p>
 
@@ -200,7 +200,7 @@ What to do next
 
 The Senior Transition Blueprint covers every pillar above in detail, at no cost. All 20 modules and 69 tools: ${BLUEPRINT_URL}
 
-If you would rather talk it through, a free 20-minute call is open. No pressure and no pitch, and if the right move is to wait, you will hear that too: ${CALL_URL}
+If you would rather talk it through, a 30-minute call is open. No pressure and no pitch, and if the right move is to wait, you will hear that too: ${CALL_URL}
 
 Hit reply if anything here raises a question about your family's specific situation. I read every one.
 

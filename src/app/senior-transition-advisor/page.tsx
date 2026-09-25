@@ -16,7 +16,7 @@ const H1 = "Senior Transition Advisor for the family home, by city";
 const UPDATED = PAGE_UPDATED["/senior-transition-advisor"];
 const UPDATED_LABEL = "September 19, 2026";
 const DESCRIPTION =
-  "Help deciding a parent's house before anyone lists it, in Greensboro, Winston-Salem, High Point, Raleigh, Durham, Cary and Chapel Hill, NC. Free to the family.";
+  "Help deciding a parent's house before anyone lists it, in Greensboro, Winston-Salem, High Point, Raleigh, Durham, Cary and Chapel Hill, NC. No cost to the family.";
 
 export const metadata: Metadata = {
   title: pageTitle("Senior Transition Advisor by City: NC Triad and Triangle"),
@@ -136,7 +136,7 @@ export default function CityIndexPage() {
           <GoldRule className="mx-auto" />
           <h2 className="mt-3 text-cream">Talk to me before anyone lists the house.</h2>
           <p className="mx-auto mt-5 max-w-2xl text-lg text-cream/85">
-            A free 20-minute call. It costs your family nothing.
+            A 30-minute call. No obligation, and it costs your family nothing.
           </p>
           <Button asChild size="lg" className="mt-8 bg-gold-500 text-navy-900 hover:bg-gold-300">
             <Link
@@ -144,7 +144,7 @@ export default function CityIndexPage() {
               data-track="book_call_click"
               data-track-params='{"location":"city-index-cta"}'
             >
-              Book your free call
+              Book your 30-minute call
             </Link>
           </Button>
           <p className="mt-6 text-sm text-cream/70">

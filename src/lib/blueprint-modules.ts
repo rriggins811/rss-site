@@ -419,7 +419,7 @@ export const MODULES: Module[] = [
     title: "Roadmap Prep: Intake and Session Prep",
     phase: "🟥 Your Action Plan",
     outcomes: [
-      "Prep work for your free 60-minute Roadmap call with Ryan",
+      "Prep work for your 60-minute Roadmap call with Ryan",
       "Pre-consultation intake form Ryan reads before you talk",
       "Session prep worksheet: your top 3 questions and documents",
     ],

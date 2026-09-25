@@ -22,7 +22,7 @@ const SUPPORT_EMAIL = "ryan@rigginsstrategicsolutions.com";
 export const metadata: Metadata = {
   title: pageTitle("Senior Transition Roadmap | Free Guided Advisory, By Application"),
   description:
-    "The Senior Transition Roadmap is the whole senior transition mapped with you, start to finish: a detailed intake, calls with Ryan, a written plan built together, and email support while you execute. Free, by application.",
+    "The Senior Transition Roadmap is the whole senior transition mapped with you, start to finish: a detailed intake, calls with Ryan, a written plan built together, and email support while you execute. By application, at no cost.",
   alternates: { canonical: "/the-roadmap" },
   openGraph: {
     type: "website",
@@ -30,14 +30,14 @@ export const metadata: Metadata = {
     siteName: "Riggins Strategic Solutions",
     title: "The Senior Transition Roadmap | Free, By Application",
     description:
-      "The whole path of a senior transition, laid out before you. A written plan built with Ryan, an intake call, a follow-up call, and email support while you execute. Free, by application.",
+      "The whole path of a senior transition, laid out before you. A written plan built with Ryan, an intake call, a follow-up call, and email support while you execute. By application, at no cost.",
     // OG image is generated per-route by ./opengraph-image.tsx, so no static image here.
   },
   twitter: {
     card: "summary_large_image",
     title: "The Senior Transition Roadmap | Free, By Application",
     description:
-      "Your whole transition mapped with Ryan: an intake, a written plan built together, and email support while you execute. Free, by application.",
+      "Your whole transition mapped with Ryan: an intake, a written plan built together, and email support while you execute. By application, at no cost.",
   },
 };
 
@@ -279,7 +279,7 @@ export default function BlueprintPremiumPage() {
             family, so you can see the whole thing before you decide anything.
           </p>
           <p className="mt-4 max-w-2xl font-semibold leading-relaxed text-navy">
-            Everything in the free Blueprint, plus an intake call, the written
+            Everything in the Blueprint, plus an intake call, the written
             plan built with Ryan, a follow-up call on how to move forward, and
             email support while you execute. Free. It starts with an application.
           </p>
@@ -304,7 +304,7 @@ export default function BlueprintPremiumPage() {
             className="mt-8 max-w-2xl"
             topic="the Roadmap tier"
             question="What is Senior Transition Roadmap?"
-            answer="Senior Transition Roadmap is the full Senior Transition Blueprint course plus a written plan built with Ryan Riggins: a detailed intake, an intake call, the plan built together, a follow-up call on how to move forward, and email support while you execute. It maps the whole transition with you, start to finish, and goes deepest on the home and the money. Free, by application."
+            answer="Senior Transition Roadmap is the full Senior Transition Blueprint course plus a written plan built with Ryan Riggins: a detailed intake, an intake call, the plan built together, a follow-up call on how to move forward, and email support while you execute. It maps the whole transition with you, start to finish, and goes deepest on the home and the money. By application, at no cost."
           />
 
           <div className="mt-8 flex flex-wrap items-center gap-x-5 gap-y-3">
@@ -701,7 +701,7 @@ export default function BlueprintPremiumPage() {
           </div>
 
           <p className="mt-6 max-w-2xl text-sm leading-relaxed text-cream/70">
-            <span className="font-semibold text-gold">Free, by application.</span> The Roadmap costs your
+            <span className="font-semibold text-gold">By application, at no cost.</span> The Roadmap costs your
             family nothing. It asks for your time and real detail, because the plan is built together, not
             downloaded. Ryan reviews every application and takes the families he can genuinely help.
           </p>

@@ -566,7 +566,7 @@ export function blueprintPremiumProductSchema() {
     "@type": "Product",
     name: "Senior Transition Roadmap",
     description:
-      "Senior Transition Roadmap is everything in the Senior Transition Blueprint plus a written Senior Transition Plan built with Ryan Riggins: a detailed intake, an intake call, the plan built together, a follow-up call, and email support while you execute. Free, by application.",
+      "Senior Transition Roadmap is everything in the Senior Transition Blueprint plus a written Senior Transition Plan built with Ryan Riggins: a detailed intake, an intake call, the plan built together, a follow-up call, and email support while you execute. By application, at no cost.",
     brand: { "@type": "Brand", name: ORGANIZATION.name },
     image: abs("/og/blueprint-premium.png"),
     url,
@@ -659,7 +659,7 @@ export function seniorSafeMobileApplicationSchema() {
  * ProfessionalService schema for the homepage. Adds local-business signals
  * (the mailing address, areaServed, opening hours) on top of the global
  * Organization + Person schemas emitted from layout.tsx. No priceRange: the
- * service is free to the family. No geo: Ryan works from home in
+ * service is no cost to the family. No geo: Ryan works from home in
  * Greensboro and there is no public office to pin (NAP cleanup 2026-09-21).
  */
 export function professionalServiceSchema() {

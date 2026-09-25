@@ -51,7 +51,7 @@ const GROUPS: LinkGroup[] = [
         href: "/freeguide",
       },
       {
-        label: "Book a Free 20-Minute Call",
+        label: "Book a 30-Minute Call",
         description: "Talk through your situation. No pitch, no pressure.",
         href: "/work-with-ryan",
       },
@@ -99,12 +99,12 @@ const GROUPS: LinkGroup[] = [
     heading: "Go deeper",
     items: [
       {
-        label: "Senior Transition Blueprint (free)",
+        label: "Senior Transition Blueprint",
         description: "The full 20-module course with 69 done-for-you tools. Free with a free account.",
         href: "/the-blueprint",
       },
       {
-        label: "Senior Transition Roadmap (free, by application)",
+        label: "Senior Transition Roadmap (by application)",
         description: "A written plan you build with Ryan. Starts with an application.",
         href: "/the-roadmap",
       },

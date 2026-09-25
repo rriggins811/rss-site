@@ -220,7 +220,7 @@ export default async function CityPage({
           <h2 className="mt-3">How working with me goes.</h2>
           <ol className="mt-8 space-y-6 text-lg leading-relaxed text-ink/80">
             <li>
-              <strong className="text-navy-700">1. A free 20-minute call.</strong>{" "}
+              <strong className="text-navy-700">1. A 30-minute call, no obligation.</strong>{" "}
               Phone or video. Bring the community&rsquo;s fee sheet if you have
               it, and the power of attorney if there is one. You&rsquo;ll leave
               knowing what to do first.
@@ -237,7 +237,7 @@ export default async function CityPage({
               <Link href="/the-roadmap" className={linkClass}>
                 Senior Transition Roadmap
               </Link>{" "}
-              is free, by application: an intake form, a call with me, a written
+              is by application, at no cost: an intake form, a call with me, a written
               plan we build together, a follow-up call and 90 days of email
               support.
             </li>
@@ -310,7 +310,7 @@ export default async function CityPage({
             Talk to me before anyone lists the {c.city} house.
           </h2>
           <p className="mx-auto mt-5 max-w-2xl text-lg text-cream/85">
-            A free 20-minute call. It costs your family nothing.
+            A 30-minute call. No obligation, and it costs your family nothing.
           </p>
           <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
             <Button asChild size="lg" className="bg-gold-500 text-navy-900 hover:bg-gold-300">
@@ -319,7 +319,7 @@ export default async function CityPage({
                 data-track="book_call_click"
                 data-track-params={JSON.stringify({ location: `city-${c.slug}-cta` })}
               >
-                Book your free call
+                Book your 30-minute call
               </Link>
             </Button>
             <Link

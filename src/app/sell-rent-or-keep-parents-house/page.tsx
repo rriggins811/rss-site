@@ -390,7 +390,7 @@ export default function SellRentOrKeepPage() {
           <GoldRule className="mx-auto" />
           <h2 className="mt-3 text-cream">Want the math run for your parent&rsquo;s house?</h2>
           <p className="mx-auto mt-5 max-w-2xl text-lg text-cream/85">
-            A free 20-minute call. Bring the fee sheet if you have it. It costs
+            A 30-minute call, no obligation. Bring the fee sheet if you have it. It costs
             your family nothing, and I&rsquo;m paid only if you sell, by the
             agent&rsquo;s referral fee at closing.
           </p>
@@ -401,7 +401,7 @@ export default function SellRentOrKeepPage() {
                 data-track="book_call_click"
                 data-track-params='{"location":"sell-rent-keep-cta"}'
               >
-                Book your free call
+                Book your 30-minute call
               </Link>
             </Button>
             <Link

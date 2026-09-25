@@ -218,7 +218,7 @@ export default function NeedAnAgentPage() {
             </Link>{" "}
             or{" "}
             <Link href="/the-blueprint" className="font-semibold text-navy underline underline-offset-4">
-              start with the free Blueprint
+              start with the Blueprint
             </Link>
             .
           </p>

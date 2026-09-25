@@ -6,7 +6,7 @@ import {
 } from "@/lib/lead-magnets";
 import { ORGANIZATION } from "@/lib/site";
 
-// Soft next-step in the delivery email: the free Blueprint Map page.
+// Soft next-step in the delivery email: the Blueprint Map page.
 // One mention, never a hard sell (brand voice).
 const MAP_SALES_URL = "https://rigginsstrategicsolutions.com/blueprint-preview";
 

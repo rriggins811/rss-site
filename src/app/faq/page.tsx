@@ -180,7 +180,7 @@ export default function FaqPage() {
               <Link href="/need-an-agent">I just need an agent</Link>
             </Button>
             <Button asChild variant="outline">
-              <Link href="/the-blueprint">Start with the free Blueprint</Link>
+              <Link href="/the-blueprint">Start with the Blueprint</Link>
             </Button>
           </div>
         </div>

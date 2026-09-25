@@ -220,7 +220,7 @@ export default async function BlogPostPage({
                     data-track="book_call_click"
                     data-track-params='{"location":"blog-post-author-card"}'
                   >
-                    Book a free 20-min call
+                    Book a 30-minute call
                   </Link>
                 </Button>
                 <SocialLinks className="ml-auto text-navy-700" iconClassName="h-4 w-4" />

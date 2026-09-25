@@ -86,7 +86,7 @@ const comparison: Row[] = [
   {
     role: "Placement advisor (senior living advisor)",
     does: "Helps choose an assisted living or memory care community and sets up tours.",
-    paid: "Usually free to the family. Paid by the community your parent moves into.",
+    paid: "Usually no cost to the family. Paid by the community your parent moves into.",
     when: "When you need help finding the right community.",
   },
   {
@@ -367,7 +367,7 @@ export default function WhatIsASeniorTransitionAdvisorPage() {
             Talk to me before anyone lists the house.
           </h2>
           <p className="mx-auto mt-5 max-w-2xl text-lg text-cream/85">
-            A free 20-minute call. Bring the fee sheet if you have it. You&rsquo;ll
+            A 30-minute call, no obligation. Bring the fee sheet if you have it. You&rsquo;ll
             leave knowing what to do first.
           </p>
           <Button
@@ -380,7 +380,7 @@ export default function WhatIsASeniorTransitionAdvisorPage() {
               data-track="book_call_click"
               data-track-params='{"location":"role-page-cta"}'
             >
-              Book your free call
+              Book your 30-minute call
             </Link>
           </Button>
           <p className="mt-6 text-sm text-cream/70">

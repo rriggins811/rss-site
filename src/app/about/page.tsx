@@ -139,7 +139,7 @@ export default function AboutPage() {
               advantage of during the hardest moments of their lives.
             </p>
             <Button asChild size="lg" className="mt-8">
-              <Link href="/work-with-ryan">Book your free 20-minute call</Link>
+              <Link href="/work-with-ryan">Book your 30-minute call</Link>
             </Button>
           </div>
           <div className="relative aspect-[4/5] rounded-lg overflow-hidden shadow-xl shadow-navy-900/10">
@@ -360,11 +360,11 @@ export default function AboutPage() {
           <GoldRule className="mx-auto" />
           <h2 className="mt-3 text-cream">Let&rsquo;s talk.</h2>
           <p className="mt-6 text-lg text-cream/85 max-w-2xl mx-auto">
-            Free 20-minute call. You bring the situation. I&rsquo;ll bring straight
+            A 30-minute call, no obligation. You bring the situation. I&rsquo;ll bring straight
             answers.
           </p>
           <Button asChild size="lg" className="mt-8 bg-gold-500 text-navy-900 hover:bg-gold-300">
-            <Link href="/work-with-ryan">Book your free call</Link>
+            <Link href="/work-with-ryan">Book your 30-minute call</Link>
           </Button>
         </div>
       </section>

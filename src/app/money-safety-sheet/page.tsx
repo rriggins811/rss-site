@@ -74,7 +74,7 @@ export default function MoneySafetySheetPage() {
               href="/work-with-ryan"
               className="font-medium text-burgundy-600 underline underline-offset-4 hover:text-burgundy-700"
             >
-              Book a free call.
+              Book a 30-minute call.
             </Link>
           </p>
         </div>

@@ -135,7 +135,7 @@ export default async function ToolPage({
         <div className="mx-auto max-w-3xl px-6 py-12 text-center">
           <h2 className="text-2xl md:text-3xl">Need help interpreting your results?</h2>
           <p className="mt-4 text-ink/80 leading-relaxed">
-            Numbers on a page don't decide anything. A 20-minute call will. Walk
+            Numbers on a page don't decide anything. A 30-minute call will. Walk
             through what you just saw with {AUTHOR.name}, {AUTHOR.jobTitle}.
             No sales pressure. Ryan is a licensed NC broker (#361546, eXp Realty)
             but does not work as a traditional listing agent.
@@ -147,11 +147,11 @@ export default async function ToolPage({
                 data-track="book_call_click"
                 data-track-params={`{"location":"tool-footer","tool":"${tool.slug}"}`}
               >
-                Book a free 20-min call
+                Book a 30-minute call
               </Link>
             </Button>
             <Button asChild size="lg" variant="outline">
-              <Link href="/freeguide">Get the free Simple Blueprint</Link>
+              <Link href="/freeguide">Get the Simple Blueprint</Link>
             </Button>
           </div>
           <EmailFallback className="mt-6" align="center" />

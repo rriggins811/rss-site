@@ -342,7 +342,7 @@ export default function MomMovingToAssistedLivingPage() {
           <GoldRule className="mx-auto" />
           <h2 className="mt-3 text-cream">Not sure where to start? Start with me.</h2>
           <p className="mx-auto mt-5 max-w-2xl text-lg text-cream/85">
-            A free 20-minute call. Bring the fee sheet if you have it, and the
+            A 30-minute call, no obligation. Bring the fee sheet if you have it, and the
             power of attorney if there is one. It costs your family nothing.
           </p>
           <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
@@ -352,7 +352,7 @@ export default function MomMovingToAssistedLivingPage() {
                 data-track="book_call_click"
                 data-track-params='{"location":"mom-assisted-living-house-cta"}'
               >
-                Book your free call
+                Book your 30-minute call
               </Link>
             </Button>
             <Link

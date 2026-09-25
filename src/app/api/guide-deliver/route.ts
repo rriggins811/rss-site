@@ -21,7 +21,7 @@ export const runtime = "nodejs";
  *      nurture can target these leads distinctly),
  *   3. send the branded Resend guide-delivery email instantly,
  * and we do NOT create a Blueprint auth account. Accounts get created at
- * the free Blueprint signup on blueprint-site. The branded
+ * the Blueprint signup on blueprint-site. The branded
  * /g/[slug]/ready page is the instant on-page delivery + free Map/Blueprint
  * nudge, so the user has the guide even if the email is delayed.
  *

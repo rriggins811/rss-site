@@ -194,7 +194,7 @@ export default async function ResourceArticlePage({
                     the house. Free, all of it, with a free account.
                   </p>
                   <Button asChild className="mt-5">
-                    <a href="https://blueprint.rigginsstrategicsolutions.com/signup">Get the Blueprint free</a>
+                    <a href="https://blueprint.rigginsstrategicsolutions.com/signup">Get the Blueprint</a>
                   </Button>
                 </>
               ) : (
@@ -260,7 +260,7 @@ export default async function ResourceArticlePage({
                     the house. Free, all of it, with a free account.
                   </p>
                   <Button asChild className="mt-5">
-                    <a href="https://blueprint.rigginsstrategicsolutions.com/signup">Get the Blueprint free</a>
+                    <a href="https://blueprint.rigginsstrategicsolutions.com/signup">Get the Blueprint</a>
                   </Button>
                 </>
               ) : (

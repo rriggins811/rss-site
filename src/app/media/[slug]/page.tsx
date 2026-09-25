@@ -171,7 +171,7 @@ export default async function MediaDetailPage({
                     data-track="book_call_click"
                     data-track-params='{"location":"media-post-author-card"}'
                   >
-                    Book a free 20-min call
+                    Book a 30-minute call
                   </Link>
                 </Button>
                 <SocialLinks

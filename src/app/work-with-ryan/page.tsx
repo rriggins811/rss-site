@@ -26,7 +26,7 @@ const BOOKING_ANCHOR = "#book";
 export const metadata: Metadata = {
   title: "Book a call with Ryan",
   description:
-    "Get a guide in your corner before you deal with the house. One free 20-minute call with a licensed broker who never takes the listing. No cost, no pressure, no pitch.",
+    "Get a guide in your corner before you deal with the house. One 30-minute call with a licensed broker who never takes the listing. No cost, no pressure, no pitch.",
   alternates: { canonical: "/work-with-ryan" },
   openGraph: {
     type: "website",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     siteName: "Riggins Strategic Solutions",
     title: "Book a call with Ryan",
     description:
-      "Get a guide in your corner before you deal with the house. One free 20-minute call. No cost, no pressure, no pitch.",
+      "Get a guide in your corner before you deal with the house. One 30-minute call. No cost, no pressure, no pitch.",
     images: [
       {
         url: "https://rigginsstrategicsolutions.com/og/work-with-ryan.png",
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Book a call with Ryan | Riggins Strategic Solutions",
     description:
-      "One free 20-minute call with a guide who has been on both sides of the table. No cost, no pressure, no pitch.",
+      "One 30-minute call with a guide who has been on both sides of the table. No cost, no pressure, no pitch.",
     images: ["https://rigginsstrategicsolutions.com/og/work-with-ryan.png"],
   },
 };
@@ -91,7 +91,7 @@ export default function WorkWithRyanPage() {
           serviceType: "Senior transition advisory consultation",
           url: abs("/work-with-ryan"),
           description:
-            "A free 20-minute call with Ryan Riggins, Senior Transition Advisor and licensed North Carolina broker who never takes the listing. Every option laid out honestly, including selling, waiting, renting, or not selling at all. If selling is the right move, Ryan refers a vetted local agent and is paid agent to agent through eXp Realty out of the existing commission, at no added cost to the family.",
+            "A 30-minute call with Ryan Riggins, Senior Transition Advisor and licensed North Carolina broker who never takes the listing. Every option laid out honestly, including selling, waiting, renting, or not selling at all. If selling is the right move, Ryan refers a vetted local agent and is paid agent to agent through eXp Realty out of the existing commission, at no added cost to the family.",
           provider: {
             "@type": "Person",
             name: "Ryan Riggins",
@@ -149,7 +149,7 @@ export default function WorkWithRyanPage() {
           </div>
           <BrandPanel
             className="aspect-[4/3] lg:aspect-square"
-            kicker="The 20-minute call"
+            kicker="The 30-minute call"
             heading="Bring the situation. Leave with every option on the table."
           />
         </div>
@@ -314,7 +314,7 @@ export default function WorkWithRyanPage() {
           <div className="mt-10 w-full overflow-hidden rounded-lg border border-border bg-white">
             <iframe
               src={BOOKING_EMBED_URL}
-              title="Book a 20-minute call with Ryan Riggins"
+              title="Book a 30-minute call with Ryan Riggins"
               className="block w-full"
               style={{ minHeight: "820px", border: 0 }}
               loading="lazy"

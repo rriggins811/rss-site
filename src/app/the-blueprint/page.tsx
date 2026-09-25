@@ -20,7 +20,7 @@ import { abs, pageTitle } from "@/lib/site";
 export const metadata: Metadata = {
   title: pageTitle("The Blueprint | Senior Transition Tiers"),
   description:
-    "Every way to work with Ryan Riggins on a senior housing transition. The free Senior Transition Blueprint course, the Senior Transition Roadmap (free, by application), Get Me in Your Corner (a vetted real estate agent referral at no added cost), and the free Hammock365 app.",
+    "Every way to work with Ryan Riggins on a senior housing transition. The Senior Transition Blueprint course, the Senior Transition Roadmap (by application), Get Me in Your Corner (a vetted real estate agent referral at no added cost), and the free Hammock365 app.",
   alternates: { canonical: "/the-blueprint" },
   openGraph: {
     type: "website",
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     siteName: "Riggins Strategic Solutions",
     title: "The Blueprint | Senior Transition Tiers",
     description:
-      "Every way to work with Ryan Riggins on a senior housing transition. The free Senior Transition Blueprint course, the Senior Transition Roadmap (free, by application), Get Me in Your Corner (a vetted agent referral at no added cost), and the Hammock365 app.",
+      "Every way to work with Ryan Riggins on a senior housing transition. The Senior Transition Blueprint course, the Senior Transition Roadmap (by application), Get Me in Your Corner (a vetted agent referral at no added cost), and the Hammock365 app.",
     images: [
       {
         url: "https://rigginsstrategicsolutions.com/og/the-blueprint.png",
@@ -77,7 +77,7 @@ const tiers: Tier[] = [
       "Lifetime access. Sign up with your email, no payment",
     ],
     cta: { href: paymentLinks.blueprintCore, label: "Give me the Blueprint", external: true },
-    learnMore: { href: "https://blueprint.rigginsstrategicsolutions.com/signup", label: "Get the free Blueprint" },
+    learnMore: { href: "https://blueprint.rigginsstrategicsolutions.com/signup", label: "Get the Blueprint" },
     image: "/photos/blueprint_core_materials_47.jpg",
     alt: "Senior Transition Blueprint planning materials and checklists",
   },
@@ -192,7 +192,7 @@ const faqs: { q: string; a: string }[] = [
   },
   {
     q: "Does the Roadmap really cost nothing?",
-    a: "Yes. The Roadmap is free, by application. The honest trade is your time and detail, not your money: the intake form asks real questions about your family's situation, and the plan is built with Ryan on calls, not downloaded. Ryan takes the families he can genuinely help. Hammock365 is separate, and it is free too. One paid plan, $14.99/mo or $140/yr for the whole family, only if you want it.",
+    a: "Yes. The Roadmap is by application, at no cost. The honest trade is your time and detail, not your money: the intake form asks real questions about your family's situation, and the plan is built with Ryan on calls, not downloaded. Ryan takes the families he can genuinely help. Hammock365 is separate, and it is free too. One paid plan, $14.99/mo or $140/yr for the whole family, only if you want it.",
   },
 ];
 
@@ -241,7 +241,7 @@ export default function BlueprintPage() {
                   data-track="blueprint_signup_click"
                   data-track-params='{"location":"the-blueprint-hero"}'
                 >
-                  Get the free Blueprint
+                  Get the Blueprint
                 </a>
               </Button>
               <span className="text-sm text-ink/60">
@@ -292,7 +292,7 @@ export default function BlueprintPage() {
             <GoldRule />
             <h2 className="mt-3">Pick your path.</h2>
             <p className="mt-4 text-lg text-ink/80">
-              Four doors, one playbook. Start with the free Blueprint, apply
+              Four doors, one playbook. Start with the Blueprint, apply
               for the Roadmap when you want Ryan in it with you, and let the
               app carry the daily part.
             </p>
@@ -440,7 +440,7 @@ export default function BlueprintPage() {
             className="mt-6"
             topic="What's the Blueprint"
             question="What is the Senior Transition Blueprint?"
-            answer="The Senior Transition Blueprint is a free 20-module course with 69 tools that walks a family through every stage of a senior transition: the home, the money, the legal documents, the care, and the family conversations. Built from eight years of working both sides of these deals. Free with a free account, self-paced, with lifetime access."
+            answer="The Senior Transition Blueprint is a 20-module course, at no cost, with 69 tools that walks a family through every stage of a senior transition: the home, the money, the legal documents, the care, and the family conversations. Built from eight years of working both sides of these deals. Free with a free account, self-paced, with lifetime access."
           />
           <div className="mt-10 space-y-8">
             {faqs.map((f) => (
@@ -459,12 +459,12 @@ export default function BlueprintPage() {
           <GoldRule className="mx-auto" />
           <h2 className="mt-3 text-cream">Still not sure which tier?</h2>
           <p className="mt-6 text-lg text-cream/85 max-w-2xl mx-auto">
-            Book a free 20-minute call. You bring the situation, Ryan will tell
+            Book a 30-minute call. You bring the situation, Ryan will tell
             you straight up which tier fits, or whether you need any of it at
             all.
           </p>
           <Button asChild size="lg" className="mt-8 bg-gold-500 text-navy-900 hover:bg-gold-300">
-            <Link href="/work-with-ryan">Book your free 20-minute call</Link>
+            <Link href="/work-with-ryan">Book your 30-minute call</Link>
           </Button>
           <EmailFallback variant="dark" align="center" className="mt-4" />
         </div>

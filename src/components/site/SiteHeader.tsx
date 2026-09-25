@@ -56,7 +56,7 @@ const navItems: NavItem[] = [
   { type: "link", href: "/hammock365", label: "Hammock365" },
   {
     type: "dropdown",
-    label: "Free Resources",
+    label: "Resources",
     matchPrefixes: ["/resources", "/tools", "/guides", "/blog"],
     children: [
       {
@@ -92,7 +92,7 @@ const navItems: NavItem[] = [
 // Ad-landing minimal header. Triggered when a visitor arrives on
 // /freeguide or /guides with a Facebook click signal (fbclid auto-added
 // by FB) or explicit ?ads=1 flag. Strips the full nav + the parallel
-// "Book free 20-min call" CTA so an ad-clicker has one decision: the
+// "Book a 30-minute call" CTA so an ad-clicker has one decision: the
 // signup form. Organic traffic to the same paths keeps the full nav.
 // Added 2026-05-26 after a Saturday landing-page audit identified the
 // 11-link header as the largest exit-ramp leak on the paid funnel.
@@ -449,7 +449,7 @@ function FullHeader() {
               );
             })}
             <Button asChild size="sm">
-              <Link href="/work-with-ryan">Book free 20-min call</Link>
+              <Link href="/work-with-ryan">Book a 30-minute call</Link>
             </Button>
           </nav>
 
@@ -507,7 +507,7 @@ function FullHeader() {
             })}
             <Button asChild className="mt-2 w-full">
               <Link href="/work-with-ryan" onClick={closeMobile}>
-                Book free 20-min call
+                Book a 30-minute call
               </Link>
             </Button>
           </nav>

@@ -160,7 +160,7 @@ export const CITY_PAGES: CityPage[] = [
       {
         question: "Do you have an office in Greensboro?",
         answer:
-          "Not a public one yet. I'm based in Greensboro and work from there. I meet families at the parent's home, at the community, or by phone and video, and the first call is a free 20-minute phone or video call. My mailing address is in Raleigh.",
+          "Not a public one yet. I'm based in Greensboro and work from there. I meet families at the parent's home, at the community, or by phone and video, and the first call is a 30-minute phone or video call. My mailing address is in Raleigh.",
       },
       {
         question: "Will you list my parent's Greensboro house?",
@@ -252,7 +252,7 @@ export const CITY_PAGES: CityPage[] = [
       {
         question: "Do you work in Winston-Salem if you're based in Greensboro?",
         answer:
-          "Yes. Winston-Salem is part of the Triad I serve. The first call is free, 20 minutes, by phone or video. If your family sells, I refer one local agent I've vetted, and I'm paid only by that agent's referral fee at closing.",
+          "Yes. Winston-Salem is part of the Triad I serve. The first call is 30 minutes, no obligation, by phone, video, email, or text. If your family sells, I refer one local agent I've vetted, and I'm paid only by that agent's referral fee at closing.",
       },
     ],
   },
@@ -413,7 +413,7 @@ export const CITY_PAGES: CityPage[] = [
       {
         question: "Do you work in Raleigh if you're based in Greensboro?",
         answer:
-          "Yes. The Triangle is part of my service area. The first call is a free 20-minute phone or video call. If your family sells, I refer one vetted agent who knows the Raleigh market, and I never take the listing myself.",
+          "Yes. The Triangle is part of my service area. The first call is 30 minutes, no obligation, by phone, video, email, or text. If your family sells, I refer one vetted agent who knows the Raleigh market, and I never take the listing myself.",
       },
       {
         question: "Can Mom keep her Wake County property tax relief after she moves out?",

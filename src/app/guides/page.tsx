@@ -185,20 +185,20 @@ export default function GuidesPage() {
       )}
 
       {/* GUIDES ARE THE MAP — banner bridging the free guides to the two
-          human next steps: the free call and the agent-referral service. */}
+          human next steps: the 30-minute call and the agent-referral service. */}
       <section className="bg-navy-700">
         <div className="mx-auto max-w-4xl px-6 py-14 text-center">
           <h2 className="text-3xl md:text-4xl font-semibold text-white">
             Guides are the map.
           </h2>
           <p className="mt-4 text-base text-white/80 max-w-2xl mx-auto">
-            If you want someone walking it with you, book a free 20 minute
+            If you want someone walking it with you, book a 30-minute
             call. And if the path ends with selling the house, I can put a
             vetted agent in your corner at no added cost.
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-3">
             <Button asChild size="lg">
-              <Link href="/work-with-ryan">Book a free 20-minute call</Link>
+              <Link href="/work-with-ryan">Book a 30-minute call</Link>
             </Button>
             <Button
               asChild

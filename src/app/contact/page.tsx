@@ -14,7 +14,7 @@ import { ORGANIZATION } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Contact Ryan",
   description:
-    "Text, call, email, or book a free 20-minute call with Ryan Riggins, Senior Transition Advisor for the family home in the NC Triad and the Triangle.",
+    "Text, call, email, or book a 30-minute call with Ryan Riggins, Senior Transition Advisor for the family home in the NC Triad and the Triangle.",
   alternates: { canonical: "/contact" },
 };
 
@@ -42,13 +42,13 @@ export default function ContactPage() {
               Tell Ryan the situation. Leave with straight answers.
             </h1>
             <p className="mt-6 max-w-prose text-lg text-ink/80">
-              The easiest path is the free 20-minute call. You bring what is
+              The easiest path is a 30-minute call, by phone, video, email, or text. You bring what is
               happening with your parent, and you get an honest read on what is
               urgent, what can wait, and what it is likely to cost. No pressure
               and no upsells, whether or not you ever work with Ryan again.
             </p>
             <Button asChild size="lg" className="mt-8">
-              <Link href="/work-with-ryan">Book your free 20-minute call</Link>
+              <Link href="/work-with-ryan">Book your 30-minute call</Link>
             </Button>
           </div>
           <div className="relative aspect-[4/3] rounded-lg overflow-hidden shadow-xl shadow-navy-900/10">
@@ -78,7 +78,7 @@ export default function ContactPage() {
               <CardHeader>
                 <CardTitle className="font-serif text-2xl">Book a call</CardTitle>
                 <CardDescription>
-                  20 minutes, free, on my calendar.
+                  30 minutes on my calendar, no obligation.
                 </CardDescription>
               </CardHeader>
               <CardContent>
@@ -87,7 +87,7 @@ export default function ContactPage() {
                   starting point.
                 </p>
                 <Button asChild className="w-full">
-                  <Link href="/work-with-ryan">Book free call</Link>
+                  <Link href="/work-with-ryan">Book a 30-minute call</Link>
                 </Button>
               </CardContent>
             </Card>

@@ -76,7 +76,7 @@ export function RelatedReading({
   if (items.length === 0) return null;
 
   const typeLabel: Record<ClusterMember["type"], string> = {
-    tool: "Free tool",
+    tool: "Tool",
     blog: "Blog post",
     resource: "Guide",
   };

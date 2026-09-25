@@ -54,7 +54,7 @@ export const metadata: Metadata = {
 const planSteps: { n: string; title: string; body: string }[] = [
   {
     n: "1",
-    title: "Get the free Blueprint",
+    title: "Get the Blueprint",
     body: "See every option laid out, not just the one someone is trying to sell you.",
   },
   {
@@ -176,11 +176,11 @@ export default function HomePage() {
                 href="/the-blueprint"
                 className="text-base font-semibold text-burgundy-600 underline-offset-4 hover:text-burgundy-700 hover:underline"
               >
-                Start with the free Blueprint
+                Start with the Blueprint
               </Link>
             </div>
             <p className="mt-4 text-sm text-ink/60">
-              Free 20-minute call. No pressure, no upsells.
+              A 30-minute call. No obligation, no pressure, no upsells.
             </p>
           </div>
           {/* The locked core proposition, set in the brand type system.

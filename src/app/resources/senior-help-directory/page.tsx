@@ -250,11 +250,11 @@ export default function SeniorHelpDirectoryHubPage() {
               Overwhelmed by the list?
             </h2>
             <p className="mt-3 text-ink/80 leading-relaxed max-w-2xl mx-auto">
-              Book a free 20 minute call and I will help you figure out which
+              Book a 30-minute call and I will help you figure out which
               programs your parent actually qualifies for.
             </p>
             <Button asChild size="lg" className="mt-6">
-              <Link href="/work-with-ryan">Book a free 20-minute call</Link>
+              <Link href="/work-with-ryan">Book a 30-minute call</Link>
             </Button>
           </div>
         </div>

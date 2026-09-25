@@ -213,7 +213,7 @@ export default async function BlogIndexPage({
                 href="/work-with-ryan"
                 className="font-semibold text-burgundy-600 hover:text-burgundy-700 underline underline-offset-2"
               >
-                book a free 20 minute call
+                book a 30-minute call
               </Link>
               .
             </p>

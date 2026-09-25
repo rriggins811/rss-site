@@ -7,6 +7,6 @@ export const alt = "The Senior Transition Roadmap, built with Ryan, free by appl
 export default function OGImage() {
   return renderOgImage({
     title: "The Senior Transition Roadmap",
-    footerNote: "Built with Ryan, free, by application",
+    footerNote: "Built with Ryan, by application, at no cost",
   });
 }

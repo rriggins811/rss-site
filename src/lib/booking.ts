@@ -1,5 +1,5 @@
 /**
- * Ryan's public-facing 20-minute discovery call. Single source of truth for
+ * Ryan's public-facing 30-minute discovery call. Single source of truth for
  * /work-with-ryan and any rss-site booking iframe or button.
  *
  * Booking runs on Google Calendar appointment schedules (Google Workspace,

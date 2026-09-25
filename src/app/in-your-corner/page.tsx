@@ -38,7 +38,7 @@ const STEPS: { n: string; title: string; body: string }[] = [
   {
     n: "1",
     title: "Tell me your situation",
-    body: "We start with a free call. Where the home is, where your parent is, the timeline, the family, and what is worrying you most. No pitch, no pressure.",
+    body: "We start with a 30-minute call, no obligation. Where the home is, where your parent is, the timeline, the family, and what is worrying you most. No pitch, no pressure.",
   },
   {
     n: "2",
@@ -188,7 +188,7 @@ export default function InYourCornerPage() {
               href="/work-with-ryan"
               className="rounded-md bg-navy px-7 py-3.5 font-semibold text-cream transition hover:bg-navy-800"
             >
-              Book a free call
+              Book a 30-minute call
             </Link>
             <a href="#how" className="text-sm font-semibold text-burgundy underline underline-offset-4">
               See exactly how it works first
@@ -385,7 +385,7 @@ export default function InYourCornerPage() {
               <p className={`${display} mt-1 text-xl text-navy`}>The whole transition, mapped</p>
               <p className="mt-2 text-sm leading-relaxed text-ink/75">
                 Everything: a written plan you build with Ryan, the full course and tools, and calls that
-                cover care, legal, financial, and the move, not just the house. Free, by application.
+                cover care, legal, financial, and the move, not just the house. By application, at no cost.
               </p>
               <Link href="/the-roadmap" className="mt-3 inline-flex items-center gap-1 text-sm font-semibold text-burgundy underline underline-offset-4 hover:text-burgundy-700">
                 See the Senior Transition Roadmap
@@ -420,7 +420,7 @@ export default function InYourCornerPage() {
         <div className="mx-auto max-w-5xl px-6 py-16 lg:py-20 text-center">
           <h2 className={`${display} text-3xl sm:text-4xl`}>Let&apos;s talk before you pick anyone</h2>
           <p className="mx-auto mt-4 max-w-2xl text-lg leading-relaxed text-cream/85">
-            One free call. Tell me where your family stands, and I will tell you straight whether I can help and
+            One 30-minute call, no obligation. Tell me where your family stands, and I will tell you straight whether I can help and
             who the right agent for your situation looks like. No pitch, no pressure, no cost.
           </p>
           <div className="mt-8 flex flex-wrap items-center justify-center gap-x-5 gap-y-3">
@@ -428,7 +428,7 @@ export default function InYourCornerPage() {
               href="/work-with-ryan"
               className="rounded-md bg-gold px-7 py-3.5 font-semibold text-navy transition hover:bg-gold-700 hover:text-cream"
             >
-              Book a free call
+              Book a 30-minute call
             </Link>
             <Link href="/the-blueprint" className="text-sm text-cream/80 underline underline-offset-4 hover:text-gold">
               See every way to work with Ryan
