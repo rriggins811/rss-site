@@ -662,6 +662,15 @@ export const DIRECTORY_COUNTIES: DirectoryCounty[] = [
     blurb:
       "Wilmington, Carolina Beach, Castle Hayne and Wrightsville Beach, NC programs for seniors and families: the Tax Department on Government Center Drive and the 2026 and 2027 income limits for North Carolina's three relief programs, an exclusion you apply for once that survives a nursing home stay if the house sits empty, values that stay on the 2025 revaluation until 2029, a free Register of Deeds fraud alert, a county-run Senior Resource Center with free lunch at 60 at three sites, weekday Meals on Wheels and free rides to medical visits for seniors not on Medicaid, a grocery and prescription delivery pilot for food desert neighborhoods, a free dental program with dentures for low-income adults 55 and older, a Medicaid rule that covers up to three months of past costs for people 65 and older who apply by December 31, 2026, a $1 Wave bus fare at 65 with a Medicare card, city repair loans inside Wilmington whose balance can come due at death, a hurricane registry whose volunteers call before the storm, and a PACE program in Wilmington whose own list covers every New Hanover ZIP code.",
   },
+  {
+    slug: "cumberland-county-nc-senior-help-directory",
+    county: "Cumberland County",
+    state: "NC",
+    metro: "Fayetteville, Hope Mills & Spring Lake",
+    region: "Sandhills",
+    blurb:
+      "Fayetteville, Hope Mills, Spring Lake and Stedman, NC programs for seniors and families: Tax Administration in the courthouse on Dick Street and the 2026 and 2027 income limits for North Carolina's three relief programs, a 2025 revaluation that left approved relief in place with no new application, a free Register of Deeds property alert and free DD-214 recording for military retirees, a nonprofit Council on Older Adults that runs Meals on Wheels, free lunch at 60 at five sites and the county's Medicare counseling, a Medicaid rule that covers up to three months of past costs for people 65 and older who apply by December 31, 2026, energy help that depends on whether the bill says PWC, Duke Energy Progress or Lumbee River EMC, free county rides to medical visits and the pharmacy at 60, a 50 cent FAST fare with a discount ID at 65, a county repair loan outside city limits and an emergency repair program inside them, the new Cumberland SAFE emergency registry, the Fort Bragg Retirement Services Office, and a PACE program in Fayetteville that the state lists for the whole county.",
+  },
 ];
 
 export type DirectoryState = {
