@@ -671,6 +671,15 @@ export const DIRECTORY_COUNTIES: DirectoryCounty[] = [
     blurb:
       "Fayetteville, Hope Mills, Spring Lake and Stedman, NC programs for seniors and families: Tax Administration in the courthouse on Dick Street and the 2026 and 2027 income limits for North Carolina's three relief programs, a 2025 revaluation that left approved relief in place with no new application, a free Register of Deeds property alert and free DD-214 recording for military retirees, a nonprofit Council on Older Adults that runs Meals on Wheels, free lunch at 60 at five sites and the county's Medicare counseling, a Medicaid rule that covers up to three months of past costs for people 65 and older who apply by December 31, 2026, energy help that depends on whether the bill says PWC, Duke Energy Progress or Lumbee River EMC, free county rides to medical visits and the pharmacy at 60, a 50 cent FAST fare with a discount ID at 65, a county repair loan outside city limits and an emergency repair program inside them, the new Cumberland SAFE emergency registry, the Fort Bragg Retirement Services Office, and a PACE program in Fayetteville that the state lists for the whole county.",
   },
+  {
+    slug: "henderson-county-nc-senior-help-directory",
+    county: "Henderson County",
+    state: "NC",
+    metro: "Hendersonville, Fletcher, Mills River & Flat Rock",
+    region: "Western North Carolina",
+    blurb:
+      "Hendersonville, Fletcher, Mills River, Flat Rock and Etowah, NC programs for seniors and families: the Assessor's office in the courthouse on North Grove Street and the 2026 and 2027 income limits for North Carolina's three relief programs, what the January 1, 2027 reappraisal schedule means for a parent's bill, Mountain Aging Partners (the former Council on Aging) for Meals on Wheels, community dining and adult day, a Medicaid rule that covers up to three months of past costs for applications filed by December 31, 2026, Interfaith Assistance Ministry for a power bill, rent or a prescription, free Apple Country buses and paratransit for every rider, free WNCSource rides for seniors, no-cost home repairs through Housing Assistance Corporation, weatherization through Community Action Opportunities, free legal help at Pisgah Legal's Hendersonville office, the county's Smart911 special needs registry, and a PACE program in Asheville that the state lists for Henderson County by ZIP code.",
+  },
 ];
 
 export type DirectoryState = {
