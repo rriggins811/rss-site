@@ -115,7 +115,24 @@ export default function MediaIndexPage() {
                         </span>
                       </span>
                     </div>
-                  ) : null}
+                  ) : (
+                    /* audio-only episode: no thumbnail, so a navy/gold text card */
+                    <div className="relative aspect-video overflow-hidden bg-navy-700 flex flex-col items-center justify-center px-6 text-center">
+                      <span
+                        aria-hidden
+                        className="absolute left-3 top-3 inline-flex items-center rounded-full bg-black/40 px-2.5 py-1 text-xs font-semibold uppercase tracking-wider text-white"
+                      >
+                        Listen
+                      </span>
+                      <span className="text-xs font-semibold uppercase tracking-[0.2em] text-gold-500">
+                        Audio episode
+                      </span>
+                      <span className="mt-3 font-serif text-3xl font-bold text-white leading-tight transition-colors group-hover:text-gold-100">
+                        {item.frontmatter.podcast}
+                      </span>
+                      <span className="mt-4 h-px w-12 bg-gold-500" aria-hidden />
+                    </div>
+                  )}
                   <div className="p-6">
                     <div className="text-xs font-semibold uppercase tracking-wider text-burgundy-600">
                       Podcast &middot; {formatMediaDate(item.datePublished)}
@@ -133,7 +150,10 @@ export default function MediaIndexPage() {
                       {item.frontmatter.excerpt}
                     </p>
                     <span className="mt-6 inline-flex items-center text-burgundy-600 font-semibold group-hover:text-burgundy-700">
-                      Watch the episode &rarr;
+                      {item.frontmatter.cover_image
+                        ? "Watch the episode"
+                        : "Listen to the episode"}{" "}
+                      &rarr;
                     </span>
                   </div>
                 </Link>

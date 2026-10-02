@@ -69,6 +69,8 @@ export default async function MediaDetailPage({
     /youtu\.?be/i.test(l)
   );
   const ytId = youtubeUrl ? getYouTubeId(youtubeUrl) : null;
+  // Audio-only episodes have no YouTube link: the first link is the player.
+  const listenUrl = !ytId ? item.frontmatter.links?.[0] : undefined;
 
   const related = getAllMedia()
     .filter((p) => p.frontmatter.slug !== slug)
@@ -122,6 +124,31 @@ export default async function MediaDetailPage({
                 allowFullScreen
                 className="absolute inset-0 h-full w-full"
               />
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* AUDIO (no YouTube embed) */}
+      {listenUrl && (
+        <section className="bg-white">
+          <div className="mx-auto max-w-3xl px-6 pt-12">
+            <div className="rounded-lg bg-navy-700 px-6 py-8 text-center">
+              <div className="text-xs font-semibold uppercase tracking-[0.2em] text-gold-500">
+                Audio episode
+              </div>
+              <div className="mt-3 font-serif text-2xl font-bold text-white">
+                {item.frontmatter.podcast}
+              </div>
+              <div className="mx-auto mt-4 h-px w-12 bg-gold-500" aria-hidden />
+              <a
+                href={listenUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-6 inline-flex items-center justify-center rounded-md bg-white text-navy-700 font-semibold px-5 py-3 hover:bg-gold-100 transition-colors"
+              >
+                Listen to the episode &rarr;
+              </a>
             </div>
           </div>
         </section>

@@ -472,6 +472,34 @@ export default function HomePage() {
                 Read more on Google &rarr;
               </a>
             </p>
+
+            {/* Press mention for Hammock365, Ryan's daily check-in app. Kept
+                out of RYAN_REVIEWS on purpose: it reviews the app, not RSS
+                client work, so it must never be emitted as an RSS Review. */}
+            <figure className="mt-12 border-t border-border pt-10">
+              <div className="text-xs font-semibold uppercase tracking-wider text-burgundy-600">
+                In the press
+              </div>
+              <blockquote className="mt-3 font-serif text-2xl leading-snug text-navy-700">
+                &ldquo;One tap. Every morning. The whole family sees it.&rdquo;
+              </blockquote>
+              <figcaption className="mt-4 text-sm text-ink/70">
+                <span className="font-semibold text-ink">Rosaria Michaels</span>
+                {" · ParentCareTech"}
+                <span className="mt-1 block">
+                  From her independent review of Hammock365, the daily check-in
+                  app for families with a parent who lives alone.
+                </span>
+                <a
+                  href="https://parentcaretech.com/hammock365-review-the-free-daily-check-in-app-i-wish-wed-had-for-nana/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-3 inline-block font-semibold text-burgundy-600 hover:text-burgundy-700"
+                >
+                  Read the review &rarr;
+                </a>
+              </figcaption>
+            </figure>
           </div>
         </section>
       )}
