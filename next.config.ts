@@ -1,8 +1,40 @@
 import type { NextConfig } from "next";
 
+// Book links (2026-10-03). Every rigginsstrategicsolutions.com address printed in
+// "The Senior Transition" is a short /book/<name> link. Each forwards to the real
+// page tagged utm_source=book so GA4 counts book readers (utm_content = link name).
+// Temporary (307) on purpose: change a target here, never reprint the book.
+// Source of truth: Master Book/BOOK_LINKS.md. The /book hub is src/app/book.
+const BOOK_LINKS: [string, string][] = [
+  ["readiness", "/tools/family-readiness-score"],
+  ["family-meeting", "/the-blueprint"],
+  ["professionals", "/resources/senior-help-directory"],
+  ["aging-in-place", "/tools/aging-in-place-break-even"],
+  ["prep-budget", "/tools/smart-prep-budget-calculator"],
+  ["net-proceeds", "/tools/net-proceeds-calculator"],
+  ["ways-to-sell", "/tools/strategic-exit-engine"],
+  ["sell-rent-keep", "/tools/sell-rent-or-keep-calculator"],
+  ["scams", "/resources/senior-scam-protection"],
+  ["help-directory", "/resources/senior-help-directory"],
+  ["care-runway", "/tools/care-runway-calculator"],
+  ["medicare-gap", "/tools/medicare-gap-analyzer"],
+  ["beneficiaries", "/tools/beneficiary-designation-audit"],
+  ["money-safety", "/money-safety-sheet"],
+  ["burnout", "/tools/caregiver-burnout-triage"],
+  ["blueprint", "/the-blueprint"],
+  ["roadmap", "/the-roadmap"],
+  ["call", "/work-with-ryan"],
+  ["contact", "/contact"],
+];
+
 const nextConfig: NextConfig = {
   async redirects() {
     return [
+      ...BOOK_LINKS.map(([name, dest]) => ({
+        source: `/book/${name}`,
+        destination: `${dest}?utm_source=book&utm_medium=print&utm_campaign=senior-transition&utm_content=${name}`,
+        permanent: false,
+      })),
       // 2026-09-11: the app is Hammock365; the product page moved with it.
       { source: "/seniorsafe-app", destination: "/hammock365", permanent: true },
       { source: "/seniorsafeapp", destination: "/hammock365", permanent: true },
