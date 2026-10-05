@@ -36,7 +36,7 @@ const SECTIONS: BookSection[] = [
       },
       {
         name: "The Family Meeting Agenda",
-        what: "The fill-in-the-blank agenda from Chapter 7, inside the Blueprint.",
+        what: "The fill-in-the-blank agenda from Chapter 7, ready to print.",
         slug: "family-meeting",
       },
       {

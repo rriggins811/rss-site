@@ -55,6 +55,22 @@ export function GuideOptInForm({ magnet }: { magnet: LeadMagnet }) {
     } catch {
       // ignore
     }
+    // utm_* on this page's own URL (e.g. a /book/<name> short link lands
+    // here with utm_source=book) wins over the stored blob, so a reader who
+    // never touched /freeguide still carries their source to the server.
+    try {
+      const params = new URLSearchParams(window.location.search);
+      const fromUrl: Record<string, string> = {};
+      for (const key of ["utm_source", "utm_medium", "utm_campaign", "utm_content", "utm_term"]) {
+        const v = params.get(key);
+        if (v) fromUrl[key] = v;
+      }
+      if (Object.keys(fromUrl).length > 0) {
+        attribution = { ...(attribution ?? {}), ...fromUrl, landing_url: window.location.href };
+      }
+    } catch {
+      // ignore
+    }
 
     try {
       const res = await fetch("/api/guide-deliver", {

@@ -211,7 +211,13 @@ export async function POST(req: Request) {
   // instant guarantee, so neither blocks the user-facing success.
   const [ghlRes, emailRes] = await Promise.allSettled([
     upsertGhlContactWithTags(
-      { email, firstName: firstName ?? undefined, phone: phone ?? undefined, source },
+      {
+        email,
+        firstName: firstName ?? undefined,
+        phone: phone ?? undefined,
+        source,
+        attribution,
+      },
       // Strip `freeguide` on the warm-LP path: that tag enrolls contacts in the
       // OLD account-flow nurture, which assumes a Blueprint dashboard these
       // ad leads do not have (the funnel that converted ~0). The new warm-funnel

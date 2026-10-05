@@ -7,7 +7,7 @@ import type { NextConfig } from "next";
 // Source of truth: Master Book/BOOK_LINKS.md. The /book hub is src/app/book.
 const BOOK_LINKS: [string, string][] = [
   ["readiness", "/tools/family-readiness-score"],
-  ["family-meeting", "/the-blueprint"],
+  ["family-meeting", "/g/family-meeting-agenda"],
   ["professionals", "/resources/senior-help-directory"],
   ["aging-in-place", "/tools/aging-in-place-break-even"],
   ["prep-budget", "/tools/smart-prep-budget-calculator"],

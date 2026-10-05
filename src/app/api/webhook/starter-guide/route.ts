@@ -307,6 +307,7 @@ export async function POST(req: Request) {
           lastName: lead.last_name,
           phone: lead.phone,
           source,
+          attribution,
         },
         magnet!.ghlTags
       ),

@@ -191,7 +191,27 @@ export type GhlContactInput = {
   phone?: string | null;
   source?: string;
   tags?: readonly string[];
+  /** Sanitized utm_* attribution from the lead form. Used only to derive tags. */
+  attribution?: Record<string, string>;
 };
+
+/** Visitors who arrive through a printed-book short link (/book/<name>). */
+export const BOOK_READER_TAG = "book-reader";
+
+/**
+ * Tags implied by how the visitor arrived. Every /book/<name> redirect in
+ * next.config.ts appends utm_source=book, so a lead carrying that source came
+ * from The Senior Transition and gets `book-reader` (plus which link).
+ */
+export function attributionTags(
+  attribution: Record<string, string> | undefined
+): string[] {
+  if (attribution?.utm_source !== "book") return [];
+  const tags = [BOOK_READER_TAG];
+  const content = attribution.utm_content?.replace(/[^a-z0-9-]/gi, "").slice(0, 40);
+  if (content) tags.push(`book-link-${content.toLowerCase()}`);
+  return tags;
+}
 
 type UpsertedContact = {
   contact?: { id?: string; locationId?: string };
@@ -216,7 +236,8 @@ export async function upsertGhlContact(
   if (input.lastName) body.lastName = input.lastName;
   if (input.phone) body.phone = input.phone;
   if (input.source) body.source = input.source;
-  if (input.tags && input.tags.length > 0) body.tags = input.tags;
+  const tags = [...(input.tags ?? []), ...attributionTags(input.attribution)];
+  if (tags.length > 0) body.tags = tags;
 
   const res = await callGhlProxy<UpsertedContact>({
     action: "post",

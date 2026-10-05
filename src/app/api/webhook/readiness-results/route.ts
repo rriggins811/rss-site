@@ -202,6 +202,7 @@ export async function POST(req: Request) {
         email: lead.email,
         firstName: lead.first_name,
         source,
+        attribution,
       },
       readinessTags(band)
     );

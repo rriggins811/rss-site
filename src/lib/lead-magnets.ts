@@ -314,6 +314,35 @@ export const LEAD_MAGNETS: LeadMagnet[] = [
   // Note: wholesaler-red-flags now overlaps the rewritten cash-buyer-beware
   // (the confession covers the red flags from the inside). Worth folding
   // into it rather than shipping a third magnet in the same lane.
+  {
+    // Oct 5 2026. The printable worksheet The Senior Transition (Chapter 7)
+    // points readers to at rigginsstrategicsolutions.com/book/family-meeting,
+    // which forwards here with utm_source=book (so the lead also gets the
+    // `book-reader` tag in GHL). Copy comes from the locked Chapter 7 text.
+    // No `meta-lead`/`freeguide`: this door is the book, not paid traffic.
+    slug: "family-meeting-agenda",
+    title: "The Family Meeting Agenda",
+    subtitle:
+      "A fill-in-the-blank worksheet for the conversation every family dreads.",
+    description:
+      "The printable worksheet from Chapter 7 of The Senior Transition: the sibling pre-meeting, the invitation script, the five-part agenda to send ahead of time, the \u201cI\u201d statement swaps, and the one concrete next step that gets you to the next meeting.",
+    pageCount: 7,
+    pdfPath: "/downloads/family-meeting-agenda.pdf",
+    publishedDate: "2026-10-05",
+    ghlTags: ["lead-source-rss-guides", "family-meeting-agenda"],
+    landing: {
+      headline: "The family meeting doesn\u2019t have to turn into a fight.",
+      subhead:
+        "The fill-in-the-blank agenda from Chapter 7 of The Senior Transition, ready to print.",
+      pain: "Most families picture an ambush: the kids walk in with a binder and Dad tells everybody to get out of his house. The goal of the first meeting is not a decision. It is agreeing on how you will decide, together, and leaving with one small next step.",
+      bullets: [
+        "The sibling pre-meeting, so you walk in on the same page",
+        "The invitation to say out loud, and the agenda to send ahead",
+        "\u201cI\u201d statements that keep Mom and Dad from shutting down",
+        "Good next steps, and the ones that backfire",
+      ],
+    },
+  },
 ];
 
 /**
