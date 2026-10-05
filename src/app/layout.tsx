@@ -8,6 +8,7 @@ import { SiteFooter } from "@/components/site/SiteFooter";
 import { JsonLd } from "@/components/site/JsonLd";
 import { Analytics } from "@/components/site/Analytics";
 import { AnalyticsClickTracker } from "@/components/site/AnalyticsClickTracker";
+import { UtmCarrier } from "@/components/site/UtmCarrier";
 import { MetaPixel } from "@/components/site/MetaPixel";
 import { GoogleAdsTag } from "@/components/site/GoogleAdsTag";
 import { organizationSchema, personSchema, websiteSchema } from "@/lib/schema";
@@ -95,6 +96,7 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col bg-background text-foreground">
         <Analytics />
         <AnalyticsClickTracker />
+        <UtmCarrier />
         <MetaPixel />
         <GoogleAdsTag />
         <SiteHeaderGate>
