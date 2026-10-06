@@ -680,6 +680,15 @@ export const DIRECTORY_COUNTIES: DirectoryCounty[] = [
     blurb:
       "Hendersonville, Fletcher, Mills River, Flat Rock and Etowah, NC programs for seniors and families: the Assessor's office in the courthouse on North Grove Street and the 2026 and 2027 income limits for North Carolina's three relief programs, what the January 1, 2027 reappraisal schedule means for a parent's bill, Mountain Aging Partners (the former Council on Aging) for Meals on Wheels, community dining and adult day, a Medicaid rule that covers up to three months of past costs for applications filed by December 31, 2026, Interfaith Assistance Ministry for a power bill, rent or a prescription, free Apple Country buses and paratransit for every rider, free WNCSource rides for seniors, no-cost home repairs through Housing Assistance Corporation, weatherization through Community Action Opportunities, free legal help at Pisgah Legal's Hendersonville office, the county's Smart911 special needs registry, and a PACE program in Asheville that the state lists for Henderson County by ZIP code.",
   },
+  {
+    slug: "catawba-county-nc-senior-help-directory",
+    county: "Catawba County",
+    state: "NC",
+    metro: "Hickory, Newton, Conover & Maiden",
+    region: "Foothills",
+    blurb:
+      "Hickory, Newton, Conover, Maiden and Claremont, NC programs for seniors and families: the Tax Department's relief desk in Newton and the 2026 and 2027 income limits for North Carolina's three relief programs, a revaluation effective January 1, 2027 that reopens appeals, free Meals on Wheels at 60 with no income test, free Seniors Morning Out lunches at five sites, the Council on Aging for free Medicare counseling, a Medicaid rule that covers up to three months of past costs for applications filed by December 31, 2026, Ashure Ministry for energy assistance, a food box or rent, a 60 cent Greenway bus fare at 65 and $2.50 rides anywhere in the county, the 2026 Urgent Repair Program for homeowners 62 and older, weatherization through Blue Ridge Community Action, free legal help through Legal Aid's Foothills office, the county Special Needs Registry, and a PACE program in Newton whose own list covers every Catawba ZIP code.",
+  },
 ];
 
 export type DirectoryState = {
