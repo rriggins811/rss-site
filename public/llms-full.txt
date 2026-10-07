@@ -5,8 +5,8 @@ It contains the full Markdown of every key page, resource pillar, Senior Help
 Directory state page, and blog post, intended for AI crawlers that ingest
 content for answer generation.
 
-Generated: 2026-10-06
-Indexed: 149 blog posts, 17 resource pillars, 51 Senior Help Directory state pages, 17 video transcripts.
+Generated: 2026-10-07
+Indexed: 150 blog posts, 17 resource pillars, 51 Senior Help Directory state pages, 17 video transcripts.
 
 For citation guidance, organizational facts, and topic depth, see the summary
 index at https://rigginsstrategicsolutions.com/llms.txt.
@@ -5312,8 +5312,157 @@ You must qualify for Medicaid, then apply for the Community Choices Waiver, choo
 
 # Blog Posts (newest first)
 
-The 149 posts below are the full body of every published article
+The 150 posts below are the full body of every published article
 on https://rigginsstrategicsolutions.com/blog, in reverse chronological order.
+
+---
+
+# A Power of Attorney Dies With Your Parent. A Forger Is Counting On You Not Knowing That.
+https://rigginsstrategicsolutions.com/blog/forged-power-of-attorney-after-parent-dies-house
+Published: 2026-10-07
+
+**Excerpt:** On October 5, federal prosecutors in Seattle announced a prison sentence for a man who used a forged power of attorney to try to sell the house of an elderly person who had died. He'd already accepted an offer. A niece stopped it. Here's why the weeks after a parent dies are when the house is most exposed, and what to do this week.
+
+You know how the house goes quiet after the funeral. The mail piles up. The lawn gets mowed when somebody has a free Saturday. Everybody's exhausted, the estate paperwork hasn't started, and the house just sits there with your mother's name still on the deed.
+
+That's the exact window a forger wants.
+
+On Monday, federal prosecutors in Seattle announced a three-year prison sentence for a man who tried to steal an elderly person's house, bank accounts, and stock portfolio after that person died. He didn't break in. He sent a real estate agent a forged power of attorney, said he had the authority to sell, and got as far as accepting an offer on the home. What stopped it wasn't the county, the agent, or the bank. It was the victim's niece, who found out and reported it.
+
+I spent more than eight years buying houses from families in transition. I know how much paper gets waved around after a death, and how rarely anybody asks whether it's still any good. So here's the one legal fact I want every family to have before they need it: a power of attorney dies with the person who signed it. If somebody shows up with one after the funeral, it doesn't matter whether it's real or forged. It's dead paper.
+
+You don't need to become a fraud investigator. You need about an hour, a few phone calls, and one free sign-up, and you'll be the person in your family who closed the window instead of the one who found out it was open.
+
+## What happened in Seattle
+
+The details come straight from the US Attorney's Office for the Western District of Washington, which published the case on October 5, 2026.
+
+A 36-year-old man from Carnation, Washington, was sentenced in federal court in Seattle to three years in prison for wire fraud, access device fraud, and aggravated identity theft. The case covered two schemes. The first was pandemic unemployment fraud. The second is the one that matters to you.
+
+According to the US Attorney's Office, he set out to steal the Seattle home, bank accounts, and stock portfolio of a deceased elderly victim by posing as the victim's authorized agent, impersonating the victim, and using the victim's personal information. All told, he made multiple attempts at more than half a million dollars of the victim's assets. Here's how it went, in the order the prosecutors laid it out:
+
+- He sent a real estate agent a **forged power of attorney** and said he had the victim's authorization to sell the home. He had even accepted an offer. Then the victim's niece was alerted, stepped in, and reported the attempted fraud.
+- Caught on the house, he went after the bank. He got into the victim's bank accounts, tried to move money, and obtained a debit card on the checking account. When fraud restrictions went on, he tried to get them lifted by impersonating the dead victim over email.
+- Then he took over the brokerage accounts and tried to liquidate more than $235,000 in stock. Fraud restrictions stopped that too, and once again he impersonated the victim to try to get back in.
+
+He pleaded guilty on July 2, 2026. The FBI and two federal inspectors general investigated.
+
+This isn't a one-off. In June 2026 the FBI's Internet Crime Complaint Center warned about criminals impersonating property owners to sell land without the owner knowing: fake IDs, untraceable email and phone numbers, a real local agent and title company, and pressure to close fast.
+
+## What this means for your family
+
+### The house is most exposed after a death, not before
+
+While your parent was alive, the house had a defender who opened the mail and would've said "I never signed that." After a death, that defender is gone, and the people who'd step in are grieving, scattered across three states, and haven't opened the estate yet. Nobody's reading the property tax bill. Nobody's watching the county records. An empty house with a dead owner on the deed is about as quiet a target as exists.
+
+Guilford County's Register of Deeds lists the people fraudsters target most, and the list includes the elderly and owners of vacant property. One of the county's own warning signs is a recorded document where the signer was already dead when it was supposedly signed. That isn't a hypothetical they dreamed up. It's on their list because it happens.
+
+### In North Carolina, death ends the power of attorney
+
+North Carolina's power of attorney law, G.S. 32C-1-110, says plainly that a power of attorney terminates when the principal dies. That's true for the real document your mom signed with her attorney, and obviously for any forged one. Once she's gone, nobody can sell her house "under her power of attorney." Selling it has to go through her estate.
+
+There's a catch you need to know about, though. The same statute says that termination isn't effective against someone who acts in good faith without actual knowledge that it ended. In plain English: if a bank or a buyer honestly doesn't know your parent died and relies on that power of attorney, the law can protect what they did. That's why the steps below are about putting the death in writing in front of the people who'd otherwise take a document at face value.
+
+### North Carolina makes a real estate power of attorney a public record
+
+Here's the piece that works in your favor. Under G.S. 47-28, before anyone transfers real property in North Carolina using a power of attorney, that power of attorney (or a certified copy) has to be registered with the Register of Deeds in the county where the owner lived or where the property sits.
+
+That means a power of attorney being used to sell your parent's house is supposed to show up in public land records. It's also why your county's free fraud alert matters so much: it watches for documents recorded under the names you give it.
+
+Two caveats. Failing to record first doesn't make the deed invalid (it's an infraction), and the power of attorney can be recorded afterward. And under G.S. 32C-1-105, a signature acknowledged in front of a notary is presumed genuine. Forgers know both of those things. So don't treat the record as a lock. Treat it as an alarm.
+
+### The county will record what it's handed
+
+You'd think a forged document would get caught at the counter. Guilford County says otherwise, in writing: under state law the Register of Deeds must accept and record any document that meets the legal requirements and fees, and it isn't responsible for verifying whether the document is valid or authentic. It also says it doesn't have the authority to remove a fraudulent document once it's recorded. Getting one undone means law enforcement and a real estate attorney.
+
+That's not a knock on the Register of Deeds. It's the system, and it's why the protection has to come from you.
+
+### Don't pay for a lock that isn't one
+
+You've probably seen ads for "home title lock." The Federal Trade Commission's verdict: it isn't title insurance and it isn't a lock. It's monitoring that tells you after the title has already moved, and the FTC notes many counties offer free alerts. Save the monthly fee.
+
+## What to do this week
+
+These steps are in order. If your parent is still living, do steps 1 and 2 now and keep the rest for later. If your parent has died, do all six this week, before anything else on the estate list.
+
+### 1. Sign up for your county's free property fraud alert
+
+Guilford's Register of Deeds offers one, and so do other North Carolina counties, including Davie and Pender. You enter the name variations you want watched, and the county notifies you when a document is recorded under those names. Guilford's page is clear that it doesn't block a recording; it warns you after one is filed. Sign up under your parent's name, every variation of it (with and without a middle initial, maiden name, "Jr."), and the name of any trust that holds the house. The FBI's June 2026 warning recommends the same step.
+
+### 2. Pull the deed and look for a recorded power of attorney
+
+Search your county's Register of Deeds records for your parent's name. Check who's on the current deed and whether any power of attorney has been recorded. If you find one you've never seen, write down the book and page and call an attorney the same day.
+
+### 3. Put the death in writing at the bank and the brokerage
+
+In Seattle, fraud restrictions on the bank and brokerage accounts are what stopped him, twice. Call each institution's fraud or estate department, report the death, and ask what they need from you (usually a death certificate). Ask them to note the account so no one acting "for" your parent gets in. Remember the good-faith rule: an institution that doesn't know about the death can be protected for acting on a power of attorney. Make sure they know.
+
+### 4. Make sure the tax bill and the mail still reach the family
+
+Guilford lists "you stop receiving your property tax bill" as a warning sign. Ask the county tax office what address is on file for the parcel, and forward your parent's mail to a family member who'll actually open it. A missing tax bill isn't paperwork. It's a smoke alarm.
+
+### 5. Tell any agent who calls to stop and call you
+
+If a real estate agent ever calls about a house that isn't for sale, that's a gift. The FBI's red flags: a seller who won't meet in person, communicates only by email or text, wants to close fast, or doesn't know basic facts about the property.
+
+### 6. Open the estate, and if something's already wrong, report it
+
+Selling a parent's house after death runs through the estate, so talk to an estate attorney about opening it. If you find a document that shouldn't exist, gather everything and report it, following Guilford's list: local law enforcement, the District Attorney's office, a real estate attorney, and the Register of Deeds. File with the FBI at ic3.gov too, including any phone numbers, emails, and bank accounts involved.
+
+You can't watch an empty house all day. You can make sure the first time a stranger touches its paperwork, your phone buzzes.
+
+## Frequently Asked Questions
+
+### Is a power of attorney still valid after the person dies?
+
+No. In North Carolina, G.S. 32C-1-110 says a power of attorney terminates when the principal dies. After that, the house and accounts are handled through the estate. One caution: the statute protects people who act in good faith without actual knowledge of the death, so tell the bank, the brokerage, and anyone else holding a copy in writing.
+
+### Can someone sell my parent's house with a power of attorney in North Carolina?
+
+While your parent is alive, an agent can sell real property if the power of attorney gives that authority, but G.S. 47-28 requires it to be registered with the Register of Deeds in the county where your parent lived or where the property lies before the transfer. After your parent dies, the power of attorney is over and the sale goes through the estate.
+
+### How do I find out if someone recorded a deed or a power of attorney on my parent's house?
+
+Search your county Register of Deeds records by your parent's name, then sign up for the county's free property fraud alert if it offers one. Guilford County's alert notifies you when a document is recorded under the name variations you register. It doesn't block a filing, but it tells you fast.
+
+### Does home title lock insurance stop deed fraud?
+
+No. The Federal Trade Commission says title lock insurance isn't title insurance and isn't a lock. It's a monitoring service that tells you after a title has already been transferred. The FTC notes you can check a title for free with your land records office, and many counties offer free alerts.
+
+### What should I do if a fraudulent deed was recorded on my parent's house?
+
+Report it right away. Guilford County's Register of Deeds advises contacting local law enforcement, the District Attorney's office, a real estate attorney, and the Register of Deeds, which can't remove a recorded document on its own. The FBI also takes reports at ic3.gov.
+
+## About Ryan Riggins
+
+Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [Hammock365 app](https://hammock365.com).
+
+---
+
+**Want a step-by-step guide?** The Senior Transition Blueprint is free, all 20 modules and 69 tools: rigginsstrategicsolutions.com/the-blueprint
+
+**Not sure where your family stands?** The free Family Readiness Score takes five minutes and shows the gaps across the home, the money, the legal documents, care, and family alignment: rigginsstrategicsolutions.com/tools/family-readiness-score
+
+**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
+
+**Selling a parent's home?** Ryan finds and vets the right local agent for your situation and stays in your corner on the whole sale, at no added cost to your family: rigginsstrategicsolutions.com/in-your-corner
+
+**Coordinate the family in one place.** Hammock365 keeps daily check-ins, medications, and documents where the whole family can see them: hammock365.com
+
+**Related reading:** When the house is empty, the insurance clause most families miss: rigginsstrategicsolutions.com/blog/parents-house-empty-homeowners-insurance-vacancy-clause
+
+## Sources
+
+All sources checked October 7, 2026.
+
+- US Attorney's Office, Western District of Washington, "Carnation, Washington, man sentenced to prison for COVID fraud scheme and attempts to steal from deceased Seattle victim," October 5, 2026 (sentence, charges, forged power of attorney, accepted offer, niece's report, bank and brokerage attempts, $235,000 in stock, plea date): https://www.justice.gov/usao-wdwa/pr/carnation-washington-man-sentenced-prison-covid-fraud-scheme-and-attempts-steal
+- FBI Internet Crime Complaint Center, "Protect Your Property from Illegal Sales Through Parcel Owner Impersonation," Alert I-061626-PSA, June 16, 2026 (the scheme, red flags, notification services, reporting): https://www.ic3.gov/PSA/2026/PSA260616
+- North Carolina General Assembly, G.S. 32C-1-110, Termination of power of attorney (ends at death; good-faith protection without actual knowledge): https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_32C/GS_32C-1-110.html
+- North Carolina General Assembly, G.S. 47-28, Powers of attorney (registration before a real property transfer; infraction; later recording relates back): https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_47/GS_47-28.html
+- North Carolina General Assembly, G.S. 32C-1-105, Execution of power of attorney (signature acknowledged before a notary presumed genuine): https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_32C/GS_32C-1-105.html
+- Guilford County Register of Deeds, "Property Fraud Alert": https://www.guilfordcountync.gov/government/register-deeds/property-fraud-alert
+- Guilford County Register of Deeds, "Deed Fraud Information and Resources" (must record conforming documents, no authority to remove, warning signs, who to report to): https://www.guilfordcountync.gov/government/register-deeds/property-fraud-alert/deed-fraud-information-and-resources
+- Federal Trade Commission, "Home title lock insurance? Not a lock at all," August 2024: https://consumer.ftc.gov/consumer-alerts/2024/08/home-title-lock-insurance-not-lock-all
 
 ---
 
