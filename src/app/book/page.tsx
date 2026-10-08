@@ -174,6 +174,13 @@ export default function BookToolsPage() {
             every year, so check current figures with the agency or a licensed
             professional before you act.
           </p>
+          <p className="mt-4 text-base text-ink/70">
+            Don&rsquo;t have the book yet?{" "}
+            <a href="/g/free-chapter" className="font-semibold text-burgundy-600 hover:text-burgundy-700 underline">
+              Read Chapter 13 free
+            </a>
+            .
+          </p>
         </div>
       </section>
 

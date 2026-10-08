@@ -25,6 +25,10 @@ const BOOK_LINKS: [string, string][] = [
   ["roadmap", "/the-roadmap"],
   ["call", "/work-with-ryan"],
   ["contact", "/contact"],
+  // Free Chapter 13 and the Amazon listing (10/8). "amazon" points at the hub until
+  // the book is live, then swaps to the Amazon product page (launch GO checklist).
+  ["free-chapter", "/g/free-chapter"],
+  ["amazon", "/book"],
 ];
 
 const nextConfig: NextConfig = {
@@ -35,6 +39,8 @@ const nextConfig: NextConfig = {
         destination: `${dest}?utm_source=book&utm_medium=print&utm_campaign=senior-transition&utm_content=${name}`,
         permanent: false,
       })),
+      // 2026-10-08: the short address on every book banner and social post.
+      { source: "/freechapter", destination: "/g/free-chapter", permanent: false },
       // 2026-09-11: the app is Hammock365; the product page moved with it.
       { source: "/seniorsafe-app", destination: "/hammock365", permanent: true },
       { source: "/seniorsafeapp", destination: "/hammock365", permanent: true },

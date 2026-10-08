@@ -343,6 +343,35 @@ export const LEAD_MAGNETS: LeadMagnet[] = [
       ],
     },
   },
+  {
+    // Oct 8 2026. Chapter 13 of The Senior Transition, free. Every book banner
+    // and "From the book" social post points here via /freechapter. Built from
+    // the locked manuscript by Master Book/build_free_chapter.py. Hidden from
+    // the /guides hub: its door is the book campaign, not the guide library.
+    slug: "free-chapter",
+    title: "The Predator\u2019s Playbook (Free Chapter)",
+    subtitle:
+      "Chapter 13 of The Senior Transition: a former cash buyer shows you the plays.",
+    description:
+      "The full Chapter 13 of The Senior Transition by Ryan Riggins. The three plays cash buyers and wholesalers run on families in a care move, told from the inside by someone who used to run them, and how to see each one coming.",
+    pageCount: 7,
+    pdfPath: "/downloads/senior-transition-free-chapter.pdf",
+    publishedDate: "2026-10-08",
+    ghlTags: ["lead-source-rss-guides", "book-free-chapter"],
+    hideFromHub: true,
+    landing: {
+      headline: "I used to be the buyer families should have worried about.",
+      subhead:
+        "Read Chapter 13 of The Senior Transition free: the Predator\u2019s Playbook, from the inside.",
+      pain: "When Mom or Dad moves into care, the house turns into a clock. Every month it sits costs money, and that is exactly when the friendly cash offers show up. I wrote those offers for years. This chapter shows you the plays, so you can see them coming.",
+      bullets: [
+        "Play #1: how a cluttered house gets turned into leverage",
+        "Play #2: why the buyer wants to be the only one who knows the value",
+        "Play #3: the legal process that quietly takes a family\u2019s equity",
+        "The real numbers on two houses, and what the families left on the table",
+      ],
+    },
+  },
 ];
 
 /**
