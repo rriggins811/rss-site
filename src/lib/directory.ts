@@ -689,6 +689,15 @@ export const DIRECTORY_COUNTIES: DirectoryCounty[] = [
     blurb:
       "Hickory, Newton, Conover, Maiden and Claremont, NC programs for seniors and families: the Tax Department's relief desk in Newton and the 2026 and 2027 income limits for North Carolina's three relief programs, a revaluation effective January 1, 2027 that reopens appeals, free Meals on Wheels at 60 with no income test, free Seniors Morning Out lunches at five sites, the Council on Aging for free Medicare counseling, a Medicaid rule that covers up to three months of past costs for applications filed by December 31, 2026, Ashure Ministry for energy assistance, a food box or rent, a 60 cent Greenway bus fare at 65 and $2.50 rides anywhere in the county, the 2026 Urgent Repair Program for homeowners 62 and older, weatherization through Blue Ridge Community Action, free legal help through Legal Aid's Foothills office, the county Special Needs Registry, and a PACE program in Newton whose own list covers every Catawba ZIP code.",
   },
+  {
+    slug: "rowan-county-nc-senior-help-directory",
+    county: "Rowan County",
+    state: "NC",
+    metro: "Salisbury, Kannapolis, China Grove & Spencer",
+    region: "Charlotte",
+    blurb:
+      "Salisbury, Kannapolis, China Grove, Spencer, Landis and Rockwell, NC programs for seniors and families: the Tax Assessor's office on North Main Street and the 2026 and 2027 income limits for North Carolina's three relief programs, a revaluation taking place January 1, 2027, a free Register of Deeds fraud alert, Rufty-Holmes Senior Center for free Medicare counseling, caregiver support and free Lunch Clubs at 60 at six sites, Meals on Wheels of Rowan with free meals for those who cannot pay, Rowan Helping Ministries for food and crisis help, a Medicaid rule that covers up to three months of past costs for applications filed by December 31, 2026, a 50 cent Salisbury Transit fare at 60 and county rides to medical visits, weatherization through YVEDDI, free legal help through Legal Aid's Greensboro office, and a PACE program the state lists for most Rowan ZIP codes.",
+  },
 ];
 
 export type DirectoryState = {
