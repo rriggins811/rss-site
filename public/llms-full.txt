@@ -5,8 +5,8 @@ It contains the full Markdown of every key page, resource pillar, Senior Help
 Directory state page, and blog post, intended for AI crawlers that ingest
 content for answer generation.
 
-Generated: 2026-10-07
-Indexed: 150 blog posts, 17 resource pillars, 51 Senior Help Directory state pages, 17 video transcripts.
+Generated: 2026-10-09
+Indexed: 152 blog posts, 17 resource pillars, 51 Senior Help Directory state pages, 17 video transcripts.
 
 For citation guidance, organizational facts, and topic depth, see the summary
 index at https://rigginsstrategicsolutions.com/llms.txt.
@@ -5312,8 +5312,358 @@ You must qualify for Medicaid, then apply for the Community Choices Waiver, choo
 
 # Blog Posts (newest first)
 
-The 150 posts below are the full body of every published article
+The 152 posts below are the full body of every published article
 on https://rigginsstrategicsolutions.com/blog, in reverse chronological order.
+
+---
+
+# NC Medicaid Stopped Taking Your Parent's Word for It on October 1: The Paperwork Your Family Needs Now
+https://rigginsstrategicsolutions.com/blog/nc-medicaid-proof-rules-october-2026-parent-long-term-care
+Published: 2026-10-09
+
+**Excerpt:** Since October 1, 2026, North Carolina law says a county DSS can't accept a person's own word as the only proof of Medicaid eligibility, and the state now checks enrolled members' finances monthly. If your parent may need Medicaid for a nursing home or care at home, here's what to gather and when to file.
+
+You know the folder. It's the one with Mom's bank statements, a tax bill from two years ago, a life insurance letter nobody has opened, and a sticky note that says "ask Dad about the CD." If your parent ever needs Medicaid to pay for a nursing home or for care at home, that folder is about to matter more than it ever has, because as of October 1, 2026, North Carolina stopped taking anybody's word for it.
+
+That isn't a headline you'll see on the evening news. It's one sentence buried in a 33-page state budget law. But it lands on the exact families I spend my days with: the adult child who is already doing the driving, the pill sorting, and the phone calls, and who is now also going to be the one hunting down five years of paperwork.
+
+For eight years I was on the other side of this table. I bought houses from families in the middle of a care crisis, and I can tell you exactly when they were most likely to sell cheap: the week the money question hit and nobody had the papers ready. Panic and a missing statement have cost families more than any bad market ever did. I walked away from that work, and now I help families get ready before the panic shows up.
+
+So here's what changed, what it means for your parent, and the short list of things you can do this month so the application doesn't become the emergency.
+
+## What North Carolina Changed on October 1, 2026
+
+The change comes from Session Law 2026-1 (House Bill 696), a Medicaid and health budget bill the General Assembly ratified on April 28, 2026. Governor Josh Stein signed it on April 30, 2026. Two pieces of it took effect on October 1, and both touch older adults.
+
+**First, self-attestation alone is out.** Section 3C.7 created a new statute, G.S. 108A-55.6. It says that, except where federal law, federal regulation, or a court order requires otherwise, the NC Department of Health and Human Services or a county department of social services "shall not accept self-attestation as the only evidence" in verifying Medicaid eligibility. In plain English, an applicant saying "that's all the money I have" on a form, with nothing behind it, isn't enough by itself anymore.
+
+**Second, the state looks more often.** Section 3C.6 rewrote G.S. 108A-55.5 so that DHHS reviews changes in enrolled members' circumstances on a monthly basis instead of a quarterly one, and shares what it finds with the county DSS that handles the case. The list of what the state reviews includes earned and unearned income, financial resources, residency, enrollment in other public assistance programs (in North Carolina and in other states), death records, and lottery and gambling winnings.
+
+Two more dates sit right behind those, and one of them is a real deadline for families.
+
+According to NC Medicaid's "Medicaid is changing" page, if you apply by **December 31, 2026**, Medicaid can cover approved costs for up to **three months** before the application. Starting January 1, 2027, adults 65 and older and people with a disability get up to **two months** of retroactive coverage instead. For a parent who has been in a nursing home on private pay since the fall, that one month can be thousands of dollars.
+
+Some of the other federal changes you may have heard about don't apply to your parent. NC DHHS says the new work requirements starting January 1, 2027 apply to adults ages 19 to 64 who have Medicaid through expansion and don't have a disability, and that most adults in that same 19 to 64 range will move to six-month renewals. If your parent is 65 or older, those two pieces aren't aimed at them.
+
+## What This Means for Your Family
+
+### The statute doesn't hand you a checklist, so assume they'll want paper
+
+The new law doesn't list which documents count. It sets a floor (your word alone isn't enough) and leaves the details to DHHS and the county offices. Nobody outside those offices can tell you yet exactly how every caseworker will apply it, and I'm not going to pretend I can.
+
+What I can tell you is what NC Medicaid's own manual already asks for, because that's the starting point. The Aged, Blind and Disabled Medicaid Manual, section MA-2230 (revised June 30, 2026), tells caseworkers to "always verify resources." For bank and other liquid accounts, it uses what it calls the first moment balance: the closing balance on the last business day of the month before the month being checked. So the statement that matters for an October application is the one showing the balance at the end of September.
+
+### The numbers are small, and they're strict
+
+For Medicaid for the aged, blind, and disabled, MA-2230 sets the resource limit at **$2,000 for one person** and **$3,000 for a couple**. That's checking, savings, CDs, stocks, cash value life insurance, and other countable assets added together. The home your parent lives in is generally excluded, and the manual keeps it excluded while your parent states an intent to return home, using a form called the DMA-5159, Statement of Intent to Return Home.
+
+Here's why the monthly checks matter. If your parent is approved and later the state's data shows resources went over the limit, the manual says the county sends a notice and gives **12 calendar days** to prove the number is wrong or that the resources have come back down. After that, a termination notice goes out. Twelve days goes fast when you're also running a household and a care schedule.
+
+### The five-year look-back still runs the show
+
+The transfer rules didn't change on October 1, but they're where families get hurt, so they belong in this conversation. Under NC Medicaid's transfer of assets policy, MA-2240, a gift or a sale for less than fair market value made within **60 months (5 years)** before the starting point can trigger a period when Medicaid won't pay for long-term care. The starting point is generally the date your parent is in a facility (or requests CAP or PACE, the programs that pay for care at home) and applies for Medicaid.
+
+That's why the money you quietly moved to help Mom pay her bills, the car she signed over to a grandchild, and the deed she "put in your name to be safe" all get looked at. With proof now required, the safest assumption is that every one of those will need an explanation on paper.
+
+### This decision isn't only about nursing homes
+
+You may be reading this thinking your parent is nowhere near a nursing home. Good. But NC Medicaid's Community Alternatives Program for Disabled Adults (CAP/DA) is built for adults 18 and older with disabilities who are at risk of needing a facility and would rather stay in their own homes. It uses the same Medicaid financial rules. So the folder you build now is also the folder that can keep your parent at home longer, with help, instead of making the move before anyone's ready.
+
+### Selling the house changes the math
+
+I'll say this one plainly because it's where my old world and yours collide. The house is usually excluded while your parent lives there or intends to return. Once it's sold, the cash generally counts. A rushed sale to "get it handled" can turn an excluded asset into a pile of countable money in a single afternoon, and with the state checking finances monthly, that change won't sit unnoticed for long. Before anyone signs a listing agreement or takes a cash offer, run the Medicaid question first.
+
+## Step-by-Step: What to Do This Month
+
+### 1. Build the folder before you need it
+
+Start with the last five years of statements for every account in your parent's name, plus any account where they're a joint owner. Add Social Security and pension award letters, the most recent property tax bill, any life insurance policies (cash value matters), annuity contracts, and the deed. If the bank only gives you 12 months online, request the older statements now. Banks can take weeks.
+
+### 2. Write down every gift and transfer, with the reason
+
+For anything that left your parent's accounts in the last five years that wasn't a normal bill, write the date, the amount, who received it, and why. If you paid for Mom's roof and she paid you back, find both sides of that. The manual lets an applicant show a transfer was made for a reason other than qualifying for Medicaid, but you'll need something more than a memory to do it.
+
+### 3. Get legal authority in place now
+
+If your parent can still sign, get a durable power of attorney and a health care power of attorney done with an elder law attorney while it's simple. You're about to be the one requesting statements, signing forms, and answering letters, and you'll want clear written authority to do that for your parent. It's far easier to set up while your parent can still take part in the decision.
+
+### 4. Decide on the timing of the application
+
+If your parent is already paying privately for a nursing home, or a facility stay looks likely before the end of the year, talk with an elder law attorney about applying by December 31, 2026. Per NC Medicaid, applications filed by then can reach back up to three months. Starting January 1, 2027, it's two months for adults 65 and older. You can apply through your parent's county DSS or online through ePASS at epass.nc.gov, and NC DHHS recommends an enhanced ePASS account if you'll need to upload documents.
+
+### 5. Report changes within 10 days, every time
+
+Once your parent is on Medicaid, NC Medicaid's beneficiary FAQ says beneficiaries must report all life changes to their local DSS within 10 days. A sale, an inheritance, a move, or a new bank account all count. With monthly data checks, the state is more likely to find a change you didn't report, and it's always better for the county to hear it from you first.
+
+### 6. Answer every letter the day it comes
+
+NC Medicaid tells beneficiaries to answer any letter right away because letters usually carry a deadline, and after a loss of coverage you usually have 60 days from the date on the letter to appeal. Put whoever opens your parent's mail on notice: anything from DSS goes to the top of the pile the same day.
+
+## Frequently Asked Questions
+
+### What changed with NC Medicaid on October 1, 2026?
+
+Two state changes took effect. A new statute, G.S. 108A-55.6, says DHHS and county DSS offices can't accept self-attestation as the only evidence of Medicaid eligibility, except where federal law or a court order requires it. And G.S. 108A-55.5 now has the state review enrolled members' income, resources, and other data monthly instead of quarterly. Both come from Session Law 2026-1.
+
+### What is the Medicaid asset limit for a nursing home in North Carolina?
+
+For Medicaid for the aged, blind, and disabled, NC Medicaid's manual section MA-2230, revised June 30, 2026, sets the resource limit at $2,000 for one person and $3,000 for a couple. The home is generally excluded while your parent lives there or states an intent to return home, and a spouse who stays home has separate protections.
+
+### How far back does NC Medicaid look at my parent's bank accounts?
+
+For transfers, NC Medicaid policy MA-2240 looks back 60 months, which is five years, from the starting point. That starting point is generally when your parent is in a facility or requests CAP or PACE and applies for Medicaid. Gifts or sales for less than fair market value inside that window can cause a period of ineligibility for long-term care.
+
+### Should we apply for Medicaid before January 1, 2027?
+
+If your parent already has nursing home or other care costs, it's worth asking an elder law attorney now. NC Medicaid says applications filed by December 31, 2026 can cover approved costs for up to three months before the application. Starting January 1, 2027, adults 65 and older and people with a disability get up to two months.
+
+### Do the new Medicaid work requirements apply to my 70-year-old parent?
+
+No. NC DHHS says the work requirements starting January 1, 2027 apply to adults ages 19 to 64 who have Medicaid through expansion and don't have a disability. The same release says most adults in that 19 to 64 group will renew every six months. Your parent still has to report changes within 10 days and answer every DSS letter.
+
+## About Ryan Riggins
+
+Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [Hammock365 app](https://hammock365.com).
+
+---
+
+**Weighing home versus a move?** The free Aging in Place Break-Even tool compares what it costs to stay with what it costs to go: rigginsstrategicsolutions.com/tools/aging-in-place-break-even
+
+**Want a step-by-step guide?** The Senior Transition Blueprint is free, all 20 modules and 69 tools: rigginsstrategicsolutions.com/the-blueprint
+
+**Not sure where your family stands?** The free Family Readiness Score takes five minutes and shows the gaps across the home, the money, the legal documents, care, and family alignment: rigginsstrategicsolutions.com/tools/family-readiness-score
+
+**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
+
+**Selling a parent's home?** Ryan finds and vets the right local agent for your situation and stays in your corner on the whole sale, at no added cost to your family: rigginsstrategicsolutions.com/in-your-corner
+
+**Coordinate the family in one place.** Hammock365 keeps daily check-ins, medications, and documents where the whole family can see them: hammock365.com
+
+## Sources
+
+All sources checked October 9, 2026.
+
+- North Carolina General Assembly, Session Law 2026-1 (House Bill 696), ratified April 28, 2026, approved by the Governor April 30, 2026: Section 3C.6 (monthly data checks, G.S. 108A-55.5) and Section 3C.7 (G.S. 108A-55.6, limits on self-attestation), both effective October 1, 2026.
+- North Carolina General Statutes, G.S. 108A-55.6, Verification of Medicaid eligibility; limitations.
+- NC DHHS press release, "NCDHHS Launches the Know What's Next Toolkit on Medicaid Changes Starting Oct. 1, 2026," September 1, 2026.
+- NC Medicaid, "Medicaid is changing" beneficiary page (retroactive coverage, renewals, appeals).
+- NC Medicaid, Frequently Asked Questions for Beneficiaries (10-day change reporting).
+- NC DHHS, Aged, Blind and Disabled Medicaid Manual, MA-2230 Financial Resources, revised June 30, 2026 (Change No. 09-26).
+- NC DHHS, Aged, Blind and Disabled Medicaid Manual, MA-2240 Transfer of Assets (lookback date and starting point).
+- NC Medicaid, Community Alternatives Program for Disabled Adults (CAP/DA) program page.
+
+---
+
+# Rowan County, NC Senior Help Directory (2026)
+https://rigginsstrategicsolutions.com/blog/rowan-county-nc-senior-help-directory
+Published: 2026-10-08
+
+**Excerpt:** Free, plain-English senior help in Rowan County, NC: the Tax Assessor's office on North Main Street in Salisbury and the 2026 and 2027 income limits for North Carolina's three relief programs, what the January 1, 2027 revaluation means for a parent's bill, Rufty-Holmes Senior Center for Medicare counseling and free Lunch Clubs at 60, Meals on Wheels of Rowan, Rowan Helping Ministries for food and crisis help, a 50 cent Salisbury Transit fare at 60, county rides to medical visits, weatherization through YVEDDI, free legal help through Legal Aid's Greensboro office, and a PACE program the state lists for most Rowan ZIP codes.
+
+*Free, plain-English help for seniors and families in Rowan County, NC. Education, not advice. Verify before you rely on it.*
+
+## Start here (works anywhere)
+- 211 (dial 2-1-1), Eldercare Locator 1-800-677-1116, Medicare 1-800-633-4227, Social Security 1-800-772-1213, VA 1-800-827-1000, Alzheimer's 24/7 Helpline 1-800-272-3900, National Elder Fraud Hotline 1-833-372-8311, Crisis Lifeline 988
+
+**Three local front doors:** **Rufty-Holmes Senior Center**, **1120 South Martin Luther King Jr. Avenue, Salisbury, NC 28144**, **704-216-7714** | **Rowan County Department of Social Services**, **1813 East Innes Street, Salisbury, NC 28146**, **704-216-8330** | **Centralina Area Agency on Aging**, toll free **1-800-508-5777**. And **2-1-1**, or **1-888-892-1162**.
+
+**Rufty-Holmes is the senior door.** Rowan County does not run its own senior services department; the front door is **Rufty-Holmes Senior Center**, a nonprofit community center for Rowan County residents **55 and older**. The state's senior center directory lists it as the only senior center in the county and rates it a **Center of Excellence**, and the center says it was North Carolina's first. It runs the county's **SHIIP** Medicare counseling, the free **Lunch Clubs** at 60, **Family Caregiver Support**, tax help and more. Hours: **Monday 8 a.m. to 8 p.m.; Tuesday to Friday, 8 a.m. to 5 p.m.** Main line **704-216-7714**. The Centralina Area Agency on Aging names Rufty-Holmes as its local contact for Rowan.
+
+**Social Services is the benefits office.** Medicaid, Food and Nutrition Services, energy assistance, Special Assistance, in-home aide services, Medicaid transportation and Adult Protective Services all run out of **1813 East Innes Street, Salisbury**. Main line **704-216-8330**; a Spanish line, **704-216-8428**, takes voicemail and calls back. Adult Services, including in-home aide and Adult Protective Services, is **704-216-8331**. The county's Adult Protective Services page gives office hours of **8 a.m. to 5 p.m., Monday to Friday**.
+
+**Centralina is the regional layer.** The **Centralina Area Agency on Aging**, **10735 David Taylor Drive, Suite 250, Charlotte, NC 28262**, plans and funds aging services for **Anson, Cabarrus, Gaston, Iredell, Lincoln, Mecklenburg, Rowan, Stanly and Union** counties and runs the **Long-Term Care Ombudsman** program (below). Its toll-free line is **1-800-508-5777**. Its own site gives a main line of 704-372-2416 and the state's map gives 704-348-2712, so the toll-free number is the one to use.
+
+## Property tax relief (apply with the Rowan County Tax Assessor, 704-216-8565)
+
+**The office.** Senior and disability relief is handled by the **Rowan County Tax Assessor's Office**, **402 North Main Street, Suite 201, Salisbury, NC 28144**, **Monday to Friday, 8 a.m. to 5 p.m.** The main line is **704-216-8558**, and the county lists **704-216-8565** for **Exemptions**, the desk that handles relief. The state's official list of county assessors (revised September 23, 2026) names **Wendell Main** as Rowan's assessor at the same North Main Street address and **704-216-8558**. The county's application is posted on its Exemptions page as the "Application for Elderly, Disabled, and or Veteran Property Tax Relief."
+
+**The three programs.** All three are set by the state and filed on the state's **Form AV-9** with the county.
+
+- **Elderly or Disabled Exclusion.** The county says it **excludes the greater of the first $25,000 or 50 percent of the appraised value** of the permanent residence. You must be **at least 65 or totally and permanently disabled**, and household income must be within the limit: **$38,800 for the 2026 tax year, $39,900 for 2027**. The county's page does not say whether you reapply each year, so ask the Exemptions desk, and tell the Assessor if your parent moves, sells or rents the house.
+- **Circuit Breaker Property Tax Deferment.** Limits the tax to **4 percent of income at $38,800 or less** and **5 percent above $38,800 up to $58,200** for 2026 (the 2027 ceiling is **$59,850**). The owner must have **owned and occupied the property at least five years**, be 65 or older or totally and permanently disabled, and **every co-owner must qualify**. **This is a deferral, not forgiveness.** The county says that after a **disqualifying event**, such as a transfer, a death, or the home no longer being the permanent residence, **the most recent three years of deferred taxes come due with interest**. And the county says **you must apply each and every year** you want to defer. Understand that before your parent signs, especially if the plan is to sell the house or leave it to family.
+- **Disabled Veteran Exclusion.** **Excludes up to the first $45,000** of the appraised value for an honorably discharged veteran with a **100 percent total and permanent service-connected disability**, or an unmarried surviving spouse. The county says **there is no age or income limitation**. Rowan County Veterans Services (below) can help with the paperwork.
+
+**Deadline.** The county says **applications must be filed by June 1**.
+
+**The 2027 revaluation is coming.** Rowan County revalues **every four years**. Today's values took effect **January 1, 2023**, and the county says **the next revaluation will take place on January 1, 2027**, with the one after that planned for 2031. The county says informal appeals **typically take place between January and March**, and the **Board of Equalization and Review** first meets between the first Monday in April and the first Monday in May; appeals must be in before that board adjourns. Parts of the county's revaluation page still describe the 2023 appeal forms and deadlines, and it has **not posted a 2027 appeal deadline**, so call the revaluation line, **704-216-8586**, when the new value arrives.
+
+The county's pages do not say how a revaluation affects relief that is already approved, so call **704-216-8565** once the new value arrives to confirm your parent's status. If a parent's income is under the 2027 limit and they are not yet on the exclusion, **June 1, 2027** is the date to circle.
+
+**Rates and bills.** The county rate on **2026 bills is 58 cents per $100** of value. Towns add their own: **Salisbury 68.4 cents**, **Kannapolis 55.95**, **China Grove 56**, **Landis 49**, **Spencer 63.05**, **East Spencer 86**, **Rockwell 55**, **Granite Quarry 49**, **Faith 50**, and **Cleveland 35** (Cleveland also carries a 13 cent fire district). Downtown Salisbury adds a 15.6 cent district. Bills are mailed in **July**. The county's Tax Collector says taxes are **due September 1 and payable through January 5**, with a **1.5 percent discount in July** and **1 percent in August**; interest starts at **2 percent in January** and adds **three quarters of a percent each month** after. The Tax Collector is at **402 North Main Street, Suite 101**, **704-216-8544**.
+
+**One protection worth ten minutes.** The **Rowan County Register of Deeds** offers **Property Check**, a **free 24/7 fraud alert** that tells you by your chosen contact method **any time a filing occurs** on a property or owner you name. The county is clear that it **does not stop** fraudulent activity; it tells you fast so you can act. The office is at **402 North Main Street, Salisbury**, **704-216-8626**, Monday to Friday 8 a.m. to 5 p.m. Veterans who register their DD-214 there also get a free **Thank A Vet** ID card for local discounts.
+
+## Food
+
+**Meals on Wheels.** **Meals on Wheels of Rowan**, **720 Grove Street, Salisbury**, delivers meals **five days a week between 10:30 a.m. and 12:30 p.m.** to people **60 and older** who are **homebound and unable to prepare nutritious meals** or shop for themselves. The full cost is **$13.80 per meal**; Care Coordinators set what each person pays on a **sliding scale of $2 to $9 per meal**, and **in 2026 it is providing free meals to up to 125 people who cannot contribute**. Apply online or call a Care Coordinator at **704-633-0352**; a coordinator calls back within **3 to 5 business days**. The site does not mention a waitlist, so ask when you call.
+
+**Lunch Clubs, free at 60.** Rufty-Holmes runs the county's congregate meal sites. **Everyone 60 or older is welcome**, and **there is no cost for lunch**. Programs start at **10:30 a.m.** and lunch is served **11:30 a.m. to 12:15 p.m.** You **must register 24 to 48 hours ahead** with the nutrition manager at **704-216-7702**. Sites:
+- **Spencer:** First Community Building, 215 Fifth Street
+- **Kannapolis:** VFW Post 8989, 2500 North Cannon Boulevard, **704-798-3038**
+- **Granite Quarry:** Shiloh United Methodist Church, 234 South Main Street, **704-798-3058**
+- **Cleveland:** Third Creek AME Zion Church, 415 East Main Street, **704-798-3100**
+- **Salisbury:** Lafayette Community Center, 617 Lafayette Circle, **704-636-7758**
+- **Salisbury:** John Calvin Presbyterian Church, 1620 Brenner Avenue, **704-798-3093**
+- **Rufty-Holmes** itself hosts a Tuesday Lunch Club and a Latino Lunch Club on the second and fourth Wednesdays.
+
+**Rowan Helping Ministries.** **226 North Long Street, Salisbury**, **704-637-6838** (press 1 for Crisis Assistance and the Food Pantry). The **Crisis Assistance Network and Food Pantry** is open **Monday to Friday, 9 a.m. to 3:30 p.m.** A **West Food Pantry** runs at **785 Grampian Road, Mount Ulla**, Fridays 9 to 11 a.m. The county's pantry list says **Jeannie's Kitchen** at **217 North Long Street** serves **lunch seven days a week, noon to 1 p.m., without qualification**.
+
+**More pantries.** The county keeps a **food pantry list** (last revised October 3, 2025) covering Salisbury, Kannapolis, Rockwell and other towns. It is a year old, so call before you go. The **Salvation Army of Rowan County**, **620 Bringle Ferry Road, Salisbury**, **704-636-6491**, is open Monday to Friday 8:30 a.m. to 4:30 p.m. (closed noon to 1); the county list says to **call for an appointment** for food.
+
+**The regional food bank.** **Second Harvest Food Bank of Metrolina** lists Rowan in its service area. Its main office answers at **704-376-1785**. For the nearest pantry, use the county list or dial 2-1-1.
+
+**Food and Nutrition Services (SNAP).** Apply online through **ePASS**, in person at **1813 East Innes Street**, or call **704-216-8330** if you cannot come in. Mailed applications go to the same address.
+
+## Energy and utility help
+
+**Where to apply: Rowan County DSS.** North Carolina's two heating and cooling programs are applied for through **ePASS** or the county DSS, **1813 East Innes Street, Salisbury**, **704-216-8330**. Rowan County does not post its own energy assistance page, so call to ask how intake works this season.
+
+**LIEAP.** A **once-a-year payment** toward heating bills, sent straight to the vendor. The state says households with **someone 60 or older**, or a disabled person getting services through the NC Division of Aging and Adult Services, can sign up **December 1 to 31**; everyone else applies **January 1 to March 31** or until the money runs out. Income is based on **130 percent** of the poverty level.
+
+**CIP.** The **Crisis Intervention Program** is for heating or cooling emergencies, taken **July 1 to June 30** or until the county's money runs out. The state sets income at **150 percent** of poverty, and households with a member **60 or older** or disabled can have **resources at or below $4,500**. The state says a disconnect notice is **not required at this time**; a final notice or past-due bill is accepted, and **no face-to-face interview is required**. You can apply by mail, email, fax, drop-off at DSS, or ePASS. Rowan County does not post a dollar cap, so ask DSS.
+
+**Rowan Helping Ministries.** Its Crisis Assistance Network, **704-637-6838**, option 1, is the county's main nonprofit door for crisis help. Call to ask what it can cover this month.
+
+**If the bill says City of Salisbury (water and sewer).** The city's **Share2Care** program helps people **whose finances limit their ability to keep water or sewer service**. The city says **applications go directly to Rowan Helping Ministries**. The city also offers **payment plans for past-due balances**, and points to the state's water assistance through Rowan DSS at **704-216-8330**.
+
+**If the bill says Town of Landis.** Landis runs its own public power. The town points residents who need help to **Rowan County DSS (704-216-8330)** and **Rowan Helping Ministries (704-637-6838)**. Town Hall is **704-857-2411**, Monday to Friday 8 a.m. to 5 p.m.
+
+**Too hot, not just too cold.** The state's **Operation Fan Heat Relief** gives fans, and air conditioners for some qualifying medical conditions, to people **60 and older** and adults with disabilities, but only **through October 31, 2026**. Rowan County's provider is **Rufty-Holmes Senior Center, 704-216-7714**.
+
+## Medicare, Medicaid, prescriptions
+
+**Free Medicare counseling.** North Carolina's **Seniors' Health Insurance Information Program (SHIIP)**, run by the NC Department of Insurance, gives free, unbiased Medicare counseling. The state's county locator lists **Rufty-Holmes Senior Center, 1120 South Martin Luther King Jr. Avenue, Salisbury, 704-216-7704**, **by appointment only** (ask for SHIIP help). The statewide SHIIP line is **1-855-408-1212**, Monday to Friday 8 a.m. to 5 p.m. Call before any Medicare Advantage or Part D decision, especially during open enrollment, **October 15 to December 7, 2026**.
+
+**Help paying Medicare costs and prescriptions.** The **Medicare Savings Programs** can pay Medicare premiums, and **Extra Help** lowers Part D drug costs. Ask Rowan DSS's Economic Services at **704-216-8330** about the Medicare Savings Programs, and SHIIP or Social Security (**1-800-772-1213**) about Extra Help. **NC MedAssist (1-866-331-1348)** gives free prescription medicine to **uninsured** North Carolinians with household income **below 300 percent of poverty**. We are not printing income limits for the Medicare programs; ask SHIIP to check them against your parent's numbers.
+
+**Medicaid, and a reason to apply before December 31.** Apply through Rowan DSS at **704-216-8330**, online through ePASS, or by fax to **704-216-7937**. The **NC Medicaid Contact Center** is **888-245-0179**. NC Medicaid says that **if you apply by December 31, 2026, Medicaid will cover approved costs for up to 3 months before you applied**. Starting January 1, 2027, that window shrinks to **up to 2 months for adults 65 and older** and people with a disability. If a parent is heading toward a nursing home or already paying for care, that difference can be real money.
+
+**Staying home on Medicaid: CAP/DA.** The **Community Alternatives Program for Disabled Adults (CAP/DA)** is North Carolina's Medicaid waiver that brings in-home aide help, respite and case management so someone who would otherwise qualify for a nursing home can stay home. NC Medicaid's list of case management agencies for Rowan County (dated May 2025) names **Primary Health Choice, 910-865-3500**; **RBS Case Management, 910-768-0002**; **RHA Management Services, 888-207-7828**; **Rowan Regional Medical Center, Novant Health, 704-210-5620**; and **Walkers Home Care CAPDA, 252-432-6308**. The list is more than a year old, so if a line does not answer, start with DSS.
+
+**In-home help through DSS.** Rowan DSS's **In-Home Aide** program gives **personal care and home management** help to older adults and adults with disabilities; the county notes **a wait list**. Call **704-216-8331**.
+
+**Special Assistance In-Home.** An alternative to moving into an adult care home for **Medicaid-eligible** adults with income **at or below 100 percent of poverty**. It needs an assessment by an Adult Services social worker and an **FL-2** from a physician. The county says **slots are limited and there is a waiting list**. Call **704-216-8330**.
+
+**Mental health.** Rowan County's public mental health plan is **Vaya Health** (not the plan most neighboring counties use). Its **Behavioral Health Crisis Line is 1-800-849-6127, 24 hours a day, 7 days a week**; the member and recipient service line is **1-800-962-9003**, Monday to Saturday 7 a.m. to 6 p.m.
+
+## Home repair and safety
+
+- **Weatherization and heating repair.** North Carolina's weatherization provider for Rowan County is **YVEDDI (Yadkin Valley Economic Development District)**, which serves Davie, Rowan, Stokes, Surry and Yadkin counties. It has a **Rowan County office at 1300 West Bank Street, Salisbury**; weatherization calls go to **336-367-3535**. Weatherization serves households with income **below 200 percent** of poverty, and households on **Work First or SSI** qualify. YVEDDI's **Heating and Air Repair and Replacement Program (HARRP)** works alongside weatherization to repair or replace heating systems, with a lower income limit of **150 percent** of poverty. We are not printing dollar limits; ask YVEDDI to check your parent's numbers.
+- **Inside Salisbury city limits.** The city's **Single Family Owner Occupied Rehabilitation Program** helps **low-income** homeowners, run by the **Salisbury Community Development Corporation**, **704-216-2738**. The city says **funding is limited each year**.
+- **Outside Salisbury.** Rowan County's own housing repair program **has been discontinued until further notice**, the county says. For Kannapolis, the county names the city's housing contact at **704-920-4332**. Elsewhere, ask **2-1-1** or **Rowan Helping Ministries** what repair help is available.
+
+**Emergency alerts.** Rowan County sends emergency alerts through **RoCo Alerts**; sign up from the county's website. Rowan County Emergency Services is **704-216-8900**. We found no special needs registry on the county's pages, so if your parent would need help in a disaster, call Emergency Services and ask what to do.
+
+## Rent, housing, emergency cash
+
+- **Salisbury Housing Authority**, 200 South Martin Luther King Jr. Drive, Salisbury, **704-636-1410**, rents apartments with rent based on income.
+- **Rowan County Housing Authority**, 310 Long Meadow Drive, Salisbury, **704-633-8380**, runs **Section 8 Housing Choice Vouchers**.
+- **East Spencer Housing Authority**, 206 South Long Street, East Spencer, also lists Section 8 vouchers. The county and the City of Salisbury print different phone numbers for it, so ask 2-1-1 for the current line.
+- None of the three posts its waiting list status, so ask each one whether its list is open.
+- **Rowan Helping Ministries**, **704-637-6838**, option 1, for crisis help with rent and other emergencies; option 2 for its shelter at 217 North Long Street, open 24 hours.
+- **2-1-1** knows which church funds and ministries have money this week.
+
+## Transportation
+
+**Salisbury Transit: 50 cents at 60.** The regular fare is **$1.00**. **Seniors 60 and older** and people with disabilities pay **50 cents** with a **picture ID that proves age**; Medicare card holders also ride for 50 cents. A **40-ride senior pass is $17**. Office: **300 West Franklin Street**, **704-638-5252**.
+
+**Salisbury ADA paratransit.** Curb-to-curb rides for people who cannot use the bus, within **three quarters of a mile** of the bus routes, **$2.00 a trip**. Eligibility is by application, with a form signed by a licensed health care or rehab professional; the city decides within 21 days. Reservations at **704-638-5252** or **704-638-5253**, **Monday to Friday 8 a.m. to 5 p.m.**, up to **7 days ahead**. Saturday booking (8 a.m. to 5 p.m.) is for next-day trips only. Changes must be made by 5 p.m. the day before.
+
+**Rides outside the bus routes: Rowan Transit System.** The county's **Rowan Transit System**, **2726 Old Concord Road, Salisbury**, **704-216-8899**, runs **weekdays 7 a.m. to 5 p.m.**, except county holidays. **Riders must sign up first**, and **trips must be scheduled 3 working days ahead**. Its medical ride program goes to medical appointments **one day a week for each part of the county**: **West Rowan Tuesday, North Wednesday, South Thursday, East Friday**. The county's brochure lists a **$2.00 fare** per trip, but it dates from 2021, so confirm the fare when you sign up.
+
+**Medicaid rides to appointments.** Rowan DSS's Medicaid Transportation: call **704-216-8896** for an assessment, Monday to Friday 7:30 a.m. to 5 p.m. The county page does not say how much notice to give, so ask when you call.
+
+**In Kannapolis.** **Rider Transit** serves Concord and Kannapolis: **704-920-7433**, ADA paratransit **704-920-5876**. Ask whether it serves your parent's address on the Rowan side.
+
+## Legal help
+
+**Senior Legal Helpline.** **Legal Aid of North Carolina's Senior Legal Helpline** gives **free civil legal help to North Carolinians 60 and older**: **1-877-579-7562**, Monday to Friday **9 to 11 a.m. and 1 to 3 p.m.**
+
+**Legal Aid of North Carolina, Greensboro office.** **122 North Elm Street, Suite 700, Greensboro**, which serves Rowan County: **336-272-0148** or toll free **1-800-951-2257**, Monday to Friday 9 a.m. to 5 p.m.
+
+**Protecting an older adult.**
+- **Rowan County Adult Protective Services:** **704-216-8331**, or ask for Adult Protective Services at **704-216-8330**, during office hours. **Outside office hours, call 911**; the county says the operator connects you with an on-call social worker. North Carolina law requires anyone who suspects a disabled adult is being abused, neglected or exploited to report it.
+- **Long-Term Care Ombudsman**, for problems in a nursing home or assisted living. Centralina's regional ombudsman for Rowan, Iredell and Lincoln counties is **Jeannie Mullies, 704-688-6504**.
+- **NC Attorney General Consumer Protection: 1-877-566-7226** (1-877-5-NO-SCAM).
+- **National Elder Fraud Hotline: 1-833-372-8311.**
+
+**Paperwork offices you will need.** A power of attorney that will be used for real estate is recorded at the **Rowan County Register of Deeds, 402 North Main Street, Salisbury, 704-216-8626**. Wills and estates are handled by the **Clerk of Superior Court** at the **Rowan County Courthouse, 210 North Main Street, Salisbury**, main line **704-797-3001**, Monday to Friday 8:30 a.m. to 5 p.m. The **Estates Department is by appointment only**: call **704-797-3005**.
+
+**For veterans.** **Rowan County Veterans Services**, **1955 Jake Alexander Boulevard West, Salisbury**, **704-216-8138**, Monday to Friday 8:30 a.m. to 4:30 p.m. The county says **all services are free of charge**. Call ahead to ask whether you need an appointment.
+
+## Caregiver support
+
+- **Family Caregiver Support at Rufty-Holmes.** For a caregiver of any age caring for someone **60 or older**, or for someone with Alzheimer's or a related disorder, or a person 55 or older raising a related child. It offers **respite**, information, help reaching services, counseling and training, and limited supplies. Call **704-216-7704**.
+- **Project C.A.R.E.** Dementia-specific support and respite for families caring for someone with **Alzheimer's or another dementia** at home. The state's South Central office covers Rowan County: **704-432-1111** or **980-314-7801**.
+- **Adult day.** The state's April 2026 list of certified adult day programs names one in Rowan County: **Trinity Living Center**, 1416-A South Martin Luther King Jr. Avenue, Salisbury, **704-637-3940**, adult day care and adult day health. Its own site gives hours of Monday to Friday, 7:15 a.m. to 5:15 p.m. Ask about cost when you call.
+- **Alzheimer's Association, 24/7 Helpline: 1-800-272-3900.**
+
+## PACE
+
+**Most of Rowan County is in a PACE service area, but the center is in Lexington.**
+
+PACE, the **Program of All-Inclusive Care for the Elderly**, takes over a person's whole care plan, doctors, a day center, therapy, personal care, prescriptions and transportation, so someone who needs a nursing home level of care can keep living at home. NC Medicaid's official PACE list (October 2025) names **Carolina SeniorCare**, **802 East Center Street, Lexington, NC 27292**, **336-746-3500**, for **portions of Rowan County**, with coverage set by the ZIP code where your parent lives.
+
+**Who qualifies.** Medicare says PACE is for people **55 and older** who **live in a PACE service area**, **need a nursing home level of care as certified by the state**, and **can live safely in the community** with PACE's help. Medicare says that **if you have Medicaid, you won't pay a monthly premium for PACE**.
+
+**Check the ZIP code.** The state's list includes these Rowan ZIP codes: **Salisbury 28144, 28146 and 28147**, **China Grove 28023**, **Gold Hill 28071**, **Kannapolis 28081 and 28083**, **Landis 28088**, **Mount Ulla 28125**, **Richfield 28137**, **Rockwell 28138** and **Spencer 28159**. It does **not** list **Granite Quarry 28072**, **East Spencer 28039**, **Faith 28041** or the Salisbury post office box ZIP **28145**. Some of these ZIP codes cross into Cabarrus and Stanly counties, where a different PACE program also appears on the state's list, so confirm your parent's address with Carolina SeniorCare when you call.
+
+## Frequently asked questions
+**Mom is 72, lives in China Grove, and gets about $2,900 a month from Social Security and a small pension. Does she qualify for a tax break?** Likely. About $2,900 a month is about $34,800 a year, under the **$38,800** limit for 2026 and the **$39,900** limit for 2027, as long as that is the whole household's income. The **Elderly or Disabled Exclusion** takes the greater of **$25,000 or half** her home's appraised value off. The application is due **by June 1**. Call the Exemptions desk at **704-216-8565**.
+
+**Dad's house gets a new value in 2027. What should we watch for?** The county says the revaluation takes place **January 1, 2027**, and informal appeals typically run **January to March**. If the value looks wrong, call **704-216-8586** right away. If he uses the **Circuit Breaker**, he files again every year anyway.
+
+**Should my father use the Circuit Breaker instead?** Go in with open eyes. It limits his tax to 4 or 5 percent of income, but the rest is **deferred, not forgiven**: after his death, a transfer, or a move, **the most recent three years come due with interest**. He needs **5 years** of ownership and occupancy, every co-owner must qualify, and he must **reapply every year**. If his income is under the exclusion limit, the exclusion is usually simpler. Ask the Assessor's office to run both, and talk to the **Senior Legal Helpline (1-877-579-7562)** if the house is part of an estate plan.
+
+**Mom's savings are running out and she may need Medicaid for care. Does timing matter?** It can. NC Medicaid says applications filed **by December 31, 2026** can get approved costs covered for **up to 3 months before** the application; from January 1, 2027 that drops to **2 months** for adults 65 and older. Call Rowan DSS at **704-216-8330**, and talk to the Senior Legal Helpline before moving any assets.
+
+**Mom lives alone in Salisbury and I live out of state. What can I set up today?** Sign her up for **Property Check** at the Register of Deeds and for **RoCo Alerts**. Call **Meals on Wheels of Rowan (704-633-0352)**, or register her for a free **Lunch Club** at **704-216-7702**. In Salisbury, the bus is **50 cents at 60** with a photo ID. Ask **Rufty-Holmes (704-216-7704)** about Medicare counseling and caregiver support. And if she needs a nursing home level of care, ask **Carolina SeniorCare (336-746-3500)** whether her ZIP code is covered by PACE.
+
+## Sources
+- **North Carolina Department of Revenue, Form AV-9, 2026 and 2027 Applications for Property Tax Relief**: source of the 2026 limits ("for the 2026 tax year is $38,800" and $58,200) and the 2027 limits ($39,900 and $59,850), the $25,000 or 50 percent exclusion and the $45,000 veteran exclusion: https://www.ncdor.gov/2026-av-9-securedpdf/open and https://www.ncdor.gov/2027-av-9-securedpdf/open . Verified October 8, 2026.
+- **North Carolina Department of Revenue, County Assessors List (revised September 23, 2026)**: source of "Rowan Wendell Main County Assessor 402 North Main St., Salisbury, NC 28144-4391 704-216-8558": https://www.ncdor.gov/assessors-list-9-23-26pdf/open . Verified October 8, 2026.
+- **Rowan County Tax Assessor and Exemptions pages**: source of "402 N Main Street Suite 201 Salisbury, NC 28144," "Phone: 704-216-8558," "Monday - Friday 8 a.m. - 5 p.m.," Exemptions 704-216-8565, revaluation 704-216-8586, "excludes the greater of the first $25,000 or 50% of the appraised value," "at least 65 years of age or be totally and permanently disabled," "for the 2026 tax year is $38,800," "Applications must be filed by June 1," the Circuit Breaker five-year rule, the 4 and 5 percent tiers to $58,200, co-owner rule, "the most recent three years of deferred taxes preceding a disqualifying event become due with interest," "You must apply for the opportunity to defer property taxes each and every year," "excludes up to the first $45,000," and "There is no age or income limitation for this program": https://www.rowancountync.gov/466/Tax-Assessor and https://www.rowancountync.gov/482/Exemptions . Verified October 8, 2026.
+- **Rowan County Revaluation and Appeals pages**: source of "Rowan County's last revaluation took place on January 1, 2023," "The next revaluation will take place on January 1, 2027," the four-year cycle and the 2031 plan, "This informal appeal process typically takes place between January and March," and the Board of Equalization and Review meeting window: https://www.rowancountync.gov/1805/Revaluation-Schedule-of-Values and https://www.rowancountync.gov/476/Appeals . Verified October 8, 2026.
+- **Rowan County 2026 Tax Rates and Tax Collector pages**: source of the county rate (.5800) and town rates (Salisbury .6840, Kannapolis .5595, China Grove .5600, Landis .4900, Spencer .6305, East Spencer .8600, Rockwell .5500, Granite Quarry .4900, Faith .5000, Cleveland .35 plus a .13 fire district, downtown Salisbury .156), "402 N Main Street Suite 101," 704-216-8544, bills mailed in July, "due on September 1 and are payable through January 5," the July and August discounts and the January interest schedule: https://www.rowancountync.gov/DocumentCenter/View/58682/2026-Tax-Rates-PDF , https://www.rowancountync.gov/201/Tax-Collector , https://www.rowancountync.gov/221/General-Information . Verified October 8, 2026.
+- **Rowan County Register of Deeds, Property Check and Thank A Vet pages**: source of 402 N Main Street, 704-216-8626, Monday to Friday 8 to 5, "a free 24/7 service," "any time a filing occurs on the property or property owner that you designate," "does not stop the fraudulent activity," and "Veterans that register their DD-214 receive a complimentary Thank A Vet ID Card": https://www.rowancountync.gov/490/Register-Of-Deeds , https://www.rowancountync.gov/1706/Property-Check , https://www.rowancountync.gov/336/Thank-A-Vet . Verified October 8, 2026.
+- **North Carolina Judicial Branch, Rowan County Courthouse and contact directory**: source of 210 N Main St, Salisbury, NC 28144, (704) 797-3001, Monday to Friday 8:30 to 5:00, and "Estates Department - By Appointment only. Please call 704-797-3005": https://www.nccourts.gov/locations/rowan-county/rowan-county-courthouse and https://www.nccourts.gov/locations/rowan-county/rowan-county-courthouse/contact-directory . Verified October 8, 2026.
+- **Rowan County Veterans Services**: source of 1955 Jake Alexander Boulevard W, 704-216-8138, "Monday - Friday 8:30 a.m. - 4:30 p.m.," and "all services are free of charge": https://www.rowancountync.gov/335/Veterans-Services . Verified October 8, 2026.
+- **Rowan County Emergency Services and RoCo Alerts**: source of 704-216-8900 and the RoCo Alerts sign-up: https://www.rowancountync.gov/198/Emergency-Services , https://www.rowancountync.gov/234/RoCo-Alerts . Verified October 8, 2026.
+- **Rowan County Social Services, home, Medicaid, Food and Nutrition Services, Adult Protective Services, Special Assistance, In-Home Aide and Medicaid Transportation pages; NCDHHS county DSS listing**: source of 1813 E Innes Street, Salisbury, NC 28146, 704-216-8330, the Spanish line 704-216-8428, Medicaid fax 704-216-7937, in-person, phone and ePASS FNS applications, APS "704-216-8331," "regular office hours of 8 a.m. until 5 p.m., Monday through Friday," "Outside of regular office hours, you can make a report by calling 911," Special Assistance In-Home with the FL-2, 100 percent of poverty and waiting list, In-Home Aide "personal care and home management services" with a wait list, and Medicaid Transportation "704-216-8896," 7:30 a.m. to 5 p.m.: https://www.rowancountync.gov/692/Social-Services , https://www.rowancountync.gov/803/Medicaid , https://www.rowancountync.gov/823/Food-Nutrition-Services , https://www.rowancountync.gov/756/Adult-Protective-Services , https://www.rowancountync.gov/818/Special-Assistance , https://www.rowancountync.gov/1196/In-Home-Aide , https://www.rowancountync.gov/246/Medicaid-Transportation , https://www.ncdhhs.gov/divisions/social-services/rowan-county-department-social-services . Verified October 8, 2026.
+- **Rufty-Holmes Senior Center, About, Lunch Clubs and Family Caregiver Support pages**: source of 1120 South Martin Luther King Jr Avenue, Salisbury, NC 28144, 704-216-7714, the hours, "a community center for Rowan County residents age 55+," "a non-profit organization," North Carolina's first Senior Center of Excellence, Lunch Clubs "Everyone who is 60 years of age or older has a permanent invitation," "There is no cost for lunch," 10:30 a.m. start and 11:30 to 12:15 lunch, "must register ahead 24-48 hours," 704-216-7702, the six sites and site phones (Kannapolis 704-798-3038, Granite Quarry 704-798-3058, Cleveland 704-798-3100, Lafayette Community Center 704-636-7758, John Calvin Presbyterian 704-798-3093), and Family Caregiver Support at 704-216-7704 with its eligibility and services: https://www.ruftyholmes.org/about , https://www.ruftyholmes.org/lunch-clubs , https://www.ruftyholmes.org/family-caregiver-support . Verified October 8, 2026.
+- **NCDHHS, FY24-25 Senior Center Directory**: source of Rufty-Holmes as Rowan's only listed senior center, "CENTER OF EXCELLENCE (NCOA/NISC NATIONAL ACCREDITATION)": https://www.ncdhhs.gov/fy24-25-senior-center-directory/download?attachment= . Verified October 8, 2026.
+- **Centralina Area Agency on Aging, home, staff, ombudsman and family caregiver pages; NCDHHS AAA map**: source of the nine counties including Rowan, Rufty Holmes Senior Center 704-216-7714 as Rowan's local contact, 10735 David Taylor Drive, Suite 250, Charlotte, NC 28262, 704-372-2416 and 1-800-508-5777, the state map's 704-348-2712, and "Regional Ombudsman - Rowan, Iredell and Lincoln," Jeannie Mullies, 704-688-6504: https://centralinaaging.org/ , https://centralinaaging.org/who-we-are/our-staff/ , https://centralinaaging.org/ombudsman/ , https://centralinaaging.org/family-caregiver-support/ , https://www.ncdhhs.gov/aaa-map/download?attachment= . Verified October 8, 2026.
+- **Meals on Wheels of Rowan, home, Home Delivered Meals and Apply pages**: source of 720 Grove Street, Salisbury, 704.633.0352, "60 years old and older," "Homebound and unable to prepare nutritious meals for oneself," "The Meal Program Cost is $13.80 per meal," "a sliding scale of $2-$9 per meal," "In 2026, we will provide free meals to up to 125 individuals who cannot contribute," "delivered five days a week between 10:30 am and 12:30 pm," and the 3 to 5 business day callback: https://www.mowrowan.org/ , https://www.mowrowan.org/home-delivered-meals , https://www.mowrowan.org/apply . Verified October 8, 2026.
+- **Rowan Helping Ministries**: source of 226 N. Long Street, Salisbury, 704-637-6838 with options 1 and 2, "Monday-Friday: 9 a.m. - 3:30 p.m.," the 24-hour shelter at 217 N. Long St, and the West Food Pantry at 785 Grampian Rd, Mt. Ulla, Fridays 9 to 11: https://www.rowanhelpingministries.org/ . Verified October 8, 2026.
+- **Rowan County Food Pantry List (last revised October 3, 2025) and Local Resources page**: source of Jeannie's Kitchen at 217 N Long St, "Lunch: 7 days/week, noon- 1 p.m.," "without qualification," the Salvation Army appointment note, the East Spencer Housing Authority listing at 206 S Long Street, and the Salisbury CDC at 704-216-2738: https://www.rowancountync.gov/DocumentCenter/View/54414/Food-Pantries---October-2025-PDF and https://www.rowancountync.gov/1981 . Verified October 8, 2026.
+- **Salvation Army of Rowan County**: source of 620 Bringle Ferry Rd, Salisbury, (704) 636-6491, and the hours: https://www.salvationarmyusa.org/nc/salisbury/ . Verified October 8, 2026.
+- **Second Harvest Food Bank of Metrolina, Service Area**: source of Rowan in its service area and (704) 376-1785: https://www.secondharvestmetrolina.org/need-food/service-area . Verified October 8, 2026.
+- **NCDHHS, Low Income Energy Assistance and Crisis Intervention Program**: source of the December 1 to 31 window for households with a person 60 or older, January 1 to March 31 for others, "one-time vendor payment," 130 percent of poverty, CIP "July 1st - June 30th," "based on 150% of Federal Poverty Level," "Resource limit for households with a member aged 60 or older or disabled=at or below $4,500," "A face-to-face interview is not required at this time," disconnect notices not required, and application by mail, email, fax, drop-off at the local DSS or ePASS: https://www.ncdhhs.gov/divisions/social-services/energy-assistance/low-income-energy-assistance-lieap and https://www.ncdhhs.gov/divisions/social-services/energy-assistance/low-income-energy-assistance/crisis-intervention-program . Verified October 8, 2026.
+- **City of Salisbury, Share2Care and Emergency Assistance pages; Town of Landis, Utility Services**: source of "Share2Care was created to help people whose financial circumstances limit their ability to obtain or maintain their water or sewer service," "Applications should be made directly to Rowan Helping Ministries," payment plans for past-due balances, water assistance through Rowan DSS at (704) 216-8330, Landis Public Power, the referrals to DSS (704) 216-8330 and Rowan Helping Ministries (704) 637-6838, and Town Hall 704-857-2411: https://salisburync.gov/Share2Care , https://salisburync.gov/Government/Planning-and-Neighborhoods/Housing-and-Neighborhoods/Emergency-Assistance , https://www.townoflandisnc.gov/departments/utility-services . Verified October 8, 2026.
+- **NCDHHS, 2026 Operation Fan Heat Relief release and contact list**: source of May 1 to October 31, 2026, eligibility for adults 60 and older and adults with disabilities, air conditioners for qualifying medical conditions, and "Rowan-F | Rufty-Holmes Senior Center | Salisbury | 704-216-7714": https://www.ncdhhs.gov/2026-operation-fan-heat-relief/open . Verified October 8, 2026.
+- **NC 211**: source of "Dial 2-1-1 or 1-888-892-1162": https://www.nc211.org/ . Verified October 8, 2026.
+- **NCDOI, SHIIP contact page and county counselor locator**: source of "1-855-408-1212," Monday to Friday 8 to 5, and the Rowan listing, "Rufty-Holmes Senior Center, Inc., 1120 S. Martin Luther King, Jr. Avenue, Salisbury NC 28144, 704-216-7704," "(Ask for SHIIP Help)" and "(Counseling By Appointment Only)": https://www.ncdoi.gov/consumers/medicare-and-seniors-health-insurance-information-program-shiip/contact-seniors-health-insurance-information-program-shiip and https://www.ncdoi.com/_Iframes/Search_For_a_Counselor_By_County_View.aspx . Verified October 8, 2026.
+- **NC Medicaid, Medicaid is Changing**: source of "If you apply by December 31, 2026, Medicaid will cover approved costs for up to 3 months before you applied," up to 2 months from January 1, 2027 for "adults 65 and older, and people with a disability," and the Contact Center at 888-245-0179: https://medicaid.ncdhhs.gov/beneficiaries/medicaid-is-changing . Verified October 8, 2026.
+- **NC Medicaid, CAP/DA case management agencies by county (May 5, 2025)**: source of the five Rowan agencies and phones, Primary Health Choice 910-865-3500, RBS Case Management 910-768-0002, RHA Management Services 888-207-7828, Rowan Regional Medical Center Novant Health 704-210-5620 and Walkers Home Care CAPDA 252-432-6308: https://medicaid.ncdhhs.gov/capda-case-management-agencies-county/open . Verified October 8, 2026.
+- **NC MedAssist**: source of 866-331-1348 and "Uninsured North Carolina residents with a household income below 300% of the federal poverty level": https://medassist.org/ . Verified October 8, 2026.
+- **Vaya Health and the NCDHHS LME/MCO directory**: source of Vaya serving Rowan County, the "Behavioral Health Crisis Line: 1-800-849-6127 (24 hours a day, 7 days a week)," and the "Member and Recipient Service Line: 1-800-962-9003 (7 a.m. - 6 p.m., Mon. - Sat.)": https://www.vayahealth.com/ and https://www.ncdhhs.gov/providers/lme-mco-directory . Verified October 8, 2026.
+- **NC DEQ, Annual Weatherization Assistance Program agency list, and YVEDDI Weatherization**: source of YVEDDI serving Davie, Rowan, Stokes, Surry and Yadkin, 336-367-3535, "incomes below 200 percent of the federal poverty guidelines," Work First and SSI eligibility, the Rowan County Office at 1300 W. Bank Street, Salisbury, NC 28144, and HARRP "used in conjunction with the Weatherization Program" with a 150 percent limit: https://www.deq.nc.gov/energy-climate/state-energy-office/weatherization-assistance-program/annual-weatherization-assistance-program and https://yveddi.com/weatherization/ . Verified October 8, 2026.
+- **Rowan County Housing Programs and City of Salisbury Housing Rehabilitation**: source of "The housing assistance program described below has been discontinued until further notice," the Kannapolis housing contact at 704-920-4332, the "Single Family Owner Occupied Rehabilitation Program" for "low-income households" inside "City of Salisbury municipal limits," "Funding for the program is limited on an annual basis," and the Salisbury Community Development Corporation at (704) 216-2738: https://www.rowancountync.gov/414/Housing-Programs and https://salisburync.gov/Government/Planning-and-Neighborhoods/Housing-and-Neighborhoods/Housing-Rehabilitation . Verified October 8, 2026.
+- **City of Salisbury, Find Affordable Rental Housing**: source of the Salisbury Housing Authority at 200 South Martin Luther King, Jr. Dr., (704) 636-1410, and the Rowan County Housing Authority at 310 Long Meadow Drive, (704) 633-8380, with "Vouchers for approved Section 8 properties," and the East Spencer Housing Authority at 206 South Long Street: https://salisburync.gov/Government/Planning-and-Neighborhoods/Housing-and-Neighborhoods/Find-Affordable-Rental-Housing . Verified October 8, 2026.
+- **City of Salisbury Transit, Fares and Paratransit pages**: source of the $1.00 fare, "Senior Citizens (age 60 and over) and disabled persons are eligble for reduced ticket prices. Seniors must present a picture ID which proves age," the $0.50 senior and Medicare fares, the $17.00 40-ride senior pass, the $2.00 ADA paratransit fare, 300 W. Franklin St., (704) 638-5252, "the ADA service area extends 3/4 of a mile outside the entire fixed route area," the 21-day decision, reservations at 704-638-5252 or 704-638-5253, Saturday next-day booking, and "Trips may be reserved up to 7 days before your actual trip": https://salisburync.gov/Government/Transit/Fares and https://salisburync.gov/Paratransit . Verified October 8, 2026.
+- **Rowan Transit System page and RITA brochure**: source of 2726 Old Concord Road, Salisbury, 704-216-8899, "We operate weekdays from 7:00AM to 5:00PM excluding County holidays," "Riders must be signed up to schedule trips. Trips must be scheduled 3 working days in advance," the one-day-per-area medical schedule, and "The fare is $2.00 per a trip": https://www.rowancountync.gov/231/Rowan-Transit-System and https://www.rowancountync.gov/DocumentCenter/View/29198 . Verified October 8, 2026.
+- **Rider Transit**: source of service to "the communities of Concord and Kannapolis," 704-920-7433, and ADA paratransit 704-920-5876: https://www.ckrider.com/ . Verified October 8, 2026.
+- **Legal Aid of North Carolina, Senior Legal Helpline, Senior Law Project and Offices**: source of "Toll-Free: 877-579-7562," "9:00 AM - 11:00 AM & 1:00 PM - 3:00 PM, Monday-Friday," "North Carolinians who are 60 years of age or older," and the Greensboro office at 122 N Elm St, Ste 700, 336-272-0148 and 1-800-951-2257, serving "Davidson, Guilford, Montgomery, Randolph, Rockingham, Rowan": https://legalaidnc.org/cta/senior-legal-helpline/ , https://legalaidnc.org/project/senior-law-project/ , https://legalaidnc.org/offices/ . Verified October 8, 2026.
+- **North Carolina Department of Justice, Protecting Consumers**: source of 1-877-5-NO-SCAM (1-877-566-7226): https://ncdoj.gov/protecting-consumers/ . Verified October 8, 2026.
+- **NCDHHS, Project C.A.R.E.**: source of the South Central office "For Anson, Cabarrus, Gaston, Iredell, Lincoln, Mecklenburg, Rowan, Stanly and Union counties call: 704-432-1111 or 980-314-7801": https://www.ncdhhs.gov/assistance/adult-services/project-care . Verified October 8, 2026.
+- **NCDHHS, Certified Adult Day Care and Adult Day Health Programs (April 21, 2026), and Trinity Living Center**: source of Trinity Living Center, 1416-A S. Martin Luther King Jr. Ave., Salisbury, (704) 637-3940, ADC/ADH, and the Monday to Friday 7:15 to 5:15 hours: https://ncdhhs.gov/4-17-26-adc-provider-list/download?attachment= and https://www.trinitylivingcenter.net/ . Verified October 8, 2026.
+- **NC Medicaid, PACE service area list (October 2025)**: source of Carolina SeniorCare, 802 East Center Street, Lexington, NC 27292, 336-746-3500, "portions of Rowan," coverage by "Zip code based on Beneficiary's residence," the Rowan ZIP codes 28023, 28071, 28081, 28083, 28088, 28125, 28137, 28138, 28144, 28146, 28147 and 28159, and the overlapping ZIPs under PACE of the Southern Piedmont: https://medicaid.ncdhhs.gov/ncpace-service-area/download?attachment . **Medicare.gov, PACE**: source of the four conditions, including "Need a nursing home-level of care (as certified by your state)," and "If you have Medicaid, you won't pay a monthly premium for PACE": https://www.medicare.gov/health-drug-plans/health-plans/your-coverage-options/other-medicare-health-plans/PACE . Verified October 8, 2026.
+- National anchor lines used in the "Start here" section, all of which work from anywhere: **Eldercare Locator 1-800-677-1116**: https://eldercare.acl.gov/ . **Medicare 1-800-633-4227 (1-800-MEDICARE)**: https://www.medicare.gov/talk-to-someone . **VA 1-800-827-1000**: https://www.va.gov/contact-us/ . **Social Security 1-800-772-1213**: https://www.ssa.gov/agency/contact/phone.html . **Alzheimer's Association 24/7 Helpline 1-800-272-3900**: https://www.alz.org/help-support/resources/helpline . **National Elder Fraud Hotline 1-833-372-8311 (1-833-FRAUD-11)**: https://ovc.ojp.gov/program/stop-elder-fraud/providing-help-restoring-hope . **988 Suicide and Crisis Lifeline**: https://988lifeline.org/ . Verified September 29, 2026.
+
+---
+*Verified October 8, 2026. Program names, phone numbers, income limits, and deadlines change. Confirm directly with each program before you rely on it.*
+
+*Ryan Riggins, NC Real Estate License #361546, eXp Realty. Riggins Strategic Solutions is an education and media company, not a real estate sales business. Not financial, tax, medical, or legal advice. Programs and contacts change, confirm directly before relying on them.*
 
 ---
 
