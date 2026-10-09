@@ -4,8 +4,36 @@ import { getServiceSupabase } from "@/lib/supabase-server";
 import { checkAndRecordRateLimit, getClientIp } from "@/lib/rate-limit";
 import { GHL_WEBHOOKS, postToGhl } from "@/lib/ghl-webhooks";
 import { recordFailure } from "@/lib/failure-log";
+import { callGhlProxy, upsertGhlContactWithTags } from "@/lib/ghl-proxy";
 
 export const runtime = "nodejs";
+
+// Same whitelist + caps as the guide-deliver route, kept local so this
+// endpoint has no dependency on that route's internals.
+const ATTRIBUTION_KEYS = [
+  "utm_source",
+  "utm_medium",
+  "utm_campaign",
+  "utm_content",
+  "utm_term",
+  "fbclid",
+  "gclid",
+  "referrer",
+  "landing_url",
+] as const;
+
+function sanitizeAttribution(
+  input: unknown
+): Record<string, string> | undefined {
+  if (!input || typeof input !== "object") return undefined;
+  const src = input as Record<string, unknown>;
+  const out: Record<string, string> = {};
+  for (const key of ATTRIBUTION_KEYS) {
+    const v = src[key];
+    if (typeof v === "string" && v.length > 0) out[key] = v.slice(0, 500);
+  }
+  return Object.keys(out).length > 0 ? out : undefined;
+}
 
 const SUCCESS = NextResponse.json(
   { ok: true, message: "Got it. Ryan will reply within one business day." },
@@ -97,6 +125,60 @@ export async function POST(req: Request) {
       stage: "ghl-webhook",
       code: ghl.status,
       message: ghl.error ?? "non-ok response",
+      email: lead.email,
+      payload: ghlPayload,
+    });
+  }
+
+  // The inbound webhook above has no workflow listening (found 10/9/2026), so
+  // it never created the contact. Upsert directly so the contact exists and
+  // the tag fires "RSS: New lead alert". The tag comes from the client, so
+  // only website-contact* values are accepted.
+  const safeTag = /^website-contact[a-z0-9-]*$/.test(tag) ? tag : "website-contact-form";
+  try {
+    const up = await upsertGhlContactWithTags(
+      {
+        email: lead.email,
+        firstName: lead.first_name,
+        lastName: lead.last_name,
+        phone: lead.phone,
+        source,
+        attribution: sanitizeAttribution(body.attribution),
+      },
+      [safeTag, "stage-new-lead"]
+    );
+    if (!up.ok) {
+      await recordFailure({
+        route: "contact",
+        stage: "ghl-upsert",
+        code: up.status,
+        message: up.error,
+        email: lead.email,
+        payload: ghlPayload,
+      });
+    } else if (lead.message) {
+      const note = await callGhlProxy({
+        action: "post",
+        path: `/contacts/${encodeURIComponent(up.contactId)}/notes`,
+        body: { body: `Website contact form (${source}):\n\n${lead.message}` },
+        injectLocation: false,
+      });
+      if (!note.ok) {
+        await recordFailure({
+          route: "contact",
+          stage: "ghl-upsert",
+          code: note.status,
+          message: `note: ${note.error}`,
+          email: lead.email,
+          payload: ghlPayload,
+        });
+      }
+    }
+  } catch (err) {
+    await recordFailure({
+      route: "contact",
+      stage: "ghl-upsert",
+      message: err instanceof Error ? err.message : "threw",
       email: lead.email,
       payload: ghlPayload,
     });

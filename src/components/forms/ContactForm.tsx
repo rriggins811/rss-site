@@ -33,6 +33,34 @@ export function ContactForm({
     setStatus("submitting");
     setError(null);
 
+    // Same attribution capture as GuideOptInForm, so a /book/contact arrival
+    // carries utm_source=book to the server (book-reader tag).
+    let attribution: Record<string, string> | undefined;
+    try {
+      const stored = sessionStorage.getItem("rss_attribution");
+      if (stored) {
+        const parsed = JSON.parse(stored) as unknown;
+        if (parsed && typeof parsed === "object") {
+          attribution = parsed as Record<string, string>;
+        }
+      }
+    } catch {
+      // ignore
+    }
+    try {
+      const params = new URLSearchParams(window.location.search);
+      const fromUrl: Record<string, string> = {};
+      for (const key of ["utm_source", "utm_medium", "utm_campaign", "utm_content", "utm_term"]) {
+        const v = params.get(key);
+        if (v) fromUrl[key] = v;
+      }
+      if (Object.keys(fromUrl).length > 0) {
+        attribution = { ...(attribution ?? {}), ...fromUrl, landing_url: window.location.href };
+      }
+    } catch {
+      // ignore
+    }
+
     try {
       const res = await fetch("/api/webhook/contact", {
         method: "POST",
@@ -45,6 +73,7 @@ export function ContactForm({
           message,
           source,
           tag,
+          ...(attribution ? { attribution } : {}),
         }),
       });
       const json = (await res.json().catch(() => ({}))) as {
