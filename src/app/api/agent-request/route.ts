@@ -20,7 +20,7 @@ const OFFER_VALUES = ["none", "letters", "pushing", "signed"] as const;
 const TIMELINE_VALUES = ["now", "3-6", "6-12", "exploring"] as const;
 
 // Live Referral Pipeline (verified 2026-09-02). New form cards land in
-// Conversation; Ryan moves to Ask made when he actually asks about an agent.
+// First call booked (Family Path, was "Conversation"; same stage id since 10/11).
 const GHL_LOCATION_ID = "qvSvBqNwvDLyqkKoZXl2";
 const REFERRAL_PIPELINE_ID = "sz73r9OshVDdLxy3bEVc";
 const STAGE_CONVERSATION_ID = "0675a5ad-cd1b-45cb-b37c-ecaf3858530b";
@@ -239,7 +239,7 @@ export async function POST(req: Request) {
           subject: urgent
             ? `AGENT REQUEST (OFFER ON TABLE): ${who}`
             : `Agent request: ${who}`,
-          html: `<p>New request from /need-an-agent.</p><p>${lines.join("<br/>")}</p><p>Card is on the Referral Pipeline (Conversation stage).${phone ? " They get an automatic text from your GHL number in 10 minutes; beat it with a call if you can." : ""}</p>`,
+          html: `<p>New request from /need-an-agent.</p><p>${lines.join("<br/>")}</p><p>Card is on the Family Path pipeline (First call booked).${phone ? " They get an automatic text from your GHL number in 10 minutes; beat it with a call if you can." : ""}</p>`,
         },
         injectLocation: false,
       });
