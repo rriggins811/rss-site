@@ -25,10 +25,11 @@ const BOOK_LINKS: [string, string][] = [
   ["roadmap", "/the-roadmap"],
   ["call", "/work-with-ryan"],
   ["contact", "/contact"],
-  // Free Chapter 13 and the Amazon listing (10/8). "amazon" points at the hub until
-  // the book is live, then swaps to the Amazon product page (launch GO checklist).
+  // Free Chapter 13 and the Amazon listing (10/8). The book went live on Amazon
+  // 10/12: "amazon" goes to the paperback page, which also links the Kindle edition.
+  // Temporary like the rest, so the target can change without reprinting.
   ["free-chapter", "/g/free-chapter"],
-  ["amazon", "/book"],
+  ["amazon", "https://www.amazon.com/dp/B0HMPMLGSJ"],
 ];
 
 const nextConfig: NextConfig = {
@@ -36,7 +37,10 @@ const nextConfig: NextConfig = {
     return [
       ...BOOK_LINKS.map(([name, dest]) => ({
         source: `/book/${name}`,
-        destination: `${dest}?utm_source=book&utm_medium=print&utm_campaign=senior-transition&utm_content=${name}`,
+        // Outside links (Amazon) go clean; our UTM tags mean nothing to them.
+        destination: dest.startsWith("http")
+          ? dest
+          : `${dest}?utm_source=book&utm_medium=print&utm_campaign=senior-transition&utm_content=${name}`,
         permanent: false,
       })),
       // 2026-10-08: the short address on every book banner and social post.

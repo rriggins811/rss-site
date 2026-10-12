@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
 import { pageTitle } from "@/lib/site";
 
 // The hub printed in "The Senior Transition" (the book). Every tool link in the
@@ -174,11 +176,25 @@ export default function BookToolsPage() {
             every year, so check current figures with the agency or a licensed
             professional before you act.
           </p>
-          <p className="mt-4 text-base text-ink/70">
-            Don&rsquo;t have the book yet?{" "}
-            <a href="/g/free-chapter" className="font-semibold text-burgundy-600 hover:text-burgundy-700 underline">
+          <div className="mt-8 flex flex-col items-center gap-3">
+            <Button asChild size="lg" className="h-12 px-6 text-base">
+              <a
+                href="/book/amazon"
+                data-track="book_amazon_click"
+                data-track-params='{"location":"book-hub"}'
+              >
+                Get the book on Amazon
+              </a>
+            </Button>
+            <p className="text-sm text-ink/70">
+              Paperback $16.99. Kindle $6.99, free with Kindle Unlimited.
+            </p>
+          </div>
+          <p className="mt-6 text-base text-ink/70">
+            Want a look first?{" "}
+            <Link href="/g/free-chapter" className="font-semibold text-burgundy-600 hover:text-burgundy-700 underline">
               Read Chapter 13 free
-            </a>
+            </Link>
             .
           </p>
         </div>
