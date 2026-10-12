@@ -5,8 +5,8 @@ It contains the full Markdown of every key page, resource pillar, Senior Help
 Directory state page, and blog post, intended for AI crawlers that ingest
 content for answer generation.
 
-Generated: 2026-10-09
-Indexed: 152 blog posts, 17 resource pillars, 51 Senior Help Directory state pages, 17 video transcripts.
+Generated: 2026-10-12
+Indexed: 153 blog posts, 17 resource pillars, 51 Senior Help Directory state pages, 17 video transcripts.
 
 For citation guidance, organizational facts, and topic depth, see the summary
 index at https://rigginsstrategicsolutions.com/llms.txt.
@@ -5312,8 +5312,166 @@ You must qualify for Medicaid, then apply for the Community Choices Waiver, choo
 
 # Blog Posts (newest first)
 
-The 152 posts below are the full body of every published article
+The 153 posts below are the full body of every published article
 on https://rigginsstrategicsolutions.com/blog, in reverse chronological order.
+
+---
+
+# Mom Lives With You Now? Two 2026 Tax Changes That Can Help Pay for Her Care
+https://rigginsstrategicsolutions.com/blog/dependent-care-fsa-tax-credit-2026-parent-lives-with-you
+Published: 2026-10-12
+
+**Excerpt:** If your parent lives with you and can't safely be left alone while you work, 2026 brought two tax changes worth real money: a higher dependent care FSA limit and a higher top rate on the dependent care credit. Here's who qualifies, what counts, and what to do before open enrollment closes.
+
+You know the math nobody says out loud. You pay somebody to sit with Mom so you can go to work, and by Friday it feels like you're working to pay for the sitter. The adult day program is the only reason you still have a job, and it's also the reason your checking account looks the way it does.
+
+Here's what most families in that spot never hear: the tax code treats a parent who can't be left alone a lot like it treats a toddler. The same employer benefit and the same tax credit that parents of young kids use every year can cover care for an adult who lives with you and can't care for themselves. And for 2026, both of them got bigger.
+
+I spent more than eight years buying houses from families in transition, and I sat at a lot of kitchen tables where the house sale was really about one thing: the caregiver was out of money and out of gas. Some of those families were leaving real dollars on the table every April, and nobody had told them. I walked away from the buying side, and now the job is helping you see the whole board before you make a big decision, including the small money that keeps you going.
+
+This isn't a magic fix. The rules are narrow, and a lot of families won't qualify. But if your parent lives with you, and you're paying for adult day care or an aide while you work, you should know these two numbers before your employer's open enrollment window closes this fall.
+
+I'm not a CPA, and this isn't tax advice for your return. It's the map, so you know which questions to bring to the person who does your taxes.
+
+## What Changed for 2026
+
+Two things moved, and both come straight from the IRS.
+
+**The dependent care FSA limit went from $5,000 to $7,500.** According to IRS Publication 15-B for 2026, the Employer's Tax Guide to Fringe Benefits, the annual limit on dependent care assistance was raised from $5,000 to $7,500, or from $2,500 to $3,750 if you're married filing separately. The IRS wording is that an employee "can generally exclude from gross income up to $7,500" of benefits received under a dependent care assistance program each year.
+
+In plain English: if your employer offers a dependent care account, you can set aside more of your paycheck before tax and use it to pay for qualifying care. Money that goes into that account isn't taxed as income to you.
+
+**The dependent care credit's top rate went from 35% to 50%.** The IRS's summary of the 2025 tax law, which it calls the Working Families Tax Cuts, says that beginning with tax year 2026, "the maximum credit rate increases from 35% to 50% of qualifying expenses." The expense caps didn't move. The credit still applies to up to $3,000 of expenses for one qualifying person, or $6,000 for two or more.
+
+Notice the word maximum. The IRS is clear that the credit you actually get depends on your income and other eligibility rules, and the rate steps down as income goes up. Don't plan around the 50% number until whoever prepares your return runs your actual income.
+
+**Who counts as a qualifying person.** This is where most families get tripped up, so it's worth reading slowly. IRS Publication 503 says a qualifying person can be someone who wasn't physically or mentally able to care for themselves, lived with you for more than half the year, and was your dependent or could have been your dependent except for a few technical reasons, including that their gross income was over the yearly limit ($5,200 for 2025) or that they filed a joint return.
+
+Publication 503 also spells out what "not able to care for themselves" means. It includes people who can't dress, clean, or feed themselves because of a physical or mental disability, and people who need constant attention to keep from hurting themselves or others.
+
+So the parent who has early memory loss and wanders, or the parent who can't get dressed without help, may fit. The parent who's independent but lonely probably doesn't.
+
+## What This Means for Your Family
+
+### The "lives with you" rule is the whole ballgame
+
+If your parent lives in their own house across town, these two benefits almost certainly don't apply to you, no matter how many hours you put in. Publication 503 requires that the person lived with you for more than half the year. That's the line.
+
+That matters for a bigger decision too. If you're weighing whether Mom moves in with you or moves into assisted living, the tax picture is one real, small piece of that comparison. It shouldn't drive the decision. But it belongs on the list.
+
+### Adult day care can count, even outside your house
+
+You might assume the care has to happen in your home. It doesn't. Publication 503 says care outside your home counts for a qualifying adult who "regularly spends at least 8 hours each day in your home." The IRS even walks through an example of a woman who pays an adult day care center to look after her disabled father so she can work.
+
+There's a catch on the center itself. If it cares for more than six people who don't live there, the IRS treats it as a dependent care center, and its care counts only if the center complies with state and local regulations. A licensed adult day program usually checks that box. An informal arrangement with a neighbor is a different conversation.
+
+### You have to be working, and the care has to let you work
+
+This isn't a credit for caregiving in general. Publication 503 says you, and your spouse if you file jointly, must have earned income during the year. The care has to be what lets you work or look for work. If you're retired and caring for a parent full time, these two benefits won't help you, and that's a hard thing to read. It's still better to know than to spend an hour chasing it.
+
+### Some payments to family don't count
+
+If you pay your sister to watch Mom, that can count. But Publication 503 lists payments that don't: payments to someone you can claim as a dependent, to your own child who was under 19 at the end of the year, or to your spouse. So paying your 17-year-old to sit with Grandma after school won't qualify, even though it's real help.
+
+### You can't count the same dollar twice
+
+Here's the trap that catches families who use both. Publication 503 says that if your employer reimburses care expenses through a dependent care program, you can't also count those reimbursed expenses toward the credit. The account and the credit come from the same pile of receipts.
+
+For a single parent at home, the credit applies to up to $3,000 of expenses, and the 2026 account limit is $7,500. Run the numbers on both before you assume you'll get both. For a lot of working families, the account wins because it pulls money out before tax, but that depends on your bracket. That's exactly the question for your tax preparer.
+
+### The medical expense deduction is a separate door
+
+Some of what you spend on Mom may be medical, not dependent care. The IRS says medical and dental expenses you pay for yourself, your spouse, and your dependents are deductible only to the extent they exceed 7.5% of your adjusted gross income, and only if you itemize. For most families that's a high bar. For the year Mom has a hospital stay, a rehab bill, and a stack of out-of-pocket costs, it's worth asking about.
+
+### If your siblings are helping pay
+
+This is where families fight, so get it settled early. Publication 501 says that when no single person provides more than half of a parent's support, but together you do, one of you who provides more than 10% can claim the parent as a dependent, and the others sign a statement agreeing not to. Form 2120, the Multiple Support Declaration, is how the IRS handles it. Only one of you gets the claim each year.
+
+Also know this: Publication 501 says a parent doesn't have to live with you to be your qualifying relative for the dependency test. But the dependent care credit and the dependent care account still require that the person lived with you for more than half the year. Two different rules, two different tests.
+
+## What to Do Before Open Enrollment Closes
+
+### 1. Confirm your parent fits the IRS definition
+
+Ask yourself honestly: did Mom live with you more than half this year, and can she safely dress, bathe, eat, and stay alone without help? If the answer is yes and yes, keep going. If her doctor has documented her limits, keep a copy of that in the same folder as everything else. It's not something you file, but it's something you'll want if anybody ever asks.
+
+### 2. Check whether your employer offers a dependent care account
+
+Open your benefits portal or your open enrollment packet and look for "dependent care FSA" or "dependent care assistance program." It's a different account from a health FSA. Elections are usually made once a year for the coming plan year, so the choice you make this fall covers next year. Check what limit your plan lists for that year and its rules about money you don't spend.
+
+### 3. Estimate a year of care, then set the amount on the low side
+
+Add up what adult day care or an aide actually costs you in a typical month, and multiply by twelve. Then lean conservative. If Mom's needs change and she moves somewhere that no longer qualifies, you don't want money stuck in an account you can't use.
+
+### 4. Get the provider's tax ID now, not in April
+
+Publication 503 says you must give the care provider's name, address, and taxpayer identification number to claim the credit. Ask the adult day center or the agency for it this week. Chasing an agency's tax ID number in March is a miserable errand you can skip.
+
+### 5. Keep every receipt for 2026
+
+Even if your employer doesn't offer an account, 2026 is the first year of the higher credit rate. Keep a simple folder, paper or digital, with every invoice and proof of payment for care you bought so you could work. Your tax preparer will thank you, and you'll know what you spent.
+
+### 6. Settle who claims Mom before tax season
+
+If siblings are chipping in, talk now about who claims her as a dependent and whether you'll use Form 2120. One conversation in October beats a fight in April and a letter from the IRS later.
+
+### 7. Bring the questions to a tax pro
+
+Take this list to whoever prepares your taxes: Does Mom meet the qualifying person test? Should I use the account, the credit, or both? Does my income get anywhere near the top rate? Is the medical deduction worth itemizing this year? Those four answers are worth the appointment.
+
+None of this replaces rest. A tax break won't give you a Saturday back. But money stress is part of what burns caregivers out, and finding a few thousand dollars you were already entitled to can buy you an extra day of adult day care, or a weekend of help so you can sleep.
+
+## Frequently Asked Questions
+
+### Can I use a dependent care FSA for my elderly parent?
+
+Yes, in some cases. IRS Publication 503 says a qualifying person can include someone who wasn't physically or mentally able to care for themselves, lived with you for more than half the year, and was your dependent or could have been except for certain income or filing rules. The care must let you work.
+
+### What is the dependent care FSA limit for 2026?
+
+IRS Publication 15-B for 2026 says the annual limit on employer dependent care assistance was raised from $5,000 to $7,500, or from $2,500 to $3,750 if you're married filing separately.
+
+### Does adult day care qualify for the child and dependent care credit?
+
+It can. IRS Publication 503 counts care outside your home for a qualifying adult who regularly spends at least 8 hours each day in your home, and it gives an example of paying an adult day care center to care for a disabled father. A center that cares for more than six people must comply with state and local regulations.
+
+### How much is the dependent care credit in 2026?
+
+The IRS says that beginning with tax year 2026 the maximum credit rate rises from 35% to 50% of qualifying expenses, on up to $3,000 of expenses for one qualifying person or $6,000 for two or more. The rate you get depends on your income, so ask your tax preparer.
+
+### Can my parent be my dependent if they don't live with me?
+
+For the dependency test, yes. IRS Publication 501 says a parent doesn't have to live with you to be your qualifying relative. But the dependent care credit and a dependent care account still require that the person lived with you for more than half the year.
+
+## About Ryan Riggins
+
+Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [Hammock365 app](https://hammock365.com).
+
+---
+
+**Running on empty?** The free Caregiver Burnout Triage helps you see how close to the edge you are and what to hand off first: rigginsstrategicsolutions.com/tools/caregiver-burnout-triage
+
+**Need a break you can actually take?** Read about the federal respite program with no income test: rigginsstrategicsolutions.com/blog/respite-care-family-caregivers-no-income-test
+
+**Want a step-by-step guide?** The Senior Transition Blueprint is free, all 20 modules and 69 tools: rigginsstrategicsolutions.com/the-blueprint
+
+**Not sure where your family stands?** The free Family Readiness Score takes five minutes and shows the gaps across the home, the money, the legal documents, care, and family alignment: rigginsstrategicsolutions.com/tools/family-readiness-score
+
+**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
+
+**Selling a parent's home?** Ryan finds and vets the right local agent for your situation and stays in your corner on the whole sale, at no added cost to your family: rigginsstrategicsolutions.com/in-your-corner
+
+**Coordinate the family in one place.** Hammock365 keeps daily check-ins, medications, and documents where the whole family can see them: hammock365.com
+
+## Sources
+
+All sources checked October 12, 2026.
+
+- IRS Publication 15-B (2026), Employer's Tax Guide to Fringe Benefits: Dependent Care Assistance ($7,500 exclusion, $3,750 married filing separately; raised from $5,000 and $2,500).
+- IRS, Working Families Tax Cuts provisions page: Child and Dependent Care Credit enhancement (Section 70405), maximum rate from 35% to 50% beginning with tax year 2026; expense caps $3,000 and $6,000.
+- IRS Publication 503 (2025), Child and Dependent Care Expenses: qualifying person, physically or mentally not able to care for oneself, care outside your home (8 hours a day), dependent care centers, payments to relatives, earned income test, provider identification, reimbursed expenses.
+- IRS Publication 501 (2025), Dependents, Standard Deduction, and Filing Information: qualifying relative tests, gross income limit $5,200 for 2025, parents not required to live with you, multiple support agreements and Form 2120.
+- IRS Tax Topic 502, Medical and Dental Expenses: 7.5% of adjusted gross income floor, itemized on Schedule A.
 
 ---
 
