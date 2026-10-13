@@ -698,6 +698,15 @@ export const DIRECTORY_COUNTIES: DirectoryCounty[] = [
     blurb:
       "Salisbury, Kannapolis, China Grove, Spencer, Landis and Rockwell, NC programs for seniors and families: the Tax Assessor's office on North Main Street and the 2026 and 2027 income limits for North Carolina's three relief programs, a revaluation taking place January 1, 2027, a free Register of Deeds fraud alert, Rufty-Holmes Senior Center for free Medicare counseling, caregiver support and free Lunch Clubs at 60 at six sites, Meals on Wheels of Rowan with free meals for those who cannot pay, Rowan Helping Ministries for food and crisis help, a Medicaid rule that covers up to three months of past costs for applications filed by December 31, 2026, a 50 cent Salisbury Transit fare at 60 and county rides to medical visits, weatherization through YVEDDI, free legal help through Legal Aid's Greensboro office, and a PACE program the state lists for most Rowan ZIP codes.",
   },
+  {
+    slug: "pitt-county-nc-senior-help-directory",
+    county: "Pitt County",
+    state: "NC",
+    metro: "Greenville, Winterville, Ayden & Farmville",
+    region: "Eastern North Carolina",
+    blurb:
+      "Greenville, Winterville, Ayden, Farmville, Bethel and Grifton, NC programs for seniors and families: the Tax Assessor's office on Evans Street and the 2026 and 2027 income limits for North Carolina's three relief programs, what the January 1, 2028 reappraisal means for a parent's bill, Register of Deeds property alerts, the Pitt County Council on Aging for Meals on Wheels, lunch at six Senior Wellness Centers, free Medicare counseling, rides at 60 and home safety checks, the Mid-East Commission Area Agency on Aging, a Medicaid rule that covers up to three months of past costs for applications filed by December 31, 2026, GUC's Neighbor to Neighbor heating help through DSS, county rides through PATS and Greenville's GREAT buses, weatherization through WAGES, free legal help at Legal Aid's Greenville office, and the plain fact that no PACE program serves Pitt County today.",
+  },
 ];
 
 export type DirectoryState = {
