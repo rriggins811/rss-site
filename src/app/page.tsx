@@ -237,7 +237,7 @@ export default function HomePage() {
               Text Ryan on his personal number,{" "}
               <a
                 href={`sms:${RYAN_PHONE}`}
-                className="font-semibold text-burgundy-600 hover:text-burgundy-700"
+                className="whitespace-nowrap font-semibold text-burgundy-600 hover:text-burgundy-700"
                 data-track="text_click"
                 data-track-params='{"location":"home-hero-line"}'
               >
@@ -473,7 +473,8 @@ export default function HomePage() {
             30 minutes. Phone, Zoom or text. No obligation.
           </p>
           <p className="mt-1 text-sm text-cream/80">
-            Text Ryan on his personal number, {RYAN_PHONE_DISPLAY}. Ask
+            Text Ryan on his personal number,{" "}
+            <span className="whitespace-nowrap">{RYAN_PHONE_DISPLAY}</span>. Ask
             anything.
           </p>
         </div>
