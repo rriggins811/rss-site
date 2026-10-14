@@ -5,8 +5,8 @@ It contains the full Markdown of every key page, resource pillar, Senior Help
 Directory state page, and blog post, intended for AI crawlers that ingest
 content for answer generation.
 
-Generated: 2026-10-13
-Indexed: 154 blog posts, 17 resource pillars, 51 Senior Help Directory state pages, 17 video transcripts.
+Generated: 2026-10-14
+Indexed: 155 blog posts, 17 resource pillars, 51 Senior Help Directory state pages, 17 video transcripts.
 
 For citation guidance, organizational facts, and topic depth, see the summary
 index at https://rigginsstrategicsolutions.com/llms.txt.
@@ -5312,8 +5312,158 @@ You must qualify for Medicaid, then apply for the Community Choices Waiver, choo
 
 # Blog Posts (newest first)
 
-The 154 posts below are the full body of every published article
+The 155 posts below are the full body of every published article
 on https://rigginsstrategicsolutions.com/blog, in reverse chronological order.
+
+---
+
+# Your Widowed Parent Has a New Online Friend. Here's How to Tell If It's a Scam.
+https://rigginsstrategicsolutions.com/blog/widowed-parent-online-romance-scam-warning-signs
+Published: 2026-10-14
+
+**Excerpt:** People 60 and older reported $584 million in losses to romance and confidence scams in 2025, according to the FBI, up about 50 percent in a year. If your widowed parent has a new online friend who can't quite meet in person, here's what to watch for and how to bring it up without losing them.
+
+You know how it starts. Your dad's been alone for a year, maybe two, since your mom died. The house got too quiet. Then one Sunday on the phone he sounds lighter than he has in a long time, and he mentions a woman he met online. She's kind. She checks on him every morning. She works overseas, so they haven't met yet, but they talk every day.
+
+Part of you is glad. You've been worried about him being lonely. And part of you has a cold little knot in your stomach that you can't quite explain, so you don't say anything.
+
+I want to talk to you about that knot, because it's worth listening to.
+
+For more than eight years I bought houses from families in transition, and I watched what happens when somebody needs money fast. The house is usually the biggest pile of it. I walked away from that side of the table, and now I spend my days helping families protect what their parents built. A scammer working on a lonely widower isn't after his affection. He's after the savings first, and then whatever the savings were protecting.
+
+You don't have to be the bad guy here. You don't have to accuse anybody. But you do need to know what this looks like, because the people running these scams are patient, they're organized, and they're very good at making your parent feel loved.
+
+## What the FBI's 2025 numbers show
+
+The FBI's Internet Crime Complaint Center (IC3) publishes an annual report on the complaints Americans file with it. The 2025 report has a full section on people 60 and older, and the numbers are hard to read.
+
+According to the FBI, people 60 and older filed 201,266 complaints in 2025 and reported $7.748 billion in losses. That's up 59 percent in losses from 2024. The average reported loss was $38,500, and 12,444 complainants in that age group lost more than $100,000 each.
+
+Romance scams sit inside a category the FBI calls Confidence/Romance fraud. The FBI defines it as a scheme where a person believes they're in a relationship, family, friendly, or romantic, and is tricked into sending money, personal and financial information, or items of value. That category also includes the grandparent scam, so not every dollar in it is a sweetheart scam. Here's what it looked like for people 60 and older, per the FBI:
+
+- **2025:** 10,188 complaints, $584,032,745 in reported losses
+- **2024:** 7,626 complaints, $389,312,356 in reported losses
+- **2023:** 6,740 complaints, $356,888,968 in reported losses
+
+Do the division on 2025 and it comes to roughly $57,000 per complaint. Losses jumped about 50 percent in a single year, and complaints rose by about a third.
+
+North Carolina isn't watching this from the sidelines. The FBI's state tables show 5,942 complaints from North Carolinians 60 and older in 2025, ninth in the country, with $164,214,173 in reported losses.
+
+The FBI also flagged something new. It says scammers are building fake profiles and using scripts produced by AI chat generators to make their messages sound more believable, and that victims lost over $19 million in 2025 to Confidence/Romance scams with a likely AI connection. The letter your mom reads every morning may not have been written by a person at all.
+
+One more thing to keep in mind about all these numbers: they only count people who reported. A lot of older adults never tell anyone, because they're embarrassed, or because they still believe the relationship is real.
+
+## What this means for your family
+
+### The money usually goes out a little at a time
+
+The Financial Crimes Enforcement Network (FinCEN), the Treasury bureau that tracks financial crime, put out an advisory on elder financial exploitation in June 2022. It describes how romance scammers work: they build a close relationship, they may offer to meet in person (and almost never do), and then they ask for money for travel, a sudden hardship like medical costs or legal fees, or an investment or business deal. FinCEN says these scammers often ask for payments over an extended period of time.
+
+That's why it's so hard to catch. It doesn't start with a $40,000 wire. It starts with a plane ticket that falls through, then a customs fee, then a hospital bill in another country. Each ask is small enough to seem reasonable, and each one makes the next one easier. By the time you notice, your parent may be months in and deeply invested, emotionally and financially.
+
+### Your parent may be used to move money for someone else
+
+FinCEN's advisory also warns that some romance scam victims are convinced to open bank accounts and even LLCs to receive and send funds as money mules for the scammers. One of FinCEN's red flags for banks is an older customer who mentions that an online friend or romantic partner is asking them to receive and forward money to other people, or to open an account for a "business opportunity."
+
+If your mom tells you her new friend asked her to accept a deposit and send it along, that's not a favor. That's your mom being pulled into a crime, and she won't know it.
+
+### The lies follow a script
+
+The Federal Trade Commission lists the stories romance scammers tell, and once you've seen the list you'll recognize it everywhere. They say they live or travel outside the country, work on an oil rig, serve in the military, or work for an international organization. They can't meet in person. They need help with medical expenses, a plane ticket, visa fees, or fees to get out of some kind of trouble. Sometimes they offer to help your parent invest in cryptocurrency.
+
+The FTC also says they often move the conversation off the dating site or social media app quickly, to email, phone, or a messaging app, and they ask to be paid by wire transfer, gift cards, money transfer apps, or cryptocurrency. Those are the payment methods that are hardest to get back.
+
+### The house is the next pile of money
+
+Here's where my old life comes in. When savings run dry and the "emergencies" keep coming, the next place a person looks for money is the house. That can mean a home equity line, a reverse mortgage, a cash-out refinance, or a fast sale to whoever offers quick cash. Every one of those can be a fine tool in the right situation. Every one of them is a disaster when the reason behind it is a stranger your parent has never met.
+
+So if your parent suddenly starts asking about borrowing against the house, or talks about selling fast and doesn't want to say why, slow down and ask what the money is for. A reasonable answer will hold up to a gentle question. A scam won't.
+
+### The real damage is the isolation
+
+FinCEN notes that criminals take advantage of factors like social isolation to establish control over a victim's accounts and assets. A good scammer will tell your parent that the family won't understand, that you're jealous, that you just want the inheritance. If you come in hot, you prove the scammer right. Your goal isn't to win an argument. It's to stay the person your parent trusts.
+
+## What to do, step by step
+
+### 1. Ask about the friend like you'd ask about anyone new
+
+Start with curiosity, not suspicion. Where did they meet? What does she do? Has he seen her on a live video call? Where does she live? You're not interrogating. You're doing what you'd do if your parent mentioned a new neighbor. You'll learn a lot from the answers, and you'll learn even more from which questions get dodged.
+
+### 2. Do two quiet checks yourself
+
+The FTC suggests two simple ones. Search the person's stated job along with the word "scammer" and see whether others have reported the same story. And run a reverse image search on the profile photo to see if it shows up under other names. You can do both in five minutes on your phone. If the photo belongs to a real estate agent in Ohio with a different name, you have your answer, and you have something concrete to show your parent instead of a feeling.
+
+### 3. Share the one rule that covers almost everything
+
+The FTC's bottom line fits on a sticky note: never send money or gifts to someone you haven't met in person. Say it to your parent as a general rule, not an accusation. "I read this and thought of you, because these people are going after everybody right now" lands a lot softer than "Mom, you're being scammed."
+
+### 4. Watch for the money signs
+
+FinCEN's red flags give you a checklist without making you a detective. Big or unusual cash withdrawals. Wires to people your parent has never met in person. Buying gift cards in bulk. Suddenly talking about or buying cryptocurrency. A sudden reluctance to talk about money at all. If your parent's bank or brokerage lets them name a trusted contact, this is a good week to ask whether they've done it, so somebody gets a call when a transaction looks wrong.
+
+### 5. If money already went out, move fast
+
+The FTC says that if your parent paid with a gift card, wire transfer, credit or debit card, or cryptocurrency, contact that company or the bank right away and ask about getting the money back. Speed matters more than embarrassment.
+
+Then report it. File with the FBI at ic3.gov. Report it to the FTC at ReportFraud.ftc.gov. Tell the dating site or social app where they met. In North Carolina, call the Attorney General's consumer hotline at 1-877-5-NO-SCAM (1-877-566-7226). And the Justice Department's National Elder Fraud Hotline, 833-FRAUD-11 (833-372-8311), is staffed weekdays from 10 a.m. to 6 p.m. Eastern for fraud involving people 60 and older. A case manager there can walk your family through reporting at the federal, state, and local levels.
+
+### 6. Protect the house before anybody asks about it
+
+If you're worried, have the bigger conversation now: who your parent trusts to help with money, whether there's a durable power of attorney in place, and what the plan is for the house. A parent who already knows what they want to happen to the house, and who's already talked it over with family, is a lot harder to rush into a loan or a sale.
+
+### 7. Keep the door open, even if they don't believe you
+
+Some parents won't believe it the first time. Some won't believe it the fifth time. Don't cut them off and don't shame them. Stay close, keep calling, and keep being the person they can come back to when the next "emergency" doesn't add up. When the story finally cracks, you want to be the first call, not the last.
+
+## Frequently Asked Questions
+
+### How much do older adults lose to romance scams?
+
+According to the FBI's 2025 Internet Crime Report, people 60 and older filed 10,188 complaints in the Confidence/Romance category in 2025 and reported $584,032,745 in losses, up from $389,312,356 in 2024. That works out to roughly $57,000 per complaint. The FBI's category also includes grandparent scams, and the figures only count people who reported.
+
+### What are the warning signs of a romance scam?
+
+The FTC says the classic signs are someone who professes love quickly, can't meet in person because they live or work overseas, on an oil rig, or in the military, moves the conversation off the dating site or app, and then asks for money for medical bills, travel, visa fees, or an emergency. Requests to pay by wire, gift card, money transfer app, or cryptocurrency are a major red flag.
+
+### How do I talk to my parent about a possible romance scam?
+
+Start with curiosity instead of accusation, ask normal questions about the new friend, and share the FTC's simple rule as a general warning: never send money or gifts to someone you haven't met in person. Bring something concrete, like a reverse image search result, rather than a feeling. Stay close even if your parent doesn't believe you at first.
+
+### Where do I report a romance scam targeting an elderly parent?
+
+File a complaint with the FBI at ic3.gov and with the FTC at ReportFraud.ftc.gov, and notify the site or app where they met. The Justice Department's National Elder Fraud Hotline, 833-FRAUD-11, helps with fraud involving people 60 and older. In North Carolina, you can also call the Attorney General's consumer hotline at 1-877-5-NO-SCAM.
+
+### Can a romance scammer get my parent to use their house?
+
+FinCEN warns that romance scammers ask for money over an extended period and sometimes convince victims to open accounts to move money for them. When savings run low, the house is the next big source of cash, through a home equity loan, reverse mortgage, refinance, or fast sale. If your parent suddenly wants to borrow against or sell the house and won't say why, slow down and ask what the money is for.
+
+## About Ryan Riggins
+
+Ryan Riggins is a senior transition advisor and former house flipper. After 8+ years buying homes from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [Hammock365 app](https://hammock365.com).
+
+---
+
+**Want a step-by-step guide?** The Senior Transition Blueprint is free, all 20 modules and 69 tools: rigginsstrategicsolutions.com/the-blueprint
+
+**Not sure where your family stands?** The free Family Readiness Score takes five minutes and shows the gaps across the home, the money, the legal documents, care, and family alignment: rigginsstrategicsolutions.com/tools/family-readiness-score
+
+**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
+
+**Selling a parent's home?** Ryan finds and vets the right local agent for your situation and stays in your corner on the whole sale, at no added cost to your family: rigginsstrategicsolutions.com/in-your-corner
+
+**Coordinate the family in one place.** Hammock365 keeps daily check-ins, medications, and documents where the whole family can see them: hammock365.com
+
+**Related reading:** The AI voice clone emergency call and the family safe word: rigginsstrategicsolutions.com/blog/ai-voice-clone-family-emergency-scam-safe-word
+
+## Sources
+
+All sources checked October 14, 2026.
+
+- Federal Bureau of Investigation, Internet Crime Complaint Center, 2025 IC3 Annual Report, Elder Fraud section (60+ totals: 201,266 complaints, $7.748 billion, 59% increase, $38,500 average, 12,444 over $100K; Confidence/Romance 60+ counts and losses 2023 to 2025; North Carolina 60+ count 5,942, rank 9, and losses $164,214,173), the AI section (over $19 million in Confidence/Romance losses with a likely AI nexus), and the Confidence/Romance definition: https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf
+- Financial Crimes Enforcement Network, Advisory on Elder Financial Exploitation, FIN-2022-A002, June 15, 2022 (romance scam typology, money mules, isolation, behavioral and financial red flags): https://www.fincen.gov/sites/default/files/advisory/2022-06-15/FinCEN%20Advisory%20Elder%20Financial%20Exploitation%20FINAL%20508.pdf
+- Federal Trade Commission, "What to Know About Romance Scams" (common lies, payment methods, never send money to someone you haven't met, job search and reverse image search, refunds and reporting): https://consumer.ftc.gov/articles/what-know-about-romance-scams
+- US Department of Justice, Office for Victims of Crime, National Elder Fraud Hotline (833-FRAUD-11, hours, case managers): https://ovc.ojp.gov/program/stop-elder-fraud/providing-help-restoring-hope
+- North Carolina Department of Justice, Protecting Consumers (1-877-5-NO-SCAM): https://ncdoj.gov/protecting-consumers/
 
 ---
 
