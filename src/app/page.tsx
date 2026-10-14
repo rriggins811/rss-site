@@ -7,6 +7,7 @@ import { JsonLd } from "@/components/site/JsonLd";
 import { professionalServiceSchema } from "@/lib/schema";
 import { RYAN_REVIEWS } from "@/lib/reviews";
 import { ROLE_DEFINITION, ROLE_TITLE } from "@/lib/site";
+import { RYAN_PHONE, RYAN_PHONE_DISPLAY } from "@/lib/contact";
 
 /**
  * Homepage, one short message (rebuilt Oct 14 2026).
@@ -205,6 +206,23 @@ export default function HomePage() {
                   Talk with Ryan
                 </Link>
               </Button>
+              {/* Text button (Ryan, Oct 14 2026): most families won't call or
+                  email, but they will text. sms: opens the phone's Messages
+                  app with Ryan's number already filled in. */}
+              <Button
+                asChild
+                size="lg"
+                variant="outline"
+                className="h-11 border-burgundy-600 px-6 text-base text-burgundy-700 hover:bg-burgundy-600 hover:text-cream"
+              >
+                <a
+                  href={`sms:${RYAN_PHONE}`}
+                  data-track="text_click"
+                  data-track-params='{"location":"home-hero"}'
+                >
+                  Text Ryan
+                </a>
+              </Button>
               <Link
                 href="/the-blueprint"
                 className="text-base font-semibold text-burgundy-600 underline-offset-4 hover:text-burgundy-700 hover:underline"
@@ -214,6 +232,18 @@ export default function HomePage() {
             </div>
             <p className="mt-3 text-sm text-ink/60">
               30 minutes. Phone, Zoom or text. No obligation.
+            </p>
+            <p className="mt-1 text-sm text-ink/70">
+              Text Ryan on his personal number,{" "}
+              <a
+                href={`sms:${RYAN_PHONE}`}
+                className="font-semibold text-burgundy-600 hover:text-burgundy-700"
+                data-track="text_click"
+                data-track-params='{"location":"home-hero-line"}'
+              >
+                {RYAN_PHONE_DISPLAY}
+              </a>
+              . Ask anything.
             </p>
           </div>
 
@@ -425,8 +455,26 @@ export default function HomePage() {
               Talk with Ryan
             </Link>
           </Button>
+          <Button
+            asChild
+            size="lg"
+            variant="outline"
+            className="ml-3 mt-8 h-11 border-gold-500 bg-transparent px-6 text-base text-gold-300 hover:bg-gold-500 hover:text-navy-900"
+          >
+            <a
+              href={`sms:${RYAN_PHONE}`}
+              data-track="text_click"
+              data-track-params='{"location":"home-final-cta"}'
+            >
+              Text Ryan
+            </a>
+          </Button>
           <p className="mt-4 text-sm text-cream/80">
             30 minutes. Phone, Zoom or text. No obligation.
+          </p>
+          <p className="mt-1 text-sm text-cream/80">
+            Text Ryan on his personal number, {RYAN_PHONE_DISPLAY}. Ask
+            anything.
           </p>
         </div>
       </section>
