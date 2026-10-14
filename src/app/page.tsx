@@ -1,9 +1,7 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { GoldRule } from "@/components/site/GoldRule";
-import { BrandPanel } from "@/components/site/BrandPanel";
 import { FAQSection, type FAQItem } from "@/components/aeo/FAQSection";
 import { JsonLd } from "@/components/site/JsonLd";
 import { professionalServiceSchema } from "@/lib/schema";
@@ -11,18 +9,21 @@ import { RYAN_REVIEWS } from "@/lib/reviews";
 import { ROLE_DEFINITION, ROLE_TITLE } from "@/lib/site";
 
 /**
- * Homepage, StoryBrand structure (rebuilt Aug 10 2026).
+ * Homepage, one short message (rebuilt Oct 14 2026).
  *
- * The family is the hero, Ryan is the guide. The page runs in grunt-test
- * order so a stranger knows within five seconds what is offered, how it makes
- * their life better, and what to do next: header, stakes, guide, plan,
- * agreement, success, repeat the call to action.
+ * Ryan's brief: the top of the page says everything we do in one short
+ * message, readable on a phone, and on a laptop (1366x768 and up) the whole
+ * hero plus the call-to-action sits above the fold with no scrolling. The
+ * rest of the page got much simpler.
+ *
+ * Order: hero (the message, the call, and the six things we get in order
+ * first), three quips (the conversation, the roadmap, the Blueprint), the
+ * role definition and entity split kept compact for SEO/AEO, reviews, the
+ * FAQ (the page's FAQPage schema), and one closing call to action.
  *
  * One primary CTA, /work-with-ryan, repeated twice and nowhere contradicted.
- * Everything secondary lives in the footer. The three blocks kept below the
- * plan (directory, testimonials, FAQ) are held back deliberately: they carry
- * real organic traffic and the FAQ block is the page's FAQPage schema, so
- * they sit under the story rather than competing with it.
+ * The call is never called free; it is "no obligation". The Blueprint and
+ * the roadmap may be called free.
  */
 
 export const metadata: Metadata = {
@@ -32,7 +33,7 @@ export const metadata: Metadata = {
     siteName: "Riggins Strategic Solutions",
     title: "Riggins Strategic Solutions | Senior Transition Advisor",
     description:
-      "Handle your parent's move without losing their money, their home, or your peace. A free plan and a guide who has been on both sides of the table.",
+      "A real estate agent who won’t list your house. Ryan gets everything else in order first, then brings in the one right agent.",
     images: [
       {
         url: "https://rigginsstrategicsolutions.com/og/homepage.png",
@@ -46,34 +47,61 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Riggins Strategic Solutions | Senior Transition Advisor",
     description:
-      "Handle your parent's move without losing their money, their home, or your peace.",
+      "A real estate agent who won’t list your house. Ryan gets everything else in order first, then brings in the one right agent.",
     images: ["https://rigginsstrategicsolutions.com/og/homepage.png"],
   },
 };
 
-const planSteps: { n: string; title: string; body: string }[] = [
+// The six things handled before anyone talks about listing. Kept short on
+// purpose: each line has to fit the hero's right column above the fold.
+const inOrderFirst: { title: string; body: string }[] = [
   {
-    n: "1",
-    title: "Get the Blueprint",
-    body: "See every option laid out, not just the one someone is trying to sell you.",
+    title: "The plan",
+    body: "Medicaid and care planning, with the right planner or elder law attorney.",
   },
   {
-    n: "2",
-    title: "When it is time to deal with the house, talk to Ryan first",
-    body: "One conversation, before you call anybody else. It costs you nothing and it changes what you know.",
+    title: "The paperwork",
+    body: "Deed, will, trust, power of attorney, beneficiary forms.",
   },
   {
-    n: "3",
-    title: "Ryan puts you with a vetted local agent",
-    body: "Or tells you straight if the right move is to wait, or not to sell at all. You are never alone in that room.",
+    title: "The taxes",
+    body: "Step-up in basis and timing, checked by your CPA before anyone signs.",
+  },
+  {
+    title: "The stuff",
+    body: "Keep, sell, donate, toss, and who carries the boxes.",
+  },
+  {
+    title: "The logistics",
+    body: "Keys, mail, utilities, insurance on an empty house, the move.",
+  },
+  {
+    title: "The family",
+    body: "Everyone on the same page before the house goes on the market.",
   },
 ];
 
-const agreement: string[] = [
-  "You never sit through the audition. No three appointments, no comparing three prices you cannot check, nobody you have to tell no.",
-  "You will never be pushed to sell. “Don’t sell yet” always stays on the table.",
-  "No added cost. The referral is paid from the commission you would already pay.",
-  "Ryan stays in your corner, a second set of eyes, start to finish.",
+// Three short doors under the hero. The roadmap comes after the call, so
+// its card points at the call too.
+const quips: { title: string; body: string; href: string; cta: string }[] = [
+  {
+    title: "The conversation",
+    body: "30 minutes with Ryan before you call anyone else. No obligation, no pressure.",
+    href: "/work-with-ryan",
+    cta: "Talk with Ryan",
+  },
+  {
+    title: "The roadmap",
+    body: "After we talk, a written plan for your family within 48 hours: every step, in order.",
+    href: "/work-with-ryan",
+    cta: "Start with the call",
+  },
+  {
+    title: "The Blueprint",
+    body: "A free guide to every option, not just the one someone is selling.",
+    href: "/the-blueprint",
+    cta: "Get the free Blueprint",
+  },
 ];
 
 const homeFaqs: FAQItem[] = [
@@ -145,56 +173,111 @@ export default function HomePage() {
           would be redundant rather than a stronger signal. */}
       <JsonLd data={professionalServiceSchema()} />
 
-      {/* 1. HEADER (the 5-second test) */}
+      {/* 1. HERO. The whole message plus the button fits above the fold on a
+          1366x768 laptop, so padding and type are deliberately tight. On a
+          phone it stacks: text first, the six things second. */}
       <section className="bg-cream">
-        <div className="mx-auto max-w-6xl px-6 py-20 lg:py-28 grid gap-12 lg:grid-cols-2 lg:items-center">
+        <div className="mx-auto grid max-w-6xl gap-8 px-6 py-8 lg:grid-cols-[1.1fr_1fr] lg:items-center lg:gap-12 lg:py-10">
           <div>
             <p className="text-xs font-semibold uppercase tracking-[0.16em] text-navy-700/70">
               Ryan Riggins | {ROLE_TITLE}
             </p>
-            <h1 className="mt-4 leading-[1.05]">
-              Handle your parent&rsquo;s move without losing their money, their
-              home, or <span className="text-burgundy-600">your peace.</span>
+            <h1 className="mt-3 text-4xl leading-[1.08] md:text-5xl lg:text-[2.75rem]">
+              I&rsquo;m a real estate agent who won&rsquo;t list your house.
             </h1>
-            <p className="mt-6 max-w-prose text-lg leading-relaxed text-ink/80">
-              You did not ask to become an expert in any of this, and you should
-              not have to be one to protect your own parent. Get a free plan and
-              a guide who has been on both sides of the table, and who never
-              takes the listing.
+            <p className="mt-4 max-w-prose text-lg leading-relaxed text-ink/80">
+              When a parent moves into care, the house is the last step, not
+              the first. I get everything else in order, then bring in the one
+              agent in your area who&rsquo;s best at your kind of house. No
+              folder, no presentation, no pitch.
             </p>
-            <div className="mt-8 flex flex-wrap items-center gap-4">
-              <Button asChild size="lg">
+            <p className="mt-4 max-w-prose text-lg font-semibold leading-snug text-burgundy-600">
+              Before anyone makes you an offer, find out what the house is
+              worth and what your choices are.
+            </p>
+            <div className="mt-5 flex flex-wrap items-center gap-x-5 gap-y-3">
+              <Button asChild size="lg" className="h-11 px-6 text-base">
                 <Link
                   href="/work-with-ryan"
                   data-track="book_call_click"
                   data-track-params='{"location":"home-hero"}'
                 >
-                  Get Ryan in your corner
+                  Talk with Ryan
                 </Link>
               </Button>
               <Link
                 href="/the-blueprint"
                 className="text-base font-semibold text-burgundy-600 underline-offset-4 hover:text-burgundy-700 hover:underline"
               >
-                Start with the Blueprint
+                Get the free Blueprint
               </Link>
             </div>
-            <p className="mt-4 text-sm text-ink/60">
-              A 30-minute call. No obligation, no pressure, no upsells.
+            <p className="mt-3 text-sm text-ink/60">
+              30 minutes. Phone, Zoom or text. No obligation.
             </p>
           </div>
-          {/* The locked core proposition, set in the brand type system.
-              Deliberately not a restatement of the H1. */}
-          <BrandPanel
-            className="aspect-[4/3] lg:aspect-square"
-            heading="Calling an agent starts a clock."
-            sub="Ryan is the call that doesn’t."
-          />
+
+          <div className="rounded-lg border border-border bg-white p-6 lg:p-7">
+            <h2 className="m-0 font-serif text-xl leading-snug text-navy-700 md:text-2xl">
+              What we get in order first
+            </h2>
+            <ul className="mt-4 space-y-2.5">
+              {inOrderFirst.map((item) => (
+                <li
+                  key={item.title}
+                  className="flex gap-3 text-base leading-snug text-ink/80"
+                >
+                  <span aria-hidden className="mt-0.5 text-burgundy-600">
+                    &#10003;
+                  </span>
+                  <span>
+                    <strong className="font-semibold text-ink">
+                      {item.title}:
+                    </strong>{" "}
+                    {item.body}
+                  </span>
+                </li>
+              ))}
+            </ul>
+            <p className="mt-5 border-t border-border pt-4 text-sm text-ink/65">
+              Then one vetted agent, picked for your house. Slow down to speed
+              up.
+            </p>
+          </div>
         </div>
-        {/* The role, defined (approved 2026-09-19). Title plus the verbatim
-            definition, visible near the top for readers and answer engines. */}
-        <div className="mx-auto max-w-6xl px-6 pb-16 lg:pb-20">
-          <div className="aeo-speakable-quickanswer rounded-r-md border-l-4 border-burgundy-600 bg-white/70 px-6 py-6">
+      </section>
+
+      {/* 2. THREE QUIPS. One short row, three doors. */}
+      <section className="bg-sand border-y border-border">
+        <div className="mx-auto max-w-6xl px-6 py-12">
+          <ul className="grid gap-5 md:grid-cols-3">
+            {quips.map((q) => (
+              <li key={q.title}>
+                <Link
+                  href={q.href}
+                  className="group block h-full rounded-lg border border-border bg-white p-6 transition-colors hover:border-burgundy-400"
+                >
+                  <h2 className="m-0 font-serif text-xl leading-snug text-navy-700">
+                    {q.title}
+                  </h2>
+                  <p className="mt-2 leading-relaxed text-ink/75">{q.body}</p>
+                  <span className="mt-3 inline-flex items-center gap-1 text-sm font-semibold text-burgundy-700 group-hover:text-burgundy-800">
+                    {q.cta} <span aria-hidden>&rarr;</span>
+                  </span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
+      {/* 3. THE ROLE AND THE ENTITY SPLIT, kept compact for SEO/AEO. The role
+          title plus the verbatim definition (approved 2026-09-19) carries the
+          speakable class. The entity split says on the page that RSS is the
+          free education and the referral is Ryan working as a broker. */}
+      <section className="bg-white">
+        <div className="mx-auto max-w-6xl px-6 py-12">
+          <div className="aeo-speakable-quickanswer rounded-r-md border-l-4 border-burgundy-600 bg-cream px-6 py-6">
             <h2 className="m-0 font-serif text-xl leading-snug text-navy-700 md:text-2xl">
               {ROLE_TITLE}
             </h2>
@@ -216,214 +299,25 @@ export default function HomePage() {
               </Link>
             </p>
           </div>
-        </div>
-      </section>
-
-      {/* 2. THE STAKES */}
-      <section className="bg-navy-700 text-cream">
-        <div className="mx-auto max-w-4xl px-6 py-16">
-          <GoldRule />
-          <h2 className="mt-3 text-cream">
-            Going in blind is where families get taken.
-          </h2>
-          <p className="mt-6 text-lg leading-relaxed text-cream/85">
-            When a parent can&rsquo;t stay in their home, the people with a plan
-            are usually the ones circling it: the cash buyer, the &ldquo;we buy
-            houses&rdquo; wholesaler, and the listing agent whose only move is a
-            sign in the yard. Families who face it alone take the cash offer
-            that lands 30 to 50 percent under what the house is worth, sell at
-            the worst possible time, hand the house to a child in a way that
-            costs them Medicaid eligibility later, or end up split over money.
-            It is not your fault. You were handed the hardest decision of your
-            parent&rsquo;s life with no map and a clock running.
-          </p>
-        </div>
-      </section>
-
-      {/* 3. THE GUIDE */}
-      <section className="bg-white">
-        <div className="mx-auto max-w-6xl px-6 py-20 grid gap-12 md:grid-cols-[auto_1fr] md:items-center">
-          <div className="relative mx-auto h-56 w-56 overflow-hidden rounded-full border-4 border-gold-500 md:h-64 md:w-64">
-            <Image
-              src="/photos/about_hero_ryan_portrait.jpg"
-              alt="Ryan Riggins, Senior Transition Advisor"
-              fill
-              sizes="(min-width: 768px) 256px, 224px"
-              className="object-cover"
-              priority
-            />
-          </div>
-          <div>
-            <GoldRule />
-            {/* The empathy line doubles as this section's heading so the guide
-                section isn't a headingless block in the document outline. */}
-            <h2 className="mt-3 font-serif text-2xl leading-snug text-navy-700 md:text-3xl">
-              I know the dread before you even pick up the phone. I have sat in
-              this exact seat.
-            </h2>
-            <p className="mt-6 max-w-prose text-lg leading-relaxed text-ink/80">
-              I spent eight years in construction project management and
-              flipping houses, running the same playbook these buyers use on
-              families like yours. Then I switched sides. Now I protect families
-              from the guy I used to be.
-            </p>
-            <p className="mt-4 max-w-prose text-lg leading-relaxed text-ink/80">
-              A North Carolina broker&rsquo;s license, two books, the Hammock365
-              app, and a free Blueprint that lays out every option.
-            </p>
-            <p className="mt-5 text-sm text-ink/60">
-              Ryan Riggins &middot; NC Real Estate License #361546 &middot; eXp
-              Realty
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* 4. THE PLAN */}
-      <section className="bg-sand border-y border-border">
-        <div className="mx-auto max-w-6xl px-6 py-20">
-          <div className="max-w-2xl">
-            <GoldRule />
-            <h2 className="mt-3">Three steps, in order.</h2>
-          </div>
-          <ol className="mt-12 grid gap-6 md:grid-cols-3">
-            {planSteps.map((s) => (
-              <li
-                key={s.n}
-                className="rounded-lg border border-border bg-white p-7"
-              >
-                <span
-                  aria-hidden
-                  className="flex h-11 w-11 items-center justify-center rounded-full bg-burgundy-600 font-serif text-xl text-cream"
-                >
-                  {s.n}
-                </span>
-                <h3 className="mt-5 font-serif text-xl leading-snug text-navy-700">
-                  {s.title}
-                </h3>
-                <p className="mt-3 leading-relaxed text-ink/75">{s.body}</p>
-              </li>
-            ))}
-          </ol>
-          {/* Entity split. RSS is the free education; the referral is Ryan
-              working as a licensed broker, paid agent to agent. Stated on the
-              page rather than buried in the referral terms. */}
-          <p className="mt-10 max-w-3xl text-sm leading-relaxed text-ink/65">
+          <p className="mt-6 max-w-3xl text-sm leading-relaxed text-ink/65">
             Riggins Strategic Solutions is the free education. The agent
             referral is Ryan working as a licensed North Carolina broker with
             eXp Realty, paid agent to agent out of the commission you would
             already pay. He never takes the listing himself.
           </p>
-        </div>
-      </section>
-
-      {/* 5. THE AGREEMENT */}
-      <section className="bg-white">
-        <div className="mx-auto max-w-4xl px-6 py-16">
-          <GoldRule />
-          <h2 className="mt-3">What you are agreeing to, and what you are not.</h2>
-          <ul className="mt-8 space-y-4">
-            {agreement.map((a) => (
-              <li key={a} className="flex gap-3 text-lg leading-relaxed text-ink/80">
-                <span aria-hidden className="mt-1 text-burgundy-600">
-                  &#10003;
-                </span>
-                <span>{a}</span>
-              </li>
-            ))}
-          </ul>
-        </div>
-      </section>
-
-      {/* 6. SUCCESS */}
-      <section className="bg-cream border-y border-border">
-        <div className="mx-auto max-w-6xl px-6 py-20 grid gap-12 lg:grid-cols-2 lg:items-center">
-          <div>
-            <GoldRule />
-            <h2 className="mt-3">What it looks like when you get it right.</h2>
-            <p className="mt-6 text-lg leading-relaxed text-ink/80">
-              The transition handled, your parent&rsquo;s money and dignity
-              intact, and the family still whole. The right call made with a
-              guide in the room instead of a sales pitch. You go back to being
-              the son or daughter instead of the crisis manager.
-            </p>
-            <p className="mt-6 font-serif text-2xl text-burgundy-600">
-              &ldquo;I did right by them.&rdquo; Relief.
-            </p>
-          </div>
-          <BrandPanel
-            className="aspect-[4/3]"
-            kicker="What right looks like"
-            heading="Money intact. Dignity intact. Family intact."
-          />
-        </div>
-      </section>
-
-      {/* 7. REPEAT THE CALL TO ACTION */}
-      <section className="bg-burgundy-700 text-cream">
-        <div className="mx-auto max-w-4xl px-6 py-20 text-center">
-          <GoldRule className="mx-auto" />
-          <h2 className="mt-3 text-cream">
-            One conversation, before you call anybody else.
-          </h2>
-          <Button
-            asChild
-            size="lg"
-            className="mt-8 bg-gold-500 text-navy-900 hover:bg-gold-300"
-          >
-            <Link
-              href="/work-with-ryan"
-              data-track="book_call_click"
-              data-track-params='{"location":"home-final-cta"}'
-            >
-              Get Ryan in your corner
-            </Link>
-          </Button>
-          <p className="mt-6 text-cream/85">
-            Not ready to talk yet?{" "}
-            <Link
-              href="/tools/family-readiness-score"
-              className="font-semibold text-gold-300 underline underline-offset-4 hover:text-gold-100"
-            >
-              Take the free Family Readiness Score
-            </Link>{" "}
-            and see where your family really stands.
+          <p className="mt-2 text-xs text-ink/55">
+            Ryan Riggins &middot; NC Real Estate License #361546 &middot; eXp
+            Realty
           </p>
         </div>
       </section>
 
-      {/* Kept below the story: free nationwide utility, no pitch. */}
-      <section className="bg-white">
-        <div className="mx-auto max-w-6xl px-6 py-16">
-          <Link
-            href="/resources/senior-help-directory"
-            className="group block rounded-lg border border-border p-7 transition-colors hover:border-burgundy-400"
-          >
-            <p className="text-xs font-semibold uppercase tracking-wide text-burgundy-700">
-              Free &middot; Nationwide &middot; No sign-up
-            </p>
-            <h2 className="mt-2 font-serif text-2xl text-navy-700">
-              Senior Help Directory
-            </h2>
-            <p className="mt-2 max-w-3xl leading-relaxed text-ink/75">
-              Government and nonprofit help for seniors by state and county.
-              Property tax relief, food, energy bills, Medicare counseling,
-              transportation, legal aid, and caregiver support. No sales, no
-              pitch.
-            </p>
-            <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-burgundy-700 group-hover:text-burgundy-800">
-              Browse the directory <span aria-hidden>&rarr;</span>
-            </span>
-          </Link>
-        </div>
-      </section>
-
-      {/* Kept below the story: authority evidence for the guide. Renders from
-          lib/reviews.ts, the same array the About page uses, so the quote here
-          can never drift from the Review JSON-LD About emits. Review schema is
-          deliberately NOT repeated here: it already exists on /about under the
-          same entity, and self-serving review markup about your own business
-          is not eligible for rich results anyway. */}
+      {/* 4. REVIEWS. Renders from lib/reviews.ts, the same array the About
+          page uses, so the quote here can never drift from the Review JSON-LD
+          About emits. Review schema is deliberately NOT repeated here: it
+          already exists on /about under the same entity, and self-serving
+          review markup about your own business is not eligible for rich
+          results anyway. */}
       {RYAN_REVIEWS.length > 0 && (
         <section className="bg-sand border-y border-border">
           <div className="mx-auto max-w-4xl px-6 py-16">
@@ -504,12 +398,38 @@ export default function HomePage() {
         </section>
       )}
 
-      {/* Kept below the story: the page's FAQPage schema + AEO surface. */}
+      {/* 5. FAQ: the page's FAQPage schema + AEO surface. */}
       <FAQSection
         items={homeFaqs}
         title="Common questions families ask."
         kicker="Common questions"
       />
+
+      {/* 6. CLOSING CALL TO ACTION */}
+      <section className="bg-burgundy-700 text-cream">
+        <div className="mx-auto max-w-4xl px-6 py-16 text-center">
+          <GoldRule className="mx-auto" />
+          <h2 className="mt-3 text-cream">
+            One conversation, before you call anybody else.
+          </h2>
+          <Button
+            asChild
+            size="lg"
+            className="mt-8 h-11 bg-gold-500 px-6 text-base text-navy-900 hover:bg-gold-300"
+          >
+            <Link
+              href="/work-with-ryan"
+              data-track="book_call_click"
+              data-track-params='{"location":"home-final-cta"}'
+            >
+              Talk with Ryan
+            </Link>
+          </Button>
+          <p className="mt-4 text-sm text-cream/80">
+            30 minutes. Phone, Zoom or text. No obligation.
+          </p>
+        </div>
+      </section>
     </main>
   );
 }

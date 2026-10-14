@@ -13,6 +13,28 @@ import type { ClientReview } from "@/lib/schema";
  */
 export const RYAN_REVIEWS: ClientReview[] = [
   {
+    // Verbatim from the Google Business Profile review by Ms. Danni.
+    // Source: Google Business Profile review notification email, Oct 14,
+    // 2026. Newest first.
+    authorName: "Ms. Danni",
+    ratingValue: 5,
+    reviewBody:
+      "We had a wonderful experience with Riggins Strategic Solutions. Ryan was professional, compassionate, and supportive throughout the entire process. He took the time to listen, answer our questions, and guide us through each step with patience and understanding. His knowledge and dedication made what could have been a stressful transition feel much easier and more manageable. We truly appreciated his kindness, responsiveness, and genuine concern for our family’s needs. We highly recommend Ryan and his team to anyone looking for guidance and support during a senior living transition. Thank you, Ryan, for making such a positive difference for our family!",
+    datePublished: "2026-10-14",
+    publisher: "Google",
+  },
+  {
+    // Verbatim from the Google Business Profile review by Tiuana Jamison.
+    // Source: Google Business Profile review notification email, Oct 12,
+    // 2026.
+    authorName: "Tiuana Jamison",
+    ratingValue: 5,
+    reviewBody:
+      "Riggins Strategic Solutions is a valuable company I didn’t realize I would need until it was time to discuss my mother’s home. They helped me understand my options and navigate important decisions with greater clarity and peace of mind. If you need guidance on what to do with a parent’s home, I highly recommend them!",
+    datePublished: "2026-10-12",
+    publisher: "Google",
+  },
+  {
     // Verbatim from the Google Business Profile review by Scarlett Begonias
     // (Local Guide, 42 reviews). Captured May 16, 2026. The review was 13
     // weeks old at capture, which puts it at approximately Feb 14, 2026.
