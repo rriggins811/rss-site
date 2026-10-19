@@ -5,8 +5,8 @@ It contains the full Markdown of every key page, resource pillar, Senior Help
 Directory state page, and blog post, intended for AI crawlers that ingest
 content for answer generation.
 
-Generated: 2026-10-16
-Indexed: 157 blog posts, 17 resource pillars, 51 Senior Help Directory state pages, 17 video transcripts.
+Generated: 2026-10-19
+Indexed: 158 blog posts, 17 resource pillars, 51 Senior Help Directory state pages, 17 video transcripts.
 
 For citation guidance, organizational facts, and topic depth, see the summary
 index at https://rigginsstrategicsolutions.com/llms.txt.
@@ -5312,8 +5312,148 @@ You must qualify for Medicaid, then apply for the Community Choices Waiver, choo
 
 # Blog Posts (newest first)
 
-The 157 posts below are the full body of every published article
+The 158 posts below are the full body of every published article
 on https://rigginsstrategicsolutions.com/blog, in reverse chronological order.
+
+---
+
+# Mom Moved Out. Her Empty House Just Started a Tax Clock Nobody Mentioned.
+https://rigginsstrategicsolutions.com/blog/parents-empty-house-home-sale-exclusion-tax-clock
+Published: 2026-10-19
+
+**Excerpt:** The day your parent stops living in their house, a federal tax clock starts. About three years later, the $250,000 home sale exclusion can be gone. Here's the rule from IRS Publication 523, the nursing home exception that stops the clock, the one that doesn't exist for your spare bedroom, and the five dates to write down this week.
+
+I'll tell you the question I never once heard a family ask in eight years of buying houses from them: "When did Mom actually move out?" Not the month she fell. Not the week the facility had a bed. The date she stopped living in the house. Nobody asked it, including me, and I was the one writing the check.
+
+It matters more than almost anything else in the file, because the day your parent stops sleeping in that house, a federal tax clock starts. It's quiet. There's no letter. The IRS doesn't call. The house just sits there, full of furniture and forty years of mail, while a window that can be worth $250,000 in tax-free gain slowly closes. Most families find out it closed from the accountant, the April after the sale, when there's nothing left to do about it.
+
+Here's the part that still bothers me. When I was on the buying side, the families I bought from at the deepest discounts were often the ones who had waited the longest. Three years of mowing an empty lawn, paying insurance on a house nobody lived in, and then selling fast because the money finally ran out. Some of them had already lost the exclusion. They were paying tax on thirty years of appreciation and didn't know it until the return was done.
+
+I walked away from that side of the table. The job now is making sure you see the clock while there's still time to decide what to do about it. And there's a lot you can do, because there are two exceptions that stop the clock cold, and one of them was written specifically for a parent in a nursing home.
+
+So here's the rule, the exceptions, the reason waiting can also be right, and the dates you need to write down this week.
+
+## The rule: 2 of the last 5 years
+
+The home sale exclusion lives in Section 121 of the federal tax code, and the IRS explains it in plain language in Publication 523, Selling Your Home, and in Tax Topic 701. The core of it is simple. A homeowner can exclude up to $250,000 of gain from the sale of a main home, or up to $500,000 on a joint return, if they pass two tests. Per Tax Topic 701, the ownership test is met if they owned the home for at least 24 months out of the last 5 years, and the use test is met if they used it as a residence for at least 24 months of the previous 5 years. Both are measured backward from the date of sale.
+
+Read that use test one more time, because it's where the clock hides. The 5-year window ends on the day of the sale. Your parent needs 24 months of living in the house somewhere inside that window. The day they move out, every month that passes is a month of the window with no use in it. Roughly three years after the move-out date, the window holds less than 24 months of use, and the full exclusion is gone. That three-year figure isn't printed in the publication as a deadline. It's arithmetic on the rule: 5 years in the window, minus 2 years of required use, leaves about 3 years of empty time before the test fails.
+
+A few more pieces of the rule that matter for a parent's house, all from Publication 523 and the statute itself:
+
+- The exclusion is available once every 2 years. If your parent excluded gain on another home within the 2 years before this sale, they're not eligible on this one, per Tax Topic 701.
+- If the seller receives Form 1099-S from the closing, the sale has to be reported on Form 8949 even when the whole gain is excluded. Publication 523 is explicit about that.
+- Time the house sits empty after your parent's last day living there, inside that 5-year window, doesn't count as "nonqualified use" under the statute. In plain English, an empty year or two doesn't shrink the exclusion by itself. The clock is the only thing that kills it.
+
+None of this is about whether your parent has to sell. It's about what the sale costs on a given date. The same house, sold in month 30 after the move versus month 40, can carry a very different tax bill, and nobody at the closing table is paid to tell you that.
+
+## The nursing home exception that stops the clock
+
+Congress wrote one exception for exactly this situation. Section 121(d)(7), as explained in Publication 523, says that if your parent became physically or mentally unable to care for themselves, the time they spend living in a care facility counts as time living in the house, so long as two things are true. They have to have used the house as their main home for at least 12 months during the 5 years before the sale, and the facility has to hold a license from a state or other government body to care for people with their condition.
+
+That changes everything about the timeline. If Mom lived in the house until she went into a licensed nursing home, assisted living community, or memory care, and she's there because she can no longer care for herself, the clock effectively stops. Her years in the facility are treated as years in the house. Your family can take the time to clear it out, to decide, to find the right agent and the right buyer, without watching a window close.
+
+Two cautions. First, the exception is about the facility's license, not its brochure. Your parent's care home should be able to show you its state license. Keep a copy in the file. Second, the exception is tied to being unable to care for oneself. A parent who moved to a retirement community for the golf and the dining room, and who's perfectly capable, is a different conversation. When you're not sure which side of that line your parent is on, that's a question for the tax professional, not a guess at the kitchen table.
+
+## The exception that doesn't exist: your spare bedroom
+
+Here's the version I see most often, and it's the one the rule is hardest on. Mom didn't go to a facility. She came to live with you. The guest room became her room, you became the care, and the house two towns over went quiet.
+
+There's no license on your spare bedroom, so the care facility exception doesn't apply, even if Mom needs every bit as much help as she would in a nursing home. The clock runs. Three years after she moved in with you, the full exclusion on her house is gone, and that's often right about when your family finally has the energy to deal with it.
+
+Publication 523 does offer a partial exclusion when a seller can't meet the two-year test because the main reason for the sale was a health issue. The listed health reasons include that the seller moved to obtain, provide, or facilitate treatment of a disease, illness, or injury for themselves or a family member, and that a doctor recommended a change in residence because of a health problem. The IRS list of family members includes a parent, a child, a sibling and in-laws. The partial amount is prorated: the IRS worksheet takes the shortest of the time lived in the home during the 5-year window, the time owned, or the time since the last exclusion, divides it by 24 months, and multiplies by $250,000. Whether your parent's move into your home fits that rule depends on your facts, and the proration can leave a lot of gain exposed. It's a question worth asking before year three, not after.
+
+## Dad died: the two-year clock on the $500,000
+
+Married couples get $500,000. Widows and widowers get a second clock. Under the statute and Publication 523, a surviving spouse who sells within 2 years of the spouse's death can still use the $500,000 amount, as long as the couple would have qualified for it right before the death. After that 2-year mark, the surviving parent is back to $250,000.
+
+For a house bought in the 1980s in a neighborhood that took off, the difference between $500,000 and $250,000 of excluded gain is real money. This isn't a reason to rush a grieving parent into a sale. It is a reason to put the date on the calendar, so the decision gets made on purpose, with a number next to it, instead of discovered.
+
+## The reason waiting can also be right
+
+Now the other side, because the clock isn't the whole story, and a post that only told you to hurry would be doing the exact thing I left the buying side to stop.
+
+If your parent still owns the house when they die, the people who inherit it generally get a new tax basis. The IRS says the basis of inherited property is generally the fair market value of the property on the date of the decedent's death. In plain English, decades of appreciation can simply disappear for tax purposes. If the heirs sell at roughly that value, there may be little or no gain at all, and the three-year clock never mattered.
+
+So the real question is rarely "sell before the clock runs out." It's "do we sell while Mom is alive and the exclusion still applies, or do we carry the house until the basis resets?" That decision touches Medicaid estate recovery if Medicaid is paying for care, the cost of insuring and maintaining an empty house, and what your parent actually wants. It's an elder law and tax question, and the answer is different for a $180,000 house and a $700,000 one.
+
+Here's an illustration, and it's arithmetic, not an IRS figure. A house bought for $90,000 that would sell for $340,000 today carries about $250,000 of gain, before improvements and selling costs. Sold while the exclusion applies, that gain is tax-free. Sold a year after the clock runs out, with no exception, all of it is taxable. Inherited at a $340,000 value and sold at that price, the gain is close to zero. Same house, three very different tax bills, decided entirely by timing and paperwork.
+
+One more line item for North Carolina families: the state taxes the gain too. Per the NC Department of Revenue, the individual income tax rate is 3.99 percent for tax years after 2025.
+
+## The five things to do this week
+
+### 1. Write down the move-out date and what kind of place she moved to
+
+Open a note and put two facts at the top: the date your parent last lived in the house, and where they live now. If it's a facility, write down its name and ask the administrator for a copy of its state license. If it's your home or a sibling's home, write that down too, because it changes which rules apply. This single page is the thing your tax professional will ask for first, and almost nobody has it.
+
+### 2. Pull the basis paperwork before anybody asks for an offer
+
+Gain is the sale price minus what your parent paid plus the improvements they made over the years. Find the original closing statement, the receipts for the roof, the addition, the HVAC, the kitchen. Publication 523 walks through what counts. You're not doing this to sell. You're doing it so that when a number comes, you know what it costs.
+
+### 3. Run the gain both ways
+
+Take the rough value of the house, subtract the basis, and look at the gain next to $250,000 or $500,000. Then ask the two timing questions: how many months are left before the three-year mark, and does the care facility exception apply? If the gain is well under the exclusion, the clock is less urgent than it sounds. If it's over, or close, the date matters a great deal.
+
+### 4. Ask two professionals two specific questions
+
+A CPA or enrolled agent: does the care facility rule in Section 121(d)(7) apply to my parent, and if not, does a partial exclusion? An elder law attorney: if Medicaid is paying, or may pay, for care, what does selling now do to eligibility and to estate recovery compared with holding the house? Write both answers down with the date. Those two answers are the real decision, and they cost a great deal less than the mistake.
+
+### 5. Decide the timeline before anyone offers you a number
+
+Here's what I know from the other side of the table: the moment you call a real estate agent, a different clock starts, and that one wants the house listed by the weekend. That's not the agent being pushy. That's the job. Decide first whether your family is selling this year, next year, or holding until the basis resets. Then, and only then, bring in the person whose job is to sell it. You don't have to interview three agents, compare three prices you can't check, or be the one who tells somebody no. You can have the whole conversation before you're ready, with someone who isn't paid to list it.
+
+## Frequently Asked Questions
+
+### How long after my parent moves out can they still use the home sale exclusion?
+
+Per IRS Publication 523 and Tax Topic 701, the seller must have used the house as a residence for at least 24 months of the 5 years ending on the sale date. Once your parent moves out, that window holds less than 24 months of use roughly three years later, so the full $250,000 exclusion is generally gone about three years after the move-out date unless an exception applies.
+
+### Does time in a nursing home count toward the two-year residence test?
+
+It can. Publication 523 says that if the owner became physically or mentally unable to care for themselves, time living in a care facility counts as time living in the home, as long as they used the house as their main home for at least 12 months during the 5 years before the sale and the facility is licensed by a state or other government body to care for people with their condition.
+
+### Does my mother lose the $500,000 exclusion after my father died?
+
+Not right away. Under Section 121 and Publication 523, a surviving spouse who sells within 2 years of the spouse's death can still use the $500,000 amount if the couple met the joint-return requirements right before the death. After 2 years, the exclusion drops to $250,000.
+
+### Is it better to sell my parent's house before they die or to inherit it?
+
+It depends on the gain, the care situation, and Medicaid. The IRS says inherited property generally takes a basis equal to its fair market value on the date of death, which can wipe out decades of taxable gain. Selling while the exclusion applies can also be tax-free up to $250,000 or $500,000. Run both numbers with a CPA and an elder law attorney before deciding.
+
+### Do we have to report the sale if the whole gain is excluded?
+
+If the seller receives Form 1099-S from the closing, yes. Publication 523 says the sale must be reported on Form 8949 even when there's no taxable gain. If no 1099-S was issued and the entire gain is excludable, the publication says the sale doesn't have to be reported.
+
+## About Ryan Riggins
+
+Ryan Riggins is a senior transition advisor and former house flipper. After 8 years buying and flipping homes, many of them from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [Hammock365 app](https://hammock365.com).
+
+---
+
+**Sell, rent, or hold?** The free Sell, Rent, or Keep Calculator puts the three choices for your parent's house side by side with real numbers: rigginsstrategicsolutions.com/tools/sell-rent-or-keep-calculator
+
+**Want a step-by-step guide?** The Senior Transition Blueprint is free, all 20 modules and 69 tools: rigginsstrategicsolutions.com/the-blueprint
+
+**Not sure where your family stands?** The free Family Readiness Score takes five minutes and shows the gaps across the home, the money, the legal documents, care, and family alignment: rigginsstrategicsolutions.com/tools/family-readiness-score
+
+**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
+
+**Selling a parent's home?** Ryan finds and vets the right local agent for your situation and stays in your corner on the whole sale, at no added cost to your family: rigginsstrategicsolutions.com/in-your-corner
+
+**Coordinate the family in one place.** Hammock365 keeps daily check-ins, medications, and documents where the whole family can see them: hammock365.com
+
+## Sources
+
+All sources checked October 19, 2026. This post is general information, not tax or legal advice. The rules turn on your family's facts, so confirm them with a CPA, enrolled agent, or elder law attorney before acting.
+
+- Internal Revenue Service, Publication 523 (2025), Selling Your Home: eligibility test (owned and used as a residence for at least 24 months of the previous 5 years), $250,000 and $500,000 maximum exclusion, the care facility rule (physically or mentally unable to care for yourself, at least 12 months of use in the 5 years before the sale, facility licensed by a state or other political entity), the surviving spouse rule (sale within 2 years of the spouse's death), partial exclusion for health-related moves and the family member list, Worksheet 1 Part B proration (shortest period divided by 24 months, times $250,000), nonqualified use and the exception for time after the last use as a main home, and Form 1099-S reporting on Form 8949. https://www.irs.gov/publications/p523
+- Internal Revenue Service, Topic No. 701, Sale of Your Home (page reviewed October 12, 2026): ownership and use tests of 24 months out of the last 5 years, $250,000 and $500,000 exclusion, the 2-year limit on a prior exclusion, and reporting when a Form 1099-S is received. https://www.irs.gov/taxtopics/tc701
+- 26 U.S. Code Section 121, Exclusion of gain from sale of principal residence: subsection (a) 2 of 5 years, (b)(1) and (b)(2) dollar limits, (b)(3) one sale every 2 years, (b)(4) surviving spouses, (b)(5) nonqualified use and the exception for the portion of the 5-year period after the last date of use as a principal residence, (c)(2)(B) reduced exclusion for health and other reasons, and (d)(7) use during periods of out-of-residence care. Read at the Legal Information Institute, Cornell Law School. https://www.law.cornell.edu/uscode/text/26/121
+- Internal Revenue Service, Gifts and Inheritances FAQ: basis of inherited property is generally the fair market value on the date of the decedent's death, or the alternate valuation date if the executor elects it on Form 706. https://www.irs.gov/faqs/interest-dividends-other-types-of-income/gifts-inheritances/gifts-inheritances
+- North Carolina Department of Revenue, Tax Rate Schedules: individual income tax rate of 3.99 percent for taxable years after 2025, with possible further changes from 2027 based on rate reduction triggers. https://www.ncdor.gov/taxes-forms/individual-income-tax/tax-rate-schedules
+
+The three-year figure is arithmetic on the 2-of-5-year rule, not a deadline printed by the IRS. The $90,000 to $340,000 example is an illustration, not an IRS figure, and it ignores improvements, selling costs, and depreciation.
 
 ---
 
