@@ -716,6 +716,15 @@ export const DIRECTORY_COUNTIES: DirectoryCounty[] = [
     blurb:
       "Pinehurst, Southern Pines, Aberdeen, Carthage, West End and Robbins, NC programs for seniors and families: the Tax Department in Carthage and the 2026 and 2027 income limits for North Carolina's three relief programs, what the 2027 revaluation means for a parent's bill, a free Register of Deeds recording alert, the Department of Aging at the Senior Enrichment Center for meals, in-home aides, rides and free Medicare counseling at 60 with no income test, Meals on Wheels of the Sandhills, the Food Bank's Sandhills branch, a Medicaid rule that covers up to three months of past costs for applications filed by December 31, 2026, $4 county token rides, Urgent Repair through Habitat for Humanity of the NC Sandhills, weatherization through Action Pathways, free legal help through Legal Aid's Central Carolina office, and two PACE programs the state lists for most Moore ZIP codes.",
   },
+  {
+    slug: "onslow-county-nc-senior-help-directory",
+    county: "Onslow County",
+    state: "NC",
+    metro: "Jacksonville, Camp Lejeune, Swansboro & Sneads Ferry",
+    region: "Coastal",
+    blurb:
+      "Jacksonville, Richlands, Swansboro, Sneads Ferry, Holly Ridge, Hubert and Camp Lejeune, NC programs for seniors and families: the Tax Office in Jacksonville and the 2026 and 2027 income limits for North Carolina's three relief programs, why the 2026 revaluation does not reach the bill until 2027 and how to appeal either value through December 31, 2026, a free Register of Deeds Property Check alert, Senior Services at the Multipurpose Complex for lunch at five sites, home-delivered meals, in-home aides, medical rides and free Medicare counseling at 60, the Food Bank's New Bern branch, a Medicaid rule that covers up to three months of past costs for applications filed by December 31, 2026, Onslow United Transit and 75-cent senior bus fares in Jacksonville, Urgent Repair through WARM, weatherization through Coastal Community Action, free legal help through Legal Aid's Wilmington office, Camp Lejeune water benefits for veterans and families, and the one PACE program the state lists for five Onslow ZIP codes.",
+  },
 ];
 
 export type DirectoryState = {
