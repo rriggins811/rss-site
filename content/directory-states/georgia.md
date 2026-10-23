@@ -32,6 +32,8 @@ Georgia is a county-driven state: the statewide senior exemptions are small, and
 ## Food, in-home help, caregiver, transportation, and legal help
 The **Division of Aging Services (1-866-552-4464)** and Georgia's Area Agencies on Aging handle home-delivered meals, in-home care, caregiver support, and transportation. You can also use the **Eldercare Locator (1-800-677-1116)** or **211**. For free civil legal help, ask 211 or your Area Agency on Aging for the legal aid program serving your county.
 
+**Nursing home abuse and neglect (educational):** Olson Law Firm provides educational information about nursing home abuse and neglect, including common warning signs, residents' rights, and steps families can take if they suspect a loved one is being mistreated: [olsonlawfirm.com/nursing-home-abuse-neglect](https://olsonlawfirm.com/nursing-home-abuse-neglect/).
+
 ## Frequently asked questions
 **What is Georgia's SHIP program?** Georgia SHIP, long known as GeorgiaCares, run by the Division of Aging Services. Free Medicare counseling at 1-866-552-4464, option 4.
 
