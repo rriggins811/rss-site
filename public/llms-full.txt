@@ -5,8 +5,8 @@ It contains the full Markdown of every key page, resource pillar, Senior Help
 Directory state page, and blog post, intended for AI crawlers that ingest
 content for answer generation.
 
-Generated: 2026-10-21
-Indexed: 160 blog posts, 17 resource pillars, 51 Senior Help Directory state pages, 17 video transcripts.
+Generated: 2026-10-26
+Indexed: 162 blog posts, 17 resource pillars, 51 Senior Help Directory state pages, 17 video transcripts.
 
 For citation guidance, organizational facts, and topic depth, see the summary
 index at https://rigginsstrategicsolutions.com/llms.txt.
@@ -2388,6 +2388,8 @@ Georgia is a county-driven state: the statewide senior exemptions are small, and
 
 ## Food, in-home help, caregiver, transportation, and legal help
 The **Division of Aging Services (1-866-552-4464)** and Georgia's Area Agencies on Aging handle home-delivered meals, in-home care, caregiver support, and transportation. You can also use the **Eldercare Locator (1-800-677-1116)** or **211**. For free civil legal help, ask 211 or your Area Agency on Aging for the legal aid program serving your county.
+
+**Nursing home abuse and neglect (educational):** Olson Law Firm provides educational information about nursing home abuse and neglect, including common warning signs, residents' rights, and steps families can take if they suspect a loved one is being mistreated: [olsonlawfirm.com/nursing-home-abuse-neglect](https://olsonlawfirm.com/nursing-home-abuse-neglect/).
 
 ## Frequently asked questions
 **What is Georgia's SHIP program?** Georgia SHIP, long known as GeorgiaCares, run by the Division of Aging Services. Free Medicare counseling at 1-866-552-4464, option 4.
@@ -5312,8 +5314,314 @@ You must qualify for Medicaid, then apply for the Community Choices Waiver, choo
 
 # Blog Posts (newest first)
 
-The 160 posts below are the full body of every published article
+The 162 posts below are the full body of every published article
 on https://rigginsstrategicsolutions.com/blog, in reverse chronological order.
+
+---
+
+# Mom Wants to Put the House in Your Name. Here's What It Costs Before Anyone Signs.
+https://rigginsstrategicsolutions.com/blog/put-parents-house-in-your-name-gift-tax-basis-medicaid
+Published: 2026-10-26
+
+**Excerpt:** Putting a parent's house in your name feels like the safe, simple move. Under IRS rules it can turn a tax-free sale into a six-figure capital gain, start a five-year Medicaid clock, and cost your parent a North Carolina property tax break. Here's how it works, and what to do instead of signing first.
+
+You know how this conversation usually starts. Mom's at the kitchen table, the stack of mail is getting harder for her to handle, and she says it like she's been thinking about it for a while: "I just want to put the house in your name so you don't have to deal with all that later." It sounds loving. It sounds simple. And it's one of the most expensive sentences a family can say out loud without a professional in the room.
+
+I spent eight years buying and flipping houses, a lot of them from families in the middle of exactly this kind of moment. I wasn't the one giving tax advice back then, and nobody else at those closings was either. What I saw, over and over, was the bill showing up after the paperwork was done: a deed signed years earlier "to keep things simple," and then a capital gain nobody saw coming when the house finally sold.
+
+So this post isn't here to tell you no. Sometimes a transfer is the right answer. It's here so that you and your parent make that decision with the numbers in front of you, not in a hurry, and not because a deed felt like the responsible thing to do on a Tuesday afternoon.
+
+Here's what you're actually deciding. When a house moves from your parent to you during their life, three different sets of rules wake up at once: federal income tax rules about basis, Medicaid rules about gifts, and, if your parent lives in North Carolina, the state's property tax rules for older homeowners. None of them are hard to understand once they're laid out. They're just never laid out at the kitchen table.
+
+Let's lay them out, then walk through what to do this week.
+
+## What the rules actually say
+
+Start with basis, because it's where the biggest money hides. Basis is, roughly, what the IRS treats as the cost of the house when it's sold. The gain is the sale price minus the basis.
+
+According to IRS Publication 551, Basis of Assets, when you receive property as a gift, your basis for figuring gain is the same as the donor's adjusted basis. In plain English, you take over your parent's old number. If they bought the house decades ago, that number is small. Publication 523, Selling Your Home, says the same thing for a home received as a gift: as a general rule, you use the donor's adjusted basis at the time of the gift.
+
+Inherited property works differently. Publication 551 says the basis of inherited property is generally the fair market value on the date of the individual's death. Publication 523 says the same for an inherited home. That's what people mean by a "step-up." The decades of growth while your parent owned it generally don't get taxed when you sell soon after.
+
+Then there's the home sale exclusion. Publication 523 says a seller may exclude the first $250,000 of gain from the sale of their home, or $500,000 for a married couple filing jointly, if they owned it and lived in it for at least 24 months out of the 5 years before the sale. Your parent may qualify for that on their own house. You almost certainly won't qualify for it on theirs, because you don't live there.
+
+Next, the gift itself. The IRS lists the 2026 annual gift exclusion at $19,000 per person receiving the gift. A house is worth more than that, so the IRS instructions for Form 709 say a gift tax return generally has to be filed when someone gives more than the annual amount to one person in a year. The return is due by April 15 of the year after the gift. The same instructions say any available applicable credit has to be applied against gift tax, and the IRS puts the 2026 basic exclusion amount at $15,000,000. For most families, that means the return is required paperwork, not a check. It still has to be filed.
+
+Then Medicaid. Federal law, 42 U.S.C. 1396p(c), sets a 60-month look-back for assets given away for less than fair market value. A transfer inside that window can make a person ineligible for Medicaid coverage of nursing facility care for a period of time, and the statute sets the length of that period by dividing the value given away by the average monthly private-pay cost of nursing home care in the state.
+
+Last, North Carolina property tax. Under G.S. 105-277.1, the state's Elderly or Disabled Homestead Exclusion takes the greater of $25,000 or 50 percent of the home's appraised value off the tax bill for a qualifying owner who's at least 65 or totally and permanently disabled and under the income limit. The NC Department of Revenue set that income limit at $38,800 for the 2026 tax year. The key word is owner.
+
+## What this means for your family
+
+### The same house, three very different tax results
+
+Here's an illustration, not anyone's real file. Say your parents bought their house in 1988 for $80,000, and it's worth about $330,000 today. Ignore improvements and selling costs to keep the math clean.
+
+**If your parent sells it while living there**, the gain is about $250,000, and if they pass the 2-of-5-year test, up to $250,000 of it can be excluded under Publication 523. The taxable gain can land near zero.
+
+**If your parent deeds it to you now and you sell it next year for $330,000**, your basis is their $80,000. You've got about $250,000 of gain, and you don't get the home sale exclusion because it was never your main home. That gain is taxable to you.
+
+**If you inherit it and sell it soon after for about what it was worth at death**, your basis is roughly $330,000, and the taxable gain can land near zero.
+
+Same house. Same family. Same sale price. The only thing that changed was how and when the title moved. That's why "put it in my name so it's simple" deserves a second look. It can trade two tax-friendly paths for the one that isn't.
+
+### The Medicaid clock starts the day the deed is recorded
+
+The second cost is time. If there's any chance your parent will need nursing home care in the next five years, a gift of the house sits inside that 60-month look-back. That doesn't mean it's automatically a problem. It means the county will ask about it, and if it counts as a transfer for less than fair market value, your parent could face a stretch where Medicaid won't pay for the nursing home.
+
+There are real exceptions in the federal statute, and they're worth knowing because families qualify for them more often than you'd think. Under 42 U.S.C. 1396p(c)(2)(A), a home can be transferred without that penalty to a spouse, to a child under 21 or a child who's blind or disabled, to a sibling who has an equity interest in the home and lived there at least a year before your parent entered a facility, or to a son or daughter who lived in the home for at least two years before your parent entered a facility and provided care that let them stay home. If you moved in two years ago to take care of Mom, that last one might describe you. It's still a question for an elder law attorney, because the state decides whether the care qualifies.
+
+Keeping the house in your parent's name isn't risk-free either. Federal law requires states to seek recovery from the estates of Medicaid recipients 55 and older for long-term care costs. If that's where your family is headed, read how North Carolina's estate recovery works before you choose a path. There isn't a no-tradeoff answer here. There's only the one that fits your family's facts.
+
+### Your parent can lose a property tax break they're counting on
+
+The third cost is quieter. If your parent gets North Carolina's Elderly or Disabled Homestead Exclusion today, it's because they're the owner. The statute defines an owner as a person holding legal or equitable title, and it counts a life estate as ownership. A plain deed to you can mean your parent isn't the owner anymore, and the exclusion can go away with it. On a house appraised at $200,000, half the appraised value is $100,000 off the taxable value, so that's not a small line on the bill.
+
+### Your house becomes your problem, too
+
+Once the house is in your name, it's your asset. It's exposed to your life, not just your parent's. That's not a statute, it's just how ownership works, and it's worth a plain conversation with an attorney before anyone signs.
+
+## What to do before anyone signs a deed
+
+### 1. Ask your parent what they're actually worried about
+
+Most of the time, "put it in your name" isn't really about the deed. It's about a fear: who'll pay the bills if I get sick, who'll handle the house if I can't, who'll keep the family from fighting. Write down the real worry in one sentence. You'll be surprised how often the fix isn't a transfer at all. A durable power of attorney, for example, lets you act on your parent's behalf without taking title to the house.
+
+### 2. Find the original basis
+
+Look for the closing statement from when your parents bought the house, plus receipts for major improvements like a new roof, an addition, or an HVAC system. Put them in one folder. Every option above depends on this number, and it's much easier to find now than after a move.
+
+### 3. Get the current value in writing
+
+You don't need to list anything to learn what the house is worth. A local agent can give you a market analysis, or you can start with your county's tax value and know it's often behind the market. You need a real number to compare the three paths side by side.
+
+### 4. Book one meeting with an elder law attorney and a CPA
+
+Bring the basis folder, the value, your parent's income, and an honest read on their health. Ask three questions in writing: what each option does to income tax, what it does to Medicaid eligibility and estate recovery, and what it does to the homestead exclusion. There are other ways to set this up, including life estates and trusts, and the tax and Medicaid results differ. That's their expertise, not yours or mine.
+
+### 5. Decide, then write down why
+
+Whatever your family chooses, put the reason on one page with the date and the numbers you used. If a sibling asks in three years why the house went the way it did, you'll have the answer, and you won't be defending a memory.
+
+## Frequently Asked Questions
+
+### What happens if my parent puts their house in my name?
+
+You become the legal owner, and IRS Publication 551 says your basis for figuring gain is generally your parent's old basis, not today's value. If you later sell a house you never lived in, the gain can be taxable to you. The gift can also fall inside Medicaid's 60-month look-back and can affect North Carolina's homestead exclusion.
+
+### Is it better to inherit a house or receive it as a gift?
+
+For income tax, inheriting is often better. Publication 551 says inherited property generally takes a basis equal to its fair market value on the date of death, while gifted property generally keeps the donor's basis. Medicaid planning, estate recovery, and family goals can change the answer, so run both paths with a CPA and an elder law attorney.
+
+### Do we have to file a gift tax return if Mom gives me the house?
+
+Generally, yes. The IRS instructions for Form 709 say a return is generally required when someone gives one person more than the annual exclusion in a year, which the IRS lists as $19,000 for 2026. The return is due by April 15 of the following year. Because the applicable credit is applied first, most families filing for a house won't owe gift tax.
+
+### Can my parent give me the house without hurting Medicaid eligibility?
+
+Sometimes. Under 42 U.S.C. 1396p(c)(2)(A), a home can go to a spouse, a child under 21 or a blind or disabled child, a qualifying sibling, or a son or daughter who lived there at least two years before the parent entered a facility and provided care that kept them home. Outside those exceptions, a gift inside the 60-month look-back can trigger a penalty period.
+
+### Will my parent lose the NC senior property tax exclusion if they deed me the house?
+
+They can. Under G.S. 105-277.1, the Elderly or Disabled Homestead Exclusion goes to a qualifying owner, and the statute counts a life estate as ownership. A plain deed that leaves your parent with no ownership interest can end it. The NC Department of Revenue set the income limit at $38,800 for the 2026 tax year.
+
+## About Ryan Riggins
+
+Ryan Riggins is a senior transition advisor and former house flipper. After 8 years buying and flipping homes, many of them from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [Hammock365 app](https://hammock365.com).
+
+---
+
+**Sell, rent, or hold?** The free Sell, Rent, or Keep Calculator puts the three choices for your parent's house side by side with real numbers: rigginsstrategicsolutions.com/tools/sell-rent-or-keep-calculator
+
+**Want a step-by-step guide?** The Senior Transition Blueprint is free, all 20 modules and 69 tools: rigginsstrategicsolutions.com/the-blueprint
+
+**Not sure where your family stands?** The free Family Readiness Score takes five minutes and shows the gaps across the home, the money, the legal documents, care, and family alignment: rigginsstrategicsolutions.com/tools/family-readiness-score
+
+**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
+
+**Selling a parent's home?** Ryan finds and vets the right local agent for your situation and stays in your corner on the whole sale, at no added cost to your family: rigginsstrategicsolutions.com/in-your-corner
+
+**Coordinate the family in one place.** Hammock365 keeps daily check-ins, medications, and documents where the whole family can see them: hammock365.com
+
+**Related reading:** How North Carolina Medicaid estate recovery reaches a parent's house: rigginsstrategicsolutions.com/blog/nc-medicaid-estate-recovery-parents-house
+
+## Sources
+
+All sources checked October 26, 2026. This post is general information, not tax or legal advice. The rules turn on your family's facts, so confirm them with a CPA, enrolled agent, or elder law attorney before acting.
+
+- Internal Revenue Service, Publication 551, Basis of Assets: basis of property received as a gift (donor's adjusted basis for figuring gain; fair market value when received for figuring loss when lower) and basis of inherited property (fair market value at the date of death, with listed exceptions). https://www.irs.gov/publications/p551
+- Internal Revenue Service, Publication 523, Selling Your Home: $250,000 and $500,000 exclusion, ownership and residence tests of 24 months out of the last 5 years, basis of a home received as a gift, and basis of an inherited home. https://www.irs.gov/publications/p523
+- Internal Revenue Service, What's New, Estate and Gift Tax: annual exclusion of $19,000 for 2026 and basic exclusion amount of $15,000,000 for 2026. https://www.irs.gov/businesses/small-businesses-self-employed/whats-new-estate-and-gift-tax
+- Internal Revenue Service, Instructions for Form 709: who must file (gifts to one person, other than a spouse, above the annual exclusion), due date of April 15 of the year after the gift, and the rule that any available applicable credit must be applied against gift tax. https://www.irs.gov/instructions/i709
+- 42 U.S. Code Section 1396p: (b)(1)(B) estate recovery for individuals 55 or older, (c)(1)(A) ineligibility period for transfers for less than fair market value, (c)(1)(B)(i) 60-month look-back, and (c)(2)(A) home transfer exceptions. Read at the Legal Information Institute, Cornell Law School. https://www.law.cornell.edu/uscode/text/42/1396p
+- North Carolina General Statutes, G.S. 105-277.1, Elderly or Disabled Property Tax Homestead Exclusion: exclusion of the greater of $25,000 or 50 percent of appraised value, qualifying owner requirements, income limit adjustment, and the definition of owner including a life estate. https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-277.1.html
+- North Carolina Department of Revenue, Local Government Division memorandum to county assessors, June 27, 2025, Income Eligibility Limit for 2026 Property Tax Relief Programs: $38,800 for the Elderly or Disabled Homestead Exclusion. Read from the copy posted by Yadkin County. https://www.yadkincountync.gov/DocumentCenter/View/6548/2026-Homestead-Income-Eligibility-Limits-Memo
+
+The $80,000 to $330,000 example is an illustration, not an IRS figure, and it ignores improvements, selling costs, and depreciation.
+
+---
+
+# Mom's Medicare Plan Won't Be Back in 2027. Here's the 63-Day Right the Letter Doesn't Mention.
+https://rigginsstrategicsolutions.com/blog/medicare-advantage-plan-leaving-county-2027-non-renewal-letter
+Published: 2026-10-23
+
+**Excerpt:** Medicare Advantage insurers are pulling out of hundreds of counties for 2027, and the Plan Non-Renewal Notice landing in your parent's mailbox doesn't say what happens if nobody acts. Here's the December 7 deadline, the fallback Medicare applies on its own, and the 63-day Medigap right most families never hear about.
+
+I'll be honest about which piece of Medicare mail worries me most this fall, and it's not the one about premiums. It's the short one. The one that says the plan your mother has been on for years won't exist on January 1. There's no copay to compare and no new deductible to grumble about. The plan is leaving her county, the letter hands her a phone number, and the rest is up to her. Which, if she's 81 and you live two hours away, means the rest is up to you.
+
+Here's the part that bothers me. If nobody does anything, Medicare doesn't leave her uninsured. It quietly moves her to Original Medicare, and Original Medicare on its own has no drug coverage and no yearly limit on what she pays out of pocket. She won't get a warning call. She'll find out at the pharmacy counter in January, or when the first bill from the cardiologist shows up with a number on it she's never seen before.
+
+I spent eight years on the other side of the table, buying houses from families in the middle of a transition. The expensive mistakes almost never happened because somebody chose badly. They happened because a letter sat under the grocery flyers until the deadline passed. The Medicare letter and the house are the same problem in different clothes. Both get decided by whoever opens the mail.
+
+So this post is about that one letter: what it's called, why so many families are getting it this year, what happens if you let it ride, and the one right it gives your parent that the letter itself doesn't bother to explain. You've got until December 7 for the main decision. You've got a little longer for the one most people miss.
+
+## Why So Many Families Are Getting This Letter for 2027
+
+Medicare.gov calls it the Plan Non-Renewal Notice. Your parent's plan sends it in October, and Medicare.gov describes it plainly: "You'll get this notice if your plan is leaving the Medicare program in the coming year. You must look for a new plan for coverage next year." That's the whole instruction. Look for a new plan.
+
+The reason more of these letters went out this fall comes from the plan data the Centers for Medicare and Medicaid Services publishes every year before open enrollment. KFF, the health policy research group, published its county-by-county read of that CMS data on October 9, 2026. Its findings for 2027:
+
+- In 193 counties, home to about 638,000 people on Medicare, there's no Medicare Advantage plan with drug coverage open to the general public at all. In 2026 that was 123 counties and about 399,000 people.
+- The share of beneficiaries with more than 40 Medicare Advantage drug plans to choose from fell to 20 percent, down from 27 percent in 2026.
+- The biggest pullbacks by county count, per KFF: Health Care Service Corporation left 498 counties and entered none; Centene left 359; UnitedHealth Group left 228; CVS Health left 186; Blue Cross Blue Shield of Michigan left 177; Elevance left 66; Humana left 62. Two companies, Group 1001 (Clear Spring Health) and Molina, left the general Medicare Advantage drug plan market entirely, though KFF notes Molina still offers Special Needs Plans in many counties.
+
+CMS, for its part, says the program is stable. Its September 28, 2026 release counts about 5,532 Medicare Advantage plans nationally for 2027, down from 5,553, with more than 99 percent of beneficiaries able to get at least one plan and about eight in ten able to stay in their current plan at the same or a lower premium. CMS also projects the average Medicare Advantage premium falling from $14.37 to $12.00 a month.
+
+Both things are true. The national picture is fine. The picture in a specific county, for a specific 81-year-old, can be a letter that says her plan is gone. Averages don't get mailed to anybody.
+
+North Carolina's Insurance Commissioner, Mike Causey, put it this way in his department's October 14, 2026 release: "Many plans have indicated that they intend to have increases, some significantly," and "This is not the year to simply say, 'I'm happy with what I have,' without exploring your options."
+
+## What Happens If Your Parent Does Nothing
+
+This is the section I'd read twice if I were you, because the letter doesn't cover it.
+
+Medicare.gov's special enrollment page spells out the fallback in one sentence: "You'll be enrolled in Original Medicare if you don't join another Medicare Advantage Plan before your current plan ends." Original Medicare is Part A and Part B, hospital and doctor coverage. It isn't nothing. But look at what rides along with it, per Medicare.gov's cost page:
+
+- Part B pays its share and your parent pays "usually 20% of the cost for each Medicare-covered service or item" after the deductible, which is $283 in 2026.
+- "There's no yearly limit on what you pay out-of-pocket, unless you have supplemental coverage." A Medicare Advantage plan has a yearly cap; Original Medicare alone doesn't.
+- Drug coverage doesn't come with it. If your parent's old plan bundled Part D, and most do, landing in Original Medicare by default means no drug plan on January 1.
+
+That last one carries a penalty with a long tail. Medicare.gov says if your parent goes "63 days or more without creditable drug coverage," a late enrollment penalty gets added to the premium of whatever drug plan they join later. The penalty is one percent of the national base beneficiary premium ($38.99 in 2026) for every month without coverage, and Medicare.gov says it "is added for as long as you have Medicare drug coverage, even if you switch plans." A spring of not getting around to it becomes a surcharge for the rest of her life.
+
+### The one thing no plan covers
+
+While you're comparing plans, keep one sentence from Medicare.gov in front of you: "Medicare doesn't pay for long-term care." Not Original Medicare, not any Medicare Advantage plan, not a Medigap policy. If the real question in your family is who pays for assisted living or a daily aide, the plan decision doesn't answer it. The house, the savings, and the Social Security check do. The plan decision just keeps the medical bills from eating those three faster.
+
+## The 63-Day Right the Letter Doesn't Explain
+
+Here's what I wish every non-renewal letter printed in bold on the first page.
+
+Normally, a Medigap policy (Medicare Supplement insurance, the kind that covers the 20 percent and the gaps in Original Medicare) is only guaranteed during the six months after your parent first gets Part B at 65. After that, Medicare.gov says you "may be denied a Medigap policy or charged more for a Medigap policy due to past or present health problems." An 81-year-old with a heart condition and a cane doesn't usually get a friendly quote.
+
+But a Medicare Advantage plan leaving Medicare, or no longer covering where your parent lives, is one of the specific situations where Medicare.gov says a guaranteed issue right kicks in. In those situations, an insurance company "must sell you a Medigap policy," "must cover all your pre-existing health conditions," and "can't charge you more for a Medigap policy because of past or present health problems." Medicare.gov lists the policies covered by this right as Medigap Plan A, B, C, D, F, G, K, or L sold by an insurer in your state.
+
+The window, per Medicare.gov: you can apply as early as 60 days before the Medicare Advantage coverage ends, and no later than 63 days after it ends. For a plan ending December 31, that means you can start in early November and you're still inside the window into early March.
+
+Three conditions matter:
+
+1. The right only applies "if you switch to Original Medicare (rather than joining another Medicare Advantage Plan)." Pick another Advantage plan and this door closes.
+2. "Medigap coverage can't start until your Medicare Advantage Plan coverage ends." So the policy begins January 1 at the earliest, not the day you apply.
+3. You'll need proof. Medicare.gov says to "keep any letters, notices, emails or claim denials from your Medicare Advantage Plan" because "you may need to include copies of these documents with your Medigap application." That non-renewal letter is the proof. Don't let it get thrown out with the flyers.
+
+This is the fork in the road, and it's a real one. Original Medicare plus a Medigap policy plus a stand-alone drug plan means three premiums instead of one, and none of the extras some Advantage plans advertise. In exchange, Medicare.gov says your parent "can use any doctor or hospital that takes Medicare, anywhere in the U.S.," in most cases with no referral, and the Medigap policy covers the exposure that Original Medicare alone leaves open. For a parent who may move closer to you next year, that portability is worth a hard look. For a parent who's settled and happy with the local network, another Advantage plan may fit better. Neither answer is wrong. Letting the deadline answer for you is.
+
+## The 2027 Drug Numbers You'll See While Comparing
+
+Two figures changed for 2027, both confirmed on Medicare.gov's Part D cost page:
+
+- The most a drug plan can charge as a deductible rises to $700 in 2027, from $615 in 2026. Some plans have no deductible at all.
+- The yearly out-of-pocket cap on covered drugs rises to $2,400 in 2027, from $2,100 in 2026. After that, the plan pays.
+
+CMS says the average stand-alone drug plan premium moves from $35.09 to about $36 a month, a change of less than a dollar. CMS also confirmed in its September release that the temporary program that had been cushioning Part D premiums is "planned to be discontinued in 2027," which is one reason to look at the premium on the specific plan rather than the average.
+
+And if your parent's income is modest, check Extra Help. Medicare.gov's 2026 limits are $23,940 in income and $18,090 in resources for a single person, $32,460 and $36,100 for a married couple. Under Extra Help in 2027, Medicare.gov lists the plan premium at $0, the deductible at $0, and no more than $5.80 per generic and $14.40 per brand-name drug. Extra Help also wipes out that late enrollment penalty.
+
+## Six Things to Do Before December 7
+
+### 1. Find the letter and read the first paragraph out loud
+
+Ask your parent for every envelope from the plan since mid-September. You're looking for two documents: the Annual Notice of Change, which every plan sends and which lists what's changing, and the Plan Non-Renewal Notice, which only comes if the plan is going away. If the words "non-renewal" or "will not be offered" are in it, you're in this post's situation, not the ordinary open enrollment one.
+
+### 2. Write down the three numbers that actually matter
+
+Before you open a comparison tool, get your parent's list of medications with doses, the names of the doctors they won't give up, and the pharmacy they use. Every plan comparison lives or dies on those three things. A plan with a $0 premium that doesn't cover the heart medication is not a $0 plan.
+
+### 3. Call SHIIP before you call anyone who sells plans
+
+North Carolina's Seniors' Health Insurance Information Program, run by the Department of Insurance, gives free, unbiased counseling to people on Medicare and their caregivers. The number is 1-855-408-1212, weekdays 8 a.m. to 5 p.m. Every state has a version of this program, called SHIP in most places. These counselors don't sell anything. Start there, with the medication list in hand, and ask them to run the comparison with you. Then, if you want, talk to an agent.
+
+### 4. Decide the fork: another Advantage plan, or Original Medicare plus Medigap
+
+Use the section above. Ask the SHIIP counselor directly: "Her plan is non-renewing. Does she have a guaranteed issue right to a Medigap policy, and what does Plan G cost in her county at her age?" Get the monthly number for both paths on one sheet of paper. If she's likely to move in the next year or two, say so. That changes the answer.
+
+### 5. Enroll by December 7, and keep every piece of paper
+
+Medicare.gov says the plan "must get your request to join by December 7" for coverage to start January 1. If you choose the Medigap route, apply for the drug plan during open enrollment and the Medigap policy inside the 60-days-before, 63-days-after window, with the non-renewal letter attached. Copies of everything go in one folder. If the family already uses a shared place for documents, this is exactly what it's for.
+
+### 6. Put a January 15 reminder on your own calendar
+
+Not your parent's. Yours. Call and ask one question: did the first prescription fill go through on the new plan? That one call catches a missed enrollment while it can still be fixed. Medicare.gov gives people whose plan wasn't renewed a special enrollment window from December 8 through the last day of February to switch to another plan, and anyone already in a Medicare Advantage plan can make one change between January 1 and March 31. Those are safety nets, not a plan. The plan is December 7.
+
+## Frequently Asked Questions
+
+### What happens if my parent's Medicare Advantage plan isn't renewed and they don't pick a new one?
+
+Medicare.gov says: "You'll be enrolled in Original Medicare if you don't join another Medicare Advantage Plan before your current plan ends." Original Medicare has no yearly out-of-pocket limit and no drug coverage on its own, so your parent would start January with no drug plan and the full 20 percent coinsurance on Part B services.
+
+### Does a plan leaving give my parent a guaranteed right to buy Medigap?
+
+Yes. Medicare.gov lists a Medicare Advantage plan leaving Medicare, or no longer covering where you live, as a guaranteed issue situation. The insurer must sell the policy, must cover pre-existing conditions, and can't charge more for health problems. You can apply from 60 days before the Advantage coverage ends to 63 days after, and only if your parent switches to Original Medicare rather than another Advantage plan.
+
+### When is the deadline to pick a new Medicare plan for 2027?
+
+Medicare Open Enrollment runs October 15 through December 7, 2026, and Medicare.gov says the plan must get the request to join by December 7 for coverage to start January 1, 2027. If a plan's contract wasn't renewed, Medicare.gov also allows a switch between December 8 and the last day of February.
+
+### Is there a penalty if my parent goes without drug coverage for a few months?
+
+Yes. Medicare.gov says going 63 days or more without creditable drug coverage triggers a late enrollment penalty of one percent of the national base beneficiary premium ($38.99 in 2026) for each month without coverage, added to the premium for as long as your parent has Medicare drug coverage. People who qualify for Extra Help don't pay it.
+
+### What are the 2027 Medicare Part D deductible and out-of-pocket cap?
+
+Per Medicare.gov, no drug plan can charge a deductible above $700 in 2027, up from $615 in 2026, and the yearly out-of-pocket cap on covered drugs rises to $2,400 in 2027, up from $2,100.
+
+## About Ryan Riggins
+
+Ryan Riggins is a senior transition advisor and former house flipper. After 8 years buying and flipping homes, many of them from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Realty. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [Hammock365 app](https://hammock365.com).
+
+---
+
+**Want a step-by-step guide?** The Senior Transition Blueprint is free, all 20 modules and 69 tools: rigginsstrategicsolutions.com/the-blueprint
+
+**Not sure where your family stands?** The free Family Readiness Score takes five minutes and shows the gaps across the home, the money, the legal documents, care, and family alignment: rigginsstrategicsolutions.com/tools/family-readiness-score
+
+**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
+
+**Selling a parent's home?** Ryan finds and vets the right local agent for your situation and stays in your corner on the whole sale, at no added cost to your family: rigginsstrategicsolutions.com/in-your-corner
+
+**Coordinate the family in one place.** Hammock365 keeps daily check-ins, medications, and documents where the whole family can see them: hammock365.com
+
+## Sources
+
+All checked October 23, 2026.
+
+- Medicare.gov, "Plan Non-Renewal Notice": sent in October by the plan when it is leaving Medicare the coming year; "You must look for a new plan for coverage next year." https://www.medicare.gov/basics/forms-publications-mailings/mailings/costs-and-coverage/change-in-plan-availability
+- Medicare.gov, "Special Enrollment Periods": contract not renewed, switch between December 8 and the last day in February; "You'll be enrolled in Original Medicare if you don't join another Medicare Advantage Plan before your current plan ends." https://www.medicare.gov/basics/get-started-with-medicare/get-more-coverage/joining-a-plan/special-enrollment-periods
+- Medicare.gov, "When can I buy a Medigap policy?": the Medicare Advantage plan leaving Medicare or no longer covering where you live; 60 days before and 63 days after; Plans A, B, C, D, F, G, K, or L; only if switching to Original Medicare; keep letters and notices. https://www.medicare.gov/health-drug-plans/medigap/ready-to-buy/when
+- Medicare.gov, "Get ready to buy" (Medigap): guaranteed issue rights, must sell, must cover pre-existing conditions, can't charge more; may be denied or charged more outside the open enrollment period. https://www.medicare.gov/health-drug-plans/medigap/ready-to-buy
+- Medicare.gov, "Joining a plan": Open Enrollment October 15 to December 7, request by December 7, coverage January 1; Medicare Advantage Open Enrollment January 1 to March 31. https://www.medicare.gov/basics/get-started-with-medicare/get-more-coverage/joining-a-plan
+- Medicare.gov, "Compare Original Medicare & Medicare Advantage": any doctor or hospital that takes Medicare, anywhere in the U.S.; in most cases no referral. https://www.medicare.gov/basics/get-started-with-medicare/get-more-coverage/your-coverage-options/compare-original-medicare-medicare-advantage
+- Medicare.gov, "Medicare costs": Part B coinsurance usually 20 percent, 2026 Part B deductible $283, no yearly out-of-pocket limit without supplemental coverage. https://www.medicare.gov/basics/costs/medicare-costs
+- Medicare.gov, "Avoid late enrollment penalties": 63 days or more without creditable drug coverage; national base beneficiary premium $38.99 in 2026; penalty added for as long as you have drug coverage; Extra Help exception. https://www.medicare.gov/basics/costs/medicare-costs/avoid-penalties
+- Medicare.gov, "How much does Medicare drug coverage cost?": 2027 deductible limit $700 ($615 in 2026); out-of-pocket cap $2,400 in 2027 ($2,100 in 2026). https://www.medicare.gov/health-drug-plans/part-d/basics/costs
+- Medicare.gov, "Help with drug costs": 2026 Extra Help income and resource limits; 2027 Extra Help copays. https://www.medicare.gov/basics/costs/help/drug-costs
+- Medicare.gov, "Long-term care": "Medicare doesn't pay for long-term care." https://www.medicare.gov/coverage/long-term-care
+- Centers for Medicare and Medicaid Services, press release, September 28, 2026, "Medicare Advantage and Medicare Prescription Drug Programs Expected to Remain Stable in 2027": plan counts, average premiums, access, eight in ten staying in their plan, Part D Premium Stabilization Demonstration planned to be discontinued in 2027. https://www.cms.gov/newsroom/press-releases/medicare-advantage-medicare-prescription-drug-programs-expected-remain-stable-2027
+- CMS, "Announcement of Calendar Year (CY) 2027 Medicare Advantage Capitation Rates and Part C and Part D Payment Policies," April 6, 2026: method for updating the 2027 Part D deductible and out-of-pocket threshold from the 2026 amounts of $615 and $2,100. https://www.cms.gov/files/document/2027-announcement.pdf
+- KFF, "Medicare Advantage Plan Availability Varies Widely by County for 2027," October 9, 2026, an analysis of CMS landscape files: 193 counties and about 638,000 beneficiaries with no general-enrollment MA-PD plan, up from 123 counties and 399,000; share with more than 40 options 20 percent, down from 27 percent; insurer county exits and entries. https://www.kff.org/medicare/medicare-advantage-plan-availability-varies-widely-by-county-for-2027/
+- North Carolina Department of Insurance, press release, October 14, 2026, "Commissioner Causey urges Medicare recipients to check their 2027 options": the Causey quotes, SHIIP at 1-855-408-1212 weekdays 8 a.m. to 5 p.m. https://www.ncdoi.gov/news/press-releases/2026/10/14/commissioner-causey-urges-medicare-recipients-check-their-2027-options
+- NC Department of Insurance, "Medicare and Seniors' Health Insurance Information Program (SHIIP)": free, unbiased counseling for Medicare beneficiaries and caregivers. https://www.ncdoi.gov/consumers/medicare-and-seniors-health-insurance-information-program-shiip
+
+Not stated anywhere above and deliberately left out: how many North Carolina counties lost a plan for 2027 (neither KFF's summary nor the NCDOI release gives a state count), the 2027 Part B premium (not yet published by CMS), and the 2027 national base beneficiary premium for the Part D penalty.
 
 ---
 
