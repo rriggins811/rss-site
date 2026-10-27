@@ -725,6 +725,15 @@ export const DIRECTORY_COUNTIES: DirectoryCounty[] = [
     blurb:
       "Jacksonville, Richlands, Swansboro, Sneads Ferry, Holly Ridge, Hubert and Camp Lejeune, NC programs for seniors and families: the Tax Office in Jacksonville and the 2026 and 2027 income limits for North Carolina's three relief programs, why the 2026 revaluation does not reach the bill until 2027 and how to appeal either value through December 31, 2026, a free Register of Deeds Property Check alert, Senior Services at the Multipurpose Complex for lunch at five sites, home-delivered meals, in-home aides, medical rides and free Medicare counseling at 60, the Food Bank's New Bern branch, a Medicaid rule that covers up to three months of past costs for applications filed by December 31, 2026, Onslow United Transit and 75-cent senior bus fares in Jacksonville, Urgent Repair through WARM, weatherization through Coastal Community Action, free legal help through Legal Aid's Wilmington office, Camp Lejeune water benefits for veterans and families, and the one PACE program the state lists for five Onslow ZIP codes.",
   },
+  {
+    slug: "craven-county-nc-senior-help-directory",
+    county: "Craven County",
+    state: "NC",
+    metro: "New Bern, Havelock, Trent Woods & Vanceboro",
+    region: "Coastal",
+    blurb:
+      "New Bern, Havelock, Trent Woods, River Bend, Vanceboro, Bridgeton, Cove City and Dover, NC programs for seniors and families: the Tax Department on Pollock Street and the 2026 and 2027 income limits for North Carolina's three relief programs, why Craven's next revaluation is 2028, a lower recycle fee on elderly and disabled bills, Senior Services at the George Street Senior Center for home-delivered meals, the Sunshine Center and the Memory Cafe, weekday lunch at the Havelock Senior Center, the Food Bank's New Bern branch, a Medicaid rule that covers up to three months of past costs for applications filed by December 31, 2026, CARTS rides from $1 and EDTAP ride help at 60, weatherization through Coastal Community Action, Project Lifesaver in New Bern, Havelock's twice-weekly senior check-in calls, free legal help through Legal Aid's Greenville office, and the PACE program that covers the whole county.",
+  },
 ];
 
 export type DirectoryState = {
