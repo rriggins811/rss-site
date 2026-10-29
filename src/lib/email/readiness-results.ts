@@ -173,7 +173,7 @@ export async function sendReadinessResultsEmail(args: {
   <hr style="border:none;border-top:1px solid #e5e5e5;margin:32px 0;">
 
   <p style="font-size:11px;color:#888;">
-    Ryan Riggins | NC Real Estate License #361546 | eXp Realty<br>
+    Ryan Riggins | NC Real Estate License #361546 | eXp Commercial<br>
     ${escapeHtml(MAILING_ADDRESS)}<br>
     These results are educational and not a substitute for legal, financial, tax, or medical advice.<br>
     You're receiving this because you asked for your results at rigginsstrategicsolutions.com. To stop receiving emails, reply with "unsubscribe."
@@ -210,7 +210,7 @@ Riggins Strategic Solutions
 (336) 553-8933
 
 ---
-Ryan Riggins | NC Real Estate License #361546 | eXp Realty
+Ryan Riggins | NC Real Estate License #361546 | eXp Commercial
 ${MAILING_ADDRESS}
 These results are educational and not a substitute for legal, financial, tax, or medical advice.
 You're receiving this because you asked for your results at rigginsstrategicsolutions.com. To stop receiving emails, reply with "unsubscribe."

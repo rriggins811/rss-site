@@ -83,4 +83,4 @@ Yes. RIPAE (Rhode Island Pharmaceutical Assistance to the Elderly), run by the O
 - RI Division of Taxation, 2025 RI-1040 Instructions (Property Tax Relief Credit, maximum $700, income limit $40,730): https://tax.ri.gov/sites/g/files/xkgbur541/files/2025-12/2025%201040R%20Instructions%20122025.pdf (Verified June 13, 2026)
 - RI Division of Taxation, Personal Income Tax Forms: https://tax.ri.gov/forms/individual-tax-forms/personal-income-tax-forms (Verified June 13, 2026)
 
-*Ryan Riggins, NC Real Estate License #361546, eXp Realty. Riggins Strategic Solutions is an education and media company, not a real estate sales business. This is not financial, tax, medical, or legal advice. Income limits, rates, and deadlines change annually, confirm with the program or a licensed professional before acting.*
+*Ryan Riggins, NC Real Estate License #361546, eXp Commercial. Riggins Strategic Solutions is an education and media company, not a real estate sales business. This is not financial, tax, medical, or legal advice. Income limits, rates, and deadlines change annually, confirm with the program or a licensed professional before acting.*

@@ -53,7 +53,7 @@ In North Carolina, a licensed broker is also required to walk you through a shor
 
 ## How I do it
 
-I am a licensed North Carolina broker (#361546, eXp Realty), and I spent eight years on the other side as a cash buyer before switching sides. Now I do one thing: help families think through a parent's house before anyone lists it.
+I am a licensed North Carolina broker (#361546, eXp Commercial), and I spent eight years on the other side as a cash buyer before switching sides. Now I do one thing: help families think through a parent's house before anyone lists it.
 
 - **The first step is a 30-minute call.** By phone, video, email, or text, whichever is easiest. No obligation.
 - **I never take the listing and I never buy the house.**

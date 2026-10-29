@@ -48,4 +48,4 @@ The **Ohio Department of Aging (aging.ohio.gov)** oversees Ohio's Area Agencies 
 UNVERIFIED: Ohio Homestead Exemption figures ($29,000 exemption, $41,000 income limit, $58,000 disabled veteran) were verified on a county auditor page dated October 2024 describing tax year 2025 collected in 2026, not directly on tax.ohio.gov. A pending Ohio House expansion bill (reported around $30,000/$60,000) has passed the House only and is NOT law. Spot-check current figures at tax.ohio.gov before publishing.
 
 ---
-*Ryan Riggins, NC Real Estate License #361546, eXp Realty. Riggins Strategic Solutions is an education and media company, not a real estate sales business. This is not financial, tax, medical, or legal advice. Income limits, rates, and deadlines change annually, confirm with the program or a licensed professional before acting.*
+*Ryan Riggins, NC Real Estate License #361546, eXp Commercial. Riggins Strategic Solutions is an education and media company, not a real estate sales business. This is not financial, tax, medical, or legal advice. Income limits, rates, and deadlines change annually, confirm with the program or a licensed professional before acting.*

@@ -194,7 +194,7 @@ export default function SortingTrackerPage() {
       <section className="bg-white">
         <div className="mx-auto max-w-3xl px-6 py-12 text-center text-xs text-ink/60">
           <p>
-            Ryan Riggins &middot; NC Real Estate License #361546 &middot; eXp Realty
+            Ryan Riggins &middot; NC Real Estate License #361546 &middot; eXp Commercial
           </p>
         </div>
       </section>

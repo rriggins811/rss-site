@@ -93,4 +93,4 @@ New applicants apply through iServe Nebraska. Existing cases can be managed at A
 - Nebraska DOR 2026 Income Table: https://revenue.nebraska.gov/sites/default/files/doc/pad/homestead/2026%20Income%20Table.pdf (Verified June 11, 2026)
 - Nebraska DHHS Area Agencies on Aging: https://dhhs.ne.gov/Pages/Area-Agencies-on-Aging-Benefit-Seniors.aspx (Verified June 11, 2026)
 
-*Ryan Riggins, NC Real Estate License #361546, eXp Realty. Riggins Strategic Solutions is an education and media company, not a real estate sales business. This is not financial, tax, medical, or legal advice. Income limits, rates, and deadlines change annually, confirm with the program or a licensed professional before acting.*
+*Ryan Riggins, NC Real Estate License #361546, eXp Commercial. Riggins Strategic Solutions is an education and media company, not a real estate sales business. This is not financial, tax, medical, or legal advice. Income limits, rates, and deadlines change annually, confirm with the program or a licensed professional before acting.*

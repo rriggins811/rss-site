@@ -45,4 +45,4 @@ Call DACL at 202-724-5626 or the Eldercare Locator at 1-800-677-1116, or dial 2-
 - DC Department of Energy and Environment (DOEE), LIHEAP: https://doee.dc.gov/liheap (Verified June 15, 2026)
 - AARP Legal Counsel for the Elderly / DC Long-Term Care Ombudsman: https://www.aarp.org/legal-counsel-for-elderly/ (Verified June 15, 2026)
 
-*Ryan Riggins, NC Real Estate License #361546, eXp Realty. Riggins Strategic Solutions is an education and media company, not a real estate sales business. This is not financial, tax, medical, or legal advice. Income limits, rates, and deadlines change annually, confirm with the program or a licensed professional before acting.*
+*Ryan Riggins, NC Real Estate License #361546, eXp Commercial. Riggins Strategic Solutions is an education and media company, not a real estate sales business. This is not financial, tax, medical, or legal advice. Income limits, rates, and deadlines change annually, confirm with the program or a licensed professional before acting.*

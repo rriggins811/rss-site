@@ -30,7 +30,7 @@ export function WelcomeVideo() {
         AI avatar of Ryan, reading Ryan&rsquo;s words.
       </p>
       <p className="mt-1 text-center text-xs text-ink/55">
-        Ryan Riggins &middot; NC Real Estate License #361546 &middot; eXp Realty
+        Ryan Riggins &middot; NC Real Estate License #361546 &middot; eXp Commercial
       </p>
 
       <div className="mt-3 flex justify-center">

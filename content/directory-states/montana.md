@@ -82,4 +82,4 @@ Apply online at apply.mt.gov or at a local Office of Public Assistance, and call
 - Montana Department of Revenue, Property Tax Assistance Program (PTAP): https://revenue.mt.gov/property/property-tax-help/ptap (Verified June 13, 2026)
 - Montana DPHHS, Prescription Drug Assistance (Big Sky Rx): https://dphhs.mt.gov/montanahealthcareprograms/prescriptiondrugassistance/ (Verified June 13, 2026)
 
-*Ryan Riggins, NC Real Estate License #361546, eXp Realty. Riggins Strategic Solutions is an education and media company, not a real estate sales business. This is not financial, tax, medical, or legal advice. Income limits, rates, and deadlines change annually, confirm with the program or a licensed professional before acting.*
+*Ryan Riggins, NC Real Estate License #361546, eXp Commercial. Riggins Strategic Solutions is an education and media company, not a real estate sales business. This is not financial, tax, medical, or legal advice. Income limits, rates, and deadlines change annually, confirm with the program or a licensed professional before acting.*

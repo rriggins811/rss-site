@@ -49,4 +49,4 @@ Washington's Area Agencies on Aging (overseen by DSHS Aging and Long-Term Suppor
 UNVERIFIED: The county income threshold examples (about $84,000 King County, about $50,000 Spokane County for 2026) came from county and news summaries, not pulled directly from the DOR threshold table this session. Spot-check both numbers on the DOR income threshold page before publishing, or drop the examples and keep "varies by county."
 
 ---
-*Ryan Riggins, NC Real Estate License #361546, eXp Realty. Riggins Strategic Solutions is an education and media company, not a real estate sales business. This is not financial, tax, medical, or legal advice. Income limits, rates, and deadlines change annually, confirm with the program or a licensed professional before acting.*
+*Ryan Riggins, NC Real Estate License #361546, eXp Commercial. Riggins Strategic Solutions is an education and media company, not a real estate sales business. This is not financial, tax, medical, or legal advice. Income limits, rates, and deadlines change annually, confirm with the program or a licensed professional before acting.*

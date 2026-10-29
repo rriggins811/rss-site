@@ -71,7 +71,7 @@ const credentials: { title: string; body: string }[] = [
   },
   {
     title: "Licensed, and on one side only",
-    body: "Licensed NC broker (#361546, eXp Realty). I never take the listing and I never buy the house.",
+    body: "Licensed NC broker (#361546, eXp Commercial). I never take the listing and I never buy the house.",
   },
   {
     title: "Systems thinker",
@@ -115,7 +115,7 @@ export default function AboutPage() {
               className="mt-6 max-w-prose"
               topic="About Ryan"
               question="Who is Ryan Riggins?"
-              answer="Ryan Riggins is a Senior Transition Advisor for the family home and the founder of Riggins Strategic Solutions. He helps a family decide what happens to a parent's house before anyone lists it. He spent eight years in construction project management and house flipping before switching sides to help the families he used to do business with. Two books on Amazon. North Carolina real estate broker license number 361546, with eXp Realty."
+              answer="Ryan Riggins is a Senior Transition Advisor for the family home and the founder of Riggins Strategic Solutions. He helps a family decide what happens to a parent's house before anyone lists it. He spent eight years in construction project management and house flipping before switching sides to help the families he used to do business with. Two books on Amazon. North Carolina real estate broker license number 361546, with eXp Commercial."
             />
             <p className="mt-6 max-w-prose font-serif text-xl text-burgundy-600 leading-snug">
               &ldquo;I&rsquo;m not a move manager and I&rsquo;m not a listing

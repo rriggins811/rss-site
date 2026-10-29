@@ -297,7 +297,7 @@ export default function PartnersPage() {
         <div className="mx-auto max-w-3xl px-6 py-8">
           <p className="text-xs text-ink/60 leading-relaxed">
             Ryan Riggins is a licensed real estate broker in North Carolina
-            (License #361546 with eXp Realty). Content is for educational
+            (License #361546 with eXp Commercial). Content is for educational
             purposes only and does not constitute legal, tax, financial or
             medical advice. Tax figures cited are general federal rules and are
             not advice about any specific situation. Always consult licensed

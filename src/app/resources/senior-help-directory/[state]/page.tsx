@@ -336,7 +336,7 @@ export default async function StateDirectoryPage({
         <div className="mx-auto max-w-4xl px-6 py-12">
           <p className="text-xs text-ink/60 leading-relaxed">
             Ryan Riggins is a licensed North Carolina real estate agent
-            (#361546, eXp Realty). Riggins Strategic Solutions is an education
+            (#361546, eXp Commercial). Riggins Strategic Solutions is an education
             and media company, not a real estate sales business. This directory
             is not a solicitation to buy, sell, or list a home, and it is not
             financial, tax, medical, or legal advice. Programs, income limits,

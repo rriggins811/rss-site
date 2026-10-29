@@ -27,7 +27,7 @@ const FAQS: { q: string; a: string }[] = [
   },
   {
     q: "What does this cost me?",
-    a: "Nothing beyond the commission you would already pay on the sale. I am paid a referral fee agent to agent through eXp Realty, out of that existing commission. There is no invoice from me and no added cost to your family.",
+    a: "Nothing beyond the commission you would already pay on the sale. I am paid a referral fee agent to agent through eXp Commercial, out of that existing commission. There is no invoice from me and no added cost to your family.",
   },
   {
     q: "What if I am not ready to sell yet?",
@@ -69,7 +69,7 @@ export default function NeedAnAgentPage() {
           serviceType: "Real estate agent referral and buyer-side advocacy",
           url: abs("/need-an-agent"),
           description:
-            "Ryan Riggins finds and vets the right local real estate agent for a family selling a home, and stays on the sale as a second set of eyes. No listing presentations to sit through. No added cost to the family: the referral fee is paid agent to agent through eXp Realty out of the existing commission. Ryan is a licensed North Carolina broker who never takes the listing.",
+            "Ryan Riggins finds and vets the right local real estate agent for a family selling a home, and stays on the sale as a second set of eyes. No listing presentations to sit through. No added cost to the family: the referral fee is paid agent to agent through eXp Commercial out of the existing commission. Ryan is a licensed North Carolina broker who never takes the listing.",
           provider: {
             "@type": "Person",
             name: "Ryan Riggins",
@@ -125,7 +125,7 @@ export default function NeedAnAgentPage() {
             commission they were charging anyway. Nothing is added to what you pay.
           </p>
           <p className="mt-8 border-t border-cream/20 pt-5 text-sm text-cream/70">
-            Ryan Riggins, Senior Transition Advisor · Riggins Strategic Solutions, with eXp Realty ·
+            Ryan Riggins, Senior Transition Advisor · Riggins Strategic Solutions, with eXp Commercial ·
             NC License #361546
           </p>
         </div>

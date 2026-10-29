@@ -45,4 +45,4 @@ Meals on Wheels, in-home aide services, the Florida Department of Elder Affairs 
 - Florida Dept. of Revenue, additional homestead exemption for persons 65+ (Form DR-501SC): https://floridarevenue.com/property/Pages/Taxpayers_Exemptions.aspx . Verified June 3, 2026.
 
 ---
-*Ryan Riggins, NC Real Estate License #361546, eXp Realty. Riggins Strategic Solutions is an education and media company, not a real estate sales business. This is not financial, tax, medical, or legal advice. Income limits, rates, and deadlines change annually, confirm with the program or a licensed professional before acting.*
+*Ryan Riggins, NC Real Estate License #361546, eXp Commercial. Riggins Strategic Solutions is an education and media company, not a real estate sales business. This is not financial, tax, medical, or legal advice. Income limits, rates, and deadlines change annually, confirm with the program or a licensed professional before acting.*

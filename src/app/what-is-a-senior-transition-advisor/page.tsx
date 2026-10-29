@@ -141,7 +141,7 @@ const faqs: FAQItem[] = [
   {
     question: "What does a Senior Transition Advisor for the family home cost?",
     answer:
-      "Nothing to the family. There's no fee and no invoice. If the family decides to sell, the agent I refer pays me a referral fee at closing out of the commission you were already going to pay, through eXp Realty. If you rent, keep or wait, I'm not paid at all.",
+      "Nothing to the family. There's no fee and no invoice. If the family decides to sell, the agent I refer pays me a referral fee at closing out of the commission you were already going to pay, through eXp Commercial. If you rent, keep or wait, I'm not paid at all.",
   },
   {
     question: "Why not just call a listing agent?",
@@ -194,7 +194,7 @@ export default function WhatIsASeniorTransitionAdvisorPage() {
           </p>
           <p className="mt-6 text-lg leading-relaxed text-ink/80">
             That&rsquo;s my job. I&rsquo;m Ryan Riggins, a licensed North
-            Carolina broker with eXp Realty, and I never take the listing. The
+            Carolina broker with eXp Commercial, and I never take the listing. The
             house is usually the biggest asset in a parent&rsquo;s move, and
             it&rsquo;s the decision families make fastest, under a deadline
             somebody else set. I sit in front of that decision so it gets made
@@ -316,7 +316,7 @@ export default function WhatIsASeniorTransitionAdvisorPage() {
             <p>
               If your family decides to sell, the agent I refer pays me a
               referral fee at closing, out of the commission you were already
-              going to pay, through eXp Realty. Nothing is added to your cost.
+              going to pay, through eXp Commercial. Nothing is added to your cost.
               If you rent the house, keep it, or wait a year, I&rsquo;m not paid
               at all, and I&rsquo;ll still tell you that&rsquo;s the right call
               when it is.
@@ -385,7 +385,7 @@ export default function WhatIsASeniorTransitionAdvisorPage() {
           </Button>
           <p className="mt-6 text-sm text-cream/70">
             Ryan Riggins &middot; NC Real Estate License #361546 &middot; eXp
-            Realty
+            Commercial
           </p>
         </div>
       </section>

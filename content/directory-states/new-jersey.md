@@ -53,4 +53,4 @@ The **NJ Division of Aging Services (nj.gov/humanservices/doas)** oversees the c
 UNVERIFIED: PAAD/Senior Gold annual income limits were reported by a secondary site as $54,943 single / $62,390 married for 2026 (Senior Gold up to $64,943 / $72,390) but were not confirmed directly on the nj.gov PAAD page this session, so the file names the programs and copays without printing those limits. Spot-check current limits at nj.gov/humanservices/doas/services/l-p/paad before adding figures.
 
 ---
-*Ryan Riggins, NC Real Estate License #361546, eXp Realty. Riggins Strategic Solutions is an education and media company, not a real estate sales business. This is not financial, tax, medical, or legal advice. Income limits, rates, and deadlines change annually, confirm with the program or a licensed professional before acting.*
+*Ryan Riggins, NC Real Estate License #361546, eXp Commercial. Riggins Strategic Solutions is an education and media company, not a real estate sales business. This is not financial, tax, medical, or legal advice. Income limits, rates, and deadlines change annually, confirm with the program or a licensed professional before acting.*

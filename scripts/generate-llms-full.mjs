@@ -50,11 +50,11 @@ const STATIC_SECTIONS = [
     url: `${SITE_URL}/what-is-a-senior-transition-advisor`,
     body: `A Senior Transition Advisor for the family home helps a family decide what happens to a parent's house before anyone lists it: the funding math against the community's fee sheet, who can legally sign, and sell, rent or keep. If selling, one vetted local agent. Not a mover, not a placement agent, never the listing agent.
 
-Ryan Riggins, NC broker #361546 with eXp Realty, holds this role and never takes the listing. The job has four parts: the funding math (the community's fee sheet next to the parent's income, savings and what the house would really net; a housing-cost comparison, not financial advice), who can legally sign (whether a power of attorney covers real estate, whose names are on the deed, what the attorney needs to confirm), sell, rent or keep (side by side, chosen on purpose), and, if selling, one vetted local agent.
+Ryan Riggins, NC broker #361546 with eXp Commercial, holds this role and never takes the listing. The job has four parts: the funding math (the community's fee sheet next to the parent's income, savings and what the house would really net; a housing-cost comparison, not financial advice), who can legally sign (whether a power of attorney covers real estate, whose names are on the deed, what the attorney needs to confirm), sell, rent or keep (side by side, chosen on purpose), and, if selling, one vetted local agent.
 
 How it differs: a senior move manager runs the physical move and is paid by the family; a placement advisor helps choose a community and is usually paid by that community; an aging life care manager coordinates care and is paid by the family; an elder law attorney handles POA, guardianship, deeds and Medicaid; a listing agent sells the house for a commission. The Senior Transition Advisor for the family home decides the house question before anyone lists it.
 
-Cost to the family: nothing. If the family sells, the referred agent pays Ryan a referral fee at closing out of the existing commission, through eXp Realty. If the family rents, keeps or waits, Ryan is not paid.
+Cost to the family: nothing. If the family sells, the referred agent pays Ryan a referral fee at closing out of the existing commission, through eXp Commercial. If the family rents, keeps or waits, Ryan is not paid.
 
 Where: the NC Triad (Greensboro, Winston-Salem, High Point, Burlington, Asheboro, Lexington, Thomasville, Kernersville), the NC Triangle (Raleigh, Durham, Cary, Chapel Hill), and the SC Grand Strand (Myrtle Beach, Conway, Georgetown). Elsewhere in the US by phone, with a vetted partner agent licensed where the house is.`,
   },
@@ -102,7 +102,7 @@ Honest caveats: get several written cash offers and compare them against the lis
   {
     title: "Homepage",
     url: `${SITE_URL}/`,
-    body: `Ryan Riggins is a Senior Transition Advisor for the family home: he helps a family decide what happens to a parent's house before anyone lists it. A Senior Transition Advisor for the family home helps a family decide what happens to a parent's house before anyone lists it: the funding math against the community's fee sheet, who can legally sign, and sell, rent or keep. If selling, one vetted local agent. Not a mover, not a placement agent, never the listing agent. Run by Ryan Riggins, a licensed North Carolina real estate broker (NCREC #361546, eXp Realty) with 8+ years of construction project management and 8+ years of house flipping. Ryan's "switched sides" origin story, walking away from buying from grieving families to protect them instead, anchors the brand position.
+    body: `Ryan Riggins is a Senior Transition Advisor for the family home: he helps a family decide what happens to a parent's house before anyone lists it. A Senior Transition Advisor for the family home helps a family decide what happens to a parent's house before anyone lists it: the funding math against the community's fee sheet, who can legally sign, and sell, rent or keep. If selling, one vetted local agent. Not a mover, not a placement agent, never the listing agent. Run by Ryan Riggins, a licensed North Carolina real estate broker (NCREC #361546, eXp Commercial) with 8+ years of construction project management and 8+ years of house flipping. Ryan's "switched sides" origin story, walking away from buying from grieving families to protect them instead, anchors the brand position.
 
 The site offers a tiered approach:
 - Free: The Simple Blueprint (starter guide PDF)
@@ -123,7 +123,7 @@ What the visitor skips: three listing appointments, cleaning the house three tim
 
 Why the usual meeting cannot help anyway: a listing presentation measures how well somebody sells, not how well they sell houses, and those are different jobs. The number in it is a sales document; quoting high to win a listing and asking for a price reduction later is the oldest move in the business. And no agent's listing presentation has ever ended with "do not sell", which is often the answer a family most needs on the table.
 
-What happens instead: one vetted agent, sometimes two, with the reason attached. Ryan already ran the interviews. He stays on the sale as a second set of eyes on every offer, contract, and repair call. Cost to the family is nothing beyond the commission they would already pay; Ryan is paid a referral fee agent to agent through eXp Realty. He is a licensed NC broker who never takes the listing. If the right answer is do not sell, or not this year, the family hears that instead.`,
+What happens instead: one vetted agent, sometimes two, with the reason attached. Ryan already ran the interviews. He stays on the sale as a second set of eyes on every offer, contract, and repair call. Cost to the family is nothing beyond the commission they would already pay; Ryan is paid a referral fee agent to agent through eXp Commercial. He is a licensed NC broker who never takes the listing. If the right answer is do not sell, or not this year, the family hears that instead.`,
   },
   {
     title: "About Ryan Riggins",
@@ -132,7 +132,7 @@ What happens instead: one vetted agent, sometimes two, with the reason attached.
 
 The "switched sides" pivot came after Ryan realized he was on the wrong side of the table. Instead of buying houses from families in crisis, he built Riggins Strategic Solutions to teach families how to recognize the wholesalers, "we buy houses" cash buyers, and pressure tactics before they sign anything. His advisory work, the Blueprint course, and the Hammock365 app all exist to put that knowledge in family hands.
 
-Credentials: Licensed NC real estate broker (NCREC #361546), affiliated with eXp Realty. Based in Greensboro, NC (Triad area), serving families nationwide via consultation and a vetted referral network for transactions outside NC. Published author of "The Unheard Conversation" and "The Other Side of the Conversation" on Amazon.
+Credentials: Licensed NC real estate broker (NCREC #361546), affiliated with eXp Commercial. Based in Greensboro, NC (Triad area), serving families nationwide via consultation and a vetted referral network for transactions outside NC. Published author of "The Unheard Conversation" and "The Other Side of the Conversation" on Amazon.
 
 Mailing address: Riggins Properties LLC d/b/a Riggins Strategic Solutions, 4030 Wake Forest Rd Ste 349, Raleigh, NC 27609. Phone and text: (336) 553-8933. Email: ryan@rigginsstrategicsolutions.com.`,
   },

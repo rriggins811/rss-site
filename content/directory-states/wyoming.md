@@ -79,4 +79,4 @@ You must qualify for Medicaid, then apply for the Community Choices Waiver, choo
 - WY Department of Revenue, Property Tax Relief: https://wyo-prop-div.wyo.gov/tax-relief (Verified June 14, 2026)
 - WY Property Tax Exemption for Long-Term Homeowners, 2024 Enrolled Act No. 44 (HB0003): https://www.wyoleg.gov/Legislation/2024/HB0003 (Verified June 14, 2026)
 
-*Ryan Riggins, NC Real Estate License #361546, eXp Realty. Riggins Strategic Solutions is an education and media company, not a real estate sales business. This is not financial, tax, medical, or legal advice. Income limits, rates, and deadlines change annually, confirm with the program or a licensed professional before acting.*
+*Ryan Riggins, NC Real Estate License #361546, eXp Commercial. Riggins Strategic Solutions is an education and media company, not a real estate sales business. This is not financial, tax, medical, or legal advice. Income limits, rates, and deadlines change annually, confirm with the program or a licensed professional before acting.*

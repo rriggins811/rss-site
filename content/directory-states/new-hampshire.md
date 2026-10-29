@@ -82,4 +82,4 @@ Apply through NH EASY at 1-844-275-3447 (nheasy.nh.gov), or call ServiceLink at 
 - NH Department of Energy, Fuel Assistance Program: https://www.energy.nh.gov/consumers/help-energy-and-utility-bills/fuel-assistance-program (Verified June 12, 2026)
 - NH DRA, Low and Moderate Income Homeowners Property Tax Relief: https://www.revenue.nh.gov/resource-center/taxpayer-assistance/low-and-moderate-income-homeowners-property-tax-relief (Verified June 12, 2026)
 
-*Ryan Riggins, NC Real Estate License #361546, eXp Realty. Riggins Strategic Solutions is an education and media company, not a real estate sales business. This is not financial, tax, medical, or legal advice. Income limits, rates, and deadlines change annually, confirm with the program or a licensed professional before acting.*
+*Ryan Riggins, NC Real Estate License #361546, eXp Commercial. Riggins Strategic Solutions is an education and media company, not a real estate sales business. This is not financial, tax, medical, or legal advice. Income limits, rates, and deadlines change annually, confirm with the program or a licensed professional before acting.*

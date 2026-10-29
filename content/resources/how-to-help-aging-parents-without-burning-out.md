@@ -81,4 +81,4 @@ When safe, sustainable home care is no longer possible for your parent or for yo
 
 ## About Ryan Riggins
 
-Ryan Riggins is a Senior Transition Advisor for the family home. When a parent moves to senior living, he helps the family decide what happens to the house before anyone lists it: the funding math against the community's fee sheet, who can legally sign, and sell, rent or keep. If selling, one vetted local agent. Not a mover, not a placement agent, never the listing agent. NC broker #361546, eXp Realty. Free family tools at rigginsstrategicsolutions.com/tools.
+Ryan Riggins is a Senior Transition Advisor for the family home. When a parent moves to senior living, he helps the family decide what happens to the house before anyone lists it: the funding math against the community's fee sheet, who can legally sign, and sell, rent or keep. If selling, one vetted local agent. Not a mover, not a placement agent, never the listing agent. NC broker #361546, eXp Commercial. Free family tools at rigginsstrategicsolutions.com/tools.

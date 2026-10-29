@@ -74,7 +74,7 @@ export function BrandPanel({
           clears WCAG AA for small text rather than matching print exactly. */}
       {showLicense ? (
         <p className="absolute inset-x-0 bottom-5 text-[11px] text-cream/75">
-          Ryan Riggins &middot; NC Real Estate License #361546 &middot; eXp Realty
+          Ryan Riggins &middot; NC Real Estate License #361546 &middot; eXp Commercial
         </p>
       ) : null}
     </div>

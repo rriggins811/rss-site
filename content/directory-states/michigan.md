@@ -52,4 +52,4 @@ Michigan's Area Agencies on Aging handle home-delivered meals, in-home care, car
 UNVERIFIED: The exact senior calculation detail for the HPTC (percentage of property taxes above 3.5% of household resources by income tier) was not re-verified this session, so the page describes it generally. Also confirm the MMAP-to-MI Options transition language matches MDHHS's current wording before publishing, since webpages were still being updated after the August 2025 launch.
 
 ---
-*Ryan Riggins, NC Real Estate License #361546, eXp Realty. Riggins Strategic Solutions is an education and media company, not a real estate sales business. This is not financial, tax, medical, or legal advice. Income limits, rates, and deadlines change annually, confirm with the program or a licensed professional before acting.*
+*Ryan Riggins, NC Real Estate License #361546, eXp Commercial. Riggins Strategic Solutions is an education and media company, not a real estate sales business. This is not financial, tax, medical, or legal advice. Income limits, rates, and deadlines change annually, confirm with the program or a licensed professional before acting.*

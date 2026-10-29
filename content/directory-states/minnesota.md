@@ -46,4 +46,4 @@ The **Minnesota Board on Aging** funds the state's Area Agencies on Aging, which
 UNVERIFIED: The Homestead Credit Refund 2025 income ceiling (about $142,490) and the Special Refund maximum ($1,000 / 12 percent threshold) should be confirmed on the current Form M1PR instructions, since these adjust annually. Confirm the Senior Citizens Property Tax Deferral income limit ($96,000) and the November 1 deadline on the current Department of Revenue page.
 
 ---
-*Ryan Riggins, NC Real Estate License #361546, eXp Realty. Riggins Strategic Solutions is an education and media company, not a real estate sales business. This is not financial, tax, medical, or legal advice. Income limits, rates, and deadlines change annually, confirm with the program or a licensed professional before acting.*
+*Ryan Riggins, NC Real Estate License #361546, eXp Commercial. Riggins Strategic Solutions is an education and media company, not a real estate sales business. This is not financial, tax, medical, or legal advice. Income limits, rates, and deadlines change annually, confirm with the program or a licensed professional before acting.*

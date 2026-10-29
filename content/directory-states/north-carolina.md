@@ -40,4 +40,4 @@ We are building detailed, county-by-county guides for North Carolina. Live now:
 More counties added regularly. If yours isn't here yet, start with NC 211 or the Eldercare Locator above.
 
 ---
-*Ryan Riggins, NC Real Estate License #361546, eXp Realty. Riggins Strategic Solutions is an education and media company, not a real estate sales business. This is not financial, tax, medical, or legal advice. Income limits, rates, and deadlines change, confirm with the program or a licensed professional before acting.*
+*Ryan Riggins, NC Real Estate License #361546, eXp Commercial. Riggins Strategic Solutions is an education and media company, not a real estate sales business. This is not financial, tax, medical, or legal advice. Income limits, rates, and deadlines change, confirm with the program or a licensed professional before acting.*

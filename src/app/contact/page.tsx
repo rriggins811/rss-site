@@ -168,7 +168,7 @@ export default function ContactPage() {
             <p>
               I&rsquo;m a Senior Transition Advisor for the family home. I
               carry a North Carolina real estate license (#361546 with eXp
-              Realty), but I never take the listing. My job is the house
+              Commercial), but I never take the listing. My job is the house
               decision that comes before any listing: the funding math against
               the community&rsquo;s fee sheet, who can legally sign, and sell,
               rent or keep. I&rsquo;m not a mover and I&rsquo;m not a placement

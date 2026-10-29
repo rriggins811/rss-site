@@ -48,4 +48,4 @@ The **Illinois Department on Aging (ilaging.illinois.gov)** funds 13 Area Agenci
 UNVERIFIED: For the Senior Freeze, the income limit for taxable year 2025 (the bills payable in 2026) is reported as $65,000, but the IDOR page verified this session only lists limits beginning with taxable year 2026 ($75,000). Spot-check the 2025 limit before publishing any claim about current-year bills.
 
 ---
-*Ryan Riggins, NC Real Estate License #361546, eXp Realty. Riggins Strategic Solutions is an education and media company, not a real estate sales business. This is not financial, tax, medical, or legal advice. Income limits, rates, and deadlines change annually, confirm with the program or a licensed professional before acting.*
+*Ryan Riggins, NC Real Estate License #361546, eXp Commercial. Riggins Strategic Solutions is an education and media company, not a real estate sales business. This is not financial, tax, medical, or legal advice. Income limits, rates, and deadlines change annually, confirm with the program or a licensed professional before acting.*

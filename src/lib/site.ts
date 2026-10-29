@@ -23,7 +23,7 @@ export const ROLE_DEFINITION =
 
 /** Visible byline for answer pages. NC advertising rule: firm name shown. */
 export const ROLE_BYLINE =
-  "Ryan Riggins, Senior Transition Advisor for the family home, NC broker #361546, eXp Realty";
+  "Ryan Riggins, Senior Transition Advisor for the family home, NC broker #361546, eXp Commercial";
 
 /**
  * Service area for schema (areaServed). Named cities first, then the
@@ -122,7 +122,7 @@ export const ORGANIZATION = {
 export const AUTHOR = {
   name: "Ryan Riggins",
   jobTitle: ROLE_TITLE,
-  bio: "Licensed NC broker (#361546, eXp Realty). Fiduciary duty to the family, not a pitch. Creator of The Blueprint and Hammock365.",
+  bio: "Licensed NC broker (#361546, eXp Commercial). Fiduciary duty to the family, not a pitch. Creator of The Blueprint and Hammock365.",
   // Optimized headshot hosted on /brand/ (69KB vs 5.3MB original at
   // /photos/). Same-origin canonical URL used by Person schema (sitewide
   // via layout.tsx) + Web2 mini-site avatars + Amazon Author Central /
@@ -141,7 +141,7 @@ export const AUTHOR = {
   ],
   credentials: [
     "North Carolina Real Estate Broker License #361546",
-    "eXp Realty",
+    "eXp Commercial",
   ],
 } as const;
 

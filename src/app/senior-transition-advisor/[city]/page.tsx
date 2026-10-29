@@ -258,7 +258,7 @@ export default async function CityPage({
           <p className="mt-8 text-lg leading-relaxed text-ink/80">
             <strong className="text-navy-700">What it costs:</strong> nothing to
             your family. If you sell, the agent I refer pays me a referral fee
-            at closing out of the commission, through eXp Realty. If you rent,
+            at closing out of the commission, through eXp Commercial. If you rent,
             keep or wait, I&rsquo;m not paid at all.
           </p>
           <p className="mt-6 text-lg leading-relaxed text-ink/80">
@@ -330,7 +330,7 @@ export default async function CityPage({
             </Link>
           </div>
           <p className="mt-6 text-sm text-cream/70">
-            Ryan Riggins, NC Real Estate Broker #361546, eXp Realty. Not legal,
+            Ryan Riggins, NC Real Estate Broker #361546, eXp Commercial. Not legal,
             tax or financial advice.
           </p>
         </div>

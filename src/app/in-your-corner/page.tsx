@@ -15,7 +15,7 @@ const SUPPORT_EMAIL = "ryan@rigginsstrategicsolutions.com";
 export const metadata: Metadata = {
   title: pageTitle("Get Me in Your Corner | A Vetted Agent and an Advocate on the Sale"),
   description:
-    "Selling a parent's home? Ryan Riggins finds and vets the right local real estate agent for your situation, wherever you are, and stays in your corner the whole way. A referral service through eXp Realty, at no added cost to you.",
+    "Selling a parent's home? Ryan Riggins finds and vets the right local real estate agent for your situation, wherever you are, and stays in your corner the whole way. A referral service through eXp Commercial, at no added cost to you.",
   alternates: { canonical: "/in-your-corner" },
   openGraph: {
     type: "website",
@@ -72,7 +72,7 @@ const FAQS: { q: string; a: string }[] = [
   },
   {
     q: "What does this cost me?",
-    a: "Nothing beyond the commission you would already pay on the sale. I am compensated by a referral fee that is paid agent to agent through eXp Realty, out of that existing commission. There is no separate invoice from me and no added cost to your family.",
+    a: "Nothing beyond the commission you would already pay on the sale. I am compensated by a referral fee that is paid agent to agent through eXp Commercial, out of that existing commission. There is no separate invoice from me and no added cost to your family.",
   },
   {
     q: "Are you my real estate agent?",
@@ -94,12 +94,12 @@ const SERVICE_SCHEMA = {
   name: "Get Me in Your Corner: Senior Home Sale Agent Referral and Advocacy",
   serviceType: "Real estate agent referral and advocacy",
   description:
-    "Ryan Riggins, a licensed North Carolina real estate broker with eXp Realty, finds and vets the right local real estate agent for a family selling a senior's home and stays involved as their advocate and a second set of eyes on the sale. He is the referring broker, never the listing or selling agent. The referral is paid agent to agent out of the existing commission, at no added cost to the family.",
+    "Ryan Riggins, a licensed North Carolina real estate broker with eXp Commercial, finds and vets the right local real estate agent for a family selling a senior's home and stays involved as their advocate and a second set of eyes on the sale. He is the referring broker, never the listing or selling agent. The referral is paid agent to agent out of the existing commission, at no added cost to the family.",
   provider: {
     "@type": "RealEstateAgent",
     name: "Ryan Riggins",
     url: "https://rigginsstrategicsolutions.com/in-your-corner",
-    memberOf: { "@type": "Organization", name: "eXp Realty" },
+    memberOf: { "@type": "Organization", name: "eXp Commercial" },
     areaServed: { "@type": "Country", name: "United States" },
   },
   areaServed: { "@type": "Country", name: "United States" },
@@ -171,7 +171,7 @@ export default function InYourCornerPage() {
             ))}
           </div>
           <p className="mt-8 max-w-2xl text-sm leading-relaxed text-ink/70">
-            Ryan Riggins, licensed North Carolina real estate broker (#361546, eXp Realty), working as your
+            Ryan Riggins, licensed North Carolina real estate broker (#361546, eXp Commercial), working as your
             referral broker and advocate. Built on years on the buying side of real estate, across dozens of
             properties, now spent for families instead of against them.
           </p>
@@ -180,7 +180,7 @@ export default function InYourCornerPage() {
             className="mt-8 max-w-2xl"
             topic="Get Me in Your Corner"
             question="What is Get Me in Your Corner?"
-            answer="It is a real estate referral service from Ryan Riggins, a licensed North Carolina broker with eXp Realty. Ryan finds and vets the right local real estate agent for your family's situation, wherever the home is, and stays involved as your advocate and a second set of eyes on the sale. It costs you nothing beyond the commission you would already pay, because Ryan is compensated by a referral fee paid agent to agent through eXp out of that commission. He is the referring broker, not your listing agent."
+            answer="It is a real estate referral service from Ryan Riggins, a licensed North Carolina broker with eXp Commercial. Ryan finds and vets the right local real estate agent for your family's situation, wherever the home is, and stays involved as your advocate and a second set of eyes on the sale. It costs you nothing beyond the commission you would already pay, because Ryan is compensated by a referral fee paid agent to agent through eXp out of that commission. He is the referring broker, not your listing agent."
           />
 
           <div className="mt-8 flex flex-wrap items-center gap-x-5 gap-y-3">
@@ -337,7 +337,7 @@ export default function InYourCornerPage() {
               <p className="text-xs font-semibold uppercase tracking-wider text-gold-700">Who I am here</p>
               <p className="mt-2 leading-relaxed text-ink/80">
                 On this, I am wearing my real estate hat: a licensed North Carolina broker affiliated with eXp
-                Realty. I work as a referral broker, finding and vetting the right local agent for your
+                Commercial. I work as a referral broker, finding and vetting the right local agent for your
                 situation. That agent represents you in the sale. I am your advocate and connector, never your
                 listing or selling agent.
               </p>
@@ -345,7 +345,7 @@ export default function InYourCornerPage() {
             <div className="rounded-xl border border-cream-200 bg-cream/50 p-6">
               <p className="text-xs font-semibold uppercase tracking-wider text-gold-700">How I am paid</p>
               <p className="mt-2 leading-relaxed text-ink/80">
-                By a referral fee, paid agent to agent through eXp Realty, out of the commission the sale
+                By a referral fee, paid agent to agent through eXp Commercial, out of the commission the sale
                 already pays. That is it. Your family pays nothing beyond the commission you would already pay
                 for an agent, and there is no separate bill from me. The local agent earns their share for
                 running the sale, and a portion comes to me for the referral and the advocacy.
@@ -355,7 +355,7 @@ export default function InYourCornerPage() {
           <div className="mt-5 rounded-lg border-l-4 border-gold bg-cream/60 px-6 py-4">
             <p className="text-ink/90">
               <span className="font-semibold text-navy">One important note.</span> This real estate referral is
-              a service of Ryan Riggins through eXp Realty. It is separate from the education and planning
+              a service of Ryan Riggins through eXp Commercial. It is separate from the education and planning
               products of Riggins Strategic Solutions, the Blueprint, the Senior Transition Roadmap, and the
               Hammock365 app, which belong to that company. Different hats, kept clean on purpose.
             </p>
@@ -441,12 +441,12 @@ export default function InYourCornerPage() {
       <section className="bg-cream">
         <div className="mx-auto max-w-5xl px-6 py-10">
           <p className="text-xs leading-relaxed text-ink/55">
-            Ryan Riggins is a licensed North Carolina real estate broker (#361546) affiliated with eXp Realty.
+            Ryan Riggins is a licensed North Carolina real estate broker (#361546) affiliated with eXp Commercial.
             This page describes a real estate referral service: Ryan connects families with a vetted local real
-            estate agent and is compensated by a referral fee paid agent to agent through eXp Realty, out of the
+            estate agent and is compensated by a referral fee paid agent to agent through eXp Commercial, out of the
             commission earned on the transaction. Ryan does not act as your listing or selling agent; the local
             agent you choose represents you in the sale. This referral service is provided by Ryan Riggins
-            through eXp Realty and is separate from the education and planning products offered by Riggins
+            through eXp Commercial and is separate from the education and planning products offered by Riggins
             Strategic Solutions. This is education and real estate guidance, not legal, tax, or financial
             advice. Questions? Email{" "}
             <a href={`mailto:${SUPPORT_EMAIL}`} className="underline">{SUPPORT_EMAIL}</a>.

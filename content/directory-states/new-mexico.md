@@ -89,4 +89,4 @@ Apply for New Mexico Centennial Care (Medicaid) online at YES.NM.GOV or by calli
 - NM ALTSD, Legal Services: https://www.aging.nm.gov/adult-protective-services/legal-services/ (Verified June 11, 2026)
 - NM senior property tax value freeze (third-party; verify income cap with county assessor): https://nationaltaxreports.com/property-tax-exemption-for-seniors-in-new-mexico/ (Verified June 11, 2026)
 
-*Ryan Riggins, NC Real Estate License #361546, eXp Realty. Riggins Strategic Solutions is an education and media company, not a real estate sales business. This is not financial, tax, medical, or legal advice. Income limits, rates, and deadlines change annually, confirm with the program or a licensed professional before acting.*
+*Ryan Riggins, NC Real Estate License #361546, eXp Commercial. Riggins Strategic Solutions is an education and media company, not a real estate sales business. This is not financial, tax, medical, or legal advice. Income limits, rates, and deadlines change annually, confirm with the program or a licensed professional before acting.*

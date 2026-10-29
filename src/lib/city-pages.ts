@@ -83,7 +83,7 @@ export const CITY_PAGES: CityPage[] = [
     quickAnswer:
       "When a parent in Greensboro moves to assisted living or memory care, don't list the house first. Find out who can legally sign for them, run the funding math against the community's fee sheet, and then decide whether to sell, rent or keep the house. Greensboro is in Guilford County, so the tax office, the Register of Deeds and DSS you'll work with are all Guilford's.",
     intro:
-      "I'm Ryan Riggins, and Greensboro is home base for me. I'm a licensed North Carolina broker with eXp Realty, and I never take the listing. My job is the house decision that comes before any listing, so your family makes it in the right order instead of under somebody else's deadline.",
+      "I'm Ryan Riggins, and Greensboro is home base for me. I'm a licensed North Carolina broker with eXp Commercial, and I never take the listing. My job is the house decision that comes before any listing, so your family makes it in the right order instead of under somebody else's deadline.",
     countyHeading: "Greensboro is a Guilford County house.",
     countyBody: [
       "That sounds obvious, but it decides a lot. The property tax relief your parent may have, the office that records a power of attorney, and the DSS office that handles Medicaid and energy help all run through Guilford County.",
@@ -180,7 +180,7 @@ export const CITY_PAGES: CityPage[] = [
     quickAnswer:
       "If your parent in Winston-Salem is moving to assisted living, settle the house before you call a listing agent. Confirm who can sign, put the community's fee sheet next to what your parent actually has, and then choose sell, rent or keep on purpose. Winston-Salem is in Forsyth County, and Forsyth's tax relief cuts both the county and the city tax bill, which changes what an empty house costs to carry.",
     intro:
-      "I'm Ryan Riggins, a licensed North Carolina broker with eXp Realty, based up the road in Greensboro. I work with Winston-Salem families on the house decision before anyone lists it, and I never take the listing myself.",
+      "I'm Ryan Riggins, a licensed North Carolina broker with eXp Commercial, based up the road in Greensboro. I work with Winston-Salem families on the house decision before anyone lists it, and I never take the listing myself.",
     countyHeading: "Forsyth County, and the city tax on top.",
     countyBody: [
       "A Winston-Salem house pays two property taxes, the county's and the city's. North Carolina's senior tax programs, administered by Forsyth County Tax Administration, lower the value both of them tax. So whether your parent keeps that relief after the move is real money every month the house is held.",
@@ -267,7 +267,7 @@ export const CITY_PAGES: CityPage[] = [
     quickAnswer:
       "When a parent in High Point moves to senior living, hold off on listing the house until you know who can sign, how long the money lasts against the community's fee sheet, and whether selling, renting or keeping makes sense. Then check which county the house is in. High Point is the only city in North Carolina that sits in four counties, and the answer decides which tax office, register of deeds and DSS you'll deal with.",
     intro:
-      "I'm Ryan Riggins, a licensed North Carolina broker with eXp Realty, based in Greensboro next door. I help High Point families decide the house question before anyone lists it, and I never take the listing.",
+      "I'm Ryan Riggins, a licensed North Carolina broker with eXp Commercial, based in Greensboro next door. I help High Point families decide the house question before anyone lists it, and I never take the listing.",
     countyHeading: "Four counties. Find yours on the tax bill.",
     countyBody: [
       "Most of High Point is in Guilford County, but parts of the city limits reach into Davidson, Forsyth and Randolph counties. Two houses a few miles apart can have different tax offices, different property tax relief paperwork and a different register of deeds.",
@@ -335,7 +335,7 @@ export const CITY_PAGES: CityPage[] = [
       {
         question: "What does it cost to work with you on a High Point house?",
         answer:
-          "Nothing to the family. If you sell, the agent I refer pays me a referral fee at closing out of the commission, through eXp Realty. If you rent, keep or wait, I'm not paid at all.",
+          "Nothing to the family. If you sell, the agent I refer pays me a referral fee at closing out of the commission, through eXp Commercial. If you rent, keep or wait, I'm not paid at all.",
       },
     ],
   },
@@ -350,7 +350,7 @@ export const CITY_PAGES: CityPage[] = [
     quickAnswer:
       "If a parent in Raleigh is moving to assisted living, don't start with a listing agent. Start with who can legally sign, then the funding math against the community's fee sheet, then the sell, rent or keep decision. Almost all of Raleigh is in Wake County, so Wake's tax office, register of deeds and Health and Human Services are usually the ones you'll deal with.",
     intro:
-      "I'm Ryan Riggins, a licensed North Carolina broker with eXp Realty. I'm based in Greensboro, and the Triangle is part of where I work. The first call is by phone or video, and I never take the listing.",
+      "I'm Ryan Riggins, a licensed North Carolina broker with eXp Commercial. I'm based in Greensboro, and the Triangle is part of where I work. The first call is by phone or video, and I never take the listing.",
     countyHeading: "Wake County, with a small piece in Durham.",
     countyBody: [
       "Raleigh is overwhelmingly a Wake County city, but a small part of it crosses into Durham County. If the tax bill comes from Durham County, use the Durham numbers instead.",
@@ -433,7 +433,7 @@ export const CITY_PAGES: CityPage[] = [
     quickAnswer:
       "When a parent in Durham moves to assisted living or memory care, work out the house before you list it: who can sign, how long the money lasts against the community's fee sheet, and whether to sell, rent or keep. Most of Durham is in Durham County, which runs a property tax program of its own on top of the state's, so check what your parent has before you run the numbers.",
     intro:
-      "I'm Ryan Riggins, a licensed North Carolina broker with eXp Realty, based in Greensboro. I work with Durham families on the house decision by phone and video, and I never take the listing.",
+      "I'm Ryan Riggins, a licensed North Carolina broker with eXp Commercial, based in Greensboro. I work with Durham families on the house decision by phone and video, and I never take the listing.",
     countyHeading: "Mostly Durham County, with edges in Orange and Wake.",
     countyBody: [
       "The City of Durham is almost all in Durham County, but small portions of the city limits reach into Orange and Wake counties. The tax bill tells you which one you're in.",
@@ -516,7 +516,7 @@ export const CITY_PAGES: CityPage[] = [
     quickAnswer:
       "If your parent in Cary is moving to senior living, settle the house before anyone lists it: who can legally sign, the funding math against the community's fee sheet, and sell, rent or keep. Cary spreads across Wake and Chatham counties, with a small piece in Durham, so the first practical step is finding out which county the house is actually in.",
     intro:
-      "I'm Ryan Riggins, a licensed North Carolina broker with eXp Realty. I'm based in Greensboro and work with Triangle families, Cary included, by phone and video. I never take the listing.",
+      "I'm Ryan Riggins, a licensed North Carolina broker with eXp Commercial. I'm based in Greensboro and work with Triangle families, Cary included, by phone and video. I never take the listing.",
     countyHeading: "Wake, Chatham, or a sliver of Durham.",
     countyBody: [
       "Most of Cary is in Wake County, but the town reaches west into Chatham County and has a small part in Durham County. The county decides which tax office handles relief, which register of deeds records a power of attorney, and which DSS handles Medicaid.",
@@ -595,7 +595,7 @@ export const CITY_PAGES: CityPage[] = [
     quickAnswer:
       "When a parent in Chapel Hill moves to assisted living, decide the house before anyone lists it: confirm who can sign, run the funding math against the community's fee sheet, and choose sell, rent or keep. Chapel Hill is in Orange County and Durham County, and most families will deal with Orange County's offices, where tax staff will help fill out the relief paperwork.",
     intro:
-      "I'm Ryan Riggins, a licensed North Carolina broker with eXp Realty, based in Greensboro. I work with Chapel Hill families on the house decision by phone and video, and I never take the listing.",
+      "I'm Ryan Riggins, a licensed North Carolina broker with eXp Commercial, based in Greensboro. I work with Chapel Hill families on the house decision by phone and video, and I never take the listing.",
     countyHeading: "Orange County, with part of town in Durham.",
     countyBody: [
       "Chapel Hill is an Orange County town that also reaches into Durham County. The county on the tax bill is the one whose tax office, register of deeds and DSS you'll use.",

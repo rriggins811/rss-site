@@ -47,4 +47,4 @@ Oregon's Area Agencies on Aging and the statewide **Aging and Disability Resourc
 UNVERIFIED: Confirm the OPDP enrollment phone (1-800-913-4146) and the OHCS/Community Action LIHEAP intake line (1-800-453-5511, option 2) on the current state pages. The deferral income cap ($70,000), net-worth limit ($500,000), and 6 percent interest are 2026 figures; confirm on the current Department of Revenue deferral page, since these adjust.
 
 ---
-*Ryan Riggins, NC Real Estate License #361546, eXp Realty. Riggins Strategic Solutions is an education and media company, not a real estate sales business. This is not financial, tax, medical, or legal advice. Income limits, rates, and deadlines change annually, confirm with the program or a licensed professional before acting.*
+*Ryan Riggins, NC Real Estate License #361546, eXp Commercial. Riggins Strategic Solutions is an education and media company, not a real estate sales business. This is not financial, tax, medical, or legal advice. Income limits, rates, and deadlines change annually, confirm with the program or a licensed professional before acting.*

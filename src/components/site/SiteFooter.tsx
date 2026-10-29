@@ -97,7 +97,7 @@ export function SiteFooter() {
               Serving families nationwide.
             </p>
             <p className="mt-2 text-xs text-cream/70 leading-relaxed">
-              Licensed NC broker (#361546, eXp Realty). I never take the
+              Licensed NC broker (#361546, eXp Commercial). I never take the
               listing and I never buy the house.
             </p>
             <p className="mt-3 text-sm">

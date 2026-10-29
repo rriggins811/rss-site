@@ -432,7 +432,7 @@ ${featureBodyHtml}
   </div>
 
   <div class="disclosure">
-    Ryan Riggins · NC Real Estate License #361546 · eXp Realty
+    Ryan Riggins · NC Real Estate License #361546 · eXp Commercial
   </div>
 
   <div class="footer">
@@ -488,7 +488,7 @@ export function renderNewsletterText(
     `Talk soon,\nRyan`,
     "",
     `--`,
-    `Ryan Riggins · NC Real Estate License #361546 · eXp Realty`,
+    `Ryan Riggins · NC Real Estate License #361546 · eXp Commercial`,
     `Riggins Properties LLC d/b/a Riggins Strategic Solutions`,
     `4030 Wake Forest Rd Ste 349, Raleigh, NC 27609`,
     `Issue ${String(opts.issueNumber).padStart(3, "0")}`,

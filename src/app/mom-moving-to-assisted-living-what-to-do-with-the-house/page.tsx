@@ -364,7 +364,7 @@ export default function MomMovingToAssistedLivingPage() {
           </div>
           <p className="mt-6 text-sm text-cream/70">
             Ryan Riggins &middot; NC Real Estate License #361546 &middot; eXp
-            Realty. Not legal, tax or financial advice.
+            Commercial. Not legal, tax or financial advice.
           </p>
         </div>
       </section>

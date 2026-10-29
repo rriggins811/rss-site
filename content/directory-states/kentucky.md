@@ -44,4 +44,4 @@ Kentucky's Area Agencies on Aging and Independent Living, coordinated through DA
 UNVERIFIED: Confirm the Kentucky Legal Aid statewide intake line (1-866-452-9243) and the Community Action Kentucky LIHEAP locator line (1-800-456-3452) on the current pages. The $49,100 homestead figure is set for the 2025-2026 assessment years and is recalculated biennially; confirm the current amount on the Department of Revenue Homestead Exemption page before publishing.
 
 ---
-*Ryan Riggins, NC Real Estate License #361546, eXp Realty. Riggins Strategic Solutions is an education and media company, not a real estate sales business. This is not financial, tax, medical, or legal advice. Income limits, rates, and deadlines change annually, confirm with the program or a licensed professional before acting.*
+*Ryan Riggins, NC Real Estate License #361546, eXp Commercial. Riggins Strategic Solutions is an education and media company, not a real estate sales business. This is not financial, tax, medical, or legal advice. Income limits, rates, and deadlines change annually, confirm with the program or a licensed professional before acting.*

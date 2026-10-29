@@ -45,7 +45,7 @@ Iowa's **Area Agencies on Aging** coordinate meals, in-home help, caregiver supp
 *Verified June 9, 2026. Program limits and dates change; confirm with the official source before relying on a figure.*
 
 ---
-*Ryan Riggins, NC Real Estate License #361546, eXp Realty. Riggins Strategic Solutions is an education and media company, not a real estate sales business. This is not financial, tax, medical, or legal advice. Verify program details before relying on them.*
+*Ryan Riggins, NC Real Estate License #361546, eXp Commercial. Riggins Strategic Solutions is an education and media company, not a real estate sales business. This is not financial, tax, medical, or legal advice. Verify program details before relying on them.*
 
 UNVERIFIED: Iowa 65-plus Homestead Tax Exemption amount. $6,500 of taxable value is cited for assessment years beginning on or after January 1, 2024, but this figure was phased in and may have changed for the current assessment year. Confirm the live amount on revenue.iowa.gov before publishing.
 UNVERIFIED: Senior and Disabled Property Tax Credit income limit ($26,895 for ages 65-69) is annually adjusted. Confirm the current-year figure on revenue.iowa.gov.

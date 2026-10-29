@@ -130,7 +130,7 @@ export default async function GuideReadyPage({
         <p className="mt-8 text-xs leading-relaxed text-ink/55">
           This guide is general education, not financial, tax, medical, or legal
           advice. Riggins Strategic Solutions is an education and media company.
-          Ryan Riggins, NC Real Estate License #361546, eXp Realty.
+          Ryan Riggins, NC Real Estate License #361546, eXp Commercial.
         </p>
       </div>
     </main>

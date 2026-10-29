@@ -129,7 +129,7 @@ const tiers: Tier[] = [
       "The right local agent, hand picked and vetted for you.",
       "A second eye on every offer, contract, and repair call.",
       "If the right answer is do not sell yet, you hear that too.",
-      "A real estate referral through eXp Realty, not an RSS product.",
+      "A real estate referral through eXp Commercial, not an RSS product.",
     ],
     cta: { href: "/in-your-corner", label: "See How It Works" },
     image: "/photos/property_walkthrough_ryan.jpg",

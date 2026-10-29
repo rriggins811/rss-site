@@ -115,7 +115,7 @@ export async function sendLeadMagnetEmail(args: {
   <hr style="border:none;border-top:1px solid #e5e5e5;margin:32px 0;">
 
   <p style="font-size:11px;color:#888;">
-    Ryan Riggins | NC Real Estate License #361546 | eXp Realty<br>
+    Ryan Riggins | NC Real Estate License #361546 | eXp Commercial<br>
     ${escapeHtml(MAILING_ADDRESS)}<br>
     This guide is educational and not a substitute for legal or financial advice.<br>
     You're receiving this because you requested this guide at rigginsstrategicsolutions.com. To stop receiving emails, reply with "unsubscribe."
@@ -144,7 +144,7 @@ Riggins Strategic Solutions
 (336) 553-8933
 
 ---
-Ryan Riggins | NC Real Estate License #361546 | eXp Realty
+Ryan Riggins | NC Real Estate License #361546 | eXp Commercial
 ${MAILING_ADDRESS}
 This guide is educational and not a substitute for legal or financial advice.
 You're receiving this because you requested this guide at rigginsstrategicsolutions.com. To stop receiving emails, reply with "unsubscribe."

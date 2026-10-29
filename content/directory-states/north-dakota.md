@@ -81,4 +81,4 @@ If you are aged, blind, or disabled and only want Medicaid, the Medicare Savings
 - ND Office of State Tax Commissioner, Homestead Property Tax Credit and Renter's Refund: https://www.tax.nd.gov/homestead-property-tax-credit-and-renters-refund (Verified June 14, 2026)
 - ND Office of State Tax Commissioner, Primary Residence Credit: https://www.tax.nd.gov/prc (Verified June 14, 2026)
 
-*Ryan Riggins, NC Real Estate License #361546, eXp Realty. Riggins Strategic Solutions is an education and media company, not a real estate sales business. This is not financial, tax, medical, or legal advice. Income limits, rates, and deadlines change annually, confirm with the program or a licensed professional before acting.*
+*Ryan Riggins, NC Real Estate License #361546, eXp Commercial. Riggins Strategic Solutions is an education and media company, not a real estate sales business. This is not financial, tax, medical, or legal advice. Income limits, rates, and deadlines change annually, confirm with the program or a licensed professional before acting.*

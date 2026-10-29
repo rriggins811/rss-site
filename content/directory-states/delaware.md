@@ -82,4 +82,4 @@ Yes. The Delaware Prescription Assistance Program (DPAP) provides up to $3,000 a
 - Sussex County, State Senior Citizen School Property Tax Credit: https://sussexcountyde.gov/state-senior-citizen-school-property-tax-credit (Verified June 13, 2026)
 - Delaware DHSS DSAAPD, Contact Information: https://dhss.delaware.gov/dsaapd/contact/ (Verified June 13, 2026)
 
-*Ryan Riggins, NC Real Estate License #361546, eXp Realty. Riggins Strategic Solutions is an education and media company, not a real estate sales business. This is not financial, tax, medical, or legal advice. Income limits, rates, and deadlines change annually, confirm with the program or a licensed professional before acting.*
+*Ryan Riggins, NC Real Estate License #361546, eXp Commercial. Riggins Strategic Solutions is an education and media company, not a real estate sales business. This is not financial, tax, medical, or legal advice. Income limits, rates, and deadlines change annually, confirm with the program or a licensed professional before acting.*

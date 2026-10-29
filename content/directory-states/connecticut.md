@@ -41,7 +41,7 @@ Connecticut's five **Area Agencies on Aging** coordinate meals, in-home services
 *Verified June 9, 2026. Program limits and dates change; confirm with the official source before relying on a figure.*
 
 ---
-*Ryan Riggins, NC Real Estate License #361546, eXp Realty. Riggins Strategic Solutions is an education and media company, not a real estate sales business. This is not financial, tax, medical, or legal advice. Verify program details before relying on them.*
+*Ryan Riggins, NC Real Estate License #361546, eXp Commercial. Riggins Strategic Solutions is an education and media company, not a real estate sales business. This is not financial, tax, medical, or legal advice. Verify program details before relying on them.*
 
 UNVERIFIED: Circuit Breaker income limits ($46,300 single / $56,500 married) and credit caps ($1,000 single / $1,250 married) are the 2026-cycle figures and change annually. Confirm against the live OPM Circuit Breaker page before publishing.
 UNVERIFIED: HUSKY C (aged) application phone routed via 211 rather than a single DSS number this session. Confirm the current DSS Benefits Center number for aged/long-term-care Medicaid on portal.ct.gov/dss.

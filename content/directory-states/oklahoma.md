@@ -47,7 +47,7 @@ The **Aging Services Division** of Oklahoma Human Services funds meals, adult da
 *Verified June 9, 2026. Program limits and dates change; confirm with the official source before relying on a figure.*
 
 ---
-*Ryan Riggins, NC Real Estate License #361546, eXp Realty. Riggins Strategic Solutions is an education and media company, not a real estate sales business. This is not financial, tax, medical, or legal advice. Verify program details before relying on them.*
+*Ryan Riggins, NC Real Estate License #361546, eXp Commercial. Riggins Strategic Solutions is an education and media company, not a real estate sales business. This is not financial, tax, medical, or legal advice. Verify program details before relying on them.*
 
 UNVERIFIED: Oklahoma SHIP phone. Sources show 1-800-522-0071 (counseling) and also 1-800-522-0071 and 405-521-2828. Confirm the current public SHIP counseling line on oid.ok.gov before publishing.
 UNVERIFIED: Senior Valuation Limitation income limit. It is set to the HUD county median and VARIES BY COUNTY. The $99,000 figure is the 2026 limit for Oklahoma County and Canadian County only, NOT a statewide number. Do not present $99,000 as statewide; route readers to their county assessor.

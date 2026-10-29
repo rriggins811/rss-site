@@ -332,12 +332,12 @@ export default function HomePage() {
           <p className="mt-6 max-w-3xl text-sm leading-relaxed text-ink/65">
             Riggins Strategic Solutions is the free education. The agent
             referral is Ryan working as a licensed North Carolina broker with
-            eXp Realty, paid agent to agent out of the commission you would
+            eXp Commercial, paid agent to agent out of the commission you would
             already pay. He never takes the listing himself.
           </p>
           <p className="mt-2 text-xs text-ink/55">
             Ryan Riggins &middot; NC Real Estate License #361546 &middot; eXp
-            Realty
+            Commercial
           </p>
         </div>
       </section>

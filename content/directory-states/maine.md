@@ -88,4 +88,4 @@ Apply online through My Maine Connection (mymaineconnection.gov) or by phone at 
 - Maine DHHS, Low Cost Drugs for the Elderly or Disabled (DEL), 22 M.R.S. 254-D (age 62): https://legislature.maine.gov/statutes/22/title22sec254-D.html (Verified June 12, 2026)
 - Legal Services for Maine Elders: https://mainelse.org/ (Verified June 12, 2026)
 
-*Ryan Riggins, NC Real Estate License #361546, eXp Realty. Riggins Strategic Solutions is an education and media company, not a real estate sales business. This is not financial, tax, medical, or legal advice. Income limits, rates, and deadlines change annually, confirm with the program or a licensed professional before acting.*
+*Ryan Riggins, NC Real Estate License #361546, eXp Commercial. Riggins Strategic Solutions is an education and media company, not a real estate sales business. This is not financial, tax, medical, or legal advice. Income limits, rates, and deadlines change annually, confirm with the program or a licensed professional before acting.*

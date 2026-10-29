@@ -412,7 +412,7 @@ export default function SellRentOrKeepPage() {
             </Link>
           </div>
           <p className="mt-6 text-sm text-cream/70">
-            Ryan Riggins, NC Real Estate Broker #361546, eXp Realty. Not legal,
+            Ryan Riggins, NC Real Estate Broker #361546, eXp Commercial. Not legal,
             tax or financial advice.
           </p>
         </div>

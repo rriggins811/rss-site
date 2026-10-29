@@ -88,4 +88,4 @@ Apply online through idalink (idalink.idaho.gov), by phone at 1-877-456-1233, or
 - Idaho State Tax Commission, Property Tax Reduction: https://tax.idaho.gov/taxes/property/homeowners/reduction/ (Verified June 12, 2026)
 - Idaho Commission on Aging: https://aging.idaho.gov/ (Verified June 12, 2026)
 
-*Ryan Riggins, NC Real Estate License #361546, eXp Realty. Riggins Strategic Solutions is an education and media company, not a real estate sales business. This is not financial, tax, medical, or legal advice. Income limits, rates, and deadlines change annually, confirm with the program or a licensed professional before acting.*
+*Ryan Riggins, NC Real Estate License #361546, eXp Commercial. Riggins Strategic Solutions is an education and media company, not a real estate sales business. This is not financial, tax, medical, or legal advice. Income limits, rates, and deadlines change annually, confirm with the program or a licensed professional before acting.*

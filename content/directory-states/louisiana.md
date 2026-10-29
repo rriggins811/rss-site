@@ -44,7 +44,7 @@ The **Governor's Office of Elderly Affairs (GOEA)** is Louisiana's focal point f
 *Verified June 9, 2026. Program limits and dates change; confirm with the official source before relying on a figure.*
 
 ---
-*Ryan Riggins, NC Real Estate License #361546, eXp Realty. Riggins Strategic Solutions is an education and media company, not a real estate sales business. This is not financial, tax, medical, or legal advice. Verify program details before relying on them.*
+*Ryan Riggins, NC Real Estate License #361546, eXp Commercial. Riggins Strategic Solutions is an education and media company, not a real estate sales business. This is not financial, tax, medical, or legal advice. Verify program details before relying on them.*
 
 UNVERIFIED: Louisiana SHIIP phone appears two ways in sources (1-800-259-5300 toll-free and 1-800-259-5301 for counseling). Confirm the exact public counseling line on ldi.la.gov/SHIIP before publishing.
 UNVERIFIED: Property-tax income ceiling. $100,000 is the CURRENT (2026) Special Assessment Level limit. A separate Louisiana constitutional amendment to raise it to $150,000 is PENDING a November 2026 statewide vote and would not take effect until January 1, 2027 if approved. Do NOT publish $150,000 as current law. Confirm the live 2026 figure with a parish assessor.

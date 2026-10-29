@@ -87,4 +87,4 @@ Call the Mississippi Division of Medicaid at 1-800-421-2408, apply online at med
 - Mississippi CSFP (MDHS): https://www.mdhs.ms.gov/help/seniors/ (Verified June 11, 2026)
 - Mississippi DAAS senior services: https://www.mdhs.ms.gov/adults-seniors/services-for-seniors/ (Verified June 11, 2026)
 
-*Ryan Riggins, NC Real Estate License #361546, eXp Realty. Riggins Strategic Solutions is an education and media company, not a real estate sales business. This is not financial, tax, medical, or legal advice. Income limits, rates, and deadlines change annually, confirm with the program or a licensed professional before acting.*
+*Ryan Riggins, NC Real Estate License #361546, eXp Commercial. Riggins Strategic Solutions is an education and media company, not a real estate sales business. This is not financial, tax, medical, or legal advice. Income limits, rates, and deadlines change annually, confirm with the program or a licensed professional before acting.*

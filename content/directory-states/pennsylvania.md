@@ -44,4 +44,4 @@ Meals on Wheels, in-home services (the OPTIONS program), caregiver support, and 
 - PA Department of Revenue, Property Tax/Rent Rebate (deadline extended to Dec 31, 2026): https://www.pa.gov/agencies/revenue/ptrr . Verified June 3, 2026.
 
 ---
-*Ryan Riggins, NC Real Estate License #361546, eXp Realty. Riggins Strategic Solutions is an education and media company, not a real estate sales business. This is not financial, tax, medical, or legal advice. Income limits, rates, and deadlines change annually, confirm with the program or a licensed professional before acting.*
+*Ryan Riggins, NC Real Estate License #361546, eXp Commercial. Riggins Strategic Solutions is an education and media company, not a real estate sales business. This is not financial, tax, medical, or legal advice. Income limits, rates, and deadlines change annually, confirm with the program or a licensed professional before acting.*

@@ -46,4 +46,4 @@ Meals on Wheels, in-home support, the Family Caregiver Support Program, and seni
 - Texas Comptroller, Property Tax Exemptions; Texas Proposition 13 (Nov 4, 2025) increasing homestead exemptions: https://comptroller.texas.gov/taxes/property-tax/exemptions/ and https://ballotpedia.org/Texas_Proposition_13,_Increase_Homestead_Property_Tax_Exemption_Amendment_(2025) . Verified June 3, 2026.
 
 ---
-*Ryan Riggins, NC Real Estate License #361546, eXp Realty. Riggins Strategic Solutions is an education and media company, not a real estate sales business. This is not financial, tax, medical, or legal advice. Income limits, rates, and deadlines change annually, confirm with the program or a licensed professional before acting.*
+*Ryan Riggins, NC Real Estate License #361546, eXp Commercial. Riggins Strategic Solutions is an education and media company, not a real estate sales business. This is not financial, tax, medical, or legal advice. Income limits, rates, and deadlines change annually, confirm with the program or a licensed professional before acting.*

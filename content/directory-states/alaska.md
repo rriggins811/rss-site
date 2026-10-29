@@ -77,4 +77,4 @@ Apply through the Division of Public Assistance (online, by mail, fax, or in per
 - Alaska Office of the State Assessor, Alaska Tax Facts: https://www.commerce.alaska.gov/web/dcra/officeofthestateassessor/alaskataxfacts.aspx (Verified June 14, 2026)
 - Alaska DCRA, Property Tax Exemptions in Alaska: https://www.commerce.alaska.gov/web/dcra/LocalGovernmentResourceDesk/TaxationAssessment/PropertyTaxExemptionsinAlaska.aspx (Verified June 14, 2026)
 
-*Ryan Riggins, NC Real Estate License #361546, eXp Realty. Riggins Strategic Solutions is an education and media company, not a real estate sales business. This is not financial, tax, medical, or legal advice. Income limits, rates, and deadlines change annually, confirm with the program or a licensed professional before acting.*
+*Ryan Riggins, NC Real Estate License #361546, eXp Commercial. Riggins Strategic Solutions is an education and media company, not a real estate sales business. This is not financial, tax, medical, or legal advice. Income limits, rates, and deadlines change annually, confirm with the program or a licensed professional before acting.*

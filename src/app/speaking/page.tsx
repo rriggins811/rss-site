@@ -248,7 +248,7 @@ export default function SpeakingPage() {
         <div className="mx-auto max-w-3xl px-6 py-12">
           <div className="rounded-lg border border-border bg-cream/60 p-6 text-sm text-ink/80 leading-relaxed">
             <p className="font-semibold text-navy-700">
-              Ryan Riggins | NC Real Estate License #361546 | eXp Realty
+              Ryan Riggins | NC Real Estate License #361546 | eXp Commercial
             </p>
             <p className="mt-3">
               Riggins Strategic Solutions is a consumer protection education

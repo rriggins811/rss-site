@@ -98,4 +98,4 @@ Apply through WV PATH at wvpath.wv.gov or by visiting a local Department of Huma
 - WV Tax Division, Homestead Exemption (Fayette County example): https://fayettecounty.wv.gov/assessor/realestate/Pages/Homestead-Exemption.aspx (Verified June 11, 2026)
 - WV Bureau of Senior Services: https://www.wv.gov/pages/agency.aspx?newid=237 (Verified June 11, 2026)
 
-*Ryan Riggins, NC Real Estate License #361546, eXp Realty. Riggins Strategic Solutions is an education and media company, not a real estate sales business. This is not financial, tax, medical, or legal advice. Income limits, rates, and deadlines change annually, confirm with the program or a licensed professional before acting.*
+*Ryan Riggins, NC Real Estate License #361546, eXp Commercial. Riggins Strategic Solutions is an education and media company, not a real estate sales business. This is not financial, tax, medical, or legal advice. Income limits, rates, and deadlines change annually, confirm with the program or a licensed professional before acting.*

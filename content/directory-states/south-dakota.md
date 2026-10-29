@@ -80,4 +80,4 @@ Apply online, by mail, or in person through your local Department of Social Serv
 - SD Department of Revenue, Property Tax Relief Programs: https://dor.sd.gov/individuals/taxes/property-tax/relief-programs/ (Verified June 13, 2026)
 - SD Department of Revenue, Assessment Freeze for the Elderly and Disabled: https://dor.sd.gov/newsroom/assessment-freeze-for-the-elderly-disabled/ (Verified June 13, 2026)
 
-*Ryan Riggins, NC Real Estate License #361546, eXp Realty. Riggins Strategic Solutions is an education and media company, not a real estate sales business. This is not financial, tax, medical, or legal advice. Income limits, rates, and deadlines change annually, confirm with the program or a licensed professional before acting.*
+*Ryan Riggins, NC Real Estate License #361546, eXp Commercial. Riggins Strategic Solutions is an education and media company, not a real estate sales business. This is not financial, tax, medical, or legal advice. Income limits, rates, and deadlines change annually, confirm with the program or a licensed professional before acting.*

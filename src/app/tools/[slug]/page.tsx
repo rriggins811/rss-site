@@ -137,7 +137,7 @@ export default async function ToolPage({
           <p className="mt-4 text-ink/80 leading-relaxed">
             Numbers on a page don't decide anything. A 30-minute call will. Walk
             through what you just saw with {AUTHOR.name}, {AUTHOR.jobTitle}.
-            No sales pressure. Ryan is a licensed NC broker (#361546, eXp Realty)
+            No sales pressure. Ryan is a licensed NC broker (#361546, eXp Commercial)
             but does not work as a traditional listing agent.
           </p>
           <div className="mt-6 flex flex-wrap justify-center gap-3">

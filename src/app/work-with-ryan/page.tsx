@@ -91,7 +91,7 @@ export default function WorkWithRyanPage() {
           serviceType: "Senior transition advisory consultation",
           url: abs("/work-with-ryan"),
           description:
-            "A 30-minute call with Ryan Riggins, Senior Transition Advisor and licensed North Carolina broker who never takes the listing. Every option laid out honestly, including selling, waiting, renting, or not selling at all. If selling is the right move, Ryan refers a vetted local agent and is paid agent to agent through eXp Realty out of the existing commission, at no added cost to the family.",
+            "A 30-minute call with Ryan Riggins, Senior Transition Advisor and licensed North Carolina broker who never takes the listing. Every option laid out honestly, including selling, waiting, renting, or not selling at all. If selling is the right move, Ryan refers a vetted local agent and is paid agent to agent through eXp Commercial out of the existing commission, at no added cost to the family.",
           provider: {
             "@type": "Person",
             name: "Ryan Riggins",
@@ -240,7 +240,7 @@ export default function WorkWithRyanPage() {
             <li className="border-l-2 border-gold-500 pl-5">
               When it is time to sell, Ryan is not your listing agent. He never
               takes the listing. He refers you to a vetted local agent and is
-              paid a referral fee agent to agent through eXp Realty, out of the
+              paid a referral fee agent to agent through eXp Commercial, out of the
               commission you were already going to pay that agent. No added
               cost.
             </li>
@@ -259,7 +259,7 @@ export default function WorkWithRyanPage() {
           </p>
           <p className="mt-6 text-sm leading-relaxed text-ink/60">
             Ryan Riggins is a licensed North Carolina real estate broker
-            (#361546, eXp Realty). Referral fees are paid broker to broker out
+            (#361546, eXp Commercial). Referral fees are paid broker to broker out
             of the existing commission and are never an added charge to your
             family.
           </p>

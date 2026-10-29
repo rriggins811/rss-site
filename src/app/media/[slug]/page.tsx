@@ -184,7 +184,7 @@ export default async function MediaDetailPage({
                 </Link>
               </div>
               <p className="mt-2 text-ink/80 leading-relaxed">
-                Licensed NC broker (#361546, eXp Realty). He never takes the
+                Licensed NC broker (#361546, eXp Commercial). He never takes the
                 listing and never buys the house. Creator of The Blueprint and
                 Hammock365.
               </p>

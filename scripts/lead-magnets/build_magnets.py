@@ -45,7 +45,7 @@ pdfmetrics.registerFontFamily(
     italic="Lora-Italic", boldItalic="Lora-BoldItalic",
 )
 
-LICENCE = ("Ryan Riggins · NC Real Estate License #361546 · eXp Realty "
+LICENCE = ("Ryan Riggins · NC Real Estate License #361546 · eXp Commercial "
            "· rigginsstrategicsolutions.com")
 
 S = {
@@ -165,7 +165,7 @@ def cover(title, subtitle, quote, descriptor):
         Spacer(1, 0.9 * inch),
         Paragraph(descriptor, S["cfoot"]),
         Spacer(1, 0.18 * inch),
-        Paragraph("NC Real Estate License #361546 · eXp Realty", S["cfoot"]),
+        Paragraph("NC Real Estate License #361546 · eXp Commercial", S["cfoot"]),
         Paragraph("rigginsstrategicsolutions.com", S["cfoot"]),
         # Without this every page keeps using the cover template, which
         # silently drops the running header and, more importantly, the

@@ -80,4 +80,4 @@ Apply for Long-Term Care Medicaid using Form 202LTC, and call 1-833-840-0061 to 
 - Vermont Department of Taxes, Property Tax Credit: https://tax.vermont.gov/property/property-tax-credit (Verified June 14, 2026)
 - Vermont Department of Taxes, 2026 Instructions HS-122 / HI-144: https://tax.vermont.gov/instructions/form-HS-122 (Verified June 14, 2026)
 
-*Ryan Riggins, NC Real Estate License #361546, eXp Realty. Riggins Strategic Solutions is an education and media company, not a real estate sales business. This is not financial, tax, medical, or legal advice. Income limits, rates, and deadlines change annually, confirm with the program or a licensed professional before acting.*
+*Ryan Riggins, NC Real Estate License #361546, eXp Commercial. Riggins Strategic Solutions is an education and media company, not a real estate sales business. This is not financial, tax, medical, or legal advice. Income limits, rates, and deadlines change annually, confirm with the program or a licensed professional before acting.*

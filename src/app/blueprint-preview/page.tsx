@@ -200,7 +200,7 @@ export default async function BlueprintMapSalesPage({
           </p>
         </div>
         <p className="mt-8 text-xs text-[#1C3A52]/55">
-          Ryan Riggins, NC Real Estate License #361546, eXp Realty. Riggins
+          Ryan Riggins, NC Real Estate License #361546, eXp Commercial. Riggins
           Strategic Solutions is an education and media company. This is not
           financial, tax, medical, or legal advice.
         </p>
