@@ -734,6 +734,15 @@ export const DIRECTORY_COUNTIES: DirectoryCounty[] = [
     blurb:
       "New Bern, Havelock, Trent Woods, River Bend, Vanceboro, Bridgeton, Cove City and Dover, NC programs for seniors and families: the Tax Department on Pollock Street and the 2026 and 2027 income limits for North Carolina's three relief programs, why Craven's next revaluation is 2028, a lower recycle fee on elderly and disabled bills, Senior Services at the George Street Senior Center for home-delivered meals, the Sunshine Center and the Memory Cafe, weekday lunch at the Havelock Senior Center, the Food Bank's New Bern branch, a Medicaid rule that covers up to three months of past costs for applications filed by December 31, 2026, CARTS rides from $1 and EDTAP ride help at 60, weatherization through Coastal Community Action, Project Lifesaver in New Bern, Havelock's twice-weekly senior check-in calls, free legal help through Legal Aid's Greenville office, and the PACE program that covers the whole county.",
   },
+  {
+    slug: "wayne-county-nc-senior-help-directory",
+    county: "Wayne County",
+    state: "NC",
+    metro: "Goldsboro, Mount Olive, Fremont & Pikeville",
+    region: "Eastern North Carolina",
+    blurb:
+      "Goldsboro, Mount Olive, Fremont, Pikeville, Seven Springs, Eureka and Walnut Creek, NC programs for seniors and families: the Tax Department on East Walnut Street and the 2026 and 2027 income limits for North Carolina's three relief programs, why Wayne's 2025 revaluation keeps it out of the 2026 delay law, Services on Aging at the Peggy M. Seegars Senior Center for in-home aides, group respite, free check-in calls and SHIIP appointments, WAGES Meals on Wheels and senior lunch in Goldsboro and Mount Olive, the Food Bank's Raleigh branch, a Medicaid rule that covers up to three months of past costs for applications filed by December 31, 2026, GWTA 50-cent bus fares at 60 and $5 county van rides, weatherization and heating repair through WAGES, roof repair through Habitat for Humanity of Goldsboro-Wayne, free legal help through Legal Aid's Wilson office and Goldsboro branch, and what to use when no PACE program serves the county.",
+  },
 ];
 
 export type DirectoryState = {
