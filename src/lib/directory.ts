@@ -743,6 +743,15 @@ export const DIRECTORY_COUNTIES: DirectoryCounty[] = [
     blurb:
       "Goldsboro, Mount Olive, Fremont, Pikeville, Seven Springs, Eureka and Walnut Creek, NC programs for seniors and families: the Tax Department on East Walnut Street and the 2026 and 2027 income limits for North Carolina's three relief programs, why Wayne's 2025 revaluation keeps it out of the 2026 delay law, Services on Aging at the Peggy M. Seegars Senior Center for in-home aides, group respite, free check-in calls and SHIIP appointments, WAGES Meals on Wheels and senior lunch in Goldsboro and Mount Olive, the Food Bank's Raleigh branch, a Medicaid rule that covers up to three months of past costs for applications filed by December 31, 2026, GWTA 50-cent bus fares at 60 and $5 county van rides, weatherization and heating repair through WAGES, roof repair through Habitat for Humanity of Goldsboro-Wayne, free legal help through Legal Aid's Wilson office and Goldsboro branch, and what to use when no PACE program serves the county.",
   },
+  {
+    slug: "harnett-county-nc-senior-help-directory",
+    county: "Harnett County",
+    state: "NC",
+    metro: "Lillington, Dunn, Erwin, Angier & Coats",
+    region: "Sandhills",
+    blurb:
+      "Lillington, Dunn, Erwin, Angier, Coats, Cameron and the Anderson Creek area, NC programs for seniors and families: the Tax Department in Lillington and the 2026 and 2027 income limits for North Carolina's three relief programs, why Harnett's 2026 reappraisal is already on this year's bill, the hard January 5 stop on payment plans, the Division on Aging for senior lunch at six sites, home-delivered meals, in-home aides, CAP/DA, caregiver support and SHIIP appointments, the Food Bank's Raleigh branch and the county pantry list, a Medicaid rule that covers up to three months of past costs for applications filed by December 31, 2026, HARTS van rides for $3 each way, Urgent Repair through Johnston-Lee-Harnett Community Action, exterior repairs and ramps through Habitat for Humanity of Harnett County, free legal help through Legal Aid's Central Carolina offices, veterans outreach in Dunn and Benhaven, and the Harnett ZIP codes the state lists for PACE.",
+  },
 ];
 
 export type DirectoryState = {
