@@ -9,6 +9,7 @@ import {
 } from "@/lib/ghl-proxy";
 import { sendReadinessResultsEmail } from "@/lib/email/readiness-results";
 import { recordFailure } from "@/lib/failure-log";
+import { emailLeadToRyan } from "@/lib/email/lead-notify";
 
 export const runtime = "nodejs";
 
@@ -174,6 +175,23 @@ export async function POST(req: Request) {
   }
 
   if (!isDuplicate) {
+    // Ryan gets the lead directly, before the family email and before GHL.
+    await emailLeadToRyan({
+      route: "readiness-results",
+      formName: "Family Readiness Score results",
+      name: lead.first_name || lead.email,
+      fields: [
+        ["First name", lead.first_name],
+        ["Email", lead.email],
+        ["Score", score],
+        ["Band", band],
+        ["Pillars", pillars],
+        ["Attribution", attribution],
+      ],
+      source,
+      replyTo: lead.email,
+    });
+
     // Send the results ourselves rather than depending on a GHL workflow.
     // The form promises "email me my results" the moment they submit, so the
     // promise has to be kept by this request, not by automation that may not

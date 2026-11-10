@@ -3,6 +3,7 @@ import { getServiceSupabase } from "@/lib/supabase-server";
 import { checkAndRecordRateLimit, getClientIp } from "@/lib/rate-limit";
 import { upsertGhlContactWithTags } from "@/lib/ghl-proxy";
 import { recordFailure } from "@/lib/failure-log";
+import { emailLeadToRyan } from "@/lib/email/lead-notify";
 
 // Optional capture from the free tools (first: the Net Proceeds Calculator).
 //
@@ -94,6 +95,21 @@ export async function POST(req: Request) {
       payload: { firstName, tool },
     });
   }
+
+  // Email Ryan before GHL, so the lead never depends on GHL.
+  await emailLeadToRyan({
+    route: "tool-lead",
+    formName: `Tool lead (${tool})`,
+    name: firstName,
+    fields: [
+      ["First name", firstName],
+      ["Email", email],
+      ["Tool", tool],
+      ["Tool inputs", inputs],
+    ],
+    source: tool,
+    replyTo: email,
+  });
 
   try {
     const res = await upsertGhlContactWithTags(

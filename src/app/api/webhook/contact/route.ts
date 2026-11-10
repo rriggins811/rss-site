@@ -5,6 +5,7 @@ import { checkAndRecordRateLimit, getClientIp } from "@/lib/rate-limit";
 import { GHL_WEBHOOKS, postToGhl } from "@/lib/ghl-webhooks";
 import { recordFailure } from "@/lib/failure-log";
 import { callGhlProxy, upsertGhlContactWithTags } from "@/lib/ghl-proxy";
+import { emailLeadToRyan } from "@/lib/email/lead-notify";
 
 export const runtime = "nodejs";
 
@@ -117,6 +118,25 @@ export async function POST(req: Request) {
       },
     });
   }
+
+  // Email Ryan first. This is the path that does not depend on GHL, so the
+  // lead reaches him even when every GHL call below fails.
+  await emailLeadToRyan({
+    route: "contact",
+    formName: "Contact form",
+    name: [lead.first_name, lead.last_name].filter(Boolean).join(" ") || lead.email,
+    fields: [
+      ["First name", lead.first_name],
+      ["Last name", lead.last_name],
+      ["Email", lead.email],
+      ["Phone", lead.phone],
+      ["Message", lead.message],
+      ["Tag", tag],
+      ["Attribution", sanitizeAttribution(body.attribution)],
+    ],
+    source,
+    replyTo: lead.email,
+  });
 
   const ghl = await postToGhl(GHL_WEBHOOKS.contact, ghlPayload);
   if (!ghl.ok) {

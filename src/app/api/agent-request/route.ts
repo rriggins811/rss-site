@@ -3,6 +3,7 @@ import { getServiceSupabase } from "@/lib/supabase-server";
 import { checkAndRecordRateLimit, getClientIp } from "@/lib/rate-limit";
 import { upsertGhlContact, upsertGhlContactWithTags, callGhlProxy } from "@/lib/ghl-proxy";
 import { recordFailure } from "@/lib/failure-log";
+import { emailLeadToRyan } from "@/lib/email/lead-notify";
 
 // "I just need an agent" request, from /need-an-agent.
 //
@@ -116,6 +117,27 @@ export async function POST(req: Request) {
       payload: { firstName, lastName, phone, location, timeline, offer, urgent },
     });
   }
+
+  // 1b. Email Ryan directly, before any GHL call, so this request reaches him
+  //     even when GHL is down or gone.
+  await emailLeadToRyan({
+    route: "agent-request",
+    formName: "Agent request (/need-an-agent)",
+    name: [firstName, lastName].filter(Boolean).join(" ") || email,
+    urgent,
+    fields: [
+      ["First name", firstName],
+      ["Last name", lastName],
+      ["Email", email],
+      ["Phone", phone],
+      ["Location", location],
+      ["Timeline", timeline],
+      ["Offer status", urgent ? `${offer} (OFFER ON THE TABLE)` : offer],
+      ["Notes", notes],
+    ],
+    source: "need-an-agent",
+    replyTo: email,
+  });
 
   // 2. Tag in GHL. `agent-request-urgent` is what makes an offer-on-the-table
   //    request reachable in hours instead of days.

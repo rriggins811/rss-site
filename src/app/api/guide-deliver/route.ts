@@ -5,6 +5,7 @@ import { upsertGhlContactWithTags } from "@/lib/ghl-proxy";
 import { getLeadMagnet, guideDeliveryUrl } from "@/lib/lead-magnets";
 import { sendLeadMagnetEmail } from "@/lib/email/lead-magnets";
 import { recordFailure } from "@/lib/failure-log";
+import { emailLeadToRyan } from "@/lib/email/lead-notify";
 
 export const runtime = "nodejs";
 
@@ -209,7 +210,23 @@ export async function POST(req: Request) {
   // New lead: tag in GHL (magnet tags + warm-funnel marker) and send the
   // branded delivery email. Both best-effort; the /ready page is the
   // instant guarantee, so neither blocks the user-facing success.
-  const [ghlRes, emailRes] = await Promise.allSettled([
+  const [, ghlRes, emailRes] = await Promise.allSettled([
+    // Ryan gets the lead directly, in parallel with GHL, never through it.
+    // emailLeadToRyan never throws and records its own failures.
+    emailLeadToRyan({
+      route: `guide-deliver:${magnet.slug}`,
+      formName: `Guide opt-in (${magnet.slug})`,
+      name: firstName || email,
+      fields: [
+        ["First name", firstName],
+        ["Email", email],
+        ["Phone", phone],
+        ["Guide", magnet.slug],
+        ["Attribution", attribution],
+      ],
+      source,
+      replyTo: email,
+    }).then(() => undefined),
     upsertGhlContactWithTags(
       {
         email,

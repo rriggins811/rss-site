@@ -6,6 +6,7 @@ import { GHL_WEBHOOKS, postToGhl } from "@/lib/ghl-webhooks";
 import { upsertGhlContactWithTags, GHL_TAGS } from "@/lib/ghl-proxy";
 import { getLeadMagnet, magnetAbsoluteUrl } from "@/lib/lead-magnets";
 import { recordFailure } from "@/lib/failure-log";
+import { emailLeadToRyan } from "@/lib/email/lead-notify";
 
 export const runtime = "nodejs";
 
@@ -285,6 +286,25 @@ export async function POST(req: Request) {
   //      magnet contact.
   //
   // Each result variable is typed by inference from its source helper.
+
+  // Email Ryan first, directly. Blueprint signup and GHL run after this and
+  // can fail on their own without costing the lead. (blueprint-site's
+  // freeguide-signup does not send a second lead email for this same person.)
+  await emailLeadToRyan({
+    route: isLeadMagnetFlow ? `lead-magnet:${magnet!.slug}` : "starter-guide",
+    formName: isLeadMagnetFlow ? `Guide signup (${magnet!.slug})` : "Starter guide signup",
+    name: [lead.first_name, lead.last_name].filter(Boolean).join(" ") || lead.email,
+    fields: [
+      ["First name", lead.first_name],
+      ["Last name", lead.last_name],
+      ["Email", lead.email],
+      ["Phone", lead.phone],
+      ["Guide", isLeadMagnetFlow ? magnet!.slug : "starter-guide"],
+      ["Attribution", attribution],
+    ],
+    source,
+    replyTo: lead.email,
+  });
 
   type ProxyResult = Awaited<ReturnType<typeof upsertGhlContactWithTags>>;
   type BlueprintResult = Awaited<ReturnType<typeof postToBlueprint>>;
