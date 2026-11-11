@@ -5,8 +5,8 @@ It contains the full Markdown of every key page, resource pillar, Senior Help
 Directory state page, and blog post, intended for AI crawlers that ingest
 content for answer generation.
 
-Generated: 2026-11-10
-Indexed: 167 blog posts, 17 resource pillars, 51 Senior Help Directory state pages, 17 video transcripts.
+Generated: 2026-11-11
+Indexed: 168 blog posts, 17 resource pillars, 51 Senior Help Directory state pages, 17 video transcripts.
 
 For citation guidance, organizational facts, and topic depth, see the summary
 index at https://rigginsstrategicsolutions.com/llms.txt.
@@ -5314,8 +5314,142 @@ You must qualify for Medicaid, then apply for the Community Choices Waiver, choo
 
 # Blog Posts (newest first)
 
-The 167 posts below are the full body of every published article
+The 168 posts below are the full body of every published article
 on https://rigginsstrategicsolutions.com/blog, in reverse chronological order.
+
+---
+
+# CMS Wants to Stop Telling the Ombudsman When a Nursing Home Sends Your Parent to the ER
+https://rigginsstrategicsolutions.com/blog/nursing-home-er-transfer-ombudsman-notice-cms-proposed-rule
+Published: 2026-11-11
+
+**Excerpt:** When a nursing home sends your parent to the hospital, federal rules say a copy of the notice goes to the state ombudsman. A rule CMS proposed on November 5 would end that copy for emergency transfers. Here's what changes, what doesn't, and what to do before the comment period closes January 11.
+
+You know how the call comes at 2 a.m.? Your dad fell, or his oxygen dropped, or he just isn't acting right, and the nursing home is sending him to the emergency room. You throw on clothes and drive. Nobody in that moment is thinking about paperwork.
+
+But there is paperwork, and one piece of it was written for a moment you haven't hit yet: the day the hospital says he's ready to go back and the nursing home says it isn't sure it can take him.
+
+Under the federal rules today, when a nursing home transfers a resident, you get a written notice, and a copy goes to somebody outside the building: the state long-term care ombudsman, an advocate who works for the resident and not for the facility. On November 5, the Centers for Medicare & Medicaid Services proposed ending that copy for emergency hospital transfers.
+
+I'll tell you why I pay attention to this. I spent 8 years buying houses, many of them from families in the middle of a care crisis, and I learned that the worst decisions about a parent's home get made in the week when the family thinks there's nowhere for that parent to go. A bed that might disappear puts a clock on everything. So if you have a parent in a nursing home, or you're about to, this one's for you. It isn't a reason to panic. It's a reason to learn a few rights now, while it's quiet, because if this rule goes through, you become the one who has to make the call that a piece of paper used to make for you.
+
+## What CMS proposed on November 5
+
+The proposal is called Cutting Administrative Requirements for Excellence in Patient Care, file code CMS-3484-P. It was published in the Federal Register on November 10, 2026, and it's a big one. CMS says it reviewed the rules for all 21 types of providers and suppliers it certifies, and it estimates the package would save providers about $320 million a year on average.
+
+Most of it has nothing to do with your family. The piece that does sits in the nursing home section, at 42 CFR 483.15(c)(3)(i). Here's the rule as it reads today: before a facility transfers or discharges a resident, it has to notify the resident and the resident's representative in writing, with the reasons, in a language and manner they understand, and it "must send a copy of the notice to a representative of the Office of the State Long-Term Care Ombudsman."
+
+The proposal adds one clause to the end of that sentence: "except when the resident is transferred on an emergency basis to an acute care facility."
+
+CMS gives its reasons in plain terms. The copy to the ombudsman was added in 2016 so an outside advocate would know about transfers and discharges and could step in on the bad ones. In practice, CMS writes, the volume of paper has kept ombudsman offices from focusing on the inappropriate discharges the rule was aimed at. For emergency transfers, facilities are already allowed to send one monthly list instead of individual notices. And CMS's view is that "a transfer for emergency care services is inherently appropriate," so there's nothing in that notice for an ombudsman to act on.
+
+The agency's own math: citing an Office of Inspector General estimate that 25 percent of nursing home residents are transferred to a hospital each year, and a count of 1,231,691 residents in certified nursing homes as of January 2026, CMS figures facilities send about 307,923 of these notices a year at about $5.30 apiece. It estimates ending them saves facilities about $1.63 million a year and saves ombudsman offices about $1 million a year in reading time.
+
+Two things to keep straight. First, this is a proposed rule. Nothing has changed yet, and CMS is taking public comments through January 11, 2027. Second, CMS tried a version of this in 2019 and never finalized it.
+
+## What it means for your family
+
+### The trip out was never the problem
+
+CMS is right about one thing. Sending your mom to the ER when she needs the ER is the correct call, and no ombudsman needs to review it.
+
+The trouble families run into comes later. Your parent is medically ready to leave the hospital, and the nursing home says the bed is gone, or her needs have changed, or it's still evaluating. Now you're standing in a hospital hallway with a discharge planner who needs an answer and a facility that won't give one. That's the moment that pushes families into rushed choices about care, about money, and about the house.
+
+The copy to the ombudsman, even as a monthly list, was a thin outside record that the transfer happened. Under the proposal, that record goes away for emergency transfers. Whether it was doing much good is a fair argument, and CMS says it wasn't. Either way, here's the practical result for you: nobody outside the building will know your parent left unless you tell them.
+
+### What stays exactly the same
+
+This is the part I'd want you to hold onto, because the proposal leaves all of it alone. Every item below comes from the current regulation, 42 CFR 483.15.
+
+- **You still get written notice.** The facility still has to notify your parent and your parent's representative in writing of a transfer and the reasons. In an emergency it has to do that "as soon as practicable."
+- **You still get the bed-hold notice.** At the time of a hospital transfer, the facility has to give the resident and the representative written notice of how long the bed is held and its policy on returning.
+- **Your parent still has a right to come back.** The facility has to have and follow a written return policy. Even if the hospital stay runs past the bed-hold period, your parent returns to their previous room if it's available, or to the first available bed in a semi-private room, as long as they still need the facility's services and are eligible for Medicare skilled nursing or Medicaid nursing facility coverage.
+- **"We can't take her back" is still a discharge.** If the facility decides a resident who left expecting to return can't return, the rule says it must follow the discharge requirements. That means a written notice, a reason from a short list of allowed ones, appeal rights, and, even under the proposal, a copy to the ombudsman, because a discharge is not an emergency transfer.
+- **Your parent can still appeal, and usually stays put while they do.** A facility generally can't discharge a resident while an appeal is pending, unless staying would endanger health or safety, and it has to document that danger.
+
+The regulation allows only six reasons to move a resident out: the facility can't meet the resident's needs, the resident got better and doesn't need the facility anymore, the safety of others is endangered, the health of others is endangered, the bill hasn't been paid after reasonable notice, or the facility is closing. "The bed got filled" isn't on the list.
+
+### Two other items in the same rule
+
+CMS is also asking, without proposing it yet, whether residents should be able to opt out of having a discharge notice sent to the ombudsman when the resident or family is the one who started the discharge. CMS itself asks whether that could have unintended consequences, including whether residents would understand what they're giving up.
+
+And for the building itself: today, a facility newly certified after November 28, 2016 has to hold bedrooms to no more than two residents and give each room its own bathroom with a toilet and sink. The proposal would tie that standard to when construction plans were approved, so an older building that changes owners or reopens wouldn't have to meet it. If you're touring, count the beds in the room and look for the bathroom yourself. You've probably also seen headlines saying windows are going away. Read the rule: CMS says nursing homes would still have to provide at least one outside window in each resident bedroom.
+
+## What to do now, while it's quiet
+
+### 1. Find your regional ombudsman and save the number
+
+Every state has a long-term care ombudsman program. In North Carolina, per the NC Department of Health and Human Services, it's a state office plus 16 regional offices housed in the Area Agencies on Aging, and ombudsmen help residents and families resolve grievances with facilities, including discharge decisions. NCDHHS posts a county lookup on its ombudsman page, and its customer service line is 1-800-662-7030. Every other state runs its own program; your parent's transfer or discharge notice has to list its phone number. Put the name and number in your phone today, under a name you'll find at 2 a.m.
+
+### 2. Ask for the bed-hold and return policy in writing
+
+Don't wait for a transfer to see it. Ask the admissions or business office for the facility's written bed-hold policy and its policy on residents returning after a hospital stay. Read how many days the bed is held, what it costs to hold it past that, and what the policy says about coming back after the hold runs out. Keep a copy at your house, not in your parent's room.
+
+### 3. When a transfer happens, start your own paper trail
+
+Write down the date, the time, who called you, and the reason given. Ask for the written transfer notice and the bed-hold notice, and keep both. If they aren't handed to you, ask the next morning. If the rule is finalized, your notes and those two pieces of paper are the record.
+
+### 4. If you hear "we can't take her back," use four words
+
+Ask for it in writing. A facility that won't readmit a resident who expected to return has to give a written discharge notice with the reason, the date, the appeal instructions, and the ombudsman's contact information. Then call the ombudsman yourself, that day, and tell the hospital discharge planner you're disputing the discharge. Don't sign anything agreeing to a different facility until you've talked to the ombudsman.
+
+### 5. Don't let the hospital clock set the house clock
+
+When a bed is in question, somebody in the family usually says it's time to sell the house and pay for something else. Maybe it is. But a decision about a home that took forty years to pay off shouldn't be made in a hallway in a week. Settle where your parent is living first. The house can wait a few weeks, and a house sold in a hurry is where families lose the most.
+
+### 6. If you have an opinion, tell CMS by January 11
+
+Anyone can comment. Go to regulations.gov, find docket CMS-2026-3631, and refer to file code CMS-3484-P. You don't have to write like a lawyer. Two paragraphs about what happened when your own parent went to the hospital and tried to come back is the kind of thing the agency asked to hear, in either direction.
+
+## Frequently Asked Questions
+
+### Can a nursing home refuse to take my parent back after a hospital stay?
+
+Not just because the bed-hold ran out. Under 42 CFR 483.15(e), a resident whose hospital stay exceeds the bed-hold period returns to their previous room if it's available, or to the first available bed in a semi-private room, if they still need the facility's services and are eligible for Medicare skilled nursing or Medicaid nursing facility coverage. If the facility decides a resident can't return, it has to follow the full discharge rules, including written notice and appeal rights.
+
+### Does the nursing home have to tell the ombudsman when my parent goes to the hospital?
+
+Today, yes. The current rule at 42 CFR 483.15(c)(3)(i) requires a copy of every transfer or discharge notice to go to the Office of the State Long-Term Care Ombudsman, and CMS says facilities are permitted to send emergency transfers as a monthly list. A rule CMS proposed on November 5, 2026 would end that copy when a resident is transferred on an emergency basis to an acute care facility. It isn't final.
+
+### Is the CMS nursing home rule change in effect now?
+
+No. It's a proposed rule, published in the Federal Register on November 10, 2026 under file code CMS-3484-P. CMS is accepting public comments through January 11, 2027, and the agency would have to publish a final rule before anything changes. CMS proposed a similar change in 2019 and didn't finalize it.
+
+### What is a long-term care ombudsman?
+
+An ombudsman is an advocate for residents of long-term care facilities who works outside the facility. Federal rules require a nursing home's transfer or discharge notice to list the name, address, and phone number of the Office of the State Long-Term Care Ombudsman. In North Carolina, NCDHHS describes a state office and 16 regional offices housed in Area Agencies on Aging.
+
+### How much notice does a nursing home have to give before discharging a resident?
+
+Generally at least 30 days, in writing, under 42 CFR 483.15(c)(4). Shorter notice, as soon as practicable, is allowed in specific situations, including an urgent medical need, a danger to the health or safety of others, or a resident who has lived there fewer than 30 days. The notice has to state the reason, the date, where the resident is going, and how to appeal.
+
+## About Ryan Riggins
+
+Ryan Riggins is a senior transition advisor and former house flipper. After 8 years buying and flipping homes, many of them from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Commercial. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [Hammock365 app](https://hammock365.com).
+
+---
+
+**How long will the money last?** The free Care Runway Calculator shows how many months your parent's savings and income cover at the care level you're weighing: rigginsstrategicsolutions.com/tools/care-runway-calculator
+
+**Want a step-by-step guide?** The Senior Transition Blueprint is free, all 20 modules and 69 tools: rigginsstrategicsolutions.com/the-blueprint
+
+**Not sure where your family stands?** The free Family Readiness Score takes five minutes and shows the gaps across the home, the money, the legal documents, care, and family alignment: rigginsstrategicsolutions.com/tools/family-readiness-score
+
+**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
+
+**Selling a parent's home?** Ryan finds and vets the right local agent for your situation and stays in your corner on the whole sale, at no added cost to your family: rigginsstrategicsolutions.com/in-your-corner
+
+**Coordinate the family in one place.** Hammock365 keeps daily check-ins, medications, and documents where the whole family can see them: hammock365.com
+
+## Sources
+
+All sources checked November 11, 2026. This post is general information, not legal advice. The rule described here is a proposal and may change or never be finalized. If a facility is refusing to readmit your parent, call your long-term care ombudsman and consider an elder law attorney.
+
+- Centers for Medicare & Medicaid Services, proposed rule, "Medicare and Medicaid Programs; Cutting Administrative Requirements for Excellence in Patient Care" (CMS-3484-P, RIN 0938-AW04), 91 FR 72634, published November 10, 2026; comments due January 11, 2027. Read in full: the proposal to amend the transfer notice to the ombudsman (section 483.15(c)), the proposed regulation text, the information collection and regulatory impact estimates (307,923 notices, $5.30 per notice, $1,631,991 and $1,000,954 in annual savings, 1,231,691 residents as of January 2026, the Office of Inspector General 25 percent estimate from report OEI-06-11-00040), the ombudsman discharge notice opt-out comment solicitation, the room occupancy and bathroom proposal, and the outside window discussion. https://www.federalregister.gov/documents/2026/11/10/2026-22812/medicare-and-medicaid-programs-cutting-administrative-requirements-for-excellence-in-patient-care
+- Centers for Medicare & Medicaid Services, fact sheet, "Medicare and Medicaid Programs; Cutting Administrative Requirements for Excellence in Patient Care (CARE) (CMS-3484-P)," November 5, 2026. https://www.cms.gov/newsroom/fact-sheets/medicare-medicaid-programs-cutting-administrative-requirements-excellence-patient-care-care-cms-3484
+- Electronic Code of Federal Regulations, 42 CFR 483.15, Admission, transfer, and discharge rights, current through November 9, 2026: paragraphs (c)(1) (allowed reasons, appeal), (c)(3) through (c)(5) (notice, timing, contents), (d) (bed-hold notice), and (e) (permitting residents to return). https://www.ecfr.gov/current/title-42/section-483.15
+- Regulations.gov, docket CMS-2026-3631 (where comments are submitted). https://www.regulations.gov/docket/CMS-2026-3631
+- North Carolina Department of Health and Human Services, Division of Aging, Long-Term Care Ombudsman Program. https://www.ncdhhs.gov/divisions/aging/long-term-care-ombudsman
 
 ---
 
