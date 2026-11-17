@@ -752,6 +752,15 @@ export const DIRECTORY_COUNTIES: DirectoryCounty[] = [
     blurb:
       "Lillington, Dunn, Erwin, Angier, Coats, Cameron and the Anderson Creek area, NC programs for seniors and families: the Tax Department in Lillington and the 2026 and 2027 income limits for North Carolina's three relief programs, why Harnett's 2026 reappraisal is already on this year's bill, the hard January 5 stop on payment plans, the Division on Aging for senior lunch at six sites, home-delivered meals, in-home aides, CAP/DA, caregiver support and SHIIP appointments, the Food Bank's Raleigh branch and the county pantry list, a Medicaid rule that covers up to three months of past costs for applications filed by December 31, 2026, HARTS van rides for $3 each way, Urgent Repair through Johnston-Lee-Harnett Community Action, exterior repairs and ramps through Habitat for Humanity of Harnett County, free legal help through Legal Aid's Central Carolina offices, veterans outreach in Dunn and Benhaven, and the Harnett ZIP codes the state lists for PACE.",
   },
+  {
+    slug: "nash-county-nc-senior-help-directory",
+    county: "Nash County",
+    state: "NC",
+    metro: "Nashville, Rocky Mount, Bailey, Spring Hope & Middlesex",
+    region: "Eastern North Carolina",
+    blurb:
+      "Nashville, Rocky Mount, Bailey, Spring Hope, Middlesex, Castalia, Red Oak and Whitakers, NC programs for seniors and families: the Tax Department in Nashville and the 2026 and 2027 income limits for North Carolina's three relief programs, why Nash has no new reappraisal this year, the county's two senior centers in Nashville and Bailey for free SHIIP Medicare appointments, home-delivered and frozen meals, caregiver support groups and Project Lifesaver, Nash DSS for Medicaid, heating help and Adult Protective Services, a Medicaid rule that covers up to three months of past costs for applications filed by December 31, 2026, Tar River Transit's 60-cent half fare and $14 rural round trips, county housing rehab and City of Rocky Mount repair grants, free legal help through Legal Aid's Wilson office, and a plain answer on PACE: no program serves Nash County.",
+  },
 ];
 
 export type DirectoryState = {
