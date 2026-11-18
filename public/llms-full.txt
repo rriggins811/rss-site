@@ -5,8 +5,8 @@ It contains the full Markdown of every key page, resource pillar, Senior Help
 Directory state page, and blog post, intended for AI crawlers that ingest
 content for answer generation.
 
-Generated: 2026-11-17
-Indexed: 169 blog posts, 17 resource pillars, 51 Senior Help Directory state pages, 17 video transcripts.
+Generated: 2026-11-18
+Indexed: 170 blog posts, 17 resource pillars, 51 Senior Help Directory state pages, 17 video transcripts.
 
 For citation guidance, organizational facts, and topic depth, see the summary
 index at https://rigginsstrategicsolutions.com/llms.txt.
@@ -5314,8 +5314,162 @@ You must qualify for Medicaid, then apply for the Community Choices Waiver, choo
 
 # Blog Posts (newest first)
 
-The 169 posts below are the full body of every published article
+The 170 posts below are the full body of every published article
 on https://rigginsstrategicsolutions.com/blog, in reverse chronological order.
+
+---
+
+# Medicare Part B Is $209.40 in 2027. If Mom Sold the House, Check Her Letter.
+https://rigginsstrategicsolutions.com/blog/medicare-part-b-premium-2027-irmaa-parents-house-sale
+Published: 2026-11-18
+
+**Excerpt:** CMS set the 2027 Medicare Part B premium at $209.40 a month, up $6.50, with a $292 deductible. For most families that's a small line on the January check. For a parent who sold the house at a big gain, the income surcharge can add far more, and it's worth checking before the letter arrives.
+
+You know how the first sign that something changed is usually a smaller number on a deposit than the one you were expecting? That's how most families find out what Medicare costs in a new year. Nobody sends a warning. The premium just comes out of your parent's Social Security check before the money ever lands.
+
+On Tuesday, the Centers for Medicare & Medicaid Services set those numbers for 2027. For most of you, the change is small and you can stop worrying after the next two paragraphs. But there's one group of families who should read the whole thing, and it's the group I spent eight years buying houses from: the ones where a parent sold the family home, made a real gain on it, and now has a tax return that looks a lot richer than their life actually is.
+
+Here's why that matters. Medicare charges higher premiums to people with higher income, and it decides who that is from a tax return that's a couple of years old. A widowed mom on a modest pension can sell the house she bought decades ago, move closer to you, and wake up to a Medicare letter that treats her like a high earner. She didn't get rich. She got a one-time number on one return.
+
+I've sat across the kitchen table from a lot of families in the middle of a move. The house sale is the biggest financial event most of them will ever handle for a parent, and nobody mentions that it can echo into Medicare two years later. You're going to know before the letter shows up. That's the whole point of this post.
+
+## What CMS announced on November 17
+
+Here are the figures, straight from the CMS fact sheet "2027 Medicare Parts A & B Premiums and Deductibles," released November 17, 2026.
+
+**Part B premium.** The standard monthly premium for Medicare Part B will be $209.40 in 2027. That's up $6.50 from $202.90 in 2026. CMS says the increase is mainly due to projected increases in healthcare spending.
+
+**Part B deductible.** The annual deductible for all Part B beneficiaries will be $292 in 2027, up from $283.
+
+**Part A hospital costs.** Most people don't pay a Part A premium, but the costs of a hospital stay still rise. Per CMS, the inpatient hospital deductible will be $1,776 in 2027, up $40 from $1,736. Coinsurance is $444 a day for days 61 through 90 of a hospitalization.
+
+**Skilled nursing.** For days 21 through 100 of skilled nursing facility care in a benefit period, CMS puts the daily coinsurance at $222 in 2027, up from $217. If your parent is headed to rehab after a hospital stay, that's the number that shows up on day 21.
+
+**The income surcharge.** CMS also published the 2027 income-related monthly adjustment amounts, which the Social Security Administration calls IRMAA. If your parent files as single and has modified adjusted gross income above $112,000, or files jointly with income above $224,000, the Part B premium goes up in steps:
+
+- Single above $112,000 up to $141,000, or joint above $224,000 up to $282,000: total Part B premium of $293.10 a month.
+- Single above $141,000 up to $177,000, or joint above $282,000 up to $354,000: $418.80 a month.
+- Single above $177,000 up to $212,000, or joint above $354,000 up to $424,000: $544.40 a month.
+- Single above $212,000 and under $500,000, or joint above $424,000 and under $750,000: $670.00 a month.
+- Single at $500,000 or more, or joint at $750,000 or more: $711.80 a month.
+
+There's a matching surcharge on drug coverage. Per the same CMS table, the Part D adjustment starts at $15.40 a month on the first tier and reaches $96.40 at the top, added on top of whatever the plan itself charges.
+
+## What it means for your family
+
+### For most parents, the raise still wins
+
+Put the premium next to the paycheck. The Social Security Administration has already announced a 3.6 percent cost-of-living adjustment for benefits payable in January 2027. On a $2,000 monthly check, 3.6 percent is about $72. The Part B premium is going up $6.50. That's my arithmetic, not an SSA statement, and your parent's exact numbers will be in the COLA notice. But for a parent at the standard premium, the raise covers the premium increase many times over.
+
+Medicare.gov says most people don't get a premium bill at all, because the premiums are deducted automatically from their Social Security or Railroad Retirement Board benefit. That's convenient, and it's also why nobody notices. The check just quietly shrinks.
+
+The deductible is the other number to put on the calendar. Your parent pays the first $292 of covered Part B costs in 2027 before Medicare's share starts. If January is the month of the annual physical, the specialist follow-up, and the new prescription, January is also the month that deductible gets used up. Budget for it now and it's not a surprise.
+
+### Where the house sale comes in
+
+This is the part I want you to slow down on.
+
+The Social Security Administration decides whether your parent owes the income surcharge from the most recent federal tax return the IRS sends it. SSA's own page explains that for 2026 premiums, that generally meant a return filed in 2025 for tax year 2024. So the surcharge runs on about a two-year lag. Income your parent reported in an earlier year sets the premium in a later one.
+
+SSA counts what it calls modified adjusted gross income: adjusted gross income plus tax-exempt interest. And this is where a house sale can sneak in.
+
+The IRS lets your parent exclude up to $250,000 of gain on the sale of a main home, or up to $500,000 on a joint return, as long as they owned it and lived in it for at least two of the five years before the sale. For a lot of parents that covers everything. But a house bought decades ago, in a market that's run up the way ours has, can carry more gain than that. Per the IRS, any gain that can't be excluded gets reported, and once it's on the return, it's part of the income SSA looks at.
+
+Picture the version of this I see most often. A widowed parent, filing single, has about $40,000 a year in Social Security and pension income. She sells the house she's owned since the 1980s and the gain is $330,000. She excludes $250,000. The other $80,000 lands on her return. Now her income for that year is roughly $120,000, which is over the $112,000 line. If that's the return SSA uses, her Part B premium is $293.10 a month instead of $209.40. That's $83.70 more a month, or about $1,004 for the year, plus a Part D surcharge on top. Those are my illustrative numbers, not a real family and not tax advice. Your parent's figures will be different, and a tax professional should run the real ones.
+
+The surcharge only lasts as long as the high-income year is the one SSA is using. When a normal year's return takes its place, the premium normally drops back. But a year of paying an extra thousand dollars you didn't plan for is real money for someone on a fixed income.
+
+### The relief valve, and its limit
+
+SSA does let people ask for a lower surcharge when income goes down. Its list of life-changing events is specific: marriage, divorce, or the death of a spouse; you or your spouse stopping work or cutting back hours; loss of income-producing property because of a disaster or other event beyond your control; a scheduled end, termination, or reorganization of an employer's pension plan; and a settlement from an employer because of its closure, bankruptcy, or reorganization.
+
+Read that list again. A one-time home sale isn't on it. Don't count on that form to undo a surcharge that came from selling the house.
+
+But look at what is on it. Stopping work counts. The death of a spouse counts. If your dad retired, or your mom lost your dad, in the same stretch of time as the sale, the surcharge may be built on income that genuinely isn't there anymore, and that's worth raising with SSA.
+
+### The flip side: help that most families never ask for
+
+Some of you are reading this for the opposite reason. Your parent's income is so tight that $209.40 a month is real pain.
+
+Medicare.gov describes Medicare Savings Programs, run by each state, that can pay the Part B premium and sometimes much more. The Qualified Medicare Beneficiary program pays Part A and Part B premiums plus deductibles, coinsurance, and copayments. The Specified Low-Income Medicare Beneficiary and Qualifying Individual programs pay the Part B premium. For 2026, Medicare.gov lists monthly income limits of $1,350, $1,616, and $1,816 for an individual in those three programs, with a $9,950 resource limit, and it says people who qualify also get Extra Help with drug costs. Those are 2026 figures, and they reset. Medicare.gov's advice is to apply even if you don't think you qualify, so don't screen your parent out yourself.
+
+## What to do before January
+
+### 1. Find the letter, or watch for it
+
+If SSA decides your parent owes a surcharge, it sends a letter with the premium amounts and the reason. The COLA notice is coming too: SSA says notices will be in the Message Center of a personal my Social Security account in late November for most people, and mailed in December. Put both in the same folder. You want the old number, the new number, and the reason side by side.
+
+### 2. Check which tax year it used
+
+The letter should tell you what income SSA relied on. Match it against your parent's actual returns. If SSA used an older year and your parent has filed a newer return, or didn't need to file one, SSA says to call or visit a local office so it can update its records. If your parent filed an amended return that changes the income, SSA wants a copy and the IRS acknowledgment receipt.
+
+### 3. If a life-changing event fits, file the SSA-44
+
+Use Form SSA-44, the Medicare Income-Related Monthly Adjustment Amount Life-Changing Event form. You can submit it online after signing in, or fax or mail it with the paperwork to a Social Security office. SSA says the evidence should match the event and the drop in income: a death certificate, a letter from an employer about retirement, or something like it, plus a signed copy of the tax return for the year in question. The number is 1-800-772-1213, and SSA's script is simple: tell the representative you want to lower your IRMAA because of a life-changing event.
+
+### 4. If the decision is wrong, appeal it
+
+If you think SSA got it wrong, your parent can appeal. SSA says the fastest way is online, and the paper route is Form SSA-561-U2, a Request for Reconsideration. One catch: if the income figure the IRS sent is wrong, that has to be fixed with the IRS, not SSA.
+
+### 5. If a sale is still ahead, run the numbers first
+
+If you're still deciding when to sell your parent's house, this is the cheapest step on the list. Before anyone signs anything, sit down with your parent's tax preparer and ask three questions. What's the likely gain? How much of it is excluded? And what does the leftover do to the income line in the year SSA will look at? Two or three of those numbers can change which year you pick, or at least let you see the cost coming. This is exactly the kind of question that gets skipped when the house is being rushed.
+
+### 6. If money is tight, apply for a Medicare Savings Program
+
+Call your county Department of Social Services, the agency that handles Medicaid in North Carolina, and ask about the Medicare Savings Programs. Bring proof of income and a recent bank statement. If your parent qualifies, the Part B premium can come off the check entirely.
+
+## Frequently Asked Questions
+
+### How much is the Medicare Part B premium in 2027?
+
+According to CMS, the standard Part B premium is $209.40 a month in 2027, up $6.50 from $202.90 in 2026. The annual Part B deductible is $292, up from $283. People with income above $112,000 filing single, or above $224,000 filing jointly, pay more.
+
+### Does selling a house raise your Medicare premium?
+
+It can. Per the IRS, a seller who meets the ownership and use tests can exclude up to $250,000 of gain, or $500,000 on a joint return. Gain above that is reported as income, and the Social Security Administration uses modified adjusted gross income from a recent tax return to decide whether a higher Part B and Part D premium applies.
+
+### What year's income does Medicare use for IRMAA?
+
+The Social Security Administration uses the most recent federal tax return the IRS provides. SSA says that for 2026 premiums, that generally meant a return filed in 2025 for tax year 2024. If SSA used an older year and your parent has filed a newer return, SSA says to contact it so it can update its records.
+
+### Can you appeal a higher Medicare premium after a home sale?
+
+You can appeal any IRMAA decision you think is wrong, online or with Form SSA-561-U2. A home sale itself isn't on SSA's list of life-changing events for Form SSA-44. Those events include marriage, divorce, the death of a spouse, stopping or reducing work, and certain pension or employer losses.
+
+### Who can get help paying the Part B premium?
+
+Medicare Savings Programs, run by each state, can pay the Part B premium for people with limited income and resources. Medicare.gov lists 2026 individual monthly income limits of $1,350, $1,616, and $1,816 for the three main programs, and it says to apply even if you don't think you qualify.
+
+## About Ryan Riggins
+
+Ryan Riggins is a senior transition advisor and former house flipper. After 8 years buying and flipping homes, many of them from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Commercial. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [Hammock365 app](https://hammock365.com).
+
+---
+
+**Not sure what Medicare leaves your parent paying for?** The free Medicare Gap Analyzer walks through what's covered and what isn't: rigginsstrategicsolutions.com/tools/medicare-gap-analyzer
+
+**Want a step-by-step guide?** The Senior Transition Blueprint is free, all 20 modules and 69 tools: rigginsstrategicsolutions.com/the-blueprint
+
+**Not sure where your family stands?** The free Family Readiness Score takes five minutes and shows the gaps across the home, the money, the legal documents, care, and family alignment: rigginsstrategicsolutions.com/tools/family-readiness-score
+
+**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
+
+**Selling a parent's home?** Ryan finds and vets the right local agent for your situation and stays in your corner on the whole sale, at no added cost to your family: rigginsstrategicsolutions.com/in-your-corner
+
+**Coordinate the family in one place.** Hammock365 keeps daily check-ins, medications, and documents where the whole family can see them: hammock365.com
+
+## Sources
+
+All sources checked November 18, 2026. This post is general information, not tax or legal advice. The home sale example uses illustrative numbers, not a real family. Talk to a tax professional before a sale and to Social Security about your parent's own premium.
+
+- Centers for Medicare & Medicaid Services, fact sheet, "2027 Medicare Parts A & B Premiums and Deductibles," November 17, 2026: Part B standard premium $209.40 (from $202.90), Part B deductible $292 (from $283), increase mainly due to projected increases in healthcare spending, Part A inpatient deductible $1,776 (from $1,736), days 61 to 90 coinsurance $444, skilled nursing days 21 to 100 coinsurance $222 (from $217), and the 2027 Part B and Part D income-related monthly adjustment tables. https://www.cms.gov/newsroom/fact-sheets/2027-medicare-parts-b-premiums-deductibles
+- Social Security Administration, "Premiums: Rules for Higher-Income Beneficiaries": most recent federal tax return provided by the IRS, the 2026 example of a return filed in 2025 for tax year 2024, modified adjusted gross income defined as adjusted gross income plus tax-exempt interest, the letter explaining the determination, the list of life-changing events and documentation, amended returns, Form SSA-561-U2 appeals, and correcting IRS income with the IRS. https://www.ssa.gov/benefits/medicare/medicare-premiums.html
+- Social Security Administration, "Request to lower an Income-Related Monthly Adjustment Amount (IRMAA)": Form SSA-44 online, by fax or mail, and 1-800-772-1213. https://www.ssa.gov/medicare/lower-irmaa
+- Social Security Administration, Cost-of-Living Adjustment (COLA) Information for 2027: 3.6 percent COLA beginning with January 2027 benefits, notices online in late November. https://www.ssa.gov/cola/
+- Internal Revenue Service, Topic No. 701, Sale of your home: $250,000 and $500,000 exclusions, the two-of-five-years ownership and use tests, and reporting gain that can't be excluded. https://www.irs.gov/taxtopics/tc701
+- Medicare.gov, Medicare Savings Programs: QMB, SLMB, QI and QDWI, what each pays, 2026 income and resource limits, Extra Help, and applying through the state. https://www.medicare.gov/basics/costs/help/medicare-savings-programs
+- Medicare.gov, Medicare Premium Bill: most people have premiums deducted automatically from Social Security or Railroad Retirement Board benefits. https://www.medicare.gov/basics/forms-publications-mailings/mailings/costs-and-coverage/medicare-premium-bill
 
 ---
 
