@@ -761,6 +761,15 @@ export const DIRECTORY_COUNTIES: DirectoryCounty[] = [
     blurb:
       "Nashville, Rocky Mount, Bailey, Spring Hope, Middlesex, Castalia, Red Oak and Whitakers, NC programs for seniors and families: the Tax Department in Nashville and the 2026 and 2027 income limits for North Carolina's three relief programs, why Nash has no new reappraisal this year, the county's two senior centers in Nashville and Bailey for free SHIIP Medicare appointments, home-delivered and frozen meals, caregiver support groups and Project Lifesaver, Nash DSS for Medicaid, heating help and Adult Protective Services, a Medicaid rule that covers up to three months of past costs for applications filed by December 31, 2026, Tar River Transit's 60-cent half fare and $14 rural round trips, county housing rehab and City of Rocky Mount repair grants, free legal help through Legal Aid's Wilson office, and a plain answer on PACE: no program serves Nash County.",
   },
+  {
+    slug: "lincoln-county-nc-senior-help-directory",
+    county: "Lincoln County",
+    state: "NC",
+    metro: "Lincolnton, Denver, Iron Station & Vale",
+    region: "Charlotte",
+    blurb:
+      "Lincolnton, Denver, Iron Station, Vale, Crouse and the Lincoln side of Maiden, NC programs for seniors and families: the Tax Department in Lincolnton and the 2026 and 2027 income limits for North Carolina's three relief programs, the countywide revaluation that takes effect January 1, 2027, Senior Services on Center Drive for free SHIIP Medicare appointments, restaurant meal vouchers, caregiver respite, a free loan closet and senior rides, Lincoln DSS for Medicaid, heating help and Adult Protective Services, a Medicaid rule that covers up to three months of past costs for applications filed by December 31, 2026, Transportation Lincoln County and the free DASH inside Lincolnton, Habitat's home repair program and ICARE weatherization, free legal help through Legal Aid's Charlotte office, and the Lincoln ZIP codes the state lists for PACE.",
+  },
 ];
 
 export type DirectoryState = {
