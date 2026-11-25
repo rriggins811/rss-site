@@ -5,8 +5,8 @@ It contains the full Markdown of every key page, resource pillar, Senior Help
 Directory state page, and blog post, intended for AI crawlers that ingest
 content for answer generation.
 
-Generated: 2026-11-24
-Indexed: 171 blog posts, 17 resource pillars, 51 Senior Help Directory state pages, 17 video transcripts.
+Generated: 2026-11-25
+Indexed: 172 blog posts, 17 resource pillars, 51 Senior Help Directory state pages, 17 video transcripts.
 
 For citation guidance, organizational facts, and topic depth, see the summary
 index at https://rigginsstrategicsolutions.com/llms.txt.
@@ -5314,8 +5314,154 @@ You must qualify for Medicaid, then apply for the Community Choices Waiver, choo
 
 # Blog Posts (newest first)
 
-The 171 posts below are the full body of every published article
+The 172 posts below are the full body of every published article
 on https://rigginsstrategicsolutions.com/blog, in reverse chronological order.
+
+---
+
+# The New National Caregiver Plan Won't Knock on Your Door. Here's the Help That Already Will.
+https://rigginsstrategicsolutions.com/blog/national-caregiver-strategy-2026-update-help-you-can-use-now
+Published: 2026-11-25
+
+**Excerpt:** On November 19, the federal government released the first update to its national plan for family caregivers. It adds a goal for the home care workforce and puts more weight on respite and finding services. It doesn't create a new benefit, so here's what you can use this week.
+
+You know how the Thanksgiving visit goes when you're the one who lives closest. Everybody else flies in, sees Mom at her best for three days, says she seems great, and flies home. You're the one who knows about the pill organizer, the Tuesday appointments, the bill that didn't get paid in September, and the phone call at 10 PM that turned out to be nothing, this time.
+
+Tomorrow a lot of you will sit at a table with family who haven't seen what you've seen. And some of you will be wondering, quietly, how much longer you can keep doing this by yourself.
+
+Last Thursday, the federal government said out loud what you already know. On November 19, the Administration for Community Living released the first update to the National Strategy to Support Family Caregivers. It's the national plan for the people doing exactly what you're doing, and it was rewritten around what caregivers said they need most: help finding services, time to rest, and paid help you can actually hire.
+
+I spent eight years buying houses, a lot of them from families who were worn down to nothing by the time they called. The house was rarely the real problem. The caregiver was running on empty, and an exhausted person makes fast decisions. That's why this matters to you, and why I want you to read past the headline.
+
+Here's the honest version. The plan is a good map. It isn't a check, and it isn't a person who shows up at your door. So let's go through what it says, what it doesn't do, and the help that's already sitting there for you to use this week.
+
+## What ACL released on November 19
+
+The National Strategy to Support Family Caregivers first came out in 2022. Congress required it in the RAISE Family Caregivers Act of 2017, and that law also calls for regular updates. The 2026 update is the first one. ACL says it was developed by the RAISE Family Caregiving Advisory Council and the Advisory Council to Support Grandparents Raising Grandchildren.
+
+**The size of it.** According to ACL, more than 63 million Americans, about one in four adults, care for a family member, friend, or neighbor. The strategy notes that this figure comes from the Caregiving in the US 2025 survey by AARP and the National Alliance for Caregiving, and that estimates vary with how you define a caregiver.
+
+**What's new.** ACL's summary of the update lists more emphasis on respite care, making services and supports easier to find, more support for young caregivers and relatives raising children, stronger data and research, and a brand new sixth goal focused on the direct care workforce. That's the home care aides, personal care aides, and nursing assistants who come into the house.
+
+**The workforce numbers.** The strategy says an estimated 5.4 million direct care workers support older adults and people with disabilities in the U.S. It also says more than 88% of provider organizations report staffing challenges, with many turning away new referrals because they don't have the staff. It projects the country will need another 800,000 direct care workers by 2032, and it reports that turnover among direct care workers providing home care reached 75% in 2024.
+
+**What caregivers told them.** ACL's one-page summary says 78% of caregivers say they need more help finding services, and 64% report moderate to high stress. The strategy itself says many family caregivers don't receive respite care or don't even know it's an option, and it cites a 2024 national poll in which 67% of people over 50 weren't familiar with area agencies on aging.
+
+**What it can't do.** This is the line most coverage skipped. The strategy says plainly that the advisory councils don't have the authority to require any agency or organization to adopt the recommendations. The companion document listing federal actions says that where an action depends on future funding, implementation is contingent on funding being available. So nothing in this update changes what your parent qualifies for tomorrow morning.
+
+## What it means for your family
+
+### It's official: the hard part is finding the help
+
+If you've ever spent an afternoon on hold, been told "that's not our department," and hung up with nothing, the national plan just agreed with you. The strategy describes caregivers running into inconsistent eligibility rules, program requirements, and access points across federal, state, employer, and nonprofit systems, and it says that confusion discourages people from following through.
+
+That's not you failing. That's the system being hard to find. And it means the single most useful thing you can do isn't to learn every program. It's to find the one office whose job is to sort them for you, which I'll get to in the steps below.
+
+### You might not call yourself a caregiver, and that's costing you
+
+The strategy makes a point I see all the time. Many people who care for someone don't think of themselves as a "family caregiver," so they never learn that training, assistance, and other supports exist.
+
+You might think of yourself as the daughter who handles things, or the son who drives Dad to appointments. You're a caregiver. Say the word when you call an agency, when you're at the doctor's office, and when you're at the hospital desk. The update revises its care team goal so that caregivers are clearly documented in the health record, while making it clear that an adult care recipient decides how much you're included and what protected health information you can see. Translation: get your parent's written permission on file now, while it's easy, so the people treating them are allowed to talk to you.
+
+### Respite isn't a luxury, and the plan says so
+
+The update puts more weight on respite care, which the strategy defines as short-term relief for a primary caregiver. It lists the barriers families run into: not trusting a stranger, having trouble finding and paying for a good provider, and program rules that limit who can be hired. It also points to flexible models, like "bankable" respite hours and letting families pick their own providers, as ways to get more people to use it.
+
+If you've been telling yourself you'll take a break when things settle down, here's the hard truth: they won't settle down on their own. A few hours a week that you can count on is what lets you keep going for years instead of months.
+
+### The paid help shortage is real, so start early
+
+When a national plan adds a whole new goal because there aren't enough home care workers, take it as a planning signal. If 88% of providers are short-staffed and many are turning away new referrals, the family that starts looking the week of a crisis is the family that waits. Get names and a waiting list spot before you need them. It costs you a phone call now and can save you weeks later.
+
+### Your job and your money are part of the picture
+
+The strategy says seven in ten family caregivers are in the workforce and 60% have work disruptions because of caregiving. It says nearly half report at least one negative financial hit, like taking on debt, draining savings, or delaying retirement. If you've been quietly paying for groceries, prescriptions, or a ride service out of your own account, you're not alone, and it's worth a family conversation about who's covering what.
+
+### Where the house fits in
+
+Here's what I watched happen over and over from the buyer's side. A worn-out caregiver gets one bad week, a fall or a hospital stay, and suddenly the house has to be dealt with right now. That's when families take the first offer, sign with whoever answers the phone, or sell to someone like I used to be.
+
+Every bit of support you line up now buys you time. And time is the thing that lets your family make the house decision on purpose, with numbers in front of you, instead of in a fog after a crisis.
+
+## What to do this week
+
+### 1. Call the Eldercare Locator
+
+The Eldercare Locator is ACL's public service for finding local help for older adults and their families. Call 1-800-677-1116 or go to eldercare.acl.gov. Tell them where your parent lives and that you're the family caregiver. They'll connect you to the Area Agency on Aging that serves that county, which is the front door to most of what's below.
+
+### 2. Ask for the Family Caregiver Support Program by name
+
+The National Family Caregiver Support Program has existed since 2000 under the Older Americans Act. ACL says it funds five kinds of help: information about services, help getting access to them, counseling, support groups and caregiver training, respite care, and limited supplemental services.
+
+In North Carolina, the NC Division of Aging says you can qualify if you're an adult caring for someone 60 or older, or an adult caring for someone of any age with Alzheimer's disease or a related disorder. It's honest about one thing you should know going in: the program doesn't pay caregivers to provide continuous care. What it offers varies across the state, and the Division keeps a provider directory so you can find the program for your parent's county. If your parent lives in another state, the Area Agency on Aging there runs that state's version.
+
+### 3. Ask for a caregiver assessment
+
+One of the revised goals in the update says support should start with an assessment of the caregiver's ability, needs, and preferences. When you call, ask whether they do a caregiver assessment, not just an assessment of your parent. Your limits are part of the plan. Say them out loud: the hours you work, how far you live, what you can't physically do.
+
+### 4. Get on a home care list before you need it
+
+Call two or three home care agencies in your parent's area now. Ask how long new clients are waiting, what the minimum visit is, and whether they can start with a few hours of respite. You're not committing to anything. You're finding out what the wait is while there's still time to wait.
+
+### 5. Use tomorrow's table, gently
+
+If family is together for Thanksgiving, don't turn the meal into a meeting. But before everyone leaves, ask for 20 minutes. Show them the list of what you've been handling. Ask each person for one specific thing they'll own, even from far away: the bills, the pharmacy refills, a weekly call. A plan with names next to it beats a promise to "help more."
+
+### 6. Write down what the house needs to stay safe
+
+Walk through the house with fresh eyes this weekend: stairs, the tub, the throw rugs, the porch steps, the lighting. Write it down. You're not deciding anything about the house. You're making it safer to stay, which keeps your options open and keeps a bad week from making the decision for you.
+
+## Frequently Asked Questions
+
+### What is the National Strategy to Support Family Caregivers?
+
+It's the federal plan for supporting family caregivers, first released in 2022 under the RAISE Family Caregivers Act of 2017. The Administration for Community Living released its first update on November 19, 2026, with six goals covering outreach, partnership with care teams, services, financial and workplace security, research, and the direct care workforce.
+
+### Does the 2026 caregiver strategy update give family caregivers new benefits?
+
+No. The strategy says its advisory councils don't have the authority to require any agency or organization to adopt its recommendations, and the federal actions document says actions that depend on future funding are contingent on funding being available. Existing programs, like the National Family Caregiver Support Program, are where help comes from today.
+
+### How do I find respite care for a family caregiver?
+
+Start with the Eldercare Locator at 1-800-677-1116 or eldercare.acl.gov, which connects you to the Area Agency on Aging that serves your parent's county. Ask for the Family Caregiver Support Program, which ACL says funds respite care, counseling, support groups, caregiver training, and help getting access to services.
+
+### Who qualifies for the Family Caregiver Support Program in North Carolina?
+
+Per the NC Division of Aging, adult family members or other unpaid caregivers 18 and older qualify when caring for someone 60 or older, or for someone of any age with Alzheimer's disease or a related disorder. Some older relatives raising children or caring for adults with disabilities also qualify. The program doesn't pay caregivers for continuous care.
+
+### Why is it so hard to find home care help right now?
+
+The 2026 strategy update says more than 88% of provider organizations report staffing challenges, with many turning away new referrals, and that turnover among home care workers reached 75% in 2024. It projects the country will need another 800,000 direct care workers by 2032, which is why it added a new goal focused on that workforce.
+
+## About Ryan Riggins
+
+Ryan Riggins is a senior transition advisor and former house flipper. After 8 years buying and flipping homes, many of them from families in transition, he walked away from the cash-buyer side to help families avoid the $50K mistakes he used to profit from. Based in Greensboro, NC. NC Real Estate License #361546, eXp Commercial. Founder of [Riggins Strategic Solutions](https://rigginsstrategicsolutions.com) and the [Hammock365 app](https://hammock365.com).
+
+---
+
+**Running on empty?** The free Caregiver Burnout Triage takes a few minutes and shows where you need help first: rigginsstrategicsolutions.com/tools/caregiver-burnout-triage
+
+**Want a step-by-step guide?** The Senior Transition Blueprint is free, all 20 modules and 69 tools: rigginsstrategicsolutions.com/the-blueprint
+
+**Not sure where your family stands?** The free Family Readiness Score takes five minutes and shows the gaps across the home, the money, the legal documents, care, and family alignment: rigginsstrategicsolutions.com/tools/family-readiness-score
+
+**Need a personalized plan?** The Senior Transition Roadmap is free, by application. It adds calls with Ryan and 90 days of email support: rigginsstrategicsolutions.com/the-roadmap
+
+**Selling a parent's home?** Ryan finds and vets the right local agent for your situation and stays in your corner on the whole sale, at no added cost to your family: rigginsstrategicsolutions.com/in-your-corner
+
+**Coordinate the family in one place.** Hammock365 keeps daily check-ins, medications, and documents where the whole family can see them: hammock365.com
+
+## Sources
+
+All sources checked November 25, 2026. This post is general information, not legal or medical advice. Program services vary by county; confirm what's available with your local Area Agency on Aging.
+
+- Administration for Community Living, "ACL Releases First Update of National Strategy to Better Support America's Family Caregivers," November 19, 2026: first update, more than 63 million caregivers or one in four adults, developed by the RAISE Family Caregiving Advisory Council and the Advisory Council to Support Grandparents Raising Grandchildren, first released in 2022, a goal on the direct care workforce for the first time. https://acl.gov/news-and-events/announcements/acl-releases-first-update-national-strategy-better-support-americas
+- Administration for Community Living, National Strategy to Support Family Caregivers, 2026 Update, published November 2026: RAISE Family Caregivers Act of 2017, councils lack authority to require adoption, many caregivers don't self-identify, 2024 poll on area agencies on aging (67%), respite barriers and flexible models, revised Outcomes 2.1 and 2.2, seven in ten caregivers working and 60% with work disruptions, nearly half with a negative financial impact, 63 million from Caregiving in the US 2025, 5.4 million direct care workers, more than 88% of providers with staffing challenges, 800,000 more workers needed by 2032, 75% home care turnover in 2024. https://acl.gov/sites/default/files/Natl-Strategy/national-strategy-support-family-caregivers-2026-update.pdf
+- Administration for Community Living, National Strategy update snapshot: what's new in 2026, 78% need more help finding services, 64% moderate to high stress. https://acl.gov/sites/default/files/Natl-Strategy/caregiver-strategy-update-snapshot.pdf
+- Administration for Community Living, Federal Actions to Support the National Strategy, 2026 Update: implementation contingent on funding availability where actions depend on future funding. https://acl.gov/sites/default/files/Natl-Strategy/fed-actions-2026-update-natl-strategy-caregivers.pdf
+- Administration for Community Living, National Family Caregiver Support Program: established in 2000, Older Americans Act Title III-E, five types of services. https://acl.gov/programs/support-caregivers/national-family-caregiver-support-program
+- NC Department of Health and Human Services, Division of Aging, Family Caregiver Support Program: services, eligibility, no payment for continuous care, provider directory. https://www.ncdhhs.gov/divisions/aging/family-caregiver-support-program
+- Eldercare Locator, a public service of the Administration for Community Living: 1-800-677-1116. https://eldercare.acl.gov/
 
 ---
 
